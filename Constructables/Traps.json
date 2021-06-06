@@ -15,18 +15,12 @@
       "constructableBaseCategory": 9,
       "placementType": 0,
       "materials": {
-        "keys": [
-          "sticks"
-        ],
-        "values": [
-          20
-        ]
+        "keys": ["sticks"],
+        "values": [20]
       },
       "storageBase": {
         "capacity": 999,
-        "storableResources": [
-          "sticks"
-        ]
+        "storableResources": ["sticks"]
       },
       "reachableLevel": 2,
       "cornerReachable": false,
@@ -110,21 +104,12 @@
       "constructableBaseCategory": 9,
       "placementType": 0,
       "materials": {
-        "keys": [
-          "wood",
-          "mechanical_parts"
-        ],
-        "values": [
-          15,
-          1
-        ]
+        "keys": ["wood", "mechanical_parts"],
+        "values": [15, 1]
       },
       "storageBase": {
         "capacity": 999,
-        "storableResources": [
-          "wood",
-          "mechanical_parts"
-        ]
+        "storableResources": ["wood", "mechanical_parts"]
       },
       "reachableLevel": 2,
       "cornerReachable": false,
@@ -215,21 +200,12 @@
       "constructableBaseCategory": 9,
       "placementType": 0,
       "materials": {
-        "keys": [
-          "iron_ingot",
-          "mechanical_parts"
-        ],
-        "values": [
-          15,
-          1
-        ]
+        "keys": ["iron_ingot"],
+        "values": [1]
       },
       "storageBase": {
         "capacity": 999,
-        "storableResources": [
-          "iron_ingot",
-          "mechanical_parts"
-        ]
+        "storableResources": ["iron_ingot", "mechanical_parts"]
       },
       "reachableLevel": 2,
       "cornerReachable": false,

@@ -28,18 +28,12 @@
       "constructableBaseCategory": 1,
       "placementType": 1,
       "materials": {
-        "keys": [
-          "wood"
-        ],
-        "values": [
-          5
-        ]
+        "keys": ["wood"],
+        "values": [1]
       },
       "storageBase": {
         "capacity": 999,
-        "storableResources": [
-          "wood"
-        ]
+        "storableResources": ["wood"]
       },
       "reachableLevel": 7,
       "cornerReachable": true,
@@ -85,18 +79,12 @@
       "constructableBaseCategory": 1,
       "placementType": 1,
       "materials": {
-        "keys": [
-          "clay"
-        ],
-        "values": [
-          5
-        ]
+        "keys": ["clay"],
+        "values": [1]
       },
       "storageBase": {
         "capacity": 999,
-        "storableResources": [
-          "clay"
-        ]
+        "storableResources": ["clay"]
       },
       "reachableLevel": 7,
       "cornerReachable": true,
@@ -142,18 +130,12 @@
       "constructableBaseCategory": 1,
       "placementType": 1,
       "materials": {
-        "keys": [
-          "limestone"
-        ],
-        "values": [
-          5
-        ]
+        "keys": ["limestone"],
+        "values": [1]
       },
       "storageBase": {
         "capacity": 999,
-        "storableResources": [
-          "limestone"
-        ]
+        "storableResources": ["limestone"]
       },
       "reachableLevel": 7,
       "cornerReachable": true,
@@ -169,11 +151,11 @@
         {
           "debugName": "Hitpoints",
           "type": 1,
-          "initialValue": 300,
+          "initialValue": 3000,
           "attributes": {
             "max": [
               {
-                "baseValue": 300
+                "baseValue": 3000
               }
             ]
           }
@@ -199,18 +181,12 @@
       "constructableBaseCategory": 1,
       "placementType": 1,
       "materials": {
-        "keys": [
-          "limestone_block"
-        ],
-        "values": [
-          5
-        ]
+        "keys": ["limestone_block"],
+        "values": [1]
       },
       "storageBase": {
         "capacity": 999,
-        "storableResources": [
-          "limestone_block"
-        ]
+        "storableResources": ["limestone_block"]
       },
       "reachableLevel": 7,
       "cornerReachable": true,
@@ -256,18 +232,12 @@
       "constructableBaseCategory": 1,
       "placementType": 1,
       "materials": {
-        "keys": [
-          "clay_brick"
-        ],
-        "values": [
-          5
-        ]
+        "keys": ["clay_brick"],
+        "values": [1]
       },
       "storageBase": {
         "capacity": 999,
-        "storableResources": [
-          "clay_brick"
-        ]
+        "storableResources": ["clay_brick"]
       },
       "reachableLevel": 7,
       "cornerReachable": true,
@@ -313,18 +283,12 @@
       "constructableBaseCategory": 1,
       "placementType": 2,
       "materials": {
-        "keys": [
-          "wood"
-        ],
-        "values": [
-          2
-        ]
+        "keys": ["wood"],
+        "values": [1]
       },
       "storageBase": {
         "capacity": 999,
-        "storableResources": [
-          "wood"
-        ]
+        "storableResources": ["wood"]
       },
       "reachableLevel": 3,
       "cornerReachable": false,
@@ -370,18 +334,12 @@
       "constructableBaseCategory": 1,
       "placementType": 2,
       "materials": {
-        "keys": [
-          "sticks"
-        ],
-        "values": [
-          2
-        ]
+        "keys": ["sticks"],
+        "values": [1]
       },
       "storageBase": {
         "capacity": 999,
-        "storableResources": [
-          "sticks"
-        ]
+        "storableResources": ["sticks"]
       },
       "reachableLevel": 3,
       "cornerReachable": false,
@@ -427,18 +385,12 @@
       "constructableBaseCategory": 1,
       "placementType": 2,
       "materials": {
-        "keys": [
-          "limestone"
-        ],
-        "values": [
-          2
-        ]
+        "keys": ["limestone"],
+        "values": [1]
       },
       "storageBase": {
         "capacity": 999,
-        "storableResources": [
-          "limestone"
-        ]
+        "storableResources": ["limestone"]
       },
       "reachableLevel": 3,
       "cornerReachable": false,
@@ -484,18 +436,12 @@
       "constructableBaseCategory": 1,
       "placementType": 2,
       "materials": {
-        "keys": [
-          "limestone_block"
-        ],
-        "values": [
-          2
-        ]
+        "keys": ["limestone_block"],
+        "values": [1]
       },
       "storageBase": {
         "capacity": 999,
-        "storableResources": [
-          "limestone_block"
-        ]
+        "storableResources": ["limestone_block"]
       },
       "reachableLevel": 3,
       "cornerReachable": false,
@@ -541,18 +487,12 @@
       "constructableBaseCategory": 1,
       "placementType": 2,
       "materials": {
-        "keys": [
-          "clay_brick"
-        ],
-        "values": [
-          2
-        ]
+        "keys": ["clay_brick"],
+        "values": [1]
       },
       "storageBase": {
         "capacity": 999,
-        "storableResources": [
-          "clay_brick"
-        ]
+        "storableResources": ["clay_brick"]
       },
       "reachableLevel": 3,
       "cornerReachable": false,
@@ -598,18 +538,12 @@
       "constructableBaseCategory": 6,
       "placementType": 3,
       "materials": {
-        "keys": [
-          "wood"
-        ],
-        "values": [
-          15
-        ]
+        "keys": ["wood"],
+        "values": [1]
       },
       "storageBase": {
         "capacity": 999,
-        "storableResources": [
-          "wood"
-        ]
+        "storableResources": ["wood"]
       },
       "reachableLevel": 7,
       "cornerReachable": true,
@@ -655,18 +589,12 @@
       "constructableBaseCategory": 1,
       "placementType": 0,
       "materials": {
-        "keys": [
-          "wood"
-        ],
-        "values": [
-          15
-        ]
+        "keys": ["wood"],
+        "values": [1]
       },
       "storageBase": {
         "capacity": 999,
-        "storableResources": [
-          "wood"
-        ]
+        "storableResources": ["wood"]
       },
       "reachableLevel": 7,
       "cornerReachable": false,
@@ -729,21 +657,12 @@
       "constructableBaseCategory": 1,
       "placementType": 0,
       "materials": {
-        "keys": [
-          "wood",
-          "iron_ingot"
-        ],
-        "values": [
-          15,
-          10
-        ]
+        "keys": ["wood", "iron_ingot"],
+        "values": [15, 10]
       },
       "storageBase": {
         "capacity": 999,
-        "storableResources": [
-          "wood",
-          "iron_ingot"
-        ]
+        "storableResources": ["wood", "iron_ingot"]
       },
       "reachableLevel": 7,
       "cornerReachable": false,
@@ -806,21 +725,12 @@
       "constructableBaseCategory": 1,
       "placementType": 0,
       "materials": {
-        "keys": [
-          "wood",
-          "iron_ingot"
-        ],
-        "values": [
-          15,
-          25
-        ]
+        "keys": ["wood", "iron_ingot"],
+        "values": [15, 25]
       },
       "storageBase": {
         "capacity": 999,
-        "storableResources": [
-          "wood",
-          "iron_ingot"
-        ]
+        "storableResources": ["wood", "iron_ingot"]
       },
       "reachableLevel": 7,
       "cornerReachable": false,
@@ -883,18 +793,12 @@
       "constructableBaseCategory": 1,
       "placementType": 0,
       "materials": {
-        "keys": [
-          "wood"
-        ],
-        "values": [
-          12
-        ]
+        "keys": ["wood"],
+        "values": [12]
       },
       "storageBase": {
         "capacity": 999,
-        "storableResources": [
-          "wood"
-        ]
+        "storableResources": ["wood"]
       },
       "reachableLevel": 7,
       "cornerReachable": false,
@@ -929,14 +833,8 @@
       "thermalModelIDSecondary": "window_open",
       "destroyParticles": "destroy_wood_floor",
       "lockable": true,
-      "lockStateTextKeys": [
-        "window_state_closed",
-        "window_state_open"
-      ],
-      "lockStateInfoTextKeys": [
-        "closed_window_info",
-        "open_window_info"
-      ]
+      "lockStateTextKeys": ["window_state_closed", "window_state_open"],
+      "lockStateInfoTextKeys": ["closed_window_info", "open_window_info"]
     },
     {
       "id": "clay_window",
@@ -953,18 +851,12 @@
       "constructableBaseCategory": 1,
       "placementType": 0,
       "materials": {
-        "keys": [
-          "clay"
-        ],
-        "values": [
-          12
-        ]
+        "keys": ["clay"],
+        "values": [12]
       },
       "storageBase": {
         "capacity": 999,
-        "storableResources": [
-          "clay"
-        ]
+        "storableResources": ["clay"]
       },
       "reachableLevel": 7,
       "cornerReachable": false,
@@ -999,14 +891,8 @@
       "thermalModelIDSecondary": "window_open",
       "destroyParticles": "destroy_clay_wall",
       "lockable": true,
-      "lockStateTextKeys": [
-        "window_state_closed",
-        "window_state_open"
-      ],
-      "lockStateInfoTextKeys": [
-        "closed_window_info",
-        "open_window_info"
-      ]
+      "lockStateTextKeys": ["window_state_closed", "window_state_open"],
+      "lockStateInfoTextKeys": ["closed_window_info", "open_window_info"]
     },
     {
       "id": "limestone_block_window",
@@ -1023,18 +909,12 @@
       "constructableBaseCategory": 1,
       "placementType": 0,
       "materials": {
-        "keys": [
-          "limestone_block"
-        ],
-        "values": [
-          12
-        ]
+        "keys": ["limestone_block"],
+        "values": [12]
       },
       "storageBase": {
         "capacity": 999,
-        "storableResources": [
-          "limestone_block"
-        ]
+        "storableResources": ["limestone_block"]
       },
       "reachableLevel": 7,
       "cornerReachable": false,
@@ -1069,14 +949,8 @@
       "thermalModelIDSecondary": "window_open",
       "destroyParticles": "destroy_limestone_block_wall",
       "lockable": true,
-      "lockStateTextKeys": [
-        "window_state_closed",
-        "window_state_open"
-      ],
-      "lockStateInfoTextKeys": [
-        "closed_window_info",
-        "open_window_info"
-      ]
+      "lockStateTextKeys": ["window_state_closed", "window_state_open"],
+      "lockStateInfoTextKeys": ["closed_window_info", "open_window_info"]
     },
     {
       "id": "limestone_window",
@@ -1093,18 +967,12 @@
       "constructableBaseCategory": 1,
       "placementType": 0,
       "materials": {
-        "keys": [
-          "limestone"
-        ],
-        "values": [
-          12
-        ]
+        "keys": ["limestone"],
+        "values": [12]
       },
       "storageBase": {
         "capacity": 999,
-        "storableResources": [
-          "limestone"
-        ]
+        "storableResources": ["limestone"]
       },
       "reachableLevel": 7,
       "cornerReachable": false,
@@ -1139,14 +1007,8 @@
       "thermalModelIDSecondary": "window_open",
       "destroyParticles": "destroy_liimestone_wall",
       "lockable": true,
-      "lockStateTextKeys": [
-        "window_state_closed",
-        "window_state_open"
-      ],
-      "lockStateInfoTextKeys": [
-        "closed_window_info",
-        "open_window_info"
-      ]
+      "lockStateTextKeys": ["window_state_closed", "window_state_open"],
+      "lockStateInfoTextKeys": ["closed_window_info", "open_window_info"]
     },
     {
       "id": "clay_brick_window",
@@ -1163,18 +1025,12 @@
       "constructableBaseCategory": 1,
       "placementType": 0,
       "materials": {
-        "keys": [
-          "clay_brick"
-        ],
-        "values": [
-          12
-        ]
+        "keys": ["clay_brick"],
+        "values": [12]
       },
       "storageBase": {
         "capacity": 999,
-        "storableResources": [
-          "clay_brick"
-        ]
+        "storableResources": ["clay_brick"]
       },
       "reachableLevel": 7,
       "cornerReachable": false,
@@ -1209,14 +1065,8 @@
       "thermalModelIDSecondary": "window_open",
       "destroyParticles": "destroy_clay_brick_wall",
       "lockable": true,
-      "lockStateTextKeys": [
-        "window_state_closed",
-        "window_state_open"
-      ],
-      "lockStateInfoTextKeys": [
-        "closed_window_info",
-        "open_window_info"
-      ]
+      "lockStateTextKeys": ["window_state_closed", "window_state_open"],
+      "lockStateInfoTextKeys": ["closed_window_info", "open_window_info"]
     },
     {
       "id": "wood_stair_straight",
@@ -1233,18 +1083,12 @@
       "constructableBaseCategory": 5,
       "placementType": 0,
       "materials": {
-        "keys": [
-          "wood"
-        ],
-        "values": [
-          45
-        ]
+        "keys": ["wood"],
+        "values": [1]
       },
       "storageBase": {
         "capacity": 999,
-        "storableResources": [
-          "wood"
-        ]
+        "storableResources": ["wood"]
       },
       "reachableLevel": 7,
       "cornerReachable": false,
@@ -1290,18 +1134,12 @@
       "constructableBaseCategory": 5,
       "placementType": 0,
       "materials": {
-        "keys": [
-          "limestone_block"
-        ],
-        "values": [
-          45
-        ]
+        "keys": ["limestone_block"],
+        "values": [1]
       },
       "storageBase": {
         "capacity": 999,
-        "storableResources": [
-          "limestone_block"
-        ]
+        "storableResources": ["limestone_block"]
       },
       "reachableLevel": 7,
       "cornerReachable": false,
@@ -1346,18 +1184,12 @@
       "constructableBaseCategory": 5,
       "placementType": 0,
       "materials": {
-        "keys": [
-          "clay_brick"
-        ],
-        "values": [
-          45
-        ]
+        "keys": ["clay_brick"],
+        "values": [1]
       },
       "storageBase": {
         "capacity": 999,
-        "storableResources": [
-          "clay_brick"
-        ]
+        "storableResources": ["clay_brick"]
       },
       "reachableLevel": 7,
       "cornerReachable": false,
@@ -1402,18 +1234,12 @@
       "constructableBaseCategory": 5,
       "placementType": 0,
       "materials": {
-        "keys": [
-          "limestone"
-        ],
-        "values": [
-          45
-        ]
+        "keys": ["limestone"],
+        "values": [1]
       },
       "storageBase": {
         "capacity": 999,
-        "storableResources": [
-          "limestone"
-        ]
+        "storableResources": ["limestone"]
       },
       "reachableLevel": 7,
       "cornerReachable": false,
@@ -1458,18 +1284,12 @@
       "constructableBaseCategory": 5,
       "placementType": 0,
       "materials": {
-        "keys": [
-          "clay"
-        ],
-        "values": [
-          45
-        ]
+        "keys": ["clay"],
+        "values": [1]
       },
       "storageBase": {
         "capacity": 999,
-        "storableResources": [
-          "clay"
-        ]
+        "storableResources": ["clay"]
       },
       "reachableLevel": 7,
       "cornerReachable": false,
@@ -1514,18 +1334,12 @@
       "constructableBaseCategory": 1,
       "placementType": 1,
       "materials": {
-        "keys": [
-          "wood"
-        ],
-        "values": [
-          10
-        ]
+        "keys": ["wood"],
+        "values": [1]
       },
       "storageBase": {
         "capacity": 999,
-        "storableResources": [
-          "wood"
-        ]
+        "storableResources": ["wood"]
       },
       "reachableLevel": 7,
       "cornerReachable": true,
@@ -1572,18 +1386,12 @@
       "constructableBaseCategory": 1,
       "placementType": 1,
       "materials": {
-        "keys": [
-          "wood"
-        ],
-        "values": [
-          10
-        ]
+        "keys": ["wood"],
+        "values": [1]
       },
       "storageBase": {
         "capacity": 999,
-        "storableResources": [
-          "wood"
-        ]
+        "storableResources": ["wood"]
       },
       "reachableLevel": 7,
       "cornerReachable": true,
@@ -1630,18 +1438,12 @@
       "constructableBaseCategory": 1,
       "placementType": 1,
       "materials": {
-        "keys": [
-          "clay"
-        ],
-        "values": [
-          10
-        ]
+        "keys": ["clay"],
+        "values": [1]
       },
       "storageBase": {
         "capacity": 999,
-        "storableResources": [
-          "clay"
-        ]
+        "storableResources": ["clay"]
       },
       "reachableLevel": 7,
       "cornerReachable": true,
@@ -1688,18 +1490,12 @@
       "constructableBaseCategory": 1,
       "placementType": 1,
       "materials": {
-        "keys": [
-          "clay"
-        ],
-        "values": [
-          10
-        ]
+        "keys": ["clay"],
+        "values": [1]
       },
       "storageBase": {
         "capacity": 999,
-        "storableResources": [
-          "clay"
-        ]
+        "storableResources": ["clay"]
       },
       "reachableLevel": 7,
       "cornerReachable": true,
@@ -1746,18 +1542,12 @@
       "constructableBaseCategory": 1,
       "placementType": 1,
       "materials": {
-        "keys": [
-          "limestone"
-        ],
-        "values": [
-          10
-        ]
+        "keys": ["limestone"],
+        "values": [1]
       },
       "storageBase": {
         "capacity": 999,
-        "storableResources": [
-          "limestone"
-        ]
+        "storableResources": ["limestone"]
       },
       "reachableLevel": 7,
       "cornerReachable": true,
@@ -1804,18 +1594,12 @@
       "constructableBaseCategory": 1,
       "placementType": 1,
       "materials": {
-        "keys": [
-          "limestone"
-        ],
-        "values": [
-          10
-        ]
+        "keys": ["limestone"],
+        "values": [1]
       },
       "storageBase": {
         "capacity": 999,
-        "storableResources": [
-          "limestone"
-        ]
+        "storableResources": ["limestone"]
       },
       "reachableLevel": 7,
       "cornerReachable": true,
@@ -1862,18 +1646,12 @@
       "constructableBaseCategory": 1,
       "placementType": 1,
       "materials": {
-        "keys": [
-          "limestone_block"
-        ],
-        "values": [
-          10
-        ]
+        "keys": ["limestone_block"],
+        "values": [1]
       },
       "storageBase": {
         "capacity": 999,
-        "storableResources": [
-          "limestone_block"
-        ]
+        "storableResources": ["limestone_block"]
       },
       "reachableLevel": 7,
       "cornerReachable": true,
@@ -1920,18 +1698,12 @@
       "constructableBaseCategory": 1,
       "placementType": 1,
       "materials": {
-        "keys": [
-          "limestone_block"
-        ],
-        "values": [
-          10
-        ]
+        "keys": ["limestone_block"],
+        "values": [1]
       },
       "storageBase": {
         "capacity": 999,
-        "storableResources": [
-          "limestone_block"
-        ]
+        "storableResources": ["limestone_block"]
       },
       "reachableLevel": 7,
       "cornerReachable": true,
@@ -1978,18 +1750,12 @@
       "constructableBaseCategory": 1,
       "placementType": 1,
       "materials": {
-        "keys": [
-          "clay_brick"
-        ],
-        "values": [
-          10
-        ]
+        "keys": ["clay_brick"],
+        "values": [1]
       },
       "storageBase": {
         "capacity": 999,
-        "storableResources": [
-          "clay_brick"
-        ]
+        "storableResources": ["clay_brick"]
       },
       "reachableLevel": 7,
       "cornerReachable": true,
@@ -2036,18 +1802,12 @@
       "constructableBaseCategory": 1,
       "placementType": 1,
       "materials": {
-        "keys": [
-          "clay_brick"
-        ],
-        "values": [
-          10
-        ]
+        "keys": ["clay_brick"],
+        "values": [1]
       },
       "storageBase": {
         "capacity": 999,
-        "storableResources": [
-          "clay_brick"
-        ]
+        "storableResources": ["clay_brick"]
       },
       "reachableLevel": 7,
       "cornerReachable": true,

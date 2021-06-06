@@ -4,10 +4,10 @@
     {
       "debugName": "Health",
       "type": 1,
-      "initialValue": 100,
+      "initialValue": 1000,
       "initialValueRange": {
-        "min": 100,
-        "max": 100
+        "min": 1000,
+        "max": 1000
       },
       "attributes": {
         "min": [
@@ -18,18 +18,13 @@
         "max": [
           {
             "baseValue": 100,
-            "attributes": [
-              56
-            ]
+            "attributes": [56]
           }
         ],
         "step": [
           {
             "baseValue": 1,
-            "attributes": [
-              57,
-              70
-            ]
+            "attributes": [57, 70]
           }
         ],
         "threshold": [
@@ -42,10 +37,7 @@
         {
           "trigger": 10,
           "name": "health_treshold_01",
-          "effectors": [
-            "ConDmgHP01",
-            "CriticalWarning"
-          ]
+          "effectors": ["ConDmgHP01", "CriticalWarning"]
         }
       ]
     },
@@ -71,19 +63,13 @@
         "step": [
           {
             "baseValue": -4.6,
-            "attributes": [
-              10,
-              51,
-              12
-            ]
+            "attributes": [10, 51, 12]
           }
         ],
         "threshold": [
           {
             "baseValue": 1,
-            "attributes": [
-              11
-            ]
+            "attributes": [11]
           }
         ]
       },
@@ -91,44 +77,32 @@
         {
           "trigger": 100,
           "name": "sleep_treshold_00",
-          "effectors": [
-            "SleepFull"
-          ]
+          "effectors": ["SleepFull"]
         },
         {
           "trigger": 90,
           "name": "sleep_treshold_01",
-          "effectors": [
-            "SleepDef"
-          ]
+          "effectors": ["SleepDef"]
         },
         {
           "trigger": 30,
           "name": "sleep_treshold_02",
-          "effectors": [
-            "SlightNeedSleep"
-          ]
+          "effectors": ["SlightNeedSleep"]
         },
         {
           "trigger": 20,
           "name": "sleep_treshold_03",
-          "effectors": [
-            "NeedSleep"
-          ]
+          "effectors": ["NeedSleep"]
         },
         {
           "trigger": 10,
           "name": "sleep_treshold_04",
-          "effectors": [
-            "ExtremeNeedSleep"
-          ]
+          "effectors": ["ExtremeNeedSleep"]
         },
         {
           "trigger": 0,
           "name": "sleep_treshold_05",
-          "effectors": [
-            "ExtremeNeedSleepConLoss"
-          ]
+          "effectors": ["ExtremeNeedSleepConLoss"]
         }
       ]
     },
@@ -154,17 +128,13 @@
         "step": [
           {
             "baseValue": -5,
-            "attributes": [
-              7
-            ]
+            "attributes": [7]
           }
         ],
         "threshold": [
           {
             "baseValue": 1,
-            "attributes": [
-              8
-            ]
+            "attributes": [8]
           }
         ]
       },
@@ -176,37 +146,27 @@
         {
           "trigger": 35,
           "name": "food_treshold_01",
-          "effectors": [
-            "SlightlyHungry"
-          ]
+          "effectors": ["SlightlyHungry"]
         },
         {
           "trigger": 30,
           "name": "food_treshold_02",
-          "effectors": [
-            "Hungry"
-          ]
+          "effectors": ["Hungry"]
         },
         {
           "trigger": 10,
           "name": "food_treshold_03",
-          "effectors": [
-            "VeryHungry"
-          ]
+          "effectors": ["VeryHungry"]
         },
         {
           "trigger": 0,
           "name": "food_treshold_04",
-          "effectors": [
-            "Starving"
-          ]
+          "effectors": ["Starving"]
         },
         {
           "trigger": -60,
           "name": "food_treshold_05",
-          "effectors": [
-            "StarvationLoosHP"
-          ]
+          "effectors": ["StarvationLoosHP"]
         }
       ]
     },
@@ -232,9 +192,7 @@
         "step": [
           {
             "baseValue": 2,
-            "attributes": [
-              37
-            ]
+            "attributes": [37]
           }
         ],
         "threshold": [
@@ -245,9 +203,7 @@
         "target": [
           {
             "baseValue": 1,
-            "attributes": [
-              36
-            ]
+            "attributes": [36]
           }
         ]
       },
@@ -255,30 +211,22 @@
         {
           "trigger": 100,
           "name": "mood_treshold_00",
-          "effectors": [
-            "AgentMoodGood"
-          ]
+          "effectors": ["AgentMoodGood"]
         },
         {
           "trigger": 85,
           "name": "mood_treshold_01",
-          "effectors": [
-            "AgentMoodDef"
-          ]
+          "effectors": ["AgentMoodDef"]
         },
         {
           "trigger": 30,
           "name": "mood_treshold_02",
-          "effectors": [
-            "MoodAnnoyed"
-          ]
+          "effectors": ["MoodAnnoyed"]
         },
         {
           "trigger": 20,
           "name": "mood_treshold_03",
-          "effectors": [
-            "MoodLow"
-          ]
+          "effectors": ["MoodLow"]
         },
         {
           "trigger": 15,
@@ -294,9 +242,7 @@
         {
           "trigger": 0,
           "name": "mood_treshold_05",
-          "effectors": [
-            "AgentLeaveColony"
-          ]
+          "effectors": ["AgentLeaveColony"]
         }
       ]
     },
@@ -322,10 +268,7 @@
         "step": [
           {
             "baseValue": 1,
-            "attributes": [
-              58,
-              59
-            ]
+            "attributes": [58, 59]
           }
         ],
         "threshold": [
@@ -338,24 +281,17 @@
         {
           "trigger": 80,
           "name": "blood_treshold_01",
-          "effectors": [
-            "ConDmgBloodLoss01"
-          ]
+          "effectors": ["ConDmgBloodLoss01"]
         },
         {
           "trigger": 50,
           "name": "blood_treshold_02",
-          "effectors": [
-            "ConDmgBloodLoss02"
-          ]
+          "effectors": ["ConDmgBloodLoss02"]
         },
         {
           "trigger": 10,
           "name": "blood_treshold_03",
-          "effectors": [
-            "ConDmgBloodLoss03",
-            "BleedingWarning"
-          ]
+          "effectors": ["ConDmgBloodLoss03", "BleedingWarning"]
         }
       ]
     },
@@ -376,18 +312,13 @@
         "max": [
           {
             "baseValue": 100,
-            "attributes": [
-              61
-            ]
+            "attributes": [61]
           }
         ],
         "step": [
           {
             "baseValue": 4,
-            "attributes": [
-              60,
-              69
-            ]
+            "attributes": [60, 69]
           }
         ],
         "threshold": [
@@ -400,23 +331,17 @@
         {
           "trigger": 40,
           "name": "consciousness_treshold_01",
-          "effectors": [
-            "ConLoseMotor"
-          ]
+          "effectors": ["ConLoseMotor"]
         },
         {
           "trigger": 30,
           "name": "consciousness_treshold_02",
-          "effectors": [
-            "ConLoseMotorHigh"
-          ]
+          "effectors": ["ConLoseMotorHigh"]
         },
         {
           "trigger": 20,
           "name": "consciousness_treshold_03",
-          "effectors": [
-            "WorkerFaintEffector"
-          ]
+          "effectors": ["WorkerFaintEffector"]
         }
       ]
     },
@@ -437,9 +362,7 @@
         "max": [
           {
             "baseValue": 100,
-            "attributes": [
-              63
-            ]
+            "attributes": [63]
           }
         ],
         "step": [
@@ -450,9 +373,7 @@
         "threshold": [
           {
             "baseValue": 1,
-            "attributes": [
-              64
-            ]
+            "attributes": [64]
           }
         ]
       },
@@ -460,37 +381,27 @@
         {
           "trigger": 80,
           "name": "pain_treshold_01",
-          "effectors": [
-            "ConDmgPain01"
-          ]
+          "effectors": ["ConDmgPain01"]
         },
         {
           "trigger": 60,
           "name": "pain_treshold_02",
-          "effectors": [
-            "ConDmgPain01"
-          ]
+          "effectors": ["ConDmgPain01"]
         },
         {
           "trigger": 40,
           "name": "pain_treshold_03",
-          "effectors": [
-            "ConDmgPain01"
-          ]
+          "effectors": ["ConDmgPain01"]
         },
         {
           "trigger": 20,
           "name": "pain_treshold_04",
-          "effectors": [
-            "ConDmgPain02"
-          ]
+          "effectors": ["ConDmgPain02"]
         },
         {
           "trigger": 5,
           "name": "pain_treshold_05",
-          "effectors": [
-            "ConDmgPain03"
-          ]
+          "effectors": ["ConDmgPain03"]
         }
       ]
     },
@@ -516,19 +427,13 @@
         "step": [
           {
             "baseValue": -2.5,
-            "attributes": [
-              84,
-              77,
-              76
-            ]
+            "attributes": [84, 77, 76]
           }
         ],
         "threshold": [
           {
             "baseValue": 1,
-            "attributes": [
-              78
-            ]
+            "attributes": [78]
           }
         ]
       },
@@ -536,30 +441,22 @@
         {
           "trigger": 200,
           "name": "faith_treshold_01",
-          "effectors": [
-            "FaithFull"
-          ]
+          "effectors": ["FaithFull"]
         },
         {
           "trigger": 70,
           "name": "faith_treshold_02",
-          "effectors": [
-            "FaithDef"
-          ]
+          "effectors": ["FaithDef"]
         },
         {
           "trigger": 40,
           "name": "faith_treshold_03",
-          "effectors": [
-            "FaithNeed"
-          ]
+          "effectors": ["FaithNeed"]
         },
         {
           "trigger": 20,
           "name": "faith_treshold_04",
-          "effectors": [
-            "FaithDeprived"
-          ]
+          "effectors": ["FaithDeprived"]
         }
       ]
     },
@@ -585,10 +482,7 @@
         "step": [
           {
             "baseValue": -2,
-            "attributes": [
-              82,
-              92
-            ]
+            "attributes": [82, 92]
           }
         ],
         "threshold": [
@@ -601,37 +495,27 @@
         {
           "trigger": 100,
           "name": "alc_treshold_01",
-          "effectors": [
-            "AlcoholNeedNone"
-          ]
+          "effectors": ["AlcoholNeedNone"]
         },
         {
           "trigger": 70,
           "name": "alc_treshold_02",
-          "effectors": [
-            "AlcoholNeedDef"
-          ]
+          "effectors": ["AlcoholNeedDef"]
         },
         {
           "trigger": 40,
           "name": "alc_treshold_03",
-          "effectors": [
-            "AlcoholNeedLow"
-          ]
+          "effectors": ["AlcoholNeedLow"]
         },
         {
           "trigger": 15,
           "name": "alc_treshold_04",
-          "effectors": [
-            "AlcoholNeedMed"
-          ]
+          "effectors": ["AlcoholNeedMed"]
         },
         {
           "trigger": 5,
           "name": "alc_treshold_05",
-          "effectors": [
-            "AlcoholNeedHigh"
-          ]
+          "effectors": ["AlcoholNeedHigh"]
         }
       ]
     },
@@ -657,18 +541,13 @@
         "step": [
           {
             "baseValue": -2,
-            "attributes": [
-              80,
-              79
-            ]
+            "attributes": [80, 79]
           }
         ],
         "threshold": [
           {
             "baseValue": 1,
-            "attributes": [
-              81
-            ]
+            "attributes": [81]
           }
         ]
       },
@@ -676,30 +555,22 @@
         {
           "trigger": 200,
           "name": "entertaiment_treshold_01",
-          "effectors": [
-            "EntertainmentFull"
-          ]
+          "effectors": ["EntertainmentFull"]
         },
         {
           "trigger": 70,
           "name": "entertaiment_treshold_02",
-          "effectors": [
-            "EntertainmentDef"
-          ]
+          "effectors": ["EntertainmentDef"]
         },
         {
           "trigger": 40,
           "name": "entertaiment_treshold_03",
-          "effectors": [
-            "EntertainmentNeed"
-          ]
+          "effectors": ["EntertainmentNeed"]
         },
         {
           "trigger": 20,
           "name": "entertaiment_treshold_04",
-          "effectors": [
-            "EntertainmentDeprived"
-          ]
+          "effectors": ["EntertainmentDeprived"]
         }
       ]
     },
@@ -737,44 +608,32 @@
         {
           "trigger": 101,
           "name": "religious_align_treshold_01",
-          "effectors": [
-            "ReligionHeavyChris"
-          ]
+          "effectors": ["ReligionHeavyChris"]
         },
         {
           "trigger": 80,
           "name": "religious_align_treshold_02",
-          "effectors": [
-            "ReligionMedChris"
-          ]
+          "effectors": ["ReligionMedChris"]
         },
         {
           "trigger": 60,
           "name": "religious_align_treshold_03",
-          "effectors": [
-            "ReligionLight"
-          ]
+          "effectors": ["ReligionLight"]
         },
         {
           "trigger": 50,
           "name": "religious_align_treshold_04",
-          "effectors": [
-            "ReligionLight"
-          ]
+          "effectors": ["ReligionLight"]
         },
         {
           "trigger": 40,
           "name": "religious_align_treshold_05",
-          "effectors": [
-            "ReligionMedPag"
-          ]
+          "effectors": ["ReligionMedPag"]
         },
         {
           "trigger": 20,
           "name": "religious_align_treshold_06",
-          "effectors": [
-            "ReligionHeavyPag"
-          ]
+          "effectors": ["ReligionHeavyPag"]
         }
       ]
     },
@@ -800,18 +659,13 @@
         "step": [
           {
             "baseValue": 3,
-            "attributes": [
-              87,
-              86
-            ]
+            "attributes": [87, 86]
           }
         ],
         "threshold": [
           {
             "baseValue": 1,
-            "attributes": [
-              88
-            ]
+            "attributes": [88]
           }
         ]
       },
@@ -828,18 +682,12 @@
         {
           "trigger": 60,
           "name": "Inebriated_treshold_02",
-          "effectors": [
-            "InebriatedMed",
-            "InebriatedWorkMedPerkEffector"
-          ]
+          "effectors": ["InebriatedMed", "InebriatedWorkMedPerkEffector"]
         },
         {
           "trigger": 55,
           "name": "Inebriated_treshold_03",
-          "effectors": [
-            "InebriatedHigh",
-            "InebriatedWorkHighPerkEffector"
-          ]
+          "effectors": ["InebriatedHigh", "InebriatedWorkHighPerkEffector"]
         },
         {
           "trigger": 50,
@@ -873,18 +721,13 @@
         "step": [
           {
             "baseValue": 1,
-            "attributes": [
-              90,
-              89
-            ]
+            "attributes": [90, 89]
           }
         ],
         "threshold": [
           {
             "baseValue": 1,
-            "attributes": [
-              91
-            ]
+            "attributes": [91]
           }
         ]
       },
@@ -892,24 +735,17 @@
         {
           "trigger": 30,
           "name": "stomach_treshold_01",
-          "effectors": [
-            "StomachHurtLow"
-          ]
+          "effectors": ["StomachHurtLow"]
         },
         {
           "trigger": 15,
           "name": "stomach_treshold_02",
-          "effectors": [
-            "StomachHurtMed"
-          ]
+          "effectors": ["StomachHurtMed"]
         },
         {
           "trigger": 1,
           "name": "stomach_treshold_03",
-          "effectors": [
-            "VomitAfter",
-            "VomitAnim"
-          ]
+          "effectors": ["VomitAfter", "VomitAnim"]
         }
       ]
     },
@@ -935,9 +771,7 @@
         "step": [
           {
             "baseValue": 20,
-            "attributes": [
-              95
-            ]
+            "attributes": [95]
           }
         ],
         "threshold": [
@@ -948,9 +782,7 @@
         "target": [
           {
             "baseValue": 1,
-            "attributes": [
-              94
-            ]
+            "attributes": [94]
           }
         ]
       },
@@ -958,33 +790,22 @@
         {
           "trigger": 70,
           "name": "temeprature_cold_treshold_01",
-          "effectors": [
-            "Chilly",
-            "ChillyPositivePerkEffector"
-          ]
+          "effectors": ["Chilly", "ChillyPositivePerkEffector"]
         },
         {
           "trigger": 40,
           "name": "temeprature_cold_treshold_02",
-          "effectors": [
-            "Cold",
-            "ColdPositivePerkEffector"
-          ]
+          "effectors": ["Cold", "ColdPositivePerkEffector"]
         },
         {
           "trigger": 15,
           "name": "temeprature_cold_treshold_03",
-          "effectors": [
-            "Freezing",
-            "hypothermia"
-          ]
+          "effectors": ["Freezing", "hypothermia"]
         },
         {
           "trigger": 1,
           "name": "temeprature_cold_treshold_04",
-          "effectors": [
-            "FrozenDeath"
-          ]
+          "effectors": ["FrozenDeath"]
         }
       ]
     },
@@ -1010,9 +831,7 @@
         "step": [
           {
             "baseValue": 20,
-            "attributes": [
-              97
-            ]
+            "attributes": [97]
           }
         ],
         "threshold": [
@@ -1023,9 +842,7 @@
         "target": [
           {
             "baseValue": 1,
-            "attributes": [
-              96
-            ]
+            "attributes": [96]
           }
         ]
       },
@@ -1033,26 +850,17 @@
         {
           "trigger": 70,
           "name": "temeprature_hot_treshold_01",
-          "effectors": [
-            "Sweaty",
-            "SweatyPositivePerkEffector"
-          ]
+          "effectors": ["Sweaty", "SweatyPositivePerkEffector"]
         },
         {
           "trigger": 40,
           "name": "temeprature_hot_treshold_02",
-          "effectors": [
-            "Hot",
-            "HotPositivePerkEffector"
-          ]
+          "effectors": ["Hot", "HotPositivePerkEffector"]
         },
         {
           "trigger": 15,
           "name": "temeprature_hot_treshold_03",
-          "effectors": [
-            "VeryHot",
-            "heatstroke"
-          ]
+          "effectors": ["VeryHot", "heatstroke"]
         }
       ]
     }

@@ -59,7 +59,7 @@
       "productionSteps": [
         {
           "name": "prepCookMat",
-          "productionTime": 20,
+          "productionTime": 1,
           "producer": {
             "usedStat": 3,
             "requiredSkills": [
@@ -71,7 +71,7 @@
             "rewards": [
               {
                 "key": 5,
-                "value": 120
+                "value": 1200000
               }
             ]
           }
@@ -271,7 +271,7 @@
       "produced": [
         {
           "blueprintID": "iron_ingot",
-          "amount": 30
+          "amount": 300
         },
         {
           "blueprintID": "ash",
@@ -303,7 +303,7 @@
             "rewards": [
               {
                 "key": 10,
-                "value": 170
+                "value": 17000
               }
             ]
           }
@@ -323,7 +323,7 @@
       "produced": [
         {
           "blueprintID": "steel_ingot",
-          "amount": 30
+          "amount": 300
         },
         {
           "blueprintID": "ash",
@@ -343,7 +343,7 @@
       "productionSteps": [
         {
           "name": "preparingMeltOre",
-          "productionTime": 90,
+          "productionTime": 1,
           "producer": {
             "usedStat": 4,
             "requiredSkills": [
@@ -355,7 +355,7 @@
             "rewards": [
               {
                 "key": 10,
-                "value": 170
+                "value": 17000
               }
             ]
           }
@@ -375,7 +375,7 @@
       "produced": [
         {
           "blueprintID": "gold_ingot",
-          "amount": 30
+          "amount": 300
         },
         {
           "blueprintID": "ash",
@@ -385,7 +385,7 @@
       "recipe": [
         {
           "id": "gold",
-          "value": 300
+          "value": 1
         },
         {
           "id": 131072,
@@ -395,7 +395,7 @@
       "productionSteps": [
         {
           "name": "preparingMeltOre",
-          "productionTime": 90,
+          "productionTime": 1,
           "producer": {
             "usedStat": 4,
             "requiredSkills": [
@@ -407,7 +407,7 @@
             "rewards": [
               {
                 "key": 10,
-                "value": 170
+                "value": 17011
               }
             ]
           }
@@ -511,10 +511,7 @@
       "jobType": 1024,
       "autoSpawn": true,
       "passive": false,
-      "forbiddenOnStart": [
-        "human_carcass",
-        "enemy_carcass"
-      ],
+      "forbiddenOnStart": ["human_carcass", "enemy_carcass"],
       "recipe": [
         {
           "id": 4194304,
@@ -644,9 +641,7 @@
       "jobType": 1024,
       "autoSpawn": true,
       "passive": false,
-      "forbiddenOnStart": [
-        "meat_human"
-      ],
+      "forbiddenOnStart": ["meat_human"],
       "recipe": [
         {
           "id": 64,
@@ -672,7 +667,7 @@
             "rewards": [
               {
                 "key": 5,
-                "value": 120
+                "value": 12000
               }
             ]
           }
@@ -748,7 +743,7 @@
             "rewards": [
               {
                 "key": 5,
-                "value": 120
+                "value": 12000
               }
             ]
           }
@@ -800,7 +795,7 @@
             "rewards": [
               {
                 "key": 5,
-                "value": 160
+                "value": 1600
               }
             ]
           }
@@ -812,7 +807,7 @@
           "output": [
             {
               "blueprintID": "packaged_meal",
-              "amount": 3,
+              "amount": 300,
               "modifyingAttribute": 101
             },
             {
@@ -826,7 +821,7 @@
           "output": [
             {
               "blueprintID": "packaged_meal",
-              "amount": 3,
+              "amount": 300,
               "modifyingAttribute": 101
             },
             {
@@ -840,7 +835,7 @@
           "output": [
             {
               "blueprintID": "packaged_meal",
-              "amount": 3,
+              "amount": 300,
               "modifyingAttribute": 101
             },
             {
@@ -854,7 +849,7 @@
           "output": [
             {
               "blueprintID": "packaged_meal",
-              "amount": 3,
+              "amount": 300,
               "modifyingAttribute": 101
             },
             {
@@ -868,7 +863,7 @@
           "output": [
             {
               "blueprintID": "packaged_meal",
-              "amount": 3,
+              "amount": 300,
               "modifyingAttribute": 101
             },
             {
@@ -882,7 +877,7 @@
           "output": [
             {
               "blueprintID": "packaged_meal",
-              "amount": 3,
+              "amount": 300,
               "modifyingAttribute": 101
             },
             {
@@ -896,7 +891,7 @@
           "output": [
             {
               "blueprintID": "packaged_meal",
-              "amount": 3,
+              "amount": 300,
               "modifyingAttribute": 101
             },
             {
@@ -910,7 +905,7 @@
           "output": [
             {
               "blueprintID": "packaged_meal",
-              "amount": 3,
+              "amount": 300,
               "modifyingAttribute": 101
             },
             {
@@ -924,7 +919,7 @@
           "output": [
             {
               "blueprintID": "packaged_meal",
-              "amount": 3,
+              "amount": 300,
               "modifyingAttribute": 101
             },
             {
@@ -939,7 +934,7 @@
           "output": [
             {
               "blueprintID": "packaged_meal_meat_human",
-              "amount": 3,
+              "amount": 300,
               "modifyingAttribute": 101
             },
             {
@@ -954,7 +949,7 @@
           "output": [
             {
               "blueprintID": "packaged_meal_meat_human",
-              "amount": 3,
+              "amount": 300,
               "modifyingAttribute": 101
             },
             {
@@ -1044,7 +1039,7 @@
           "output": [
             {
               "blueprintID": "lavish_meal",
-              "amount": 3,
+              "amount": 30,
               "modifyingAttribute": 101
             },
             {
@@ -1058,7 +1053,7 @@
           "output": [
             {
               "blueprintID": "lavish_meal",
-              "amount": 3,
+              "amount": 30,
               "modifyingAttribute": 101
             },
             {
@@ -1072,7 +1067,7 @@
           "output": [
             {
               "blueprintID": "lavish_meal",
-              "amount": 3,
+              "amount": 30,
               "modifyingAttribute": 101
             },
             {
@@ -1086,7 +1081,7 @@
           "output": [
             {
               "blueprintID": "lavish_meal",
-              "amount": 3,
+              "amount": 30,
               "modifyingAttribute": 101
             },
             {
@@ -1100,7 +1095,7 @@
           "output": [
             {
               "blueprintID": "lavish_meal",
-              "amount": 3,
+              "amount": 30,
               "modifyingAttribute": 101
             },
             {
@@ -1114,7 +1109,7 @@
           "output": [
             {
               "blueprintID": "lavish_meal",
-              "amount": 3,
+              "amount": 30,
               "modifyingAttribute": 101
             },
             {
@@ -1128,7 +1123,7 @@
           "output": [
             {
               "blueprintID": "lavish_meal",
-              "amount": 3,
+              "amount": 30,
               "modifyingAttribute": 101
             },
             {
@@ -1142,7 +1137,7 @@
           "output": [
             {
               "blueprintID": "lavish_meal",
-              "amount": 3,
+              "amount": 30,
               "modifyingAttribute": 101
             },
             {
@@ -1232,7 +1227,7 @@
       "produced": [
         {
           "blueprintID": "vinegar",
-          "amount": 20
+          "amount": 200
         }
       ],
       "recipe": [
@@ -1263,7 +1258,7 @@
         },
         {
           "name": "vinegarFerment",
-          "productionTime": 1700
+          "productionTime": 170000
         }
       ]
     },
@@ -1276,7 +1271,7 @@
       "produced": [
         {
           "blueprintID": "beer",
-          "amount": 10
+          "amount": 100
         },
         {
           "blueprintID": "ash",
@@ -1312,14 +1307,14 @@
             "rewards": [
               {
                 "key": 5,
-                "value": 300
+                "value": 300000
               }
             ]
           }
         },
         {
           "name": "fermentBeer",
-          "productionTime": 2500
+          "productionTime": 200
         }
       ]
     },
@@ -1332,7 +1327,7 @@
       "produced": [
         {
           "blueprintID": "ale",
-          "amount": 10
+          "amount": 100
         },
         {
           "blueprintID": "ash",
@@ -1364,7 +1359,7 @@
             "rewards": [
               {
                 "key": 5,
-                "value": 300
+                "value": 300000
               }
             ]
           }
@@ -1384,7 +1379,7 @@
       "produced": [
         {
           "blueprintID": "rough_wine",
-          "amount": 10
+          "amount": 100
         }
       ],
       "recipe": [
@@ -1448,7 +1443,7 @@
       "productionSteps": [
         {
           "name": "prepareAlcoholMat",
-          "productionTime": 100,
+          "productionTime": 1,
           "producer": {
             "usedStat": 3,
             "requiredSkills": [
@@ -1486,7 +1481,7 @@
       "recipe": [
         {
           "id": "herbs",
-          "value": 5
+          "value": 1
         }
       ],
       "productionSteps": [
@@ -1504,7 +1499,7 @@
             "rewards": [
               {
                 "key": 8,
-                "value": 40
+                "value": 40000
               }
             ]
           }
@@ -1526,7 +1521,7 @@
       "recipe": [
         {
           "id": "herbs",
-          "value": 5
+          "value": 2
         },
         {
           "id": 32768,
@@ -1548,7 +1543,7 @@
             "rewards": [
               {
                 "key": 8,
-                "value": 80
+                "value": 80000
               }
             ]
           }
@@ -1575,10 +1570,6 @@
         {
           "id": 32768,
           "value": 3
-        },
-        {
-          "id": 1048576,
-          "value": 5
         }
       ],
       "productionSteps": [
@@ -1590,13 +1581,13 @@
             "requiredSkills": [
               {
                 "key": 8,
-                "value": 30
+                "value": 10
               }
             ],
             "rewards": [
               {
                 "key": 8,
-                "value": 100
+                "value": 100000
               }
             ]
           }
@@ -1606,9 +1597,7 @@
     {
       "productionId": "burn_body",
       "interruptible": true,
-      "ignoreProductionModeUI": [
-        2
-      ],
+      "ignoreProductionModeUI": [2],
       "jobType": 1,
       "autoSpawn": true,
       "passive": false,
@@ -1788,7 +1777,7 @@
       "productionSteps": [
         {
           "name": "sewingRoughHat",
-          "productionTime": 100,
+          "productionTime": 1,
           "producer": {
             "usedStat": 16,
             "requiredSkills": [
@@ -1857,7 +1846,7 @@
       "productionSteps": [
         {
           "name": "makingStrawHat",
-          "productionTime": 100,
+          "productionTime": 1,
           "producer": {
             "usedStat": 16,
             "requiredSkills": [
@@ -1985,7 +1974,7 @@
           "input": "iron_ingot",
           "output": [
             {
-              "blueprintID": "iron_short_sword",
+              "blueprintID": "gold_short_sword",
               "amount": 1
             },
             {
@@ -2165,17 +2154,17 @@
       "recipe": [
         {
           "id": 2048,
-          "value": 35
+          "value": 1
         },
         {
           "id": 131072,
-          "value": 25
+          "value": 1
         }
       ],
       "productionSteps": [
         {
           "name": "makingMetalWeaponLong",
-          "productionTime": 800,
+          "productionTime": 1,
           "producer": {
             "usedStat": 4,
             "requiredSkills": [
@@ -2187,7 +2176,7 @@
             "rewards": [
               {
                 "key": 10,
-                "value": 500
+                "value": 50000
               }
             ]
           }
@@ -2244,17 +2233,17 @@
       "recipe": [
         {
           "id": 2048,
-          "value": 50
+          "value": 1
         },
         {
           "id": 131072,
-          "value": 25
+          "value": 1
         }
       ],
       "productionSteps": [
         {
           "name": "makingMetalWeaponLong",
-          "productionTime": 800,
+          "productionTime": 1,
           "producer": {
             "usedStat": 4,
             "requiredSkills": [
@@ -2266,7 +2255,7 @@
             "rewards": [
               {
                 "key": 10,
-                "value": 500
+                "value": 50000
               }
             ]
           }
@@ -2763,7 +2752,7 @@
       "productionSteps": [
         {
           "name": "makingMetalWeaponShort",
-          "productionTime": 400,
+          "productionTime": 1,
           "producer": {
             "usedStat": 4,
             "requiredSkills": [
@@ -2775,7 +2764,7 @@
             "rewards": [
               {
                 "key": 10,
-                "value": 300
+                "value": 300000
               }
             ]
           }
@@ -2838,11 +2827,11 @@
       "recipe": [
         {
           "id": "iron_ingot",
-          "value": 10
+          "value": 1
         },
         {
           "id": "wood",
-          "value": 20
+          "value": 1
         }
       ],
       "productionSteps": [
@@ -2860,7 +2849,7 @@
             "rewards": [
               {
                 "key": 10,
-                "value": 400
+                "value": 40000
               }
             ]
           }
@@ -3448,17 +3437,17 @@
       "recipe": [
         {
           "id": "wood",
-          "value": 50
+          "value": 1
         },
         {
           "id": "mechanical_parts",
-          "value": 2
+          "value": 1
         }
       ],
       "productionSteps": [
         {
           "name": "makingCrossobow",
-          "productionTime": 300,
+          "productionTime": 1,
           "producer": {
             "usedStat": 31,
             "requiredSkills": [
@@ -3470,7 +3459,7 @@
             "rewards": [
               {
                 "key": 3,
-                "value": 500
+                "value": 50000
               }
             ]
           }
@@ -3492,17 +3481,17 @@
       "recipe": [
         {
           "id": "wood",
-          "value": 35
+          "value": 1
         },
         {
           "id": "mechanical_parts",
-          "value": 2
+          "value": 1
         }
       ],
       "productionSteps": [
         {
           "name": "makingCrossobow",
-          "productionTime": 300,
+          "productionTime": 1,
           "producer": {
             "usedStat": 31,
             "requiredSkills": [
@@ -3514,7 +3503,7 @@
             "rewards": [
               {
                 "key": 3,
-                "value": 500
+                "value": 50000
               }
             ]
           }
@@ -3536,17 +3525,17 @@
       "recipe": [
         {
           "id": "wood",
-          "value": 45
+          "value": 1
         },
         {
           "id": "mechanical_parts",
-          "value": 3
+          "value": 1
         }
       ],
       "productionSteps": [
         {
           "name": "makingCrossobow",
-          "productionTime": 300,
+          "productionTime": 1,
           "producer": {
             "usedStat": 31,
             "requiredSkills": [
@@ -3558,7 +3547,7 @@
             "rewards": [
               {
                 "key": 3,
-                "value": 500
+                "value": 50000
               }
             ]
           }
@@ -3792,13 +3781,13 @@
       "recipe": [
         {
           "id": 16384,
-          "value": 70
+          "value": 1
         }
       ],
       "productionSteps": [
         {
           "name": "makingLeatherArmor",
-          "productionTime": 550,
+          "productionTime": 1,
           "producer": {
             "usedStat": 16,
             "requiredSkills": [
@@ -3826,17 +3815,17 @@
       "recipe": [
         {
           "id": 2048,
-          "value": 65
+          "value": 1
         },
         {
           "id": 131072,
-          "value": 25
+          "value": 1
         }
       ],
       "productionSteps": [
         {
           "name": "makingMailArmor",
-          "productionTime": 800,
+          "productionTime": 1,
           "producer": {
             "usedStat": 4,
             "requiredSkills": [
@@ -3848,7 +3837,7 @@
             "rewards": [
               {
                 "key": 10,
-                "value": 500
+                "value": 50000
               }
             ]
           }
@@ -3905,17 +3894,17 @@
       "recipe": [
         {
           "id": 2048,
-          "value": 90
+          "value": 1
         },
         {
           "id": 131072,
-          "value": 25
+          "value": 1
         }
       ],
       "productionSteps": [
         {
           "name": "makingPlateArmor",
-          "productionTime": 1100,
+          "productionTime": 1,
           "producer": {
             "usedStat": 4,
             "requiredSkills": [
@@ -3938,7 +3927,7 @@
           "input": "iron_ingot",
           "output": [
             {
-              "blueprintID": "iron_plate_armor",
+              "blueprintID": "gold_plate_armor",
               "amount": 1
             },
             {
@@ -3984,11 +3973,11 @@
       "recipe": [
         {
           "id": 2048,
-          "value": 40
+          "value": 1
         },
         {
           "id": 131072,
-          "value": 15
+          "value": 1
         }
       ],
       "productionSteps": [
@@ -4017,7 +4006,7 @@
           "input": "iron_ingot",
           "output": [
             {
-              "blueprintID": "iron_plate_helmet",
+              "blueprintID": "gold_plate_helmet",
               "amount": 1
             },
             {
@@ -4182,7 +4171,7 @@
       "recipe": [
         {
           "id": 32768,
-          "value": 120
+          "value": 12000
         }
       ],
       "productionSteps": [
@@ -4452,9 +4441,7 @@
     {
       "productionId": "dismantle_wood",
       "interruptible": true,
-      "ignoreProductionModeUI": [
-        2
-      ],
+      "ignoreProductionModeUI": [2],
       "jobType": 512,
       "autoSpawn": true,
       "passive": false,
@@ -4462,7 +4449,7 @@
       "productionSteps": [
         {
           "name": "dismantleWoodItems",
-          "productionTime": 25,
+          "productionTime": 2,
           "producer": {
             "usedStat": 31,
             "requiredSkills": [
@@ -4474,7 +4461,7 @@
             "rewards": [
               {
                 "key": 3,
-                "value": 60
+                "value": 60000
               }
             ]
           }
@@ -4484,9 +4471,7 @@
     {
       "productionId": "dismantle_metal",
       "interruptible": true,
-      "ignoreProductionModeUI": [
-        2
-      ],
+      "ignoreProductionModeUI": [2],
       "jobType": 256,
       "autoSpawn": true,
       "passive": false,
@@ -4494,7 +4479,7 @@
       "productionSteps": [
         {
           "name": "dismantleMetalItems",
-          "productionTime": 25,
+          "productionTime": 2,
           "producer": {
             "usedStat": 4,
             "requiredSkills": [
@@ -4506,7 +4491,7 @@
             "rewards": [
               {
                 "key": 10,
-                "value": 60
+                "value": 60000
               }
             ]
           }
@@ -4516,9 +4501,7 @@
     {
       "productionId": "dismantle_cloth",
       "interruptible": true,
-      "ignoreProductionModeUI": [
-        2
-      ],
+      "ignoreProductionModeUI": [2],
       "jobType": 2048,
       "autoSpawn": true,
       "passive": false,
@@ -4526,7 +4509,7 @@
       "productionSteps": [
         {
           "name": "dismantleClothItems",
-          "productionTime": 25,
+          "productionTime": 2,
           "producer": {
             "usedStat": 16,
             "requiredSkills": [
@@ -4538,7 +4521,7 @@
             "rewards": [
               {
                 "key": 12,
-                "value": 60
+                "value": 60000
               }
             ]
           }
@@ -4570,7 +4553,7 @@
       "productionSteps": [
         {
           "name": "createMechanicalParts",
-          "productionTime": 100,
+          "productionTime": 1,
           "producer": {
             "usedStat": 4,
             "requiredSkills": [
@@ -4582,7 +4565,7 @@
             "rewards": [
               {
                 "key": 10,
-                "value": 250
+                "value": 250000
               }
             ]
           }

@@ -15,18 +15,12 @@
       "constructableBaseCategory": 3,
       "placementType": 0,
       "materials": {
-        "keys": [
-          "wood"
-        ],
-        "values": [
-          20
-        ]
+        "keys": ["wood"],
+        "values": [20]
       },
       "storageBase": {
         "capacity": 999,
-        "storableResources": [
-          "wood"
-        ]
+        "storableResources": ["wood"]
       },
       "reachableLevel": 2,
       "cornerReachable": false,
@@ -70,18 +64,12 @@
       "constructableBaseCategory": 3,
       "placementType": 0,
       "materials": {
-        "keys": [
-          "wood"
-        ],
-        "values": [
-          30
-        ]
+        "keys": ["wood"],
+        "values": [30]
       },
       "storageBase": {
         "capacity": 999,
-        "storableResources": [
-          "wood"
-        ]
+        "storableResources": ["wood"]
       },
       "reachableLevel": 2,
       "cornerReachable": false,
@@ -125,18 +113,12 @@
       "constructableBaseCategory": 3,
       "placementType": 0,
       "materials": {
-        "keys": [
-          "wood"
-        ],
-        "values": [
-          90
-        ]
+        "keys": ["wood"],
+        "values": [90]
       },
       "storageBase": {
         "capacity": 999,
-        "storableResources": [
-          "wood"
-        ]
+        "storableResources": ["wood"]
       },
       "reachableLevel": 2,
       "cornerReachable": false,
@@ -180,18 +162,12 @@
       "constructableBaseCategory": 3,
       "placementType": 0,
       "materials": {
-        "keys": [
-          "limestone"
-        ],
-        "values": [
-          30
-        ]
+        "keys": ["limestone"],
+        "values": [30]
       },
       "storageBase": {
         "capacity": 999,
-        "storableResources": [
-          "limestone"
-        ]
+        "storableResources": ["limestone"]
       },
       "reachableLevel": 2,
       "cornerReachable": false,
@@ -235,18 +211,12 @@
       "constructableBaseCategory": 3,
       "placementType": 0,
       "materials": {
-        "keys": [
-          "limestone"
-        ],
-        "values": [
-          30
-        ]
+        "keys": ["limestone"],
+        "values": [30]
       },
       "storageBase": {
         "capacity": 999,
-        "storableResources": [
-          "limestone"
-        ]
+        "storableResources": ["limestone"]
       },
       "reachableLevel": 2,
       "cornerReachable": false,
@@ -290,18 +260,12 @@
       "constructableBaseCategory": 3,
       "placementType": 0,
       "materials": {
-        "keys": [
-          "limestone"
-        ],
-        "values": [
-          90
-        ]
+        "keys": ["limestone"],
+        "values": [90]
       },
       "storageBase": {
         "capacity": 999,
-        "storableResources": [
-          "limestone"
-        ]
+        "storableResources": ["limestone"]
       },
       "reachableLevel": 2,
       "cornerReachable": false,
@@ -345,18 +309,12 @@
       "constructableBaseCategory": 3,
       "placementType": 0,
       "materials": {
-        "keys": [
-          "wood"
-        ],
-        "values": [
-          25
-        ]
+        "keys": ["wood"],
+        "values": [25]
       },
       "storageBase": {
         "capacity": 999,
-        "storableResources": [
-          "wood"
-        ]
+        "storableResources": ["wood"]
       },
       "reachableLevel": 2,
       "cornerReachable": false,
@@ -401,18 +359,12 @@
       "constructableBaseCategory": 3,
       "placementType": 0,
       "materials": {
-        "keys": [
-          "wood"
-        ],
-        "values": [
-          100
-        ]
+        "keys": ["wood"],
+        "values": [100]
       },
       "storageBase": {
         "capacity": 999,
-        "storableResources": [
-          "wood"
-        ]
+        "storableResources": ["wood"]
       },
       "reachableLevel": 2,
       "cornerReachable": false,
@@ -457,18 +409,12 @@
       "constructableBaseCategory": 3,
       "placementType": 0,
       "materials": {
-        "keys": [
-          "wood"
-        ],
-        "values": [
-          35
-        ]
+        "keys": ["wood"],
+        "values": [35]
       },
       "storageBase": {
         "capacity": 999,
-        "storableResources": [
-          "wood"
-        ]
+        "storableResources": ["wood"]
       },
       "reachableLevel": 2,
       "cornerReachable": false,
@@ -513,18 +459,12 @@
       "constructableBaseCategory": 3,
       "placementType": 0,
       "materials": {
-        "keys": [
-          "wood"
-        ],
-        "values": [
-          10
-        ]
+        "keys": ["wood"],
+        "values": [10]
       },
       "storageBase": {
         "capacity": 999,
-        "storableResources": [
-          "wood"
-        ]
+        "storableResources": ["wood"]
       },
       "reachableLevel": 2,
       "cornerReachable": false,
@@ -568,18 +508,12 @@
       "constructableBaseCategory": 3,
       "placementType": 0,
       "materials": {
-        "keys": [
-          "limestone"
-        ],
-        "values": [
-          20
-        ]
+        "keys": ["limestone"],
+        "values": [20]
       },
       "storageBase": {
         "capacity": 999,
-        "storableResources": [
-          "limestone"
-        ]
+        "storableResources": ["limestone"]
       },
       "reachableLevel": 2,
       "cornerReachable": false,
@@ -623,18 +557,12 @@
       "constructableBaseCategory": 3,
       "placementType": 0,
       "materials": {
-        "keys": [
-          "wood"
-        ],
-        "values": [
-          25
-        ]
+        "keys": ["wood"],
+        "values": [25]
       },
       "storageBase": {
         "capacity": 999,
-        "storableResources": [
-          "wood"
-        ]
+        "storableResources": ["wood"]
       },
       "reachableLevel": 2,
       "cornerReachable": false,
@@ -680,18 +608,12 @@
       "constructableBaseCategory": 3,
       "placementType": 0,
       "materials": {
-        "keys": [
-          "limestone"
-        ],
-        "values": [
-          25
-        ]
+        "keys": ["limestone"],
+        "values": [25]
       },
       "storageBase": {
         "capacity": 999,
-        "storableResources": [
-          "limestone"
-        ]
+        "storableResources": ["limestone"]
       },
       "reachableLevel": 2,
       "cornerReachable": false,
@@ -736,18 +658,12 @@
       "constructableBaseCategory": 3,
       "placementType": 0,
       "materials": {
-        "keys": [
-          "hay"
-        ],
-        "values": [
-          15
-        ]
+        "keys": ["hay"],
+        "values": [15]
       },
       "storageBase": {
         "capacity": 999,
-        "storableResources": [
-          "hay"
-        ]
+        "storableResources": ["hay"]
       },
       "reachableLevel": 2,
       "cornerReachable": false,
@@ -792,21 +708,12 @@
       "constructableBaseCategory": 3,
       "placementType": 0,
       "materials": {
-        "keys": [
-          "wood",
-          "hay"
-        ],
-        "values": [
-          40,
-          20
-        ]
+        "keys": ["wood", "hay"],
+        "values": [40, 20]
       },
       "storageBase": {
         "capacity": 999,
-        "storableResources": [
-          "wood",
-          "hay"
-        ]
+        "storableResources": ["wood", "hay"]
       },
       "reachableLevel": 2,
       "cornerReachable": false,
@@ -852,18 +759,12 @@
       "constructableBaseCategory": 4,
       "placementType": 0,
       "materials": {
-        "keys": [
-          "wood"
-        ],
-        "values": [
-          5
-        ]
+        "keys": ["wood"],
+        "values": [5]
       },
       "storageBase": {
         "capacity": 999,
-        "storableResources": [
-          "wood"
-        ]
+        "storableResources": ["wood"]
       },
       "reachableLevel": 2,
       "cornerReachable": false,
@@ -895,14 +796,8 @@
       "thermalModelIDSecondary": "torch_off",
       "destroyParticles": "destroy_wood_torch",
       "lockable": true,
-      "lockStateTextKeys": [
-        "torch_state_on",
-        "torch_state_off"
-      ],
-      "lockStateInfoTextKeys": [
-        "torch_on_info",
-        "torch_off_info"
-      ]
+      "lockStateTextKeys": ["torch_state_on", "torch_state_off"],
+      "lockStateInfoTextKeys": ["torch_on_info", "torch_off_info"]
     },
     {
       "id": "iron_torch",
@@ -919,18 +814,12 @@
       "constructableBaseCategory": 4,
       "placementType": 0,
       "materials": {
-        "keys": [
-          "iron_ingot"
-        ],
-        "values": [
-          5
-        ]
+        "keys": ["iron_ingot"],
+        "values": [5]
       },
       "storageBase": {
         "capacity": 999,
-        "storableResources": [
-          "iron_ingot"
-        ]
+        "storableResources": ["iron_ingot"]
       },
       "reachableLevel": 2,
       "cornerReachable": false,
@@ -962,14 +851,8 @@
       "thermalModelIDSecondary": "torch_off",
       "destroyParticles": "destroy_iron_torch",
       "lockable": true,
-      "lockStateTextKeys": [
-        "torch_state_on",
-        "torch_state_off"
-      ],
-      "lockStateInfoTextKeys": [
-        "torch_on_info",
-        "torch_off_info"
-      ]
+      "lockStateTextKeys": ["torch_state_on", "torch_state_off"],
+      "lockStateInfoTextKeys": ["torch_on_info", "torch_off_info"]
     },
     {
       "id": "wood_torch_wall",
@@ -986,18 +869,12 @@
       "constructableBaseCategory": 7,
       "placementType": 3,
       "materials": {
-        "keys": [
-          "wood"
-        ],
-        "values": [
-          5
-        ]
+        "keys": ["wood"],
+        "values": [5]
       },
       "storageBase": {
         "capacity": 999,
-        "storableResources": [
-          "wood"
-        ]
+        "storableResources": ["wood"]
       },
       "reachableLevel": 2,
       "cornerReachable": false,
@@ -1028,14 +905,8 @@
       "thermalModelIDSecondary": "torch_off",
       "destroyParticles": "destroy_wood_torch",
       "lockable": true,
-      "lockStateTextKeys": [
-        "torch_state_on",
-        "torch_state_off"
-      ],
-      "lockStateInfoTextKeys": [
-        "torch_on_info",
-        "torch_off_info"
-      ]
+      "lockStateTextKeys": ["torch_state_on", "torch_state_off"],
+      "lockStateInfoTextKeys": ["torch_on_info", "torch_off_info"]
     },
     {
       "id": "iron_tourch_wall",
@@ -1052,18 +923,12 @@
       "constructableBaseCategory": 7,
       "placementType": 3,
       "materials": {
-        "keys": [
-          "iron_ingot"
-        ],
-        "values": [
-          5
-        ]
+        "keys": ["iron_ingot"],
+        "values": [5]
       },
       "storageBase": {
         "capacity": 999,
-        "storableResources": [
-          "iron_ingot"
-        ]
+        "storableResources": ["iron_ingot"]
       },
       "reachableLevel": 2,
       "cornerReachable": false,
@@ -1094,14 +959,8 @@
       "thermalModelIDSecondary": "torch_off",
       "destroyParticles": "destroy_iron_torch",
       "lockable": true,
-      "lockStateTextKeys": [
-        "torch_state_on",
-        "torch_state_off"
-      ],
-      "lockStateInfoTextKeys": [
-        "torch_on_info",
-        "torch_off_info"
-      ]
+      "lockStateTextKeys": ["torch_state_on", "torch_state_off"],
+      "lockStateInfoTextKeys": ["torch_on_info", "torch_off_info"]
     },
     {
       "id": "clay_brazier",
@@ -1118,21 +977,12 @@
       "constructableBaseCategory": 4,
       "placementType": 0,
       "materials": {
-        "keys": [
-          "clay",
-          "wood"
-        ],
-        "values": [
-          10,
-          5
-        ]
+        "keys": ["clay", "wood"],
+        "values": [10, 5]
       },
       "storageBase": {
         "capacity": 999,
-        "storableResources": [
-          "clay",
-          "wood"
-        ]
+        "storableResources": ["clay", "wood"]
       },
       "reachableLevel": 2,
       "cornerReachable": false,
@@ -1164,14 +1014,8 @@
       "thermalModelIDSecondary": "brazier_off",
       "destroyParticles": "destroy_clay_wall",
       "lockable": true,
-      "lockStateTextKeys": [
-        "torch_state_on",
-        "torch_state_off"
-      ],
-      "lockStateInfoTextKeys": [
-        "torch_on_info",
-        "torch_off_info"
-      ]
+      "lockStateTextKeys": ["torch_state_on", "torch_state_off"],
+      "lockStateInfoTextKeys": ["torch_on_info", "torch_off_info"]
     },
     {
       "id": "stone_brazier",
@@ -1188,21 +1032,12 @@
       "constructableBaseCategory": 4,
       "placementType": 0,
       "materials": {
-        "keys": [
-          "limestone",
-          "wood"
-        ],
-        "values": [
-          10,
-          5
-        ]
+        "keys": ["limestone", "wood"],
+        "values": [10, 5]
       },
       "storageBase": {
         "capacity": 999,
-        "storableResources": [
-          "limestone",
-          "wood"
-        ]
+        "storableResources": ["limestone", "wood"]
       },
       "reachableLevel": 2,
       "cornerReachable": false,
@@ -1234,14 +1069,8 @@
       "thermalModelIDSecondary": "brazier_off",
       "destroyParticles": "destroy_liimestone_wall",
       "lockable": true,
-      "lockStateTextKeys": [
-        "torch_state_on",
-        "torch_state_off"
-      ],
-      "lockStateInfoTextKeys": [
-        "torch_on_info",
-        "torch_off_info"
-      ]
+      "lockStateTextKeys": ["torch_state_on", "torch_state_off"],
+      "lockStateInfoTextKeys": ["torch_on_info", "torch_off_info"]
     },
     {
       "id": "iron_brazier",
@@ -1258,21 +1087,12 @@
       "constructableBaseCategory": 4,
       "placementType": 0,
       "materials": {
-        "keys": [
-          "iron_ingot",
-          "wood"
-        ],
-        "values": [
-          10,
-          5
-        ]
+        "keys": ["iron_ingot", "wood"],
+        "values": [10, 5]
       },
       "storageBase": {
         "capacity": 999,
-        "storableResources": [
-          "iron_ingot",
-          "wood"
-        ]
+        "storableResources": ["iron_ingot", "wood"]
       },
       "reachableLevel": 2,
       "cornerReachable": false,
@@ -1304,14 +1124,8 @@
       "thermalModelIDSecondary": "brazier_off",
       "destroyParticles": "destroy_iron_torch",
       "lockable": true,
-      "lockStateTextKeys": [
-        "torch_state_on",
-        "torch_state_off"
-      ],
-      "lockStateInfoTextKeys": [
-        "torch_on_info",
-        "torch_off_info"
-      ]
+      "lockStateTextKeys": ["torch_state_on", "torch_state_off"],
+      "lockStateInfoTextKeys": ["torch_on_info", "torch_off_info"]
     },
     {
       "id": "clay_brick_brazier",
@@ -1328,21 +1142,12 @@
       "constructableBaseCategory": 4,
       "placementType": 0,
       "materials": {
-        "keys": [
-          "clay_brick",
-          "wood"
-        ],
-        "values": [
-          10,
-          5
-        ]
+        "keys": ["clay_brick", "wood"],
+        "values": [10, 5]
       },
       "storageBase": {
         "capacity": 999,
-        "storableResources": [
-          "clay_brick",
-          "wood"
-        ]
+        "storableResources": ["clay_brick", "wood"]
       },
       "reachableLevel": 2,
       "cornerReachable": false,
@@ -1374,14 +1179,8 @@
       "thermalModelIDSecondary": "brazier_off",
       "destroyParticles": "destroy_clay_brick_wall",
       "lockable": true,
-      "lockStateTextKeys": [
-        "torch_state_on",
-        "torch_state_off"
-      ],
-      "lockStateInfoTextKeys": [
-        "torch_on_info",
-        "torch_off_info"
-      ]
+      "lockStateTextKeys": ["torch_state_on", "torch_state_off"],
+      "lockStateInfoTextKeys": ["torch_on_info", "torch_off_info"]
     },
     {
       "id": "stone_brick_brazier",
@@ -1398,21 +1197,12 @@
       "constructableBaseCategory": 4,
       "placementType": 0,
       "materials": {
-        "keys": [
-          "limestone_block",
-          "wood"
-        ],
-        "values": [
-          10,
-          5
-        ]
+        "keys": ["limestone_block", "wood"],
+        "values": [10, 5]
       },
       "storageBase": {
         "capacity": 999,
-        "storableResources": [
-          "limestone_block",
-          "wood"
-        ]
+        "storableResources": ["limestone_block", "wood"]
       },
       "reachableLevel": 2,
       "cornerReachable": false,
@@ -1444,14 +1234,8 @@
       "thermalModelIDSecondary": "brazier_off",
       "destroyParticles": "destroy_limestone_block_wall",
       "lockable": true,
-      "lockStateTextKeys": [
-        "torch_state_on",
-        "torch_state_off"
-      ],
-      "lockStateInfoTextKeys": [
-        "torch_on_info",
-        "torch_off_info"
-      ]
+      "lockStateTextKeys": ["torch_state_on", "torch_state_off"],
+      "lockStateInfoTextKeys": ["torch_on_info", "torch_off_info"]
     },
     {
       "id": "banner_single_medium",
@@ -1468,21 +1252,12 @@
       "constructableBaseCategory": 4,
       "placementType": 0,
       "materials": {
-        "keys": [
-          "wood",
-          "linen_cloth"
-        ],
-        "values": [
-          10,
-          3
-        ]
+        "keys": ["wood", "linen_cloth"],
+        "values": [10, 3]
       },
       "storageBase": {
         "capacity": 999,
-        "storableResources": [
-          "wood",
-          "linen_cloth"
-        ]
+        "storableResources": ["wood", "linen_cloth"]
       },
       "reachableLevel": 2,
       "cornerReachable": false,
@@ -1527,21 +1302,12 @@
       "constructableBaseCategory": 4,
       "placementType": 0,
       "materials": {
-        "keys": [
-          "wood",
-          "linen_cloth"
-        ],
-        "values": [
-          10,
-          3
-        ]
+        "keys": ["wood", "linen_cloth"],
+        "values": [10, 3]
       },
       "storageBase": {
         "capacity": 999,
-        "storableResources": [
-          "wood",
-          "linen_cloth"
-        ]
+        "storableResources": ["wood", "linen_cloth"]
       },
       "reachableLevel": 2,
       "cornerReachable": false,
@@ -1586,21 +1352,12 @@
       "constructableBaseCategory": 4,
       "placementType": 0,
       "materials": {
-        "keys": [
-          "wood",
-          "linen_cloth"
-        ],
-        "values": [
-          10,
-          3
-        ]
+        "keys": ["wood", "linen_cloth"],
+        "values": [10, 3]
       },
       "storageBase": {
         "capacity": 999,
-        "storableResources": [
-          "wood",
-          "linen_cloth"
-        ]
+        "storableResources": ["wood", "linen_cloth"]
       },
       "reachableLevel": 2,
       "cornerReachable": false,
@@ -1645,21 +1402,12 @@
       "constructableBaseCategory": 4,
       "placementType": 0,
       "materials": {
-        "keys": [
-          "wood",
-          "linen_cloth"
-        ],
-        "values": [
-          10,
-          3
-        ]
+        "keys": ["wood", "linen_cloth"],
+        "values": [10, 3]
       },
       "storageBase": {
         "capacity": 999,
-        "storableResources": [
-          "wood",
-          "linen_cloth"
-        ]
+        "storableResources": ["wood", "linen_cloth"]
       },
       "reachableLevel": 2,
       "cornerReachable": false,
@@ -1704,21 +1452,12 @@
       "constructableBaseCategory": 7,
       "placementType": 3,
       "materials": {
-        "keys": [
-          "wood",
-          "linen_cloth"
-        ],
-        "values": [
-          10,
-          3
-        ]
+        "keys": ["wood", "linen_cloth"],
+        "values": [10, 3]
       },
       "storageBase": {
         "capacity": 999,
-        "storableResources": [
-          "wood",
-          "linen_cloth"
-        ]
+        "storableResources": ["wood", "linen_cloth"]
       },
       "reachableLevel": 2,
       "cornerReachable": false,
@@ -1762,21 +1501,12 @@
       "constructableBaseCategory": 4,
       "placementType": 0,
       "materials": {
-        "keys": [
-          "wood",
-          "linen_cloth"
-        ],
-        "values": [
-          10,
-          3
-        ]
+        "keys": ["wood", "linen_cloth"],
+        "values": [10, 3]
       },
       "storageBase": {
         "capacity": 999,
-        "storableResources": [
-          "wood",
-          "linen_cloth"
-        ]
+        "storableResources": ["wood", "linen_cloth"]
       },
       "reachableLevel": 2,
       "cornerReachable": false,
@@ -1821,21 +1551,12 @@
       "constructableBaseCategory": 7,
       "placementType": 3,
       "materials": {
-        "keys": [
-          "wood",
-          "linen_cloth"
-        ],
-        "values": [
-          10,
-          3
-        ]
+        "keys": ["wood", "linen_cloth"],
+        "values": [10, 3]
       },
       "storageBase": {
         "capacity": 999,
-        "storableResources": [
-          "wood",
-          "linen_cloth"
-        ]
+        "storableResources": ["wood", "linen_cloth"]
       },
       "reachableLevel": 2,
       "cornerReachable": false,
@@ -1879,21 +1600,12 @@
       "constructableBaseCategory": 7,
       "placementType": 3,
       "materials": {
-        "keys": [
-          "wood",
-          "linen_cloth"
-        ],
-        "values": [
-          10,
-          3
-        ]
+        "keys": ["wood", "linen_cloth"],
+        "values": [10, 3]
       },
       "storageBase": {
         "capacity": 999,
-        "storableResources": [
-          "wood",
-          "linen_cloth"
-        ]
+        "storableResources": ["wood", "linen_cloth"]
       },
       "reachableLevel": 2,
       "cornerReachable": false,
@@ -1937,21 +1649,12 @@
       "constructableBaseCategory": 4,
       "placementType": 0,
       "materials": {
-        "keys": [
-          "wood",
-          "linen_cloth"
-        ],
-        "values": [
-          10,
-          3
-        ]
+        "keys": ["wood", "linen_cloth"],
+        "values": [10, 3]
       },
       "storageBase": {
         "capacity": 999,
-        "storableResources": [
-          "wood",
-          "linen_cloth"
-        ]
+        "storableResources": ["wood", "linen_cloth"]
       },
       "reachableLevel": 2,
       "cornerReachable": false,
@@ -1996,21 +1699,12 @@
       "constructableBaseCategory": 7,
       "placementType": 3,
       "materials": {
-        "keys": [
-          "wood",
-          "iron_ingot"
-        ],
-        "values": [
-          10,
-          1
-        ]
+        "keys": ["wood", "iron_ingot"],
+        "values": [10, 1]
       },
       "storageBase": {
         "capacity": 999,
-        "storableResources": [
-          "wood",
-          "iron_ingot"
-        ]
+        "storableResources": ["wood", "iron_ingot"]
       },
       "reachableLevel": 2,
       "cornerReachable": false,
@@ -2054,18 +1748,12 @@
       "constructableBaseCategory": 7,
       "placementType": 3,
       "materials": {
-        "keys": [
-          "bones"
-        ],
-        "values": [
-          10
-        ]
+        "keys": ["bones"],
+        "values": [10]
       },
       "storageBase": {
         "capacity": 999,
-        "storableResources": [
-          "bones"
-        ]
+        "storableResources": ["bones"]
       },
       "reachableLevel": 2,
       "cornerReachable": false,
@@ -2109,18 +1797,12 @@
       "constructableBaseCategory": 7,
       "placementType": 3,
       "materials": {
-        "keys": [
-          "wood"
-        ],
-        "values": [
-          10
-        ]
+        "keys": ["wood"],
+        "values": [10]
       },
       "storageBase": {
         "capacity": 999,
-        "storableResources": [
-          "wood"
-        ]
+        "storableResources": ["wood"]
       },
       "reachableLevel": 2,
       "cornerReachable": false,
@@ -2147,7 +1829,7 @@
         }
       ],
       "wealthPoints": 26,
-      "destroyParticles": "destroy_book_shelf"
+      "destroyParticles": "destroy_building"
     },
     {
       "id": "wall_pottery_shelf",
@@ -2164,18 +1846,12 @@
       "constructableBaseCategory": 7,
       "placementType": 3,
       "materials": {
-        "keys": [
-          "wood"
-        ],
-        "values": [
-          10
-        ]
+        "keys": ["wood"],
+        "values": [10]
       },
       "storageBase": {
         "capacity": 999,
-        "storableResources": [
-          "wood"
-        ]
+        "storableResources": ["wood"]
       },
       "reachableLevel": 2,
       "cornerReachable": false,
@@ -2202,7 +1878,7 @@
         }
       ],
       "wealthPoints": 26,
-      "destroyParticles": "destroy_pottery_shelf"
+      "destroyParticles": "destroy_building"
     },
     {
       "id": "wall_decoration_christian",
@@ -2219,18 +1895,12 @@
       "constructableBaseCategory": 7,
       "placementType": 3,
       "materials": {
-        "keys": [
-          "wood"
-        ],
-        "values": [
-          10
-        ]
+        "keys": ["wood"],
+        "values": [10]
       },
       "storageBase": {
         "capacity": 999,
-        "storableResources": [
-          "wood"
-        ]
+        "storableResources": ["wood"]
       },
       "reachableLevel": 2,
       "cornerReachable": false,
@@ -2257,7 +1927,7 @@
         }
       ],
       "wealthPoints": 26,
-      "destroyParticles": "destroy_wood_floor"
+      "destroyParticles": "destroy_building"
     },
     {
       "id": "wall_decoration_pagan",
@@ -2274,18 +1944,12 @@
       "constructableBaseCategory": 7,
       "placementType": 3,
       "materials": {
-        "keys": [
-          "wood"
-        ],
-        "values": [
-          10
-        ]
+        "keys": ["wood"],
+        "values": [10]
       },
       "storageBase": {
         "capacity": 999,
-        "storableResources": [
-          "wood"
-        ]
+        "storableResources": ["wood"]
       },
       "reachableLevel": 2,
       "cornerReachable": false,
@@ -2312,7 +1976,7 @@
         }
       ],
       "wealthPoints": 26,
-      "destroyParticles": "destroy_wood_floor"
+      "destroyParticles": "destroy_building"
     },
     {
       "id": "wall_tool_shelf",
@@ -2329,18 +1993,12 @@
       "constructableBaseCategory": 7,
       "placementType": 3,
       "materials": {
-        "keys": [
-          "wood"
-        ],
-        "values": [
-          10
-        ]
+        "keys": ["wood"],
+        "values": [10]
       },
       "storageBase": {
         "capacity": 999,
-        "storableResources": [
-          "wood"
-        ]
+        "storableResources": ["wood"]
       },
       "reachableLevel": 2,
       "cornerReachable": false,
@@ -2367,7 +2025,7 @@
         }
       ],
       "wealthPoints": 26,
-      "destroyParticles": "destroy_wood_floor"
+      "destroyParticles": "destroy_building"
     },
     {
       "id": "shrine_christian_wood",
@@ -2384,18 +2042,12 @@
       "constructableBaseCategory": 4,
       "placementType": 0,
       "materials": {
-        "keys": [
-          "wood"
-        ],
-        "values": [
-          80
-        ]
+        "keys": ["wood"],
+        "values": [80]
       },
       "storageBase": {
         "capacity": 999,
-        "storableResources": [
-          "wood"
-        ]
+        "storableResources": ["wood"]
       },
       "reachableLevel": 2,
       "cornerReachable": false,
@@ -2423,7 +2075,7 @@
         }
       ],
       "wealthPoints": 146,
-      "destroyParticles": "destroy_wood_floor"
+      "destroyParticles": "destroy_building"
     },
     {
       "id": "shrine_pagan_wood",
@@ -2440,18 +2092,12 @@
       "constructableBaseCategory": 4,
       "placementType": 0,
       "materials": {
-        "keys": [
-          "wood"
-        ],
-        "values": [
-          80
-        ]
+        "keys": ["wood"],
+        "values": [80]
       },
       "storageBase": {
         "capacity": 999,
-        "storableResources": [
-          "wood"
-        ]
+        "storableResources": ["wood"]
       },
       "reachableLevel": 2,
       "cornerReachable": false,
@@ -2479,7 +2125,7 @@
         }
       ],
       "wealthPoints": 146,
-      "destroyParticles": "destroy_wood_floor"
+      "destroyParticles": "destroy_building"
     },
     {
       "id": "shrine_christian_stone",
@@ -2496,18 +2142,12 @@
       "constructableBaseCategory": 4,
       "placementType": 0,
       "materials": {
-        "keys": [
-          "limestone"
-        ],
-        "values": [
-          80
-        ]
+        "keys": ["limestone"],
+        "values": [80]
       },
       "storageBase": {
         "capacity": 999,
-        "storableResources": [
-          "limestone"
-        ]
+        "storableResources": ["limestone"]
       },
       "reachableLevel": 2,
       "cornerReachable": false,
@@ -2535,7 +2175,7 @@
         }
       ],
       "wealthPoints": 154,
-      "destroyParticles": "destroy_limestone_block_wall"
+      "destroyParticles": "destroy_building"
     },
     {
       "id": "shrine_pagan_stone",
@@ -2552,18 +2192,12 @@
       "constructableBaseCategory": 4,
       "placementType": 0,
       "materials": {
-        "keys": [
-          "limestone"
-        ],
-        "values": [
-          80
-        ]
+        "keys": ["limestone"],
+        "values": [80]
       },
       "storageBase": {
         "capacity": 999,
-        "storableResources": [
-          "limestone"
-        ]
+        "storableResources": ["limestone"]
       },
       "reachableLevel": 2,
       "cornerReachable": false,
@@ -2591,7 +2225,7 @@
         }
       ],
       "wealthPoints": 154,
-      "destroyParticles": "destroy_limestone_block_wall"
+      "destroyParticles": "destroy_building"
     },
     {
       "id": "backgammon_table",
@@ -2608,18 +2242,12 @@
       "constructableBaseCategory": 4,
       "placementType": 0,
       "materials": {
-        "keys": [
-          "wood"
-        ],
-        "values": [
-          75
-        ]
+        "keys": ["wood"],
+        "values": [75]
       },
       "storageBase": {
         "capacity": 999,
-        "storableResources": [
-          "wood"
-        ]
+        "storableResources": ["wood"]
       },
       "reachableLevel": 2,
       "cornerReachable": false,
@@ -2648,7 +2276,7 @@
       ],
       "wealthPoints": 135,
       "interactAnimation": "Backgammon",
-      "destroyParticles": "destroy_wood_floor"
+      "destroyParticles": "destroy_building"
     },
     {
       "id": "wicker_fence",
@@ -2665,18 +2293,12 @@
       "constructableBaseCategory": 3,
       "placementType": 1,
       "materials": {
-        "keys": [
-          "sticks"
-        ],
-        "values": [
-          1
-        ]
+        "keys": ["sticks"],
+        "values": [1]
       },
       "storageBase": {
         "capacity": 999,
-        "storableResources": [
-          "sticks"
-        ]
+        "storableResources": ["sticks"]
       },
       "reachableLevel": 7,
       "cornerReachable": true,
@@ -2721,18 +2343,12 @@
       "constructableBaseCategory": 3,
       "placementType": 0,
       "materials": {
-        "keys": [
-          "sticks"
-        ],
-        "values": [
-          1
-        ]
+        "keys": ["sticks"],
+        "values": [1]
       },
       "storageBase": {
         "capacity": 999,
-        "storableResources": [
-          "sticks"
-        ]
+        "storableResources": ["sticks"]
       },
       "reachableLevel": 7,
       "cornerReachable": true,

@@ -15,18 +15,12 @@
       "constructableBaseCategory": 2,
       "placementType": 0,
       "materials": {
-        "keys": [
-          "wood"
-        ],
-        "values": [
-          50
-        ]
+        "keys": ["wood"],
+        "values": [50]
       },
       "storageBase": {
         "capacity": 999,
-        "storableResources": [
-          "wood"
-        ]
+        "storableResources": ["wood"]
       },
       "reachableLevel": 2,
       "cornerReachable": false,
@@ -56,7 +50,7 @@
       "productionSpeedMultiplier": {
         "outside": 0.8,
         "inside": 1.2,
-        "roofed": 1,
+        "roofed": 10,
         "outsideRain": 0.5,
         "outsideSnow": 0.45,
         "outsideFog": 0.9
@@ -65,9 +59,7 @@
       "interactAnimation": "MeatChopping",
       "interactTool": "cleaver_item",
       "destroyParticles": "destroy_building",
-      "productions": [
-        "meat"
-      ]
+      "productions": ["meat"]
     },
     {
       "id": "camp_fire",
@@ -84,18 +76,12 @@
       "constructableBaseCategory": 2,
       "placementType": 0,
       "materials": {
-        "keys": [
-          "wood"
-        ],
-        "values": [
-          15
-        ]
+        "keys": ["wood"],
+        "values": [15]
       },
       "storageBase": {
         "capacity": 999,
-        "storableResources": [
-          "wood"
-        ]
+        "storableResources": ["wood"]
       },
       "reachableLevel": 2,
       "cornerReachable": false,
@@ -125,7 +111,7 @@
       "productionSpeedMultiplier": {
         "outside": 1,
         "inside": 1,
-        "roofed": 1,
+        "roofed": 10,
         "outsideRain": 0.8,
         "outsideSnow": 0.78,
         "outsideFog": 0.9
@@ -136,10 +122,7 @@
       "thermalModelID": "torch_off",
       "thermalModelIDSecondary": "camp_fire",
       "destroyParticles": "destroy_building",
-      "productions": [
-        "meal",
-        "packaged_meal"
-      ]
+      "productions": ["meal", "packaged_meal"]
     },
     {
       "id": "smokehouse",
@@ -156,18 +139,12 @@
       "constructableBaseCategory": 2,
       "placementType": 0,
       "materials": {
-        "keys": [
-          "clay"
-        ],
-        "values": [
-          40
-        ]
+        "keys": ["clay"],
+        "values": [40]
       },
       "storageBase": {
         "capacity": 999,
-        "storableResources": [
-          "clay"
-        ]
+        "storableResources": ["clay"]
       },
       "reachableLevel": 2,
       "cornerReachable": false,
@@ -197,7 +174,7 @@
       "productionSpeedMultiplier": {
         "outside": 1,
         "inside": 0.6,
-        "roofed": 1,
+        "roofed": 10,
         "outsideRain": 1,
         "outsideSnow": 1,
         "outsideFog": 1
@@ -206,9 +183,7 @@
       "interactAnimation": "FirePoking",
       "interactTool": "firepoker_item",
       "destroyParticles": "destroy_building",
-      "productions": [
-        "smoked_meat"
-      ]
+      "productions": ["smoked_meat"]
     },
     {
       "id": "limestone_smokehouse",
@@ -225,18 +200,12 @@
       "constructableBaseCategory": 2,
       "placementType": 0,
       "materials": {
-        "keys": [
-          "limestone"
-        ],
-        "values": [
-          40
-        ]
+        "keys": ["limestone"],
+        "values": [40]
       },
       "storageBase": {
         "capacity": 999,
-        "storableResources": [
-          "limestone"
-        ]
+        "storableResources": ["limestone"]
       },
       "reachableLevel": 2,
       "cornerReachable": false,
@@ -266,7 +235,7 @@
       "productionSpeedMultiplier": {
         "outside": 1,
         "inside": 0.6,
-        "roofed": 1,
+        "roofed": 10,
         "outsideRain": 1,
         "outsideSnow": 1,
         "outsideFog": 1
@@ -275,9 +244,7 @@
       "interactAnimation": "FirePoking",
       "interactTool": "firepoker_item",
       "destroyParticles": "destroy_building",
-      "productions": [
-        "smoked_meat"
-      ]
+      "productions": ["smoked_meat"]
     },
     {
       "id": "limestone_stove",
@@ -294,21 +261,12 @@
       "constructableBaseCategory": 2,
       "placementType": 0,
       "materials": {
-        "keys": [
-          "limestone",
-          "iron_ingot"
-        ],
-        "values": [
-          50,
-          5
-        ]
+        "keys": ["limestone", "iron_ingot"],
+        "values": [50, 5]
       },
       "storageBase": {
         "capacity": 999,
-        "storableResources": [
-          "limestone",
-          "iron_ingot"
-        ]
+        "storableResources": ["limestone", "iron_ingot"]
       },
       "reachableLevel": 2,
       "cornerReachable": false,
@@ -338,13 +296,13 @@
       "productionSpeedMultiplier": {
         "outside": 0.8,
         "inside": 1.2,
-        "roofed": 1,
+        "roofed": 10,
         "outsideRain": 0.5,
         "outsideSnow": 0.45,
         "outsideFog": 0.75
       },
       "wealthPoints": 205,
-      "minBuildSkillRequired": 10,
+      "minBuildSkillRequired": 1,
       "interactAnimation": "VegetableChopping",
       "interactTool": "cooking_knife_item",
       "thermalModelID": "torch_off",
@@ -372,21 +330,12 @@
       "constructableBaseCategory": 2,
       "placementType": 0,
       "materials": {
-        "keys": [
-          "limestone_block",
-          "iron_ingot"
-        ],
-        "values": [
-          50,
-          5
-        ]
+        "keys": ["limestone_block", "iron_ingot"],
+        "values": [1, 1]
       },
       "storageBase": {
         "capacity": 999,
-        "storableResources": [
-          "limestone_block",
-          "iron_ingot"
-        ]
+        "storableResources": ["limestone_block", "iron_ingot"]
       },
       "reachableLevel": 2,
       "cornerReachable": false,
@@ -416,13 +365,13 @@
       "productionSpeedMultiplier": {
         "outside": 0.8,
         "inside": 1.2,
-        "roofed": 1,
+        "roofed": 10,
         "outsideRain": 0.5,
         "outsideSnow": 0.45,
         "outsideFog": 0.75
       },
       "wealthPoints": 305,
-      "minBuildSkillRequired": 10,
+      "minBuildSkillRequired": 1,
       "interactAnimation": "VegetableChopping",
       "interactTool": "cooking_knife_item",
       "thermalModelID": "torch_off",
@@ -450,21 +399,12 @@
       "constructableBaseCategory": 2,
       "placementType": 0,
       "materials": {
-        "keys": [
-          "clay_brick",
-          "iron_ingot"
-        ],
-        "values": [
-          50,
-          5
-        ]
+        "keys": ["clay_brick", "iron_ingot"],
+        "values": [50, 5]
       },
       "storageBase": {
         "capacity": 999,
-        "storableResources": [
-          "clay_brick",
-          "iron_ingot"
-        ]
+        "storableResources": ["clay_brick", "iron_ingot"]
       },
       "reachableLevel": 2,
       "cornerReachable": false,
@@ -494,13 +434,13 @@
       "productionSpeedMultiplier": {
         "outside": 0.8,
         "inside": 1.2,
-        "roofed": 1,
+        "roofed": 10,
         "outsideRain": 0.5,
         "outsideSnow": 0.45,
         "outsideFog": 0.75
       },
       "wealthPoints": 305,
-      "minBuildSkillRequired": 10,
+      "minBuildSkillRequired": 1,
       "interactAnimation": "VegetableChopping",
       "interactTool": "cooking_knife_item",
       "thermalModelID": "torch_off",
@@ -528,18 +468,12 @@
       "constructableBaseCategory": 2,
       "placementType": 0,
       "materials": {
-        "keys": [
-          "wood"
-        ],
-        "values": [
-          50
-        ]
+        "keys": ["wood"],
+        "values": [50]
       },
       "storageBase": {
         "capacity": 999,
-        "storableResources": [
-          "wood"
-        ]
+        "storableResources": ["wood"]
       },
       "reachableLevel": 2,
       "cornerReachable": false,
@@ -569,7 +503,7 @@
       "productionSpeedMultiplier": {
         "outside": 0.8,
         "inside": 1.05,
-        "roofed": 1,
+        "roofed": 10,
         "outsideRain": 0.5,
         "outsideSnow": 0.45,
         "outsideFog": 0.75
@@ -579,12 +513,7 @@
       "thermalModelID": "torch_off",
       "thermalModelIDSecondary": "stove",
       "destroyParticles": "destroy_building",
-      "productions": [
-        "rough_wine",
-        "ale",
-        "beer",
-        "vinegar"
-      ]
+      "productions": ["rough_wine", "ale", "beer", "vinegar"]
     },
     {
       "id": "spirit_destilary",
@@ -601,21 +530,12 @@
       "constructableBaseCategory": 2,
       "placementType": 0,
       "materials": {
-        "keys": [
-          "limestone_block",
-          "iron_ingot"
-        ],
-        "values": [
-          50,
-          20
-        ]
+        "keys": ["limestone_block", "iron_ingot"],
+        "values": [50, 20]
       },
       "storageBase": {
         "capacity": 999,
-        "storableResources": [
-          "limestone_block",
-          "iron_ingot"
-        ]
+        "storableResources": ["limestone_block", "iron_ingot"]
       },
       "reachableLevel": 2,
       "cornerReachable": false,
@@ -645,19 +565,17 @@
       "productionSpeedMultiplier": {
         "outside": 0.8,
         "inside": 1.05,
-        "roofed": 1,
+        "roofed": 10,
         "outsideRain": 0.9,
         "outsideSnow": 0.85,
         "outsideFog": 0.95
       },
       "wealthPoints": 390,
-      "minBuildSkillRequired": 10,
+      "minBuildSkillRequired": 1,
       "interactAnimation": "FirePoking",
       "interactTool": "firepoker_item",
       "destroyParticles": "destroy_building",
-      "productions": [
-        "alcohol"
-      ]
+      "productions": ["alcohol"]
     },
     {
       "id": "apothecary_bench",
@@ -674,18 +592,12 @@
       "constructableBaseCategory": 2,
       "placementType": 0,
       "materials": {
-        "keys": [
-          "wood"
-        ],
-        "values": [
-          50
-        ]
+        "keys": ["wood"],
+        "values": [50]
       },
       "storageBase": {
         "capacity": 999,
-        "storableResources": [
-          "wood"
-        ]
+        "storableResources": ["wood"]
       },
       "reachableLevel": 2,
       "cornerReachable": false,
@@ -714,14 +626,14 @@
       ],
       "productionSpeedMultiplier": {
         "outside": 0.8,
-        "inside": 1.1,
-        "roofed": 1,
+        "inside": 20.1,
+        "roofed": 10,
         "outsideRain": 0.5,
         "outsideSnow": 0.45,
         "outsideFog": 0.75
       },
       "wealthPoints": 250,
-      "minBuildSkillRequired": 10,
+      "minBuildSkillRequired": 1,
       "destroyParticles": "destroy_building",
       "productions": [
         "healing_kit_simple",
@@ -744,21 +656,12 @@
       "constructableBaseCategory": 2,
       "placementType": 0,
       "materials": {
-        "keys": [
-          "wood",
-          "iron_ingot"
-        ],
-        "values": [
-          80,
-          5
-        ]
+        "keys": ["wood", "iron_ingot"],
+        "values": [80, 5]
       },
       "storageBase": {
         "capacity": 999,
-        "storableResources": [
-          "wood",
-          "iron_ingot"
-        ]
+        "storableResources": ["wood", "iron_ingot"]
       },
       "reachableLevel": 2,
       "cornerReachable": false,
@@ -787,8 +690,8 @@
       ],
       "productionSpeedMultiplier": {
         "outside": 0.8,
-        "inside": 1.1,
-        "roofed": 1,
+        "inside": 20.1,
+        "roofed": 10,
         "outsideRain": 0.5,
         "outsideSnow": 0.45,
         "outsideFog": 0.75
@@ -830,18 +733,12 @@
       "constructableBaseCategory": 2,
       "placementType": 0,
       "materials": {
-        "keys": [
-          "wood"
-        ],
-        "values": [
-          80
-        ]
+        "keys": ["wood"],
+        "values": [80]
       },
       "storageBase": {
         "capacity": 999,
-        "storableResources": [
-          "wood"
-        ]
+        "storableResources": ["wood"]
       },
       "reachableLevel": 2,
       "cornerReachable": false,
@@ -870,8 +767,8 @@
       ],
       "productionSpeedMultiplier": {
         "outside": 0.8,
-        "inside": 1.1,
-        "roofed": 1,
+        "inside": 20.1,
+        "roofed": 10,
         "outsideRain": 0.5,
         "outsideSnow": 0.45,
         "outsideFog": 0.75
@@ -903,18 +800,12 @@
       "constructableBaseCategory": 2,
       "placementType": 0,
       "materials": {
-        "keys": [
-          "limestone_block"
-        ],
-        "values": [
-          100
-        ]
+        "keys": ["limestone_block"],
+        "values": [100]
       },
       "storageBase": {
         "capacity": 999,
-        "storableResources": [
-          "limestone_block"
-        ]
+        "storableResources": ["limestone_block"]
       },
       "reachableLevel": 2,
       "cornerReachable": false,
@@ -943,14 +834,14 @@
       ],
       "productionSpeedMultiplier": {
         "outside": 0.8,
-        "inside": 1.1,
-        "roofed": 1,
+        "inside": 20.1,
+        "roofed": 10,
         "outsideRain": 0.5,
         "outsideSnow": 0.45,
         "outsideFog": 0.75
       },
       "wealthPoints": 470,
-      "minBuildSkillRequired": 10,
+      "minBuildSkillRequired": 1,
       "interactAnimation": "TableHammering",
       "interactTool": "hammer_item",
       "thermalModelID": "torch_off",
@@ -983,18 +874,12 @@
       "constructableBaseCategory": 2,
       "placementType": 0,
       "materials": {
-        "keys": [
-          "clay_brick"
-        ],
-        "values": [
-          100
-        ]
+        "keys": ["clay_brick"],
+        "values": [100]
       },
       "storageBase": {
         "capacity": 999,
-        "storableResources": [
-          "clay_brick"
-        ]
+        "storableResources": ["clay_brick"]
       },
       "reachableLevel": 2,
       "cornerReachable": false,
@@ -1023,14 +908,14 @@
       ],
       "productionSpeedMultiplier": {
         "outside": 0.8,
-        "inside": 1.1,
-        "roofed": 1,
+        "inside": 20.1,
+        "roofed": 10,
         "outsideRain": 0.5,
         "outsideSnow": 0.45,
         "outsideFog": 0.75
       },
       "wealthPoints": 470,
-      "minBuildSkillRequired": 10,
+      "minBuildSkillRequired": 1,
       "interactAnimation": "TableHammering",
       "interactTool": "hammer_item",
       "thermalModelID": "torch_off",
@@ -1063,18 +948,12 @@
       "constructableBaseCategory": 2,
       "placementType": 0,
       "materials": {
-        "keys": [
-          "wood"
-        ],
-        "values": [
-          60
-        ]
+        "keys": ["wood"],
+        "values": [60]
       },
       "storageBase": {
         "capacity": 999,
-        "storableResources": [
-          "wood"
-        ]
+        "storableResources": ["wood"]
       },
       "reachableLevel": 2,
       "cornerReachable": false,
@@ -1103,8 +982,8 @@
       ],
       "productionSpeedMultiplier": {
         "outside": 0.8,
-        "inside": 1.1,
-        "roofed": 1,
+        "inside": 20.1,
+        "roofed": 10,
         "outsideRain": 0.2,
         "outsideSnow": 0.18,
         "outsideFog": 0.5
@@ -1112,9 +991,7 @@
       "wealthPoints": 160,
       "interactAnimation": "Reading",
       "destroyParticles": "destroy_building",
-      "productions": [
-        "basic_research_book"
-      ]
+      "productions": ["basic_research_book"]
     },
     {
       "id": "research_table",
@@ -1131,18 +1008,12 @@
       "constructableBaseCategory": 2,
       "placementType": 0,
       "materials": {
-        "keys": [
-          "wood"
-        ],
-        "values": [
-          80
-        ]
+        "keys": ["wood"],
+        "values": [80]
       },
       "storageBase": {
         "capacity": 999,
-        "storableResources": [
-          "wood"
-        ]
+        "storableResources": ["wood"]
       },
       "reachableLevel": 2,
       "cornerReachable": false,
@@ -1171,19 +1042,17 @@
       ],
       "productionSpeedMultiplier": {
         "outside": 0.8,
-        "inside": 1.1,
-        "roofed": 1,
+        "inside": 20.1,
+        "roofed": 10,
         "outsideRain": 0.2,
         "outsideSnow": 0.18,
         "outsideFog": 0.5
       },
       "wealthPoints": 220,
-      "minBuildSkillRequired": 10,
+      "minBuildSkillRequired": 1,
       "interactAnimation": "Reading",
       "destroyParticles": "destroy_building",
-      "productions": [
-        "normal_research_book"
-      ]
+      "productions": ["normal_research_book"]
     },
     {
       "id": "advanced_research_table",
@@ -1200,21 +1069,12 @@
       "constructableBaseCategory": 2,
       "placementType": 0,
       "materials": {
-        "keys": [
-          "wood",
-          "mechanical_parts"
-        ],
-        "values": [
-          120,
-          5
-        ]
+        "keys": ["wood", "mechanical_parts"],
+        "values": [120, 5]
       },
       "storageBase": {
         "capacity": 999,
-        "storableResources": [
-          "wood",
-          "mechanical_parts"
-        ]
+        "storableResources": ["wood", "mechanical_parts"]
       },
       "reachableLevel": 2,
       "cornerReachable": false,
@@ -1243,19 +1103,17 @@
       ],
       "productionSpeedMultiplier": {
         "outside": 0.8,
-        "inside": 1.1,
-        "roofed": 1,
+        "inside": 20.1,
+        "roofed": 10,
         "outsideRain": 0.2,
         "outsideSnow": 0.18,
         "outsideFog": 0.5
       },
       "wealthPoints": 460,
-      "minBuildSkillRequired": 15,
+      "minBuildSkillRequired": 1,
       "interactAnimation": "Reading",
       "destroyParticles": "destroy_building",
-      "productions": [
-        "advanced_research_book"
-      ]
+      "productions": ["advanced_research_book"]
     },
     {
       "id": "woodwork_bench",
@@ -1272,18 +1130,12 @@
       "constructableBaseCategory": 2,
       "placementType": 0,
       "materials": {
-        "keys": [
-          "wood"
-        ],
-        "values": [
-          60
-        ]
+        "keys": ["wood"],
+        "values": [60]
       },
       "storageBase": {
         "capacity": 999,
-        "storableResources": [
-          "wood"
-        ]
+        "storableResources": ["wood"]
       },
       "reachableLevel": 2,
       "cornerReachable": false,
@@ -1312,8 +1164,8 @@
       ],
       "productionSpeedMultiplier": {
         "outside": 0.8,
-        "inside": 1.1,
-        "roofed": 1,
+        "inside": 20.1,
+        "roofed": 10,
         "outsideRain": 0.5,
         "outsideSnow": 0.18,
         "outsideFog": 0.75
@@ -1345,18 +1197,12 @@
       "constructableBaseCategory": 2,
       "placementType": 0,
       "materials": {
-        "keys": [
-          "wood"
-        ],
-        "values": [
-          80
-        ]
+        "keys": ["wood"],
+        "values": [80]
       },
       "storageBase": {
         "capacity": 999,
-        "storableResources": [
-          "wood"
-        ]
+        "storableResources": ["wood"]
       },
       "reachableLevel": 2,
       "cornerReachable": false,
@@ -1385,8 +1231,8 @@
       ],
       "productionSpeedMultiplier": {
         "outside": 0.8,
-        "inside": 1.1,
-        "roofed": 1,
+        "inside": 20.1,
+        "roofed": 10,
         "outsideRain": 0.8,
         "outsideSnow": 0.75,
         "outsideFog": 0.85
@@ -1395,9 +1241,7 @@
       "interactAnimation": "TableHammering",
       "interactTool": "hammer_item",
       "destroyParticles": "destroy_building",
-      "productions": [
-        "limestone_block"
-      ]
+      "productions": ["limestone_block"]
     },
     {
       "id": "smelting_station",
@@ -1414,18 +1258,12 @@
       "constructableBaseCategory": 2,
       "placementType": 0,
       "materials": {
-        "keys": [
-          "clay"
-        ],
-        "values": [
-          70
-        ]
+        "keys": ["clay"],
+        "values": [70]
       },
       "storageBase": {
         "capacity": 999,
-        "storableResources": [
-          "clay"
-        ]
+        "storableResources": ["clay"]
       },
       "reachableLevel": 2,
       "cornerReachable": false,
@@ -1455,7 +1293,7 @@
       "productionSpeedMultiplier": {
         "outside": 1,
         "inside": 0.6,
-        "roofed": 1,
+        "roofed": 10,
         "outsideRain": 1,
         "outsideSnow": 1,
         "outsideFog": 1
@@ -1488,18 +1326,12 @@
       "constructableBaseCategory": 2,
       "placementType": 0,
       "materials": {
-        "keys": [
-          "limestone"
-        ],
-        "values": [
-          70
-        ]
+        "keys": ["limestone"],
+        "values": [70]
       },
       "storageBase": {
         "capacity": 999,
-        "storableResources": [
-          "limestone"
-        ]
+        "storableResources": ["limestone"]
       },
       "reachableLevel": 2,
       "cornerReachable": false,
@@ -1529,7 +1361,7 @@
       "productionSpeedMultiplier": {
         "outside": 1,
         "inside": 0.6,
-        "roofed": 1,
+        "roofed": 10,
         "outsideRain": 1,
         "outsideSnow": 1,
         "outsideFog": 1
@@ -1562,18 +1394,12 @@
       "constructableBaseCategory": 2,
       "placementType": 0,
       "materials": {
-        "keys": [
-          "clay"
-        ],
-        "values": [
-          50
-        ]
+        "keys": ["clay"],
+        "values": [50]
       },
       "storageBase": {
         "capacity": 999,
-        "storableResources": [
-          "clay"
-        ]
+        "storableResources": ["clay"]
       },
       "reachableLevel": 2,
       "cornerReachable": false,
@@ -1603,7 +1429,7 @@
       "productionSpeedMultiplier": {
         "outside": 1,
         "inside": 0.6,
-        "roofed": 1,
+        "roofed": 10,
         "outsideRain": 1,
         "outsideSnow": 1,
         "outsideFog": 1
@@ -1614,10 +1440,7 @@
       "thermalModelID": "torch_off",
       "thermalModelIDSecondary": "stove",
       "destroyParticles": "destroy_building",
-      "productions": [
-        "clay_brick",
-        "coal"
-      ]
+      "productions": ["clay_brick", "coal"]
     },
     {
       "id": "limestone_kiln",
@@ -1634,18 +1457,12 @@
       "constructableBaseCategory": 2,
       "placementType": 0,
       "materials": {
-        "keys": [
-          "limestone"
-        ],
-        "values": [
-          50
-        ]
+        "keys": ["limestone"],
+        "values": [50]
       },
       "storageBase": {
         "capacity": 999,
-        "storableResources": [
-          "limestone"
-        ]
+        "storableResources": ["limestone"]
       },
       "reachableLevel": 2,
       "cornerReachable": false,
@@ -1675,7 +1492,7 @@
       "productionSpeedMultiplier": {
         "outside": 1,
         "inside": 0.6,
-        "roofed": 1,
+        "roofed": 10,
         "outsideRain": 1,
         "outsideSnow": 1,
         "outsideFog": 1
@@ -1686,10 +1503,7 @@
       "thermalModelID": "torch_off",
       "thermalModelIDSecondary": "stove",
       "destroyParticles": "destroy_building",
-      "productions": [
-        "clay_brick",
-        "coal"
-      ]
+      "productions": ["clay_brick", "coal"]
     },
     {
       "id": "sewing_station",
@@ -1706,18 +1520,12 @@
       "constructableBaseCategory": 2,
       "placementType": 0,
       "materials": {
-        "keys": [
-          "wood"
-        ],
-        "values": [
-          80
-        ]
+        "keys": ["wood"],
+        "values": [80]
       },
       "storageBase": {
         "capacity": 999,
-        "storableResources": [
-          "wood"
-        ]
+        "storableResources": ["wood"]
       },
       "reachableLevel": 2,
       "cornerReachable": false,
@@ -1747,7 +1555,7 @@
       "productionSpeedMultiplier": {
         "outside": 0.8,
         "inside": 1.2,
-        "roofed": 1,
+        "roofed": 10,
         "outsideRain": 0.5,
         "outsideSnow": 0.45,
         "outsideFog": 0.9
@@ -1778,18 +1586,12 @@
       "constructableBaseCategory": 2,
       "placementType": 0,
       "materials": {
-        "keys": [
-          "wood"
-        ],
-        "values": [
-          15
-        ]
+        "keys": ["wood"],
+        "values": [15]
       },
       "storageBase": {
         "capacity": 999,
-        "storableResources": [
-          "wood"
-        ]
+        "storableResources": ["wood"]
       },
       "reachableLevel": 2,
       "cornerReachable": false,
@@ -1828,9 +1630,7 @@
       "thermalModelID": "torch_off",
       "thermalModelIDSecondary": "camp_fire",
       "destroyParticles": "destroy_building",
-      "productions": [
-        "burn_body"
-      ]
+      "productions": ["burn_body"]
     }
   ]
 }

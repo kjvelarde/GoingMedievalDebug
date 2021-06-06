@@ -14,30 +14,17 @@
         "agriculture_lvl1"
       ],
       "requiredResources": {
-        "keys": [
-          "basic_research_book"
-        ],
-        "values": [
-          15
-        ]
+        "keys": ["basic_research_book"],
+        "values": [15]
       },
-      "unlocks": [
-        "wood_beam"
-      ]
+      "unlocks": ["wood_beam"]
     },
     {
       "id": "agriculture_lvl1",
-      "nextNodesIDs": [
-        "preserving_food_lvl1",
-        "brewing_lvl1"
-      ],
+      "nextNodesIDs": ["preserving_food_lvl1", "brewing_lvl1"],
       "requiredResources": {
-        "keys": [
-          "basic_research_book"
-        ],
-        "values": [
-          15
-        ]
+        "keys": ["basic_research_book"],
+        "values": [15]
       },
       "unlocks": [
         "cabbage_cropfield",
@@ -54,140 +41,68 @@
     {
       "id": "brewing_lvl1",
       "requiredResources": {
-        "keys": [
-          "basic_research_book"
-        ],
-        "values": [
-          15
-        ]
+        "keys": ["basic_research_book"],
+        "values": [15]
       },
-      "unlocks": [
-        "brewing_station",
-        "ale",
-        "beer",
-        "rough_wine"
-      ]
+      "unlocks": ["brewing_station", "ale", "beer", "rough_wine"]
     },
     {
       "id": "research_tier_02",
-      "nextNodesIDs": [
-        "research_tier_03"
-      ],
+      "nextNodesIDs": ["research_tier_03"],
       "requiredResources": {
-        "keys": [
-          "basic_research_book"
-        ],
-        "values": [
-          30
-        ]
+        "keys": ["basic_research_book"],
+        "values": [30]
       },
-      "unlocks": [
-        "research_table",
-        "normal_research_book"
-      ]
+      "unlocks": ["research_table", "normal_research_book"]
     },
     {
       "id": "research_tier_03",
       "requiredResources": {
-        "keys": [
-          "basic_research_book",
-          "normal_research_book"
-        ],
-        "values": [
-          30,
-          30
-        ]
+        "keys": ["basic_research_book", "normal_research_book"],
+        "values": [30, 30]
       },
-      "unlocks": [
-        "advanced_research_table",
-        "advanced_research_book"
-      ]
+      "unlocks": ["advanced_research_table", "advanced_research_book"]
     },
     {
       "id": "clothing_production_lvl1",
-      "nextNodesIDs": [
-        "armor_production_lvl1"
-      ],
+      "nextNodesIDs": ["armor_production_lvl1"],
       "requiredResources": {
-        "keys": [
-          "basic_research_book"
-        ],
-        "values": [
-          20
-        ]
+        "keys": ["basic_research_book"],
+        "values": [20]
       },
-      "unlocks": [
-        "sewing_station",
-        "cap",
-        "winter_clothes",
-        "summer_clothes"
-      ]
+      "unlocks": ["sewing_station", "cap", "winter_clothes", "summer_clothes"]
     },
     {
       "id": "preserving_food_lvl1",
-      "nextNodesIDs": [
-        "cooking_lvl1"
-      ],
+      "nextNodesIDs": ["cooking_lvl1"],
       "requiredResources": {
-        "keys": [
-          "basic_research_book"
-        ],
-        "values": [
-          20
-        ]
+        "keys": ["basic_research_book"],
+        "values": [1]
       },
-      "unlocks": [
-        "smokehouse",
-        "limestone_smokehouse",
-        "smoked_meat"
-      ]
+      "unlocks": ["smokehouse", "limestone_smokehouse", "smoked_meat"]
     },
     {
       "id": "preserving_food_lvl2",
       "requiredResources": {
-        "keys": [
-          "basic_research_book",
-          "normal_research_book"
-        ],
-        "values": [
-          30,
-          20
-        ]
+        "keys": ["basic_research_book", "normal_research_book"],
+        "values": [3, 2]
       },
-      "unlocks": [
-        "packaged_meal"
-      ]
+      "unlocks": ["packaged_meal"]
     },
     {
       "id": "furniture_lvl1",
-      "nextNodesIDs": [
-        "deocrations_lvl1",
-        "furniture_lvl2",
-        "banners_lvl1"
-      ],
+      "nextNodesIDs": ["deocrations_lvl1", "furniture_lvl2", "banners_lvl1"],
       "requiredResources": {
-        "keys": [
-          "basic_research_book"
-        ],
-        "values": [
-          15
-        ]
+        "keys": ["basic_research_book"],
+        "values": [1]
       },
-      "unlocks": [
-        "hay_wood_bed",
-        "wood_chair",
-        "stone_chair"
-      ]
+      "unlocks": ["hay_wood_bed", "wood_chair", "stone_chair"]
     },
     {
       "id": "deocrations_lvl1",
       "requiredResources": {
-        "keys": [
-          "basic_research_book"
-        ],
-        "values": [
-          15
-        ]
+        "keys": ["basic_research_book"],
+        "values": [1]
       },
       "unlocks": [
         "wall_shield_decoration",
@@ -202,80 +117,42 @@
     {
       "id": "stone_block_production_lvl1",
       "requiredResources": {
-        "keys": [
-          "basic_research_book"
-        ],
-        "values": [
-          20
-        ]
+        "keys": ["basic_research_book"],
+        "values": [1]
       },
-      "unlocks": [
-        "stonemasons_bench",
-        "limestone_block"
-      ]
+      "unlocks": ["stonemasons_bench", "limestone_block"]
     },
     {
       "id": "defensive_constructions_lvl1",
-      "nextNodesIDs": [
-        "defensive_constructions_lvl2"
-      ],
+      "nextNodesIDs": ["defensive_constructions_lvl2"],
       "requiredResources": {
-        "keys": [
-          "basic_research_book"
-        ],
-        "values": [
-          30
-        ]
+        "keys": ["basic_research_book"],
+        "values": [1]
       },
-      "unlocks": [
-        "wood_trap",
-        "reinforced_door"
-      ]
+      "unlocks": ["wood_trap", "reinforced_door"]
     },
     {
       "id": "defensive_constructions_lvl2",
       "requiredResources": {
-        "keys": [
-          "basic_research_book"
-        ],
-        "values": [
-          30
-        ]
+        "keys": ["basic_research_book"],
+        "values": [1]
       },
-      "unlocks": [
-        "metal_trap"
-      ]
+      "unlocks": ["metal_trap"]
     },
     {
       "id": "clay_brick_production_lvl1",
       "requiredResources": {
-        "keys": [
-          "basic_research_book"
-        ],
-        "values": [
-          20
-        ]
+        "keys": ["basic_research_book"],
+        "values": [1]
       },
-      "unlocks": [
-        "kiln",
-        "limestone_kiln",
-        "clay_brick",
-        "coal"
-      ]
+      "unlocks": ["kiln", "limestone_kiln", "clay_brick", "coal"]
     },
     {
       "id": "iron_smelting_lvl1",
-      "nextNodesIDs": [
-        "blacksmithing_lvl1",
-        "steel_smelting"
-      ],
+      "nextNodesIDs": ["blacksmithing_lvl1", "steel_smelting"],
       "requiredResources": {
-        "keys": [
-          "basic_research_book"
-        ],
-        "values": [
-          30
-        ]
+        "keys": ["basic_research_book"],
+        "values": [1]
       },
       "unlocks": [
         "smelting_station",
@@ -287,32 +164,17 @@
     {
       "id": "steel_smelting",
       "requiredResources": {
-        "keys": [
-          "basic_research_book",
-          "normal_research_book"
-        ],
-        "values": [
-          30,
-          15
-        ]
+        "keys": ["basic_research_book", "normal_research_book"],
+        "values": [1, 1]
       },
-      "unlocks": [
-        "steel_ingot"
-      ]
+      "unlocks": ["steel_ingot"]
     },
     {
       "id": "armor_production_lvl1",
-      "nextNodesIDs": [
-        "armor_production_lvl2",
-        "shield_production_lvl2"
-      ],
+      "nextNodesIDs": ["armor_production_lvl2", "shield_production_lvl2"],
       "requiredResources": {
-        "keys": [
-          "basic_research_book"
-        ],
-        "values": [
-          30
-        ]
+        "keys": ["basic_research_book"],
+        "values": [1]
       },
       "unlocks": [
         "armourer_table",
@@ -324,23 +186,12 @@
     },
     {
       "id": "armor_production_lvl2",
-      "nextNodesIDs": [
-        "armor_production_lvl3"
-      ],
+      "nextNodesIDs": ["armor_production_lvl3"],
       "requiredResources": {
-        "keys": [
-          "basic_research_book",
-          "normal_research_book"
-        ],
-        "values": [
-          30,
-          15
-        ]
+        "keys": ["basic_research_book", "normal_research_book"],
+        "values": [3, 1]
       },
-      "unlocks": [
-        "mail_armor",
-        "mail_helmet"
-      ]
+      "unlocks": ["mail_armor", "mail_helmet"]
     },
     {
       "id": "armor_production_lvl3",
@@ -350,35 +201,18 @@
           "normal_research_book",
           "advanced_research_book"
         ],
-        "values": [
-          30,
-          15,
-          15
-        ]
+        "values": [3, 1, 1]
       },
-      "unlocks": [
-        "plate_armor",
-        "plate_helmet"
-      ]
+      "unlocks": ["plate_armor", "plate_helmet"]
     },
     {
       "id": "shield_production_lvl2",
-      "nextNodesIDs": [
-        "shield_production_lvl3"
-      ],
+      "nextNodesIDs": ["shield_production_lvl3"],
       "requiredResources": {
-        "keys": [
-          "basic_research_book",
-          "normal_research_book"
-        ],
-        "values": [
-          30,
-          15
-        ]
+        "keys": ["basic_research_book", "normal_research_book"],
+        "values": [3, 1]
       },
-      "unlocks": [
-        "shield"
-      ]
+      "unlocks": ["shield"]
     },
     {
       "id": "shield_production_lvl3",
@@ -388,15 +222,9 @@
           "normal_research_book",
           "advanced_research_book"
         ],
-        "values": [
-          30,
-          15,
-          15
-        ]
+        "values": [3, 1, 1]
       },
-      "unlocks": [
-        "tower_shield"
-      ]
+      "unlocks": ["tower_shield"]
     },
     {
       "id": "cooking_lvl1",
@@ -406,12 +234,8 @@
         "preserving_food_lvl2"
       ],
       "requiredResources": {
-        "keys": [
-          "basic_research_book"
-        ],
-        "values": [
-          30
-        ]
+        "keys": ["basic_research_book"],
+        "values": [1]
       },
       "unlocks": [
         "limestone_stove",
@@ -423,12 +247,8 @@
     {
       "id": "banners_lvl1",
       "requiredResources": {
-        "keys": [
-          "basic_research_book"
-        ],
-        "values": [
-          15
-        ]
+        "keys": ["basic_research_book"],
+        "values": [1]
       },
       "unlocks": [
         "banner_small_tall",
@@ -443,20 +263,14 @@
     },
     {
       "id": "chemistry_lvl1",
-      "nextNodesIDs": [
-        "destiling_01"
-      ],
+      "nextNodesIDs": ["destiling_01"],
       "requiredResources": {
         "keys": [
           "basic_research_book",
           "normal_research_book",
           "advanced_research_book"
         ],
-        "values": [
-          30,
-          15,
-          15
-        ]
+        "values": [3, 1, 1]
       },
       "unlocks": [
         "apothecary_bench",
@@ -468,14 +282,8 @@
     {
       "id": "furniture_lvl2",
       "requiredResources": {
-        "keys": [
-          "basic_research_book",
-          "normal_research_book"
-        ],
-        "values": [
-          30,
-          20
-        ]
+        "keys": ["basic_research_book", "normal_research_book"],
+        "values": [3, 2]
       },
       "unlocks": [
         "quality_table_small",
@@ -486,18 +294,10 @@
     {
       "id": "fermenting_lvl1",
       "requiredResources": {
-        "keys": [
-          "basic_research_book",
-          "normal_research_book"
-        ],
-        "values": [
-          25,
-          10
-        ]
+        "keys": ["basic_research_book", "normal_research_book"],
+        "values": [2, 1]
       },
-      "unlocks": [
-        "vinegar"
-      ]
+      "unlocks": ["vinegar"]
     },
     {
       "id": "destiling_01",
@@ -507,16 +307,9 @@
           "normal_research_book",
           "advanced_research_book"
         ],
-        "values": [
-          30,
-          15,
-          15
-        ]
+        "values": [3, 1, 1]
       },
-      "unlocks": [
-        "spirit_destilary",
-        "alcohol"
-      ]
+      "unlocks": ["spirit_destilary", "alcohol"]
     },
     {
       "id": "agriculture_lvl2",
@@ -526,27 +319,15 @@
           "normal_research_book",
           "advanced_research_book"
         ],
-        "values": [
-          1,
-          1,
-          1
-        ]
+        "values": [1, 1, 1]
       }
     },
     {
       "id": "blacksmithing_lvl1",
-      "nextNodesIDs": [
-        "swords_lvl2",
-        "axes_lvl2",
-        "maces_lvl2"
-      ],
+      "nextNodesIDs": ["swords_lvl2", "axes_lvl2", "maces_lvl2"],
       "requiredResources": {
-        "keys": [
-          "basic_research_book"
-        ],
-        "values": [
-          30
-        ]
+        "keys": ["basic_research_book"],
+        "values": [3]
       },
       "unlocks": [
         "blacksmith_station",
@@ -559,66 +340,33 @@
     {
       "id": "swords_lvl2",
       "requiredResources": {
-        "keys": [
-          "basic_research_book",
-          "normal_research_book"
-        ],
-        "values": [
-          30,
-          20
-        ]
+        "keys": ["basic_research_book", "normal_research_book"],
+        "values": [3, 2]
       },
-      "unlocks": [
-        "longsword"
-      ]
+      "unlocks": ["longsword"]
     },
     {
       "id": "axes_lvl2",
       "requiredResources": {
-        "keys": [
-          "basic_research_book",
-          "normal_research_book"
-        ],
-        "values": [
-          30,
-          20
-        ]
+        "keys": ["basic_research_book", "normal_research_book"],
+        "values": [3, 2]
       },
-      "unlocks": [
-        "hatchet",
-        "greataxe"
-      ]
+      "unlocks": ["hatchet", "greataxe"]
     },
     {
       "id": "maces_lvl2",
       "requiredResources": {
-        "keys": [
-          "basic_research_book",
-          "normal_research_book"
-        ],
-        "values": [
-          30,
-          20
-        ]
+        "keys": ["basic_research_book", "normal_research_book"],
+        "values": [3, 2]
       },
-      "unlocks": [
-        "mace",
-        "two_handed_mace"
-      ]
+      "unlocks": ["mace", "two_handed_mace"]
     },
     {
       "id": "woodwork_lvl1",
-      "nextNodesIDs": [
-        "woodwork_lvl2",
-        "fletchering_lvl2"
-      ],
+      "nextNodesIDs": ["woodwork_lvl2", "fletchering_lvl2"],
       "requiredResources": {
-        "keys": [
-          "basic_research_book"
-        ],
-        "values": [
-          20
-        ]
+        "keys": ["basic_research_book"],
+        "values": [2]
       },
       "unlocks": [
         "woodwork_bench",
@@ -630,56 +378,29 @@
     },
     {
       "id": "fletchering_lvl2",
-      "nextNodesIDs": [
-        "crossbows_lvl2"
-      ],
+      "nextNodesIDs": ["crossbows_lvl2"],
       "requiredResources": {
-        "keys": [
-          "basic_research_book"
-        ],
-        "values": [
-          30
-        ]
+        "keys": ["basic_research_book"],
+        "values": [30]
       },
-      "unlocks": [
-        "long_bow"
-      ]
+      "unlocks": ["long_bow"]
     },
     {
       "id": "woodwork_lvl2",
       "requiredResources": {
-        "keys": [
-          "basic_research_book",
-          "normal_research_book"
-        ],
-        "values": [
-          30,
-          20
-        ]
+        "keys": ["basic_research_book", "normal_research_book"],
+        "values": [3, 2]
       },
-      "unlocks": [
-        "wooden_flail",
-        "two_handed_flail"
-      ]
+      "unlocks": ["wooden_flail", "two_handed_flail"]
     },
     {
       "id": "crossbows_lvl2",
-      "nextNodesIDs": [
-        "crossbows_lvl3"
-      ],
+      "nextNodesIDs": ["crossbows_lvl3"],
       "requiredResources": {
-        "keys": [
-          "basic_research_book",
-          "normal_research_book"
-        ],
-        "values": [
-          30,
-          20
-        ]
+        "keys": ["basic_research_book", "normal_research_book"],
+        "values": [3, 2]
       },
-      "unlocks": [
-        "crossbow"
-      ]
+      "unlocks": ["crossbow"]
     },
     {
       "id": "crossbows_lvl3",
@@ -689,15 +410,9 @@
           "normal_research_book",
           "advanced_research_book"
         ],
-        "values": [
-          30,
-          15,
-          10
-        ]
+        "values": [3, 1, 1]
       },
-      "unlocks": [
-        "heavy_crossbow"
-      ]
+      "unlocks": ["heavy_crossbow"]
     }
   ]
 }
