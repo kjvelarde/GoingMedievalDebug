@@ -1,0 +1,3339 @@
+{
+	"repository": [
+		{
+			"id": "map_type_valley",
+			"flatHeight": 4,
+			"defaultVoxelType": "Grass",
+			"minPlantsPercent": 105,
+			"initialPenalty": 4000,
+			"animals": [
+				{
+					"id": "Deer Spawner",
+					"animalId": "deer",
+					"initialCount":
+					{
+						"min": 3,
+						"max": 5
+					},
+					"maxCount": 5,
+					"temperature":
+					{
+						"min": -15,
+						"max": 40
+					},
+					"optimalTemperature": 20,
+					"spawnSpeedMultiplier": 2
+				},
+				{
+					"id": "Hare Spawner",
+					"animalId": "hare",
+					"initialCount":
+					{
+						"min": 7,
+						"max": 10
+					},
+					"maxCount": 12,
+					"temperature":
+					{
+						"min": -5,
+						"max": 40
+					},
+					"optimalTemperature": 25,
+					"spawnSpeedMultiplier": 3
+				},
+				{
+					"id": "Wolf Spawner",
+					"animalId": "wolf",
+					"initialCount":
+					{
+						"min": 0,
+						"max": 0
+					},
+					"maxCount": 3,
+					"temperature":
+					{
+						"min": -20,
+						"max": 15
+					},
+					"optimalTemperature": -5,
+					"spawnSpeedMultiplier": 2
+				}
+			],
+			"voxelTypeDistribution": [
+				{
+					"id": "Grass",
+					"percent": 5,
+					"minCount": 400
+				},		
+				{
+					"id": "Limestone",
+					"percent": 2,
+					"minCount": 400,
+					"storeInside": [
+						"Rocky"
+					  ]
+				},
+				{
+					"id": "Rocky",
+					"percent": 5,
+					"minCount": 1000
+				},	
+				{
+					"id": "Clay",
+					"percent": 10,
+					"minCount": 250
+				},
+				{
+					"id": "Dirt",
+					"percent": 10,
+					"minCount": 150
+				},
+				{
+					"id": "Salt",
+					"percent": 0.5,
+					"minCount": 50,
+					"awayFromEdge": true,
+					"storeInside": [
+					  "Rocky"
+					]
+				},
+				{
+					"id": "Iron",
+					"percent": 0.8,
+					"minCount": 75,
+					"awayFromEdge": true,
+					"storeInside": [
+					  "Limestone"
+					]
+				}
+			],
+			"mapGenerationSteps": [
+				{
+					"id": "base_valley",
+					"brushIDs": [
+						"height_map_valley_01",
+						"height_map_valley_02",
+						"height_map_valley_03",
+						"height_map_valley_04",
+						"height_map_valley_05",
+						"height_map_valley_06",
+						"height_map_valley_07",
+						"height_map_valley_08",
+						"height_map_valley_09",
+						"height_map_valley_10"
+					], 
+					"operation": "Max",
+					"height": 7,
+					"repeatCountMax": 1,
+					"position": {
+						"x": 0.5,
+						"y": 0.5
+					},
+					"randomPosition": {
+						"x": 0,
+						"y": 0
+					},	
+					"size": {
+						"x": 1.4,
+						"y": 1.4
+					},
+					"rotation" : 0,
+					"randomRotation": 360, 
+					"scaleXRange": {
+						"x": 1,
+						"y": 1.1
+					},
+					"scaleYRange": {
+						"x": 1,
+						"y": 1.1
+					}
+				},
+				{
+					"id": "detail_01_valley",
+					"brushIDs": [
+						"height_map_circular_01",
+						"height_map_circular_02",
+						"height_map_circular_03",
+						"height_map_circular_04",
+						"height_map_circular_05",
+						"height_map_circular_06"
+					], 
+					"operation": "Add",
+					"height": 1,
+					"repeatCountMax": 1,
+					"repeatCountMin": 1,
+					"position": {
+						"x": 0.5,
+						"y": 0.5
+					},
+					"randomPosition": {
+						"x": 0,
+						"y": 0
+					},	
+					"size": {
+						"x": 1,
+						"y": 1
+					},
+					"rotation" : 0,
+					"randomRotation": 360, 
+					"scaleXRange": {
+						"x": 0.95,
+						"y": 1.05
+					},
+					"scaleYRange": {
+						"x": 0.95,
+						"y": 1.05
+					}
+				},
+				{
+					"id": "detail_04_valley",
+					"brushIDs": [
+						"height_map_circular_01",
+						"height_map_circular_02",
+						"height_map_circular_03",
+						"height_map_circular_04",
+						"height_map_circular_05",
+						"height_map_circular_06"
+					], 
+					"operation": "Add",
+					"height": 1,
+					"repeatCountMax": 2,
+					"repeatCountMin": 1,
+					"position": {
+						"x": 0.5,
+						"y": 0.5
+					},
+					"randomPosition": {
+						"x": 0,
+						"y": 0
+					},	
+					"size": {
+						"x": 0.8,
+						"y": 0.8
+					},
+					"rotation" : 0,
+					"randomRotation": 360, 
+					"scaleXRange": {
+						"x": 0.95,
+						"y": 1.05
+					},
+					"scaleYRange": {
+						"x": 0.95,
+						"y": 1.05
+					}
+				},
+				{
+					"id": "detail_02_valley",
+					"brushIDs": [
+						"height_map_circular_01",
+						"height_map_circular_02",
+						"height_map_circular_03",
+						"height_map_circular_04",
+						"height_map_circular_05",
+						"height_map_circular_06"
+					], 
+					"operation": "Add",
+					"height": 1,
+					"repeatCountMax": 1,
+					"repeatCountMin": 1,
+					"position": {
+						"x": 0.5,
+						"y": 0.5
+					},
+					"randomPosition": {
+						"x": 0,
+						"y": 0
+					},	
+					"size": {
+						"x": 1,
+						"y": 1
+					},
+					"rotation" : 0,
+					"randomRotation": 360, 
+					"scaleXRange": {
+						"x": 0.95,
+						"y": 1.05
+					},
+					"scaleYRange": {
+						"x": 0.95,
+						"y": 1.05
+					}
+				},
+				{
+					"id": "detail_03_valley",
+					"brushIDs": [
+						"height_map_circular_01",
+						"height_map_circular_02",
+						"height_map_circular_03",
+						"height_map_circular_04",
+						"height_map_circular_05",
+						"height_map_circular_06"
+					], 
+					"operation": "Subtract",
+					"height": 2,
+					"repeatCountMax": 1,
+					"repeatCountMin": 1,
+					"position": {
+						"x": 0.5,
+						"y": 0.5
+					},
+					"randomPosition": {
+						"x": 0,
+						"y": 0
+					},	
+					"size": {
+						"x": 1,
+						"y": 1
+					},
+					"rotation" : 0,
+					"randomRotation": 360, 
+					"scaleXRange": {
+						"x": 0.95,
+						"y": 1.05
+					},
+					"scaleYRange": {
+						"x": 0.95,
+						"y": 1.05
+					}
+				},
+				{
+					"id": "Clay_patch",
+					"brushIDs": [
+						"height_map_circular_01",
+						"height_map_circular_02",
+						"height_map_circular_03",
+						"height_map_circular_04",
+						"height_map_circular_05",
+						"height_map_circular_06"
+					],   
+					"operation": "SetGroundData",
+					"plotData": "Clay",
+					"plotHeightOffsetDown": 0,
+					"plotHeightAbove": 5,
+					"plotHeightCenter": 2,
+					"plotHeightBelow": 3,
+					"repeatCount": 1,
+					"repeatCountMax": 1,
+					"repeatCountMin":1,
+					"height": 16,
+					"position": {
+						"x": 0.5,
+						"y": 0.5
+					},
+					"randomPosition": {
+						"x": 0,
+						"y": 0
+					},	
+					"size": {
+						"x": 0.5,
+						"y": 0.5
+					},
+					"scaleXRange": {
+						"x": 0.95,
+						"y": 1.05
+					},
+					"scaleYRange": {
+						"x": 0.95,
+						"y": 1.05
+					},
+					"rotation": 0, 
+					"randomRotation": 360,
+					"props": {
+						"id": "ClayPiles",
+						"propsToPlace": ["ClayPiles"],
+						"placeOnlyOnVoxels": ["Clay"], 
+						"terrainPercent": 0.05,
+						"brushControlsDensity": false, 
+						"invertBrushDensity": false, 
+						"resourcePileAmount": {
+							"min": 5,
+							"max": 25
+						}
+					}
+				},
+				{
+					"id": "Clay_patch_02",
+					"brushIDs": [
+						"height_map_circular_01",
+						"height_map_circular_02",
+						"height_map_circular_03",
+						"height_map_circular_04",
+						"height_map_circular_05",
+						"height_map_circular_06"
+					],   
+					"operation": "SetGroundData",
+					"plotData": "Clay",
+					"plotHeightOffsetDown": 0,
+					"plotHeightAbove": 4,
+					"plotHeightCenter": 2,
+					"plotHeightBelow": 2,
+					"repeatCount": 1,
+					"repeatCountMax": 1,
+					"repeatCountMin":1,
+					"height": 16,
+					"position": {
+						"x": 0.5,
+						"y": 0.5
+					},
+					"randomPosition": {
+						"x": 0,
+						"y": 0
+					},	
+					"size": {
+						"x": 0.8,
+						"y": 0.8
+					},
+					"scaleXRange": {
+						"x": 0.95,
+						"y": 1.05
+					},
+					"scaleYRange": {
+						"x": 0.95,
+						"y": 1.05
+					},
+					"rotation": 0, 
+					"randomRotation": 360,
+					"props": {
+						"id": "ClayPiles",
+						"propsToPlace": ["ClayPiles"],
+						"placeOnlyOnVoxels": ["Clay"], 
+						"terrainPercent": 0.03,
+						"brushControlsDensity": false, 
+						"invertBrushDensity": false, 
+						"resourcePileAmount": {
+							"min": 5,
+							"max": 25
+						}
+					}
+				},
+				{
+					"id": "limestone_vein",
+					"brushIDs": [
+						"detail_circular_tiny_01",
+						"detail_circular_tiny_02",
+						"detail_circular_tiny_03",
+						"detail_circular_tiny_04"
+					], 
+					"operation": "SetGroundData",
+					"plotData": "Limestone",
+					"plotHeightOffsetDown": 0,
+					"plotHeightAbove": 5,
+					"plotHeightCenter": 3,
+					"plotHeightBelow": 5,
+					"repeatCount": 1,
+					"repeatCountMax": 1,
+					"repeatCountMin": 1,
+					"height": 16,
+					"position": {
+						"x": 0.5,
+						"y": 0.5
+					},
+					"randomPosition": {
+						"x": 0.05,
+						"y": 0.05
+					},	
+					"size": {
+						"x": 1,
+						"y": 1
+					},
+					"scaleXRange": {
+						"x": 0.95,
+						"y": 1.05
+					},
+					"scaleYRange": {
+						"x": 0.95,
+						"y": 1.05
+					},
+					"rotation": 0, 
+					"randomRotation": 360
+				},
+				{
+					"id": "rocky_vein",
+					"brushIDs": [
+						"detail_circular_small_01",
+						"detail_circular_small_02",
+						"detail_circular_small_03",
+						"detail_circular_small_04"
+					], 
+					"operation": "SetGroundData",
+					"plotData": "Rocky",
+					"plotHeightOffsetDown": 0,
+					"plotHeightAbove": 5,
+					"plotHeightCenter": 3,
+					"plotHeightBelow": 5,
+					"repeatCount": 3,
+					"repeatCountMax": 3,
+					"repeatCountMin": 3,
+					"height": 16,
+					"position": {
+						"x": 0.5,
+						"y": 0.5
+					},
+					"randomPosition": {
+						"x": 0.05,
+						"y": 0.05
+					},	
+					"size": {
+						"x": 1,
+						"y": 1
+					},
+					"scaleXRange": {
+						"x": 0.95,
+						"y": 1.05
+					},
+					"scaleYRange": {
+						"x": 0.95,
+						"y": 1.05
+					},
+					"rotation": 0, 
+					"randomRotation": 360,
+					"props": {
+						"id": "LimestonePiles",
+						"propsToPlace": ["LimestonePiles"],
+						"placeOnlyOnVoxels": ["Limestone"], 
+						"terrainPercent": 0.02,
+						"brushControlsDensity": false, 
+						"invertBrushDensity": false, 
+						"resourcePileAmount": {
+							"min": 3,
+							"max": 25
+						}
+					}
+				},
+				{
+					"id": "Iron_vein",
+					"brushIDs": [
+						"detail_circular_tiny_01",
+						"detail_circular_tiny_02",
+						"detail_circular_tiny_03",
+						"detail_circular_tiny_04"
+					],  
+					"operation": "SetGroundData",
+					"plotData": "Iron",
+					"plotHeightOffsetDown": 0,
+					"plotHeightAbove": 6,
+					"plotHeightCenter": 3,
+					"plotHeightBelow": 4,
+					"repeatCount": 1,
+					"repeatCountMax": 1,
+					"repeatCountMin": 1,
+					"height": 16,
+					"position": {
+						"x": 0.5,
+						"y": 0.5
+					},
+					"randomPosition": {
+						"x": 0.1,
+						"y": 0.1
+					},	
+					"size": {
+						"x": 1,
+						"y": 1
+					},
+					"scaleXRange": {
+						"x": 0.95,
+						"y": 1.05
+					},
+					"scaleYRange": {
+						"x": 0.95,
+						"y": 1.05
+					},
+					"rotation": 0, 
+					"randomRotation": 360,
+					"props": {
+						"id": "IronPiles",
+						"propsToPlace": ["IronPiles"],
+						"placeOnlyOnVoxels": ["Iron"], 
+						"terrainPercent": 0.02,
+						"brushControlsDensity": false, 
+						"invertBrushDensity": false, 
+						"resourcePileAmount": {
+							"min": 2,
+							"max": 10
+						}
+					}
+				},
+				{
+					"id": "Salt_vein",
+					"brushIDs": [
+						"detail_circular_tiny_01",
+						"detail_circular_tiny_02",
+						"detail_circular_tiny_03",
+						"detail_circular_tiny_04"
+					],  
+					"operation": "SetGroundData",
+					"plotData": "Salt",
+					"plotHeightOffsetDown": 0,
+					"plotHeightAbove": 3,
+					"plotHeightCenter": 3,
+					"plotHeightBelow": 2,
+					"repeatCount": 1,
+					"repeatCountMax": 1,
+					"repeatCountMin": 1,
+					"height": 16,
+					"position": {
+						"x": 0.5,
+						"y": 0.5
+					},
+					"randomPosition": {
+						"x": 0.05,
+						"y": 0.05
+					},	
+					"size": {
+						"x": 0.9,
+						"y": 0.9
+					},
+					"scaleXRange": {
+						"x": 0.95,
+						"y": 1.05
+					},
+					"scaleYRange": {
+						"x": 0.95,
+						"y": 1.05
+					},
+					"rotation": 0, 
+					"randomRotation": 360
+				},
+				{
+					"id": "Dirt_patch",
+					"brushIDs": [
+						"height_map_detail_01", 
+						"height_map_detail_02", 
+						"height_map_detail_03",
+						"height_map_detail_04",
+						"height_map_detail_05",
+						"height_map_detail_06",
+						"height_map_detail_07",
+						"height_map_detail_08",
+						"height_map_detail_09",
+						"height_map_detail_10"
+					],   
+					"operation": "SetGroundData",
+					"plotData": "Dirt",
+					"plotHeightOffsetDown": 0,
+					"plotOnlyOnTopLayers": 1,
+					"repeatCount": 50,
+					"repeatCountMax": 60,
+					"repeatCountMin": 45,
+					"height": 16,
+					"position": {
+						"x": 0.5,
+						"y": 0.5
+					},
+					"randomPosition": {
+						"x": 1,
+						"y": 1
+					},	
+					"size": {
+						"x": 0.15,
+						"y": 0.15
+					},
+					"scaleXRange": {
+						"x": 0.2,
+						"y": 1.1
+					},
+					"scaleYRange": {
+						"x": 0.2,
+						"y": 1.1
+					},
+					"rotation": 0, 
+					"randomRotation": 360
+				},
+				{
+					"id": "ForestMixedStep",
+					"brushIDs": [
+						"detail_circular_forest_01",
+						"detail_circular_forest_02",
+						"detail_circular_forest_03",
+						"detail_circular_forest_04"
+					], 
+					"operation": "PropsOnly",
+					"height": 16,
+					"repeatCount": 1,
+					"repeatCountMax": 1,
+					"repeatCountMin": 1,
+					"position": {
+						"x": 0.5,
+						"y": 0.5
+					},
+					"randomPosition": {
+						"x": 0,
+						"y": 0
+					},	
+					"size": {
+						"x": 1.4,
+						"y": 1.4
+					},
+					"rotation" : 0,
+					"randomRotation": 360, 
+					"scaleXRange": {
+						"x": 1,
+						"y": 1
+					},
+					"scaleYRange": {
+						"x": 1,
+						"y": 1
+					}, 
+					"props": {
+						"id": "ForestMixed",
+						"propsToPlace": [
+							"TreeBirchRandom", 
+							"TreePlaneRandom", 
+							"TreeOakRandom",
+							"ShrubGenericRandom", 
+							"ShrubIvyRandom",
+							"ShrubGenericRandom", 
+							"ShrubIvyRandom",
+							"TreeBirchRandom", 
+							"TreePlaneRandom", 
+							"TreeOakRandom",
+							"TreeBirchRandom", 
+							"TreePlaneRandom", 
+							"TreeOakRandom",
+							"TreeBirchRandom", 
+							"TreePlaneRandom", 
+							"TreeOakRandom",
+							"TreePlaneDead",
+							"TreeOakDead",
+							"TreebirchDead"
+						],
+						"terrainPercent": 3.2,
+						"placeOnlyOnVoxels": ["Grass","Dirt"], 
+						"brushControlsDensity": false, 
+						"invertBrushDensity": false
+					}
+				},
+				{
+					"id": "ForestPineStep",
+					"brushIDs": [
+						"detail_circular_small_01",
+						"detail_circular_small_02",
+						"detail_circular_small_03",
+						"detail_circular_small_04"
+					], 
+					"operation": "PropsOnly",
+					"height": 16,
+					"repeatCount": 1,
+					"repeatCountMax": 1,
+					"repeatCountMin": 1,
+					"position": {
+						"x": 0.5,
+						"y": 0.5
+					},
+					"randomPosition": {
+						"x": 0,
+						"y": 0
+					},	
+					"size": {
+						"x": 1,
+						"y": 1
+					},
+					"rotation" : 0,
+					"randomRotation": 360, 
+					"scaleXRange": {
+						"x": 0.8,
+						"y": 1.2
+					},
+					"scaleYRange": {
+						"x": 0.8,
+						"y": 1.2
+					}, 
+					"props": {
+						"id": "ForestPine",
+						"propsToPlace": ["TreePineRandom"],
+						"terrainPercent": 0.04,
+						"placeOnlyOnVoxels": ["Grass","Dirt"], 
+						"brushControlsDensity": false, 
+						"invertBrushDensity": false
+					}
+				},
+				{
+					"id": "srubsRandomStep",
+					"brushIDs": [
+						"height_map_detail_01", 
+						"height_map_detail_02", 
+						"height_map_detail_03",
+						"height_map_detail_04",
+						"height_map_detail_05",
+						"height_map_detail_06",
+						"height_map_detail_07",
+						"height_map_detail_08",
+						"height_map_detail_09",
+						"height_map_detail_10"
+					],  
+					"operation": "PropsOnly",
+					"height": 16,
+					"repeatCount": 8,
+					"repeatCountMax": 8,
+					"repeatCountMin": 5,
+					"position": {
+						"x": 0.5,
+						"y": 0.5
+					},
+					"randomPosition": {
+						"x": 0.3,
+						"y": 0.3
+					},	
+					"size": {
+						"x": 1,
+						"y": 1
+					},
+					"rotation" : 0,
+					"randomRotation": 360, 
+					"scaleXRange": {
+						"x": 0.5,
+						"y": 1.2
+					},
+					"scaleYRange": {
+						"x": 0.5,
+						"y": 1.2
+					}, 
+					"props": {
+						"id": "random_shrubs",
+						"propsToPlace": ["ShrubGenericRandom", "ShrubIvyRandom"],
+						"terrainPercent": 0.7,
+						"placeOnlyOnVoxels": ["Grass", "Dirt","Rocky"], 
+						"brushControlsDensity": false, 
+						"invertBrushDensity": false
+					}
+				},
+				{
+					"id": "sticksRandomStep",
+					"brushIDs": [
+						"height_map_detail_01", 
+						"height_map_detail_02", 
+						"height_map_detail_03",
+						"height_map_detail_04",
+						"height_map_detail_05",
+						"height_map_detail_06",
+						"height_map_detail_07",
+						"height_map_detail_08",
+						"height_map_detail_09",
+						"height_map_detail_10"
+					],  
+					"operation": "PropsOnly",
+					"height": 16,
+					"repeatCount": 20,
+					"repeatCountMax": 20,
+					"repeatCountMin": 20,
+					"position": {
+						"x": 0.5,
+						"y": 0.5
+					},
+					"randomPosition": {
+						"x": 0.3,
+						"y": 0.3
+					},	
+					"size": {
+						"x": 1,
+						"y": 1
+					},
+					"rotation" : 0,
+					"randomRotation": 360, 
+					"scaleXRange": {
+						"x": 0.5,
+						"y": 1.2
+					},
+					"scaleYRange": {
+						"x": 0.5,
+						"y": 1.2
+					}, 
+					"props": {
+						"id": "random_shrubs",
+						"propsToPlace": ["StickPiles"],
+						"terrainPercent": 0.05,
+						"placeOnlyOnVoxels": ["Grass", "Dirt", "Limestone", "Rocky"], 
+						"brushControlsDensity": false, 
+						"invertBrushDensity": false,
+						"resourcePileAmount": {
+							"min": 1,
+							"max": 5
+						}
+					}
+				},
+				{
+					"id": "RedcurrantRandomStep",
+					"brushIDs": [
+						"height_map_detail_01", 
+						"height_map_detail_02", 
+						"height_map_detail_03",
+						"height_map_detail_04",
+						"height_map_detail_05",
+						"height_map_detail_06",
+						"height_map_detail_07",
+						"height_map_detail_08",
+						"height_map_detail_09",
+						"height_map_detail_10"
+					],  
+					"operation": "PropsOnly",
+					"height": 16,
+					"repeatCount": 10,
+					"repeatCountMax": 10,
+					"repeatCountMin": 10,
+					"position": {
+						"x": 0.5,
+						"y": 0.5
+					},
+					"randomPosition": {
+						"x": 0.9,
+						"y": 0.9
+					},	
+					"size": {
+						"x": 0.03,
+						"y": 0.03
+					},
+					"rotation" : 0,
+					"randomRotation": 360, 
+					"scaleXRange": {
+						"x": 0.5,
+						"y": 1.1
+					},
+					"scaleYRange": {
+						"x": 0.5,
+						"y": 1.1
+					}, 
+					"props": {
+						"id": "random_reducrent",
+						"propsToPlace": ["ShrubRedcurrantRandom"],
+						"terrainPercent": 0.1,
+						"placeOnlyOnVoxels": ["Grass", "Dirt"], 
+						"brushControlsDensity": false, 
+						"invertBrushDensity": false
+					}
+				},
+				{
+					"id": "RedcurrantNearStep",
+					"brushIDs": [
+						"detail_circular_single_01",
+						"detail_circular_single_02",
+						"detail_circular_single_03",
+						"detail_circular_single_04"
+					],  
+					"operation": "PropsOnly",
+					"height": 16,
+					"repeatCount": 1,
+					"repeatCountMax": 1,
+					"repeatCountMin": 1,
+					"position": {
+						"x": 0.5,
+						"y": 0.5
+					},
+					"randomPosition": {
+						"x": 0,
+						"y": 0
+					},	
+					"size": {
+						"x": 0.3,
+						"y": 0.3
+					},
+					"rotation" : 0,
+					"randomRotation": 360, 
+					"scaleXRange": {
+						"x": 1,
+						"y": 1
+					},
+					"scaleYRange": {
+						"x": 1,
+						"y": 1
+					}, 
+					"props": {
+						"id": "random_reducrent",
+						"propsToPlace": ["ShrubRedcurrantRandom"],
+						"terrainPercent": 0.12,
+						"placeOnlyOnVoxels": ["Grass", "Dirt"], 
+						"brushControlsDensity": false, 
+						"invertBrushDensity": false
+					}
+				},
+				{
+					"id": "MushroomRandomStep",
+					"brushIDs": [
+						"height_map_detail_01", 
+						"height_map_detail_02", 
+						"height_map_detail_03",
+						"height_map_detail_04",
+						"height_map_detail_05",
+						"height_map_detail_06",
+						"height_map_detail_07",
+						"height_map_detail_08",
+						"height_map_detail_09",
+						"height_map_detail_10"
+					],  
+					"operation": "PropsOnly",
+					"height": 16,
+					"repeatCount": 25,
+					"repeatCountMax": 25,
+					"repeatCountMin": 20,
+					"position": {
+						"x": 0.5,
+						"y": 0.5
+					},
+					"randomPosition": {
+						"x": 0.8,
+						"y": 0.8
+					},	
+					"size": {
+						"x": 0.04,
+						"y": 0.04
+					},
+					"rotation" : 0,
+					"randomRotation": 360, 
+					"scaleXRange": {
+						"x": 0.5,
+						"y": 1
+					},
+					"scaleYRange": {
+						"x": 0.5,
+						"y": 1
+					}, 
+					"props": {
+						"id": "random_mushroom",
+						"propsToPlace": ["MushroomPatchRandom"],
+						"terrainPercent": 0.35,
+						"placeOnlyOnVoxels": ["Grass"], 
+						"brushControlsDensity": false, 
+						"invertBrushDensity": false
+					}
+				},
+				{
+					"id": "HayPatchRandomStep",
+					"brushIDs": [
+						"height_map_detail_01", 
+						"height_map_detail_02", 
+						"height_map_detail_03",
+						"height_map_detail_04",
+						"height_map_detail_05",
+						"height_map_detail_06",
+						"height_map_detail_07",
+						"height_map_detail_08",
+						"height_map_detail_09",
+						"height_map_detail_10"
+					],  
+					"operation": "PropsOnly",
+					"height": 16,
+					"repeatCount": 17,
+					"repeatCountMax": 17,
+					"repeatCountMin": 12,
+					"position": {
+						"x": 0.5,
+						"y": 0.5
+					},
+					"randomPosition": {
+						"x": 0.6,
+						"y": 0.6
+					},	
+					"size": {
+						"x": 0.07,
+						"y": 0.07
+					},
+					"rotation" : 0,
+					"randomRotation": 360, 
+					"scaleXRange": {
+						"x": 0.8,
+						"y": 1
+					},
+					"scaleYRange": {
+						"x": 0.8,
+						"y": 1
+					}, 
+					"props": {
+						"id": "HayPatch_Random",
+						"propsToPlace": ["HayPatchRandom"],
+						"terrainPercent": 0.95,
+						"placeOnlyOnVoxels": ["Grass"], 
+						"brushControlsDensity": false, 
+						"invertBrushDensity": false
+					}
+				},
+				{
+					"id": "HerbsPatchRandomStep",
+					"brushIDs": [
+						"height_map_detail_01", 
+						"height_map_detail_02", 
+						"height_map_detail_03",
+						"height_map_detail_04",
+						"height_map_detail_05",
+						"height_map_detail_06",
+						"height_map_detail_07",
+						"height_map_detail_08",
+						"height_map_detail_09",
+						"height_map_detail_10"
+					],  
+					"operation": "PropsOnly",
+					"height": 16,
+					"repeatCount": 12,
+					"repeatCountMax": 12,
+					"repeatCountMin": 7,
+					"position": {
+						"x": 0.5,
+						"y": 0.5
+					},
+					"randomPosition": {
+						"x": 0.6,
+						"y": 0.6
+					},	
+					"size": {
+						"x": 0.02,
+						"y": 0.02
+					},
+					"rotation" : 0,
+					"randomRotation": 360, 
+					"scaleXRange": {
+						"x": 0.8,
+						"y": 1
+					},
+					"scaleYRange": {
+						"x": 0.8,
+						"y": 1
+					}, 
+					"props": {
+						"id": "HerbsPatch_Random",
+						"propsToPlace": ["HerbPatchRandom"],
+						"terrainPercent": 0.75,
+						"placeOnlyOnVoxels": ["Grass"], 
+						"brushControlsDensity": false, 
+						"invertBrushDensity": false
+					}
+				},
+				{
+					"id": "ForestDeadStep",
+					"brushIDs": [
+						"height_map_circular_01",
+						"height_map_circular_02",
+						"height_map_circular_03",
+						"height_map_circular_04",
+						"height_map_circular_05",
+						"height_map_circular_06"
+					],
+					"operation": "SetGroundData",
+					"plotData": "Dirt",
+					"plotHeightOffsetDown": 0,
+					"plotOnlyOnTopLayers": 1,
+					"height": 16,
+					"repeatCount": 1,
+					"repeatCountMax": 1,
+					"repeatCountMin": 1,
+					"position": {
+						"x": 0.5,
+						"y": 0.5
+					},
+					"randomPosition": {
+						"x": 0,
+						"y": 0
+					},	
+					"size": {
+						"x": 1,
+						"y": 1
+					},
+					"rotation" : 0,
+					"randomRotation": 360, 
+					"scaleXRange": {
+						"x": 0.8,
+						"y": 1.2
+					},
+					"scaleYRange": {
+						"x": 0.8,
+						"y": 1.2
+					}, 
+					"props": {
+						"id": "ForestdeadMixed",
+						"propsToPlace": [
+							"TreebirchDead",
+							"TreePlaneDead",
+							"TreeOakDead",
+							"ShrubGenericDeadRandom",
+							"ShrubGenericDeadRandom",
+							"ShrubGenericDeadRandom",
+							"ShrubGenericDeadRandom",
+							"MushroomPatchRandom",
+							"ShrubGenericDeadRandom",
+							"MushroomPatchRandom",
+							"ShrubGenericDeadRandom",
+							"MushroomPatchRandom",
+							"ShrubGenericDeadRandom",
+							"MushroomPatchRandom",
+							"HayPatchDry",
+							"HayPatchDry",
+							"BonePiles"],
+						"terrainPercent": 0.65,
+						"placeOnlyOnVoxels": ["Grass","Dirt"], 
+						"brushControlsDensity": false, 
+						"invertBrushDensity": false,
+						"resourcePileAmount": {
+							"min": 2,
+							"max": 10
+						}
+					}
+				}
+			]
+		},
+		{
+			"id": "map_type_hill",
+			"flatHeight": 5,
+			"defaultVoxelType": "Grass",
+			"minPlantsPercent": 110,
+			"initialPenalty": 4000,
+			"animals": [
+				{
+					"id": "Deer Spawner",
+					"animalId": "deer",
+					"initialCount":
+					{
+						"min": 4,
+						"max": 7
+					},
+					"maxCount": 7,
+					"temperature":
+					{
+						"min": -15,
+						"max": 40
+					},
+					"optimalTemperature": 20,
+					"spawnSpeedMultiplier": 4
+				},
+				{
+					"id": "Hare Spawner",
+					"animalId": "hare",
+					"initialCount":
+					{
+						"min": 3,
+						"max": 5
+					},
+					"maxCount": 5,
+					"temperature":
+					{
+						"min": 5,
+						"max": 40
+					},
+					"optimalTemperature": 25,
+					"spawnSpeedMultiplier": 3
+				},
+				{
+					"id": "Wolf Spawner",
+					"animalId": "wolf",
+					"initialCount":
+					{
+						"min": 1,
+						"max": 3
+					},
+					"maxCount": 5,
+					"temperature":
+					{
+						"min": -20,
+						"max": 20
+					},
+					"optimalTemperature": -5,
+					"spawnSpeedMultiplier": 3
+				}
+			],
+			"voxelTypeDistribution": [
+				{
+					"id": "Grass",
+					"percent": 5,
+					"minCount": 400
+				},		
+				{
+					"id": "Limestone",
+					"percent": 3,
+					"minCount": 2000
+				},
+				{
+					"id": "Rocky",
+					"percent": 7,
+					"minCount": 4000
+				},	
+				{
+					"id": "Clay",
+					"percent": 3,
+					"minCount": 2000
+				},
+				{
+					"id": "Dirt",
+					"percent": 10,
+					"minCount": 150
+				},
+				{
+					"id": "Salt",
+					"percent": 1,
+					"minCount": 500,
+					"awayFromEdge": true,
+					"storeInside": [
+					  "Rocky"
+					]
+				},
+				{
+					"id": "Iron",
+					"percent": 2,
+					"minCount": 500,
+					"awayFromEdge": true,
+					"storeInside": [
+					  "Limestone"
+					]
+				},
+				{
+					"id": "Coal",
+					"percent": 2,
+					"minCount": 300,
+					"awayFromEdge": true,
+					"storeInside": [
+					  "Limestone"
+					]
+				},
+				{
+					"id": "Gold",
+					"percent": 1,
+					"minCount": 100,
+					"awayFromEdge": true,
+					"storeInside": [
+					  "Limestone"
+					]
+				}
+			],
+			"mapGenerationSteps": [
+				{
+					"id": "base_hills",
+					"brushIDs": [
+						"height_map_valley_01",
+						"height_map_valley_02",
+						"height_map_valley_03",
+						"height_map_valley_04",
+						"height_map_valley_05",
+						"height_map_valley_06",
+						"height_map_valley_07",
+						"height_map_valley_08",
+						"height_map_valley_09",
+						"height_map_valley_10"
+					], 
+					"operation": "Max",
+					"height": 10,
+					"repeatCountMax": 1,
+					"position": {
+						"x": 0.5,
+						"y": 0.5
+					},
+					"randomPosition": {
+						"x": 0,
+						"y": 0
+					},	
+					"size": {
+						"x": 1.4,
+						"y": 1.4
+					},
+					"rotation" : 0,
+					"randomRotation": 360, 
+					"scaleXRange": {
+						"x": 1,
+						"y": 1.1
+					},
+					"scaleYRange": {
+						"x": 1,
+						"y": 1.1
+					}
+				},
+				{
+					"id": "detail_01_hill",
+					"brushIDs": [
+						"height_map_circular_01",
+						"height_map_circular_02",
+						"height_map_circular_03",
+						"height_map_circular_04",
+						"height_map_circular_05",
+						"height_map_circular_06"
+					], 
+					"operation": "Add",
+					"height": 2,
+					"repeatCountMax": 2,
+					"repeatCountMin": 2,
+					"position": {
+						"x": 0.5,
+						"y": 0.5
+					},
+					"randomPosition": {
+						"x": 0,
+						"y": 0
+					},	
+					"size": {
+						"x": 1,
+						"y": 1
+					},
+					"rotation" : 0,
+					"randomRotation": 360, 
+					"scaleXRange": {
+						"x": 0.95,
+						"y": 1.05
+					},
+					"scaleYRange": {
+						"x": 0.95,
+						"y": 1.05
+					}
+				},
+				{
+					"id": "detail_04_hill",
+					"brushIDs": [
+						"height_map_circular_01",
+						"height_map_circular_02",
+						"height_map_circular_03",
+						"height_map_circular_04",
+						"height_map_circular_05",
+						"height_map_circular_06"
+					], 
+					"operation": "Add",
+					"height": 2,
+					"repeatCountMax": 2,
+					"repeatCountMin": 2,
+					"position": {
+						"x": 0.5,
+						"y": 0.5
+					},
+					"randomPosition": {
+						"x": 0,
+						"y": 0
+					},	
+					"size": {
+						"x": 0.8,
+						"y": 0.8
+					},
+					"rotation" : 0,
+					"randomRotation": 360, 
+					"scaleXRange": {
+						"x": 0.95,
+						"y": 1.05
+					},
+					"scaleYRange": {
+						"x": 0.95,
+						"y": 1.05
+					}
+				},
+				{
+					"id": "detail_02_hill",
+					"brushIDs": [
+						"height_map_circular_01",
+						"height_map_circular_02",
+						"height_map_circular_03",
+						"height_map_circular_04",
+						"height_map_circular_05",
+						"height_map_circular_06"
+					], 
+					"operation": "Add",
+					"height": 1,
+					"repeatCountMax": 2,
+					"repeatCountMin": 2,
+					"position": {
+						"x": 0.5,
+						"y": 0.5
+					},
+					"randomPosition": {
+						"x": 0,
+						"y": 0
+					},	
+					"size": {
+						"x": 1,
+						"y": 1
+					},
+					"rotation" : 0,
+					"randomRotation": 360, 
+					"scaleXRange": {
+						"x": 0.95,
+						"y": 1.05
+					},
+					"scaleYRange": {
+						"x": 0.95,
+						"y": 1.05
+					}
+				},
+				{
+					"id": "detail_03_hill",
+					"brushIDs": [
+						"height_map_circular_01",
+						"height_map_circular_02",
+						"height_map_circular_03",
+						"height_map_circular_04",
+						"height_map_circular_05",
+						"height_map_circular_06"
+					], 
+					"operation": "Subtract",
+					"height": 2,
+					"repeatCountMax": 2,
+					"repeatCountMin": 2,
+					"position": {
+						"x": 0.5,
+						"y": 0.5
+					},
+					"randomPosition": {
+						"x": 0,
+						"y": 0
+					},	
+					"size": {
+						"x": 1,
+						"y": 1
+					},
+					"rotation" : 0,
+					"randomRotation": 360, 
+					"scaleXRange": {
+						"x": 0.95,
+						"y": 1.05
+					},
+					"scaleYRange": {
+						"x": 0.95,
+						"y": 1.05
+					}
+				},
+				{
+					"id": "detail_05_hill",
+					"brushIDs": [
+						"hight_map_detail_canyon_01",
+						"hight_map_detail_canyon_02",
+						"hight_map_detail_canyon_03"
+						], 
+					"operation": "Subtract",
+					"height": 2,
+					"repeatCountMax": 1,
+					"repeatCountMin": 1,
+					"position": {
+						"x": 0.3,
+						"y": 0.5
+					},
+					"randomPosition": {
+						"x": 0.4,
+						"y": 0
+					},	
+					"size": {
+						"x": 1.1,
+						"y": 1.1
+					},
+					"rotation" : 0,
+					"randomRotation": 15, 
+					"scaleXRange": {
+						"x": 0.9,
+						"y": 1.2
+					},
+					"scaleYRange": {
+						"x": 0.9,
+						"y": 1.2
+					}
+				},
+				{
+					"id": "Clay_patch",
+					"brushIDs": [
+						"height_map_circular_01",
+						"height_map_circular_02",
+						"height_map_circular_03",
+						"height_map_circular_04",
+						"height_map_circular_05",
+						"height_map_circular_06"
+					],   
+					"operation": "SetGroundData",
+					"plotData": "Clay",
+					"plotHeightOffsetDown": 0,
+					"plotHeightAbove": 5,
+					"plotHeightCenter": 3,
+					"plotHeightBelow": 3,
+					"repeatCount": 1,
+					"repeatCountMax": 1,
+					"repeatCountMin":1,
+					"height": 16,
+					"position": {
+						"x": 0.5,
+						"y": 0.5
+					},
+					"randomPosition": {
+						"x": 0,
+						"y": 0
+					},	
+					"size": {
+						"x": 0.5,
+						"y": 0.5
+					},
+					"scaleXRange": {
+						"x": 0.95,
+						"y": 1.05
+					},
+					"scaleYRange": {
+						"x": 0.95,
+						"y": 1.05
+					},
+					"rotation": 0, 
+					"randomRotation": 360,
+					"props": {
+						"id": "ClayPiles",
+						"propsToPlace": ["ClayPiles"],
+						"placeOnlyOnVoxels": ["Clay"], 
+						"terrainPercent": 0.05,
+						"brushControlsDensity": false, 
+						"invertBrushDensity": false, 
+						"resourcePileAmount": {
+							"min": 5,
+							"max": 25
+						}
+					}
+				},
+				{
+					"id": "limestone_vein_02",
+					"brushIDs": [
+						"height_map_circular_01",
+						"height_map_circular_02",
+						"height_map_circular_03",
+						"height_map_circular_04",
+						"height_map_circular_05",
+						"height_map_circular_06"
+					],   
+					"operation": "SetGroundData",
+					"plotData": "Limestone",
+					"plotHeightOffsetDown": 0,
+					"plotHeightAbove": 4,
+					"plotHeightCenter": 4,
+					"plotHeightBelow": 2,
+					"repeatCount": 1,
+					"repeatCountMax": 1,
+					"repeatCountMin":1,
+					"height": 16,
+					"position": {
+						"x": 0.5,
+						"y": 0.5
+					},
+					"randomPosition": {
+						"x": 0,
+						"y": 0
+					},	
+					"size": {
+						"x": 0.8,
+						"y": 0.8
+					},
+					"scaleXRange": {
+						"x": 0.95,
+						"y": 1.05
+					},
+					"scaleYRange": {
+						"x": 0.95,
+						"y": 1.05
+					},
+					"rotation": 0, 
+					"randomRotation": 360
+				},
+				{
+					"id": "limestone_vein",
+					"brushIDs": [
+						"height_map_circular_01",
+						"height_map_circular_02",
+						"height_map_circular_03",
+						"height_map_circular_04",
+						"height_map_circular_05",
+						"height_map_circular_06"
+					], 
+					"operation": "SetGroundData",
+					"plotData": "Limestone",
+					"plotHeightOffsetDown": 0,
+					"plotHeightAbove": 5,
+					"plotHeightCenter": 4,
+					"plotHeightBelow": 5,
+					"repeatCount": 1,
+					"repeatCountMax": 1,
+					"repeatCountMin": 1,
+					"height": 16,
+					"position": {
+						"x": 0.5,
+						"y": 0.5
+					},
+					"randomPosition": {
+						"x": 0.05,
+						"y": 0.05
+					},	
+					"size": {
+						"x": 1,
+						"y": 1
+					},
+					"scaleXRange": {
+						"x": 0.95,
+						"y": 1.05
+					},
+					"scaleYRange": {
+						"x": 0.95,
+						"y": 1.05
+					},
+					"rotation": 0, 
+					"randomRotation": 360
+				},
+				{
+					"id": "rocky_vein",
+					"brushIDs": [
+						"height_map_circular_01",
+						"height_map_circular_02",
+						"height_map_circular_03",
+						"height_map_circular_04",
+						"height_map_circular_05",
+						"height_map_circular_06"
+					], 
+					"operation": "SetGroundData",
+					"plotData": "Rocky",
+					"plotHeightOffsetDown": 0,
+					"plotHeightAbove": 5,
+					"plotHeightCenter": 43,
+					"plotHeightBelow": 5,
+					"repeatCount": 3,
+					"repeatCountMax": 3,
+					"repeatCountMin": 3,
+					"height": 16,
+					"position": {
+						"x": 0.5,
+						"y": 0.5
+					},
+					"randomPosition": {
+						"x": 0.05,
+						"y": 0.05
+					},	
+					"size": {
+						"x": 1,
+						"y": 1
+					},
+					"scaleXRange": {
+						"x": 0.95,
+						"y": 1.05
+					},
+					"scaleYRange": {
+						"x": 0.95,
+						"y": 1.05
+					},
+					"rotation": 0, 
+					"randomRotation": 360
+				},
+				{
+					"id": "Salt_vein",
+					"brushIDs": [
+						"detail_circular_small_01",
+						"detail_circular_small_02",
+						"detail_circular_small_03",
+						"detail_circular_small_04"
+					],  
+					"operation": "SetGroundData",
+					"plotData": "Salt",
+					"plotHeightOffsetDown": 0,
+					"plotHeightAbove": 3,
+					"plotHeightCenter": 4,
+					"plotHeightBelow": 2,
+					"repeatCount": 1,
+					"repeatCountMax": 1,
+					"repeatCountMin": 1,
+					"height": 16,
+					"position": {
+						"x": 0.5,
+						"y": 0.5
+					},
+					"randomPosition": {
+						"x": 0.05,
+						"y": 0.05
+					},	
+					"size": {
+						"x": 0.9,
+						"y": 0.9
+					},
+					"scaleXRange": {
+						"x": 0.95,
+						"y": 1.05
+					},
+					"scaleYRange": {
+						"x": 0.95,
+						"y": 1.05
+					},
+					"rotation": 0, 
+					"randomRotation": 360
+				},
+				{
+					"id": "Coal_vein",
+					"brushIDs": [
+						"detail_circular_small_01",
+						"detail_circular_small_02",
+						"detail_circular_small_03",
+						"detail_circular_small_04"
+					],  
+					"operation": "SetGroundData",
+					"plotData": "Coal",
+					"plotHeightOffsetDown": 0,
+					"plotHeightAbove": 3,
+					"plotHeightCenter": 4,
+					"plotHeightBelow": 3,
+					"repeatCount": 1,
+					"repeatCountMax": 1,
+					"repeatCountMin": 1,
+					"height": 16,
+					"position": {
+						"x": 0.5,
+						"y": 0.5
+					},
+					"randomPosition": {
+						"x": 0.05,
+						"y": 0.05
+					},	
+					"size": {
+						"x": 0.9,
+						"y": 0.9
+					},
+					"scaleXRange": {
+						"x": 0.95,
+						"y": 1.05
+					},
+					"scaleYRange": {
+						"x": 0.95,
+						"y": 1.05
+					},
+					"rotation": 0, 
+					"randomRotation": 360
+				},
+				{
+					"id": "rocky_patch",
+					"brushIDs": [
+						"height_map_detail_01", 
+						"height_map_detail_02", 
+						"height_map_detail_03",
+						"height_map_detail_04",
+						"height_map_detail_05",
+						"height_map_detail_06",
+						"height_map_detail_07",
+						"height_map_detail_08",
+						"height_map_detail_09",
+						"height_map_detail_10"
+					],   
+					"operation": "SetGroundData",
+					"plotData": "Rocky",
+					"plotHeightOffsetDown": 0,
+					"plotOnlyOnTopLayers": 1,
+					"repeatCount": 35,
+					"repeatCountMax": 40,
+					"repeatCountMin": 35,
+					"height": 16,
+					"position": {
+						"x": 0.5,
+						"y": 0.5
+					},
+					"randomPosition": {
+						"x": 1,
+						"y": 1
+					},	
+					"size": {
+						"x": 0.15,
+						"y": 0.15
+					},
+					"scaleXRange": {
+						"x": 0.2,
+						"y": 1.1
+					},
+					"scaleYRange": {
+						"x": 0.2,
+						"y": 1.1
+					},
+					"rotation": 0, 
+					"randomRotation": 360
+				},
+				{
+					"id": "dirt_patch",
+					"brushIDs": [
+						"height_map_detail_01", 
+						"height_map_detail_02", 
+						"height_map_detail_03",
+						"height_map_detail_04",
+						"height_map_detail_05",
+						"height_map_detail_06",
+						"height_map_detail_07",
+						"height_map_detail_08",
+						"height_map_detail_09",
+						"height_map_detail_10"
+					],   
+					"operation": "SetGroundData",
+					"plotData": "Dirt",
+					"plotHeightOffsetDown": 0,
+					"plotOnlyOnTopLayers": 1,
+					"repeatCount": 10,
+					"repeatCountMax": 15,
+					"repeatCountMin": 8,
+					"height": 16,
+					"position": {
+						"x": 0.5,
+						"y": 0.5
+					},
+					"randomPosition": {
+						"x": 1,
+						"y": 1
+					},	
+					"size": {
+						"x": 0.15,
+						"y": 0.15
+					},
+					"scaleXRange": {
+						"x": 0.2,
+						"y": 1.1
+					},
+					"scaleYRange": {
+						"x": 0.2,
+						"y": 1.1
+					},
+					"rotation": 0, 
+					"randomRotation": 360
+				},
+				{
+					"id": "ForestMixedStep",
+					"brushIDs": [
+						"detail_circular_forest_01",
+						"detail_circular_forest_02",
+						"detail_circular_forest_03",
+						"detail_circular_forest_04"
+					], 
+					"operation": "PropsOnly",
+					"height": 16,
+					"repeatCount": 1,
+					"repeatCountMax": 1,
+					"repeatCountMin": 1,
+					"position": {
+						"x": 0.5,
+						"y": 0.5
+					},
+					"randomPosition": {
+						"x": 0,
+						"y": 0
+					},	
+					"size": {
+						"x": 1.4,
+						"y": 1.4
+					},
+					"rotation" : 0,
+					"randomRotation": 360, 
+					"scaleXRange": {
+						"x": 1,
+						"y": 1
+					},
+					"scaleYRange": {
+						"x": 1,
+						"y": 1
+					}, 
+					"props": {
+						"id": "ForestMixed",
+						"propsToPlace": [
+							"TreeBirchRandom", 
+							"TreePlaneRandom", 
+							"TreeOakRandom",
+							"ShrubGenericRandom", 
+							"ShrubIvyRandom",
+							"ShrubGenericRandom", 
+							"ShrubIvyRandom",
+							"TreeBirchRandom", 
+							"TreePlaneRandom", 
+							"TreeOakRandom",
+							"TreeBirchRandom", 
+							"TreePlaneRandom", 
+							"TreeOakRandom",
+							"TreeBirchRandom", 
+							"TreePlaneRandom", 
+							"TreeOakRandom",
+							"TreePlaneDead",
+							"TreeOakDead",
+							"TreebirchDead"
+						],
+						"terrainPercent": 2.8,
+						"placeOnlyOnVoxels": ["Grass","Dirt"], 
+						"brushControlsDensity": false, 
+						"invertBrushDensity": false
+					}
+				},
+				{
+					"id": "ForestPineStep",
+					"brushIDs": [
+						"detail_circular_small_01",
+						"detail_circular_small_02",
+						"detail_circular_small_03",
+						"detail_circular_small_04"
+					], 
+					"operation": "PropsOnly",
+					"height": 16,
+					"repeatCount": 1,
+					"repeatCountMax": 1,
+					"repeatCountMin": 1,
+					"position": {
+						"x": 0.5,
+						"y": 0.5
+					},
+					"randomPosition": {
+						"x": 0,
+						"y": 0
+					},	
+					"size": {
+						"x": 1,
+						"y": 1
+					},
+					"rotation" : 0,
+					"randomRotation": 360, 
+					"scaleXRange": {
+						"x": 0.8,
+						"y": 1.2
+					},
+					"scaleYRange": {
+						"x": 0.8,
+						"y": 1.2
+					}, 
+					"props": {
+						"id": "ForestPine",
+						"propsToPlace": ["TreePineRandom"],
+						"terrainPercent": 0.03,
+						"placeOnlyOnVoxels": ["Grass","Dirt"], 
+						"brushControlsDensity": false, 
+						"invertBrushDensity": false
+					}
+				},
+				{
+					"id": "srubsRandomStep",
+					"brushIDs": [
+						"height_map_detail_01", 
+						"height_map_detail_02", 
+						"height_map_detail_03",
+						"height_map_detail_04",
+						"height_map_detail_05",
+						"height_map_detail_06",
+						"height_map_detail_07",
+						"height_map_detail_08",
+						"height_map_detail_09",
+						"height_map_detail_10"
+					],  
+					"operation": "PropsOnly",
+					"height": 16,
+					"repeatCount": 8,
+					"repeatCountMax": 8,
+					"repeatCountMin": 5,
+					"position": {
+						"x": 0.5,
+						"y": 0.5
+					},
+					"randomPosition": {
+						"x": 0.3,
+						"y": 0.3
+					},	
+					"size": {
+						"x": 1,
+						"y": 1
+					},
+					"rotation" : 0,
+					"randomRotation": 360, 
+					"scaleXRange": {
+						"x": 0.5,
+						"y": 1.2
+					},
+					"scaleYRange": {
+						"x": 0.5,
+						"y": 1.2
+					}, 
+					"props": {
+						"id": "random_shrubs",
+						"propsToPlace": ["ShrubGenericRandom", "ShrubIvyRandom"],
+						"terrainPercent": 0.7,
+						"placeOnlyOnVoxels": ["Grass", "Dirt","Rocky"], 
+						"brushControlsDensity": false, 
+						"invertBrushDensity": false
+					}
+				},
+				{
+					"id": "sticksRandomStep",
+					"brushIDs": [
+						"height_map_detail_01", 
+						"height_map_detail_02", 
+						"height_map_detail_03",
+						"height_map_detail_04",
+						"height_map_detail_05",
+						"height_map_detail_06",
+						"height_map_detail_07",
+						"height_map_detail_08",
+						"height_map_detail_09",
+						"height_map_detail_10"
+					],  
+					"operation": "PropsOnly",
+					"height": 16,
+					"repeatCount": 20,
+					"repeatCountMax": 20,
+					"repeatCountMin": 20,
+					"position": {
+						"x": 0.5,
+						"y": 0.5
+					},
+					"randomPosition": {
+						"x": 0.3,
+						"y": 0.3
+					},	
+					"size": {
+						"x": 1,
+						"y": 1
+					},
+					"rotation" : 0,
+					"randomRotation": 360, 
+					"scaleXRange": {
+						"x": 0.5,
+						"y": 1.2
+					},
+					"scaleYRange": {
+						"x": 0.5,
+						"y": 1.2
+					}, 
+					"props": {
+						"id": "random_shrubs",
+						"propsToPlace": ["StickPiles"],
+						"terrainPercent": 0.05,
+						"placeOnlyOnVoxels": ["Grass", "Dirt", "Limestone", "Rocky"], 
+						"brushControlsDensity": false, 
+						"invertBrushDensity": false,
+						"resourcePileAmount": {
+							"min": 1,
+							"max": 5
+						}
+					}
+				},
+				{
+					"id": "RedcurrantRandomStep",
+					"brushIDs": [
+						"height_map_detail_01", 
+						"height_map_detail_02", 
+						"height_map_detail_03",
+						"height_map_detail_04",
+						"height_map_detail_05",
+						"height_map_detail_06",
+						"height_map_detail_07",
+						"height_map_detail_08",
+						"height_map_detail_09",
+						"height_map_detail_10"
+					],  
+					"operation": "PropsOnly",
+					"height": 16,
+					"repeatCount": 10,
+					"repeatCountMax": 10,
+					"repeatCountMin": 10,
+					"position": {
+						"x": 0.5,
+						"y": 0.5
+					},
+					"randomPosition": {
+						"x": 0.9,
+						"y": 0.9
+					},	
+					"size": {
+						"x": 0.03,
+						"y": 0.03
+					},
+					"rotation" : 0,
+					"randomRotation": 360, 
+					"scaleXRange": {
+						"x": 0.5,
+						"y": 1.1
+					},
+					"scaleYRange": {
+						"x": 0.5,
+						"y": 1.1
+					}, 
+					"props": {
+						"id": "random_reducrent",
+						"propsToPlace": ["ShrubRedcurrantRandom"],
+						"terrainPercent": 0.1,
+						"placeOnlyOnVoxels": ["Grass", "Dirt"], 
+						"brushControlsDensity": false, 
+						"invertBrushDensity": false
+					}
+				},
+				{
+					"id": "RedcurrantNearStep",
+					"brushIDs": [
+						"detail_circular_single_01",
+						"detail_circular_single_02",
+						"detail_circular_single_03",
+						"detail_circular_single_04"
+					],  
+					"operation": "PropsOnly",
+					"height": 16,
+					"repeatCount": 1,
+					"repeatCountMax": 1,
+					"repeatCountMin": 1,
+					"position": {
+						"x": 0.5,
+						"y": 0.5
+					},
+					"randomPosition": {
+						"x": 0,
+						"y": 0
+					},	
+					"size": {
+						"x": 0.3,
+						"y": 0.3
+					},
+					"rotation" : 0,
+					"randomRotation": 360, 
+					"scaleXRange": {
+						"x": 1,
+						"y": 1
+					},
+					"scaleYRange": {
+						"x": 1,
+						"y": 1
+					}, 
+					"props": {
+						"id": "random_reducrent",
+						"propsToPlace": ["ShrubRedcurrantRandom"],
+						"terrainPercent": 0.1,
+						"placeOnlyOnVoxels": ["Grass", "Dirt"], 
+						"brushControlsDensity": false, 
+						"invertBrushDensity": false
+					}
+				},
+				{
+					"id": "MushroomRandomStep",
+					"brushIDs": [
+						"height_map_detail_01", 
+						"height_map_detail_02", 
+						"height_map_detail_03",
+						"height_map_detail_04",
+						"height_map_detail_05",
+						"height_map_detail_06",
+						"height_map_detail_07",
+						"height_map_detail_08",
+						"height_map_detail_09",
+						"height_map_detail_10"
+					],  
+					"operation": "PropsOnly",
+					"height": 16,
+					"repeatCount": 25,
+					"repeatCountMax": 25,
+					"repeatCountMin": 20,
+					"position": {
+						"x": 0.5,
+						"y": 0.5
+					},
+					"randomPosition": {
+						"x": 0.8,
+						"y": 0.8
+					},	
+					"size": {
+						"x": 0.04,
+						"y": 0.04
+					},
+					"rotation" : 0,
+					"randomRotation": 360, 
+					"scaleXRange": {
+						"x": 0.5,
+						"y": 1
+					},
+					"scaleYRange": {
+						"x": 0.5,
+						"y": 1
+					}, 
+					"props": {
+						"id": "random_mushroom",
+						"propsToPlace": ["MushroomPatchRandom"],
+						"terrainPercent": 0.23,
+						"placeOnlyOnVoxels": ["Grass"], 
+						"brushControlsDensity": false, 
+						"invertBrushDensity": false
+					}
+				},
+				{
+					"id": "HayPatchRandomStep",
+					"brushIDs": [
+						"height_map_detail_01", 
+						"height_map_detail_02", 
+						"height_map_detail_03",
+						"height_map_detail_04",
+						"height_map_detail_05",
+						"height_map_detail_06",
+						"height_map_detail_07",
+						"height_map_detail_08",
+						"height_map_detail_09",
+						"height_map_detail_10"
+					],  
+					"operation": "PropsOnly",
+					"height": 16,
+					"repeatCount": 17,
+					"repeatCountMax": 17,
+					"repeatCountMin": 12,
+					"position": {
+						"x": 0.5,
+						"y": 0.5
+					},
+					"randomPosition": {
+						"x": 0.6,
+						"y": 0.6
+					},	
+					"size": {
+						"x": 0.07,
+						"y": 0.07
+					},
+					"rotation" : 0,
+					"randomRotation": 360, 
+					"scaleXRange": {
+						"x": 0.8,
+						"y": 1
+					},
+					"scaleYRange": {
+						"x": 0.8,
+						"y": 1
+					}, 
+					"props": {
+						"id": "HayPatch_Random",
+						"propsToPlace": ["HayPatchRandom"],
+						"terrainPercent": 0.7,
+						"placeOnlyOnVoxels": ["Grass", "Dirt", "Rocky"], 
+						"brushControlsDensity": false, 
+						"invertBrushDensity": false
+					}
+				},
+				{
+					"id": "HerbsPatchRandomStep",
+					"brushIDs": [
+						"height_map_detail_01", 
+						"height_map_detail_02", 
+						"height_map_detail_03",
+						"height_map_detail_04",
+						"height_map_detail_05",
+						"height_map_detail_06",
+						"height_map_detail_07",
+						"height_map_detail_08",
+						"height_map_detail_09",
+						"height_map_detail_10"
+					],  
+					"operation": "PropsOnly",
+					"height": 16,
+					"repeatCount": 12,
+					"repeatCountMax": 12,
+					"repeatCountMin": 7,
+					"position": {
+						"x": 0.5,
+						"y": 0.5
+					},
+					"randomPosition": {
+						"x": 0.6,
+						"y": 0.6
+					},	
+					"size": {
+						"x": 0.02,
+						"y": 0.02
+					},
+					"rotation" : 0,
+					"randomRotation": 360, 
+					"scaleXRange": {
+						"x": 0.8,
+						"y": 1
+					},
+					"scaleYRange": {
+						"x": 0.8,
+						"y": 1
+					}, 
+					"props": {
+						"id": "HerbsPatch_Random",
+						"propsToPlace": ["HerbPatchRandom"],
+						"terrainPercent": 0.85,
+						"placeOnlyOnVoxels": ["Grass"], 
+						"brushControlsDensity": false, 
+						"invertBrushDensity": false
+					}
+				},
+				{
+					"id": "ForestDeadStep",
+					"brushIDs": [
+						"height_map_circular_01",
+						"height_map_circular_02",
+						"height_map_circular_03",
+						"height_map_circular_04",
+						"height_map_circular_05",
+						"height_map_circular_06"
+					],
+					"operation": "SetGroundData",
+					"plotData": "Dirt",
+					"plotHeightOffsetDown": 0,
+					"plotOnlyOnTopLayers": 1,
+					"height": 16,
+					"repeatCount": 1,
+					"repeatCountMax": 1,
+					"repeatCountMin": 1,
+					"position": {
+						"x": 0.5,
+						"y": 0.5
+					},
+					"randomPosition": {
+						"x": 0,
+						"y": 0
+					},	
+					"size": {
+						"x": 1,
+						"y": 1
+					},
+					"rotation" : 0,
+					"randomRotation": 360, 
+					"scaleXRange": {
+						"x": 0.8,
+						"y": 1.2
+					},
+					"scaleYRange": {
+						"x": 0.8,
+						"y": 1.2
+					}, 
+					"props": {
+						"id": "ForestdeadMixed",
+						"propsToPlace": [
+							"TreebirchDead",
+							"TreePlaneDead",
+							"TreeOakDead",
+							"ShrubGenericDeadRandom",
+							"ShrubGenericDeadRandom",
+							"ShrubGenericDeadRandom",
+							"ShrubGenericDeadRandom",
+							"MushroomPatchRandom",
+							"ShrubGenericDeadRandom",
+							"MushroomPatchRandom",
+							"ShrubGenericDeadRandom",
+							"MushroomPatchRandom",
+							"ShrubGenericDeadRandom",
+							"MushroomPatchRandom",
+							"HayPatchDry",
+							"HayPatchDry",
+							"BonePiles"],
+						"terrainPercent": 0.55,
+						"placeOnlyOnVoxels": ["Grass","Dirt"], 
+						"brushControlsDensity": false, 
+						"invertBrushDensity": false,
+						"resourcePileAmount": {
+							"min": 2,
+							"max": 10
+						}
+					}
+				}
+			]
+		},
+		{
+			"id": "map_type_mountain",
+			"flatHeight": 3,
+			"defaultVoxelType": "Limestone",
+			"minPlantsPercent": 105,
+			"initialPenalty": 4000,
+			"animals": [
+				{
+					"id": "Deer Spawner",
+					"animalId": "deer",
+					"initialCount":
+					{
+						"min": 1,
+						"max": 2
+					},
+					"maxCount": 3,
+					"temperature":
+					{
+						"min": 0,
+						"max": 40
+					},
+					"optimalTemperature": 20,
+					"spawnSpeedMultiplier": 2
+				},
+				{
+					"id": "Hare Spawner",
+					"animalId": "hare",
+					"initialCount":
+					{
+						"min": 8,
+						"max": 10
+					},
+					"maxCount": 10,
+					"temperature":
+					{
+						"min": -10,
+						"max": 40
+					},
+					"optimalTemperature": 25,
+					"spawnSpeedMultiplier": 4
+				},
+				{
+					"id": "Wolf Spawner",
+					"animalId": "wolf",
+					"initialCount":
+					{
+						"min": 1,
+						"max": 2
+					},
+					"maxCount": 3,
+					"temperature":
+					{
+						"min": -20,
+						"max": 20
+					},
+					"optimalTemperature": -5,
+					"spawnSpeedMultiplier": 2
+				}
+			],
+			"voxelTypeDistribution": [
+				{
+					"id": "Limestone",
+					"percent": 2,
+					"minCount": 1000
+				},
+				{
+					"id": "Iron",
+					"percent": 8,
+					"minCount": 2000
+				},
+				{
+					"id": "Gold",
+					"percent": 2,
+					"minCount": 2000,
+					"awayFromEdge": true,
+					"storeInside": [
+					  "Iron"
+					]
+				},
+				{
+					"id": "Coal",
+					"percent": 5,
+					"minCount": 2000
+				},
+				{
+					"id": "Rocky",
+					"percent": 20,
+					"minCount": 2000
+				},
+				{
+					"id": "Salt",
+					"percent": 1,
+					"minCount": 2000
+				},
+				{
+					"id": "Grass",
+					"percent": 12,
+					"minCount": 400
+				}
+			],
+			"mapGenerationSteps": [
+				{
+					"id": "base_mountain",
+					"brushIDs": [
+						"height_map_mountain_01",
+						"height_map_mountain_02",
+						"height_map_mountain_03"
+					], 
+					"operation": "Add",
+					"height": 11,
+					"repeatCountMax": 1,
+					"position": {
+						"x": 0.5,
+						"y": 0.5
+					},
+					"randomPosition": {
+						"x": 0,
+						"y": 0
+					},	
+					"size": {
+						"x": 1.4,
+						"y": 1.4
+					},
+					"rotation" : 0,
+					"randomRotation": 360, 
+					"scaleXRange": {
+						"x": 1,
+						"y": 1.01
+					},
+					"scaleYRange": {
+						"x": 1,
+						"y": 1.01
+					}
+				},
+				{
+					"id": "detail_01_mountain",
+					"brushIDs": [
+						"height_map_circular_01",
+						"height_map_circular_02",
+						"height_map_circular_03",
+						"height_map_circular_04",
+						"height_map_circular_05",
+						"height_map_circular_06"
+					], 
+					"operation": "Add",
+					"height": 1,
+					"repeatCountMax": 1,
+					"repeatCountMin": 1,
+					"position": {
+						"x": 0.5,
+						"y": 0.5
+					},
+					"randomPosition": {
+						"x": 0,
+						"y": 0
+					},	
+					"size": {
+						"x": 1,
+						"y": 1
+					},
+					"rotation" : 0,
+					"randomRotation": 360, 
+					"scaleXRange": {
+						"x": 0.95,
+						"y": 1.05
+					},
+					"scaleYRange": {
+						"x": 0.95,
+						"y": 1.05
+					}
+				},
+				{
+					"id": "detail_04_mountain",
+					"brushIDs": [
+						"height_map_circular_01",
+						"height_map_circular_02",
+						"height_map_circular_03",
+						"height_map_circular_04",
+						"height_map_circular_05",
+						"height_map_circular_06"
+					], 
+					"operation": "Add",
+					"height": 1,
+					"repeatCountMax": 4,
+					"repeatCountMin": 3,
+					"position": {
+						"x": 0.5,
+						"y": 0.5
+					},
+					"randomPosition": {
+						"x": 0,
+						"y": 0
+					},	
+					"size": {
+						"x": 0.8,
+						"y": 0.8
+					},
+					"rotation" : 0,
+					"randomRotation": 360, 
+					"scaleXRange": {
+						"x": 0.95,
+						"y": 1.05
+					},
+					"scaleYRange": {
+						"x": 0.95,
+						"y": 1.05
+					}
+				},
+				{
+					"id": "detail_02_mountain",
+					"brushIDs": [
+						"height_map_circular_01",
+						"height_map_circular_02",
+						"height_map_circular_03",
+						"height_map_circular_04",
+						"height_map_circular_05",
+						"height_map_circular_06"
+					], 
+					"operation": "Max",
+					"height": 7,
+					"repeatCountMax": 2,
+					"repeatCountMin": 2,
+					"position": {
+						"x": 0.5,
+						"y": 0.5
+					},
+					"randomPosition": {
+						"x": 0,
+						"y": 0
+					},	
+					"size": {
+						"x": 1,
+						"y": 1
+					},
+					"rotation" : 0,
+					"randomRotation": 360, 
+					"scaleXRange": {
+						"x": 0.95,
+						"y": 1.05
+					},
+					"scaleYRange": {
+						"x": 0.95,
+						"y": 1.05
+					}
+				},
+				{
+					"id": "detail_03_mountain",
+					"brushIDs": [
+						"height_map_circular_01",
+						"height_map_circular_02",
+						"height_map_circular_03",
+						"height_map_circular_04",
+						"height_map_circular_05",
+						"height_map_circular_06"
+					], 
+					"operation": "Subtract",
+					"height": 2,
+					"repeatCountMax": 2,
+					"repeatCountMin": 2,
+					"position": {
+						"x": 0.5,
+						"y": 0.5
+					},
+					"randomPosition": {
+						"x": 0,
+						"y": 0
+					},	
+					"size": {
+						"x": 1,
+						"y": 1
+					},
+					"rotation" : 0,
+					"randomRotation": 360, 
+					"scaleXRange": {
+						"x": 0.95,
+						"y": 1.05
+					},
+					"scaleYRange": {
+						"x": 0.95,
+						"y": 1.05
+					}
+				},
+				{
+					"id": "detail_05_mountain",
+					"brushIDs": [
+						"hight_map_detail_canyon_01",
+						"hight_map_detail_canyon_02",
+						"hight_map_detail_canyon_03"
+						], 
+					"operation": "Subtract",
+					"height": 2,
+					"repeatCountMax": 1,
+					"repeatCountMin": 1,
+					"position": {
+						"x": 0.3,
+						"y": 0.5
+					},
+					"randomPosition": {
+						"x": 0.4,
+						"y": 0
+					},	
+					"size": {
+						"x": 1.1,
+						"y": 1.1
+					},
+					"rotation" : 0,
+					"randomRotation": 15, 
+					"scaleXRange": {
+						"x": 0.9,
+						"y": 1.2
+					},
+					"scaleYRange": {
+						"x": 0.9,
+						"y": 1.2
+					}
+				},
+				{
+					"id": "Iron_vein",
+					"brushIDs": [
+						"detail_vain_01"
+					],  
+					"operation": "SetGroundData",
+					"plotData": "Iron",
+					"plotHeightOffsetDown": 0,
+					"plotHeightAbove": 10,
+					"plotHeightCenter": 6,
+					"plotHeightBelow": 10,
+					"repeatCount": 1,
+					"repeatCountMax": 1,
+					"repeatCountMin": 1,
+					"height": 16,
+					"position": {
+						"x": 0.5,
+						"y": 0.5
+					},
+					"randomPosition": {
+						"x": 0.05,
+						"y": 0.05
+					},	
+					"size": {
+						"x": 1.4,
+						"y": 1.4
+					},
+					"scaleXRange": {
+						"x": 0.98,
+						"y": 1.02
+					},
+					"scaleYRange": {
+						"x": 0.98,
+						"y": 1.02
+					},
+					"rotation": 0, 
+					"randomRotation": 360,
+					"props": {
+						"id": "IronPiles",
+						"propsToPlace": ["IronPiles"],
+						"placeOnlyOnVoxels": ["Iron"], 
+						"terrainPercent": 0.05,
+						"brushControlsDensity": false, 
+						"invertBrushDensity": false, 
+						"resourcePileAmount": {
+							"min": 2,
+							"max": 20
+						}
+					}
+				},
+				{
+					"id": "Salt_vein",
+					"brushIDs": [
+						"detail_circular_small_01",
+						"detail_circular_small_02",
+						"detail_circular_small_03",
+						"detail_circular_small_04"
+					],  
+					"operation": "SetGroundData",
+					"plotData": "Salt",
+					"plotHeightOffsetDown": 0,
+					"plotHeightAbove": 5,
+					"plotHeightCenter": 6,
+					"plotHeightBelow": 5,
+					"repeatCount": 3,
+					"repeatCountMax": 3,
+					"repeatCountMin": 3,
+					"height": 16,
+					"position": {
+						"x": 0.5,
+						"y": 0.5
+					},
+					"randomPosition": {
+						"x": 0.05,
+						"y": 0.05
+					},	
+					"size": {
+						"x": 0.9,
+						"y": 0.9
+					},
+					"scaleXRange": {
+						"x": 1.05,
+						"y": 1.3
+					},
+					"scaleYRange": {
+						"x": 1.05,
+						"y": 1.3
+					},
+					"rotation": 0, 
+					"randomRotation": 360
+				},
+				{
+					"id": "Coal_deposit",
+					"brushIDs": [
+						"circular_vain_01"
+					],  
+					"operation": "SetGroundData",
+					"plotData": "Coal",
+					"plotHeightOffsetDown": 0,
+					"plotHeightAbove": 10,
+					"plotHeightCenter": 6,
+					"plotHeightBelow": 7,
+					"repeatCount": 2,
+					"repeatCountMax": 2,
+					"repeatCountMin": 2,
+					"height": 16,
+					"position": {
+						"x": 0.5,
+						"y": 0.5
+					},
+					"randomPosition": {
+						"x": 0.05,
+						"y": 0.05
+					},	
+					"size": {
+						"x": 1,
+						"y": 1
+					},
+					"scaleXRange": {
+						"x": 0.98,
+						"y": 1.02
+					},
+					"scaleYRange": {
+						"x": 0.98,
+						"y": 1.02
+					},
+					"rotation": 0, 
+					"randomRotation": 360
+				},
+				{
+					"id": "rocky_terrain_mountain",
+					"brushIDs": [
+						"detail_chunk_01"
+					], 
+					"operation": "SetGroundData",
+					"plotData": "Rocky",
+					"plotHeightOffsetDown": 0,
+					"plotHeightAbove": 5,
+					"plotHeightCenter": 4,
+					"plotHeightBelow": 3,
+					"repeatCount": 1,
+					"repeatCountMax": 1,
+					"repeatCountMin": 1,
+					"height": 16,
+					"position": {
+						"x": 0.5,
+						"y": 0.5
+					},
+					"randomPosition": {
+						"x": 0.08,
+						"y": 0.08
+					},	
+					"size": {
+						"x": 1,
+						"y": 1
+					},
+					"scaleXRange": {
+						"x": 0.95,
+						"y": 1.05
+					},
+					"scaleYRange": {
+						"x": 0.95,
+						"y": 1.05
+					},
+					"rotation": 0, 
+					"randomRotation": 360
+				},
+				{
+					"id": "grass_chunk",
+					"brushIDs": [
+						"detail_chunk_03"
+					], 
+					"operation": "SetGroundData",
+					"plotData": "Grass",
+					"plotHeightOffsetDown": 0,
+					"plotOnlyOnTopLayers": 1,
+					"repeatCount": 1,
+					"repeatCountMax": 1,
+					"repeatCountMin": 1,
+					"height": 16,
+					"position": {
+						"x": 0.5,
+						"y": 0.5
+					},
+					"randomPosition": {
+						"x": 0.0,
+						"y": 0.0
+					},	
+					"size": {
+						"x": 1.4,
+						"y": 1.4
+					},
+					"scaleXRange": {
+						"x": 1,
+						"y": 1
+					},
+					"scaleYRange": {
+						"x": 1,
+						"y": 1
+					},
+					"rotation": 0, 
+					"randomRotation": 360
+				},
+				{
+					"id": "limestone_vein",
+					"brushIDs": [
+						"detail_circular_small_01",
+						"detail_circular_small_02",
+						"detail_circular_small_03",
+						"detail_circular_small_04"
+					], 
+					"operation": "SetGroundData",
+					"plotData": "Limestone",
+					"plotHeightOffsetDown": 0,
+					"plotHeightAbove": 20,
+					"plotHeightCenter": 4,
+					"plotHeightBelow": 20,
+					"repeatCount": 4,
+					"repeatCountMax": 4,
+					"repeatCountMin": 4,
+					"height": 16,
+					"position": {
+						"x": 0.5,
+						"y": 0.5
+					},
+					"randomPosition": {
+						"x": 0.05,
+						"y": 0.05
+					},	
+					"size": {
+						"x": 1,
+						"y": 1
+					},
+					"scaleXRange": {
+						"x": 0.95,
+						"y": 1.05
+					},
+					"scaleYRange": {
+						"x": 0.95,
+						"y": 1.05
+					},
+					"rotation": 0, 
+					"randomRotation": 360,
+					"props": {
+						"id": "LimestonePiles",
+						"propsToPlace": ["LimestonePiles"],
+						"placeOnlyOnVoxels": ["Limestone"], 
+						"terrainPercent": 0.1,
+						"brushControlsDensity": false, 
+						"invertBrushDensity": false, 
+						"resourcePileAmount": {
+							"min": 15,
+							"max": 50
+						}
+					}
+				},
+				{
+					"id": "srubsRandomStep",
+					"brushIDs": [
+						"height_map_detail_01", 
+						"height_map_detail_02", 
+						"height_map_detail_03",
+						"height_map_detail_04",
+						"height_map_detail_05",
+						"height_map_detail_06",
+						"height_map_detail_07",
+						"height_map_detail_08",
+						"height_map_detail_09",
+						"height_map_detail_10"
+					],  
+					"operation": "PropsOnly",
+					"height": 16,
+					"repeatCount": 20,
+					"repeatCountMax": 20,
+					"repeatCountMin": 20,
+					"position": {
+						"x": 0.5,
+						"y": 0.5
+					},
+					"randomPosition": {
+						"x": 0.3,
+						"y": 0.3
+					},	
+					"size": {
+						"x": 1,
+						"y": 1
+					},
+					"rotation" : 0,
+					"randomRotation": 360, 
+					"scaleXRange": {
+						"x": 0.5,
+						"y": 1.2
+					},
+					"scaleYRange": {
+						"x": 0.5,
+						"y": 1.2
+					}, 
+					"props": {
+						"id": "random_shrubs",
+						"propsToPlace": ["ShrubGenericRandom", "ShrubIvyRandom"],
+						"terrainPercent": 3.9,
+						"placeOnlyOnVoxels": ["Grass", "Dirt", "Limestone", "Rocky"], 
+						"brushControlsDensity": false, 
+						"invertBrushDensity": false
+					}
+				},
+				{
+					"id": "sticksRandomStep",
+					"brushIDs": [
+						"height_map_detail_01", 
+						"height_map_detail_02", 
+						"height_map_detail_03",
+						"height_map_detail_04",
+						"height_map_detail_05",
+						"height_map_detail_06",
+						"height_map_detail_07",
+						"height_map_detail_08",
+						"height_map_detail_09",
+						"height_map_detail_10"
+					],  
+					"operation": "PropsOnly",
+					"height": 16,
+					"repeatCount": 20,
+					"repeatCountMax": 20,
+					"repeatCountMin": 20,
+					"position": {
+						"x": 0.5,
+						"y": 0.5
+					},
+					"randomPosition": {
+						"x": 0.3,
+						"y": 0.3
+					},	
+					"size": {
+						"x": 1,
+						"y": 1
+					},
+					"rotation" : 0,
+					"randomRotation": 360, 
+					"scaleXRange": {
+						"x": 0.5,
+						"y": 1.2
+					},
+					"scaleYRange": {
+						"x": 0.5,
+						"y": 1.2
+					}, 
+					"props": {
+						"id": "random_shrubs",
+						"propsToPlace": ["StickPiles"],
+						"terrainPercent": 0.05,
+						"placeOnlyOnVoxels": ["Grass", "Dirt", "Limestone", "Rocky"], 
+						"brushControlsDensity": false, 
+						"invertBrushDensity": false,
+						"resourcePileAmount": {
+							"min": 1,
+							"max": 5
+						}
+					}
+				},
+				{
+					"id": "ForestPineStep",
+					"brushIDs": [
+						"detail_circular_small_01",
+						"detail_circular_small_02",
+						"detail_circular_small_03",
+						"detail_circular_small_04"
+					], 
+					"operation": "PropsOnly",
+					"height": 16,
+					"repeatCount": 5,
+					"repeatCountMax": 5,
+					"repeatCountMin": 5,
+					"position": {
+						"x": 0.5,
+						"y": 0.5
+					},
+					"randomPosition": {
+						"x": 0.05,
+						"y": 0.05
+					},	
+					"size": {
+						"x": 1,
+						"y": 1
+					},
+					"rotation" : 0,
+					"randomRotation": 360, 
+					"scaleXRange": {
+						"x": 0.5,
+						"y": 1.3
+					},
+					"scaleYRange": {
+						"x": 0.5,
+						"y": 1.3
+					}, 
+					"props": {
+						"id": "ForestPine",
+						"propsToPlace": ["TreePineRandom"],
+						"terrainPercent": 0.2,
+						"placeOnlyOnVoxels": ["Grass","Dirt","Limestone"], 
+						"brushControlsDensity": false, 
+						"invertBrushDensity": false
+					}
+				},
+				{
+					"id": "RedcurrantRandomStep",
+					"brushIDs": [
+						"height_map_detail_01", 
+						"height_map_detail_02", 
+						"height_map_detail_03",
+						"height_map_detail_04",
+						"height_map_detail_05",
+						"height_map_detail_06",
+						"height_map_detail_07",
+						"height_map_detail_08",
+						"height_map_detail_09",
+						"height_map_detail_10"
+					],  
+					"operation": "PropsOnly",
+					"height": 16,
+					"repeatCount": 22,
+					"repeatCountMax": 22,
+					"repeatCountMin": 22,
+					"position": {
+						"x": 0.5,
+						"y": 0.5
+					},
+					"randomPosition": {
+						"x": 0.9,
+						"y": 0.9
+					},	
+					"size": {
+						"x": 0.03,
+						"y": 0.03
+					},
+					"rotation" : 0,
+					"randomRotation": 360, 
+					"scaleXRange": {
+						"x": 0.5,
+						"y": 1.1
+					},
+					"scaleYRange": {
+						"x": 0.5,
+						"y": 1.1
+					}, 
+					"props": {
+						"id": "random_reducrent",
+						"propsToPlace": ["ShrubRedcurrantRandom"],
+						"terrainPercent": 0.05,
+						"placeOnlyOnVoxels": ["Grass", "Dirt"], 
+						"brushControlsDensity": false, 
+						"invertBrushDensity": false
+					}
+				},
+				{
+					"id": "HayPatchRandomStep",
+					"brushIDs": [
+						"height_map_detail_01", 
+						"height_map_detail_02", 
+						"height_map_detail_03",
+						"height_map_detail_04",
+						"height_map_detail_05",
+						"height_map_detail_06",
+						"height_map_detail_07",
+						"height_map_detail_08",
+						"height_map_detail_09",
+						"height_map_detail_10"
+					],  
+					"operation": "PropsOnly",
+					"height": 16,
+					"repeatCount": 17,
+					"repeatCountMax": 17,
+					"repeatCountMin": 12,
+					"position": {
+						"x": 0.5,
+						"y": 0.5
+					},
+					"randomPosition": {
+						"x": 0.6,
+						"y": 0.6
+					},	
+					"size": {
+						"x": 0.07,
+						"y": 0.07
+					},
+					"rotation" : 0,
+					"randomRotation": 360, 
+					"scaleXRange": {
+						"x": 0.8,
+						"y": 1
+					},
+					"scaleYRange": {
+						"x": 0.8,
+						"y": 1
+					}, 
+					"props": {
+						"id": "HayPatch_Random",
+						"propsToPlace": ["HayPatchRandom"],
+						"terrainPercent": 2,
+						"placeOnlyOnVoxels": ["Grass", "Dirt"], 
+						"brushControlsDensity": false, 
+						"invertBrushDensity": false
+					}
+				},
+				{
+					"id": "HerbsPatchRandomStep",
+					"brushIDs": [
+						"height_map_detail_01", 
+						"height_map_detail_02", 
+						"height_map_detail_03",
+						"height_map_detail_04",
+						"height_map_detail_05",
+						"height_map_detail_06",
+						"height_map_detail_07",
+						"height_map_detail_08",
+						"height_map_detail_09",
+						"height_map_detail_10"
+					],  
+					"operation": "PropsOnly",
+					"height": 16,
+					"repeatCount": 40,
+					"repeatCountMax": 40,
+					"repeatCountMin": 40,
+					"position": {
+						"x": 0.5,
+						"y": 0.5
+					},
+					"randomPosition": {
+						"x": 0.6,
+						"y": 0.6
+					},	
+					"size": {
+						"x": 0.02,
+						"y": 0.02
+					},
+					"rotation" : 0,
+					"randomRotation": 360, 
+					"scaleXRange": {
+						"x": 0.8,
+						"y": 1
+					},
+					"scaleYRange": {
+						"x": 0.8,
+						"y": 1
+					}, 
+					"props": {
+						"id": "HerbsPatch_Random",
+						"propsToPlace": ["HerbPatchRandom"],
+						"terrainPercent": 5,
+						"placeOnlyOnVoxels": ["Grass", "Dirt"], 
+						"brushControlsDensity": false, 
+						"invertBrushDensity": false
+					}
+				},
+				{
+					"id": "ForestMixedStep",
+					"brushIDs": [
+						"detail_circular_forest_01",
+						"detail_circular_forest_02",
+						"detail_circular_forest_03",
+						"detail_circular_forest_04"
+					], 
+					"operation": "PropsOnly",
+					"height": 16,
+					"repeatCount": 2,
+					"repeatCountMax": 2,
+					"repeatCountMin": 2,
+					"position": {
+						"x": 0.5,
+						"y": 0.5
+					},
+					"randomPosition": {
+						"x": 0,
+						"y": 0
+					},	
+					"size": {
+						"x": 1.4,
+						"y": 1.4
+					},
+					"rotation" : 0,
+					"randomRotation": 360, 
+					"scaleXRange": {
+						"x": 1,
+						"y": 1
+					},
+					"scaleYRange": {
+						"x": 1,
+						"y": 1
+					}, 
+					"props": {
+						"id": "ForestMixed",
+						"propsToPlace": [
+							"TreeBirchRandom", 
+							"TreePlaneRandom", 
+							"TreeOakRandom",
+							"ShrubGenericRandom", 
+							"ShrubIvyRandom",
+							"ShrubGenericRandom", 
+							"ShrubIvyRandom",
+							"TreeBirchRandom", 
+							"TreePlaneRandom", 
+							"TreeOakRandom",
+							"TreeBirchRandom", 
+							"TreePlaneRandom", 
+							"TreeOakRandom",
+							"TreeBirchRandom", 
+							"TreePlaneRandom", 
+							"TreeOakRandom",
+							"TreePlaneDead",
+							"TreeOakDead",
+							"TreebirchDead",
+							"TreePineRandom2"
+						],
+						"terrainPercent": 1,
+						"placeOnlyOnVoxels": ["Grass","Dirt","Rocky"], 
+						"brushControlsDensity": false, 
+						"invertBrushDensity": false
+					}
+				}
+			]
+		}
+	]
+}
+
+

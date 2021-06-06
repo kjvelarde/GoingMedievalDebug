@@ -1,0 +1,823 @@
+{
+  "repository": [
+    {
+      "name": "Perk_1",
+      "perkCategory": "Recuperation",
+      "attributeModifiers": [
+        {
+          "key": 57,
+          "value": 1.2
+        },
+        {
+          "key": 68,
+          "value": 1.05
+        }
+      ]
+    },
+    {
+      "name": "Perk_2",
+      "perkCategory": "Recuperation",
+      "attributeModifiers": [
+        {
+          "key": 57,
+          "value": 1.15
+        },
+        {
+          "key": 71,
+          "value": 1.1
+        },
+        {
+          "key": 68,
+          "value": 1.15
+        }
+      ]
+    },
+    {
+      "name": "Perk_3",
+      "perkCategory": "Recuperation",
+      "attributeModifiers": [
+        {
+          "key": 57,
+          "value": 0.9
+        },
+        {
+          "key": 71,
+          "value": 0.95
+        },
+        {
+          "key": 68,
+          "value": 0.95
+        }
+      ]
+    },
+    {
+      "name": "Perk_4",
+      "perkCategory": "Recuperation",
+      "attributeModifiers": [
+        {
+          "key": 57,
+          "value": 0.85
+        },
+        {
+          "key": 71,
+          "value": 0.95
+        },
+        {
+          "key": 68,
+          "value": 0.75
+        }
+      ]
+    },
+    {
+      "name": "Perk_5",
+      "perkCategory": "Sleep",
+      "attributeModifiers": [
+        {
+          "key": 12,
+          "value": 1.1
+        },
+        {
+          "key": 51,
+          "value": 0.95
+        }
+      ],
+      "allowedEffectors": [
+        "NightOwlPerkEffector"
+      ]
+    },
+    {
+      "name": "Perk_6",
+      "perkCategory": "Sleep",
+      "attributeModifiers": [
+        {
+          "key": 12,
+          "value": 1.05
+        },
+        {
+          "key": 51,
+          "value": 0.9
+        }
+      ],
+      "effector": "SleepingPriorityLower"
+    },
+    {
+      "name": "Perk_7",
+      "perkCategory": "Sleep",
+      "attributeModifiers": [
+        {
+          "key": 12,
+          "value": 1.1
+        },
+        {
+          "key": 51,
+          "value": 1.15
+        }
+      ],
+      "effector": "SleepingPriorityHigher"
+    },
+    {
+      "name": "Perk_8",
+      "perkCategory": "Sleep",
+      "attributeModifiers": [
+        {
+          "key": 12,
+          "value": 0.95
+        },
+        {
+          "key": 51,
+          "value": 1.05
+        }
+      ]
+    },
+    {
+      "name": "Perk_9",
+      "perkCategory": "Hunger",
+      "attributeModifiers": [
+        {
+          "key": 7,
+          "value": 1.1
+        },
+        {
+          "key": 8,
+          "value": 1.05
+        },
+        {
+          "key": 9,
+          "value": 0.95
+        },
+        {
+          "key": 1,
+          "value": 0.95
+        }
+      ]
+    },
+    {
+      "name": "Perk_10",
+      "perkCategory": "Hunger",
+      "attributeModifiers": [
+        {
+          "key": 7,
+          "value": 1.1
+        },
+        {
+          "key": 8,
+          "value": 1.1
+        },
+        {
+          "key": 9,
+          "value": 0.9
+        }
+      ],
+      "ignoreCharacteristicType": [
+        5
+      ],
+      "effector": "EatingPriorityHigher",
+      "bannedEffector": [
+        "AteRawMeal",
+        "AteRawMeat",
+        "AteAtTable"
+      ],
+      "allowedEffectors": [
+        "AgentEatBindge"
+      ]
+    },
+    {
+      "name": "Perk_11",
+      "perkCategory": "Hunger",
+      "attributeModifiers": [
+        {
+          "key": 9,
+          "value": 0.6
+        }
+      ],
+      "effector": "EatingPriorityHigher",
+      "bannedEffector": [
+        "AteRawMeal",
+        "AteRawMeat",
+        "StomachFoodInstaDmgVeryLow",
+        "StomachFoodInstaDmgLow",
+        "StomachFoodInstaDmgHigh",
+        "AteRotten",
+        "AteDubiousMeal",
+        "StomackRotDmg"
+      ],
+      "allowedEffectors": [
+        "AgentEatBindge"
+      ]
+    },
+    {
+      "name": "Perk_12",
+      "perkCategory": "Hunger",
+      "skillModifiers": [
+        {
+          "key": 5,
+          "value": 3
+        }
+      ],
+      "attributeModifiers": [
+        {
+          "key": 7,
+          "value": 1.05
+        },
+        {
+          "key": 8,
+          "value": 1.05
+        },
+        {
+          "key": 9,
+          "value": 0.85
+        }
+      ],
+      "effector": "EatingPriorityHigher",
+      "allowedEffectors": [
+        "AgentEatBindge"
+      ]
+    },
+    {
+      "name": "Perk_13",
+      "perkCategory": "Hunger",
+      "attributeModifiers": [
+        {
+          "key": 7,
+          "value": 0.65
+        },
+        {
+          "key": 8,
+          "value": 0.9
+        },
+        {
+          "key": 9,
+          "value": 1.25
+        }
+      ],
+      "ignoreCharacteristicType": [
+        3
+      ],
+      "effector": "EatingPriorityLower",
+      "bannedEffector": [
+        "AteRawMeal",
+        "AteRawMeat",
+        "AteAtTable",
+        "AteLavishMeal",
+        "AteWell"
+      ],
+      "allowedEffectors": [
+        "AteLavishMealNegativePerkEffector",
+        "AteWellNegativePerkEffector",
+        "AteRawMealNegativePerkEffector"
+      ]
+    },
+    {
+      "name": "Perk_14",
+      "perkCategory": "Hunger",
+      "attributeModifiers": [
+        {
+          "key": 9,
+          "value": 0.5
+        }
+      ],
+      "effector": "EatingPriorityHigher",
+      "allowedEffectors": [
+        "AgentEatBindge"
+      ]
+    },
+    {
+      "name": "Perk_15",
+      "perkCategory": "Mood",
+      "attributeModifiers": [
+        {
+          "key": 36,
+          "value": 1.1
+        },
+        {
+          "key": 37,
+          "value": 0.95
+        }
+      ]
+    },
+    {
+      "name": "Perk_16",
+      "perkCategory": "Mood",
+      "attributeModifiers": [
+        {
+          "key": 36,
+          "value": 1.05
+        },
+        {
+          "key": 37,
+          "value": 0.95
+        }
+      ]
+    },
+    {
+      "name": "Perk_17",
+      "perkCategory": "Mood",
+      "attributeModifiers": [
+        {
+          "key": 36,
+          "value": 0.9
+        },
+        {
+          "key": 37,
+          "value": 1.1
+        }
+      ]
+    },
+    {
+      "name": "Perk_18",
+      "perkCategory": "Mood",
+      "attributeModifiers": [
+        {
+          "key": 36,
+          "value": 0.8
+        },
+        {
+          "key": 37,
+          "value": 1.05
+        }
+      ]
+    },
+    {
+      "name": "Perk_19",
+      "perkCategory": "Recreation",
+      "attributeModifiers": [
+        {
+          "key": 75,
+          "value": 1.1
+        }
+      ]
+    },
+    {
+      "name": "Perk_20",
+      "perkCategory": "Recreation"
+    },
+    {
+      "name": "Perk_21",
+      "perkCategory": "Recreation",
+      "attributeModifiers": [
+        {
+          "key": 79,
+          "value": 1.25
+        }
+      ],
+      "effector": "DrinkingPriorityHigher",
+      "allowedEffectors": [
+        "AgentDrinkBindge"
+      ]
+    },
+    {
+      "name": "Perk_22",
+      "perkCategory": "Recreation"
+    },
+    {
+      "name": "Perk_23",
+      "perkCategory": "Social"
+    },
+    {
+      "name": "Perk_24",
+      "perkCategory": "Social"
+    },
+    {
+      "name": "Perk_25",
+      "perkCategory": "Social",
+      "skillModifiers": [
+        {
+          "key": 9,
+          "value": 3
+        }
+      ],
+      "attributeModifiers": [
+        {
+          "key": 45,
+          "value": 1.1
+        }
+      ]
+    },
+    {
+      "name": "Perk_26",
+      "perkCategory": "Social"
+    },
+    {
+      "name": "Perk_27",
+      "perkCategory": "Social"
+    },
+    {
+      "name": "Perk_28",
+      "perkCategory": "Social"
+    },
+    {
+      "name": "Perk_29",
+      "perkCategory": "Social",
+      "ignoreCharacteristicType": [
+        8
+      ]
+    },
+    {
+      "name": "Perk_30",
+      "perkCategory": "Social",
+      "ignoreCharacteristicType": [
+        8
+      ]
+    },
+    {
+      "name": "Perk_31",
+      "perkCategory": "Addiction",
+      "effector": "DrinkingPriorityHigher",
+      "bannedEffector": [
+        "InebriatedLow",
+        "InebriatedMed",
+        "InebriatedHigh",
+        "InebriatedVeryHigh"
+      ],
+      "allowedEffectors": [
+        "InebriatedWorkLowPerkEffector",
+        "InebriatedWorkMedPerkEffector",
+        "InebriatedWorkHighPerkEffector",
+        "InebriatedWorkVeryHighPerkEffector",
+        "AgentDrinkBindge"
+      ]
+    },
+    {
+      "name": "Perk_32",
+      "perkCategory": "Addiction",
+      "attributeModifiers": [
+        {
+          "key": 88,
+          "value": 0.6
+        }
+      ],
+      "effector": "DrinkingPriorityHigher",
+      "allowedEffectors": [
+        "InebriatedAttackStrenghtPerkEffector",
+        "AgentDrinkBindge"
+      ]
+    },
+    {
+      "name": "Perk_33",
+      "perkCategory": "Addiction",
+      "attributeModifiers": [
+        {
+          "key": 88,
+          "value": 1.3
+        }
+      ],
+      "effector": "DrinkingPriorityLower",
+      "allowedEffectors": [
+        "AgentDrinkBindge"
+      ]
+    },
+    {
+      "name": "Perk_34",
+      "perkCategory": "Temperature",
+      "bannedEffector": [
+        "Sweaty",
+        "Hot"
+      ],
+      "allowedEffectors": [
+        "SweatyPositivePerkEffector",
+        "HotPositivePerkEffector"
+      ]
+    },
+    {
+      "name": "Perk_35",
+      "perkCategory": "Temperature",
+      "bannedEffector": [
+        "Chilly",
+        "Cold"
+      ],
+      "allowedEffectors": [
+        "ChillyPositivePerkEffector",
+        "ColdPositivePerkEffector"
+      ]
+    },
+    {
+      "name": "Perk_36",
+      "perkCategory": "Temperature",
+      "effector": "HotBloodedPerkEffector"
+    },
+    {
+      "name": "Perk_37",
+      "perkCategory": "Temperature",
+      "effector": "ChillyPerkEffector"
+    },
+    {
+      "name": "Perk_38",
+      "perkCategory": "DiseaseResistance",
+      "attributeModifiers": [
+        {
+          "key": 68,
+          "value": 0.9
+        }
+      ]
+    },
+    {
+      "name": "Perk_39",
+      "perkCategory": "DiseaseResistance",
+      "attributeModifiers": [
+        {
+          "key": 71,
+          "value": 0.95
+        }
+      ]
+    },
+    {
+      "name": "Perk_40",
+      "perkCategory": "DiseaseResistance",
+      "skillModifiers": [
+        {
+          "key": 2,
+          "value": 3
+        }
+      ],
+      "attributeModifiers": [
+        {
+          "key": 14,
+          "value": 1.25
+        },
+        {
+          "key": 15,
+          "value": 0.5
+        }
+      ]
+    },
+    {
+      "name": "Perk_41",
+      "perkCategory": "DiseaseResistance",
+      "ignoreCharacteristicType": [
+        4
+      ]
+    },
+    {
+      "name": "Perk_42",
+      "perkCategory": "Comfort",
+      "skillModifiers": [
+        {
+          "key": 1,
+          "value": 3
+        }
+      ]
+    },
+    {
+      "name": "Perk_43",
+      "perkCategory": "Comfort",
+      "ignoreCharacteristicType": [
+        3
+      ],
+      "bannedEffector": [
+        "SleptOutside",
+        "SleptWithoutBed",
+        "SleptInHighQualityBed",
+        "SleptInLowQualityBed",
+        "SleptInBedroom",
+        "SleptInSharedBedroom",
+        "SleptInMedQualityBed",
+        "SleptInHighestQualityBed"
+      ]
+    },
+    {
+      "name": "Perk_44",
+      "perkCategory": "Comfort",
+      "bannedEffector": [
+        "SleptInSharedBedroom"
+      ],
+      "allowedEffectors": [
+        "SleptInSharedBedroomPerkEffector"
+      ]
+    },
+    {
+      "name": "Perk_45",
+      "perkCategory": "Comfort",
+      "bannedEffector": [
+        "SleptInSharedBedroom"
+      ],
+      "allowedEffectors": [
+        "SleptInSharedBedroomPerkEffector"
+      ]
+    },
+    {
+      "name": "Perk_46",
+      "perkCategory": "Speed",
+      "attributeModifiers": [
+        {
+          "key": 1,
+          "value": 1.05
+        },
+        {
+          "key": 71,
+          "value": 1.1
+        }
+      ],
+      "ignoreCharacteristicType": [
+        3
+      ]
+    },
+    {
+      "name": "Perk_47",
+      "perkCategory": "Speed",
+      "attributeModifiers": [
+        {
+          "key": 1,
+          "value": 1.1
+        },
+        {
+          "key": 71,
+          "value": 1.05
+        }
+      ],
+      "ignoreCharacteristicType": [
+        4
+      ]
+    },
+    {
+      "name": "Perk_48",
+      "perkCategory": "Speed",
+      "skillModifiers": [
+        {
+          "key": 13,
+          "value": 3
+        }
+      ],
+      "attributeModifiers": [
+        {
+          "key": 1,
+          "value": 1.15
+        },
+        {
+          "key": 75,
+          "value": 1.1
+        },
+        {
+          "key": 24,
+          "value": 1.05
+        },
+        {
+          "key": 45,
+          "value": 1.05
+        }
+      ]
+    },
+    {
+      "name": "Perk_49",
+      "perkCategory": "Speed",
+      "attributeModifiers": [
+        {
+          "key": 1,
+          "value": 0.95
+        },
+        {
+          "key": 75,
+          "value": 0.9
+        }
+      ]
+    },
+    {
+      "name": "Perk_50",
+      "perkCategory": "Speed",
+      "attributeModifiers": [
+        {
+          "key": 1,
+          "value": 0.9
+        },
+        {
+          "key": 75,
+          "value": 0.85
+        }
+      ],
+      "ignoreCharacteristicType": [
+        5
+      ]
+    },
+    {
+      "name": "Perk_51",
+      "perkCategory": "Speed",
+      "attributeModifiers": [
+        {
+          "key": 1,
+          "value": 0.95
+        },
+        {
+          "key": 24,
+          "value": 1.1
+        },
+        {
+          "key": 45,
+          "value": 1.1
+        },
+        {
+          "key": 18,
+          "value": 1.1
+        }
+      ],
+      "ignoreCharacteristicType": [
+        8
+      ]
+    },
+    {
+      "name": "Perk_52",
+      "perkCategory": "Weather",
+      "allowedEffectors": [
+        "SunSeekerDayPerkEffector"
+      ]
+    },
+    {
+      "name": "Perk_53",
+      "perkCategory": "Weather",
+      "allowedEffectors": [
+        "SnowWhiteSnowPerkEffector"
+      ]
+    },
+    {
+      "name": "Perk_54",
+      "perkCategory": "Weather",
+      "allowedEffectors": [
+        "WashoutRainPerkEffector"
+      ]
+    },
+    {
+      "name": "Perk_55",
+      "perkCategory": "Intelect",
+      "skillModifiers": [
+        {
+          "key": 6,
+          "value": -5
+        }
+      ],
+      "attributeModifiers": [
+        {
+          "key": 85,
+          "value": 0.85
+        },
+        {
+          "key": 72,
+          "value": 1.1
+        }
+      ]
+    },
+    {
+      "name": "Perk_56",
+      "perkCategory": "Intelect",
+      "skillModifiers": [
+        {
+          "key": 6,
+          "value": 3
+        }
+      ],
+      "attributeModifiers": [
+        {
+          "key": 85,
+          "value": 1.1
+        }
+      ]
+    },
+    {
+      "name": "Perk_57",
+      "perkCategory": "Intelect",
+      "skillModifiers": [
+        {
+          "key": 6,
+          "value": 5
+        }
+      ],
+      "attributeModifiers": [
+        {
+          "key": 85,
+          "value": 1.15
+        }
+      ]
+    },
+    {
+      "name": "Perk_58"
+    },
+    {
+      "name": "Perk_59",
+      "perkCategory": "Callous",
+      "bannedEffector": [
+        "ButcheredHuman",
+        "ButcheredHumanFriend",
+        "SawDeadBody",
+        "SawDeadBodyFriend",
+        "CookedHumanMeat",
+        "AteHumanFlesh",
+        "AteHumanFleshCooked",
+        "WorkerDied"
+      ]
+    },
+    {
+      "name": "Perk_60",
+      "perkCategory": "Callous",
+      "bannedEffector": [
+        "AteHumanFlesh",
+        "AteHumanFleshCooked",
+        "ButcheredHuman",
+        "ButcheredHumanFriend",
+        "SawDeadBody",
+        "SawDeadBodyFriend",
+        "CookedHumanMeat"
+      ],
+      "allowedEffectors": [
+        "AteHumanFleshCanibal",
+        "AteHumanFleshCookedCanibal"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,703 @@
+{
+  "repository": [
+    {
+      "id": "architecture_lvl1",
+      "nextNodesIDs": [
+        "clothing_production_lvl1",
+        "furniture_lvl1",
+        "stone_block_production_lvl1",
+        "defensive_constructions_lvl1",
+        "clay_brick_production_lvl1",
+        "iron_smelting_lvl1",
+        "research_tier_02",
+        "woodwork_lvl1",
+        "agriculture_lvl1"
+      ],
+      "requiredResources": {
+        "keys": [
+          "basic_research_book"
+        ],
+        "values": [
+          15
+        ]
+      },
+      "unlocks": [
+        "wood_beam"
+      ]
+    },
+    {
+      "id": "agriculture_lvl1",
+      "nextNodesIDs": [
+        "preserving_food_lvl1",
+        "brewing_lvl1"
+      ],
+      "requiredResources": {
+        "keys": [
+          "basic_research_book"
+        ],
+        "values": [
+          15
+        ]
+      },
+      "unlocks": [
+        "cabbage_cropfield",
+        "carrot_cropfield",
+        "beet_cropfield",
+        "barley_cropfield",
+        "flax_cropfield",
+        "redcurrant_cropfield",
+        "hay_cropfield",
+        "herbs_cropfield",
+        "birch_cropfield"
+      ]
+    },
+    {
+      "id": "brewing_lvl1",
+      "requiredResources": {
+        "keys": [
+          "basic_research_book"
+        ],
+        "values": [
+          15
+        ]
+      },
+      "unlocks": [
+        "brewing_station",
+        "ale",
+        "beer",
+        "rough_wine"
+      ]
+    },
+    {
+      "id": "research_tier_02",
+      "nextNodesIDs": [
+        "research_tier_03"
+      ],
+      "requiredResources": {
+        "keys": [
+          "basic_research_book"
+        ],
+        "values": [
+          30
+        ]
+      },
+      "unlocks": [
+        "research_table",
+        "normal_research_book"
+      ]
+    },
+    {
+      "id": "research_tier_03",
+      "requiredResources": {
+        "keys": [
+          "basic_research_book",
+          "normal_research_book"
+        ],
+        "values": [
+          30,
+          30
+        ]
+      },
+      "unlocks": [
+        "advanced_research_table",
+        "advanced_research_book"
+      ]
+    },
+    {
+      "id": "clothing_production_lvl1",
+      "nextNodesIDs": [
+        "armor_production_lvl1"
+      ],
+      "requiredResources": {
+        "keys": [
+          "basic_research_book"
+        ],
+        "values": [
+          20
+        ]
+      },
+      "unlocks": [
+        "sewing_station",
+        "cap",
+        "winter_clothes",
+        "summer_clothes"
+      ]
+    },
+    {
+      "id": "preserving_food_lvl1",
+      "nextNodesIDs": [
+        "cooking_lvl1"
+      ],
+      "requiredResources": {
+        "keys": [
+          "basic_research_book"
+        ],
+        "values": [
+          20
+        ]
+      },
+      "unlocks": [
+        "smokehouse",
+        "limestone_smokehouse",
+        "smoked_meat"
+      ]
+    },
+    {
+      "id": "preserving_food_lvl2",
+      "requiredResources": {
+        "keys": [
+          "basic_research_book",
+          "normal_research_book"
+        ],
+        "values": [
+          30,
+          20
+        ]
+      },
+      "unlocks": [
+        "packaged_meal"
+      ]
+    },
+    {
+      "id": "furniture_lvl1",
+      "nextNodesIDs": [
+        "deocrations_lvl1",
+        "furniture_lvl2",
+        "banners_lvl1"
+      ],
+      "requiredResources": {
+        "keys": [
+          "basic_research_book"
+        ],
+        "values": [
+          15
+        ]
+      },
+      "unlocks": [
+        "hay_wood_bed",
+        "wood_chair",
+        "stone_chair"
+      ]
+    },
+    {
+      "id": "deocrations_lvl1",
+      "requiredResources": {
+        "keys": [
+          "basic_research_book"
+        ],
+        "values": [
+          15
+        ]
+      },
+      "unlocks": [
+        "wall_shield_decoration",
+        "wall_bookshelf",
+        "wall_pottery_shelf",
+        "wall_deer_head_decoration",
+        "wall_decoration_christian",
+        "wall_tool_shelf",
+        "wall_decoration_pagan"
+      ]
+    },
+    {
+      "id": "stone_block_production_lvl1",
+      "requiredResources": {
+        "keys": [
+          "basic_research_book"
+        ],
+        "values": [
+          20
+        ]
+      },
+      "unlocks": [
+        "stonemasons_bench",
+        "limestone_block"
+      ]
+    },
+    {
+      "id": "defensive_constructions_lvl1",
+      "nextNodesIDs": [
+        "defensive_constructions_lvl2"
+      ],
+      "requiredResources": {
+        "keys": [
+          "basic_research_book"
+        ],
+        "values": [
+          30
+        ]
+      },
+      "unlocks": [
+        "wood_trap",
+        "reinforced_door"
+      ]
+    },
+    {
+      "id": "defensive_constructions_lvl2",
+      "requiredResources": {
+        "keys": [
+          "basic_research_book"
+        ],
+        "values": [
+          30
+        ]
+      },
+      "unlocks": [
+        "metal_trap"
+      ]
+    },
+    {
+      "id": "clay_brick_production_lvl1",
+      "requiredResources": {
+        "keys": [
+          "basic_research_book"
+        ],
+        "values": [
+          20
+        ]
+      },
+      "unlocks": [
+        "kiln",
+        "limestone_kiln",
+        "clay_brick",
+        "coal"
+      ]
+    },
+    {
+      "id": "iron_smelting_lvl1",
+      "nextNodesIDs": [
+        "blacksmithing_lvl1",
+        "steel_smelting"
+      ],
+      "requiredResources": {
+        "keys": [
+          "basic_research_book"
+        ],
+        "values": [
+          30
+        ]
+      },
+      "unlocks": [
+        "smelting_station",
+        "limestone_smelting_station",
+        "iron_ingot",
+        "gold_ingot"
+      ]
+    },
+    {
+      "id": "steel_smelting",
+      "requiredResources": {
+        "keys": [
+          "basic_research_book",
+          "normal_research_book"
+        ],
+        "values": [
+          30,
+          15
+        ]
+      },
+      "unlocks": [
+        "steel_ingot"
+      ]
+    },
+    {
+      "id": "armor_production_lvl1",
+      "nextNodesIDs": [
+        "armor_production_lvl2",
+        "shield_production_lvl2"
+      ],
+      "requiredResources": {
+        "keys": [
+          "basic_research_book"
+        ],
+        "values": [
+          30
+        ]
+      },
+      "unlocks": [
+        "armourer_table",
+        "gambeson",
+        "leather_armor",
+        "leather_helmet",
+        "buckler"
+      ]
+    },
+    {
+      "id": "armor_production_lvl2",
+      "nextNodesIDs": [
+        "armor_production_lvl3"
+      ],
+      "requiredResources": {
+        "keys": [
+          "basic_research_book",
+          "normal_research_book"
+        ],
+        "values": [
+          30,
+          15
+        ]
+      },
+      "unlocks": [
+        "mail_armor",
+        "mail_helmet"
+      ]
+    },
+    {
+      "id": "armor_production_lvl3",
+      "requiredResources": {
+        "keys": [
+          "basic_research_book",
+          "normal_research_book",
+          "advanced_research_book"
+        ],
+        "values": [
+          30,
+          15,
+          15
+        ]
+      },
+      "unlocks": [
+        "plate_armor",
+        "plate_helmet"
+      ]
+    },
+    {
+      "id": "shield_production_lvl2",
+      "nextNodesIDs": [
+        "shield_production_lvl3"
+      ],
+      "requiredResources": {
+        "keys": [
+          "basic_research_book",
+          "normal_research_book"
+        ],
+        "values": [
+          30,
+          15
+        ]
+      },
+      "unlocks": [
+        "shield"
+      ]
+    },
+    {
+      "id": "shield_production_lvl3",
+      "requiredResources": {
+        "keys": [
+          "basic_research_book",
+          "normal_research_book",
+          "advanced_research_book"
+        ],
+        "values": [
+          30,
+          15,
+          15
+        ]
+      },
+      "unlocks": [
+        "tower_shield"
+      ]
+    },
+    {
+      "id": "cooking_lvl1",
+      "nextNodesIDs": [
+        "chemistry_lvl1",
+        "fermenting_lvl1",
+        "preserving_food_lvl2"
+      ],
+      "requiredResources": {
+        "keys": [
+          "basic_research_book"
+        ],
+        "values": [
+          30
+        ]
+      },
+      "unlocks": [
+        "limestone_stove",
+        "limestone_block_stove",
+        "clay_brick_stove",
+        "lavish_meal"
+      ]
+    },
+    {
+      "id": "banners_lvl1",
+      "requiredResources": {
+        "keys": [
+          "basic_research_book"
+        ],
+        "values": [
+          15
+        ]
+      },
+      "unlocks": [
+        "banner_small_tall",
+        "banner_wall_one_side_medium",
+        "banner_wall_large",
+        "banner_one_side_large",
+        "banner_wall_medium",
+        "banner_one_side_medium",
+        "banner_dubble_large",
+        "banner_single_large"
+      ]
+    },
+    {
+      "id": "chemistry_lvl1",
+      "nextNodesIDs": [
+        "destiling_01"
+      ],
+      "requiredResources": {
+        "keys": [
+          "basic_research_book",
+          "normal_research_book",
+          "advanced_research_book"
+        ],
+        "values": [
+          30,
+          15,
+          15
+        ]
+      },
+      "unlocks": [
+        "apothecary_bench",
+        "healing_kit_simple",
+        "healing_kit",
+        "healing_kit_advanced"
+      ]
+    },
+    {
+      "id": "furniture_lvl2",
+      "requiredResources": {
+        "keys": [
+          "basic_research_book",
+          "normal_research_book"
+        ],
+        "values": [
+          30,
+          20
+        ]
+      },
+      "unlocks": [
+        "quality_table_small",
+        "quality_table_medium",
+        "quality_table_large"
+      ]
+    },
+    {
+      "id": "fermenting_lvl1",
+      "requiredResources": {
+        "keys": [
+          "basic_research_book",
+          "normal_research_book"
+        ],
+        "values": [
+          25,
+          10
+        ]
+      },
+      "unlocks": [
+        "vinegar"
+      ]
+    },
+    {
+      "id": "destiling_01",
+      "requiredResources": {
+        "keys": [
+          "basic_research_book",
+          "normal_research_book",
+          "advanced_research_book"
+        ],
+        "values": [
+          30,
+          15,
+          15
+        ]
+      },
+      "unlocks": [
+        "spirit_destilary",
+        "alcohol"
+      ]
+    },
+    {
+      "id": "agriculture_lvl2",
+      "requiredResources": {
+        "keys": [
+          "basic_research_book",
+          "normal_research_book",
+          "advanced_research_book"
+        ],
+        "values": [
+          1,
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "id": "blacksmithing_lvl1",
+      "nextNodesIDs": [
+        "swords_lvl2",
+        "axes_lvl2",
+        "maces_lvl2"
+      ],
+      "requiredResources": {
+        "keys": [
+          "basic_research_book"
+        ],
+        "values": [
+          30
+        ]
+      },
+      "unlocks": [
+        "blacksmith_station",
+        "clay_brick_blacksmith_station",
+        "short_sword",
+        "berdiche",
+        "mechanical_parts"
+      ]
+    },
+    {
+      "id": "swords_lvl2",
+      "requiredResources": {
+        "keys": [
+          "basic_research_book",
+          "normal_research_book"
+        ],
+        "values": [
+          30,
+          20
+        ]
+      },
+      "unlocks": [
+        "longsword"
+      ]
+    },
+    {
+      "id": "axes_lvl2",
+      "requiredResources": {
+        "keys": [
+          "basic_research_book",
+          "normal_research_book"
+        ],
+        "values": [
+          30,
+          20
+        ]
+      },
+      "unlocks": [
+        "hatchet",
+        "greataxe"
+      ]
+    },
+    {
+      "id": "maces_lvl2",
+      "requiredResources": {
+        "keys": [
+          "basic_research_book",
+          "normal_research_book"
+        ],
+        "values": [
+          30,
+          20
+        ]
+      },
+      "unlocks": [
+        "mace",
+        "two_handed_mace"
+      ]
+    },
+    {
+      "id": "woodwork_lvl1",
+      "nextNodesIDs": [
+        "woodwork_lvl2",
+        "fletchering_lvl2"
+      ],
+      "requiredResources": {
+        "keys": [
+          "basic_research_book"
+        ],
+        "values": [
+          20
+        ]
+      },
+      "unlocks": [
+        "woodwork_bench",
+        "cudgel",
+        "wooden_spear",
+        "fletchers_table",
+        "short_bow"
+      ]
+    },
+    {
+      "id": "fletchering_lvl2",
+      "nextNodesIDs": [
+        "crossbows_lvl2"
+      ],
+      "requiredResources": {
+        "keys": [
+          "basic_research_book"
+        ],
+        "values": [
+          30
+        ]
+      },
+      "unlocks": [
+        "long_bow"
+      ]
+    },
+    {
+      "id": "woodwork_lvl2",
+      "requiredResources": {
+        "keys": [
+          "basic_research_book",
+          "normal_research_book"
+        ],
+        "values": [
+          30,
+          20
+        ]
+      },
+      "unlocks": [
+        "wooden_flail",
+        "two_handed_flail"
+      ]
+    },
+    {
+      "id": "crossbows_lvl2",
+      "nextNodesIDs": [
+        "crossbows_lvl3"
+      ],
+      "requiredResources": {
+        "keys": [
+          "basic_research_book",
+          "normal_research_book"
+        ],
+        "values": [
+          30,
+          20
+        ]
+      },
+      "unlocks": [
+        "crossbow"
+      ]
+    },
+    {
+      "id": "crossbows_lvl3",
+      "requiredResources": {
+        "keys": [
+          "basic_research_book",
+          "normal_research_book",
+          "advanced_research_book"
+        ],
+        "values": [
+          30,
+          15,
+          10
+        ]
+      },
+      "unlocks": [
+        "heavy_crossbow"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+    "name": "Animal",
+    "repository": [
+        {
+            "debug_name": "Health",
+            "type": 1,
+            "initialValue": 100,
+
+            "attributes": {
+                "min": [
+                    {
+                        "baseValue": 0
+                    }
+                ],
+                "max": [
+                    {
+                        "baseValue": 100,
+                        "attributes": [ 56 ]
+                    }
+                ],
+                "step": [
+                    {
+                        "baseValue": 3.0
+                    }
+                ],
+                "threshold": [
+                    {
+                        "baseValue": 1
+                    }
+                ]
+            }
+        },
+        {
+            "debugName": "Blood",
+            "type": 7,
+            "initialValue": 100,
+            "initialValueRange": {
+              "min": 100,
+              "max": 100
+            },
+            "attributes": {
+              "min": [
+                {
+                  "baseValue": 0
+                }
+              ],
+              "max": [
+                {
+                  "baseValue": 100
+                }
+              ],
+              "step": [
+                {
+                  "baseValue": 3
+                }
+              ],
+              "threshold": [
+                {
+                  "baseValue": 1
+                }
+              ]
+            },
+            "thresholds": [
+              {
+                "trigger": 50,
+                "name": "blood_treshold_01",
+                "effectors": [
+                  "AnimalDyingBleed"
+                ]
+              }
+            ]
+          }
+    ]
+}

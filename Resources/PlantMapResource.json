@@ -1,0 +1,2225 @@
+{
+  "repository": [
+    {
+      "id": "tree_birch",
+      "plantType": 1,
+      "layerShadowOffset": -1.5,
+      "layerHideOffset": -0.5,
+      "storableResources": [
+        {
+          "resourceId": "wood",
+          "orders": 10
+        },
+        {
+          "resourceId": "sticks",
+          "orders": 10
+        }
+      ],
+      "miningTool": "axe_item",
+      "miningDuration": 20,
+      "phaseSkipTemperature": -60,
+      "cultivable": true,
+      "sowTime": 30,
+      "growsOn": [
+        "Dirt",
+        "Grass",
+        "Rocky"
+      ],
+      "neighborCheck": 2,
+      "newPlantTemperatureLimit": 3,
+      "newPlantsPerDay": 8,
+      "pathfindingPenalty": 100000,
+      "attackTraversePenalty": 0.15,
+      "lifePhases": [
+        {
+          "phaseName": "leafTreeSpaling",
+          "appearance": {
+            "scale": 0.35,
+            "shaderParameters": [
+              {
+                "parameterId": "_DeadPhase",
+                "parameterValue": 0
+              },
+              {
+                "parameterId": "_SaplingAmount",
+                "parameterValue": 1
+              }
+            ]
+          },
+          "durationDays": 5,
+          "baseHealth": 40,
+          "resourcesRange": [
+            {
+              "min": 0,
+              "max": 1
+            },
+            {
+              "min": 0,
+              "max": 5
+            }
+          ],
+          "temperatureFreeze": -3,
+          "temperatureDeath": -10,
+          "nextPhaseIndex": 1,
+          "deathPhaseIndex": -1
+        },
+        {
+          "phaseName": "leafTreeYoung",
+          "appearance": {
+            "scale": 0.65,
+            "shaderParameters": [
+              {
+                "parameterId": "_DeadPhase",
+                "parameterValue": 0
+              },
+              {
+                "parameterId": "_SaplingAmount",
+                "parameterValue": 0.52
+              }
+            ]
+          },
+          "durationDays": 5,
+          "baseHealth": 80,
+          "resourcesRange": [
+            {
+              "min": 1,
+              "max": 15
+            },
+            {
+              "min": 5,
+              "max": 10
+            }
+          ],
+          "temperatureFreeze": -5,
+          "temperatureDeath": -35,
+          "nextPhaseIndex": 2,
+          "deathPhaseIndex": -1
+        },
+        {
+          "phaseName": "leafTreeGrowth",
+          "appearance": {
+            "scale": 1.3,
+            "shaderParameters": [
+              {
+                "parameterId": "_DeadPhase",
+                "parameterValue": 0
+              },
+              {
+                "parameterId": "_SaplingAmount",
+                "parameterValue": 0
+              }
+            ]
+          },
+          "durationDays": 6,
+          "baseHealth": 160,
+          "resourcesRange": [
+            {
+              "min": 15,
+              "max": 55
+            },
+            {
+              "min": 10,
+              "max": 25
+            }
+          ],
+          "temperatureFreeze": -5,
+          "temperatureDeath": -60,
+          "nextPhaseIndex": 3,
+          "deathPhaseIndex": 4
+        },
+        {
+          "phaseName": "leafTreeMature",
+          "appearance": {
+            "scale": 1.5,
+            "shaderParameters": [
+              {
+                "parameterId": "_DeadPhase",
+                "parameterValue": 0
+              },
+              {
+                "parameterId": "_SaplingAmount",
+                "parameterValue": 0
+              }
+            ]
+          },
+          "durationDays": 38,
+          "baseHealth": 200,
+          "resourcesRange": [
+            {
+              "min": 50,
+              "max": 50
+            },
+            {
+              "min": 25,
+              "max": 25
+            }
+          ],
+          "temperatureFreeze": -60,
+          "temperatureDeath": -60,
+          "nextPhaseIndex": 4,
+          "deathPhaseIndex": 4
+        },
+        {
+          "phaseName": "leafTreeDeath",
+          "appearance": {
+            "scale": 1.4,
+            "shaderParameters": [
+              {
+                "parameterId": "_DeadPhase",
+                "parameterValue": 1
+              },
+              {
+                "parameterId": "_SaplingAmount",
+                "parameterValue": 0
+              }
+            ]
+          },
+          "durationDays": 8,
+          "baseHealth": 100,
+          "resourcesRange": [
+            {
+              "min": 45,
+              "max": 45
+            },
+            {
+              "min": 20,
+              "max": 20
+            }
+          ],
+          "temperatureFreeze": -60,
+          "temperatureDeath": -60,
+          "nextPhaseIndex": -1,
+          "deathPhaseIndex": -1
+        }
+      ]
+    },
+    {
+      "id": "tree_plane",
+      "plantType": 1,
+      "layerShadowOffset": -1.5,
+      "layerHideOffset": -0.5,
+      "storableResources": [
+        {
+          "resourceId": "wood",
+          "orders": 10
+        },
+        {
+          "resourceId": "sticks",
+          "orders": 10
+        }
+      ],
+      "miningTool": "axe_item",
+      "miningDuration": 20,
+      "phaseSkipTemperature": -60,
+      "cultivable": false,
+      "sowTime": 8,
+      "growsOn": [
+        "Dirt",
+        "Grass",
+        "Rocky"
+      ],
+      "neighborCheck": 2,
+      "newPlantTemperatureLimit": 3,
+      "newPlantsPerDay": 8,
+      "pathfindingPenalty": 100000,
+      "attackTraversePenalty": 0.15,
+      "lifePhases": [
+        {
+          "phaseName": "leafTreeSpaling",
+          "appearance": {
+            "scale": 0.35,
+            "shaderParameters": [
+              {
+                "parameterId": "_DeadPhase",
+                "parameterValue": 0
+              },
+              {
+                "parameterId": "_SaplingAmount",
+                "parameterValue": 1
+              }
+            ]
+          },
+          "durationDays": 5,
+          "baseHealth": 40,
+          "resourcesRange": [
+            {
+              "min": 0,
+              "max": 1
+            },
+            {
+              "min": 0,
+              "max": 5
+            }
+          ],
+          "temperatureFreeze": -3,
+          "temperatureDeath": -10,
+          "nextPhaseIndex": 1,
+          "deathPhaseIndex": -1
+        },
+        {
+          "phaseName": "leafTreeYoung",
+          "appearance": {
+            "scale": 0.65,
+            "shaderParameters": [
+              {
+                "parameterId": "_DeadPhase",
+                "parameterValue": 0
+              },
+              {
+                "parameterId": "_SaplingAmount",
+                "parameterValue": 0.52
+              }
+            ]
+          },
+          "durationDays": 5,
+          "baseHealth": 80,
+          "resourcesRange": [
+            {
+              "min": 1,
+              "max": 15
+            },
+            {
+              "min": 5,
+              "max": 10
+            }
+          ],
+          "temperatureFreeze": -5,
+          "temperatureDeath": -35,
+          "nextPhaseIndex": 2,
+          "deathPhaseIndex": -1
+        },
+        {
+          "phaseName": "leafTreeGrowth",
+          "appearance": {
+            "scale": 1.3,
+            "shaderParameters": [
+              {
+                "parameterId": "_DeadPhase",
+                "parameterValue": 0
+              },
+              {
+                "parameterId": "_SaplingAmount",
+                "parameterValue": 0
+              }
+            ]
+          },
+          "durationDays": 6,
+          "baseHealth": 160,
+          "resourcesRange": [
+            {
+              "min": 15,
+              "max": 55
+            },
+            {
+              "min": 10,
+              "max": 25
+            }
+          ],
+          "temperatureFreeze": -5,
+          "temperatureDeath": -60,
+          "nextPhaseIndex": 3,
+          "deathPhaseIndex": 4
+        },
+        {
+          "phaseName": "leafTreeMature",
+          "appearance": {
+            "scale": 1.5,
+            "shaderParameters": [
+              {
+                "parameterId": "_DeadPhase",
+                "parameterValue": 0
+              },
+              {
+                "parameterId": "_SaplingAmount",
+                "parameterValue": 0
+              }
+            ]
+          },
+          "durationDays": 38,
+          "baseHealth": 200,
+          "resourcesRange": [
+            {
+              "min": 50,
+              "max": 50
+            },
+            {
+              "min": 25,
+              "max": 25
+            }
+          ],
+          "temperatureFreeze": -60,
+          "temperatureDeath": -60,
+          "nextPhaseIndex": 4,
+          "deathPhaseIndex": 4
+        },
+        {
+          "phaseName": "leafTreeDeath",
+          "appearance": {
+            "scale": 1.4,
+            "shaderParameters": [
+              {
+                "parameterId": "_DeadPhase",
+                "parameterValue": 1
+              },
+              {
+                "parameterId": "_SaplingAmount",
+                "parameterValue": 0
+              }
+            ]
+          },
+          "durationDays": 8,
+          "baseHealth": 100,
+          "resourcesRange": [
+            {
+              "min": 45,
+              "max": 45
+            },
+            {
+              "min": 20,
+              "max": 20
+            }
+          ],
+          "temperatureFreeze": -60,
+          "temperatureDeath": -60,
+          "nextPhaseIndex": -1,
+          "deathPhaseIndex": -1
+        }
+      ]
+    },
+    {
+      "id": "tree_oak",
+      "plantType": 1,
+      "layerShadowOffset": -1.5,
+      "layerHideOffset": -0.5,
+      "storableResources": [
+        {
+          "resourceId": "wood",
+          "orders": 10
+        },
+        {
+          "resourceId": "sticks",
+          "orders": 10
+        }
+      ],
+      "miningTool": "axe_item",
+      "miningDuration": 20,
+      "phaseSkipTemperature": -60,
+      "cultivable": false,
+      "sowTime": 8,
+      "growsOn": [
+        "Dirt",
+        "Grass",
+        "Rocky"
+      ],
+      "neighborCheck": 2,
+      "newPlantTemperatureLimit": 3,
+      "newPlantsPerDay": 8,
+      "pathfindingPenalty": 100000,
+      "attackTraversePenalty": 0.15,
+      "lifePhases": [
+        {
+          "phaseName": "leafTreeSpaling",
+          "appearance": {
+            "scale": 0.35,
+            "shaderParameters": [
+              {
+                "parameterId": "_DeadPhase",
+                "parameterValue": 0
+              },
+              {
+                "parameterId": "_SaplingAmount",
+                "parameterValue": 1
+              }
+            ]
+          },
+          "durationDays": 5,
+          "baseHealth": 40,
+          "resourcesRange": [
+            {
+              "min": 0,
+              "max": 1
+            },
+            {
+              "min": 0,
+              "max": 5
+            }
+          ],
+          "temperatureFreeze": -3,
+          "temperatureDeath": -10,
+          "nextPhaseIndex": 1,
+          "deathPhaseIndex": -1
+        },
+        {
+          "phaseName": "leafTreeYoung",
+          "appearance": {
+            "scale": 0.65,
+            "shaderParameters": [
+              {
+                "parameterId": "_DeadPhase",
+                "parameterValue": 0
+              },
+              {
+                "parameterId": "_SaplingAmount",
+                "parameterValue": 0.52
+              }
+            ]
+          },
+          "durationDays": 5,
+          "baseHealth": 80,
+          "resourcesRange": [
+            {
+              "min": 1,
+              "max": 15
+            },
+            {
+              "min": 5,
+              "max": 10
+            }
+          ],
+          "temperatureFreeze": -5,
+          "temperatureDeath": -35,
+          "nextPhaseIndex": 2,
+          "deathPhaseIndex": -1
+        },
+        {
+          "phaseName": "leafTreeGrowth",
+          "appearance": {
+            "scale": 1.3,
+            "shaderParameters": [
+              {
+                "parameterId": "_DeadPhase",
+                "parameterValue": 0
+              },
+              {
+                "parameterId": "_SaplingAmount",
+                "parameterValue": 0
+              }
+            ]
+          },
+          "durationDays": 6,
+          "baseHealth": 160,
+          "resourcesRange": [
+            {
+              "min": 15,
+              "max": 55
+            },
+            {
+              "min": 10,
+              "max": 25
+            }
+          ],
+          "temperatureFreeze": -5,
+          "temperatureDeath": -60,
+          "nextPhaseIndex": 3,
+          "deathPhaseIndex": 4
+        },
+        {
+          "phaseName": "leafTreeMature",
+          "appearance": {
+            "scale": 1.5,
+            "shaderParameters": [
+              {
+                "parameterId": "_DeadPhase",
+                "parameterValue": 0
+              },
+              {
+                "parameterId": "_SaplingAmount",
+                "parameterValue": 0
+              }
+            ]
+          },
+          "durationDays": 38,
+          "baseHealth": 200,
+          "resourcesRange": [
+            {
+              "min": 50,
+              "max": 50
+            },
+            {
+              "min": 25,
+              "max": 25
+            }
+          ],
+          "temperatureFreeze": -60,
+          "temperatureDeath": -60,
+          "nextPhaseIndex": 4,
+          "deathPhaseIndex": 4
+        },
+        {
+          "phaseName": "leafTreeDeath",
+          "appearance": {
+            "scale": 1.4,
+            "shaderParameters": [
+              {
+                "parameterId": "_DeadPhase",
+                "parameterValue": 1
+              },
+              {
+                "parameterId": "_SaplingAmount",
+                "parameterValue": 0
+              }
+            ]
+          },
+          "durationDays": 8,
+          "baseHealth": 100,
+          "resourcesRange": [
+            {
+              "min": 45,
+              "max": 45
+            },
+            {
+              "min": 20,
+              "max": 20
+            }
+          ],
+          "temperatureFreeze": -60,
+          "temperatureDeath": -60,
+          "nextPhaseIndex": -1,
+          "deathPhaseIndex": -1
+        }
+      ]
+    },
+    {
+      "id": "tree_pine",
+      "plantType": 1,
+      "layerShadowOffset": -1.5,
+      "layerHideOffset": -0.5,
+      "storableResources": [
+        {
+          "resourceId": "wood",
+          "orders": 10
+        },
+        {
+          "resourceId": "sticks",
+          "orders": 10
+        }
+      ],
+      "miningTool": "axe_item",
+      "miningDuration": 20,
+      "phaseSkipTemperature": -60,
+      "cultivable": false,
+      "sowTime": 8,
+      "growsOn": [
+        "Dirt",
+        "Grass",
+        "Rocky"
+      ],
+      "neighborCheck": 2,
+      "newPlantTemperatureLimit": 3,
+      "newPlantsPerDay": 8,
+      "pathfindingPenalty": 100000,
+      "attackTraversePenalty": 0.15,
+      "lifePhases": [
+        {
+          "phaseName": "leafTreeSpaling",
+          "appearance": {
+            "scale": 0.35,
+            "shaderParameters": [
+              {
+                "parameterId": "_DeadPhase",
+                "parameterValue": 0
+              },
+              {
+                "parameterId": "_SaplingAmount",
+                "parameterValue": 1
+              }
+            ]
+          },
+          "durationDays": 5,
+          "baseHealth": 40,
+          "resourcesRange": [
+            {
+              "min": 0,
+              "max": 1
+            },
+            {
+              "min": 0,
+              "max": 5
+            }
+          ],
+          "temperatureFreeze": -3,
+          "temperatureDeath": -10,
+          "nextPhaseIndex": 1,
+          "deathPhaseIndex": -1
+        },
+        {
+          "phaseName": "leafTreeYoung",
+          "appearance": {
+            "scale": 0.65,
+            "shaderParameters": [
+              {
+                "parameterId": "_DeadPhase",
+                "parameterValue": 0
+              },
+              {
+                "parameterId": "_SaplingAmount",
+                "parameterValue": 0.52
+              }
+            ]
+          },
+          "durationDays": 5,
+          "baseHealth": 80,
+          "resourcesRange": [
+            {
+              "min": 1,
+              "max": 15
+            },
+            {
+              "min": 5,
+              "max": 10
+            }
+          ],
+          "temperatureFreeze": -5,
+          "temperatureDeath": -35,
+          "nextPhaseIndex": 2,
+          "deathPhaseIndex": -1
+        },
+        {
+          "phaseName": "leafTreeGrowth",
+          "appearance": {
+            "scale": 1.3,
+            "shaderParameters": [
+              {
+                "parameterId": "_DeadPhase",
+                "parameterValue": 0
+              },
+              {
+                "parameterId": "_SaplingAmount",
+                "parameterValue": 0
+              }
+            ]
+          },
+          "durationDays": 6,
+          "baseHealth": 160,
+          "resourcesRange": [
+            {
+              "min": 15,
+              "max": 55
+            },
+            {
+              "min": 10,
+              "max": 25
+            }
+          ],
+          "temperatureFreeze": -5,
+          "temperatureDeath": -60,
+          "nextPhaseIndex": 3,
+          "deathPhaseIndex": 4
+        },
+        {
+          "phaseName": "leafTreeMature",
+          "appearance": {
+            "scale": 1.5,
+            "shaderParameters": [
+              {
+                "parameterId": "_DeadPhase",
+                "parameterValue": 0
+              },
+              {
+                "parameterId": "_SaplingAmount",
+                "parameterValue": 0
+              }
+            ]
+          },
+          "durationDays": 38,
+          "baseHealth": 200,
+          "resourcesRange": [
+            {
+              "min": 50,
+              "max": 50
+            },
+            {
+              "min": 25,
+              "max": 25
+            }
+          ],
+          "temperatureFreeze": -60,
+          "temperatureDeath": -60,
+          "nextPhaseIndex": 4,
+          "deathPhaseIndex": 4
+        },
+        {
+          "phaseName": "leafTreeDeath",
+          "appearance": {
+            "scale": 1.4,
+            "shaderParameters": [
+              {
+                "parameterId": "_DeadPhase",
+                "parameterValue": 1
+              },
+              {
+                "parameterId": "_SaplingAmount",
+                "parameterValue": 0
+              }
+            ]
+          },
+          "durationDays": 8,
+          "baseHealth": 100,
+          "resourcesRange": [
+            {
+              "min": 45,
+              "max": 45
+            },
+            {
+              "min": 20,
+              "max": 20
+            }
+          ],
+          "temperatureFreeze": -60,
+          "temperatureDeath": -60,
+          "nextPhaseIndex": -1,
+          "deathPhaseIndex": -1
+        }
+      ]
+    },
+    {
+      "id": "shrub_generic",
+      "plantType": 0,
+      "layerShadowOffset": -1.5,
+      "layerHideOffset": -1,
+      "storableResources": [
+        {
+          "resourceId": "sticks",
+          "orders": 2
+        }
+      ],
+      "miningTool": "sickle_item",
+      "miningDuration": 3,
+      "phaseSkipTemperature": -60,
+      "cultivable": false,
+      "sowTime": 8,
+      "growsOn": [
+        "Dirt",
+        "Grass",
+        "Rocky",
+        "Limestone"
+      ],
+      "neighborCheck": 0,
+      "newPlantTemperatureLimit": 0,
+      "newPlantsPerDay": 25,
+      "pathfindingPenalty": 16000,
+      "attackTraversePenalty": 0.02,
+      "lifePhases": [
+        {
+          "phaseName": "regBushYoung",
+          "appearance": {
+            "scale": 0.7,
+            "shaderParameters": [
+              {
+                "parameterId": "_DeadPhase",
+                "parameterValue": 0
+              }
+            ]
+          },
+          "durationDays": 2,
+          "baseHealth": 30,
+          "resourcesRange": [
+            {
+              "min": 1,
+              "max": 4
+            }
+          ],
+          "temperatureFreeze": -5,
+          "temperatureDeath": -60,
+          "nextPhaseIndex": 1,
+          "deathPhaseIndex": -1
+        },
+        {
+          "phaseName": "regBushMature",
+          "appearance": {
+            "scale": 1,
+            "shaderParameters": [
+              {
+                "parameterId": "_DeadPhase",
+                "parameterValue": 0
+              }
+            ]
+          },
+          "durationDays": 5,
+          "baseHealth": 50,
+          "resourcesRange": [
+            {
+              "min": 4,
+              "max": 8
+            }
+          ],
+          "temperatureFreeze": -60,
+          "temperatureDeath": -60,
+          "nextPhaseIndex": 2,
+          "deathPhaseIndex": 2
+        },
+        {
+          "phaseName": "regBushDead",
+          "appearance": {
+            "scale": 1,
+            "shaderParameters": [
+              {
+                "parameterId": "_DeadPhase",
+                "parameterValue": 1
+              }
+            ]
+          },
+          "durationDays": 3,
+          "baseHealth": 40,
+          "resourcesRange": [
+            {
+              "min": 8,
+              "max": 8
+            }
+          ],
+          "temperatureFreeze": -60,
+          "temperatureDeath": -60,
+          "nextPhaseIndex": -1,
+          "deathPhaseIndex": -1
+        }
+      ]
+    },
+    {
+      "id": "shrub_ivy",
+      "plantType": 0,
+      "layerShadowOffset": -1.5,
+      "layerHideOffset": -1,
+      "storableResources": [
+        {
+          "resourceId": "sticks",
+          "orders": 2
+        }
+      ],
+      "miningTool": "sickle_item",
+      "miningDuration": 3,
+      "phaseSkipTemperature": -60,
+      "cultivable": false,
+      "sowTime": 8,
+      "growsOn": [
+        "Dirt",
+        "Grass",
+        "Rocky",
+        "Limestone"
+      ],
+      "neighborCheck": 0,
+      "newPlantTemperatureLimit": 0,
+      "newPlantsPerDay": 25,
+      "pathfindingPenalty": 16000,
+      "attackTraversePenalty": 0.02,
+      "lifePhases": [
+        {
+          "phaseName": "regBushYoung",
+          "appearance": {
+            "scale": 0.7,
+            "shaderParameters": [
+              {
+                "parameterId": "_DeadPhase",
+                "parameterValue": 0
+              }
+            ]
+          },
+          "durationDays": 2,
+          "baseHealth": 30,
+          "resourcesRange": [
+            {
+              "min": 1,
+              "max": 4
+            }
+          ],
+          "temperatureFreeze": -5,
+          "temperatureDeath": -60,
+          "nextPhaseIndex": 1,
+          "deathPhaseIndex": -1
+        },
+        {
+          "phaseName": "regBushMature",
+          "appearance": {
+            "scale": 1,
+            "shaderParameters": [
+              {
+                "parameterId": "_DeadPhase",
+                "parameterValue": 0
+              }
+            ]
+          },
+          "durationDays": 5,
+          "baseHealth": 50,
+          "resourcesRange": [
+            {
+              "min": 4,
+              "max": 8
+            }
+          ],
+          "temperatureFreeze": -60,
+          "temperatureDeath": -60,
+          "nextPhaseIndex": 2,
+          "deathPhaseIndex": 2
+        },
+        {
+          "phaseName": "regBushDead",
+          "appearance": {
+            "scale": 1,
+            "shaderParameters": [
+              {
+                "parameterId": "_DeadPhase",
+                "parameterValue": 1
+              }
+            ]
+          },
+          "durationDays": 3,
+          "baseHealth": 40,
+          "resourcesRange": [
+            {
+              "min": 8,
+              "max": 8
+            }
+          ],
+          "temperatureFreeze": -60,
+          "temperatureDeath": -60,
+          "nextPhaseIndex": -1,
+          "deathPhaseIndex": -1
+        }
+      ]
+    },
+    {
+      "id": "shrub_redcurrant",
+      "plantType": 0,
+      "layerShadowOffset": -1.5,
+      "layerHideOffset": -1,
+      "storableResources": [
+        {
+          "resourceId": "redcurrant",
+          "orders": 18
+        },
+        {
+          "resourceId": "sticks",
+          "orders": 2
+        }
+      ],
+      "harvestPhases": [
+        5
+      ],
+      "harvestDuration": 10,
+      "miningTool": "sickle_item",
+      "miningDuration": 15,
+      "lifeCyclesCount": 5,
+      "cycleStarterIndex": 2,
+      "phaseSkipTemperature": -8,
+      "cultivable": true,
+      "sowTime": 10,
+      "growsOn": [
+        "Dirt",
+        "Grass",
+        "Rocky"
+      ],
+      "neighborCheck": 2,
+      "newPlantTemperatureLimit": 5,
+      "newPlantsPerDay": 5,
+      "pathfindingPenalty": 16000,
+      "attackTraversePenalty": 0.02,
+      "lifePhases": [
+        {
+          "phaseName": "berryYoung",
+          "appearance": {
+            "scale": 0.7,
+            "shaderParameters": [
+              {
+                "parameterId": "_FruitAmount",
+                "parameterValue": 0
+              },
+              {
+                "parameterId": "_DeadPhase",
+                "parameterValue": 0
+              }
+            ]
+          },
+          "durationDays": 2,
+          "baseHealth": 30,
+          "resourcesRange": [
+            {
+              "min": 0,
+              "max": 0
+            },
+            {
+              "min": 1,
+              "max": 3
+            }
+          ],
+          "temperatureFreeze": -3,
+          "temperatureDeath": -30,
+          "nextPhaseIndex": 1,
+          "deathPhaseIndex": -1
+        },
+        {
+          "phaseName": "berryMature",
+          "appearance": {
+            "scale": 1,
+            "shaderParameters": [
+              {
+                "parameterId": "_FruitAmount",
+                "parameterValue": 0
+              },
+              {
+                "parameterId": "_DeadPhase",
+                "parameterValue": 0
+              }
+            ]
+          },
+          "durationDays": 4,
+          "baseHealth": 45,
+          "resourcesRange": [
+            {
+              "min": 0,
+              "max": 0
+            },
+            {
+              "min": 3,
+              "max": 3
+            }
+          ],
+          "temperatureFreeze": -3,
+          "temperatureDeath": -30,
+          "nextPhaseIndex": 2,
+          "deathPhaseIndex": -1
+        },
+        {
+          "phaseName": "berryFruitGrowStart",
+          "appearance": {
+            "scale": 1,
+            "shaderParameters": [
+              {
+                "parameterId": "_FruitAmount",
+                "parameterValue": 0
+              },
+              {
+                "parameterId": "_DeadPhase",
+                "parameterValue": 0
+              }
+            ]
+          },
+          "durationDays": 1,
+          "baseHealth": 45,
+          "resourcesRange": [
+            {
+              "min": 0,
+              "max": 0
+            },
+            {
+              "min": 3,
+              "max": 3
+            }
+          ],
+          "temperatureFreeze": -3,
+          "temperatureDeath": -30,
+          "nextPhaseIndex": 3,
+          "deathPhaseIndex": -1
+        },
+        {
+          "phaseName": "berryFruitGrow01",
+          "appearance": {
+            "scale": 1,
+            "shaderParameters": [
+              {
+                "parameterId": "_FruitAmount",
+                "parameterValue": 0.15
+              },
+              {
+                "parameterId": "_DeadPhase",
+                "parameterValue": 0
+              }
+            ]
+          },
+          "durationDays": 1,
+          "baseHealth": 45,
+          "resourcesRange": [
+            {
+              "min": 1,
+              "max": 3
+            },
+            {
+              "min": 3,
+              "max": 3
+            }
+          ],
+          "temperatureFreeze": -3,
+          "temperatureDeath": -30,
+          "nextPhaseIndex": 4,
+          "deathPhaseIndex": -1
+        },
+        {
+          "phaseName": "berryFruitGrow02",
+          "appearance": {
+            "scale": 1,
+            "shaderParameters": [
+              {
+                "parameterId": "_FruitAmount",
+                "parameterValue": 0.45
+              },
+              {
+                "parameterId": "_DeadPhase",
+                "parameterValue": 0
+              }
+            ]
+          },
+          "durationDays": 1,
+          "baseHealth": 45,
+          "resourcesRange": [
+            {
+              "min": 3,
+              "max": 6
+            },
+            {
+              "min": 3,
+              "max": 3
+            }
+          ],
+          "temperatureFreeze": -3,
+          "temperatureDeath": -30,
+          "nextPhaseIndex": 5,
+          "deathPhaseIndex": -1
+        },
+        {
+          "phaseName": "berryFruitRipe",
+          "appearance": {
+            "scale": 1,
+            "shaderParameters": [
+              {
+                "parameterId": "_FruitAmount",
+                "parameterValue": 1
+              },
+              {
+                "parameterId": "_DeadPhase",
+                "parameterValue": 0
+              }
+            ]
+          },
+          "durationDays": 6,
+          "baseHealth": 45,
+          "resourcesRange": [
+            {
+              "min": 7,
+              "max": 7
+            },
+            {
+              "min": 3,
+              "max": 3
+            }
+          ],
+          "temperatureFreeze": -3,
+          "temperatureDeath": -30,
+          "nextPhaseIndex": 2,
+          "deathPhaseIndex": -1
+        },
+        {
+          "phaseName": "berryDead",
+          "appearance": {
+            "scale": 1,
+            "shaderParameters": [
+              {
+                "parameterId": "_FruitAmount",
+                "parameterValue": 0
+              },
+              {
+                "parameterId": "_DeadPhase",
+                "parameterValue": 1
+              }
+            ]
+          },
+          "durationDays": 5,
+          "baseHealth": 45,
+          "resourcesRange": [
+            {
+              "min": 0,
+              "max": 0
+            },
+            {
+              "min": 2,
+              "max": 2
+            }
+          ],
+          "temperatureFreeze": -60,
+          "temperatureDeath": -60,
+          "nextPhaseIndex": -1,
+          "deathPhaseIndex": -1
+        }
+      ]
+    },
+    {
+      "id": "hay_patch",
+      "plantType": 0,
+      "layerShadowOffset": -1.5,
+      "layerHideOffset": -1,
+      "storableResources": [
+        {
+          "resourceId": "hay",
+          "orders": 18
+        }
+      ],
+      "harvestPhases": [
+        3
+      ],
+      "harvestDuration": 8,
+      "miningTool": "sickle_item",
+      "miningDuration": 12,
+      "phaseSkipTemperature": -60,
+      "cultivable": true,
+      "sowTime": 8,
+      "growsOn": [
+        "Dirt",
+        "Grass",
+        "Rocky"
+      ],
+      "neighborCheck": 1,
+      "newPlantTemperatureLimit": 3,
+      "newPlantsPerDay": 5,
+      "pathfindingPenalty": 16000,
+      "attackTraversePenalty": 0.02,
+      "lifePhases": [
+        {
+          "phaseName": "tallGrassYoung",
+          "appearance": {
+            "scale": 1,
+            "shaderParameters": [
+              {
+                "parameterId": "_GrowAmount",
+                "parameterValue": 0.4
+              },
+              {
+                "parameterId": "_DryAmount",
+                "parameterValue": 0
+              }
+            ]
+          },
+          "durationDays": 1,
+          "baseHealth": 20,
+          "resourcesRange": [
+            {
+              "min": 0,
+              "max": 0
+            }
+          ],
+          "temperatureFreeze": 0,
+          "temperatureDeath": -8,
+          "nextPhaseIndex": 1,
+          "deathPhaseIndex": -1
+        },
+        {
+          "phaseName": "tallGrassGrown01",
+          "appearance": {
+            "scale": 1,
+            "shaderParameters": [
+              {
+                "parameterId": "_GrowAmount",
+                "parameterValue": 0.55
+              },
+              {
+                "parameterId": "_DryAmount",
+                "parameterValue": 0.1
+              }
+            ]
+          },
+          "durationDays": 1,
+          "baseHealth": 30,
+          "resourcesRange": [
+            {
+              "min": 0,
+              "max": 0
+            }
+          ],
+          "temperatureFreeze": 5,
+          "temperatureDeath": -8,
+          "nextPhaseIndex": 2,
+          "deathPhaseIndex": -1
+        },
+        {
+          "phaseName": "tallGrassGrown02",
+          "appearance": {
+            "scale": 1,
+            "shaderParameters": [
+              {
+                "parameterId": "_GrowAmount",
+                "parameterValue": 0.75
+              },
+              {
+                "parameterId": "_DryAmount",
+                "parameterValue": 0.2
+              }
+            ]
+          },
+          "durationDays": 2,
+          "baseHealth": 35,
+          "resourcesRange": [
+            {
+              "min": 0,
+              "max": 0
+            }
+          ],
+          "temperatureFreeze": 5,
+          "temperatureDeath": -8,
+          "nextPhaseIndex": 3,
+          "deathPhaseIndex": -1
+        },
+        {
+          "phaseName": "tallGrassMature",
+          "appearance": {
+            "scale": 1,
+            "shaderParameters": [
+              {
+                "parameterId": "_GrowAmount",
+                "parameterValue": 1
+              },
+              {
+                "parameterId": "_DryAmount",
+                "parameterValue": 1
+              }
+            ]
+          },
+          "durationDays": 6,
+          "baseHealth": 40,
+          "resourcesRange": [
+            {
+              "min": 30,
+              "max": 30
+            }
+          ],
+          "temperatureFreeze": -60,
+          "temperatureDeath": -60,
+          "nextPhaseIndex": -1,
+          "deathPhaseIndex": -1
+        }
+      ]
+    },
+    {
+      "id": "mushroom_patch",
+      "plantType": 0,
+      "layerShadowOffset": -1.5,
+      "layerHideOffset": -1,
+      "storableResources": [
+        {
+          "resourceId": "mushroom",
+          "orders": 18
+        }
+      ],
+      "harvestPhases": [
+        1
+      ],
+      "harvestDuration": 4,
+      "miningTool": "sickle_item",
+      "miningDuration": 4,
+      "phaseSkipTemperature": -60,
+      "cultivable": false,
+      "sowTime": 4,
+      "growsOn": [
+        "Dirt",
+        "Grass"
+      ],
+      "neighborCheck": 1,
+      "newPlantTemperatureLimit": 10,
+      "newPlantsPerDay": 20,
+      "pathfindingPenalty": 8000,
+      "lifePhases": [
+        {
+          "phaseName": "mushroomYoung",
+          "appearance": {
+            "scale": 1,
+            "shaderParameters": [
+              {
+                "parameterId": "_GrowAmount",
+                "parameterValue": 0.3
+              },
+              {
+                "parameterId": "_CapWidth",
+                "parameterValue": 1
+              }
+            ]
+          },
+          "durationDays": 1,
+          "baseHealth": 15,
+          "resourcesRange": [
+            {
+              "min": 0,
+              "max": 0
+            }
+          ],
+          "temperatureFreeze": 3,
+          "temperatureDeath": 0,
+          "nextPhaseIndex": 1,
+          "deathPhaseIndex": -1
+        },
+        {
+          "phaseName": "mushroomMature",
+          "appearance": {
+            "scale": 1,
+            "shaderParameters": [
+              {
+                "parameterId": "_GrowAmount",
+                "parameterValue": 1
+              },
+              {
+                "parameterId": "_CapWidth",
+                "parameterValue": 3
+              }
+            ]
+          },
+          "durationDays": 3,
+          "baseHealth": 15,
+          "resourcesRange": [
+            {
+              "min": 4,
+              "max": 4
+            }
+          ],
+          "temperatureFreeze": 3,
+          "temperatureDeath": 0,
+          "nextPhaseIndex": -1,
+          "deathPhaseIndex": -1
+        }
+      ]
+    },
+    {
+      "id": "cabbage_patch",
+      "plantType": 0,
+      "layerShadowOffset": -1.5,
+      "layerHideOffset": -1,
+      "storableResources": [
+        {
+          "resourceId": "cabbage",
+          "orders": 18
+        }
+      ],
+      "harvestPhases": [
+        2
+      ],
+      "harvestDuration": 8,
+      "miningTool": "sickle_item",
+      "miningDuration": 10,
+      "phaseSkipTemperature": -60,
+      "cultivable": true,
+      "sowTime": 8,
+      "growsOn": [
+        "Dirt",
+        "Grass"
+      ],
+      "neighborCheck": 1,
+      "newPlantTemperatureLimit": 5,
+      "newPlantsPerDay": 1,
+      "pathfindingPenalty": 8000,
+      "lifePhases": [
+        {
+          "phaseName": "cabbageYoung",
+          "appearance": {
+            "scale": 1,
+            "shaderParameters": [
+              {
+                "parameterId": "_GrowAmount",
+                "parameterValue": 0.065
+              }
+            ]
+          },
+          "durationDays": 2,
+          "baseHealth": 10,
+          "resourcesRange": [
+            {
+              "min": 0,
+              "max": 0
+            }
+          ],
+          "temperatureFreeze": 3,
+          "temperatureDeath": -5,
+          "nextPhaseIndex": 1,
+          "deathPhaseIndex": -1
+        },
+        {
+          "phaseName": "cabbageGrow",
+          "appearance": {
+            "scale": 1,
+            "shaderParameters": [
+              {
+                "parameterId": "_GrowAmount",
+                "parameterValue": 0.305
+              }
+            ]
+          },
+          "durationDays": 3,
+          "baseHealth": 20,
+          "resourcesRange": [
+            {
+              "min": 1,
+              "max": 5
+            }
+          ],
+          "temperatureFreeze": 3,
+          "temperatureDeath": -5,
+          "nextPhaseIndex": 2,
+          "deathPhaseIndex": -1
+        },
+        {
+          "phaseName": "cabbageRipe",
+          "appearance": {
+            "scale": 1,
+            "shaderParameters": [
+              {
+                "parameterId": "_GrowAmount",
+                "parameterValue": 1
+              }
+            ]
+          },
+          "durationDays": 12,
+          "baseHealth": 20,
+          "resourcesRange": [
+            {
+              "min": 6,
+              "max": 6
+            }
+          ],
+          "temperatureFreeze": 3,
+          "temperatureDeath": -5,
+          "nextPhaseIndex": -1,
+          "deathPhaseIndex": -1
+        }
+      ]
+    },
+    {
+      "id": "flax_patch",
+      "plantType": 0,
+      "layerShadowOffset": -1.5,
+      "layerHideOffset": -1,
+      "storableResources": [
+        {
+          "resourceId": "linen_cloth",
+          "orders": 18
+        }
+      ],
+      "harvestPhases": [
+        3
+      ],
+      "harvestDuration": 20,
+      "miningTool": "sickle_item",
+      "miningDuration": 20,
+      "phaseSkipTemperature": -60,
+      "cultivable": true,
+      "sowTime": 20,
+      "growsOn": [
+        "Dirt",
+        "Grass"
+      ],
+      "neighborCheck": 1,
+      "newPlantTemperatureLimit": 5,
+      "newPlantsPerDay": 1,
+      "pathfindingPenalty": 8000,
+      "lifePhases": [
+        {
+          "phaseName": "flaxGrassYoung",
+          "appearance": {
+            "scale": 1,
+            "shaderParameters": [
+              {
+                "parameterId": "_GrowAmount",
+                "parameterValue": 0.5
+              },
+              {
+                "parameterId": "_Flowers",
+                "parameterValue": 0
+              },
+              {
+                "parameterId": "_Dry",
+                "parameterValue": 0
+              }
+            ]
+          },
+          "durationDays": 2,
+          "baseHealth": 30,
+          "resourcesRange": [
+            {
+              "min": 0,
+              "max": 0
+            }
+          ],
+          "temperatureFreeze": -10,
+          "temperatureDeath": -15,
+          "nextPhaseIndex": 1,
+          "deathPhaseIndex": -1
+        },
+        {
+          "phaseName": "flaxGrassGrown01",
+          "appearance": {
+            "scale": 1,
+            "shaderParameters": [
+              {
+                "parameterId": "_GrowAmount",
+                "parameterValue": 0.8
+              },
+              {
+                "parameterId": "_Flowers",
+                "parameterValue": 0
+              },
+              {
+                "parameterId": "_Dry",
+                "parameterValue": 0
+              }
+            ]
+          },
+          "durationDays": 3,
+          "baseHealth": 30,
+          "resourcesRange": [
+            {
+              "min": 0,
+              "max": 0
+            }
+          ],
+          "temperatureFreeze": -10,
+          "temperatureDeath": -20,
+          "nextPhaseIndex": 2,
+          "deathPhaseIndex": -1
+        },
+        {
+          "phaseName": "flaxGrassGrown02",
+          "appearance": {
+            "scale": 1,
+            "shaderParameters": [
+              {
+                "parameterId": "_GrowAmount",
+                "parameterValue": 1
+              },
+              {
+                "parameterId": "_Flowers",
+                "parameterValue": 1
+              },
+              {
+                "parameterId": "_Dry",
+                "parameterValue": 0
+              }
+            ]
+          },
+          "durationDays": 3,
+          "baseHealth": 30,
+          "resourcesRange": [
+            {
+              "min": 0,
+              "max": 0
+            }
+          ],
+          "temperatureFreeze": -10,
+          "temperatureDeath": -20,
+          "nextPhaseIndex": 3,
+          "deathPhaseIndex": -1
+        },
+        {
+          "phaseName": "flaxGrassMature",
+          "appearance": {
+            "scale": 1,
+            "shaderParameters": [
+              {
+                "parameterId": "_GrowAmount",
+                "parameterValue": 1
+              },
+              {
+                "parameterId": "_Flowers",
+                "parameterValue": 0
+              },
+              {
+                "parameterId": "_Dry",
+                "parameterValue": 1
+              }
+            ]
+          },
+          "durationDays": 12,
+          "baseHealth": 45,
+          "resourcesRange": [
+            {
+              "min": 11,
+              "max": 11
+            }
+          ],
+          "temperatureFreeze": -60,
+          "temperatureDeath": -60,
+          "nextPhaseIndex": -1,
+          "deathPhaseIndex": -1
+        }
+      ]
+    },
+    {
+      "id": "carrot_patch",
+      "plantType": 0,
+      "layerShadowOffset": -1.5,
+      "layerHideOffset": -1,
+      "storableResources": [
+        {
+          "resourceId": "carrot",
+          "orders": 18
+        }
+      ],
+      "harvestPhases": [
+        2
+      ],
+      "harvestDuration": 13,
+      "miningTool": "sickle_item",
+      "miningDuration": 15,
+      "phaseSkipTemperature": -60,
+      "cultivable": true,
+      "sowTime": 13,
+      "growsOn": [
+        "Dirt",
+        "Grass"
+      ],
+      "neighborCheck": 1,
+      "newPlantTemperatureLimit": 5,
+      "newPlantsPerDay": 1,
+      "pathfindingPenalty": 8000,
+      "lifePhases": [
+        {
+          "phaseName": "carrotYoung",
+          "appearance": {
+            "scale": 1,
+            "shaderParameters": [
+              {
+                "parameterId": "_GrowAmount",
+                "parameterValue": 0
+              },
+              {
+                "parameterId": "_LeafGrow",
+                "parameterValue": 0.26
+              }
+            ]
+          },
+          "durationDays": 3,
+          "baseHealth": 60,
+          "resourcesRange": [
+            {
+              "min": 0,
+              "max": 0
+            }
+          ],
+          "temperatureFreeze": 5,
+          "temperatureDeath": -5,
+          "nextPhaseIndex": 1,
+          "deathPhaseIndex": -1
+        },
+        {
+          "phaseName": "carrotGrow",
+          "appearance": {
+            "scale": 1,
+            "shaderParameters": [
+              {
+                "parameterId": "_GrowAmount",
+                "parameterValue": 0.5
+              },
+              {
+                "parameterId": "_LeafGrow",
+                "parameterValue": 0.46
+              }
+            ]
+          },
+          "durationDays": 4,
+          "baseHealth": 55,
+          "resourcesRange": [
+            {
+              "min": 0,
+              "max": 8
+            }
+          ],
+          "temperatureFreeze": 5,
+          "temperatureDeath": -5,
+          "nextPhaseIndex": 2,
+          "deathPhaseIndex": -1
+        },
+        {
+          "phaseName": "carrotRipe",
+          "appearance": {
+            "scale": 1,
+            "shaderParameters": [
+              {
+                "parameterId": "_GrowAmount",
+                "parameterValue": 1
+              },
+              {
+                "parameterId": "_LeafGrow",
+                "parameterValue": 1
+              }
+            ]
+          },
+          "durationDays": 12,
+          "baseHealth": 55,
+          "resourcesRange": [
+            {
+              "min": 9,
+              "max": 9
+            }
+          ],
+          "temperatureFreeze": 5,
+          "temperatureDeath": -5,
+          "nextPhaseIndex": -1,
+          "deathPhaseIndex": -1
+        }
+      ]
+    },
+    {
+      "id": "beet_patch",
+      "plantType": 0,
+      "layerShadowOffset": -1.5,
+      "layerHideOffset": -1,
+      "storableResources": [
+        {
+          "resourceId": "beet",
+          "orders": 18
+        }
+      ],
+      "harvestPhases": [
+        2
+      ],
+      "harvestDuration": 13,
+      "miningTool": "sickle_item",
+      "miningDuration": 15,
+      "phaseSkipTemperature": -60,
+      "cultivable": true,
+      "sowTime": 13,
+      "growsOn": [
+        "Dirt",
+        "Grass"
+      ],
+      "neighborCheck": 1,
+      "newPlantTemperatureLimit": 5,
+      "newPlantsPerDay": 1,
+      "pathfindingPenalty": 8000,
+      "lifePhases": [
+        {
+          "phaseName": "beetYoung",
+          "appearance": {
+            "scale": 1,
+            "shaderParameters": [
+              {
+                "parameterId": "_GrowAmount",
+                "parameterValue": 0
+              },
+              {
+                "parameterId": "_LeafGrow",
+                "parameterValue": 0.26
+              }
+            ]
+          },
+          "durationDays": 4,
+          "baseHealth": 60,
+          "resourcesRange": [
+            {
+              "min": 0,
+              "max": 0
+            }
+          ],
+          "temperatureFreeze": -20,
+          "temperatureDeath": -40,
+          "nextPhaseIndex": 1,
+          "deathPhaseIndex": -1
+        },
+        {
+          "phaseName": "beetGrow",
+          "appearance": {
+            "scale": 1,
+            "shaderParameters": [
+              {
+                "parameterId": "_GrowAmount",
+                "parameterValue": 0.5
+              },
+              {
+                "parameterId": "_LeafGrow",
+                "parameterValue": 0.46
+              }
+            ]
+          },
+          "durationDays": 5,
+          "baseHealth": 60,
+          "resourcesRange": [
+            {
+              "min": 1,
+              "max": 8
+            }
+          ],
+          "temperatureFreeze": -20,
+          "temperatureDeath": -40,
+          "nextPhaseIndex": 2,
+          "deathPhaseIndex": -1
+        },
+        {
+          "phaseName": "beetRipe",
+          "appearance": {
+            "scale": 1,
+            "shaderParameters": [
+              {
+                "parameterId": "_GrowAmount",
+                "parameterValue": 1
+              },
+              {
+                "parameterId": "_LeafGrow",
+                "parameterValue": 1
+              }
+            ]
+          },
+          "durationDays": 12,
+          "baseHealth": 60,
+          "resourcesRange": [
+            {
+              "min": 10,
+              "max": 10
+            }
+          ],
+          "temperatureFreeze": -20,
+          "temperatureDeath": -40,
+          "nextPhaseIndex": -1,
+          "deathPhaseIndex": -1
+        }
+      ]
+    },
+    {
+      "id": "barley_patch",
+      "plantType": 0,
+      "layerShadowOffset": -1.5,
+      "layerHideOffset": -1,
+      "storableResources": [
+        {
+          "resourceId": "barley",
+          "orders": 18
+        }
+      ],
+      "harvestPhases": [
+        3
+      ],
+      "harvestDuration": 20,
+      "miningTool": "sickle_item",
+      "miningDuration": 20,
+      "phaseSkipTemperature": -60,
+      "cultivable": true,
+      "sowTime": 20,
+      "growsOn": [
+        "Dirt",
+        "Grass"
+      ],
+      "neighborCheck": 1,
+      "newPlantTemperatureLimit": 5,
+      "newPlantsPerDay": 1,
+      "pathfindingPenalty": 8000,
+      "lifePhases": [
+        {
+          "phaseName": "barleyStemYoung",
+          "appearance": {
+            "scale": 1,
+            "shaderParameters": [
+              {
+                "parameterId": "_GrowAmount",
+                "parameterValue": 0.4
+              },
+              {
+                "parameterId": "_DryAmount",
+                "parameterValue": 0
+              }
+            ]
+          },
+          "durationDays": 4,
+          "baseHealth": 30,
+          "resourcesRange": [
+            {
+              "min": 0,
+              "max": 0
+            }
+          ],
+          "temperatureFreeze": -10,
+          "temperatureDeath": -15,
+          "nextPhaseIndex": 1,
+          "deathPhaseIndex": -1
+        },
+        {
+          "phaseName": "barleyStemGrown01",
+          "appearance": {
+            "scale": 1,
+            "shaderParameters": [
+              {
+                "parameterId": "_GrowAmount",
+                "parameterValue": 0.55
+              },
+              {
+                "parameterId": "_DryAmount",
+                "parameterValue": 0.1
+              }
+            ]
+          },
+          "durationDays": 4,
+          "baseHealth": 30,
+          "resourcesRange": [
+            {
+              "min": 0,
+              "max": 0
+            }
+          ],
+          "temperatureFreeze": -10,
+          "temperatureDeath": -20,
+          "nextPhaseIndex": 2,
+          "deathPhaseIndex": -1
+        },
+        {
+          "phaseName": "barleyStemGrown02",
+          "appearance": {
+            "scale": 1,
+            "shaderParameters": [
+              {
+                "parameterId": "_GrowAmount",
+                "parameterValue": 0.75
+              },
+              {
+                "parameterId": "_DryAmount",
+                "parameterValue": 0.2
+              }
+            ]
+          },
+          "durationDays": 6,
+          "baseHealth": 30,
+          "resourcesRange": [
+            {
+              "min": 0,
+              "max": 0
+            }
+          ],
+          "temperatureFreeze": -10,
+          "temperatureDeath": -20,
+          "nextPhaseIndex": 3,
+          "deathPhaseIndex": -1
+        },
+        {
+          "phaseName": "barleyStemMature",
+          "appearance": {
+            "scale": 1,
+            "shaderParameters": [
+              {
+                "parameterId": "_GrowAmount",
+                "parameterValue": 1
+              },
+              {
+                "parameterId": "_DryAmount",
+                "parameterValue": 1
+              }
+            ]
+          },
+          "durationDays": 12,
+          "baseHealth": 45,
+          "resourcesRange": [
+            {
+              "min": 5,
+              "max": 5
+            }
+          ],
+          "temperatureFreeze": -60,
+          "temperatureDeath": -60,
+          "nextPhaseIndex": -1,
+          "deathPhaseIndex": -1
+        }
+      ]
+    },
+    {
+      "id": "herbs_patch",
+      "plantType": 0,
+      "layerShadowOffset": -1.5,
+      "layerHideOffset": -1,
+      "storableResources": [
+        {
+          "resourceId": "herbs",
+          "orders": 18
+        }
+      ],
+      "harvestPhases": [
+        2
+      ],
+      "harvestDuration": 18,
+      "miningTool": "sickle_item",
+      "miningDuration": 18,
+      "phaseSkipTemperature": -60,
+      "cultivable": true,
+      "sowTime": 18,
+      "growsOn": [
+        "Dirt",
+        "Grass"
+      ],
+      "neighborCheck": 0,
+      "newPlantTemperatureLimit": 5,
+      "newPlantsPerDay": 5,
+      "pathfindingPenalty": 8000,
+      "lifePhases": [
+        {
+          "phaseName": "herbsYoung",
+          "appearance": {
+            "scale": 1,
+            "shaderParameters": [
+              {
+                "parameterId": "_GrowAmount",
+                "parameterValue": 0.4
+              },
+              {
+                "parameterId": "_Flowers",
+                "parameterValue": 0
+              }
+            ]
+          },
+          "durationDays": 4,
+          "baseHealth": 20,
+          "resourcesRange": [
+            {
+              "min": 0,
+              "max": 0
+            }
+          ],
+          "temperatureFreeze": -3,
+          "temperatureDeath": -15,
+          "nextPhaseIndex": 1,
+          "deathPhaseIndex": -1
+        },
+        {
+          "phaseName": "herbsGrowing",
+          "appearance": {
+            "scale": 1,
+            "shaderParameters": [
+              {
+                "parameterId": "_GrowAmount",
+                "parameterValue": 0.6
+              },
+              {
+                "parameterId": "_Flowers",
+                "parameterValue": 0
+              }
+            ]
+          },
+          "durationDays": 4,
+          "baseHealth": 20,
+          "resourcesRange": [
+            {
+              "min": 0,
+              "max": 5
+            }
+          ],
+          "temperatureFreeze": -3,
+          "temperatureDeath": -20,
+          "nextPhaseIndex": 2,
+          "deathPhaseIndex": -1
+        },
+        {
+          "phaseName": "herbsRipe",
+          "appearance": {
+            "scale": 1,
+            "shaderParameters": [
+              {
+                "parameterId": "_GrowAmount",
+                "parameterValue": 1
+              },
+              {
+                "parameterId": "_Flowers",
+                "parameterValue": 1
+              }
+            ]
+          },
+          "durationDays": 12,
+          "baseHealth": 20,
+          "resourcesRange": [
+            {
+              "min": 6,
+              "max": 6
+            }
+          ],
+          "temperatureFreeze": -60,
+          "temperatureDeath": -60,
+          "nextPhaseIndex": -1,
+          "deathPhaseIndex": -1
+        }
+      ]
+    }
+  ]
+}

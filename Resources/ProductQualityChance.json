@@ -1,0 +1,1126 @@
+{
+  "repository": [
+    {
+      "id": "level_00",
+      "skillLevel": 0,
+      "qualityChances": {
+        "keys": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "values": [
+          98,
+          2,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "level_01",
+      "skillLevel": 1,
+      "qualityChances": {
+        "keys": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "values": [
+          95,
+          5,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "level_02",
+      "skillLevel": 2,
+      "qualityChances": {
+        "keys": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "values": [
+          90,
+          10,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "level_03",
+      "skillLevel": 3,
+      "qualityChances": {
+        "keys": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "values": [
+          80,
+          20,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "level_04",
+      "skillLevel": 4,
+      "qualityChances": {
+        "keys": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "values": [
+          75,
+          25,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "level_05",
+      "skillLevel": 5,
+      "qualityChances": {
+        "keys": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "values": [
+          72,
+          27,
+          1,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "level_06",
+      "skillLevel": 6,
+      "qualityChances": {
+        "keys": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "values": [
+          68.5,
+          30,
+          1.5,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "level_07",
+      "skillLevel": 7,
+      "qualityChances": {
+        "keys": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "values": [
+          65,
+          33,
+          2,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "level_08",
+      "skillLevel": 8,
+      "qualityChances": {
+        "keys": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "values": [
+          57.5,
+          40,
+          2.5,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "level_09",
+      "skillLevel": 9,
+      "qualityChances": {
+        "keys": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "values": [
+          49,
+          45,
+          6,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "level_10",
+      "skillLevel": 10,
+      "qualityChances": {
+        "keys": [
+          2,
+          1,
+          3,
+          4,
+          5,
+          6
+        ],
+        "values": [
+          50,
+          40,
+          10,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "level_11",
+      "skillLevel": 11,
+      "qualityChances": {
+        "keys": [
+          2,
+          1,
+          3,
+          4,
+          5,
+          6
+        ],
+        "values": [
+          52,
+          36,
+          12,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "level_12",
+      "skillLevel": 12,
+      "qualityChances": {
+        "keys": [
+          2,
+          1,
+          3,
+          4,
+          5,
+          6
+        ],
+        "values": [
+          54,
+          33,
+          13,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "level_13",
+      "skillLevel": 13,
+      "qualityChances": {
+        "keys": [
+          2,
+          1,
+          3,
+          4,
+          5,
+          6
+        ],
+        "values": [
+          59,
+          24,
+          15,
+          2,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "level_14",
+      "skillLevel": 14,
+      "qualityChances": {
+        "keys": [
+          2,
+          3,
+          1,
+          4,
+          5,
+          6
+        ],
+        "values": [
+          64,
+          17,
+          16,
+          3,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "level_15",
+      "skillLevel": 15,
+      "qualityChances": {
+        "keys": [
+          2,
+          3,
+          1,
+          4,
+          5,
+          6
+        ],
+        "values": [
+          45,
+          35,
+          15,
+          5,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "level_16",
+      "skillLevel": 16,
+      "qualityChances": {
+        "keys": [
+          3,
+          2,
+          1,
+          4,
+          5,
+          6
+        ],
+        "values": [
+          45,
+          30,
+          14,
+          11,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "level_17",
+      "skillLevel": 17,
+      "qualityChances": {
+        "keys": [
+          3,
+          2,
+          1,
+          4,
+          5,
+          6
+        ],
+        "values": [
+          50,
+          25,
+          13,
+          12,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "level_18",
+      "skillLevel": 18,
+      "qualityChances": {
+        "keys": [
+          3,
+          2,
+          4,
+          1,
+          5,
+          6
+        ],
+        "values": [
+          51,
+          21,
+          13,
+          12,
+          3,
+          0
+        ]
+      }
+    },
+    {
+      "id": "level_19",
+      "skillLevel": 19,
+      "qualityChances": {
+        "keys": [
+          3,
+          2,
+          4,
+          1,
+          5,
+          6
+        ],
+        "values": [
+          52,
+          17,
+          16,
+          11.5,
+          3.5,
+          0
+        ]
+      }
+    },
+    {
+      "id": "level_20",
+      "skillLevel": 20,
+      "qualityChances": {
+        "keys": [
+          3,
+          4,
+          2,
+          1,
+          5,
+          6
+        ],
+        "values": [
+          53,
+          17.3,
+          14.5,
+          10,
+          5,
+          0.2
+        ]
+      }
+    },
+    {
+      "id": "level_21",
+      "skillLevel": 21,
+      "qualityChances": {
+        "keys": [
+          3,
+          4,
+          2,
+          1,
+          5,
+          6
+        ],
+        "values": [
+          49.78,
+          21.57,
+          13.25,
+          9.02,
+          6,
+          0.38
+        ]
+      }
+    },
+    {
+      "id": "level_22",
+      "skillLevel": 22,
+      "qualityChances": {
+        "keys": [
+          3,
+          4,
+          2,
+          1,
+          5,
+          6
+        ],
+        "values": [
+          46.56,
+          25.84,
+          12,
+          8.04,
+          7,
+          0.56
+        ]
+      }
+    },
+    {
+      "id": "level_23",
+      "skillLevel": 23,
+      "qualityChances": {
+        "keys": [
+          3,
+          4,
+          2,
+          5,
+          1,
+          6
+        ],
+        "values": [
+          43.34,
+          30.11,
+          10.75,
+          8,
+          7.06,
+          0.74
+        ]
+      }
+    },
+    {
+      "id": "level_24",
+      "skillLevel": 24,
+      "qualityChances": {
+        "keys": [
+          3,
+          4,
+          2,
+          5,
+          1,
+          6
+        ],
+        "values": [
+          40.12,
+          34.38,
+          9.5,
+          9,
+          6.08,
+          0.92
+        ]
+      }
+    },
+    {
+      "id": "level_25",
+      "skillLevel": 25,
+      "qualityChances": {
+        "keys": [
+          4,
+          3,
+          5,
+          2,
+          1,
+          6
+        ],
+        "values": [
+          38.65,
+          36.9,
+          10,
+          8.25,
+          5.1,
+          1.1
+        ]
+      }
+    },
+    {
+      "id": "level_26",
+      "skillLevel": 26,
+      "qualityChances": {
+        "keys": [
+          4,
+          3,
+          5,
+          2,
+          1,
+          6
+        ],
+        "values": [
+          42.92,
+          33.68,
+          11,
+          7,
+          4.12,
+          1.28
+        ]
+      }
+    },
+    {
+      "id": "level_27",
+      "skillLevel": 27,
+      "qualityChances": {
+        "keys": [
+          4,
+          3,
+          5,
+          2,
+          1,
+          6
+        ],
+        "values": [
+          47.19,
+          30.46,
+          12,
+          5.75,
+          3.14,
+          1.46
+        ]
+      }
+    },
+    {
+      "id": "level_28",
+      "skillLevel": 28,
+      "qualityChances": {
+        "keys": [
+          4,
+          3,
+          5,
+          2,
+          1,
+          6
+        ],
+        "values": [
+          51.46,
+          27.24,
+          13,
+          4.5,
+          2.16,
+          1.64
+        ]
+      }
+    },
+    {
+      "id": "level_29",
+      "skillLevel": 29,
+      "qualityChances": {
+        "keys": [
+          4,
+          3,
+          5,
+          2,
+          6,
+          1
+        ],
+        "values": [
+          55.73,
+          24.02,
+          14,
+          3.25,
+          1.82,
+          1.18
+        ]
+      }
+    },
+    {
+      "id": "level_30",
+      "skillLevel": 30,
+      "qualityChances": {
+        "keys": [
+          4,
+          3,
+          5,
+          2,
+          6,
+          1
+        ],
+        "values": [
+          60,
+          20.8,
+          15,
+          2,
+          2,
+          0.2
+        ]
+      }
+    },
+    {
+      "id": "level_31",
+      "skillLevel": 31,
+      "qualityChances": {
+        "keys": [
+          4,
+          5,
+          3,
+          6,
+          2,
+          1
+        ],
+        "values": [
+          57,
+          19.2,
+          19.12,
+          2.6,
+          1.9,
+          0.18
+        ]
+      }
+    },
+    {
+      "id": "level_32",
+      "skillLevel": 32,
+      "qualityChances": {
+        "keys": [
+          4,
+          5,
+          3,
+          6,
+          2,
+          1
+        ],
+        "values": [
+          54,
+          23.4,
+          17.44,
+          3.2,
+          1.8,
+          0.16
+        ]
+      }
+    },
+    {
+      "id": "level_33",
+      "skillLevel": 33,
+      "qualityChances": {
+        "keys": [
+          4,
+          5,
+          3,
+          6,
+          2,
+          1
+        ],
+        "values": [
+          51,
+          27.6,
+          15.76,
+          3.8,
+          1.7,
+          0.14
+        ]
+      }
+    },
+    {
+      "id": "level_34",
+      "skillLevel": 34,
+      "qualityChances": {
+        "keys": [
+          4,
+          5,
+          3,
+          6,
+          2,
+          1
+        ],
+        "values": [
+          48,
+          31.8,
+          14.08,
+          4.4,
+          1.6,
+          0.12
+        ]
+      }
+    },
+    {
+      "id": "level_35",
+      "skillLevel": 35,
+      "qualityChances": {
+        "keys": [
+          4,
+          5,
+          3,
+          6,
+          2,
+          1
+        ],
+        "values": [
+          45,
+          36,
+          12.4,
+          5,
+          1.5,
+          0.1
+        ]
+      }
+    },
+    {
+      "id": "level_36",
+      "skillLevel": 36,
+      "qualityChances": {
+        "keys": [
+          4,
+          5,
+          3,
+          6,
+          2,
+          1
+        ],
+        "values": [
+          42,
+          40.2,
+          10.72,
+          5.6,
+          1.4,
+          0.08
+        ]
+      }
+    },
+    {
+      "id": "level_37",
+      "skillLevel": 37,
+      "qualityChances": {
+        "keys": [
+          5,
+          4,
+          3,
+          6,
+          2,
+          1
+        ],
+        "values": [
+          44.4,
+          39,
+          9.04,
+          6.2,
+          1.3,
+          0.06
+        ]
+      }
+    },
+    {
+      "id": "level_38",
+      "skillLevel": 38,
+      "qualityChances": {
+        "keys": [
+          5,
+          4,
+          3,
+          6,
+          2,
+          1
+        ],
+        "values": [
+          48.6,
+          36,
+          7.36,
+          6.8,
+          1.2,
+          0.04
+        ]
+      }
+    },
+    {
+      "id": "level_39",
+      "skillLevel": 39,
+      "qualityChances": {
+        "keys": [
+          5,
+          4,
+          6,
+          3,
+          2,
+          1
+        ],
+        "values": [
+          52.8,
+          33,
+          7.4,
+          5.68,
+          1.1,
+          0.02
+        ]
+      }
+    },
+    {
+      "id": "level_40",
+      "skillLevel": 40,
+      "qualityChances": {
+        "keys": [
+          5,
+          4,
+          6,
+          3,
+          2,
+          1
+        ],
+        "values": [
+          57,
+          30,
+          8,
+          4,
+          1,
+          0
+        ]
+      }
+    },
+    {
+      "id": "level_41",
+      "skillLevel": 41,
+      "qualityChances": {
+        "keys": [
+          5,
+          4,
+          6,
+          3,
+          2,
+          1
+        ],
+        "values": [
+          59.3,
+          27.5,
+          8.7,
+          3.6,
+          0.9,
+          0
+        ]
+      }
+    },
+    {
+      "id": "level_42",
+      "skillLevel": 42,
+      "qualityChances": {
+        "keys": [
+          5,
+          4,
+          6,
+          3,
+          2,
+          1
+        ],
+        "values": [
+          61.6,
+          25,
+          9.4,
+          3.2,
+          0.8,
+          0
+        ]
+      }
+    },
+    {
+      "id": "level_43",
+      "skillLevel": 43,
+      "qualityChances": {
+        "keys": [
+          5,
+          4,
+          6,
+          3,
+          2,
+          1
+        ],
+        "values": [
+          63.9,
+          22.5,
+          10.1,
+          2.8,
+          0.7,
+          0
+        ]
+      }
+    },
+    {
+      "id": "level_44",
+      "skillLevel": 44,
+      "qualityChances": {
+        "keys": [
+          5,
+          4,
+          6,
+          3,
+          2,
+          1
+        ],
+        "values": [
+          66.2,
+          20,
+          10.8,
+          2.4,
+          0.6,
+          0
+        ]
+      }
+    },
+    {
+      "id": "level_45",
+      "skillLevel": 45,
+      "qualityChances": {
+        "keys": [
+          5,
+          4,
+          6,
+          3,
+          2,
+          1
+        ],
+        "values": [
+          68.5,
+          17.5,
+          11.5,
+          2,
+          0.5,
+          0
+        ]
+      }
+    },
+    {
+      "id": "level_46",
+      "skillLevel": 46,
+      "qualityChances": {
+        "keys": [
+          5,
+          4,
+          6,
+          3,
+          2,
+          1
+        ],
+        "values": [
+          70.8,
+          15,
+          12.2,
+          1.6,
+          0.4,
+          0
+        ]
+      }
+    },
+    {
+      "id": "level_47",
+      "skillLevel": 47,
+      "qualityChances": {
+        "keys": [
+          5,
+          6,
+          4,
+          3,
+          2,
+          1
+        ],
+        "values": [
+          73.1,
+          12.9,
+          12.5,
+          1.2,
+          0.3,
+          0
+        ]
+      }
+    },
+    {
+      "id": "level_48",
+      "skillLevel": 48,
+      "qualityChances": {
+        "keys": [
+          5,
+          6,
+          4,
+          3,
+          2,
+          1
+        ],
+        "values": [
+          75.4,
+          13.6,
+          10,
+          0.8,
+          0.2,
+          0
+        ]
+      }
+    },
+    {
+      "id": "level_49",
+      "skillLevel": 49,
+      "qualityChances": {
+        "keys": [
+          5,
+          6,
+          4,
+          3,
+          2,
+          1
+        ],
+        "values": [
+          77.7,
+          14.3,
+          7.5,
+          0.4,
+          0.1,
+          0
+        ]
+      }
+    },
+    {
+      "id": "level_50",
+      "skillLevel": 50,
+      "qualityChances": {
+        "keys": [
+          5,
+          6,
+          4,
+          1,
+          2,
+          3
+        ],
+        "values": [
+          80,
+          15,
+          5,
+          0,
+          0,
+          0
+        ]
+      }
+    }
+  ]
+}

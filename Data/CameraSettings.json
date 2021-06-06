@@ -1,0 +1,40 @@
+{
+  "screenEdgeBorderUp": 0.005,
+  "screenEdgeBorderDown": 0.002,
+  "screenEdgeBorderRight": 0.002,
+  "screenEdgeBorderLeft": 0.005,
+  "cameraSensitivityMin": 0.5,
+  "cameraSensitivityMax": 1.5,
+  "cameraSensitivity": 1,
+  "mouseMoveSpeed": 30.0,
+  "mousePanSpeed": -3000.0,
+  "mouseRotateSpeed": 5500.0,
+  "mouseTiltSpeed": 2000.0,
+  "mouseZoomSpeed": 50.0,
+  "allowScreenEdgeMove": false,
+  "keyboardMoveSpeed": 85.0,
+  "keyboardFastMoveSpeed": 180.0,
+  "keyboardRotateSpeed": 110.0,
+  "keyboardZoomSpeed": 60.0,
+  "keyboardTiltSpeed": 75.0,
+  "defaultHeight": 38.0,
+  "defaultRotation": 45.0,
+  "defaultTilt": 52.0,
+  "lookAtHeightOffset": 0.6,
+  "smoothing": true,
+  "moveSmoothing": true,
+  "moveDampening": 20.0,
+  "zoomDampening": 10.0,
+  "rotationDampening": 35.0,
+  "tiltDampening": 15.0,
+  "heightRange": {
+    "min": 9,
+    "max": 110.0
+  },
+  "minTiltRange": {
+    "min": 18,
+    "max": 52
+  },
+  "defaultMinTilt": 30,
+  "maxTilt": 90.0
+}

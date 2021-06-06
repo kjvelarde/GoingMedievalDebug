@@ -1,0 +1,70 @@
+{
+	"repository":[
+		{
+			"id": "Builder",
+			"gameMode": 0,
+			"predefinedEvents":[
+				"",
+				"",
+				"",
+				"",
+				"new_worker",
+				"",
+				"",
+				"",
+				"",
+				"",
+				"",
+				"",
+				"",
+				"new_worker",
+				"",
+				""	
+			]
+		},
+		{
+			"id": "Standard",
+			"gameMode": 1,
+			"predefinedEvents":[
+				"",
+				"",
+				"",
+				"",
+				"new_worker_ransom",
+				"",
+				"",
+				"",
+				"",
+				"",
+				"",
+				"",
+				"",
+				"new_worker",
+				"",
+				""	
+			]
+		},
+		{
+			"id": "Survival",
+			"gameMode": 2,
+			"predefinedEvents":[
+				"",
+				"",
+				"",
+				"",
+				"new_worker_ransom",
+				"",
+				"",
+				"",
+				"",
+				"",
+				"",
+				"",
+				"",
+				"new_worker",
+				"",
+				""	
+			]
+		}
+	]
+}

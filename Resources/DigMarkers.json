@@ -1,0 +1,229 @@
+{
+  "repository": [
+    {
+      "id": "dig_marker_empty",
+      "miningTool": "shovel_item",
+      "autoStartOrder": "Digging",
+      "autoRemoveOnCancelOrder": true,
+      "miningDuration": 30,
+      "storedResources": [
+        {
+          "blueprintId": "clay",
+          "amount": 2
+        }
+      ],
+      "orderType": 256,
+      "reachableLevel": 3,
+      "pathfindingPenalty": 20000,
+      "layerShadowOffset": -1.5,
+      "layerHideOffset": -1.5,
+      "destroyParticles": "destroy_ground"
+    },
+    {
+      "id": "dig_marker_iron",
+      "miningTool": "pickaxe_item",
+      "autoStartOrder": "Digging",
+      "autoRemoveOnCancelOrder": true,
+      "miningDuration": 30,
+      "storedResources": [
+        {
+          "blueprintId": "iron",
+          "amount": 25
+        },
+        {
+          "blueprintId": "limestone",
+          "amount": 2
+        }
+      ],
+      "orderType": 256,
+      "reachableLevel": 3,
+      "pathfindingPenalty": 20000,
+      "layerShadowOffset": -1.5,
+      "layerHideOffset": -1.5,
+      "destroyParticles": "destroy_ground"
+    },
+    {
+      "id": "dig_marker_silver",
+      "miningTool": "pickaxe_item",
+      "autoStartOrder": "Digging",
+      "autoRemoveOnCancelOrder": true,
+      "miningDuration": 30,
+      "storedResources": [
+        {
+          "blueprintId": "silver",
+          "amount": 100
+        },
+        {
+          "blueprintId": "limestone",
+          "amount": 2
+        }
+      ],
+      "orderType": 256,
+      "reachableLevel": 3,
+      "pathfindingPenalty": 20000,
+      "layerShadowOffset": -1.5,
+      "layerHideOffset": -1.5,
+      "destroyParticles": "destroy_ground"
+    },
+    {
+      "id": "dig_marker_clay",
+      "miningTool": "pickaxe_item",
+      "autoStartOrder": "Digging",
+      "autoRemoveOnCancelOrder": true,
+      "miningDuration": 15,
+      "storedResources": [
+        {
+          "blueprintId": "clay",
+          "amount": 20
+        }
+      ],
+      "orderType": 256,
+      "reachableLevel": 3,
+      "pathfindingPenalty": 20000,
+      "layerShadowOffset": -1.5,
+      "layerHideOffset": -1.5,
+      "destroyParticles": "destroy_ground"
+    },
+    {
+      "id": "dig_marker_gold",
+      "miningTool": "pickaxe_item",
+      "autoStartOrder": "Digging",
+      "autoRemoveOnCancelOrder": true,
+      "miningDuration": 30,
+      "storedResources": [
+        {
+          "blueprintId": "gold",
+          "amount": 100
+        },
+        {
+          "blueprintId": "limestone",
+          "amount": 2
+        }
+      ],
+      "orderType": 256,
+      "reachableLevel": 3,
+      "pathfindingPenalty": 20000,
+      "layerShadowOffset": -1.5,
+      "layerHideOffset": -1.5,
+      "destroyParticles": "destroy_ground"
+    },
+    {
+      "id": "dig_marker_granite",
+      "miningTool": "pickaxe_item",
+      "autoStartOrder": "Digging",
+      "autoRemoveOnCancelOrder": true,
+      "miningDuration": 40,
+      "storedResources": [
+        {
+          "blueprintId": "clay",
+          "amount": 5
+        }
+      ],
+      "orderType": 256,
+      "reachableLevel": 3,
+      "pathfindingPenalty": 20000,
+      "layerShadowOffset": -1.5,
+      "layerHideOffset": -1.5,
+      "destroyParticles": "destroy_ground"
+    },
+    {
+      "id": "dig_marker_limestone",
+      "miningTool": "pickaxe_item",
+      "autoStartOrder": "Digging",
+      "autoRemoveOnCancelOrder": true,
+      "miningDuration": 28,
+      "storedResources": [
+        {
+          "blueprintId": "limestone",
+          "amount": 20
+        }
+      ],
+      "orderType": 256,
+      "reachableLevel": 3,
+      "pathfindingPenalty": 20000,
+      "layerShadowOffset": -1.5,
+      "layerHideOffset": -1.5,
+      "destroyParticles": "destroy_ground"
+    },
+    {
+      "id": "dig_marker_salt",
+      "miningTool": "pickaxe_item",
+      "autoStartOrder": "Digging",
+      "autoRemoveOnCancelOrder": true,
+      "miningDuration": 20,
+      "storedResources": [
+        {
+          "blueprintId": "salt",
+          "amount": 25
+        }
+      ],
+      "orderType": 256,
+      "reachableLevel": 3,
+      "pathfindingPenalty": 20000,
+      "layerShadowOffset": -1.5,
+      "layerHideOffset": -1.5,
+      "destroyParticles": "destroy_ground"
+    },
+    {
+      "id": "dig_marker_sand",
+      "miningTool": "shovel_item",
+      "autoStartOrder": "Digging",
+      "autoRemoveOnCancelOrder": true,
+      "miningDuration": 15,
+      "storedResources": [
+        {
+          "blueprintId": "clay",
+          "amount": 5
+        }
+      ],
+      "orderType": 256,
+      "reachableLevel": 3,
+      "pathfindingPenalty": 20000,
+      "layerShadowOffset": -1.5,
+      "layerHideOffset": -1.5,
+      "destroyParticles": "destroy_ground"
+    },
+    {
+      "id": "dig_marker_coal",
+      "miningTool": "pickaxe_item",
+      "autoStartOrder": "Digging",
+      "autoRemoveOnCancelOrder": true,
+      "miningDuration": 20,
+      "storedResources": [
+        {
+          "blueprintId": "coal",
+          "amount": 15
+        }
+      ],
+      "orderType": 256,
+      "reachableLevel": 3,
+      "pathfindingPenalty": 20000,
+      "layerShadowOffset": -1.5,
+      "layerHideOffset": -1.5,
+      "destroyParticles": "destroy_ground"
+    },
+    {
+      "id": "dig_marker_rocky",
+      "miningTool": "pickaxe_item",
+      "autoStartOrder": "Digging",
+      "autoRemoveOnCancelOrder": true,
+      "miningDuration": 15,
+      "storedResources": [
+        {
+          "blueprintId": "limestone",
+          "amount": 2
+        },
+        {
+          "blueprintId": "clay",
+          "amount": 2
+        }
+      ],
+      "orderType": 256,
+      "reachableLevel": 3,
+      "pathfindingPenalty": 20000,
+      "layerShadowOffset": -1.5,
+      "layerHideOffset": -1.5,
+      "destroyParticles": "destroy_ground"
+    }
+  ]
+}

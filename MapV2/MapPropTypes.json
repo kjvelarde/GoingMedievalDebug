@@ -1,0 +1,292 @@
+{
+	"repository": [
+		{
+			"id": "TreeBirchRandom",
+			"model": "tree_birch",
+			"resourceType": "Plant",
+			"prefabs": ["tree_birch_01", "tree_birch_02"],
+			"phases": [0, 1, 2, 2, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 4]
+		},
+		{
+			"id": "TreePlaneRandom",
+			"model": "tree_plane",
+			"resourceType": "Plant",
+			"prefabs": ["tree_plane_01", "tree_plane_02"],
+			"phases": [0, 1, 2, 2, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 4]
+		},
+		{
+			"id": "TreeOakRandom",
+			"model": "tree_oak",
+			"resourceType": "Plant",
+			"prefabs": ["tree_oak_01", "tree_oak_02"],
+			"phases": [0, 1, 2, 2, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 4]
+		},
+		{
+			"id": "TreePineRandom2",
+			"model": "tree_pine",
+			"resourceType": "Plant",
+			"prefabs": ["tree_pine_01", "tree_pine_02"],
+			"phases": [0, 1, 2, 2, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 4]
+		},
+		{
+			"id": "TreebirchDead",
+			"model": "tree_birch",
+			"resourceType": "Plant",
+			"prefabs": ["tree_birch_01", "tree_birch_02"],
+			"phases": [4]
+		},
+		{
+			"id": "TreePlaneDead",
+			"model": "tree_plane",
+			"resourceType": "Plant",
+			"prefabs": ["tree_plane_01", "tree_plane_02"],
+			"phases": [4]
+		},
+		{
+			"id": "TreeOakDead",
+			"model": "tree_oak",
+			"resourceType": "Plant",
+			"prefabs": ["tree_oak_01", "tree_oak_02"],
+			"phases": [4]
+		},
+		{
+			"id": "TreePineRandom",
+			"model": "tree_pine",
+			"resourceType": "Plant",
+			"prefabs": ["tree_pine_01", "tree_pine_02"]
+		},
+		{
+			"id": "TreePineDead",
+			"model": "tree_pine",
+			"resourceType": "Plant",
+			"prefabs": ["tree_pine_01", "tree_pine_02"],
+			"phases": [4]
+		},
+		{
+			"id": "TreePineYoung",
+			"model": "tree_pine",
+			"resourceType": "Plant",
+			"prefabs": ["tree_pine_01", "tree_pine_02"],
+			"phases": [0]
+		},
+		
+		{
+			"id": "ShrubGenericRandom",
+			"model": "shrub_generic",
+			"resourceType": "Plant",
+			"prefabs": ["shrub_generic_01"],
+			"phases": [0, 1, 2]
+		},
+		{
+			"id": "ShrubIvyRandom",
+			"model": "shrub_ivy",
+			"resourceType": "Plant",
+			"prefabs": ["shrub_ivy_01"],
+			"phases": [0, 1, 2]
+		},
+		{
+			"id": "ShrubGenericDeadRandom",
+			"model": "shrub_generic",
+			"resourceType": "Plant",
+			"prefabs": ["shrub_generic_01"],
+			"phases": [2]
+		},
+		{
+			"id": "ShrubRedcurrantRandom",
+			"model": "shrub_redcurrant",
+			"resourceType": "Plant",
+			"prefabs": ["shrub_redcurrant_01"],
+			"phases": [0, 1, 2, 3, 4, 5]
+		},		
+		
+		{
+			"id": "HayPatchRandom",
+			"model": "hay_patch",
+			"resourceType": "Plant",
+			"prefabs": ["hay_patch_01"],
+			"phases": [0, 1, 2, 3]
+		},
+		{
+			"id": "HayPatchDry",
+			"model": "hay_patch",
+			"resourceType": "Plant",
+			"prefabs": ["hay_patch_01"],
+			"phases": [3]
+		},		
+		{
+			"id": "MushroomPatchRandom",
+			"model": "mushroom_patch",
+			"resourceType": "Plant",
+			"prefabs": ["mushroom_patch_01"],
+			"phases": [0, 1]
+		},		
+		{
+			"id": "CabbagePatchRandom",
+			"model": "cabbage_patch",
+			"resourceType": "Plant",
+			"prefabs": ["cabbage_patch_01"],
+			"phases": [0, 1, 2]
+		},		
+		{
+			"id": "FlaxPatchRandom",
+			"model": "flax_patch",
+			"resourceType": "Plant",
+			"prefabs": ["flax_patch_01"],
+			"phases": [0, 1, 2, 3]
+		},	
+		{
+			"id": "CarrotPatchRandom",
+			"model": "carrot_patch",
+			"resourceType": "Plant",
+			"prefabs": ["carrot_patch_01"],
+			"phases": [0, 1, 2]
+		},	
+		{
+			"id": "BeetPatchRandom",
+			"model": "beet_patch",
+			"resourceType": "Plant",
+			"prefabs": ["beet_patch_01"],
+			"phases": [0, 1, 2]
+		},
+		{
+			"id": "BarleyPatchRandom",
+			"model": "barley_patch",
+			"resourceType": "Plant",
+			"prefabs": ["barley_patch_01"],
+			"phases": [0, 1, 2]
+		},
+		{
+			"id": "HerbPatchRandom",
+			"model": "herbs_patch",
+			"resourceType": "Plant",
+			"prefabs": ["herbs_patch_01"],
+			"phases": [0, 1, 2]
+		},
+		{
+			"id": "LimestoneRock",
+			"model": "limestone_rock",
+			"resourceType": "Static",
+			"prefabs": ["limestone_rock_01"]
+		},
+		{
+			"id": "IronRock",
+			"model": "iron_rock",
+			"resourceType": "Static",
+			"prefabs": ["iron_rock_01"]
+		},
+		{
+			"id": "ClayLump",
+			"model": "clay_lump",
+			"resourceType": "Static",
+			"prefabs": ["clay_lump_01"]
+		},
+		{
+			"id": "BonePiles",
+			"model": "bones",
+			"resourceType": "ResourcePile"
+		},
+		{
+			"id": "LimestonePiles",
+			"model": "limestone",
+			"resourceType": "ResourcePile"
+		},
+		{
+			"id": "WoodPiles",
+			"model": "wood",
+			"resourceType": "ResourcePile"
+		},
+		{
+			"id": "StickPiles",
+			"model": "sticks",
+			"resourceType": "ResourcePile"
+		},
+		{
+			"id": "ClayPiles",
+			"model": "clay",
+			"resourceType": "ResourcePile"
+		},
+		{
+			"id": "IronPiles",
+			"model": "iron",
+			"resourceType": "ResourcePile"
+		},
+		{
+			"id": "Redcurrant",
+			"model": "redcurrant",
+			"resourceType": "ResourcePile"
+		},
+		{
+			"id": "Cabbage",
+			"model": "cabbage",
+			"resourceType": "ResourcePile"
+		},
+		{
+			"id": "DigMarkerEmpty",
+			"model": "dig_marker_empty",
+			"resourceType": "Static",
+			"prefabs": ["marker_dig"]
+		},
+		{
+			"id": "DigMarkerSand",
+			"model": "dig_marker_sand",
+			"resourceType": "Static",
+			"prefabs": ["marker_dig"]
+		},
+		{
+			"id": "DigMarkerIron",
+			"model": "dig_marker_iron",
+			"resourceType": "Static",
+			"prefabs": ["marker_dig"]
+		},
+		{
+			"id": "DigMarkerSilver",
+			"model": "dig_marker_silver",
+			"resourceType": "Static",
+			"prefabs": ["marker_dig"]
+		},
+		{
+			"id": "DigMarkerClay",
+			"model": "dig_marker_clay",
+			"resourceType": "Static",
+			"prefabs": ["marker_dig"]
+		},
+		{
+			"id": "DigMarkerGold",
+			"model": "dig_marker_gold",
+			"resourceType": "Static",
+			"prefabs": ["marker_dig"]
+		},
+		{
+			"id": "DigMarkerGranite",
+			"model": "dig_marker_granite",
+			"resourceType": "Static",
+			"prefabs": ["marker_dig"]
+		},
+		{
+			"id": "DigMarkerSalt",
+			"model": "dig_marker_salt",
+			"resourceType": "Static",
+			"prefabs": ["marker_dig"]
+		},
+		{
+			"id": "DigMarkerLimestone",
+			"model": "dig_marker_limestone",
+			"resourceType": "Static",
+			"prefabs": ["marker_dig"]
+		},
+		{
+			"id": "DigMarkerCoal",
+			"model": "dig_marker_coal",
+			"resourceType": "Static",
+			"prefabs": ["marker_dig"]
+		},
+		{
+			"id": "DigMarkerRocky",
+			"model": "dig_marker_rocky",
+			"resourceType": "Static",
+			"prefabs": ["marker_dig"]
+		}
+	]
+}
+
+

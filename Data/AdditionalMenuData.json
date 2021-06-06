@@ -1,0 +1,142 @@
+{
+  "repository": 
+  [
+    {
+      "id": "worker",
+      "menuItems": 
+      [
+        "PrioritiseCarryWorkerToBedMenuItem",
+        "PrioritiseTendWoundsMenuItem"
+      ]
+    },
+    {
+      "id": "enemy",
+      "menuItems": 
+      [
+        "AttackMenuItem"
+      ]
+    },
+    {
+      "id": "animal",
+      "menuItems":
+      [
+        "PrioritiseHuntingMenuItem"
+      ]
+    },
+    {
+      "id": "resourcePileEdible",
+      "menuItems": 
+      [
+        "PileForceEatMenuItem",
+        "PrioritiseHaulingMenuItem"
+      ]
+    },
+    {
+      "id": "resourcePileAlcohol",
+      "menuItems":
+      [
+        "PileForceDrinkMenuItem",
+        "PrioritiseHaulingMenuItem"
+      ]
+    },
+    {
+      "id": "resourcePileItem",
+      "menuItems":
+      [
+        "PileEquipMenuItem",
+        "PrioritiseHaulingMenuItem"
+      ]
+    },
+    {
+      "id": "resourcePileCarcass",
+      "menuItems": [
+        "PrioritiseBuryMenuItem",
+        "PrioritiseHaulingMenuItem"
+      ]
+    },
+    {
+      "id": "resourcePile",
+      "menuItems": 
+      [
+        "PrioritiseHaulingMenuItem"  
+      ]
+    },
+    {
+      "id": "trebuchet",
+      "menuItems":
+      [
+        "OperateTrebuchetMenuItem",
+        "DeliverTrebuchetAmmoMenuItem"
+      ]
+    },
+    {
+      "id": "buildingBlueprint",
+      "menuItems":
+      [
+        "PrioritiseBuildingMaterialsDeliveryMenuItem"
+      ]
+    },
+    {
+      "id": "buildingFoundation",
+      "menuItems":
+      [
+        "PrioritiseBuildingConstructionMenuItem",
+        "PrioritiseBuildingMaterialsDeliveryMenuItem"
+      ]
+    },
+    {
+      "id": "buildingFinished",
+      "menuItems": 
+      [
+        "PrioritiseBuildingDeConstructionMenuItem"
+      ]
+    },
+    {
+      "id": "productionBuilding",
+      "menuItems":
+      [
+        "PrioritiseProductionMenuItem",
+        "PrioritiseBuildingDeConstructionMenuItem"
+      ]
+    },
+    {
+      "id": "doorBuilding",
+      "menuItems":
+      [
+        "PrioritiseLockDoorMenuItem",
+        "PrioritiseBuildingDeConstructionMenuItem"
+      ]
+    },
+    {
+      "id": "windowBuilding",
+      "menuItems":
+      [
+        "PrioritiseWindowMenuItem",
+        "PrioritiseBuildingDeConstructionMenuItem"
+      ]
+    },
+    {
+      "id": "torchBuilding",
+      "menuItems":
+      [
+        "PrioritiseTorchMenuItem",
+        "PrioritiseBuildingDeConstructionMenuItem"
+      ]
+    },
+    {
+      "id": "plantMapResource",
+      "menuItems":
+      [
+        "PrioritiseChopMenuItem",
+        "PrioritiseHarvestMenuItem"
+      ]
+    },
+    {
+      "id": "digMarker",
+      "menuItems":
+      [
+        "PrioritiseMineMenuItem"
+      ]
+    }
+  ]
+}

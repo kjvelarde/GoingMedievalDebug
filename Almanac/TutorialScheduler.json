@@ -1,0 +1,119 @@
+{
+    "repository":[
+        {
+            "tutorialNotificationId": "IntroTutorial",
+            "link": "null",
+            "displayHour": 1,
+            "tutorialIds": 
+            [
+                "tutorial_welcome",
+                "tutorial_camera_control",
+                "tutorial_layer_control",
+                "tutorial_game_speed"
+            ]
+        },
+        {
+            "tutorialNotificationId": "OrdersTutorial",
+            "link": "Tutorialorders",
+            "displayHour": 13,
+            "tutorialIds": 
+            [
+                "tutorial_orders"
+            ]
+        },
+        {
+            "tutorialNotificationId": "ConstructionTutorial",
+            "link": "Tutorialconstruction",
+            "displayHour": 10,
+            "tutorialIds": 
+            [
+                "tutorial_construction"
+            ]
+        },
+        {
+            "tutorialNotificationId": "ForbidTutorial",
+            "link": "TutorialForbid",
+            "displayHour": 8,
+            "tutorialIds": 
+            [
+                "tutorial_forbid",
+                "tutorial_stockpile"
+            ]
+        },
+        {
+            "tutorialNotificationId": "MoodTutorial",
+            "link": "TutorialMood",
+            "displayHour": 57,
+            "tutorialIds": 
+            [
+                "tutorial_mood"
+            ]
+        },
+        {
+            "tutorialNotificationId": "DefenceTutorial",
+            "link": "TutorialDefence",
+            "displayHour": 97,
+            "tutorialIds": 
+            [
+                "tutorial_equipment",
+                "tutorial_defence"
+            ]
+        },
+        {
+            "tutorialNotificationId": "ProductionTutorial",
+            "link": "null",
+            "displayHour": 0,
+            "tutorialIds": 
+            [
+                "tutorial_production"
+            ]
+        },
+        {
+            "tutorialNotificationId": "ResearchTutorial",
+            "link": "null",
+            "displayHour": 0,
+            "tutorialIds": 
+            [
+                "tutorial_research"
+            ]
+        },
+        {
+            "tutorialNotificationId": "DraftingCombatTutorial",
+            "link": "null",
+            "displayHour": 0,
+            "tutorialIds": 
+            [
+                "tutorial_select",
+                "tutorial_move"
+
+            ]
+        },
+        {
+            "tutorialNotificationId": "JobTutorial",
+            "link": "null",
+            "displayHour": 0,
+            "tutorialIds": 
+            [
+                "tutorial_jobs"
+            ]
+        },
+        {
+            "tutorialNotificationId": "ScheduleTutorial",
+            "link": "null",
+            "displayHour": 0,
+            "tutorialIds": 
+            [
+                "tutorial_schedule"
+            ]
+        },
+        {
+            "tutorialNotificationId": "ManageTutorial",
+            "link": "null",
+            "displayHour": 0,
+            "tutorialIds": 
+            [
+                "tutorial_manage"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,328 @@
+{
+  "name": "Enemy",
+  "repository": [
+    {
+      "debugName": "Health",
+      "type": 1,
+      "initialValue": 150,
+      "attributes": {
+        "min": [
+          {
+            "baseValue": 0
+          }
+        ],
+        "max": [
+          {
+            "baseValue": 100,
+            "attributes": [
+              93
+            ]
+          }
+        ],
+        "step": [
+          {
+            "baseValue": 1,
+            "attributes": [
+              57,
+              70
+            ]
+          }
+        ],
+        "threshold": [
+          {
+            "baseValue": 1
+          }
+        ]
+      },
+      "thresholds": [
+        {
+          "trigger": 5,
+          "name": "health_treshold_01",
+          "effectors": [
+            "ConDmgHP01"
+          ]
+        }
+      ]
+    },
+    {
+      "debugName": "Sleep",
+      "type": 2,
+      "initialValue": 90,
+      "attributes": {
+        "min": [
+          {
+            "baseValue": 0
+          }
+        ],
+        "max": [
+          {
+            "baseValue": 100
+          }
+        ],
+        "step": [
+          {
+            "baseValue": -4,
+            "attributes": [
+              10,
+              51,
+              12
+            ]
+          }
+        ],
+        "threshold": [
+          {
+            "baseValue": 1,
+            "attributes": [
+              11
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "debugName": "Hunger",
+      "type": 3,
+      "initialValue": 60,
+      "attributes": {
+        "min": [
+          {
+            "baseValue": -100
+          }
+        ],
+        "max": [
+          {
+            "baseValue": 100
+          }
+        ],
+        "step": [
+          {
+            "baseValue": -5,
+            "attributes": [
+              7
+            ]
+          }
+        ],
+        "threshold": [
+          {
+            "baseValue": 1,
+            "attributes": [
+              8
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "debugName": "Mood",
+      "type": 6,
+      "initialValue": 50,
+      "attributes": {
+        "min": [
+          {
+            "baseValue": 0
+          }
+        ],
+        "max": [
+          {
+            "baseValue": 100
+          }
+        ],
+        "step": [
+          {
+            "baseValue": 2,
+            "attributes": [
+              37
+            ]
+          }
+        ],
+        "threshold": [
+          {
+            "baseValue": 1
+          }
+        ],
+        "target": [
+          {
+            "baseValue": 1,
+            "attributes": [
+              36
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "debugName": "Blood",
+      "type": 7,
+      "initialValue": 100,
+      "attributes": {
+        "min": [
+          {
+            "baseValue": 0
+          }
+        ],
+        "max": [
+          {
+            "baseValue": 100
+          }
+        ],
+        "step": [
+          {
+            "baseValue": 0,
+            "attributes": [
+              58,
+              59
+            ]
+          }
+        ],
+        "threshold": [
+          {
+            "baseValue": 1
+          }
+        ]
+      },
+      "thresholds": [
+        {
+          "trigger": 70,
+          "name": "blood_treshold_01",
+          "effectors": [
+            "ConDmgBloodLoss01"
+          ]
+        },
+        {
+          "trigger": 60,
+          "name": "blood_treshold_02",
+          "effectors": [
+            "ConDmgBloodLoss02"
+          ]
+        },
+        {
+          "trigger": 10,
+          "name": "blood_treshold_02",
+          "effectors": [
+            "ConDmgBloodLoss02"
+          ]
+        }
+      ]
+    },
+    {
+      "debugName": "Consciousness",
+      "type": 8,
+      "initialValue": 100,
+      "attributes": {
+        "min": [
+          {
+            "baseValue": 0
+          }
+        ],
+        "max": [
+          {
+            "baseValue": 100,
+            "attributes": [
+              61
+            ]
+          }
+        ],
+        "step": [
+          {
+            "baseValue": 0,
+            "attributes": [
+              60,
+              69
+            ]
+          }
+        ],
+        "threshold": [
+          {
+            "baseValue": 1
+          }
+        ]
+      },
+      "thresholds": [
+        {
+          "trigger": 75,
+          "name": "consciousness_treshold_01",
+          "effectors": [
+            "ConLoseEnemyLow"
+          ]
+        },
+        {
+          "trigger": 40,
+          "name": "consciousness_treshold_03",
+          "effectors": [
+            "ConLoseEnemyHigh"
+          ]
+        }
+      ]
+    },
+    {
+      "debugName": "Pain",
+      "type": 9,
+      "initialValue": 100,
+      "attributes": {
+        "min": [
+          {
+            "baseValue": 0,
+            "attributes": [
+              63
+            ]
+          }
+        ],
+        "max": [
+          {
+            "baseValue": 100
+          }
+        ],
+        "step": [
+          {
+            "baseValue": 4
+          }
+        ],
+        "threshold": [
+          {
+            "baseValue": 1,
+            "attributes": [
+              64
+            ]
+          }
+        ]
+      },
+      "thresholds": [
+        {
+          "trigger": 85,
+          "name": "pain_treshold_01",
+          "effectors": [
+            "ConDmgPain01"
+          ]
+        },
+        {
+          "trigger": 65,
+          "name": "pain_treshold_02",
+          "effectors": [
+            "ConDmgPain01"
+          ]
+        },
+        {
+          "trigger": 45,
+          "name": "pain_treshold_03",
+          "effectors": [
+            "ConDmgPain01"
+          ]
+        },
+        {
+          "trigger": 30,
+          "name": "pain_treshold_04",
+          "effectors": [
+            "ConDmgPain02"
+          ]
+        },
+        {
+          "trigger": 5,
+          "name": "pain_treshold_05",
+          "effectors": [
+            "ConDmgPain03"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+    "repository": [
+      {
+          "id":"default_2",
+          "title": "scenario_default_2_title",
+          "info": "scenario_default_2_info",
+          "narrative": "scenario_default_2_narrative",
+          "startSeason": 3,
+          "startingResources": [
+            {
+                "id": "wood",
+                "value": 20
+            }, 
+            {
+                "id": "packaged_meal",
+                "value": 3
+            }
+        ],
+        "startingEquipment": [
+            {
+                "id": "flimsy_wooden_buckler",
+                "value": 1
+            }, 
+            {
+                "id": "fine_short_bow",
+                "value": 1
+            },
+            {
+                "id": "good_linen_cap",
+                "value": 1
+            },
+            {
+                "id": "sturdy_wooden_spear",
+                "value": 1
+            }
+        ],
+        "villagerConstraints": 
+            {
+                "numberOfVillagers": 1,
+                "ageMin": 23,
+                "ageMax": 28,
+                "heightMin": 150,
+                "heightMax": 190,
+                "weightMin": 50,
+                "weightMax": 110,
+                "forceGender": 50,
+                "forceReligion": 50,
+                "defaultClothes": [
+                    "flimsy_linen_winter_clothes"
+                ]
+            }
+      }
+    ]
+  }

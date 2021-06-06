@@ -1,0 +1,25 @@
+{
+  "repository": [
+    {
+      "id": "Default",
+      "rotationSpeed": 15.0,
+      "minRunSpeedThreshold": 1.8,
+      "moveAnimationTrigger": "Moving",
+      "runAnimationTrigger": "Running"
+    },
+    {
+      "id": "Worker",
+      "rotationSpeed": 10.0,
+      "minRunSpeedThreshold": 2.3,
+      "moveAnimationTrigger": "Moving",
+      "runAnimationTrigger": "Running"
+    },
+    {
+      "id": "deer",
+      "rotationSpeed": 2.6,
+      "minRunSpeedThreshold": 3.0,
+      "moveAnimationTrigger": "Moving",
+      "runAnimationTrigger": "Running"
+    }
+  ]
+}

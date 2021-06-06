@@ -1,0 +1,98 @@
+{
+    "repository": [
+        {
+            "defaultHeight": [
+                164,
+                178
+            ],
+            "heightFactor" : {
+                "min" : -8,
+                "max" : 8
+            },
+            "heightNormalRange" : {
+                "min": 160,
+                "max": 185
+            },
+            "weightNormalRange" : {
+                "min": 23,
+                "max": 31
+            },
+            "weightCoefficientRange" : {
+                "min" : 17,
+                "max" : 37
+            },
+            "ageRange" : {
+                "min" : 22,
+                "max" : 70
+            },
+            "heightRange" : {
+                "min" : 100,
+                "max" : 210
+            },
+            "weightRange" : {
+                "min" : 45,
+                "max" : 120
+            },
+            "baseSkillCount": 120,
+            "baseSkillPoints" : {
+                "min" : 0,
+                "max" : 10
+            },
+            "pseudonymChance" : 25,
+            "pseudonymLimit" : 25,
+            "ageCategories" :
+            [
+                {
+                    "ageCategory": {
+                        "min" : 18,
+                        "max" : 25
+                    },
+                    "possiblePerks" : {
+                        "min" : 2,
+                        "max" : 3
+                    }
+                },
+                {
+                    "ageCategory": {
+                        "min" : 25,
+                        "max" : 35
+                    },
+                    "possiblePerks" : {
+                        "min" : 2,
+                        "max" : 3
+                    }
+                },
+                {
+                    "ageCategory": {
+                        "min" : 35,
+                        "max" : 45
+                    },
+                    "possiblePerks" : {
+                        "min" : 2,
+                        "max" : 4
+                    }
+                },
+                {
+                    "ageCategory": {
+                        "min" : 45,
+                        "max" : 200
+                    },
+                    "possiblePerks" : {
+                        "min" : 2,
+                        "max" : 5
+                    }
+                }
+            ],
+            "passions": [
+                {
+                    "min" : 1,
+                    "max" : 4
+                },
+                {
+                    "min" : 0,
+                    "max" : 3
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,187 @@
+{
+  "repository": [
+    {
+      "id": 1,
+      "defaultPriority": 16,
+      "relatedSkills": [
+        -1
+      ],
+      "goals": [
+        "StockpileHaulingGoal",
+        "BuryBodyGoal",
+        "DeliverCarcassDisposalResourcesGoal",
+        "ProductionCarcassDisposalGoal"
+      ]
+    },
+    {
+      "id": 2,
+      "defaultPriority": 7,
+      "relatedSkills": [
+        13
+      ],
+      "goals": [
+        "DigGoal"
+      ]
+    },
+    {
+      "id": 4,
+      "defaultPriority": 4,
+      "relatedSkills": [
+        4
+      ],
+      "goals": [
+        "ConstructBuildingGoal",
+        "DeliverBuildingMaterialsGoal",
+        "RepairBuildingGoal",
+        "RelocateResourcePileGoal",
+        "DeconstructGoal"
+      ]
+    },
+    {
+      "id": 8,
+      "defaultPriority": 10,
+      "relatedSkills": [
+        -1
+      ],
+      "goals": [
+        "ProductionCraftingGoal",
+        "DeliverCraftingResourcesGoal",
+        "DeliverCraftingResourceDismantleGoal"
+      ]
+    },
+    {
+      "id": 16,
+      "defaultPriority": 6,
+      "relatedSkills": [
+        2
+      ],
+      "goals": [
+        "HarvestGoal"
+      ]
+    },
+    {
+      "id": 32,
+      "defaultPriority": 3,
+      "relatedSkills": [
+        7,
+        1
+      ],
+      "goals": [
+        "HuntingGoal"
+      ]
+    },
+    {
+      "id": 64,
+      "defaultPriority": 5,
+      "relatedSkills": [
+        2
+      ],
+      "goals": [
+        "PlantCropsGoal"
+      ]
+    },
+    {
+      "id": 128,
+      "defaultPriority": 8,
+      "relatedSkills": [
+        2
+      ],
+      "goals": [
+        "ChopTreeGoal"
+      ]
+    },
+    {
+      "id": 256,
+      "defaultPriority": 11,
+      "relatedSkills": [
+        10
+      ],
+      "goals": [
+        "ProductionSmithingGoal",
+        "DeliverSmithingResourcesGoal",
+        "DeliverSmithingResourceDismantleGoal"
+      ]
+    },
+    {
+      "id": 512,
+      "defaultPriority": 12,
+      "relatedSkills": [
+        3
+      ],
+      "goals": [
+        "ProductionCarpentryGoal",
+        "DeliverCarpentryResourcesGoal",
+        "DeliverCarpentryResourceDismantleGoal"
+      ]
+    },
+    {
+      "id": 1024,
+      "defaultPriority": 9,
+      "relatedSkills": [
+        5
+      ],
+      "goals": [
+        "ProductionCookingGoal",
+        "DeliverCookingResourcesGoal"
+      ]
+    },
+    {
+      "id": 2048,
+      "defaultPriority": 13,
+      "relatedSkills": [
+        12
+      ],
+      "goals": [
+        "ProductionTailoringGoal",
+        "DeliverTailoringResourcesGoal",
+        "DeliverTailoringResourceDismantleGoal"
+      ]
+    },
+    {
+      "id": 4096,
+      "defaultPriority": 14,
+      "relatedSkills": [
+        6
+      ],
+      "goals": [
+        "ProductionResearchGoal",
+        "DeliverResearchResourcesGoal"
+      ]
+    },
+    {
+      "id": 8192,
+      "defaultPriority": 2,
+      "relatedSkills": [
+        -1
+      ],
+      "goals": [
+        "RestGoal"
+      ]
+    },
+    {
+      "id": 16384,
+      "defaultPriority": 1,
+      "relatedSkills": [
+        8
+      ],
+      "goals": [
+        "TendWoundsGoal",
+        "CarryToBedGoal",
+        "DeliverChemistryResourcesGoal",
+        "ProductionChemistryGoal"
+      ]
+    },
+    {
+      "id": 32768,
+      "defaultPriority": 15,
+      "relatedSkills": [
+        -1
+      ],
+      "goals": [
+        "ChangeDoorLockStateGoal",
+        "SetupTrapGoal",
+        "ChangeLockStateGoal"
+      ]
+    }
+  ]
+}

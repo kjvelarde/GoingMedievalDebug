@@ -1,0 +1,14 @@
+{
+	"repository": [
+		{
+			"id": "default_size",
+			"width": 190,
+			"height": 16,
+			"length": 190,
+			"blockHeight": 3,
+			"shownInRelease": true
+		}
+	]
+}
+
+

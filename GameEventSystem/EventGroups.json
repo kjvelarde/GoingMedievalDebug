@@ -1,0 +1,1495 @@
+{
+"repository": [
+		{
+			"id": "none",
+			"baseValue": "35",
+			"baseValues": [
+				{
+					"gameMode": "Builder",
+					"baseValue": "50"
+				}, 
+				{
+					"gameMode": "Standard",
+					"baseValue": "35"
+				}, 
+				{
+					"gameMode": "Survival",
+					"baseValue": "35"
+				}
+			],
+			"resetCounters": []
+		},
+		{
+			"id": "new_worker_ransom",
+			"baseValue": "10",
+			"baseValues": [
+				{
+					"gameMode": "Builder",
+					"baseValue": ""
+				}, 
+				{
+					"gameMode": "Standard",
+					"baseValue": "10"
+				}, 
+				{
+					"gameMode": "Survival",
+					"baseValue": "15"
+				}
+			],
+			"resetCounters": ["new_worker","new_worker_ransom","raid"],
+			"events": ["game_event_new_worker_ransom_barb_snack",
+					"game_event_new_worker_ransom_jail",
+					"game_event_new_worker_ransom_lost_property",
+					"game_event_new_worker_ransom_salvation"
+					],
+			"daysPastMultipliers": {
+				"list": [
+					{
+						"key": 0, 
+						"value": 0.0
+					},
+					{
+						"key": 1, 
+						"value": 0.0
+					},
+					{
+						"key": 2, 
+						"value": 0.0
+					},
+					{
+						"key": 3, 
+						"value": 0.0
+					},
+					{
+						"key": 4, 
+						"value": 0.0
+					},
+					{
+						"key": 5, 
+						"value": 0.0
+					},
+					{
+						"key": 6, 
+						"value": 0.1
+					},
+					{
+						"key": 7, 
+						"value": 0.2
+					},
+					{
+						"key": 8, 
+						"value": 0.2
+					},
+					{
+						"key": 9, 
+						"value": 0.4
+					},
+					{
+						"key": 10, 
+						"value": 0.8
+					},
+					{
+						"key": 11, 
+						"value": 0.9
+					},
+					{
+						"key": 12, 
+						"value": 1
+					},
+					{
+						"key": 13, 
+						"value": 1
+					},
+					{
+						"key": 14, 
+						"value": 1
+					},
+					{
+						"key": 15, 
+						"value": 1
+					},
+					{
+						"key": 16, 
+						"value": 1.1
+					},
+					{
+						"key": 17, 
+						"value": 1.2
+					},
+					{
+						"key": 18, 
+						"value": 1.8
+					},
+					{
+						"key": 19, 
+						"value": 2
+					},
+					{
+						"key": 20, 
+						"value": 2
+					}
+				]
+			}, 
+			"workerCountMultipliers": {
+				"list": [
+					{
+						"key": 0, 
+						"value": 0
+					},
+					{
+						"key": 1, 
+						"value": 0
+					},
+					{
+						"key": 2, 
+						"value": 0
+					},
+					{
+						"key": 3, 
+						"value": 0
+					},
+					{
+						"key": 4, 
+						"value": 0.3
+					},
+					{
+						"key": 5, 
+						"value": 1
+					},
+					{
+						"key": 6, 
+						"value": 1
+					},
+					{
+						"key": 7, 
+						"value": 0.5
+					},
+					{
+						"key": 8, 
+						"value": 0.4
+					},
+					{
+						"key": 9, 
+						"value": 0.3
+					},
+					{
+						"key": 10, 
+						"value": 0.2
+					},
+					{
+						"key": 11, 
+						"value": 0.1
+					},
+					{
+						"key": 12, 
+						"value": 0.1
+					},
+					{
+						"key": 13, 
+						"value": 0.1
+					},
+					{
+						"key": 14, 
+						"value": 0.1
+					},
+					{
+						"key": 15, 
+						"value": 0.05
+					},
+					{
+						"key": 16, 
+						"value": 0.05
+					},
+					{
+						"key": 17, 
+						"value": 0.05
+					},
+					{
+						"key": 18, 
+						"value": 0.05
+					},
+					{
+						"key": 19, 
+						"value": 0.05
+					},
+					{
+						"key": 20, 
+						"value": 0.01
+					}
+				]
+			},
+			"seasonMultipliers": {
+				"keys":["spring", "summer", "autumn", "winter"],
+				"values": [1, 1, 1, 0.3]
+			}
+		},
+		{
+			"id": "thunderstorm",
+			"baseValue": "10",
+			"baseValues": [
+				{
+					"gameMode": "Builder",
+					"baseValue": "15"
+				}, 
+				{
+					"gameMode": "Standard",
+					"baseValue": "20"
+				}, 
+				{
+					"gameMode": "Survival",
+					"baseValue": "25"
+				}
+			],
+			"resetCounters": ["thunderstorm","heatwave","hailstorm"],
+			"events": ["game_event_thunderstorm"],
+			"daysPastMultipliers": {
+				"list": [
+					{
+						"key": 0, 
+						"value": 0.0
+					},
+					{
+						"key": 1, 
+						"value": 0.0
+					},
+					{
+						"key": 2, 
+						"value": 0.0
+					},
+					{
+						"key": 3, 
+						"value": 0.0
+					},
+					{
+						"key": 4, 
+						"value": 0.3
+					},
+					{
+						"key": 5, 
+						"value": 0.4
+					},
+					{
+						"key": 6, 
+						"value": 0.5
+					},
+					{
+						"key": 7, 
+						"value": 0.6
+					},
+					{
+						"key": 8, 
+						"value": 0.7
+					},
+					{
+						"key": 9, 
+						"value": 0.8
+					},
+					{
+						"key": 10, 
+						"value": 0.9
+					},
+					{
+						"key": 11, 
+						"value": 1
+					},
+					{
+						"key": 12, 
+						"value": 1
+					},
+					{
+						"key": 13, 
+						"value": 1
+					},
+					{
+						"key": 14, 
+						"value": 1
+					},
+					{
+						"key": 15, 
+						"value": 1
+					},
+					{
+						"key": 16, 
+						"value": 1
+					},
+					{
+						"key": 17, 
+						"value": 1
+					},
+					{
+						"key": 18, 
+						"value": 1
+					},
+					{
+						"key": 19, 
+						"value": 1
+					},
+					{
+						"key": 20, 
+						"value": 1
+					}
+				]
+			}, 
+			"workerCountMultipliers": {
+				"list": [
+					{
+						"key": 0, 
+						"value": 0
+					},
+					{
+						"key": 1, 
+						"value": 0
+					},
+					{
+						"key": 2, 
+						"value": 0
+					},
+					{
+						"key": 3, 
+						"value": 0
+					},
+					{
+						"key": 4, 
+						"value": 0
+					},
+					{
+						"key": 5, 
+						"value": 0.5
+					},
+					{
+						"key": 6, 
+						"value": 1
+					},
+					{
+						"key": 7, 
+						"value": 1
+					},
+					{
+						"key": 8, 
+						"value": 1
+					},
+					{
+						"key": 9, 
+						"value": 1
+					},
+					{
+						"key": 10, 
+						"value": 1
+					},
+					{
+						"key": 11, 
+						"value": 1
+					},
+					{
+						"key": 12, 
+						"value": 1
+					},
+					{
+						"key": 13, 
+						"value": 1
+					},
+					{
+						"key": 14, 
+						"value": 1
+					},
+					{
+						"key": 15, 
+						"value": 1
+					}
+				]
+			},
+			"seasonMultipliers": {
+				"keys":["spring", "summer", "autumn", "winter"],
+				"values": [0.03, 1, 0.03, 0]
+			}
+		},
+		{
+			"id": "hailstorm",
+			"baseValue": "10",
+			"baseValues": [
+				{
+					"gameMode": "Builder",
+					"baseValue": "10"
+				}, 
+				{
+					"gameMode": "Standard",
+					"baseValue": "20"
+				}, 
+				{
+					"gameMode": "Survival",
+					"baseValue": "25"
+				}
+			],
+			"resetCounters": ["hailstorm","heatwave","thunderstorm"],
+			"events": ["game_event_hailstorm"],
+			"daysPastMultipliers": {
+				"list": [
+					{
+						"key": 0, 
+						"value": 0.0
+					},
+					{
+						"key": 1, 
+						"value": 0.0
+					},
+					{
+						"key": 2, 
+						"value": 0.0
+					},
+					{
+						"key": 3, 
+						"value": 0.0
+					},
+					{
+						"key": 4, 
+						"value": 0.3
+					},
+					{
+						"key": 5, 
+						"value": 0.4
+					},
+					{
+						"key": 6, 
+						"value": 0.5
+					},
+					{
+						"key": 7, 
+						"value": 0.6
+					},
+					{
+						"key": 8, 
+						"value": 0.7
+					},
+					{
+						"key": 9, 
+						"value": 0.8
+					},
+					{
+						"key": 10, 
+						"value": 0.9
+					},
+					{
+						"key": 11, 
+						"value": 1
+					},
+					{
+						"key": 12, 
+						"value": 1
+					},
+					{
+						"key": 13, 
+						"value": 1
+					},
+					{
+						"key": 14, 
+						"value": 1
+					},
+					{
+						"key": 15, 
+						"value": 1
+					},
+					{
+						"key": 16, 
+						"value": 1
+					},
+					{
+						"key": 17, 
+						"value": 1
+					},
+					{
+						"key": 18, 
+						"value": 1
+					},
+					{
+						"key": 19, 
+						"value": 1
+					},
+					{
+						"key": 20, 
+						"value": 1
+					}
+				]
+			}, 
+			"workerCountMultipliers": {
+				"list": [
+					{
+						"key": 0, 
+						"value": 0
+					},
+					{
+						"key": 1, 
+						"value": 0
+					},
+					{
+						"key": 2, 
+						"value": 0
+					},
+					{
+						"key": 3, 
+						"value": 0
+					},
+					{
+						"key": 4, 
+						"value": 0
+					},
+					{
+						"key": 5, 
+						"value": 0.5
+					},
+					{
+						"key": 6, 
+						"value": 1
+					},
+					{
+						"key": 7, 
+						"value": 1
+					},
+					{
+						"key": 8, 
+						"value": 1
+					},
+					{
+						"key": 9, 
+						"value": 1
+					},
+					{
+						"key": 10, 
+						"value": 1
+					},
+					{
+						"key": 11, 
+						"value": 1
+					},
+					{
+						"key": 12, 
+						"value": 1
+					},
+					{
+						"key": 13, 
+						"value": 1
+					},
+					{
+						"key": 14, 
+						"value": 1
+					},
+					{
+						"key": 15, 
+						"value": 1
+					}
+				]
+			},
+			"seasonMultipliers": {
+				"keys":["spring", "summer", "autumn", "winter"],
+				"values": [0.05, 1.0, 0.05, 0]
+			}
+		},
+		{
+			"id": "coldsnap",
+			"baseValue": "10",
+			"baseValues": [
+				{
+					"gameMode": "Builder",
+					"baseValue": "10"
+				}, 
+				{
+					"gameMode": "Standard",
+					"baseValue": "20"
+				}, 
+				{
+					"gameMode": "Survival",
+					"baseValue": "25"
+				}
+			],
+			"resetCounters": ["coldsnap"],
+			"events": ["game_event_cold_snap"],
+			"daysPastMultipliers": {
+				"list": [
+					{
+						"key": 0, 
+						"value": 0.0
+					},
+					{
+						"key": 1, 
+						"value": 0.0
+					},
+					{
+						"key": 2, 
+						"value": 0.0
+					},
+					{
+						"key": 3, 
+						"value": 0.0
+					},
+					{
+						"key": 4, 
+						"value": 0.0
+					},
+					{
+						"key": 5, 
+						"value": 0.0
+					},
+					{
+						"key": 6, 
+						"value": 0.3
+					},
+					{
+						"key": 7, 
+						"value": 0.3
+					},
+					{
+						"key": 8, 
+						"value": 0.3
+					},
+					{
+						"key": 9, 
+						"value": 0.3
+					},
+					{
+						"key": 10, 
+						"value": 0.3
+					},
+					{
+						"key": 11, 
+						"value": 0.3
+					},
+					{
+						"key": 12, 
+						"value": 0.4
+					},
+					{
+						"key": 13, 
+						"value": 0.4
+					},
+					{
+						"key": 14, 
+						"value": 0.5
+					},
+					{
+						"key": 15, 
+						"value": 0.5
+					},
+					{
+						"key": 16, 
+						"value": 0.5
+					},
+					{
+						"key": 17, 
+						"value": 0.7
+					},
+					{
+						"key": 18, 
+						"value": 0.8
+					},
+					{
+						"key": 19, 
+						"value": 0.9
+					},
+					{
+						"key": 20, 
+						"value": 1
+					}
+				]
+			}, 
+			"workerCountMultipliers": {
+				"list": [
+					{
+						"key": 0, 
+						"value": 0
+					},
+					{
+						"key": 1, 
+						"value": 0
+					},
+					{
+						"key": 2, 
+						"value": 0
+					},
+					{
+						"key": 3, 
+						"value": 0
+					},
+					{
+						"key": 4, 
+						"value": 0.3
+					},
+					{
+						"key": 5, 
+						"value": 0.5
+					},
+					{
+						"key": 6, 
+						"value": 1
+					},
+					{
+						"key": 7, 
+						"value": 1
+					},
+					{
+						"key": 8, 
+						"value": 1
+					},
+					{
+						"key": 9, 
+						"value": 1
+					},
+					{
+						"key": 10, 
+						"value": 1
+					},
+					{
+						"key": 11, 
+						"value": 1
+					},
+					{
+						"key": 12, 
+						"value": 1
+					},
+					{
+						"key": 13, 
+						"value": 1
+					},
+					{
+						"key": 14, 
+						"value": 1
+					},
+					{
+						"key": 15, 
+						"value": 1
+					}
+				]
+			},
+			"seasonMultipliers": {
+				"keys":["spring", "summer", "autumn", "winter"],
+				"values": [0, 0.0, 0.0, 1]
+			}
+		},
+		{
+			"id": "heatwave",
+			"baseValue": "10",
+			"baseValues": [
+				{
+					"gameMode": "Builder",
+					"baseValue": "10"
+				}, 
+				{
+					"gameMode": "Standard",
+					"baseValue": "20"
+				}, 
+				{
+					"gameMode": "Survival",
+					"baseValue": "25"
+				}
+			],
+			"resetCounters": ["heatwave","thunderstorm","hailstorm"],
+			"events": ["game_event_heat_wave"],
+			"daysPastMultipliers": {
+				"list": [
+					{
+						"key": 0, 
+						"value": 0.0
+					},
+					{
+						"key": 1, 
+						"value": 0.0
+					},
+					{
+						"key": 2, 
+						"value": 0.0
+					},
+					{
+						"key": 3, 
+						"value": 0.0
+					},
+					{
+						"key": 4, 
+						"value": 0.3
+					},
+					{
+						"key": 5, 
+						"value": 0.4
+					},
+					{
+						"key": 6, 
+						"value": 0.5
+					},
+					{
+						"key": 7, 
+						"value": 0.6
+					},
+					{
+						"key": 8, 
+						"value": 0.7
+					},
+					{
+						"key": 9, 
+						"value": 0.8
+					},
+					{
+						"key": 10, 
+						"value": 0.9
+					},
+					{
+						"key": 11, 
+						"value": 1
+					},
+					{
+						"key": 12, 
+						"value": 1
+					},
+					{
+						"key": 13, 
+						"value": 1
+					},
+					{
+						"key": 14, 
+						"value": 1
+					},
+					{
+						"key": 15, 
+						"value": 1
+					},
+					{
+						"key": 16, 
+						"value": 1
+					},
+					{
+						"key": 17, 
+						"value": 1
+					},
+					{
+						"key": 18, 
+						"value": 1
+					},
+					{
+						"key": 19, 
+						"value": 1
+					},
+					{
+						"key": 20, 
+						"value": 1
+					}
+				]
+			}, 
+			"workerCountMultipliers": {
+				"list": [
+					{
+						"key": 0, 
+						"value": 0
+					},
+					{
+						"key": 1, 
+						"value": 0
+					},
+					{
+						"key": 2, 
+						"value": 0
+					},
+					{
+						"key": 3, 
+						"value": 0
+					},
+					{
+						"key": 4, 
+						"value": 0
+					},
+					{
+						"key": 5, 
+						"value": 0.5
+					},
+					{
+						"key": 6, 
+						"value": 1
+					},
+					{
+						"key": 7, 
+						"value": 1
+					},
+					{
+						"key": 8, 
+						"value": 1
+					},
+					{
+						"key": 9, 
+						"value": 1
+					},
+					{
+						"key": 10, 
+						"value": 1
+					},
+					{
+						"key": 11, 
+						"value": 1
+					},
+					{
+						"key": 12, 
+						"value": 1
+					},
+					{
+						"key": 13, 
+						"value": 1
+					},
+					{
+						"key": 14, 
+						"value": 1
+					},
+					{
+						"key": 15, 
+						"value": 1
+					}
+				]
+			},
+			"seasonMultipliers": {
+				"keys":["spring", "summer", "autumn", "winter"],
+				"values": [0, 1.0, 0, 0.0]
+			}
+		},
+		{
+			"id": "animalRaid",
+			"baseValue": "5",
+			"baseValues": [
+				{
+					"gameMode": "Builder",
+					"baseValue": "0"
+				}, 
+				{
+					"gameMode": "Standard",
+					"baseValue": "10"
+				}, 
+				{
+					"gameMode": "Survival",
+					"baseValue": "20"
+				}
+			],
+			"resetCounters": ["animalRaid"],
+			"events": ["game_event_wolf_raid"],
+			"daysPastMultipliers": {
+				"list": [
+					{
+						"key": 0, 
+						"value": 0.0
+					},
+					{
+						"key": 1, 
+						"value": 0.0
+					},
+					{
+						"key": 2, 
+						"value": 0.0
+					},
+					{
+						"key": 3, 
+						"value": 0.0
+					},
+					{
+						"key": 4, 
+						"value": 0.0
+					},
+					{
+						"key": 5, 
+						"value": 0.0
+					},
+					{
+						"key": 6, 
+						"value": 0.1
+					},
+					{
+						"key": 7, 
+						"value": 0.3
+					},
+					{
+						"key": 8, 
+						"value": 0.4
+					},
+					{
+						"key": 9, 
+						"value": 0.5
+					},
+					{
+						"key": 10, 
+						"value": 0.6
+					},
+					{
+						"key": 11, 
+						"value": 1
+					}
+				]
+			}, 
+			"workerCountMultipliers": {
+				"list": [
+					{
+						"key": 0, 
+						"value": 0
+					},
+					{
+						"key": 1, 
+						"value": 0
+					},
+					{
+						"key": 2, 
+						"value": 0
+					},
+					{
+						"key": 3, 
+						"value": 0
+					},
+					{
+						"key": 4, 
+						"value": 0
+					},
+					{
+						"key": 5, 
+						"value": 0.5
+					},
+					{
+						"key": 6, 
+						"value": 1
+					},
+					{
+						"key": 7, 
+						"value": 1
+					},
+					{
+						"key": 8, 
+						"value": 1
+					},
+					{
+						"key": 9, 
+						"value": 1
+					},
+					{
+						"key": 10, 
+						"value": 1
+					},
+					{
+						"key": 11, 
+						"value": 1
+					},
+					{
+						"key": 12, 
+						"value": 1
+					},
+					{
+						"key": 13, 
+						"value": 1
+					},
+					{
+						"key": 14, 
+						"value": 1
+					},
+					{
+						"key": 15, 
+						"value": 1
+					}
+				]
+			},
+			"seasonMultipliers": {
+				"keys":["spring", "summer", "autumn", "winter"],
+				"values": [0, 0, 0, 1]
+			}
+		},
+		{
+			"id": "new_worker",
+			"baseValue": "10",
+			"baseValues": [
+				{
+					"gameMode": "Builder",
+					"baseValue": "5"
+				}, 
+				{
+					"gameMode": "Standard",
+					"baseValue": "10"
+				}, 
+				{
+					"gameMode": "Survival",
+					"baseValue": "10"
+				}
+			],
+			"resetCounters": ["new_worker"],
+			"events": ["game_event_new_worker",
+				"game_event_new_worker_hungry",
+				"game_event_new_worker_wounded",
+				"game_event_new_worker_wounded_02"
+			],
+			"daysPastMultipliers": {
+				"list": [
+					{
+						"key": 0, 
+						"value": 0.0
+					},
+					{
+						"key": 1, 
+						"value": 0.0
+					},
+					{
+						"key": 2, 
+						"value": 0.0
+					},
+					{
+						"key": 3, 
+						"value": 0.0
+					},
+					{
+						"key": 4, 
+						"value": 0
+					},
+					{
+						"key": 5, 
+						"value": 0
+					},
+					{
+						"key": 6, 
+						"value": 0.1
+					},
+					{
+						"key": 7, 
+						"value": 0.2
+					},
+					{
+						"key": 8, 
+						"value": 0.3
+					},
+					{
+						"key": 9, 
+						"value": 0.5
+					},
+					{
+						"key": 10, 
+						"value": 1
+					},
+					{
+						"key": 11, 
+						"value": 1.2
+					},
+					{
+						"key": 12, 
+						"value": 1.6
+					},
+					{
+						"key": 13, 
+						"value": 2
+					},
+					{
+						"key": 14, 
+						"value": 2.2
+					},
+					{
+						"key": 15, 
+						"value": 2.6
+					},
+					{
+						"key": 16, 
+						"value": 3
+					},
+					{
+						"key": 17, 
+						"value": 4
+					},
+					{
+						"key": 18, 
+						"value": 4.5
+					},
+					{
+						"key": 19, 
+						"value": 4.7
+					},
+					{
+						"key": 20, 
+						"value": 5
+					}
+				]
+			}, 
+			"workerCountMultipliers": {
+				"list": [
+					{
+						"key": 0, 
+						"value": 5
+					},
+					{
+						"key": 1, 
+						"value": 2
+					},
+					{
+						"key": 2, 
+						"value": 2
+					},
+					{
+						"key": 3, 
+						"value": 1.5
+					},
+					{
+						"key": 4, 
+						"value": 1
+					},
+					{
+						"key": 5, 
+						"value": 0.9
+					},
+					{
+						"key": 6, 
+						"value": 0.8
+					},
+					{
+						"key": 7, 
+						"value": 0.3
+					},
+					{
+						"key": 8, 
+						"value": 0.2
+					},
+					{
+						"key": 9, 
+						"value": 0.1
+					},
+					{
+						"key": 10, 
+						"value": 0.1
+					},
+					{
+						"key": 11, 
+						"value": 0.1
+					},
+					{
+						"key": 12, 
+						"value": 0.1
+					},
+					{
+						"key": 13, 
+						"value": 0.1
+					},
+					{
+						"key": 14, 
+						"value": 0.1
+					},
+					{
+						"key": 15, 
+						"value": 0.05
+					},
+					{
+						"key": 16, 
+						"value": 0.05
+					},
+					{
+						"key": 17, 
+						"value": 0.05
+					},
+					{
+						"key": 18, 
+						"value": 0.05
+					},
+					{
+						"key": 19, 
+						"value": 0.05
+					},
+					{
+						"key": 20, 
+						"value": 0.01
+					}
+				]
+			},
+			"seasonMultipliers": {
+				"keys":["spring", "summer", "autumn", "winter"],
+				"values": [1, 1, 1, 0.2]
+			}
+		},
+		{
+			"id": "raid",
+			"baseValue": "10",
+			"baseValues": [
+				{
+					"gameMode": "Builder",
+					"baseValue": ""
+				}, 
+				{
+					"gameMode": "Standard",
+					"baseValue": "10"
+				}, 
+				{
+					"gameMode": "Survival",
+					"baseValue": "30"
+				}
+			],
+			"resetCounters": ["raid"],
+			"events": ["game_event_raid_forest_bandits", "game_event_raid_progeny","game_event_raid_third_coming"],
+			"daysPastMultipliers": {
+				"list": [
+					{
+						"key": 0, 
+						"value": 0.0
+					},
+					{
+						"key": 1, 
+						"value": 0.0
+					},
+					{
+						"key": 2, 
+						"value": 0.0
+					},
+					{
+						"key": 3, 
+						"value": 0.0
+					},
+					{
+						"key": 4, 
+						"value": 0.0
+					},
+					{
+						"key": 5, 
+						"value": 0.1
+					},
+					{
+						"key": 6, 
+						"value": 0.2
+					},
+					{
+						"key": 7, 
+						"value": 0.5
+					},
+					{
+						"key": 8, 
+						"value": 0.8
+					},
+					{
+						"key": 9, 
+						"value": 1.1
+					},
+					{
+						"key": 10, 
+						"value": 1.5
+					},
+					{
+						"key": 11, 
+						"value": 0.7
+					},
+					{
+						"key": 12, 
+						"value": 0.8
+					},
+					{
+						"key": 13, 
+						"value": 1
+					},
+					{
+						"key": 14, 
+						"value": 1
+					},
+					{
+						"key": 15, 
+						"value": 1
+					},
+					{
+						"key": 16, 
+						"value": 2
+					},
+					{
+						"key": 17, 
+						"value": 2.6
+					},
+					{
+						"key": 18, 
+						"value": 3
+					},
+					{
+						"key": 19, 
+						"value": 4
+					},
+					{
+						"key": 20, 
+						"value": 5
+					}
+				]
+			}, 
+			"workerCountMultipliers": {
+				"list": [
+					{
+						"key": 0, 
+						"value": 0
+					},
+					{
+						"key": 1, 
+						"value": 0
+					},
+					{
+						"key": 2, 
+						"value": 0
+					},
+					{
+						"key": 3, 
+						"value": 0
+					},
+					{
+						"key": 4, 
+						"value": 0.5
+					},
+					{
+						"key": 5, 
+						"value": 0.7
+					},
+					{
+						"key": 6, 
+						"value": 0.8
+					},
+					{
+						"key": 7, 
+						"value": 1
+					},
+					{
+						"key": 8, 
+						"value": 1
+					},
+					{
+						"key": 9, 
+						"value": 1
+					},
+					{
+						"key": 10, 
+						"value": 1
+					},
+					{
+						"key": 11, 
+						"value": 1.2
+					},
+					{
+						"key": 12, 
+						"value": 1.2
+					},
+					{
+						"key": 13, 
+						"value": 1.2
+					},
+					{
+						"key": 14, 
+						"value": 1.2
+					},
+					{
+						"key": 15, 
+						"value": 1.2
+					},
+					{
+						"key": 16, 
+						"value": 1.2
+					},
+					{
+						"key": 17, 
+						"value": 1.3
+					},
+					{
+						"key": 18, 
+						"value": 1.3
+					},
+					{
+						"key": 19, 
+						"value": 1.4
+					},
+					{
+						"key": 20, 
+						"value": 1.5
+					}
+				]
+			},
+			"seasonMultipliers": {
+				"keys":["spring", "summer", "autumn", "winter"],
+				"values": [0.8, 1, 1.2, 0.1]
+			}
+		}
+	]
+}

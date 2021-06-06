@@ -1,0 +1,2083 @@
+{
+  "repository": [
+    {
+      "id": "ground",
+      "size": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "buildingType": 64,
+      "cornerReachable": false,
+      "placeableBellowOthers": false,
+      "transfersStability": true,
+      "attackTraversePenalty": 0
+    },
+    {
+      "id": "wood_wall_element",
+      "buildTime": 4.2,
+      "size": {
+        "x": 1,
+        "y": 3,
+        "z": 1
+      },
+      "buildingCategoryUI": 1,
+      "buildingSubCategoryUI": 1,
+      "soundMaterialCategory": 1,
+      "buildingType": 2,
+      "constructableBaseCategory": 1,
+      "placementType": 1,
+      "materials": {
+        "keys": [
+          "wood"
+        ],
+        "values": [
+          5
+        ]
+      },
+      "storageBase": {
+        "capacity": 999,
+        "storableResources": [
+          "wood"
+        ]
+      },
+      "reachableLevel": 7,
+      "cornerReachable": true,
+      "replacementFlag": 4,
+      "maxPoolCount": 100,
+      "refillThreshold": 50,
+      "placeableBellowOthers": false,
+      "transfersStability": true,
+      "layerShadowOffset": -2,
+      "layerHideOffset": -0.5,
+      "attackTraversePenalty": 0,
+      "stats": [
+        {
+          "debugName": "Hitpoints",
+          "type": 1,
+          "initialValue": 200,
+          "attributes": {
+            "max": [
+              {
+                "baseValue": 200
+              }
+            ]
+          }
+        }
+      ],
+      "wealthPoints": 7,
+      "canPlaceOnBeam": true,
+      "thermalModelID": "wood_wall",
+      "destroyParticles": "destroy_wood_wall"
+    },
+    {
+      "id": "clay_wall_element",
+      "buildTime": 3,
+      "size": {
+        "x": 1,
+        "y": 3,
+        "z": 1
+      },
+      "buildingCategoryUI": 1,
+      "buildingSubCategoryUI": 1,
+      "soundMaterialCategory": 3,
+      "buildingType": 2,
+      "constructableBaseCategory": 1,
+      "placementType": 1,
+      "materials": {
+        "keys": [
+          "clay"
+        ],
+        "values": [
+          5
+        ]
+      },
+      "storageBase": {
+        "capacity": 999,
+        "storableResources": [
+          "clay"
+        ]
+      },
+      "reachableLevel": 7,
+      "cornerReachable": true,
+      "replacementFlag": 4,
+      "maxPoolCount": 100,
+      "refillThreshold": 50,
+      "placeableBellowOthers": false,
+      "transfersStability": true,
+      "layerShadowOffset": -2,
+      "layerHideOffset": -0.5,
+      "attackTraversePenalty": 0,
+      "stats": [
+        {
+          "debugName": "Hitpoints",
+          "type": 1,
+          "initialValue": 150,
+          "attributes": {
+            "max": [
+              {
+                "baseValue": 150
+              }
+            ]
+          }
+        }
+      ],
+      "wealthPoints": 7,
+      "canPlaceOnBeam": true,
+      "thermalModelID": "clay_wall",
+      "destroyParticles": "destroy_clay_wall"
+    },
+    {
+      "id": "limestone_wall_element",
+      "buildTime": 9,
+      "size": {
+        "x": 1,
+        "y": 3,
+        "z": 1
+      },
+      "buildingCategoryUI": 1,
+      "buildingSubCategoryUI": 1,
+      "soundMaterialCategory": 2,
+      "buildingType": 2,
+      "constructableBaseCategory": 1,
+      "placementType": 1,
+      "materials": {
+        "keys": [
+          "limestone"
+        ],
+        "values": [
+          5
+        ]
+      },
+      "storageBase": {
+        "capacity": 999,
+        "storableResources": [
+          "limestone"
+        ]
+      },
+      "reachableLevel": 7,
+      "cornerReachable": true,
+      "replacementFlag": 4,
+      "maxPoolCount": 100,
+      "refillThreshold": 50,
+      "placeableBellowOthers": false,
+      "transfersStability": true,
+      "layerShadowOffset": -2,
+      "layerHideOffset": -0.5,
+      "attackTraversePenalty": 0,
+      "stats": [
+        {
+          "debugName": "Hitpoints",
+          "type": 1,
+          "initialValue": 300,
+          "attributes": {
+            "max": [
+              {
+                "baseValue": 300
+              }
+            ]
+          }
+        }
+      ],
+      "wealthPoints": 10,
+      "canPlaceOnBeam": true,
+      "thermalModelID": "limestone_wall",
+      "destroyParticles": "destroy_liimestone_wall"
+    },
+    {
+      "id": "limestone_block_wall_element",
+      "buildTime": 12,
+      "size": {
+        "x": 1,
+        "y": 3,
+        "z": 1
+      },
+      "buildingCategoryUI": 1,
+      "buildingSubCategoryUI": 1,
+      "soundMaterialCategory": 2,
+      "buildingType": 2,
+      "constructableBaseCategory": 1,
+      "placementType": 1,
+      "materials": {
+        "keys": [
+          "limestone_block"
+        ],
+        "values": [
+          5
+        ]
+      },
+      "storageBase": {
+        "capacity": 999,
+        "storableResources": [
+          "limestone_block"
+        ]
+      },
+      "reachableLevel": 7,
+      "cornerReachable": true,
+      "replacementFlag": 4,
+      "maxPoolCount": 100,
+      "refillThreshold": 50,
+      "placeableBellowOthers": false,
+      "transfersStability": true,
+      "layerShadowOffset": -2,
+      "layerHideOffset": -0.5,
+      "attackTraversePenalty": 0,
+      "stats": [
+        {
+          "debugName": "Hitpoints",
+          "type": 1,
+          "initialValue": 800,
+          "attributes": {
+            "max": [
+              {
+                "baseValue": 800
+              }
+            ]
+          }
+        }
+      ],
+      "wealthPoints": 16,
+      "canPlaceOnBeam": true,
+      "thermalModelID": "limestone_block_wall",
+      "destroyParticles": "destroy_limestone_block_wall"
+    },
+    {
+      "id": "clay_brick_wall_element",
+      "buildTime": 12,
+      "size": {
+        "x": 1,
+        "y": 3,
+        "z": 1
+      },
+      "buildingCategoryUI": 1,
+      "buildingSubCategoryUI": 1,
+      "soundMaterialCategory": 2,
+      "buildingType": 2,
+      "constructableBaseCategory": 1,
+      "placementType": 1,
+      "materials": {
+        "keys": [
+          "clay_brick"
+        ],
+        "values": [
+          5
+        ]
+      },
+      "storageBase": {
+        "capacity": 999,
+        "storableResources": [
+          "clay_brick"
+        ]
+      },
+      "reachableLevel": 7,
+      "cornerReachable": true,
+      "replacementFlag": 4,
+      "maxPoolCount": 100,
+      "refillThreshold": 50,
+      "placeableBellowOthers": false,
+      "transfersStability": true,
+      "layerShadowOffset": -2,
+      "layerHideOffset": -0.5,
+      "attackTraversePenalty": 0,
+      "stats": [
+        {
+          "debugName": "Hitpoints",
+          "type": 1,
+          "initialValue": 800,
+          "attributes": {
+            "max": [
+              {
+                "baseValue": 800
+              }
+            ]
+          }
+        }
+      ],
+      "wealthPoints": 16,
+      "canPlaceOnBeam": true,
+      "thermalModelID": "clay_brick_wall",
+      "destroyParticles": "destroy_clay_brick_wall"
+    },
+    {
+      "id": "wood_floor",
+      "buildTime": 1.7,
+      "size": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "buildingCategoryUI": 1,
+      "buildingSubCategoryUI": 2,
+      "soundMaterialCategory": 1,
+      "buildingType": 4,
+      "constructableBaseCategory": 1,
+      "placementType": 2,
+      "materials": {
+        "keys": [
+          "wood"
+        ],
+        "values": [
+          2
+        ]
+      },
+      "storageBase": {
+        "capacity": 999,
+        "storableResources": [
+          "wood"
+        ]
+      },
+      "reachableLevel": 3,
+      "cornerReachable": false,
+      "maxPoolCount": 500,
+      "refillThreshold": 100,
+      "placeableBellowOthers": true,
+      "transfersStability": false,
+      "layerShadowOffset": -2,
+      "layerHideOffset": -1,
+      "pathfindingPenalty": 1000,
+      "attackTraversePenalty": 0,
+      "stats": [
+        {
+          "debugName": "Hitpoints",
+          "type": 1,
+          "initialValue": 50,
+          "attributes": {
+            "max": [
+              {
+                "baseValue": 50
+              }
+            ]
+          }
+        }
+      ],
+      "wealthPoints": 1,
+      "canPlaceOnBeam": true,
+      "thermalModelID": "wood_floor",
+      "destroyParticles": "destroy_wood_floor"
+    },
+    {
+      "id": "wicker_floor",
+      "buildTime": 1.2,
+      "size": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "buildingCategoryUI": 1,
+      "buildingSubCategoryUI": 2,
+      "soundMaterialCategory": 1,
+      "buildingType": 4,
+      "constructableBaseCategory": 1,
+      "placementType": 2,
+      "materials": {
+        "keys": [
+          "sticks"
+        ],
+        "values": [
+          2
+        ]
+      },
+      "storageBase": {
+        "capacity": 999,
+        "storableResources": [
+          "sticks"
+        ]
+      },
+      "reachableLevel": 3,
+      "cornerReachable": false,
+      "maxPoolCount": 500,
+      "refillThreshold": 100,
+      "placeableBellowOthers": true,
+      "transfersStability": false,
+      "layerShadowOffset": -2,
+      "layerHideOffset": -1,
+      "pathfindingPenalty": 1200,
+      "attackTraversePenalty": 0,
+      "stats": [
+        {
+          "debugName": "Hitpoints",
+          "type": 1,
+          "initialValue": 20,
+          "attributes": {
+            "max": [
+              {
+                "baseValue": 20
+              }
+            ]
+          }
+        }
+      ],
+      "wealthPoints": 1,
+      "canPlaceOnBeam": true,
+      "thermalModelID": "wood_floor",
+      "destroyParticles": "destroy_wicker_floor"
+    },
+    {
+      "id": "limestone_floor",
+      "buildTime": 1.8,
+      "size": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "buildingCategoryUI": 1,
+      "buildingSubCategoryUI": 2,
+      "soundMaterialCategory": 2,
+      "buildingType": 4,
+      "constructableBaseCategory": 1,
+      "placementType": 2,
+      "materials": {
+        "keys": [
+          "limestone"
+        ],
+        "values": [
+          2
+        ]
+      },
+      "storageBase": {
+        "capacity": 999,
+        "storableResources": [
+          "limestone"
+        ]
+      },
+      "reachableLevel": 3,
+      "cornerReachable": false,
+      "maxPoolCount": 500,
+      "refillThreshold": 100,
+      "placeableBellowOthers": true,
+      "transfersStability": false,
+      "layerShadowOffset": -2,
+      "layerHideOffset": -1,
+      "pathfindingPenalty": 1200,
+      "attackTraversePenalty": 0,
+      "stats": [
+        {
+          "debugName": "Hitpoints",
+          "type": 1,
+          "initialValue": 75,
+          "attributes": {
+            "max": [
+              {
+                "baseValue": 75
+              }
+            ]
+          }
+        }
+      ],
+      "wealthPoints": 1,
+      "canPlaceOnBeam": true,
+      "thermalModelID": "wood_floor",
+      "destroyParticles": "destroy_liimestone_wall"
+    },
+    {
+      "id": "limestone_block_floor",
+      "buildTime": 2,
+      "size": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "buildingCategoryUI": 1,
+      "buildingSubCategoryUI": 2,
+      "soundMaterialCategory": 2,
+      "buildingType": 4,
+      "constructableBaseCategory": 1,
+      "placementType": 2,
+      "materials": {
+        "keys": [
+          "limestone_block"
+        ],
+        "values": [
+          2
+        ]
+      },
+      "storageBase": {
+        "capacity": 999,
+        "storableResources": [
+          "limestone_block"
+        ]
+      },
+      "reachableLevel": 3,
+      "cornerReachable": false,
+      "maxPoolCount": 500,
+      "refillThreshold": 100,
+      "placeableBellowOthers": true,
+      "transfersStability": false,
+      "layerShadowOffset": -2,
+      "layerHideOffset": -1,
+      "pathfindingPenalty": 800,
+      "attackTraversePenalty": 0,
+      "stats": [
+        {
+          "debugName": "Hitpoints",
+          "type": 1,
+          "initialValue": 200,
+          "attributes": {
+            "max": [
+              {
+                "baseValue": 200
+              }
+            ]
+          }
+        }
+      ],
+      "wealthPoints": 3,
+      "canPlaceOnBeam": true,
+      "thermalModelID": "wood_floor",
+      "destroyParticles": "destroy_limestone_block_wall"
+    },
+    {
+      "id": "clay_brick_floor",
+      "buildTime": 2,
+      "size": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "buildingCategoryUI": 1,
+      "buildingSubCategoryUI": 2,
+      "soundMaterialCategory": 2,
+      "buildingType": 4,
+      "constructableBaseCategory": 1,
+      "placementType": 2,
+      "materials": {
+        "keys": [
+          "clay_brick"
+        ],
+        "values": [
+          2
+        ]
+      },
+      "storageBase": {
+        "capacity": 999,
+        "storableResources": [
+          "clay_brick"
+        ]
+      },
+      "reachableLevel": 3,
+      "cornerReachable": false,
+      "maxPoolCount": 500,
+      "refillThreshold": 100,
+      "placeableBellowOthers": true,
+      "transfersStability": false,
+      "layerShadowOffset": -2,
+      "layerHideOffset": -1,
+      "pathfindingPenalty": 800,
+      "attackTraversePenalty": 0,
+      "stats": [
+        {
+          "debugName": "Hitpoints",
+          "type": 1,
+          "initialValue": 200,
+          "attributes": {
+            "max": [
+              {
+                "baseValue": 200
+              }
+            ]
+          }
+        }
+      ],
+      "wealthPoints": 3,
+      "canPlaceOnBeam": true,
+      "thermalModelID": "wood_floor",
+      "destroyParticles": "destroy_clay_brick_wall"
+    },
+    {
+      "id": "wood_beam",
+      "buildTime": 12.6,
+      "size": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "buildingCategoryUI": 1,
+      "buildingSubCategoryUI": 3,
+      "soundMaterialCategory": 1,
+      "buildingType": 16,
+      "constructableBaseCategory": 6,
+      "placementType": 3,
+      "materials": {
+        "keys": [
+          "wood"
+        ],
+        "values": [
+          15
+        ]
+      },
+      "storageBase": {
+        "capacity": 999,
+        "storableResources": [
+          "wood"
+        ]
+      },
+      "reachableLevel": 7,
+      "cornerReachable": true,
+      "replacementFlag": 1,
+      "maxPoolCount": 20,
+      "refillThreshold": 10,
+      "placeableBellowOthers": false,
+      "transfersStability": true,
+      "layerShadowOffset": -2,
+      "layerHideOffset": -0.5,
+      "pathfindingPenaltyConstruction": 0,
+      "attackTraversePenalty": 0,
+      "stats": [
+        {
+          "debugName": "Hitpoints",
+          "type": 1,
+          "initialValue": 200,
+          "attributes": {
+            "max": [
+              {
+                "baseValue": 200
+              }
+            ]
+          }
+        }
+      ],
+      "wealthPoints": 21,
+      "ignorePileRelocation": true,
+      "destroyParticles": "destroy_wood_floor"
+    },
+    {
+      "id": "wood_door",
+      "buildTime": 21,
+      "size": {
+        "x": 1,
+        "y": 3,
+        "z": 1
+      },
+      "buildingCategoryUI": 1,
+      "buildingSubCategoryUI": 4,
+      "soundMaterialCategory": 1,
+      "buildingType": 1024,
+      "constructableBaseCategory": 1,
+      "placementType": 0,
+      "materials": {
+        "keys": [
+          "wood"
+        ],
+        "values": [
+          15
+        ]
+      },
+      "storageBase": {
+        "capacity": 999,
+        "storableResources": [
+          "wood"
+        ]
+      },
+      "reachableLevel": 7,
+      "cornerReachable": false,
+      "replacementFlag": 6,
+      "maxPoolCount": 20,
+      "refillThreshold": 10,
+      "placeableBellowOthers": false,
+      "transfersStability": true,
+      "layerShadowOffset": -2,
+      "layerHideOffset": -0.5,
+      "forbidUnderBeamPlacement": true,
+      "pathfindingPenalty": 12000,
+      "attackTraversePenalty": 0,
+      "cover": 0.1,
+      "coverClosed": 1,
+      "coverIgnore": 0.9,
+      "stats": [
+        {
+          "debugName": "Hitpoints",
+          "type": 1,
+          "initialValue": 120,
+          "attributes": {
+            "max": [
+              {
+                "baseValue": 120
+              }
+            ]
+          }
+        }
+      ],
+      "wealthPoints": 26,
+      "astarTag": 2,
+      "canPlaceOnBeam": true,
+      "thermalModelID": "wood_door_closed",
+      "thermalModelIDSecondary": "wood_door_open",
+      "destroyParticles": "destroy_wood_floor",
+      "lockStateTextKeys": [
+        "lock_state_locked",
+        "lock_state_unlocked",
+        "lock_state_always_open"
+      ],
+      "lockStateInfoTextKeys": [
+        "locked_door_info",
+        "unlocked_door_info",
+        "always_open_door_info"
+      ]
+    },
+    {
+      "id": "reinforced_door",
+      "buildTime": 50,
+      "size": {
+        "x": 1,
+        "y": 3,
+        "z": 1
+      },
+      "buildingCategoryUI": 1,
+      "buildingSubCategoryUI": 4,
+      "soundMaterialCategory": 1,
+      "buildingType": 1024,
+      "constructableBaseCategory": 1,
+      "placementType": 0,
+      "materials": {
+        "keys": [
+          "wood",
+          "iron_ingot"
+        ],
+        "values": [
+          15,
+          10
+        ]
+      },
+      "storageBase": {
+        "capacity": 999,
+        "storableResources": [
+          "wood",
+          "iron_ingot"
+        ]
+      },
+      "reachableLevel": 7,
+      "cornerReachable": false,
+      "replacementFlag": 6,
+      "maxPoolCount": 20,
+      "refillThreshold": 10,
+      "placeableBellowOthers": false,
+      "transfersStability": true,
+      "layerShadowOffset": -2,
+      "layerHideOffset": -0.5,
+      "forbidUnderBeamPlacement": true,
+      "pathfindingPenalty": 18000,
+      "attackTraversePenalty": 0,
+      "cover": 0.1,
+      "coverClosed": 1,
+      "coverIgnore": 0.9,
+      "stats": [
+        {
+          "debugName": "Hitpoints",
+          "type": 1,
+          "initialValue": 500,
+          "attributes": {
+            "max": [
+              {
+                "baseValue": 500
+              }
+            ]
+          }
+        }
+      ],
+      "wealthPoints": 70,
+      "astarTag": 2,
+      "canPlaceOnBeam": true,
+      "thermalModelID": "wood_door_closed",
+      "thermalModelIDSecondary": "wood_door_open",
+      "destroyParticles": "destroy_reinforced_wood_door",
+      "lockStateTextKeys": [
+        "lock_state_locked",
+        "lock_state_unlocked",
+        "lock_state_always_open"
+      ],
+      "lockStateInfoTextKeys": [
+        "locked_door_info",
+        "unlocked_door_info",
+        "always_open_door_info"
+      ]
+    },
+    {
+      "id": "grated_door",
+      "buildTime": 60,
+      "size": {
+        "x": 1,
+        "y": 3,
+        "z": 1
+      },
+      "buildingCategoryUI": 1,
+      "buildingSubCategoryUI": 4,
+      "soundMaterialCategory": 4,
+      "buildingType": 1024,
+      "constructableBaseCategory": 1,
+      "placementType": 0,
+      "materials": {
+        "keys": [
+          "wood",
+          "iron_ingot"
+        ],
+        "values": [
+          15,
+          25
+        ]
+      },
+      "storageBase": {
+        "capacity": 999,
+        "storableResources": [
+          "wood",
+          "iron_ingot"
+        ]
+      },
+      "reachableLevel": 7,
+      "cornerReachable": false,
+      "replacementFlag": 6,
+      "maxPoolCount": 20,
+      "refillThreshold": 10,
+      "placeableBellowOthers": false,
+      "transfersStability": true,
+      "layerShadowOffset": -2,
+      "layerHideOffset": -0.5,
+      "forbidUnderBeamPlacement": true,
+      "pathfindingPenalty": 12000,
+      "attackTraversePenalty": 0,
+      "cover": 0.1,
+      "coverClosed": 0.25,
+      "coverIgnore": 0.9,
+      "stats": [
+        {
+          "debugName": "Hitpoints",
+          "type": 1,
+          "initialValue": 300,
+          "attributes": {
+            "max": [
+              {
+                "baseValue": 300
+              }
+            ]
+          }
+        }
+      ],
+      "wealthPoints": 120,
+      "astarTag": 2,
+      "canPlaceOnBeam": true,
+      "thermalModelID": "wood_door_closed",
+      "thermalModelIDSecondary": "wood_door_open",
+      "destroyParticles": "destroy_grated_door",
+      "lockStateTextKeys": [
+        "lock_state_locked",
+        "lock_state_unlocked",
+        "lock_state_always_open"
+      ],
+      "lockStateInfoTextKeys": [
+        "locked_door_info",
+        "unlocked_door_info",
+        "always_open_door_info"
+      ]
+    },
+    {
+      "id": "wood_window",
+      "buildTime": 21,
+      "size": {
+        "x": 1,
+        "y": 3,
+        "z": 1
+      },
+      "buildingCategoryUI": 1,
+      "buildingSubCategoryUI": 5,
+      "soundMaterialCategory": 1,
+      "buildingType": 512,
+      "constructableBaseCategory": 1,
+      "placementType": 0,
+      "materials": {
+        "keys": [
+          "wood"
+        ],
+        "values": [
+          12
+        ]
+      },
+      "storageBase": {
+        "capacity": 999,
+        "storableResources": [
+          "wood"
+        ]
+      },
+      "reachableLevel": 7,
+      "cornerReachable": false,
+      "replacementFlag": 6,
+      "maxPoolCount": 20,
+      "refillThreshold": 10,
+      "placeableBellowOthers": false,
+      "transfersStability": true,
+      "layerShadowOffset": -2,
+      "layerHideOffset": -0.5,
+      "forbidUnderBeamPlacement": true,
+      "attackTraversePenalty": 0,
+      "cover": 0.4,
+      "coverClosed": 1,
+      "stats": [
+        {
+          "debugName": "Hitpoints",
+          "type": 1,
+          "initialValue": 200,
+          "attributes": {
+            "max": [
+              {
+                "baseValue": 200
+              }
+            ]
+          }
+        }
+      ],
+      "wealthPoints": 23,
+      "canPlaceOnBeam": true,
+      "thermalModelID": "wood_window",
+      "thermalModelIDSecondary": "window_open",
+      "destroyParticles": "destroy_wood_floor",
+      "lockable": true,
+      "lockStateTextKeys": [
+        "window_state_closed",
+        "window_state_open"
+      ],
+      "lockStateInfoTextKeys": [
+        "closed_window_info",
+        "open_window_info"
+      ]
+    },
+    {
+      "id": "clay_window",
+      "buildTime": 15,
+      "size": {
+        "x": 1,
+        "y": 3,
+        "z": 1
+      },
+      "buildingCategoryUI": 1,
+      "buildingSubCategoryUI": 5,
+      "soundMaterialCategory": 3,
+      "buildingType": 512,
+      "constructableBaseCategory": 1,
+      "placementType": 0,
+      "materials": {
+        "keys": [
+          "clay"
+        ],
+        "values": [
+          12
+        ]
+      },
+      "storageBase": {
+        "capacity": 999,
+        "storableResources": [
+          "clay"
+        ]
+      },
+      "reachableLevel": 7,
+      "cornerReachable": false,
+      "replacementFlag": 6,
+      "maxPoolCount": 20,
+      "refillThreshold": 10,
+      "placeableBellowOthers": false,
+      "transfersStability": true,
+      "layerShadowOffset": -2,
+      "layerHideOffset": -0.5,
+      "forbidUnderBeamPlacement": true,
+      "attackTraversePenalty": 0,
+      "cover": 0.4,
+      "coverClosed": 1,
+      "stats": [
+        {
+          "debugName": "Hitpoints",
+          "type": 1,
+          "initialValue": 150,
+          "attributes": {
+            "max": [
+              {
+                "baseValue": 150
+              }
+            ]
+          }
+        }
+      ],
+      "wealthPoints": 20,
+      "canPlaceOnBeam": true,
+      "thermalModelID": "wood_window",
+      "thermalModelIDSecondary": "window_open",
+      "destroyParticles": "destroy_clay_wall",
+      "lockable": true,
+      "lockStateTextKeys": [
+        "window_state_closed",
+        "window_state_open"
+      ],
+      "lockStateInfoTextKeys": [
+        "closed_window_info",
+        "open_window_info"
+      ]
+    },
+    {
+      "id": "limestone_block_window",
+      "buildTime": 60,
+      "size": {
+        "x": 1,
+        "y": 3,
+        "z": 1
+      },
+      "buildingCategoryUI": 1,
+      "buildingSubCategoryUI": 5,
+      "soundMaterialCategory": 2,
+      "buildingType": 512,
+      "constructableBaseCategory": 1,
+      "placementType": 0,
+      "materials": {
+        "keys": [
+          "limestone_block"
+        ],
+        "values": [
+          12
+        ]
+      },
+      "storageBase": {
+        "capacity": 999,
+        "storableResources": [
+          "limestone_block"
+        ]
+      },
+      "reachableLevel": 7,
+      "cornerReachable": false,
+      "replacementFlag": 6,
+      "maxPoolCount": 20,
+      "refillThreshold": 10,
+      "placeableBellowOthers": false,
+      "transfersStability": true,
+      "layerShadowOffset": -2,
+      "layerHideOffset": -0.5,
+      "forbidUnderBeamPlacement": true,
+      "attackTraversePenalty": 0,
+      "cover": 0.4,
+      "coverClosed": 1,
+      "stats": [
+        {
+          "debugName": "Hitpoints",
+          "type": 1,
+          "initialValue": 800,
+          "attributes": {
+            "max": [
+              {
+                "baseValue": 800
+              }
+            ]
+          }
+        }
+      ],
+      "wealthPoints": 54,
+      "canPlaceOnBeam": true,
+      "thermalModelID": "wood_window",
+      "thermalModelIDSecondary": "window_open",
+      "destroyParticles": "destroy_limestone_block_wall",
+      "lockable": true,
+      "lockStateTextKeys": [
+        "window_state_closed",
+        "window_state_open"
+      ],
+      "lockStateInfoTextKeys": [
+        "closed_window_info",
+        "open_window_info"
+      ]
+    },
+    {
+      "id": "limestone_window",
+      "buildTime": 45,
+      "size": {
+        "x": 1,
+        "y": 3,
+        "z": 1
+      },
+      "buildingCategoryUI": 1,
+      "buildingSubCategoryUI": 5,
+      "soundMaterialCategory": 2,
+      "buildingType": 512,
+      "constructableBaseCategory": 1,
+      "placementType": 0,
+      "materials": {
+        "keys": [
+          "limestone"
+        ],
+        "values": [
+          12
+        ]
+      },
+      "storageBase": {
+        "capacity": 999,
+        "storableResources": [
+          "limestone"
+        ]
+      },
+      "reachableLevel": 7,
+      "cornerReachable": false,
+      "replacementFlag": 6,
+      "maxPoolCount": 20,
+      "refillThreshold": 10,
+      "placeableBellowOthers": false,
+      "transfersStability": true,
+      "layerShadowOffset": -2,
+      "layerHideOffset": -0.5,
+      "forbidUnderBeamPlacement": true,
+      "attackTraversePenalty": 0,
+      "cover": 0.4,
+      "coverClosed": 1,
+      "stats": [
+        {
+          "debugName": "Hitpoints",
+          "type": 1,
+          "initialValue": 300,
+          "attributes": {
+            "max": [
+              {
+                "baseValue": 300
+              }
+            ]
+          }
+        }
+      ],
+      "wealthPoints": 35,
+      "canPlaceOnBeam": true,
+      "thermalModelID": "wood_window",
+      "thermalModelIDSecondary": "window_open",
+      "destroyParticles": "destroy_liimestone_wall",
+      "lockable": true,
+      "lockStateTextKeys": [
+        "window_state_closed",
+        "window_state_open"
+      ],
+      "lockStateInfoTextKeys": [
+        "closed_window_info",
+        "open_window_info"
+      ]
+    },
+    {
+      "id": "clay_brick_window",
+      "buildTime": 60,
+      "size": {
+        "x": 1,
+        "y": 3,
+        "z": 1
+      },
+      "buildingCategoryUI": 1,
+      "buildingSubCategoryUI": 5,
+      "soundMaterialCategory": 2,
+      "buildingType": 512,
+      "constructableBaseCategory": 1,
+      "placementType": 0,
+      "materials": {
+        "keys": [
+          "clay_brick"
+        ],
+        "values": [
+          12
+        ]
+      },
+      "storageBase": {
+        "capacity": 999,
+        "storableResources": [
+          "clay_brick"
+        ]
+      },
+      "reachableLevel": 7,
+      "cornerReachable": false,
+      "replacementFlag": 6,
+      "maxPoolCount": 20,
+      "refillThreshold": 10,
+      "placeableBellowOthers": false,
+      "transfersStability": true,
+      "layerShadowOffset": -2,
+      "layerHideOffset": -0.5,
+      "forbidUnderBeamPlacement": true,
+      "attackTraversePenalty": 0,
+      "cover": 0.4,
+      "coverClosed": 1,
+      "stats": [
+        {
+          "debugName": "Hitpoints",
+          "type": 1,
+          "initialValue": 800,
+          "attributes": {
+            "max": [
+              {
+                "baseValue": 800
+              }
+            ]
+          }
+        }
+      ],
+      "wealthPoints": 54,
+      "canPlaceOnBeam": true,
+      "thermalModelID": "wood_window",
+      "thermalModelIDSecondary": "window_open",
+      "destroyParticles": "destroy_clay_brick_wall",
+      "lockable": true,
+      "lockStateTextKeys": [
+        "window_state_closed",
+        "window_state_open"
+      ],
+      "lockStateInfoTextKeys": [
+        "closed_window_info",
+        "open_window_info"
+      ]
+    },
+    {
+      "id": "wood_stair_straight",
+      "buildTime": 33.6,
+      "size": {
+        "x": 3,
+        "y": 3,
+        "z": 1
+      },
+      "buildingCategoryUI": 1,
+      "buildingSubCategoryUI": 6,
+      "soundMaterialCategory": 1,
+      "buildingType": 128,
+      "constructableBaseCategory": 5,
+      "placementType": 0,
+      "materials": {
+        "keys": [
+          "wood"
+        ],
+        "values": [
+          45
+        ]
+      },
+      "storageBase": {
+        "capacity": 999,
+        "storableResources": [
+          "wood"
+        ]
+      },
+      "reachableLevel": 7,
+      "cornerReachable": false,
+      "maxPoolCount": 20,
+      "refillThreshold": 10,
+      "placeableBellowOthers": false,
+      "transfersStability": false,
+      "layerShadowOffset": -2,
+      "layerHideOffset": -0.5,
+      "forbidUnderBeamPlacement": true,
+      "attackTraversePenalty": 0,
+      "cover": 0.3,
+      "stats": [
+        {
+          "debugName": "Hitpoints",
+          "type": 1,
+          "initialValue": 400,
+          "attributes": {
+            "max": [
+              {
+                "baseValue": 400
+              }
+            ]
+          }
+        }
+      ],
+      "wealthPoints": 62,
+      "ignorePileRelocation": true,
+      "destroyParticles": "destroy_wood_floor"
+    },
+    {
+      "id": "limestone_block_stair",
+      "buildTime": 96,
+      "size": {
+        "x": 3,
+        "y": 3,
+        "z": 1
+      },
+      "buildingCategoryUI": 1,
+      "buildingSubCategoryUI": 6,
+      "soundMaterialCategory": 2,
+      "buildingType": 128,
+      "constructableBaseCategory": 5,
+      "placementType": 0,
+      "materials": {
+        "keys": [
+          "limestone_block"
+        ],
+        "values": [
+          45
+        ]
+      },
+      "storageBase": {
+        "capacity": 999,
+        "storableResources": [
+          "limestone_block"
+        ]
+      },
+      "reachableLevel": 7,
+      "cornerReachable": false,
+      "maxPoolCount": 20,
+      "refillThreshold": 10,
+      "placeableBellowOthers": false,
+      "transfersStability": false,
+      "layerShadowOffset": -2,
+      "layerHideOffset": -0.5,
+      "forbidUnderBeamPlacement": true,
+      "attackTraversePenalty": 0,
+      "stats": [
+        {
+          "debugName": "Hitpoints",
+          "type": 1,
+          "initialValue": 1000,
+          "attributes": {
+            "max": [
+              {
+                "baseValue": 1000
+              }
+            ]
+          }
+        }
+      ],
+      "wealthPoints": 138,
+      "isStairWall": true,
+      "destroyParticles": "destroy_limestone_block_wall"
+    },
+    {
+      "id": "clay_brick_stair",
+      "buildTime": 96,
+      "size": {
+        "x": 3,
+        "y": 3,
+        "z": 1
+      },
+      "buildingCategoryUI": 1,
+      "buildingSubCategoryUI": 6,
+      "soundMaterialCategory": 3,
+      "buildingType": 128,
+      "constructableBaseCategory": 5,
+      "placementType": 0,
+      "materials": {
+        "keys": [
+          "clay_brick"
+        ],
+        "values": [
+          45
+        ]
+      },
+      "storageBase": {
+        "capacity": 999,
+        "storableResources": [
+          "clay_brick"
+        ]
+      },
+      "reachableLevel": 7,
+      "cornerReachable": false,
+      "maxPoolCount": 20,
+      "refillThreshold": 10,
+      "placeableBellowOthers": false,
+      "transfersStability": false,
+      "layerShadowOffset": -2,
+      "layerHideOffset": -0.5,
+      "forbidUnderBeamPlacement": true,
+      "attackTraversePenalty": 0,
+      "stats": [
+        {
+          "debugName": "Hitpoints",
+          "type": 1,
+          "initialValue": 1000,
+          "attributes": {
+            "max": [
+              {
+                "baseValue": 1000
+              }
+            ]
+          }
+        }
+      ],
+      "wealthPoints": 138,
+      "isStairWall": true,
+      "destroyParticles": "destroy_clay_brick_wall"
+    },
+    {
+      "id": "limestone_stair",
+      "buildTime": 72,
+      "size": {
+        "x": 3,
+        "y": 3,
+        "z": 1
+      },
+      "buildingCategoryUI": 1,
+      "buildingSubCategoryUI": 6,
+      "soundMaterialCategory": 2,
+      "buildingType": 128,
+      "constructableBaseCategory": 5,
+      "placementType": 0,
+      "materials": {
+        "keys": [
+          "limestone"
+        ],
+        "values": [
+          45
+        ]
+      },
+      "storageBase": {
+        "capacity": 999,
+        "storableResources": [
+          "limestone"
+        ]
+      },
+      "reachableLevel": 7,
+      "cornerReachable": false,
+      "maxPoolCount": 20,
+      "refillThreshold": 10,
+      "placeableBellowOthers": false,
+      "transfersStability": false,
+      "layerShadowOffset": -2,
+      "layerHideOffset": -0.5,
+      "forbidUnderBeamPlacement": true,
+      "attackTraversePenalty": 0,
+      "stats": [
+        {
+          "debugName": "Hitpoints",
+          "type": 1,
+          "initialValue": 550,
+          "attributes": {
+            "max": [
+              {
+                "baseValue": 550
+              }
+            ]
+          }
+        }
+      ],
+      "wealthPoints": 81,
+      "isStairWall": true,
+      "destroyParticles": "destroy_liimestone_wall"
+    },
+    {
+      "id": "clay_stair",
+      "buildTime": 24,
+      "size": {
+        "x": 3,
+        "y": 3,
+        "z": 1
+      },
+      "buildingCategoryUI": 1,
+      "buildingSubCategoryUI": 6,
+      "soundMaterialCategory": 3,
+      "buildingType": 128,
+      "constructableBaseCategory": 5,
+      "placementType": 0,
+      "materials": {
+        "keys": [
+          "clay"
+        ],
+        "values": [
+          45
+        ]
+      },
+      "storageBase": {
+        "capacity": 999,
+        "storableResources": [
+          "clay"
+        ]
+      },
+      "reachableLevel": 7,
+      "cornerReachable": false,
+      "maxPoolCount": 20,
+      "refillThreshold": 10,
+      "placeableBellowOthers": false,
+      "transfersStability": false,
+      "layerShadowOffset": -2,
+      "layerHideOffset": -0.5,
+      "forbidUnderBeamPlacement": true,
+      "attackTraversePenalty": 0,
+      "stats": [
+        {
+          "debugName": "Hitpoints",
+          "type": 1,
+          "initialValue": 250,
+          "attributes": {
+            "max": [
+              {
+                "baseValue": 250
+              }
+            ]
+          }
+        }
+      ],
+      "wealthPoints": 57,
+      "isStairWall": true,
+      "destroyParticles": "destroy_clay_wall"
+    },
+    {
+      "id": "wood_merlon",
+      "buildTime": 4.2,
+      "size": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "buildingCategoryUI": 6,
+      "buildingSubCategoryUI": 8,
+      "soundMaterialCategory": 1,
+      "buildingType": 65536,
+      "constructableBaseCategory": 1,
+      "placementType": 1,
+      "materials": {
+        "keys": [
+          "wood"
+        ],
+        "values": [
+          10
+        ]
+      },
+      "storageBase": {
+        "capacity": 999,
+        "storableResources": [
+          "wood"
+        ]
+      },
+      "reachableLevel": 7,
+      "cornerReachable": true,
+      "replacementFlag": 4,
+      "maxPoolCount": 100,
+      "refillThreshold": 50,
+      "placeableBellowOthers": false,
+      "transfersStability": false,
+      "layerShadowOffset": -2,
+      "layerHideOffset": -0.5,
+      "pathfindingPenalty": 16000,
+      "attackTraversePenalty": 0,
+      "cover": 0.55,
+      "stats": [
+        {
+          "debugName": "Hitpoints",
+          "type": 1,
+          "initialValue": 150,
+          "attributes": {
+            "max": [
+              {
+                "baseValue": 150
+              }
+            ]
+          }
+        }
+      ],
+      "wealthPoints": 12,
+      "canPlaceOnBeam": true,
+      "destroyParticles": "destroy_wood_wall"
+    },
+    {
+      "id": "wood_merlon_corner",
+      "buildTime": 4.2,
+      "size": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "buildingCategoryUI": 6,
+      "buildingSubCategoryUI": 8,
+      "soundMaterialCategory": 1,
+      "buildingType": 65536,
+      "constructableBaseCategory": 1,
+      "placementType": 1,
+      "materials": {
+        "keys": [
+          "wood"
+        ],
+        "values": [
+          10
+        ]
+      },
+      "storageBase": {
+        "capacity": 999,
+        "storableResources": [
+          "wood"
+        ]
+      },
+      "reachableLevel": 7,
+      "cornerReachable": true,
+      "replacementFlag": 4,
+      "maxPoolCount": 100,
+      "refillThreshold": 50,
+      "placeableBellowOthers": false,
+      "transfersStability": false,
+      "layerShadowOffset": -2,
+      "layerHideOffset": -0.5,
+      "pathfindingPenalty": 16000,
+      "attackTraversePenalty": 0,
+      "cover": 0.55,
+      "stats": [
+        {
+          "debugName": "Hitpoints",
+          "type": 1,
+          "initialValue": 150,
+          "attributes": {
+            "max": [
+              {
+                "baseValue": 150
+              }
+            ]
+          }
+        }
+      ],
+      "wealthPoints": 12,
+      "canPlaceOnBeam": true,
+      "destroyParticles": "destroy_wood_wall"
+    },
+    {
+      "id": "clay_merlon",
+      "buildTime": 3,
+      "size": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "buildingCategoryUI": 6,
+      "buildingSubCategoryUI": 8,
+      "soundMaterialCategory": 3,
+      "buildingType": 65536,
+      "constructableBaseCategory": 1,
+      "placementType": 1,
+      "materials": {
+        "keys": [
+          "clay"
+        ],
+        "values": [
+          10
+        ]
+      },
+      "storageBase": {
+        "capacity": 999,
+        "storableResources": [
+          "clay"
+        ]
+      },
+      "reachableLevel": 7,
+      "cornerReachable": true,
+      "replacementFlag": 4,
+      "maxPoolCount": 100,
+      "refillThreshold": 50,
+      "placeableBellowOthers": false,
+      "transfersStability": false,
+      "layerShadowOffset": -2,
+      "layerHideOffset": -0.5,
+      "pathfindingPenalty": 16000,
+      "attackTraversePenalty": 0,
+      "cover": 0.55,
+      "stats": [
+        {
+          "debugName": "Hitpoints",
+          "type": 1,
+          "initialValue": 100,
+          "attributes": {
+            "max": [
+              {
+                "baseValue": 100
+              }
+            ]
+          }
+        }
+      ],
+      "wealthPoints": 12,
+      "canPlaceOnBeam": true,
+      "destroyParticles": "destroy_clay_wall"
+    },
+    {
+      "id": "clay_merlon_corner",
+      "buildTime": 3,
+      "size": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "buildingCategoryUI": 6,
+      "buildingSubCategoryUI": 8,
+      "soundMaterialCategory": 3,
+      "buildingType": 65536,
+      "constructableBaseCategory": 1,
+      "placementType": 1,
+      "materials": {
+        "keys": [
+          "clay"
+        ],
+        "values": [
+          10
+        ]
+      },
+      "storageBase": {
+        "capacity": 999,
+        "storableResources": [
+          "clay"
+        ]
+      },
+      "reachableLevel": 7,
+      "cornerReachable": true,
+      "replacementFlag": 4,
+      "maxPoolCount": 100,
+      "refillThreshold": 50,
+      "placeableBellowOthers": false,
+      "transfersStability": false,
+      "layerShadowOffset": -2,
+      "layerHideOffset": -0.5,
+      "pathfindingPenalty": 16000,
+      "attackTraversePenalty": 0,
+      "cover": 0.55,
+      "stats": [
+        {
+          "debugName": "Hitpoints",
+          "type": 1,
+          "initialValue": 100,
+          "attributes": {
+            "max": [
+              {
+                "baseValue": 100
+              }
+            ]
+          }
+        }
+      ],
+      "wealthPoints": 12,
+      "canPlaceOnBeam": true,
+      "destroyParticles": "destroy_clay_wall"
+    },
+    {
+      "id": "limestone_merlon",
+      "buildTime": 9,
+      "size": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "buildingCategoryUI": 6,
+      "buildingSubCategoryUI": 8,
+      "soundMaterialCategory": 2,
+      "buildingType": 65536,
+      "constructableBaseCategory": 1,
+      "placementType": 1,
+      "materials": {
+        "keys": [
+          "limestone"
+        ],
+        "values": [
+          10
+        ]
+      },
+      "storageBase": {
+        "capacity": 999,
+        "storableResources": [
+          "limestone"
+        ]
+      },
+      "reachableLevel": 7,
+      "cornerReachable": true,
+      "replacementFlag": 4,
+      "maxPoolCount": 100,
+      "refillThreshold": 50,
+      "placeableBellowOthers": false,
+      "transfersStability": false,
+      "layerShadowOffset": -2,
+      "layerHideOffset": -0.5,
+      "pathfindingPenalty": 16000,
+      "attackTraversePenalty": 0,
+      "cover": 0.55,
+      "stats": [
+        {
+          "debugName": "Hitpoints",
+          "type": 1,
+          "initialValue": 200,
+          "attributes": {
+            "max": [
+              {
+                "baseValue": 200
+              }
+            ]
+          }
+        }
+      ],
+      "wealthPoints": 15,
+      "canPlaceOnBeam": true,
+      "destroyParticles": "destroy_liimestone_wall"
+    },
+    {
+      "id": "limestone_merlon_corner",
+      "buildTime": 9,
+      "size": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "buildingCategoryUI": 6,
+      "buildingSubCategoryUI": 8,
+      "soundMaterialCategory": 2,
+      "buildingType": 65536,
+      "constructableBaseCategory": 1,
+      "placementType": 1,
+      "materials": {
+        "keys": [
+          "limestone"
+        ],
+        "values": [
+          10
+        ]
+      },
+      "storageBase": {
+        "capacity": 999,
+        "storableResources": [
+          "limestone"
+        ]
+      },
+      "reachableLevel": 7,
+      "cornerReachable": true,
+      "replacementFlag": 4,
+      "maxPoolCount": 100,
+      "refillThreshold": 50,
+      "placeableBellowOthers": false,
+      "transfersStability": false,
+      "layerShadowOffset": -2,
+      "layerHideOffset": -0.5,
+      "pathfindingPenalty": 16000,
+      "attackTraversePenalty": 0,
+      "cover": 0.55,
+      "stats": [
+        {
+          "debugName": "Hitpoints",
+          "type": 1,
+          "initialValue": 200,
+          "attributes": {
+            "max": [
+              {
+                "baseValue": 200
+              }
+            ]
+          }
+        }
+      ],
+      "wealthPoints": 15,
+      "canPlaceOnBeam": true,
+      "destroyParticles": "destroy_liimestone_wall"
+    },
+    {
+      "id": "limestone_block_merlon",
+      "buildTime": 12,
+      "size": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "buildingCategoryUI": 6,
+      "buildingSubCategoryUI": 8,
+      "soundMaterialCategory": 2,
+      "buildingType": 65536,
+      "constructableBaseCategory": 1,
+      "placementType": 1,
+      "materials": {
+        "keys": [
+          "limestone_block"
+        ],
+        "values": [
+          10
+        ]
+      },
+      "storageBase": {
+        "capacity": 999,
+        "storableResources": [
+          "limestone_block"
+        ]
+      },
+      "reachableLevel": 7,
+      "cornerReachable": true,
+      "replacementFlag": 4,
+      "maxPoolCount": 100,
+      "refillThreshold": 50,
+      "placeableBellowOthers": false,
+      "transfersStability": false,
+      "layerShadowOffset": -2,
+      "layerHideOffset": -0.5,
+      "pathfindingPenalty": 16000,
+      "attackTraversePenalty": 0,
+      "cover": 0.55,
+      "stats": [
+        {
+          "debugName": "Hitpoints",
+          "type": 1,
+          "initialValue": 650,
+          "attributes": {
+            "max": [
+              {
+                "baseValue": 650
+              }
+            ]
+          }
+        }
+      ],
+      "wealthPoints": 26,
+      "canPlaceOnBeam": true,
+      "destroyParticles": "destroy_limestone_block_wall"
+    },
+    {
+      "id": "limestone_block_merlon_corner",
+      "buildTime": 12,
+      "size": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "buildingCategoryUI": 6,
+      "buildingSubCategoryUI": 8,
+      "soundMaterialCategory": 2,
+      "buildingType": 65536,
+      "constructableBaseCategory": 1,
+      "placementType": 1,
+      "materials": {
+        "keys": [
+          "limestone_block"
+        ],
+        "values": [
+          10
+        ]
+      },
+      "storageBase": {
+        "capacity": 999,
+        "storableResources": [
+          "limestone_block"
+        ]
+      },
+      "reachableLevel": 7,
+      "cornerReachable": true,
+      "replacementFlag": 4,
+      "maxPoolCount": 100,
+      "refillThreshold": 50,
+      "placeableBellowOthers": false,
+      "transfersStability": false,
+      "layerShadowOffset": -2,
+      "layerHideOffset": -0.5,
+      "pathfindingPenalty": 16000,
+      "attackTraversePenalty": 0,
+      "cover": 0.55,
+      "stats": [
+        {
+          "debugName": "Hitpoints",
+          "type": 1,
+          "initialValue": 650,
+          "attributes": {
+            "max": [
+              {
+                "baseValue": 650
+              }
+            ]
+          }
+        }
+      ],
+      "wealthPoints": 26,
+      "canPlaceOnBeam": true,
+      "destroyParticles": "destroy_limestone_block_wall"
+    },
+    {
+      "id": "clay_brick_merlon",
+      "buildTime": 12,
+      "size": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "buildingCategoryUI": 6,
+      "buildingSubCategoryUI": 8,
+      "soundMaterialCategory": 3,
+      "buildingType": 65536,
+      "constructableBaseCategory": 1,
+      "placementType": 1,
+      "materials": {
+        "keys": [
+          "clay_brick"
+        ],
+        "values": [
+          10
+        ]
+      },
+      "storageBase": {
+        "capacity": 999,
+        "storableResources": [
+          "clay_brick"
+        ]
+      },
+      "reachableLevel": 7,
+      "cornerReachable": true,
+      "replacementFlag": 4,
+      "maxPoolCount": 100,
+      "refillThreshold": 50,
+      "placeableBellowOthers": false,
+      "transfersStability": false,
+      "layerShadowOffset": -2,
+      "layerHideOffset": -0.5,
+      "pathfindingPenalty": 16000,
+      "attackTraversePenalty": 0,
+      "cover": 0.55,
+      "stats": [
+        {
+          "debugName": "Hitpoints",
+          "type": 1,
+          "initialValue": 650,
+          "attributes": {
+            "max": [
+              {
+                "baseValue": 650
+              }
+            ]
+          }
+        }
+      ],
+      "wealthPoints": 26,
+      "canPlaceOnBeam": true,
+      "destroyParticles": "destroy_clay_brick_wall"
+    },
+    {
+      "id": "clay_brick_merlon_corner",
+      "buildTime": 12,
+      "size": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "buildingCategoryUI": 6,
+      "buildingSubCategoryUI": 8,
+      "soundMaterialCategory": 3,
+      "buildingType": 65536,
+      "constructableBaseCategory": 1,
+      "placementType": 1,
+      "materials": {
+        "keys": [
+          "clay_brick"
+        ],
+        "values": [
+          10
+        ]
+      },
+      "storageBase": {
+        "capacity": 999,
+        "storableResources": [
+          "clay_brick"
+        ]
+      },
+      "reachableLevel": 7,
+      "cornerReachable": true,
+      "replacementFlag": 4,
+      "maxPoolCount": 100,
+      "refillThreshold": 50,
+      "placeableBellowOthers": false,
+      "transfersStability": false,
+      "layerShadowOffset": -2,
+      "layerHideOffset": -0.5,
+      "pathfindingPenalty": 16000,
+      "attackTraversePenalty": 0,
+      "cover": 0.55,
+      "stats": [
+        {
+          "debugName": "Hitpoints",
+          "type": 1,
+          "initialValue": 650,
+          "attributes": {
+            "max": [
+              {
+                "baseValue": 650
+              }
+            ]
+          }
+        }
+      ],
+      "wealthPoints": 26,
+      "canPlaceOnBeam": true,
+      "destroyParticles": "destroy_clay_brick_wall"
+    }
+  ]
+}

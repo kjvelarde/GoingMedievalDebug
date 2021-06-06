@@ -1,0 +1,16 @@
+{
+  "name": "Building",
+  "repository": [
+    {
+      "type": 1,
+      "initialValue": 100,
+      "attributes": {
+        "max": [
+          {
+            "baseValue": 100
+          }
+        ]
+      }
+    }
+  ]
+}

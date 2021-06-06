@@ -1,0 +1,279 @@
+{
+  "repository": [
+    {
+      "id": "default_stockpile",
+      "storage": "stockpile_01",
+      "layerHideOffset": -1,
+      "layerShadowOffset": -1.5,
+      "buildingCategoryUI": 7,
+      "buildingSubCategoryUI": 16,
+      "resourceGroups": [
+        {
+          "groupId": "Apparel",
+          "depth": 0,
+          "subGroupIDs": [
+            "ApparelClothing",
+            "ApparelHeadware"
+          ]
+        },
+        {
+          "groupId": "ApparelClothing",
+          "depth": 1
+        },
+        {
+          "groupId": "ApparelHeadware",
+          "depth": 1
+        },
+        {
+          "groupId": "Carcass",
+          "depth": 0,
+          "subGroupIDs": [
+            "CarcassAnimal",
+            "CarcassHuman"
+          ]
+        },
+        {
+          "groupId": "CarcassAnimal",
+          "depth": 1
+        },
+        {
+          "groupId": "CarcassHuman",
+          "depth": 1
+        },
+        {
+          "groupId": "Food",
+          "depth": 0,
+          "subGroupIDs": [
+            "FoodMeal",
+            "FoodRaw",
+            "FoodStimulants"
+          ]
+        },
+        {
+          "groupId": "FoodMeal",
+          "depth": 1
+        },
+        {
+          "groupId": "FoodRaw",
+          "depth": 1
+        },
+        {
+          "groupId": "FoodStimulants",
+          "depth": 1
+        },
+        {
+          "groupId": "Material",
+          "depth": 0
+        },
+        {
+          "groupId": "Textiles",
+          "depth": 0
+        },
+        {
+          "groupId": "Warfare",
+          "depth": 0,
+          "subGroupIDs": [
+            "WarfareArmor",
+            "WarfareShield",
+            "WarfareWeapon"
+          ]
+        },
+        {
+          "groupId": "WarfareArmor",
+          "depth": 1,
+          "subGroupIDs": [
+            "WarfareArmorHead",
+            "WarfareArmorBody"
+          ]
+        },
+        {
+          "groupId": "WarfareArmorHead",
+          "depth": 2
+        },
+        {
+          "groupId": "WarfareArmorBody",
+          "depth": 2
+        },
+        {
+          "groupId": "WarfareShield",
+          "depth": 1
+        },
+        {
+          "groupId": "WarfareWeapon",
+          "depth": 1,
+          "subGroupIDs": [
+            "WarfareWeaponMelee",
+            "WarfareWeaponRanged"
+          ]
+        },
+        {
+          "groupId": "WarfareWeaponMelee",
+          "depth": 2,
+          "subGroupIDs": [
+            "WarfareWeaponMeleeOnehanded",
+            "WarfareWeaponMeleeTwohanded"
+          ]
+        },
+        {
+          "groupId": "WarfareWeaponMeleeOnehanded",
+          "depth": 3
+        },
+        {
+          "groupId": "WarfareWeaponMeleeTwohanded",
+          "depth": 3
+        },
+        {
+          "groupId": "WarfareWeaponRanged",
+          "depth": 2
+        },
+        {
+          "groupId": "Waste",
+          "depth": 0
+        },
+        {
+          "groupId": "Books",
+          "depth": 0
+        }
+      ]
+    },
+    {
+      "id": "dumping_stockpile",
+      "storage": "stockpile_02",
+      "layerHideOffset": -1,
+      "layerShadowOffset": -1.5,
+      "buildingCategoryUI": 7,
+      "buildingSubCategoryUI": 16,
+      "resourceGroups": [
+        {
+          "groupId": "Carcass",
+          "depth": 0,
+          "subGroupIDs": [
+            "CarcassAnimal",
+            "CarcassHuman"
+          ]
+        },
+        {
+          "groupId": "CarcassAnimal",
+          "depth": 1
+        },
+        {
+          "groupId": "CarcassHuman",
+          "depth": 1
+        },
+        {
+          "groupId": "Waste",
+          "depth": 0
+        }
+      ]
+    },
+    {
+      "id": "warfare_stockpile",
+      "storage": "stockpile_03",
+      "layerHideOffset": -1,
+      "layerShadowOffset": -1.5,
+      "buildingCategoryUI": 7,
+      "buildingSubCategoryUI": 16,
+      "resourceGroups": [
+        {
+          "groupId": "Warfare",
+          "depth": 0,
+          "subGroupIDs": [
+            "WarfareArmor",
+            "WarfareShield",
+            "WarfareWeapon"
+          ]
+        },
+        {
+          "groupId": "WarfareArmor",
+          "depth": 1,
+          "subGroupIDs": [
+            "WarfareArmorHead",
+            "WarfareArmorBody"
+          ]
+        },
+        {
+          "groupId": "WarfareArmorHead",
+          "depth": 2
+        },
+        {
+          "groupId": "WarfareArmorBody",
+          "depth": 2
+        },
+        {
+          "groupId": "WarfareShield",
+          "depth": 1
+        },
+        {
+          "groupId": "WarfareWeapon",
+          "depth": 1,
+          "subGroupIDs": [
+            "WarfareWeaponMelee",
+            "WarfareWeaponRanged"
+          ]
+        },
+        {
+          "groupId": "WarfareWeaponMelee",
+          "depth": 2,
+          "subGroupIDs": [
+            "WarfareWeaponMeleeOnehanded",
+            "WarfareWeaponMeleeTwohanded"
+          ]
+        },
+        {
+          "groupId": "WarfareWeaponMeleeOnehanded",
+          "depth": 3
+        },
+        {
+          "groupId": "WarfareWeaponMeleeTwohanded",
+          "depth": 3
+        },
+        {
+          "groupId": "WarfareWeaponRanged",
+          "depth": 2
+        }
+      ]
+    },
+    {
+      "id": "hud_display_stockpile",
+      "storage": "stockpile_04",
+      "layerHideOffset": -1,
+      "layerShadowOffset": -1.5,
+      "buildingSubCategoryUI": 16,
+      "resourceGroups": [
+        {
+          "groupId": "Food",
+          "depth": 0,
+          "subGroupIDs": [
+            "FoodMeal",
+            "FoodRaw",
+            "FoodStimulants"
+          ]
+        },
+        {
+          "groupId": "FoodMeal",
+          "depth": 1
+        },
+        {
+          "groupId": "FoodRaw",
+          "depth": 1
+        },
+        {
+          "groupId": "FoodStimulants",
+          "depth": 1
+        },
+        {
+          "groupId": "Material",
+          "depth": 0
+        },
+        {
+          "groupId": "Textiles",
+          "depth": 0
+        },
+        {
+          "groupId": "Books",
+          "depth": 0
+        }
+      ]
+    }
+  ]
+}

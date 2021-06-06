@@ -1,0 +1,863 @@
+{
+  "repository": [
+    {
+      "id": "Background_1",
+      "skillModifiers": [
+        {
+          "key": 1,
+          "value": 12
+        },
+        {
+          "key": 2,
+          "value": 5
+        },
+        {
+          "key": 6,
+          "value": 3
+        }
+      ],
+      "societalAlignment": -0.2,
+      "religiousAlignment": -0.15
+    },
+    {
+      "id": "Background_2",
+      "skillModifiers": [
+        {
+          "key": 1,
+          "value": 12
+        },
+        {
+          "key": 2,
+          "value": 5
+        }
+      ],
+      "societalAlignment": 0,
+      "religiousAlignment": -0.2
+    },
+    {
+      "id": "Background_3",
+      "skillModifiers": [
+        {
+          "key": 1,
+          "value": 12
+        },
+        {
+          "key": 8,
+          "value": 5
+        }
+      ],
+      "societalAlignment": -0.2,
+      "religiousAlignment": 0
+    },
+    {
+      "id": "Background_4",
+      "skillModifiers": [
+        {
+          "key": 2,
+          "value": 12
+        },
+        {
+          "key": 1,
+          "value": 3
+        }
+      ],
+      "societalAlignment": -0.05,
+      "religiousAlignment": -0.2
+    },
+    {
+      "id": "Background_5",
+      "skillModifiers": [
+        {
+          "key": 2,
+          "value": 12
+        },
+        {
+          "key": 5,
+          "value": 5
+        },
+        {
+          "key": 8,
+          "value": 5
+        }
+      ],
+      "societalAlignment": -0.15,
+      "religiousAlignment": -0.25
+    },
+    {
+      "id": "Background_6",
+      "skillModifiers": [
+        {
+          "key": 2,
+          "value": 12
+        },
+        {
+          "key": 10,
+          "value": 5
+        }
+      ],
+      "societalAlignment": -0.2,
+      "religiousAlignment": 0.2
+    },
+    {
+      "id": "Background_7",
+      "skillModifiers": [
+        {
+          "key": 2,
+          "value": 12
+        },
+        {
+          "key": 6,
+          "value": 5
+        },
+        {
+          "key": 10,
+          "value": -3
+        }
+      ],
+      "societalAlignment": 0,
+      "religiousAlignment": -0.1
+    },
+    {
+      "id": "Background_8",
+      "skillModifiers": [
+        {
+          "key": 3,
+          "value": 12
+        },
+        {
+          "key": 4,
+          "value": 10
+        }
+      ],
+      "societalAlignment": -0.2,
+      "religiousAlignment": -0.2
+    },
+    {
+      "id": "Background_9",
+      "skillModifiers": [
+        {
+          "key": 3,
+          "value": 10
+        },
+        {
+          "key": 7,
+          "value": 10
+        },
+        {
+          "key": 4,
+          "value": 3
+        }
+      ],
+      "societalAlignment": -0.05,
+      "religiousAlignment": 0.2
+    },
+    {
+      "id": "Background_10",
+      "skillModifiers": [
+        {
+          "key": 3,
+          "value": 12
+        },
+        {
+          "key": 11,
+          "value": 3
+        }
+      ],
+      "societalAlignment": 0.1,
+      "religiousAlignment": 0.15
+    },
+    {
+      "id": "Background_11",
+      "skillModifiers": [
+        {
+          "key": 3,
+          "value": 12
+        }
+      ],
+      "societalAlignment": -0.2,
+      "religiousAlignment": -0.2
+    },
+    {
+      "id": "Background_12",
+      "skillModifiers": [
+        {
+          "key": 4,
+          "value": 12
+        },
+        {
+          "key": 3,
+          "value": 5
+        },
+        {
+          "key": 11,
+          "value": 3
+        }
+      ],
+      "societalAlignment": -0.2,
+      "religiousAlignment": -0.15
+    },
+    {
+      "id": "Background_13",
+      "skillModifiers": [
+        {
+          "key": 4,
+          "value": 12
+        },
+        {
+          "key": 13,
+          "value": 10
+        },
+        {
+          "key": 2,
+          "value": 3
+        }
+      ],
+      "societalAlignment": -0.2,
+      "religiousAlignment": -0.1
+    },
+    {
+      "id": "Background_14",
+      "skillModifiers": [
+        {
+          "key": 4,
+          "value": 12
+        },
+        {
+          "key": 9,
+          "value": 5
+        }
+      ],
+      "societalAlignment": -0.1,
+      "religiousAlignment": -0.1
+    },
+    {
+      "id": "Background_15",
+      "skillModifiers": [
+        {
+          "key": 5,
+          "value": 12
+        },
+        {
+          "key": 11,
+          "value": 3
+        },
+        {
+          "key": 9,
+          "value": 3
+        }
+      ],
+      "societalAlignment": 0.2,
+      "religiousAlignment": 0.1
+    },
+    {
+      "id": "Background_16",
+      "skillModifiers": [
+        {
+          "key": 5,
+          "value": 12
+        },
+        {
+          "key": 1,
+          "value": 10
+        }
+      ],
+      "societalAlignment": -0.15,
+      "religiousAlignment": 0.25
+    },
+    {
+      "id": "Background_17",
+      "skillModifiers": [
+        {
+          "key": 5,
+          "value": 15
+        },
+        {
+          "key": 2,
+          "value": 5
+        },
+        {
+          "key": 1,
+          "value": 5
+        }
+      ],
+      "societalAlignment": -0.1,
+      "religiousAlignment": -0.2
+    },
+    {
+      "id": "Background_18",
+      "skillModifiers": [
+        {
+          "key": 5,
+          "value": 12
+        },
+        {
+          "key": 2,
+          "value": 10
+        }
+      ],
+      "societalAlignment": -0.1,
+      "religiousAlignment": -0.15
+    },
+    {
+      "id": "Background_19",
+      "skillModifiers": [
+        {
+          "key": 6,
+          "value": 12
+        },
+        {
+          "key": 4,
+          "value": 10
+        }
+      ],
+      "societalAlignment": 0.1,
+      "religiousAlignment": -0.2
+    },
+    {
+      "id": "Background_20",
+      "skillModifiers": [
+        {
+          "key": 6,
+          "value": 12
+        },
+        {
+          "key": 3,
+          "value": 5
+        },
+        {
+          "key": 4,
+          "value": 5
+        }
+      ],
+      "societalAlignment": 0.25,
+      "religiousAlignment": 0
+    },
+    {
+      "id": "Background_21",
+      "skillModifiers": [
+        {
+          "key": 6,
+          "value": 12
+        },
+        {
+          "key": 9,
+          "value": 5
+        },
+        {
+          "key": 7,
+          "value": 3
+        }
+      ],
+      "societalAlignment": 0.25,
+      "religiousAlignment": -0.2
+    },
+    {
+      "id": "Background_22",
+      "skillModifiers": [
+        {
+          "key": 6,
+          "value": 12
+        },
+        {
+          "key": 11,
+          "value": 3
+        }
+      ],
+      "societalAlignment": -0.15,
+      "religiousAlignment": -0.05
+    },
+    {
+      "id": "Background_23",
+      "skillModifiers": [
+        {
+          "key": 6,
+          "value": 12
+        },
+        {
+          "key": 2,
+          "value": 5
+        },
+        {
+          "key": 8,
+          "value": 5
+        }
+      ],
+      "ignoreCharacteristicType": [
+        1
+      ],
+      "societalAlignment": -0.2,
+      "religiousAlignment": 0.1
+    },
+    {
+      "id": "Background_24",
+      "skillModifiers": [
+        {
+          "key": 7,
+          "value": 12
+        },
+        {
+          "key": 1,
+          "value": 10
+        }
+      ],
+      "societalAlignment": 0,
+      "religiousAlignment": -0.2
+    },
+    {
+      "id": "Background_25",
+      "skillModifiers": [
+        {
+          "key": 7,
+          "value": 12
+        },
+        {
+          "key": 9,
+          "value": 5
+        }
+      ],
+      "societalAlignment": -0.2,
+      "religiousAlignment": -0.2
+    },
+    {
+      "id": "Background_26",
+      "skillModifiers": [
+        {
+          "key": 7,
+          "value": 12
+        },
+        {
+          "key": 12,
+          "value": 5
+        },
+        {
+          "key": 10,
+          "value": 5
+        }
+      ],
+      "societalAlignment": -0.05,
+      "religiousAlignment": -0.2
+    },
+    {
+      "id": "Background_27",
+      "skillModifiers": [
+        {
+          "key": 8,
+          "value": 12
+        },
+        {
+          "key": 6,
+          "value": 3
+        }
+      ],
+      "societalAlignment": 0.1,
+      "religiousAlignment": -0.1
+    },
+    {
+      "id": "Background_28",
+      "skillModifiers": [
+        {
+          "key": 8,
+          "value": 12
+        },
+        {
+          "key": 9,
+          "value": 10
+        }
+      ],
+      "societalAlignment": -0.2,
+      "religiousAlignment": 0.2
+    },
+    {
+      "id": "Background_29",
+      "skillModifiers": [
+        {
+          "key": 8,
+          "value": 12
+        },
+        {
+          "key": 12,
+          "value": 10
+        }
+      ],
+      "ignoreCharacteristicType": [
+        2
+      ],
+      "societalAlignment": -0.2,
+      "religiousAlignment": -0.15
+    },
+    {
+      "id": "Background_30",
+      "skillModifiers": [
+        {
+          "key": 9,
+          "value": 12
+        },
+        {
+          "key": 11,
+          "value": 3
+        },
+        {
+          "key": 2,
+          "value": 3
+        },
+        {
+          "key": 8,
+          "value": 3
+        }
+      ],
+      "societalAlignment": -0.2,
+      "religiousAlignment": -0.1
+    },
+    {
+      "id": "Background_31",
+      "skillModifiers": [
+        {
+          "key": 9,
+          "value": 12
+        },
+        {
+          "key": 7,
+          "value": 5
+        }
+      ],
+      "societalAlignment": -0.1,
+      "religiousAlignment": -0.1
+    },
+    {
+      "id": "Background_32",
+      "skillModifiers": [
+        {
+          "key": 9,
+          "value": 12
+        },
+        {
+          "key": 5,
+          "value": 10
+        },
+        {
+          "key": 1,
+          "value": 3
+        }
+      ],
+      "societalAlignment": 0.2,
+      "religiousAlignment": 0.1
+    },
+    {
+      "id": "Background_33",
+      "skillModifiers": [
+        {
+          "key": 9,
+          "value": 12
+        },
+        {
+          "key": 13,
+          "value": 10
+        }
+      ],
+      "societalAlignment": -0.15,
+      "religiousAlignment": -0.25
+    },
+    {
+      "id": "Background_34",
+      "skillModifiers": [
+        {
+          "key": 10,
+          "value": 12
+        },
+        {
+          "key": 1,
+          "value": 3
+        }
+      ],
+      "societalAlignment": -0.1,
+      "religiousAlignment": 0.25
+    },
+    {
+      "id": "Background_35",
+      "skillModifiers": [
+        {
+          "key": 10,
+          "value": 15
+        }
+      ],
+      "societalAlignment": -0.1,
+      "religiousAlignment": -0.15
+    },
+    {
+      "id": "Background_36",
+      "skillModifiers": [
+        {
+          "key": 10,
+          "value": 12
+        },
+        {
+          "key": 9,
+          "value": 5
+        },
+        {
+          "key": 13,
+          "value": 3
+        }
+      ],
+      "societalAlignment": 0.1,
+      "religiousAlignment": -0.2
+    },
+    {
+      "id": "Background_37",
+      "skillModifiers": [
+        {
+          "key": 10,
+          "value": 12
+        },
+        {
+          "key": 3,
+          "value": 5
+        }
+      ],
+      "societalAlignment": 0.25,
+      "religiousAlignment": 0
+    },
+    {
+      "id": "Background_38",
+      "skillModifiers": [
+        {
+          "key": 10,
+          "value": 12
+        },
+        {
+          "key": 3,
+          "value": 3
+        }
+      ],
+      "societalAlignment": 0.25,
+      "religiousAlignment": -0.2
+    },
+    {
+      "id": "Background_39",
+      "skillModifiers": [
+        {
+          "key": 11,
+          "value": 12
+        },
+        {
+          "key": 8,
+          "value": 10
+        }
+      ],
+      "societalAlignment": -0.15,
+      "religiousAlignment": -0.05
+    },
+    {
+      "id": "Background_40",
+      "skillModifiers": [
+        {
+          "key": 11,
+          "value": 12
+        },
+        {
+          "key": 6,
+          "value": 15
+        },
+        {
+          "key": 9,
+          "value": -5
+        },
+        {
+          "key": 7,
+          "value": -5
+        }
+      ],
+      "societalAlignment": -0.2,
+      "religiousAlignment": 0.1
+    },
+    {
+      "id": "Background_41",
+      "skillModifiers": [
+        {
+          "key": 11,
+          "value": 10
+        },
+        {
+          "key": 6,
+          "value": 10
+        },
+        {
+          "key": 2,
+          "value": 3
+        },
+        {
+          "key": 8,
+          "value": 3
+        }
+      ],
+      "societalAlignment": 0,
+      "religiousAlignment": -0.15
+    },
+    {
+      "id": "Background_42",
+      "skillModifiers": [
+        {
+          "key": 11,
+          "value": 12
+        },
+        {
+          "key": 10,
+          "value": 10
+        },
+        {
+          "key": 13,
+          "value": 5
+        }
+      ],
+      "societalAlignment": -0.2,
+      "religiousAlignment": -0.2
+    },
+    {
+      "id": "Background_43",
+      "skillModifiers": [
+        {
+          "key": 12,
+          "value": 12
+        },
+        {
+          "key": 2,
+          "value": 3
+        }
+      ],
+      "societalAlignment": -0.05,
+      "religiousAlignment": 0
+    },
+    {
+      "id": "Background_44",
+      "skillModifiers": [
+        {
+          "key": 12,
+          "value": 10
+        },
+        {
+          "key": 4,
+          "value": 5
+        },
+        {
+          "key": 2,
+          "value": 5
+        }
+      ],
+      "societalAlignment": 0.1,
+      "religiousAlignment": -0.2
+    },
+    {
+      "id": "Background_45",
+      "skillModifiers": [
+        {
+          "key": 12,
+          "value": 12
+        },
+        {
+          "key": 7,
+          "value": 5
+        },
+        {
+          "key": 9,
+          "value": 3
+        }
+      ],
+      "societalAlignment": 0.1,
+      "religiousAlignment": -0.05
+    },
+    {
+      "id": "Background_46",
+      "skillModifiers": [
+        {
+          "key": 12,
+          "value": 15
+        }
+      ],
+      "societalAlignment": -0.2,
+      "religiousAlignment": 0.1
+    },
+    {
+      "id": "Background_47",
+      "skillModifiers": [
+        {
+          "key": 13,
+          "value": 12
+        },
+        {
+          "key": 4,
+          "value": 3
+        }
+      ],
+      "societalAlignment": -0.2,
+      "religiousAlignment": -0.2
+    },
+    {
+      "id": "Background_48",
+      "skillModifiers": [
+        {
+          "key": 13,
+          "value": 12
+        },
+        {
+          "key": 2,
+          "value": 5
+        }
+      ],
+      "societalAlignment": -0.2,
+      "religiousAlignment": -0.2
+    },
+    {
+      "id": "Background_49",
+      "skillModifiers": [
+        {
+          "key": 13,
+          "value": 10
+        },
+        {
+          "key": 9,
+          "value": 5
+        }
+      ],
+      "societalAlignment": -0.1,
+      "religiousAlignment": -0.2
+    },
+    {
+      "id": "Background_50",
+      "skillModifiers": [
+        {
+          "key": 13,
+          "value": 12
+        },
+        {
+          "key": 9,
+          "value": 5
+        },
+        {
+          "key": 11,
+          "value": -3
+        }
+      ],
+      "societalAlignment": 0.2,
+      "religiousAlignment": -0.1
+    },
+    {
+      "id": "Background_51",
+      "skillModifiers": [
+        {
+          "key": 1,
+          "value": 15
+        },
+        {
+          "key": 9,
+          "value": 5
+        },
+        {
+          "key": 11,
+          "value": 3
+        }
+      ],
+      "societalAlignment": -0.15,
+      "religiousAlignment": 0.2
+    }
+  ]
+}

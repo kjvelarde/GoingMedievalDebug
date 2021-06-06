@@ -1,0 +1,1677 @@
+{
+  "storage": [
+    {
+      "hourType": 0,
+      "color": {
+        "r": 0.83,
+        "g": 0.47,
+        "b": 0.31,
+        "a": 1
+      },
+      "settings": [
+        {
+          "DebugName": "goal_sleep_setting",
+          "type": 1,
+          "value": "SleepAction",
+          "parameters": [
+            {
+              "id": "SleepType",
+              "value": "Interupt"
+            }
+          ]
+        },
+        {
+          "DebugName": "goal_disable_setting",
+          "type": 1,
+          "value": "DisableBelow",
+          "parameters": [
+            {
+              "id": "Priority",
+              "value": 19
+            }
+          ]
+        }
+      ],
+      "priorities": [
+        {
+          "basePriority": -10,
+          "jobs": [
+            {
+              "priority": 0.01,
+              "goals": [
+                "FaintGoal"
+              ]
+            }
+          ]
+        },
+        {
+          "basePriority": 0,
+          "jobs": [
+            {
+              "priority": 0.06,
+              "goals": [
+                "AttackGoal",
+                "OperateTrebuchetGoal"
+              ]
+            },
+            {
+              "priority": 0.02,
+              "goals": [
+                "FleeGoal"
+              ]
+            },
+            {
+              "priority": 0.05,
+              "goals": [
+                "EquipGoal"
+              ]
+            }
+          ]
+        },
+        {
+          "basePriority": 12,
+          "jobs": [
+            {
+              "priority": 0.04,
+              "goals": [
+                "AutoEquipGoal"
+              ]
+            }
+          ]
+        },
+        {
+          "basePriority": 13,
+          "jobs": [
+            {
+              "priority": 0.548,
+              "goals": [
+                "DigGoal"
+              ]
+            },
+            {
+              "priority": 0.545,
+              "goals": [
+                "DeconstructGoal",
+                "ConstructBuildingGoal",
+                "DeliverBuildingMaterialsGoal",
+                "RepairBuildingGoal",
+                "RelocateResourcePileGoal"
+              ]
+            },
+            {
+              "priority": 0.55,
+              "goals": [
+                "ProductionCookingGoal",
+                "DeliverCookingResourcesGoal"
+              ]
+            },
+            {
+              "priority": 0.551,
+              "goals": [
+                "ProductionCraftingGoal",
+                "DeliverCraftingResourcesGoal",
+                "DeliverCraftingResourceDismantleGoal"
+              ]
+            },
+            {
+              "priority": 0.552,
+              "goals": [
+                "ProductionSmithingGoal",
+                "DeliverSmithingResourcesGoal",
+                "DeliverSmithingResourceDismantleGoal"
+              ]
+            },
+            {
+              "priority": 0.553,
+              "goals": [
+                "ProductionCarpentryGoal",
+                "DeliverCarpentryResourcesGoal",
+                "DeliverCarpentryResourceDismantleGoal"
+              ]
+            },
+            {
+              "priority": 0.554,
+              "goals": [
+                "ProductionTailoringGoal",
+                "DeliverTailoringResourcesGoal",
+                "DeliverTailoringResourceDismantleGoal"
+              ]
+            },
+            {
+              "priority": 0.555,
+              "goals": [
+                "ProductionResearchGoal",
+                "DeliverResearchResourcesGoal"
+              ]
+            },
+            {
+              "priority": 0.546,
+              "goals": [
+                "PlantCropsGoal"
+              ]
+            },
+            {
+              "priority": 0.547,
+              "goals": [
+                "HarvestGoal"
+              ]
+            },
+            {
+              "priority": 0.544,
+              "goals": [
+                "HuntingGoal"
+              ]
+            },
+            {
+              "priority": 0.556,
+              "goals": [
+                "ChangeDoorLockStateGoal",
+                "SetupTrapGoal",
+                "ChangeLockStateGoal"
+              ]
+            },
+            {
+              "priority": 0.557,
+              "goals": [
+                "BuryBodyGoal",
+                "DeliverCarcassDisposalResourcesGoal",
+                "ProductionCarcassDisposalGoal",
+                "StockpileHaulingGoal"
+              ]
+            },
+            {
+              "priority": 0.543,
+              "goals": [
+                "RestGoal"
+              ]
+            },
+            {
+              "priority": 0.542,
+              "goals": [
+                "CarryToBedGoal",
+                "TendWoundsGoal",
+                "DeliverChemistryResourcesGoal",
+                "ProductionChemistryGoal"
+              ]
+            },
+            {
+              "priority": 0.549,
+              "goals": [
+                "ChopTreeGoal"
+              ]
+            }
+          ]
+        },
+        {
+          "basePriority": 15,
+          "jobs": [
+            {
+              "priority": 0.02,
+              "goals": [
+                "HungerGoal"
+              ]
+            }
+          ]
+        },
+        {
+          "basePriority": 18,
+          "jobs": [
+            {
+              "priority": 0.03,
+              "goals": [
+                "IdleGoal"
+              ]
+            }
+          ]
+        },
+        {
+          "basePriority": 21,
+          "jobs": [
+            {
+              "priority": 0.01,
+              "goals": [
+                "LeaveMapGoal"
+              ]
+            }
+          ]
+        },
+        {
+          "basePriority": 25,
+          "jobs": [
+            {
+              "priority": 0.01,
+              "goals": [
+                "VomitGoal"
+              ]
+            }
+          ]
+        },
+        {
+          "basePriority": 29,
+          "jobs": [
+            {
+              "priority": 0.01,
+              "goals": [
+                "SleepGoal"
+              ]
+            }
+          ]
+        },
+        {
+          "basePriority": 30,
+          "jobs": [
+            {
+              "priority": 0.01,
+              "goals": [
+                "FaithGoal"
+              ]
+            },
+            {
+              "priority": 0.02,
+              "goals": [
+                "DrinkGoal"
+              ]
+            },
+            {
+              "priority": 0.03,
+              "goals": [
+                "EntertainmentGoal"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hourType": 1,
+      "color": {
+        "r": 0.44,
+        "g": 0.41,
+        "b": 0.84,
+        "a": 1
+      },
+      "settings": [
+        {
+          "DebugName": "goal_sleep_setting",
+          "type": 1,
+          "value": "SleepAction",
+          "parameters": [
+            {
+              "id": "SleepType",
+              "value": "Interupt"
+            }
+          ]
+        },
+        {
+          "DebugName": "goal_disable_setting",
+          "type": 1,
+          "value": "DisableBelow",
+          "parameters": [
+            {
+              "id": "Priority",
+              "value": 19
+            }
+          ]
+        }
+      ],
+      "priorities": [
+        {
+          "basePriority": -10,
+          "jobs": [
+            {
+              "priority": 0.01,
+              "goals": [
+                "FaintGoal"
+              ]
+            }
+          ]
+        },
+        {
+          "basePriority": 0,
+          "jobs": [
+            {
+              "priority": 0.06,
+              "goals": [
+                "AttackGoal",
+                "OperateTrebuchetGoal"
+              ]
+            },
+            {
+              "priority": 0.02,
+              "goals": [
+                "FleeGoal"
+              ]
+            },
+            {
+              "priority": 0.05,
+              "goals": [
+                "EquipGoal"
+              ]
+            }
+          ]
+        },
+        {
+          "basePriority": 12,
+          "jobs": [
+            {
+              "priority": 0.02,
+              "goals": [
+                "HungerGoal"
+              ]
+            }
+          ]
+        },
+        {
+          "basePriority": 14,
+          "jobs": [
+            {
+              "priority": 0.01,
+              "goals": [
+                "SleepGoal"
+              ]
+            }
+          ]
+        },
+        {
+          "basePriority": 16,
+          "jobs": [
+            {
+              "priority": 0.04,
+              "goals": [
+                "AutoEquipGoal"
+              ]
+            }
+          ]
+        },
+        {
+          "basePriority": 17,
+          "jobs": [
+            {
+              "priority": 0.548,
+              "goals": [
+                "DigGoal"
+              ]
+            },
+            {
+              "priority": 0.545,
+              "goals": [
+                "DeconstructGoal",
+                "ConstructBuildingGoal",
+                "DeliverBuildingMaterialsGoal",
+                "RepairBuildingGoal",
+                "RelocateResourcePileGoal"
+              ]
+            },
+            {
+              "priority": 0.55,
+              "goals": [
+                "ProductionCookingGoal",
+                "DeliverCookingResourcesGoal"
+              ]
+            },
+            {
+              "priority": 0.551,
+              "goals": [
+                "ProductionCraftingGoal",
+                "DeliverCraftingResourcesGoal",
+                "DeliverCraftingResourceDismantleGoal"
+              ]
+            },
+            {
+              "priority": 0.552,
+              "goals": [
+                "ProductionSmithingGoal",
+                "DeliverSmithingResourcesGoal",
+                "DeliverSmithingResourceDismantleGoal"
+              ]
+            },
+            {
+              "priority": 0.553,
+              "goals": [
+                "ProductionCarpentryGoal",
+                "DeliverCarpentryResourcesGoal",
+                "DeliverCarpentryResourceDismantleGoal"
+              ]
+            },
+            {
+              "priority": 0.554,
+              "goals": [
+                "ProductionTailoringGoal",
+                "DeliverTailoringResourcesGoal",
+                "DeliverTailoringResourceDismantleGoal"
+              ]
+            },
+            {
+              "priority": 0.555,
+              "goals": [
+                "ProductionResearchGoal",
+                "DeliverResearchResourcesGoal"
+              ]
+            },
+            {
+              "priority": 0.546,
+              "goals": [
+                "PlantCropsGoal"
+              ]
+            },
+            {
+              "priority": 0.547,
+              "goals": [
+                "HarvestGoal"
+              ]
+            },
+            {
+              "priority": 0.544,
+              "goals": [
+                "HuntingGoal"
+              ]
+            },
+            {
+              "priority": 0.556,
+              "goals": [
+                "ChangeDoorLockStateGoal",
+                "SetupTrapGoal",
+                "ChangeLockStateGoal"
+              ]
+            },
+            {
+              "priority": 0.557,
+              "goals": [
+                "BuryBodyGoal",
+                "DeliverCarcassDisposalResourcesGoal",
+                "ProductionCarcassDisposalGoal",
+                "StockpileHaulingGoal"
+              ]
+            },
+            {
+              "priority": 0.543,
+              "goals": [
+                "RestGoal"
+              ]
+            },
+            {
+              "priority": 0.542,
+              "goals": [
+                "CarryToBedGoal",
+                "TendWoundsGoal",
+                "DeliverChemistryResourcesGoal",
+                "ProductionChemistryGoal"
+              ]
+            },
+            {
+              "priority": 0.549,
+              "goals": [
+                "ChopTreeGoal"
+              ]
+            }
+          ]
+        },
+        {
+          "basePriority": 18,
+          "jobs": [
+            {
+              "priority": 0.03,
+              "goals": [
+                "IdleGoal"
+              ]
+            }
+          ]
+        },
+        {
+          "basePriority": 21,
+          "jobs": [
+            {
+              "priority": 0.01,
+              "goals": [
+                "LeaveMapGoal"
+              ]
+            }
+          ]
+        },
+        {
+          "basePriority": 25,
+          "jobs": [
+            {
+              "priority": 0.01,
+              "goals": [
+                "VomitGoal"
+              ]
+            }
+          ]
+        },
+        {
+          "basePriority": 30,
+          "jobs": [
+            {
+              "priority": 0.01,
+              "goals": [
+                "FaithGoal"
+              ]
+            },
+            {
+              "priority": 0.02,
+              "goals": [
+                "DrinkGoal"
+              ]
+            },
+            {
+              "priority": 0.03,
+              "goals": [
+                "EntertainmentGoal"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hourType": 2,
+      "color": {
+        "r": 0.78,
+        "g": 0.78,
+        "b": 0.78,
+        "a": 1
+      },
+      "settings": [
+        {
+          "DebugName": "goal_sleep_setting",
+          "type": 1,
+          "value": "SleepAction",
+          "parameters": [
+            {
+              "id": "SleepType",
+              "value": "Interupt"
+            }
+          ]
+        },
+        {
+          "DebugName": "goal_disable_setting",
+          "type": 1,
+          "value": "DisableBelow",
+          "parameters": [
+            {
+              "id": "Priority",
+              "value": 19
+            }
+          ]
+        }
+      ],
+      "priorities": [
+        {
+          "basePriority": -10,
+          "jobs": [
+            {
+              "priority": 0.01,
+              "goals": [
+                "FaintGoal"
+              ]
+            }
+          ]
+        },
+        {
+          "basePriority": 0,
+          "jobs": [
+            {
+              "priority": 0.06,
+              "goals": [
+                "AttackGoal",
+                "OperateTrebuchetGoal"
+              ]
+            },
+            {
+              "priority": 0.02,
+              "goals": [
+                "FleeGoal"
+              ]
+            },
+            {
+              "priority": 0.05,
+              "goals": [
+                "EquipGoal"
+              ]
+            }
+          ]
+        },
+        {
+          "basePriority": 14,
+          "jobs": [
+            {
+              "priority": 0.01,
+              "goals": [
+                "HungerGoal"
+              ]
+            }
+          ]
+        },
+        {
+          "basePriority": 16,
+          "jobs": [
+            {
+              "priority": 0.04,
+              "goals": [
+                "AutoEquipGoal"
+              ]
+            }
+          ]
+        },
+        {
+          "basePriority": 17,
+          "jobs": [
+            {
+              "priority": 0.548,
+              "goals": [
+                "DigGoal"
+              ]
+            },
+            {
+              "priority": 0.545,
+              "goals": [
+                "DeconstructGoal",
+                "ConstructBuildingGoal",
+                "DeliverBuildingMaterialsGoal",
+                "RepairBuildingGoal",
+                "RelocateResourcePileGoal"
+              ]
+            },
+            {
+              "priority": 0.55,
+              "goals": [
+                "ProductionCookingGoal",
+                "DeliverCookingResourcesGoal"
+              ]
+            },
+            {
+              "priority": 0.551,
+              "goals": [
+                "ProductionCraftingGoal",
+                "DeliverCraftingResourcesGoal",
+                "DeliverCraftingResourceDismantleGoal"
+              ]
+            },
+            {
+              "priority": 0.552,
+              "goals": [
+                "ProductionSmithingGoal",
+                "DeliverSmithingResourcesGoal",
+                "DeliverSmithingResourceDismantleGoal"
+              ]
+            },
+            {
+              "priority": 0.553,
+              "goals": [
+                "ProductionCarpentryGoal",
+                "DeliverCarpentryResourcesGoal",
+                "DeliverCarpentryResourceDismantleGoal"
+              ]
+            },
+            {
+              "priority": 0.554,
+              "goals": [
+                "ProductionTailoringGoal",
+                "DeliverTailoringResourcesGoal",
+                "DeliverTailoringResourceDismantleGoal"
+              ]
+            },
+            {
+              "priority": 0.555,
+              "goals": [
+                "ProductionResearchGoal",
+                "DeliverResearchResourcesGoal"
+              ]
+            },
+            {
+              "priority": 0.546,
+              "goals": [
+                "PlantCropsGoal"
+              ]
+            },
+            {
+              "priority": 0.547,
+              "goals": [
+                "HarvestGoal"
+              ]
+            },
+            {
+              "priority": 0.544,
+              "goals": [
+                "HuntingGoal"
+              ]
+            },
+            {
+              "priority": 0.556,
+              "goals": [
+                "ChangeDoorLockStateGoal",
+                "SetupTrapGoal",
+                "ChangeLockStateGoal"
+              ]
+            },
+            {
+              "priority": 0.557,
+              "goals": [
+                "BuryBodyGoal",
+                "DeliverCarcassDisposalResourcesGoal",
+                "ProductionCarcassDisposalGoal",
+                "StockpileHaulingGoal"
+              ]
+            },
+            {
+              "priority": 0.543,
+              "goals": [
+                "RestGoal"
+              ]
+            },
+            {
+              "priority": 0.542,
+              "goals": [
+                "CarryToBedGoal",
+                "TendWoundsGoal",
+                "DeliverChemistryResourcesGoal",
+                "ProductionChemistryGoal"
+              ]
+            },
+            {
+              "priority": 0.549,
+              "goals": [
+                "ChopTreeGoal"
+              ]
+            }
+          ]
+        },
+        {
+          "basePriority": 18,
+          "jobs": [
+            {
+              "priority": 0.06,
+              "goals": [
+                "IdleGoal"
+              ]
+            },
+            {
+              "priority": 0.01,
+              "goals": [
+                "FaithGoal"
+              ]
+            },
+            {
+              "priority": 0.02,
+              "goals": [
+                "DrinkGoal"
+              ]
+            },
+            {
+              "priority": 0.03,
+              "goals": [
+                "EntertainmentGoal"
+              ]
+            }
+          ]
+        },
+        {
+          "basePriority": 21,
+          "jobs": [
+            {
+              "priority": 0.01,
+              "goals": [
+                "LeaveMapGoal"
+              ]
+            }
+          ]
+        },
+        {
+          "basePriority": 24,
+          "jobs": [
+            {
+              "priority": 0.03,
+              "goals": [
+                "SleepGoal"
+              ]
+            }
+          ]
+        },
+        {
+          "basePriority": 25,
+          "jobs": [
+            {
+              "priority": 0.01,
+              "goals": [
+                "VomitGoal"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hourType": 4,
+      "color": {
+        "r": 1,
+        "g": 0.2,
+        "b": 1,
+        "a": 1
+      },
+      "isHidden": true,
+      "settings": [
+        {
+          "DebugName": "goal_sleep_setting",
+          "type": 1,
+          "value": "SleepAction",
+          "parameters": [
+            {
+              "id": "SleepType",
+              "value": "Interupt"
+            }
+          ]
+        },
+        {
+          "DebugName": "goal_disable_setting",
+          "type": 1,
+          "value": "DisableBelow",
+          "parameters": [
+            {
+              "id": "Priority",
+              "value": 19
+            }
+          ]
+        }
+      ],
+      "priorities": [
+        {
+          "basePriority": -10,
+          "jobs": [
+            {
+              "priority": 0.01,
+              "goals": [
+                "FaintGoal"
+              ]
+            }
+          ]
+        },
+        {
+          "basePriority": 0,
+          "jobs": [
+            {
+              "priority": 0.02,
+              "goals": [
+                "FleeGoal"
+              ]
+            }
+          ]
+        },
+        {
+          "basePriority": 14,
+          "jobs": [
+            {
+              "priority": 0.01,
+              "goals": [
+                "HungerGoal"
+              ]
+            },
+            {
+              "priority": 0.03,
+              "goals": [
+                "FaithGoal"
+              ]
+            },
+            {
+              "priority": 0.02,
+              "goals": [
+                "DrinkGoal"
+              ]
+            },
+            {
+              "priority": 0.04,
+              "goals": [
+                "EntertainmentGoal"
+              ]
+            }
+          ]
+        },
+        {
+          "basePriority": 15,
+          "jobs": [
+            {
+              "priority": 0.543,
+              "goals": [
+                "RestGoal"
+              ]
+            }
+          ]
+        },
+        {
+          "basePriority": 18,
+          "jobs": [
+            {
+              "priority": 0.03,
+              "goals": [
+                "IdleGoal"
+              ]
+            }
+          ]
+        },
+        {
+          "basePriority": 24,
+          "jobs": [
+            {
+              "priority": 0.05,
+              "goals": [
+                "SleepGoal"
+              ]
+            }
+          ]
+        },
+        {
+          "basePriority": 25,
+          "jobs": [
+            {
+              "priority": 0.01,
+              "goals": [
+                "VomitGoal"
+              ]
+            }
+          ]
+        },
+        {
+          "basePriority": 30,
+          "jobs": [
+            {
+              "priority": 0.03,
+              "goals": [
+                "LeaveMapGoal"
+              ]
+            }
+          ]
+        },
+        {
+          "basePriority": 31,
+          "jobs": [
+            {
+              "priority": 0.01,
+              "goals": [
+                "AutoEquipGoal"
+              ]
+            }
+          ]
+        },
+        {
+          "basePriority": 35,
+          "jobs": [
+            {
+              "priority": 0.548,
+              "goals": [
+                "DigGoal"
+              ]
+            },
+            {
+              "priority": 0.545,
+              "goals": [
+                "DeconstructGoal",
+                "ConstructBuildingGoal",
+                "DeliverBuildingMaterialsGoal",
+                "RepairBuildingGoal",
+                "RelocateResourcePileGoal"
+              ]
+            },
+            {
+              "priority": 0.55,
+              "goals": [
+                "ProductionCookingGoal",
+                "DeliverCookingResourcesGoal"
+              ]
+            },
+            {
+              "priority": 0.551,
+              "goals": [
+                "ProductionCraftingGoal",
+                "DeliverCraftingResourcesGoal",
+                "DeliverCraftingResourceDismantleGoal"
+              ]
+            },
+            {
+              "priority": 0.552,
+              "goals": [
+                "ProductionSmithingGoal",
+                "DeliverSmithingResourcesGoal",
+                "DeliverSmithingResourceDismantleGoal"
+              ]
+            },
+            {
+              "priority": 0.553,
+              "goals": [
+                "ProductionCarpentryGoal",
+                "DeliverCarpentryResourcesGoal",
+                "DeliverCarpentryResourceDismantleGoal"
+              ]
+            },
+            {
+              "priority": 0.554,
+              "goals": [
+                "ProductionTailoringGoal",
+                "DeliverTailoringResourcesGoal",
+                "DeliverTailoringResourceDismantleGoal"
+              ]
+            },
+            {
+              "priority": 0.555,
+              "goals": [
+                "ProductionResearchGoal",
+                "DeliverResearchResourcesGoal"
+              ]
+            },
+            {
+              "priority": 0.546,
+              "goals": [
+                "PlantCropsGoal"
+              ]
+            },
+            {
+              "priority": 0.547,
+              "goals": [
+                "HarvestGoal"
+              ]
+            },
+            {
+              "priority": 0.01,
+              "goals": [
+                "AttackGoal",
+                "OperateTrebuchetGoal"
+              ]
+            },
+            {
+              "priority": 0.544,
+              "goals": [
+                "HuntingGoal"
+              ]
+            },
+            {
+              "priority": 0.556,
+              "goals": [
+                "ChangeDoorLockStateGoal",
+                "SetupTrapGoal",
+                "ChangeLockStateGoal"
+              ]
+            },
+            {
+              "priority": 0.557,
+              "goals": [
+                "BuryBodyGoal",
+                "DeliverCarcassDisposalResourcesGoal",
+                "ProductionCarcassDisposalGoal",
+                "StockpileHaulingGoal"
+              ]
+            },
+            {
+              "priority": 0.542,
+              "goals": [
+                "CarryToBedGoal",
+                "TendWoundsGoal",
+                "DeliverChemistryResourcesGoal",
+                "ProductionChemistryGoal"
+              ]
+            },
+            {
+              "priority": 0.549,
+              "goals": [
+                "ChopTreeGoal"
+              ]
+            }
+          ]
+        },
+        {
+          "basePriority": 40,
+          "jobs": [
+            {
+              "priority": 0.05,
+              "goals": [
+                "EquipGoal"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hourType": 5,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 0,
+        "a": 1
+      },
+      "isHidden": true,
+      "settings": [
+        {
+          "DebugName": "goal_sleep_setting",
+          "type": 1,
+          "value": "SleepAction",
+          "parameters": [
+            {
+              "id": "SleepType",
+              "value": "Interupt"
+            }
+          ]
+        },
+        {
+          "DebugName": "goal_disable_setting",
+          "type": 1,
+          "value": "DisableBelow",
+          "parameters": [
+            {
+              "id": "Priority",
+              "value": 19
+            }
+          ]
+        }
+      ],
+      "priorities": [
+        {
+          "basePriority": -10,
+          "jobs": [
+            {
+              "priority": 0.02,
+              "goals": [
+                "FaintGoal"
+              ]
+            }
+          ]
+        },
+        {
+          "basePriority": 0,
+          "jobs": [
+            {
+              "priority": 0.03,
+              "goals": [
+                "AttackGoal",
+                "OperateTrebuchetGoal"
+              ]
+            },
+            {
+              "priority": 0.04,
+              "goals": [
+                "EquipGoal"
+              ]
+            }
+          ]
+        },
+        {
+          "basePriority": 21,
+          "jobs": [
+            {
+              "priority": 0.01,
+              "goals": [
+                "LeaveMapGoal"
+              ]
+            }
+          ]
+        },
+        {
+          "basePriority": 24,
+          "jobs": [
+            {
+              "priority": 0.01,
+              "goals": [
+                "HungerGoal"
+              ]
+            }
+          ]
+        },
+        {
+          "basePriority": 25,
+          "jobs": [
+            {
+              "priority": 0.02,
+              "goals": [
+                "SleepGoal"
+              ]
+            },
+            {
+              "priority": 0.01,
+              "goals": [
+                "VomitGoal"
+              ]
+            }
+          ]
+        },
+        {
+          "basePriority": 26,
+          "jobs": [
+            {
+              "priority": 0.548,
+              "goals": [
+                "DigGoal"
+              ]
+            },
+            {
+              "priority": 0.545,
+              "goals": [
+                "DeconstructGoal",
+                "ConstructBuildingGoal",
+                "DeliverBuildingMaterialsGoal",
+                "RepairBuildingGoal",
+                "RelocateResourcePileGoal"
+              ]
+            },
+            {
+              "priority": 0.55,
+              "goals": [
+                "ProductionCookingGoal",
+                "DeliverCookingResourcesGoal"
+              ]
+            },
+            {
+              "priority": 0.551,
+              "goals": [
+                "ProductionCraftingGoal",
+                "DeliverCraftingResourcesGoal",
+                "DeliverCraftingResourceDismantleGoal"
+              ]
+            },
+            {
+              "priority": 0.552,
+              "goals": [
+                "ProductionSmithingGoal",
+                "DeliverSmithingResourcesGoal",
+                "DeliverSmithingResourceDismantleGoal"
+              ]
+            },
+            {
+              "priority": 0.553,
+              "goals": [
+                "ProductionCarpentryGoal",
+                "DeliverCarpentryResourcesGoal",
+                "DeliverCarpentryResourceDismantleGoal"
+              ]
+            },
+            {
+              "priority": 0.554,
+              "goals": [
+                "ProductionTailoringGoal",
+                "DeliverTailoringResourcesGoal",
+                "DeliverTailoringResourceDismantleGoal"
+              ]
+            },
+            {
+              "priority": 0.555,
+              "goals": [
+                "ProductionResearchGoal",
+                "DeliverResearchResourcesGoal"
+              ]
+            },
+            {
+              "priority": 0.546,
+              "goals": [
+                "PlantCropsGoal"
+              ]
+            },
+            {
+              "priority": 0.547,
+              "goals": [
+                "HarvestGoal"
+              ]
+            },
+            {
+              "priority": 0.544,
+              "goals": [
+                "HuntingGoal"
+              ]
+            },
+            {
+              "priority": 0.556,
+              "goals": [
+                "ChangeDoorLockStateGoal",
+                "SetupTrapGoal",
+                "ChangeLockStateGoal"
+              ]
+            },
+            {
+              "priority": 0.557,
+              "goals": [
+                "BuryBodyGoal",
+                "DeliverCarcassDisposalResourcesGoal",
+                "ProductionCarcassDisposalGoal",
+                "StockpileHaulingGoal"
+              ]
+            },
+            {
+              "priority": 0.542,
+              "goals": [
+                "CarryToBedGoal",
+                "TendWoundsGoal",
+                "DeliverChemistryResourcesGoal",
+                "ProductionChemistryGoal"
+              ]
+            },
+            {
+              "priority": 0.549,
+              "goals": [
+                "ChopTreeGoal"
+              ]
+            },
+            {
+              "priority": 0.01,
+              "goals": [
+                "FaithGoal"
+              ]
+            },
+            {
+              "priority": 0.06,
+              "goals": [
+                "DrinkGoal"
+              ]
+            },
+            {
+              "priority": 0.03,
+              "goals": [
+                "EntertainmentGoal"
+              ]
+            }
+          ]
+        },
+        {
+          "basePriority": 27,
+          "jobs": [
+            {
+              "priority": 0.03,
+              "goals": [
+                "IdleGoal"
+              ]
+            }
+          ]
+        },
+        {
+          "basePriority": 31,
+          "jobs": [
+            {
+              "priority": 0.01,
+              "goals": [
+                "AutoEquipGoal"
+              ]
+            }
+          ]
+        },
+        {
+          "basePriority": 35,
+          "jobs": [
+            {
+              "priority": 0.543,
+              "goals": [
+                "RestGoal"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hourType": 3,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 0,
+        "a": 1
+      },
+      "settings": [
+        {
+          "DebugName": "goal_sleep_setting",
+          "type": 1,
+          "value": "SleepAction",
+          "parameters": [
+            {
+              "id": "SleepType",
+              "value": "Interupt"
+            }
+          ]
+        },
+        {
+          "DebugName": "goal_disable_setting",
+          "type": 1,
+          "value": "DisableBelow",
+          "parameters": [
+            {
+              "id": "Priority",
+              "value": 19
+            }
+          ]
+        }
+      ],
+      "priorities": [
+        {
+          "basePriority": -10,
+          "jobs": [
+            {
+              "priority": 0.01,
+              "goals": [
+                "FaintGoal"
+              ]
+            }
+          ]
+        },
+        {
+          "basePriority": 0,
+          "jobs": [
+            {
+              "priority": 0.06,
+              "goals": [
+                "AttackGoal",
+                "OperateTrebuchetGoal"
+              ]
+            },
+            {
+              "priority": 0.02,
+              "goals": [
+                "FleeGoal"
+              ]
+            },
+            {
+              "priority": 0.05,
+              "goals": [
+                "EquipGoal"
+              ]
+            }
+          ]
+        },
+        {
+          "basePriority": 13,
+          "jobs": [
+            {
+              "priority": 0.543,
+              "goals": [
+                "RestGoal"
+              ]
+            },
+            {
+              "priority": 0.08,
+              "goals": [
+                "AutoEquipGoal"
+              ]
+            }
+          ]
+        },
+        {
+          "basePriority": 14,
+          "jobs": [
+            {
+              "priority": 0.01,
+              "goals": [
+                "HungerGoal"
+              ]
+            },
+            {
+              "priority": 0.06,
+              "goals": [
+                "FaithGoal"
+              ]
+            },
+            {
+              "priority": 0.05,
+              "goals": [
+                "DrinkGoal"
+              ]
+            },
+            {
+              "priority": 0.07,
+              "goals": [
+                "EntertainmentGoal"
+              ]
+            }
+          ]
+        },
+        {
+          "basePriority": 17,
+          "jobs": [
+            {
+              "priority": 0.548,
+              "goals": [
+                "DigGoal"
+              ]
+            },
+            {
+              "priority": 0.545,
+              "goals": [
+                "DeconstructGoal",
+                "ConstructBuildingGoal",
+                "DeliverBuildingMaterialsGoal",
+                "RepairBuildingGoal",
+                "RelocateResourcePileGoal"
+              ]
+            },
+            {
+              "priority": 0.55,
+              "goals": [
+                "ProductionCookingGoal",
+                "DeliverCookingResourcesGoal"
+              ]
+            },
+            {
+              "priority": 0.551,
+              "goals": [
+                "ProductionCraftingGoal",
+                "DeliverCraftingResourcesGoal",
+                "DeliverCraftingResourceDismantleGoal"
+              ]
+            },
+            {
+              "priority": 0.552,
+              "goals": [
+                "ProductionSmithingGoal",
+                "DeliverSmithingResourcesGoal",
+                "DeliverSmithingResourceDismantleGoal"
+              ]
+            },
+            {
+              "priority": 0.553,
+              "goals": [
+                "ProductionCarpentryGoal",
+                "DeliverCarpentryResourcesGoal",
+                "DeliverCarpentryResourceDismantleGoal"
+              ]
+            },
+            {
+              "priority": 0.554,
+              "goals": [
+                "ProductionTailoringGoal",
+                "DeliverTailoringResourcesGoal",
+                "DeliverTailoringResourceDismantleGoal"
+              ]
+            },
+            {
+              "priority": 0.555,
+              "goals": [
+                "ProductionResearchGoal",
+                "DeliverResearchResourcesGoal"
+              ]
+            },
+            {
+              "priority": 0.546,
+              "goals": [
+                "PlantCropsGoal"
+              ]
+            },
+            {
+              "priority": 0.547,
+              "goals": [
+                "HarvestGoal"
+              ]
+            },
+            {
+              "priority": 0.544,
+              "goals": [
+                "HuntingGoal"
+              ]
+            },
+            {
+              "priority": 0.556,
+              "goals": [
+                "ChangeDoorLockStateGoal",
+                "SetupTrapGoal",
+                "ChangeLockStateGoal"
+              ]
+            },
+            {
+              "priority": 0.557,
+              "goals": [
+                "BuryBodyGoal",
+                "DeliverCarcassDisposalResourcesGoal",
+                "ProductionCarcassDisposalGoal",
+                "StockpileHaulingGoal"
+              ]
+            },
+            {
+              "priority": 0.542,
+              "goals": [
+                "CarryToBedGoal",
+                "TendWoundsGoal",
+                "DeliverChemistryResourcesGoal",
+                "ProductionChemistryGoal"
+              ]
+            },
+            {
+              "priority": 0.549,
+              "goals": [
+                "ChopTreeGoal"
+              ]
+            }
+          ]
+        },
+        {
+          "basePriority": 18,
+          "jobs": [
+            {
+              "priority": 0.03,
+              "goals": [
+                "IdleGoal"
+              ]
+            }
+          ]
+        },
+        {
+          "basePriority": 21,
+          "jobs": [
+            {
+              "priority": 0.09,
+              "goals": [
+                "SleepGoal"
+              ]
+            },
+            {
+              "priority": 0.01,
+              "goals": [
+                "LeaveMapGoal"
+              ]
+            }
+          ]
+        },
+        {
+          "basePriority": 25,
+          "jobs": [
+            {
+              "priority": 0.01,
+              "goals": [
+                "VomitGoal"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

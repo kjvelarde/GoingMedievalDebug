@@ -1,0 +1,135 @@
+{
+	"repository": [
+		{
+			"id": "Dirt",
+			"mapMaskColor": "#00000000",
+			"mapMaskBlock": 0,
+			"maskValue": 1,
+			"health": "400",
+			"digAmount": "1",
+			"digMarker": "DigMarkerEmpty",
+			"thermalModelID": "ground"
+		}, 
+		{
+			"id": "Grass",
+			"mapMaskColor": "#ff000000",
+			"mapMaskBlock": 0,
+			"maskValue": 2,
+			"health": "400",
+			"digAmount": "1",
+			"digMarker": "DigMarkerEmpty",
+			"thermalModelID": "ground"
+		}, 	
+		{
+			"id": "Sand",
+			"mapMaskColor": "#00ff0000",
+			"mapMaskBlock": 0,
+			"maskValue": 4,
+			"health": "400",
+			"digAmount": "1",
+			"digMarker": "DigMarkerSand",
+			"thermalModelID": "ground"
+		},	
+		{
+			"id": "Clay",
+			"mapMaskColor": "#0000ff00",
+			"mapMaskBlock": 0,
+			"maskValue": 8,
+			"mustBeInBounds": true,
+			"health": "400",
+			"digAmount": "4",
+			"digMarker": "DigMarkerClay",
+			"thermalModelID": "ground"
+		}, 	
+		{
+			"id": "Salt",
+			"mapMaskColor": "#000000ff",
+			"mapMaskBlock": 0,
+			"maskValue": 16,
+			"mustBeInBounds": true,
+			"health": "1000",
+			"digAmount": "4",
+			"digMarker": "DigMarkerSalt",
+			"thermalModelID": "ground"
+		}, 	
+		{
+			"id": "Limestone",
+			"mapMaskColor": "#ff000000",
+			"mapMaskBlock": 1,
+			"maskValue": 32,
+			"mustBeInBounds": true,
+			"health": "1600",
+			"digAmount": "4",
+			"digMarker": "DigMarkerLimestone",
+			"thermalModelID": "ground"
+		}, 
+		{
+			"id": "Granite",
+			"mapMaskColor": "#00ff0000",
+			"mapMaskBlock": 1,
+			"maskValue": 64,
+			"mustBeInBounds": true,
+			"health": "-1",
+			"digAmount": "4",
+			"digMarker": "DigMarkerGranite",
+			"thermalModelID": "ground"
+		},		
+		{
+			"id": "Gold",
+			"mapMaskColor": "#0000ff00",
+			"mapMaskBlock": 1,
+			"maskValue": 128,
+			"mustBeInBounds": true,
+			"health": "1300",
+			"digAmount": "4",
+			"digMarker": "DigMarkerGold",
+			"thermalModelID": "ground"
+		}, 		
+		{
+			"id": "Silver",
+			"mapMaskColor": "#000000ff",
+			"mapMaskBlock": 1,
+			"maskValue": 256,
+			"mustBeInBounds": true,
+			"health": "1300",
+			"digAmount": "4",
+			"digMarker": "DigMarkerSilver",
+			"thermalModelID": "ground"
+		},  		
+		{
+			"id": "Iron",
+			"mapMaskColor": "#ff000000",
+			"mapMaskBlock": 2,
+			"maskValue": 512,
+			"mustBeInBounds": true,
+			"health": "1800",
+			"digAmount": "4",
+			"digMarker": "DigMarkerIron",
+			"thermalModelID": "ground"
+		},
+		{
+			"id": "Coal",
+			"mapMaskColor": "#00ff0000",
+			"mapMaskBlock": 2,
+			"maskValue": 1024,
+			"mustBeInBounds": true,
+			"health": "1100",
+			"digAmount": "4",
+			"digMarker": "DigMarkerCoal",
+			"thermalModelID": "ground"
+		},
+		{
+			"id": "Rocky",
+			"mapMaskColor": "#0000ff00",
+			"mapMaskBlock": 2,
+			"maskValue": 2048,
+			"mustBeInBounds": true,
+			"health": "900",
+			"digAmount": "4",
+			"digMarker": "DigMarkerRocky",
+			"thermalModelID": "ground"
+		}
+	]
+}
+
+

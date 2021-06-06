@@ -1,0 +1,805 @@
+{
+  "repository": [
+    {
+      "id": "forest_bandit_basic_easy",
+      "category": "forest_bandits",
+      "type": "basic",
+      "price": 40,
+      "prefabMale": "generic_male",
+      "prefabFemale": "generic_male",
+      "appearanceID": "default",
+      "availableEquipmentSlots": 31,
+      "equipmentID": "forest_bandit_basic_easy",
+      "age": {
+        "min": 18,
+        "max": 50
+      },
+      "height": {
+        "min": 150,
+        "max": 170
+      },
+      "weightCoefficient": {
+        "min": 17,
+        "max": 30
+      },
+      "targetType": 2,
+      "cantWalkOnTags": [
+        1,
+        2,
+        4
+      ]
+    },
+    {
+      "id": "forest_bandit_basic_medium",
+      "category": "forest_bandits",
+      "type": "basic",
+      "price": 65,
+      "priceThreshold": 0.3,
+      "prefabMale": "generic_male",
+      "prefabFemale": "generic_male",
+      "appearanceID": "default",
+      "availableEquipmentSlots": 31,
+      "equipmentID": "forest_bandit_basic_medium",
+      "age": {
+        "min": 22,
+        "max": 50
+      },
+      "height": {
+        "min": 150,
+        "max": 170
+      },
+      "weightCoefficient": {
+        "min": 17,
+        "max": 30
+      },
+      "targetType": 2,
+      "cantWalkOnTags": [
+        1,
+        2,
+        4
+      ]
+    },
+    {
+      "id": "forest_bandit_basic_hard",
+      "category": "forest_bandits",
+      "type": "basic",
+      "price": 90,
+      "priceThreshold": 0.2,
+      "prefabMale": "generic_male",
+      "prefabFemale": "generic_male",
+      "appearanceID": "default",
+      "availableEquipmentSlots": 31,
+      "equipmentID": "forest_bandit_basic_hard",
+      "age": {
+        "min": 25,
+        "max": 50
+      },
+      "height": {
+        "min": 160,
+        "max": 170
+      },
+      "weightCoefficient": {
+        "min": 17,
+        "max": 30
+      },
+      "targetType": 2,
+      "cantWalkOnTags": [
+        1,
+        2,
+        4
+      ]
+    },
+    {
+      "id": "forest_bandit_archer_easy",
+      "category": "forest_bandits",
+      "type": "archer",
+      "price": 40,
+      "prefabMale": "generic_male",
+      "prefabFemale": "generic_male",
+      "appearanceID": "default",
+      "availableEquipmentSlots": 31,
+      "equipmentID": "forest_bandit_archer_easy",
+      "age": {
+        "min": 18,
+        "max": 50
+      },
+      "height": {
+        "min": 140,
+        "max": 175
+      },
+      "weightCoefficient": {
+        "min": 19,
+        "max": 25
+      },
+      "targetType": 2,
+      "cantWalkOnTags": [
+        1,
+        2,
+        4
+      ]
+    },
+    {
+      "id": "forest_bandit_archer_medium",
+      "category": "forest_bandits",
+      "type": "archer",
+      "price": 65,
+      "priceThreshold": 0.3,
+      "prefabMale": "generic_male",
+      "prefabFemale": "generic_male",
+      "appearanceID": "default",
+      "availableEquipmentSlots": 31,
+      "equipmentID": "forest_bandit_archer_medium",
+      "age": {
+        "min": 22,
+        "max": 50
+      },
+      "height": {
+        "min": 140,
+        "max": 175
+      },
+      "weightCoefficient": {
+        "min": 19,
+        "max": 25
+      },
+      "targetType": 2,
+      "cantWalkOnTags": [
+        1,
+        2,
+        4
+      ]
+    },
+    {
+      "id": "forest_bandit_archer_hard",
+      "category": "forest_bandits",
+      "type": "archer",
+      "price": 90,
+      "priceThreshold": 0.2,
+      "prefabMale": "generic_male",
+      "prefabFemale": "generic_male",
+      "appearanceID": "default",
+      "availableEquipmentSlots": 31,
+      "equipmentID": "forest_bandit_archer_hard",
+      "age": {
+        "min": 25,
+        "max": 50
+      },
+      "height": {
+        "min": 170,
+        "max": 175
+      },
+      "weightCoefficient": {
+        "min": 19,
+        "max": 25
+      },
+      "targetType": 2,
+      "cantWalkOnTags": [
+        1,
+        2,
+        4
+      ]
+    },
+    {
+      "id": "forest_bandit_heavy_easy",
+      "category": "forest_bandits",
+      "type": "heavy",
+      "price": 40,
+      "prefabMale": "generic_male",
+      "prefabFemale": "generic_male",
+      "appearanceID": "default",
+      "availableEquipmentSlots": 31,
+      "equipmentID": "forest_bandit_heavy_easy",
+      "age": {
+        "min": 18,
+        "max": 50
+      },
+      "height": {
+        "min": 200,
+        "max": 210
+      },
+      "weightCoefficient": {
+        "min": 32,
+        "max": 37
+      },
+      "targetType": 2,
+      "cantWalkOnTags": [
+        1,
+        2,
+        4
+      ]
+    },
+    {
+      "id": "forest_bandit_heavy_medium",
+      "category": "forest_bandits",
+      "type": "heavy",
+      "price": 65,
+      "priceThreshold": 0.3,
+      "prefabMale": "generic_male",
+      "prefabFemale": "generic_male",
+      "appearanceID": "default",
+      "availableEquipmentSlots": 31,
+      "equipmentID": "forest_bandit_heavy_medium",
+      "age": {
+        "min": 22,
+        "max": 50
+      },
+      "height": {
+        "min": 200,
+        "max": 210
+      },
+      "weightCoefficient": {
+        "min": 32,
+        "max": 37
+      },
+      "targetType": 2,
+      "cantWalkOnTags": [
+        1,
+        2,
+        4
+      ]
+    },
+    {
+      "id": "forest_bandit_heavy_hard",
+      "category": "forest_bandits",
+      "type": "heavy",
+      "price": 90,
+      "priceThreshold": 0.2,
+      "prefabMale": "generic_male",
+      "prefabFemale": "generic_male",
+      "appearanceID": "default",
+      "availableEquipmentSlots": 31,
+      "equipmentID": "forest_bandit_heavy_hard",
+      "age": {
+        "min": 25,
+        "max": 50
+      },
+      "height": {
+        "min": 200,
+        "max": 210
+      },
+      "weightCoefficient": {
+        "min": 32,
+        "max": 37
+      },
+      "targetType": 2,
+      "cantWalkOnTags": [
+        1,
+        2,
+        4
+      ]
+    },
+    {
+      "id": "progeny_basic_easy",
+      "category": "progeny",
+      "type": "basic",
+      "price": 40,
+      "prefabMale": "generic_male",
+      "prefabFemale": "generic_male",
+      "appearanceID": "default",
+      "availableEquipmentSlots": 31,
+      "equipmentID": "progeny_basic_easy",
+      "age": {
+        "min": 18,
+        "max": 50
+      },
+      "height": {
+        "min": 150,
+        "max": 175
+      },
+      "weightCoefficient": {
+        "min": 17,
+        "max": 30
+      },
+      "targetType": 2,
+      "cantWalkOnTags": [
+        1,
+        2,
+        4
+      ]
+    },
+    {
+      "id": "progeny_basic_med",
+      "category": "progeny",
+      "type": "basic",
+      "price": 65,
+      "priceThreshold": 0.3,
+      "prefabMale": "generic_male",
+      "prefabFemale": "generic_male",
+      "appearanceID": "default",
+      "availableEquipmentSlots": 31,
+      "equipmentID": "progeny_basic_medium",
+      "age": {
+        "min": 22,
+        "max": 50
+      },
+      "height": {
+        "min": 150,
+        "max": 170
+      },
+      "weightCoefficient": {
+        "min": 17,
+        "max": 30
+      },
+      "targetType": 2,
+      "cantWalkOnTags": [
+        1,
+        2,
+        4
+      ]
+    },
+    {
+      "id": "progeny_basic_hard",
+      "category": "progeny",
+      "type": "basic",
+      "price": 90,
+      "priceThreshold": 0.2,
+      "prefabMale": "generic_male",
+      "prefabFemale": "generic_male",
+      "appearanceID": "default",
+      "availableEquipmentSlots": 31,
+      "equipmentID": "progeny_basic_hard",
+      "age": {
+        "min": 25,
+        "max": 50
+      },
+      "height": {
+        "min": 150,
+        "max": 170
+      },
+      "weightCoefficient": {
+        "min": 17,
+        "max": 30
+      },
+      "targetType": 2,
+      "cantWalkOnTags": [
+        1,
+        2,
+        4
+      ]
+    },
+    {
+      "id": "progeny_archer_easy",
+      "category": "progeny",
+      "type": "archer",
+      "price": 40,
+      "prefabMale": "generic_male",
+      "prefabFemale": "generic_male",
+      "appearanceID": "default",
+      "availableEquipmentSlots": 31,
+      "equipmentID": "progeny_archer_easy",
+      "age": {
+        "min": 18,
+        "max": 50
+      },
+      "height": {
+        "min": 160,
+        "max": 175
+      },
+      "weightCoefficient": {
+        "min": 19,
+        "max": 25
+      },
+      "targetType": 2,
+      "cantWalkOnTags": [
+        1,
+        2,
+        4
+      ]
+    },
+    {
+      "id": "progeny_archer_med",
+      "category": "progeny",
+      "type": "archer",
+      "price": 65,
+      "priceThreshold": 0.3,
+      "prefabMale": "generic_male",
+      "prefabFemale": "generic_male",
+      "appearanceID": "default",
+      "availableEquipmentSlots": 31,
+      "equipmentID": "progeny_archer_medium",
+      "age": {
+        "min": 22,
+        "max": 50
+      },
+      "height": {
+        "min": 140,
+        "max": 175
+      },
+      "weightCoefficient": {
+        "min": 19,
+        "max": 25
+      },
+      "targetType": 2,
+      "cantWalkOnTags": [
+        1,
+        2,
+        4
+      ]
+    },
+    {
+      "id": "progeny_archer_hard",
+      "category": "progeny",
+      "type": "archer",
+      "price": 90,
+      "priceThreshold": 0.2,
+      "prefabMale": "generic_male",
+      "prefabFemale": "generic_male",
+      "appearanceID": "default",
+      "availableEquipmentSlots": 31,
+      "equipmentID": "progeny_archer_hard",
+      "age": {
+        "min": 25,
+        "max": 50
+      },
+      "height": {
+        "min": 170,
+        "max": 175
+      },
+      "weightCoefficient": {
+        "min": 19,
+        "max": 25
+      },
+      "targetType": 2,
+      "cantWalkOnTags": [
+        1,
+        2,
+        4
+      ]
+    },
+    {
+      "id": "progeny_heavy_easy",
+      "category": "progeny",
+      "type": "heavy",
+      "price": 40,
+      "prefabMale": "generic_male",
+      "prefabFemale": "generic_male",
+      "appearanceID": "default",
+      "availableEquipmentSlots": 31,
+      "equipmentID": "progeny_heavy_easy",
+      "age": {
+        "min": 18,
+        "max": 50
+      },
+      "height": {
+        "min": 200,
+        "max": 210
+      },
+      "weightCoefficient": {
+        "min": 32,
+        "max": 37
+      },
+      "targetType": 2,
+      "cantWalkOnTags": [
+        1,
+        2,
+        4
+      ]
+    },
+    {
+      "id": "progeny_heavy_med",
+      "category": "progeny",
+      "type": "heavy",
+      "price": 65,
+      "priceThreshold": 0.3,
+      "prefabMale": "generic_male",
+      "prefabFemale": "generic_male",
+      "appearanceID": "default",
+      "availableEquipmentSlots": 31,
+      "equipmentID": "progeny_heavy_medium",
+      "age": {
+        "min": 22,
+        "max": 50
+      },
+      "height": {
+        "min": 200,
+        "max": 210
+      },
+      "weightCoefficient": {
+        "min": 32,
+        "max": 37
+      },
+      "targetType": 2,
+      "cantWalkOnTags": [
+        1,
+        2,
+        4
+      ]
+    },
+    {
+      "id": "progeny_heavy_hard",
+      "category": "progeny",
+      "type": "heavy",
+      "price": 90,
+      "priceThreshold": 0.2,
+      "prefabMale": "generic_male",
+      "prefabFemale": "generic_male",
+      "appearanceID": "default",
+      "availableEquipmentSlots": 31,
+      "equipmentID": "progeny_heavy_hard",
+      "age": {
+        "min": 25,
+        "max": 50
+      },
+      "height": {
+        "min": 200,
+        "max": 210
+      },
+      "weightCoefficient": {
+        "min": 32,
+        "max": 37
+      },
+      "targetType": 2,
+      "cantWalkOnTags": [
+        1,
+        2,
+        4
+      ]
+    },
+    {
+      "id": "third_basic_easy",
+      "category": "third_coming",
+      "type": "basic",
+      "price": 40,
+      "prefabMale": "generic_male",
+      "prefabFemale": "generic_male",
+      "appearanceID": "default",
+      "availableEquipmentSlots": 31,
+      "equipmentID": "progeny_basic_easy",
+      "age": {
+        "min": 18,
+        "max": 50
+      },
+      "height": {
+        "min": 150,
+        "max": 175
+      },
+      "weightCoefficient": {
+        "min": 17,
+        "max": 30
+      },
+      "targetType": 2,
+      "cantWalkOnTags": [
+        1,
+        2,
+        4
+      ]
+    },
+    {
+      "id": "third_basic_med",
+      "category": "third_coming",
+      "type": "basic",
+      "price": 65,
+      "priceThreshold": 0.3,
+      "prefabMale": "generic_male",
+      "prefabFemale": "generic_male",
+      "appearanceID": "default",
+      "availableEquipmentSlots": 31,
+      "equipmentID": "progeny_basic_medium",
+      "age": {
+        "min": 22,
+        "max": 50
+      },
+      "height": {
+        "min": 150,
+        "max": 175
+      },
+      "weightCoefficient": {
+        "min": 17,
+        "max": 30
+      },
+      "targetType": 2,
+      "cantWalkOnTags": [
+        1,
+        2,
+        4
+      ]
+    },
+    {
+      "id": "third_basic_hard",
+      "category": "third_coming",
+      "type": "basic",
+      "price": 90,
+      "priceThreshold": 0.2,
+      "prefabMale": "generic_male",
+      "prefabFemale": "generic_male",
+      "appearanceID": "default",
+      "availableEquipmentSlots": 31,
+      "equipmentID": "progeny_basic_hard",
+      "age": {
+        "min": 25,
+        "max": 50
+      },
+      "height": {
+        "min": 180,
+        "max": 175
+      },
+      "weightCoefficient": {
+        "min": 17,
+        "max": 30
+      },
+      "targetType": 2,
+      "cantWalkOnTags": [
+        1,
+        2,
+        4
+      ]
+    },
+    {
+      "id": "third_archer_easy",
+      "category": "third_coming",
+      "type": "archer",
+      "price": 40,
+      "prefabMale": "generic_male",
+      "prefabFemale": "generic_male",
+      "appearanceID": "default",
+      "availableEquipmentSlots": 31,
+      "equipmentID": "progeny_archer_easy",
+      "age": {
+        "min": 18,
+        "max": 50
+      },
+      "height": {
+        "min": 140,
+        "max": 175
+      },
+      "weightCoefficient": {
+        "min": 19,
+        "max": 25
+      },
+      "targetType": 2,
+      "cantWalkOnTags": [
+        1,
+        2,
+        4
+      ]
+    },
+    {
+      "id": "third_archer_med",
+      "category": "third_coming",
+      "type": "archer",
+      "price": 65,
+      "priceThreshold": 0.3,
+      "prefabMale": "generic_male",
+      "prefabFemale": "generic_male",
+      "appearanceID": "default",
+      "availableEquipmentSlots": 31,
+      "equipmentID": "progeny_archer_medium",
+      "age": {
+        "min": 22,
+        "max": 50
+      },
+      "height": {
+        "min": 140,
+        "max": 175
+      },
+      "weightCoefficient": {
+        "min": 19,
+        "max": 25
+      },
+      "targetType": 2,
+      "cantWalkOnTags": [
+        1,
+        2,
+        4
+      ]
+    },
+    {
+      "id": "third_archer_hard",
+      "category": "third_coming",
+      "type": "archer",
+      "price": 90,
+      "priceThreshold": 0.2,
+      "prefabMale": "generic_male",
+      "prefabFemale": "generic_male",
+      "appearanceID": "default",
+      "availableEquipmentSlots": 31,
+      "equipmentID": "progeny_archer_hard",
+      "age": {
+        "min": 25,
+        "max": 50
+      },
+      "height": {
+        "min": 170,
+        "max": 175
+      },
+      "weightCoefficient": {
+        "min": 19,
+        "max": 25
+      },
+      "targetType": 2,
+      "cantWalkOnTags": [
+        1,
+        2,
+        4
+      ]
+    },
+    {
+      "id": "third_heavy_easy",
+      "category": "third_coming",
+      "type": "heavy",
+      "price": 40,
+      "prefabMale": "generic_male",
+      "prefabFemale": "generic_male",
+      "appearanceID": "default",
+      "availableEquipmentSlots": 31,
+      "equipmentID": "progeny_heavy_easy",
+      "age": {
+        "min": 18,
+        "max": 50
+      },
+      "height": {
+        "min": 200,
+        "max": 210
+      },
+      "weightCoefficient": {
+        "min": 32,
+        "max": 37
+      },
+      "targetType": 2,
+      "cantWalkOnTags": [
+        1,
+        2,
+        4
+      ]
+    },
+    {
+      "id": "third_heavy_med",
+      "category": "third_coming",
+      "type": "heavy",
+      "price": 65,
+      "priceThreshold": 0.3,
+      "prefabMale": "generic_male",
+      "prefabFemale": "generic_male",
+      "appearanceID": "default",
+      "availableEquipmentSlots": 31,
+      "equipmentID": "progeny_heavy_medium",
+      "age": {
+        "min": 22,
+        "max": 50
+      },
+      "height": {
+        "min": 200,
+        "max": 210
+      },
+      "weightCoefficient": {
+        "min": 32,
+        "max": 37
+      },
+      "targetType": 2,
+      "cantWalkOnTags": [
+        1,
+        2,
+        4
+      ]
+    },
+    {
+      "id": "third_heavy_hard",
+      "category": "third_coming",
+      "type": "heavy",
+      "price": 90,
+      "priceThreshold": 0.2,
+      "prefabMale": "generic_male",
+      "prefabFemale": "generic_male",
+      "appearanceID": "default",
+      "availableEquipmentSlots": 31,
+      "equipmentID": "progeny_heavy_hard",
+      "age": {
+        "min": 25,
+        "max": 50
+      },
+      "height": {
+        "min": 200,
+        "max": 210
+      },
+      "weightCoefficient": {
+        "min": 32,
+        "max": 37
+      },
+      "targetType": 2,
+      "cantWalkOnTags": [
+        1,
+        2,
+        4
+      ]
+    }
+  ]
+}

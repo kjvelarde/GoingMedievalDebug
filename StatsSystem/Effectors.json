@@ -1,0 +1,5502 @@
+{
+  "repository": [
+    {
+      "name": "SlightlyHungry",
+      "category": "hunger",
+      "uiGroup": 1,
+      "effects": [
+        {
+          "debug_name": "AllowFood",
+          "type": 2,
+          "parameters": [
+            {
+              "key": "AllowFoodCategory",
+              "value": "12"
+            }
+          ]
+        },
+        {
+          "debug_name": "MoodNegativeSlightlyHungry",
+          "type": 4,
+          "parameters": [
+            {
+              "key": "BaseValue",
+              "value": "-2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Hungry",
+      "category": "hunger",
+      "bubbleIcon": "food_effector",
+      "uiGroup": 1,
+      "effects": [
+        {
+          "debug_name": "AllowFood",
+          "type": 2,
+          "parameters": [
+            {
+              "key": "AllowFoodCategory",
+              "value": "12"
+            }
+          ]
+        },
+        {
+          "debug_name": "ChangeHungerPrio",
+          "type": 1,
+          "parameters": [
+            {
+              "key": "GoalName",
+              "value": "HungerGoal"
+            },
+            {
+              "key": "Priority",
+              "value": -3
+            }
+          ]
+        },
+        {
+          "debug_name": "MoodNegativeHungry",
+          "type": 4,
+          "parameters": [
+            {
+              "key": "BaseValue",
+              "value": "-5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "VeryHungry",
+      "category": "hunger",
+      "bubbleIcon": "food_effector",
+      "uiGroup": 1,
+      "effects": [
+        {
+          "debug_name": "AllowFood",
+          "type": 2,
+          "parameters": [
+            {
+              "key": "AllowFoodCategory",
+              "value": "12"
+            }
+          ]
+        },
+        {
+          "debug_name": "ChangeHungerPrioMore",
+          "type": 1,
+          "parameters": [
+            {
+              "key": "GoalName",
+              "value": "HungerGoal"
+            },
+            {
+              "key": "Priority",
+              "value": -4
+            }
+          ]
+        },
+        {
+          "debug_name": "MoodNegativeVeryHungry",
+          "type": 4,
+          "parameters": [
+            {
+              "key": "BaseValue",
+              "value": "-15"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Starving",
+      "category": "hunger",
+      "bubbleIcon": "food_effector",
+      "uiGroup": 1,
+      "effects": [
+        {
+          "debug_name": "AllowFood",
+          "type": 2,
+          "parameters": [
+            {
+              "key": "AllowFoodCategory",
+              "value": "12"
+            }
+          ]
+        },
+        {
+          "debug_name": "ChangeHungerPrioStarv",
+          "type": 1,
+          "parameters": [
+            {
+              "key": "GoalName",
+              "value": "HungerGoal"
+            },
+            {
+              "key": "Priority",
+              "value": -6
+            }
+          ]
+        },
+        {
+          "debug_name": "MoodNegativeStarving",
+          "type": 4,
+          "parameters": [
+            {
+              "key": "BaseValue",
+              "value": "-20"
+            }
+          ]
+        },
+        {
+          "debug_name": "WarrningMessageStarving",
+          "type": 6,
+          "parameters": [
+            {
+              "key": "Type",
+              "value": "Hunger"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "StarvationLoosHP",
+      "category": "hunger",
+      "bubbleIcon": "food_effector",
+      "uiGroup": 3,
+      "effects": [
+        {
+          "debug_name": "StarvHPLoss",
+          "type": 10,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": "70"
+            },
+            {
+              "key": "Value",
+              "value": -2
+            }
+          ]
+        },
+        {
+          "debug_name": "AllowFood",
+          "type": 2,
+          "parameters": [
+            {
+              "key": "AllowFoodCategory",
+              "value": "12"
+            }
+          ]
+        },
+        {
+          "debug_name": "ChangeHungerPrioStarv",
+          "type": 1,
+          "parameters": [
+            {
+              "key": "GoalName",
+              "value": "HungerGoal"
+            },
+            {
+              "key": "Priority",
+              "value": -6
+            }
+          ]
+        },
+        {
+          "debug_name": "MoodNegativeStarving",
+          "type": 4,
+          "parameters": [
+            {
+              "key": "BaseValue",
+              "value": "-20"
+            }
+          ]
+        },
+        {
+          "debug_name": "WarrningMessageStarving",
+          "type": 6,
+          "parameters": [
+            {
+              "key": "Type",
+              "value": "Hunger"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "AgentAllowSleep",
+      "isInstant": true,
+      "uiGroup": 0,
+      "effects": [
+        {
+          "debug_name": "AllowSleep",
+          "type": 2,
+          "parameters": [
+            {
+              "key": "AllowSleeping",
+              "value": "0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SlightNeedSleep",
+      "category": "sleep",
+      "uiGroup": 1,
+      "effects": [
+        {
+          "debug_name": "MoodNegativeNeedSleepSmall",
+          "type": 4,
+          "parameters": [
+            {
+              "key": "BaseValue",
+              "value": "-2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "NeedSleep",
+      "category": "sleep",
+      "bubbleIcon": "sleep_effector",
+      "uiGroup": 1,
+      "effects": [
+        {
+          "debug_name": "ChangeSleepPrio",
+          "type": 1,
+          "parameters": [
+            {
+              "key": "GoalName",
+              "value": "SleepGoal"
+            },
+            {
+              "key": "Priority",
+              "value": -3
+            }
+          ]
+        },
+        {
+          "debug_name": "MoodNegativeNeedSleep",
+          "type": 4,
+          "parameters": [
+            {
+              "key": "BaseValue",
+              "value": "-5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ExtremeNeedSleep",
+      "category": "sleep",
+      "bubbleIcon": "sleep_effector",
+      "uiGroup": 1,
+      "effects": [
+        {
+          "debug_name": "ChangeSleepPrioMore",
+          "type": 1,
+          "parameters": [
+            {
+              "key": "GoalName",
+              "value": "SleepGoal"
+            },
+            {
+              "key": "Priority",
+              "value": -5
+            }
+          ]
+        },
+        {
+          "debug_name": "MoodNegativeNeedSleepExtreme",
+          "type": 4,
+          "parameters": [
+            {
+              "key": "BaseValue",
+              "value": "-10"
+            }
+          ]
+        },
+        {
+          "debug_name": "WarrningMessageNeedSleepExtreme",
+          "type": 6,
+          "parameters": [
+            {
+              "key": "Type",
+              "value": "Sleep"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ExtremeNeedSleepConLoss",
+      "category": "sleep",
+      "bubbleIcon": "sleep_effector",
+      "uiGroup": 3,
+      "effects": [
+        {
+          "debug_name": "LoosingConSleep",
+          "type": 10,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": "69"
+            },
+            {
+              "key": "Value",
+              "value": -4
+            }
+          ]
+        },
+        {
+          "debug_name": "ChangeSleepPrioExha",
+          "type": 1,
+          "parameters": [
+            {
+              "key": "GoalName",
+              "value": "SleepGoal"
+            },
+            {
+              "key": "Priority",
+              "value": -7
+            }
+          ]
+        },
+        {
+          "debug_name": "MoodNegativeNeedSleepExtreme",
+          "type": 4,
+          "parameters": [
+            {
+              "key": "BaseValue",
+              "value": "-10"
+            }
+          ]
+        },
+        {
+          "debug_name": "WarrningMessageNeedSleepExtreme",
+          "type": 6,
+          "parameters": [
+            {
+              "key": "Type",
+              "value": "Sleep"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SleepDef",
+      "category": "sleep",
+      "uiGroup": 0
+    },
+    {
+      "name": "SleepFull",
+      "category": "sleep",
+      "uiGroup": 0,
+      "effects": [
+        {
+          "debug_name": "ChangeSleepPrioFull",
+          "type": 1,
+          "parameters": [
+            {
+              "key": "GoalName",
+              "value": "SleepGoal"
+            },
+            {
+              "key": "Priority",
+              "value": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "AteLavishMeal",
+      "category": "foodQuality",
+      "bubbleIcon": "food_effector",
+      "uiGroup": 1,
+      "duration": 8,
+      "maxStack": 3,
+      "stackMultiplier": 0.8,
+      "effects": [
+        {
+          "debug_name": "MoodPositiveLarge",
+          "type": 4,
+          "parameters": [
+            {
+              "key": "BaseValue",
+              "value": "8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "AteWell",
+      "category": "foodQuality",
+      "bubbleIcon": "food_effector",
+      "uiGroup": 1,
+      "duration": 8,
+      "maxStack": 3,
+      "stackMultiplier": 0.8,
+      "effects": [
+        {
+          "debug_name": "MoodPositive",
+          "type": 4,
+          "parameters": [
+            {
+              "key": "BaseValue",
+              "value": "4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "AteAtTable",
+      "bubbleIcon": "food_effector",
+      "uiGroup": 1,
+      "duration": 12,
+      "effects": [
+        {
+          "debug_name": "MoodPositive",
+          "type": 4,
+          "parameters": [
+            {
+              "key": "BaseValue",
+              "value": "4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "AteInGreatHall",
+      "bubbleIcon": "food_effector",
+      "uiGroup": 1,
+      "duration": 16,
+      "effects": [
+        {
+          "debug_name": "MoodPositive",
+          "type": 4,
+          "parameters": [
+            {
+              "key": "BaseValue",
+              "value": "4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "EatingPriorityHigher",
+      "uiGroup": 0,
+      "effects": [
+        {
+          "debug_name": "ChangeHungerPrioPerk",
+          "type": 1,
+          "parameters": [
+            {
+              "key": "GoalName",
+              "value": "HungerGoal"
+            },
+            {
+              "key": "Priority",
+              "value": -0.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "EatingPriorityLower",
+      "uiGroup": 0,
+      "effects": [
+        {
+          "debug_name": "ChangeHungerPrioNegPerk",
+          "type": 1,
+          "parameters": [
+            {
+              "key": "GoalName",
+              "value": "HungerGoal"
+            },
+            {
+              "key": "Priority",
+              "value": 0.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SleepingPriorityHigher",
+      "uiGroup": 0,
+      "effects": [
+        {
+          "debug_name": "ChangeSleepPrioPerk",
+          "type": 1,
+          "parameters": [
+            {
+              "key": "GoalName",
+              "value": "SleepGoal"
+            },
+            {
+              "key": "Priority",
+              "value": -0.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SleepingPriorityLower",
+      "uiGroup": 0,
+      "effects": [
+        {
+          "debug_name": "ChangeSleepPrioNegPerk",
+          "type": 1,
+          "parameters": [
+            {
+              "key": "GoalName",
+              "value": "SleepGoal"
+            },
+            {
+              "key": "Priority",
+              "value": 0.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "DrinkingPriorityHigher",
+      "uiGroup": 0,
+      "effects": [
+        {
+          "debug_name": "ChangeDrinkPrioPerk",
+          "type": 1,
+          "parameters": [
+            {
+              "key": "GoalName",
+              "value": "DrinkGoal"
+            },
+            {
+              "key": "Priority",
+              "value": -0.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "DrinkingPriorityLower",
+      "uiGroup": 0,
+      "effects": [
+        {
+          "debug_name": "ChangeDrinkPrioNegPerk",
+          "type": 1,
+          "parameters": [
+            {
+              "key": "GoalName",
+              "value": "DrinkGoal"
+            },
+            {
+              "key": "Priority",
+              "value": 0.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "LeisurePriorityHigher",
+      "uiGroup": 0
+    },
+    {
+      "name": "LeisurePriorityLower",
+      "uiGroup": 0
+    },
+    {
+      "name": "AteRawMeal",
+      "category": "foodQuality",
+      "bubbleIcon": "food_effector",
+      "uiGroup": 1,
+      "duration": 12,
+      "maxStack": 3,
+      "stackMultiplier": 0.9,
+      "effects": [
+        {
+          "debug_name": "MoodNegativeRawFood",
+          "type": 4,
+          "parameters": [
+            {
+              "key": "BaseValue",
+              "value": "-3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "AteRotten",
+      "category": "foodQuality",
+      "bubbleIcon": "food_effector",
+      "uiGroup": 1,
+      "duration": 12,
+      "maxStack": 3,
+      "stackMultiplier": 0.9,
+      "effects": [
+        {
+          "debug_name": "MoodNegativeRotten",
+          "type": 4,
+          "parameters": [
+            {
+              "key": "BaseValue",
+              "value": "-5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "AteDubiousMeal",
+      "category": "foodQuality",
+      "bubbleIcon": "food_effector",
+      "uiGroup": 1,
+      "duration": 12,
+      "maxStack": 3,
+      "stackMultiplier": 0.9,
+      "effects": [
+        {
+          "debug_name": "MoodDubiousMeal",
+          "type": 4,
+          "parameters": [
+            {
+              "key": "BaseValue",
+              "value": "-4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "AteRawMeat",
+      "category": "foodQuality",
+      "bubbleIcon": "food_effector",
+      "uiGroup": 1,
+      "duration": 12,
+      "maxStack": 3,
+      "stackMultiplier": 0.9,
+      "effects": [
+        {
+          "debug_name": "MoodNegativeRawMeat",
+          "type": 4,
+          "parameters": [
+            {
+              "key": "BaseValue",
+              "value": "-4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "AteHumanFlesh",
+      "category": "Canibalism",
+      "bubbleIcon": "food_effector",
+      "uiGroup": 1,
+      "duration": 48,
+      "maxStack": 6,
+      "stackMultiplier": 0.7,
+      "effects": [
+        {
+          "debug_name": "MoodNegativeHumanFlesh",
+          "type": 4,
+          "parameters": [
+            {
+              "key": "BaseValue",
+              "value": "-16"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "AteHumanFleshCooked",
+      "category": "Canibalism",
+      "bubbleIcon": "food_effector",
+      "uiGroup": 1,
+      "duration": 48,
+      "maxStack": 6,
+      "stackMultiplier": 0.7,
+      "effects": [
+        {
+          "debug_name": "MoodNegativeCookedHumanFlesh",
+          "type": 4,
+          "parameters": [
+            {
+              "key": "BaseValue",
+              "value": "-10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "AteHumanFleshCanibal",
+      "category": "Canibalism",
+      "bubbleIcon": "food_effector",
+      "uiGroup": 1,
+      "isDisabled": true,
+      "duration": 48,
+      "maxStack": 6,
+      "stackMultiplier": 0.7,
+      "effects": [
+        {
+          "debug_name": "MoodPositiveHumanFleshCanibal",
+          "type": 4,
+          "parameters": [
+            {
+              "key": "BaseValue",
+              "value": "8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "AteHumanFleshCookedCanibal",
+      "category": "Canibalism",
+      "bubbleIcon": "food_effector",
+      "uiGroup": 1,
+      "isDisabled": true,
+      "duration": 48,
+      "maxStack": 6,
+      "stackMultiplier": 0.7,
+      "effects": [
+        {
+          "debug_name": "MoodPositiveCookedHumanFleshCanibal",
+          "type": 4,
+          "parameters": [
+            {
+              "key": "BaseValue",
+              "value": "8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ButcheredHuman",
+      "bubbleIcon": "death_effector",
+      "uiGroup": 1,
+      "duration": 48,
+      "maxStack": 2,
+      "stackMultiplier": 0.6,
+      "effects": [
+        {
+          "debug_name": "MoodNegativeButcheredHuman",
+          "type": 4,
+          "parameters": [
+            {
+              "key": "BaseValue",
+              "value": "-14"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ButcheredHumanFriend",
+      "bubbleIcon": "death_effector",
+      "uiGroup": 1,
+      "duration": 48,
+      "maxStack": 2,
+      "stackMultiplier": 0.6,
+      "effects": [
+        {
+          "debug_name": "MoodNegativeButcheredHumanFriend",
+          "type": 4,
+          "parameters": [
+            {
+              "key": "BaseValue",
+              "value": "-18"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "CookedHumanMeat",
+      "bubbleIcon": "death_effector",
+      "uiGroup": 1,
+      "duration": 48,
+      "maxStack": 2,
+      "stackMultiplier": 0.7,
+      "effects": [
+        {
+          "debug_name": "MoodNegativeCookedWithHumanMeat",
+          "type": 4,
+          "parameters": [
+            {
+              "key": "BaseValue",
+              "value": "-8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "MoodAnnoyed",
+      "category": "mood",
+      "uiGroup": 0,
+      "effects": [
+        {
+          "debug_name": "WarningMessageMoodAnnoyed",
+          "type": 6,
+          "parameters": [
+            {
+              "key": "Type",
+              "value": "MoodAnnoyed"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "MoodLow",
+      "category": "mood",
+      "uiGroup": 0,
+      "effects": [
+        {
+          "debug_name": "WarningMessageMoodLow",
+          "type": 6,
+          "parameters": [
+            {
+              "key": "Type",
+              "value": "MoodLow"
+            }
+          ]
+        },
+        {
+          "debug_name": "MoodChangeSlow",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": "37"
+            },
+            {
+              "key": "Multiplier",
+              "value": 0.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "MoodLowRevoltWarning",
+      "category": "mood",
+      "uiGroup": 0
+    },
+    {
+      "name": "MoodVeryLow",
+      "uiGroup": 0
+    },
+    {
+      "name": "AgentLeaveColony",
+      "uiGroup": 0,
+      "effects": [
+        {
+          "debug_name": "ForcePsychoticHour",
+          "type": 7,
+          "parameters": [
+            {
+              "key": "HourType",
+              "value": "4"
+            }
+          ]
+        },
+        {
+          "debug_name": "ChangeLeavePrio",
+          "type": 1,
+          "parameters": [
+            {
+              "key": "GoalName",
+              "value": "LeaveMapGoal"
+            },
+            {
+              "key": "Priority",
+              "value": -30
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "AgentBreakdownSmall",
+      "uiGroup": 0,
+      "duration": 10,
+      "effects": [
+        {
+          "debug_name": "RebeliousParticles",
+          "type": 2,
+          "parameters": [
+            {
+              "key": "TriggerParticle",
+              "value": "rebelious"
+            }
+          ]
+        },
+        {
+          "debug_name": "ForcePsychoticHour",
+          "type": 7,
+          "parameters": [
+            {
+              "key": "HourType",
+              "value": "4"
+            }
+          ]
+        },
+        {
+          "debug_name": "WarrningMessageRevolt",
+          "type": 6,
+          "parameters": [
+            {
+              "key": "Type",
+              "value": "MoodLowRevolt"
+            }
+          ]
+        },
+        {
+          "debug_name": "MoodChangeMedSlow",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": "37"
+            },
+            {
+              "key": "Multiplier",
+              "value": 0.35
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "AgentBreakdownSmallAfter",
+      "uiGroup": 0,
+      "duration": 24,
+      "effects": [
+        {
+          "debug_name": "MoodChangeMedSlow",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": "37"
+            },
+            {
+              "key": "Multiplier",
+              "value": 0.35
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "AgentBreakdownAfterMoodBoost",
+      "isInstant": true,
+      "uiGroup": 0,
+      "effects": [
+        {
+          "debug_name": "MoodAddAfterRebellious",
+          "type": 11,
+          "parameters": [
+            {
+              "key": "stat",
+              "value": "6"
+            },
+            {
+              "key": "amount",
+              "value": 30
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "AgentEatBindge",
+      "uiGroup": 0,
+      "isDisabled": true,
+      "duration": 3,
+      "effects": [
+        {
+          "debug_name": "AllowFood",
+          "type": 2,
+          "parameters": [
+            {
+              "key": "AllowFoodCategory",
+              "value": "12"
+            }
+          ]
+        },
+        {
+          "debug_name": "ChangeHungerPrioPerk",
+          "type": 1,
+          "parameters": [
+            {
+              "key": "GoalName",
+              "value": "HungerGoal"
+            },
+            {
+              "key": "Priority",
+              "value": -0.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "AgentDrinkBindge",
+      "uiGroup": 0,
+      "isDisabled": true,
+      "duration": 3,
+      "effects": [
+        {
+          "debug_name": "AllowAlc",
+          "type": 2,
+          "parameters": [
+            {
+              "key": "AllowFoodCategory",
+              "value": "16777216"
+            }
+          ]
+        },
+        {
+          "debug_name": "ChangeDrinkPrioPerk",
+          "type": 1,
+          "parameters": [
+            {
+              "key": "GoalName",
+              "value": "DrinkGoal"
+            },
+            {
+              "key": "Priority",
+              "value": -0.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "AgentBreakdownSmallGetMood",
+      "isInstant": true,
+      "uiGroup": 0,
+      "effects": [
+        {
+          "debug_name": "MoodAddRebellious",
+          "type": 11,
+          "parameters": [
+            {
+              "key": "stat",
+              "value": "6"
+            },
+            {
+              "key": "amount",
+              "value": 9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "AgentMoodDef",
+      "category": "mood",
+      "uiGroup": 0
+    },
+    {
+      "name": "AgentMoodGood",
+      "category": "mood",
+      "uiGroup": 4,
+      "effects": [
+        {
+          "debug_name": "GoodMoodWorkSpeed",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": "75"
+            },
+            {
+              "key": "Multiplier",
+              "value": 1.1
+            }
+          ]
+        },
+        {
+          "debug_name": "GoodMoodXP",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": "85"
+            },
+            {
+              "key": "Multiplier",
+              "value": 1.15
+            }
+          ]
+        },
+        {
+          "debug_name": "GoodMoodRarity",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": "100"
+            },
+            {
+              "key": "Multiplier",
+              "value": 1.1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "TestMoodNegativeLow",
+      "uiGroup": 0,
+      "duration": 4,
+      "maxStack": 4,
+      "stackMultiplier": 1,
+      "effects": [
+        {
+          "debug_name": "MoodNegativeVeryLarge",
+          "type": 4,
+          "parameters": [
+            {
+              "key": "BaseValue",
+              "value": "-16"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "FrozenDeath",
+      "category": "temperature",
+      "bubbleIcon": "cold_effector",
+      "uiGroup": 2,
+      "effects": [
+        {
+          "debug_name": "DeathHPCold",
+          "type": 10,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": "70"
+            },
+            {
+              "key": "Value",
+              "value": -4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Freezing",
+      "category": "temperature",
+      "bubbleIcon": "cold_effector",
+      "uiGroup": 7,
+      "effects": [
+        {
+          "debug_name": "MoodNegativeLarge",
+          "type": 4,
+          "parameters": [
+            {
+              "key": "BaseValue",
+              "value": "-8"
+            }
+          ]
+        },
+        {
+          "debug_name": "WarrningMessageTemperatureCold",
+          "type": 6,
+          "parameters": [
+            {
+              "key": "Type",
+              "value": "Cold"
+            }
+          ]
+        },
+        {
+          "debug_name": "MotorFunctionLower",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": "71"
+            },
+            {
+              "key": "Multiplier",
+              "value": 0.75
+            }
+          ]
+        },
+        {
+          "debug_name": "CombatSpeedImpactMed",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": "26"
+            },
+            {
+              "key": "Multiplier",
+              "value": 1.18
+            }
+          ]
+        },
+        {
+          "debug_name": "LoosingConTemperature",
+          "type": 10,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": "69"
+            },
+            {
+              "key": "Value",
+              "value": -4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Cold",
+      "category": "temperature",
+      "bubbleIcon": "cold_effector",
+      "uiGroup": 5,
+      "effects": [
+        {
+          "debug_name": "MoodNegative",
+          "type": 4,
+          "parameters": [
+            {
+              "key": "BaseValue",
+              "value": "-4"
+            }
+          ]
+        },
+        {
+          "debug_name": "WarrningMessageTemperatureCold",
+          "type": 6,
+          "parameters": [
+            {
+              "key": "Type",
+              "value": "Cold"
+            }
+          ]
+        },
+        {
+          "debug_name": "MotorFunctionLow",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": "71"
+            },
+            {
+              "key": "Multiplier",
+              "value": 0.85
+            }
+          ]
+        },
+        {
+          "debug_name": "CombatSpeedImpactLow",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": "26"
+            },
+            {
+              "key": "Multiplier",
+              "value": 1.1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Chilly",
+      "category": "temperature",
+      "uiGroup": 1,
+      "effects": [
+        {
+          "debug_name": "MoodNegativeSmall",
+          "type": 4,
+          "parameters": [
+            {
+              "key": "BaseValue",
+              "value": "-2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Sweaty",
+      "category": "temperature",
+      "uiGroup": 1,
+      "effects": [
+        {
+          "debug_name": "MoodNegativeSmall",
+          "type": 4,
+          "parameters": [
+            {
+              "key": "BaseValue",
+              "value": "-2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Hot",
+      "category": "temperature",
+      "bubbleIcon": "hot_effector",
+      "uiGroup": 5,
+      "effects": [
+        {
+          "debug_name": "MoodNegative",
+          "type": 4,
+          "parameters": [
+            {
+              "key": "BaseValue",
+              "value": "-4"
+            }
+          ]
+        },
+        {
+          "debug_name": "WarrningMessageTemperatureWarm",
+          "type": 6,
+          "parameters": [
+            {
+              "key": "Type",
+              "value": "Warmth"
+            }
+          ]
+        },
+        {
+          "debug_name": "MotorFunctionLow",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": "71"
+            },
+            {
+              "key": "Multiplier",
+              "value": 0.85
+            }
+          ]
+        },
+        {
+          "debug_name": "CombatSpeedImpactLow",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": "26"
+            },
+            {
+              "key": "Multiplier",
+              "value": 1.1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "VeryHot",
+      "category": "temperature",
+      "bubbleIcon": "hot_effector",
+      "uiGroup": 7,
+      "effects": [
+        {
+          "debug_name": "MoodNegativeLarge",
+          "type": 4,
+          "parameters": [
+            {
+              "key": "BaseValue",
+              "value": "-8"
+            }
+          ]
+        },
+        {
+          "debug_name": "WarrningMessageTemperatureWarm",
+          "type": 6,
+          "parameters": [
+            {
+              "key": "Type",
+              "value": "Warmth"
+            }
+          ]
+        },
+        {
+          "debug_name": "MotorFunctionLower",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": "71"
+            },
+            {
+              "key": "Multiplier",
+              "value": 0.75
+            }
+          ]
+        },
+        {
+          "debug_name": "CombatSpeedImpactMed",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": "26"
+            },
+            {
+              "key": "Multiplier",
+              "value": 1.18
+            }
+          ]
+        },
+        {
+          "debug_name": "LoosingConTemperature",
+          "type": 10,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": "69"
+            },
+            {
+              "key": "Value",
+              "value": -4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "GlobalTempCold03",
+      "category": "globalTemperature",
+      "uiGroup": 0,
+      "effects": [
+        {
+          "debug_name": "TemperatureTargetCold03",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": "94"
+            },
+            {
+              "key": "Multiplier",
+              "value": 0
+            }
+          ]
+        },
+        {
+          "debug_name": "TemperatureStepCold03",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": "97"
+            },
+            {
+              "key": "Multiplier",
+              "value": 1.6
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "GlobalTempCold02",
+      "category": "globalTemperature",
+      "uiGroup": 0,
+      "effects": [
+        {
+          "debug_name": "TemperatureTargetCold02",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": "94"
+            },
+            {
+              "key": "Multiplier",
+              "value": 0.3
+            }
+          ]
+        },
+        {
+          "debug_name": "TemperatureStepCold02",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": "97"
+            },
+            {
+              "key": "Multiplier",
+              "value": 1.4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "GlobalTempCold01",
+      "category": "globalTemperature",
+      "uiGroup": 0,
+      "effects": [
+        {
+          "debug_name": "TemperatureTargetCold01",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": "94"
+            },
+            {
+              "key": "Multiplier",
+              "value": 0.5
+            }
+          ]
+        },
+        {
+          "debug_name": "TemperatureStepCold01",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": "97"
+            },
+            {
+              "key": "Multiplier",
+              "value": 1.2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "GlobalTempHot01",
+      "category": "globalTemperature",
+      "uiGroup": 0,
+      "effects": [
+        {
+          "debug_name": "TemperatureTargetHot01",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": "96"
+            },
+            {
+              "key": "Multiplier",
+              "value": 0.5
+            }
+          ]
+        },
+        {
+          "debug_name": "TemperatureStepHot01",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": "95"
+            },
+            {
+              "key": "Multiplier",
+              "value": 1.2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "GlobalTempHot02",
+      "category": "globalTemperature",
+      "uiGroup": 0,
+      "effects": [
+        {
+          "debug_name": "TemperatureTargetHot02",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": "96"
+            },
+            {
+              "key": "Multiplier",
+              "value": 0.3
+            }
+          ]
+        },
+        {
+          "debug_name": "TemperatureStepHot02",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": "95"
+            },
+            {
+              "key": "Multiplier",
+              "value": 1.4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "GlobalTempHot03",
+      "category": "globalTemperature",
+      "uiGroup": 0,
+      "effects": [
+        {
+          "debug_name": "TemperatureTargetHot03",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": "96"
+            },
+            {
+              "key": "Multiplier",
+              "value": 0
+            }
+          ]
+        },
+        {
+          "debug_name": "TemperatureStepHot03",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": "95"
+            },
+            {
+              "key": "Multiplier",
+              "value": 1.6
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "RaidWonEffector",
+      "bubbleIcon": "victory_effector",
+      "uiGroup": 1,
+      "duration": 48,
+      "effects": [
+        {
+          "debug_name": "MoodPositiveLarge",
+          "type": 4,
+          "parameters": [
+            {
+              "key": "BaseValue",
+              "value": "8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ImpairedMovementLow",
+      "uiGroup": 4,
+      "effects": [
+        {
+          "debug_name": "MovementSpeedSlower",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": "1"
+            },
+            {
+              "key": "Multiplier",
+              "value": 0.9
+            }
+          ]
+        },
+        {
+          "debug_name": "EvedeSpeedSlower",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": "17"
+            },
+            {
+              "key": "Multiplier",
+              "value": 0.9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ImpairedMovementMed",
+      "uiGroup": 4,
+      "effects": [
+        {
+          "debug_name": "MovementSpeedSlower2",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": "1"
+            },
+            {
+              "key": "Multiplier",
+              "value": 0.85
+            }
+          ]
+        },
+        {
+          "debug_name": "EvedeSpeedSlower2",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": "17"
+            },
+            {
+              "key": "Multiplier",
+              "value": 0.85
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ShieldCombatSpeedLow",
+      "uiGroup": 4,
+      "effects": [
+        {
+          "debug_name": "CombatSpeedImpactLow",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": "26"
+            },
+            {
+              "key": "Multiplier",
+              "value": 1.1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ShieldCombatSpeedMed",
+      "uiGroup": 4,
+      "effects": [
+        {
+          "debug_name": "CombatSpeedImpactMed",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": "26"
+            },
+            {
+              "key": "Multiplier",
+              "value": 1.18
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ShieldCombatSpeedHigh",
+      "uiGroup": 4,
+      "effects": [
+        {
+          "debug_name": "CombatSpeedImpactHigh",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": "26"
+            },
+            {
+              "key": "Multiplier",
+              "value": 1.25
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ChainedUp",
+      "bubbleIcon": "clothing_effector",
+      "uiGroup": 5,
+      "effects": [
+        {
+          "debug_name": "MovementSpeedSlower2",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": "1"
+            },
+            {
+              "key": "Multiplier",
+              "value": 0.85
+            }
+          ]
+        },
+        {
+          "debug_name": "EvedeSpeedSlower2",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": "17"
+            },
+            {
+              "key": "Multiplier",
+              "value": 0.85
+            }
+          ]
+        },
+        {
+          "debug_name": "MoodNegativeVeryLarge",
+          "type": 4,
+          "parameters": [
+            {
+              "key": "BaseValue",
+              "value": "-16"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "UglyClothing",
+      "bubbleIcon": "clothing_effector",
+      "uiGroup": 1,
+      "effects": [
+        {
+          "debug_name": "MoodNegativeUglyClothes",
+          "type": 4,
+          "parameters": [
+            {
+              "key": "BaseValue",
+              "value": "-5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "FineClothing",
+      "bubbleIcon": "clothing_effector",
+      "uiGroup": 1,
+      "effects": [
+        {
+          "debug_name": "MoodPositiveFineClothes",
+          "type": 4,
+          "parameters": [
+            {
+              "key": "BaseValue",
+              "value": "5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "VisibilityFog",
+      "dontSave": true,
+      "uiGroup": 4,
+      "effects": [
+        {
+          "debug_name": "RangedChanceReduced1",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": "28"
+            },
+            {
+              "key": "Multiplier",
+              "value": 0.9
+            }
+          ]
+        },
+        {
+          "debug_name": "RangedRangeReduced",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": "44"
+            },
+            {
+              "key": "Multiplier",
+              "value": 0.85
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "VisibilityRain",
+      "dontSave": true,
+      "uiGroup": 4,
+      "effects": [
+        {
+          "debug_name": "RangedChanceReduced2",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": "28"
+            },
+            {
+              "key": "Multiplier",
+              "value": 0.85
+            }
+          ]
+        },
+        {
+          "debug_name": "RangedRangeReduced",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": "44"
+            },
+            {
+              "key": "Multiplier",
+              "value": 0.85
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "VisibilitySnow",
+      "dontSave": true,
+      "uiGroup": 4,
+      "effects": [
+        {
+          "debug_name": "RangedChanceReduced2",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": "28"
+            },
+            {
+              "key": "Multiplier",
+              "value": 0.85
+            }
+          ]
+        },
+        {
+          "debug_name": "RangedRangeReduced",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": "44"
+            },
+            {
+              "key": "Multiplier",
+              "value": 0.85
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "CombatModeAggresive",
+      "uiGroup": 0,
+      "effects": [
+        {
+          "debug_name": "ChangeAttackPrioAgressive",
+          "type": 1,
+          "parameters": [
+            {
+              "key": "GoalName",
+              "value": "AttackGoal"
+            },
+            {
+              "key": "Priority",
+              "value": -3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "CombatModeFlee",
+      "uiGroup": 0,
+      "effects": [
+        {
+          "debug_name": "ChangeAttackPrioFlee",
+          "type": 1,
+          "parameters": [
+            {
+              "key": "GoalName",
+              "value": "AttackGoal"
+            },
+            {
+              "key": "Priority",
+              "value": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "CombatModeIgnore",
+      "uiGroup": 0,
+      "effects": [
+        {
+          "debug_name": "ChangeAttackPrioIgnore",
+          "type": 1,
+          "parameters": [
+            {
+              "key": "GoalName",
+              "value": "AttackGoal"
+            },
+            {
+              "key": "Priority",
+              "value": 15
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "OnHitSlowSpeed2",
+      "uiGroup": 0,
+      "duration": 0.5,
+      "effects": [
+        {
+          "debug_name": "MovementSpeedHit2",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": "1"
+            },
+            {
+              "key": "Multiplier",
+              "value": 0.8
+            },
+            {
+              "key": "NegativeStacking",
+              "value": "TRUE"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "OnHitSlowSpeed",
+      "uiGroup": 0,
+      "duration": 0.2,
+      "effects": [
+        {
+          "debug_name": "MovementSpeedHit",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": "1"
+            },
+            {
+              "key": "Multiplier",
+              "value": 0.6
+            },
+            {
+              "key": "NegativeStacking",
+              "value": "TRUE"
+            }
+          ]
+        },
+        {
+          "debug_name": "EvedeSpeedHit",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": "17"
+            },
+            {
+              "key": "Multiplier",
+              "value": 0
+            },
+            {
+              "key": "NegativeStacking",
+              "value": "TRUE"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "OnHitStopSpeed",
+      "uiGroup": 0,
+      "duration": 0.01,
+      "effects": [
+        {
+          "debug_name": "MovementStopHit",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": "1"
+            },
+            {
+              "key": "Multiplier",
+              "value": 0.06
+            },
+            {
+              "key": "NegativeStacking",
+              "value": "TRUE"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "OnTrapStopShort",
+      "uiGroup": 0,
+      "duration": 0.2,
+      "effects": [
+        {
+          "debug_name": "PinnedParticles",
+          "type": 2,
+          "parameters": [
+            {
+              "key": "TriggerParticle",
+              "value": "pinned"
+            }
+          ]
+        },
+        {
+          "debug_name": "MovementStopTrap",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": "1"
+            },
+            {
+              "key": "Multiplier",
+              "value": 0
+            },
+            {
+              "key": "NegativeStacking",
+              "value": "TRUE"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "OnTrapStop",
+      "uiGroup": 0,
+      "duration": 0.4,
+      "effects": [
+        {
+          "debug_name": "PinnedParticles",
+          "type": 2,
+          "parameters": [
+            {
+              "key": "TriggerParticle",
+              "value": "pinned"
+            }
+          ]
+        },
+        {
+          "debug_name": "MovementStopTrap",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": "1"
+            },
+            {
+              "key": "Multiplier",
+              "value": 0
+            },
+            {
+              "key": "NegativeStacking",
+              "value": "TRUE"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SleptOutside",
+      "bubbleIcon": "bed_effector",
+      "uiGroup": 1,
+      "duration": 12,
+      "maxStack": 1,
+      "stackMultiplier": 1,
+      "effects": [
+        {
+          "debug_name": "MoodSleptOutside",
+          "type": 4,
+          "parameters": [
+            {
+              "key": "BaseValue",
+              "value": "-5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SleptOnRain",
+      "bubbleIcon": "bed_effector",
+      "uiGroup": 1,
+      "duration": 12,
+      "maxStack": 1,
+      "stackMultiplier": 1,
+      "effects": [
+        {
+          "debug_name": "MoodSleptinRain",
+          "type": 4,
+          "parameters": [
+            {
+              "key": "BaseValue",
+              "value": "-5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SleptOnSnow",
+      "bubbleIcon": "bed_effector",
+      "uiGroup": 1,
+      "duration": 12,
+      "maxStack": 1,
+      "stackMultiplier": 1,
+      "effects": [
+        {
+          "debug_name": "MoodSleptinsSnow",
+          "type": 4,
+          "parameters": [
+            {
+              "key": "BaseValue",
+              "value": "-5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SleptWithoutBed",
+      "bubbleIcon": "bed_effector",
+      "uiGroup": 1,
+      "duration": 12,
+      "maxStack": 1,
+      "stackMultiplier": 1,
+      "effects": [
+        {
+          "debug_name": "MoodSleptWithNoBed",
+          "type": 4,
+          "parameters": [
+            {
+              "key": "BaseValue",
+              "value": "-3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SleptInBedroom",
+      "bubbleIcon": "bed_effector",
+      "uiGroup": 1,
+      "duration": 12,
+      "effects": [
+        {
+          "debug_name": "MoodSleptinBedroom",
+          "type": 4,
+          "parameters": [
+            {
+              "key": "BaseValue",
+              "value": "8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SleptInSharedBedroom",
+      "bubbleIcon": "bed_effector",
+      "uiGroup": 1,
+      "duration": 12,
+      "effects": [
+        {
+          "debug_name": "MoodSleptinSharedBedroom",
+          "type": 4,
+          "parameters": [
+            {
+              "key": "BaseValue",
+              "value": "4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SleptInHighestQualityBed",
+      "bubbleIcon": "bed_effector",
+      "uiGroup": 1,
+      "duration": 12,
+      "effects": [
+        {
+          "debug_name": "MoodSleptHighestQuaility",
+          "type": 4,
+          "parameters": [
+            {
+              "key": "BaseValue",
+              "value": "9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SleptInHighQualityBed",
+      "bubbleIcon": "bed_effector",
+      "uiGroup": 1,
+      "duration": 12,
+      "effects": [
+        {
+          "debug_name": "MoodSleptHighQuaility",
+          "type": 4,
+          "parameters": [
+            {
+              "key": "BaseValue",
+              "value": "7"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SleptInMedQualityBed",
+      "bubbleIcon": "bed_effector",
+      "uiGroup": 1,
+      "duration": 12,
+      "effects": [
+        {
+          "debug_name": "MoodSleptMediumQuaility",
+          "type": 4,
+          "parameters": [
+            {
+              "key": "BaseValue",
+              "value": "4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SleptInLowQualityBed",
+      "bubbleIcon": "bed_effector",
+      "uiGroup": 1,
+      "duration": 12,
+      "effects": [
+        {
+          "debug_name": "MoodSleptLowQuaility",
+          "type": 4,
+          "parameters": [
+            {
+              "key": "BaseValue",
+              "value": "-1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "DidJobWithPassion",
+      "bubbleIcon": "job_effector",
+      "uiGroup": 1,
+      "duration": 12,
+      "maxStack": 1,
+      "stackMultiplier": 1,
+      "effects": [
+        {
+          "debug_name": "MoodPassionJob",
+          "type": 4,
+          "parameters": [
+            {
+              "key": "BaseValue",
+              "value": "5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "BanishedVillager",
+      "category": "banishedEffector",
+      "bubbleIcon": "banished_effector",
+      "uiGroup": 1,
+      "duration": 48,
+      "maxStack": 5,
+      "stackMultiplier": 0.9,
+      "effects": [
+        {
+          "debug_name": "MoodNegativeBanishedVillager",
+          "type": 4,
+          "parameters": [
+            {
+              "key": "BaseValue",
+              "value": "-8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "WorkerDied",
+      "bubbleIcon": "death_effector",
+      "uiGroup": 1,
+      "duration": 128,
+      "maxStack": 2,
+      "stackMultiplier": 0.7,
+      "effects": [
+        {
+          "debug_name": "MoodNegativeWorkerDied",
+          "type": 4,
+          "parameters": [
+            {
+              "key": "BaseValue",
+              "value": "-10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SawDeadBody",
+      "bubbleIcon": "death_effector",
+      "uiGroup": 1,
+      "duration": 24,
+      "maxStack": 3,
+      "stackMultiplier": 0.55,
+      "effects": [
+        {
+          "debug_name": "MoodNegativesSawDeadBody",
+          "type": 4,
+          "parameters": [
+            {
+              "key": "BaseValue",
+              "value": "-3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SawDeadBodyFriend",
+      "bubbleIcon": "death_effector",
+      "uiGroup": 1,
+      "duration": 24,
+      "maxStack": 3,
+      "stackMultiplier": 0.55,
+      "effects": [
+        {
+          "debug_name": "MoodNegativeSawDeadFriend",
+          "type": 4,
+          "parameters": [
+            {
+              "key": "BaseValue",
+              "value": "-4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ConDmgBloodLoss01",
+      "isInstant": true,
+      "uiGroup": 0,
+      "effects": [
+        {
+          "debug_name": "DamageConsicnessLow",
+          "type": 11,
+          "parameters": [
+            {
+              "key": "stat",
+              "value": "8"
+            },
+            {
+              "key": "amount",
+              "value": -10
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ConDmgBloodLoss02",
+      "isInstant": true,
+      "uiGroup": 0,
+      "effects": [
+        {
+          "debug_name": "DamageConsicnessMed",
+          "type": 11,
+          "parameters": [
+            {
+              "key": "stat",
+              "value": "8"
+            },
+            {
+              "key": "amount",
+              "value": -25
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ConDmgBloodLoss03",
+      "isInstant": true,
+      "uiGroup": 0,
+      "effects": [
+        {
+          "debug_name": "DamageConsicnessHigh",
+          "type": 11,
+          "parameters": [
+            {
+              "key": "stat",
+              "value": "8"
+            },
+            {
+              "key": "amount",
+              "value": -35
+            }
+          ]
+        },
+        {
+          "debug_name": "SlowDownBleeding",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": "59"
+            },
+            {
+              "key": "Multiplier",
+              "value": 0.2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SleepingHealing",
+      "dontSave": true,
+      "uiGroup": 2,
+      "effects": [
+        {
+          "debug_name": "WoundHealFaster",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": "68"
+            },
+            {
+              "key": "Multiplier",
+              "value": 1.5
+            }
+          ]
+        },
+        {
+          "debug_name": "DoubleBloodRecovery",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": "58"
+            },
+            {
+              "key": "Multiplier",
+              "value": 2
+            }
+          ]
+        },
+        {
+          "debug_name": "DoubleHPRec",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": "57"
+            },
+            {
+              "key": "Multiplier",
+              "value": 3
+            }
+          ]
+        },
+        {
+          "debug_name": "DoubleConRec",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": "60"
+            },
+            {
+              "key": "Multiplier",
+              "value": 2
+            }
+          ]
+        },
+        {
+          "debug_name": "DoublePainRec",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": "62"
+            },
+            {
+              "key": "Multiplier",
+              "value": 2
+            }
+          ]
+        },
+        {
+          "debug_name": "ChangeSleepPrioSleeping",
+          "type": 1,
+          "parameters": [
+            {
+              "key": "GoalName",
+              "value": "SleepGoal"
+            },
+            {
+              "key": "Priority",
+              "value": -7
+            }
+          ]
+        },
+        {
+          "debug_name": "MoodChangeVerySlow",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": "37"
+            },
+            {
+              "key": "Multiplier",
+              "value": 0.15
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "RestingHealing",
+      "dontSave": true,
+      "uiGroup": 2,
+      "effects": [
+        {
+          "debug_name": "WoundHealFaster",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": "68"
+            },
+            {
+              "key": "Multiplier",
+              "value": 1.5
+            }
+          ]
+        },
+        {
+          "debug_name": "DoubleBloodRecovery",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": "58"
+            },
+            {
+              "key": "Multiplier",
+              "value": 2
+            }
+          ]
+        },
+        {
+          "debug_name": "DoubleHPRec",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": "57"
+            },
+            {
+              "key": "Multiplier",
+              "value": 3
+            }
+          ]
+        },
+        {
+          "debug_name": "DoubleConRec",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": "60"
+            },
+            {
+              "key": "Multiplier",
+              "value": 2
+            }
+          ]
+        },
+        {
+          "debug_name": "DoublePainRec",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": "62"
+            },
+            {
+              "key": "Multiplier",
+              "value": 2
+            }
+          ]
+        },
+        {
+          "debug_name": "SleepSlowRegen",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": "12"
+            },
+            {
+              "key": "Multiplier",
+              "value": 0.2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "WhileFaintedEffector",
+      "dontSave": true,
+      "uiGroup": 2,
+      "effects": [
+        {
+          "debug_name": "SleepSlowRegen",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": "12"
+            },
+            {
+              "key": "Multiplier",
+              "value": 0.2
+            }
+          ]
+        },
+        {
+          "debug_name": "MoodChangeVerySlow",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": "37"
+            },
+            {
+              "key": "Multiplier",
+              "value": 0.15
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "WorkerFaintEffector",
+      "uiGroup": 0,
+      "effects": [
+        {
+          "debug_name": "AllowFaint",
+          "type": 2,
+          "parameters": [
+            {
+              "key": "Faint",
+              "value": "0"
+            }
+          ]
+        },
+        {
+          "debug_name": "WarrningMessageUnconscious",
+          "type": 6,
+          "parameters": [
+            {
+              "key": "Type",
+              "value": "Unconscious"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ConDmgPain01",
+      "isInstant": true,
+      "uiGroup": 0,
+      "effects": [
+        {
+          "debug_name": "DamageConsicnessLow",
+          "type": 11,
+          "parameters": [
+            {
+              "key": "stat",
+              "value": "8"
+            },
+            {
+              "key": "amount",
+              "value": -10
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ConDmgPain02",
+      "isInstant": true,
+      "uiGroup": 0,
+      "effects": [
+        {
+          "debug_name": "DamageConsicnessMed",
+          "type": 11,
+          "parameters": [
+            {
+              "key": "stat",
+              "value": "8"
+            },
+            {
+              "key": "amount",
+              "value": -25
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ConDmgPain03",
+      "isInstant": true,
+      "uiGroup": 0,
+      "effects": [
+        {
+          "debug_name": "DamageConsicnessHigh",
+          "type": 11,
+          "parameters": [
+            {
+              "key": "stat",
+              "value": "8"
+            },
+            {
+              "key": "amount",
+              "value": -35
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ConDmgHP01",
+      "isInstant": true,
+      "uiGroup": 0,
+      "effects": [
+        {
+          "debug_name": "DamageConsicnessextreme",
+          "type": 11,
+          "parameters": [
+            {
+              "key": "stat",
+              "value": "8"
+            },
+            {
+              "key": "amount",
+              "value": -60
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ConLoseMotor",
+      "uiGroup": 2,
+      "effects": [
+        {
+          "debug_name": "MotorFunctionLow",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": "71"
+            },
+            {
+              "key": "Multiplier",
+              "value": 0.85
+            }
+          ]
+        },
+        {
+          "debug_name": "ClumsinessMed",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": "72"
+            },
+            {
+              "key": "Multiplier",
+              "value": 1.2
+            }
+          ]
+        },
+        {
+          "debug_name": "GlobalWorkSpeedConLow",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": "75"
+            },
+            {
+              "key": "Multiplier",
+              "value": 0.8
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ConLoseMotorHigh",
+      "uiGroup": 2,
+      "effects": [
+        {
+          "debug_name": "MotorFunctionLower",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": "71"
+            },
+            {
+              "key": "Multiplier",
+              "value": 0.75
+            }
+          ]
+        },
+        {
+          "debug_name": "ClumsinessHigh",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": "72"
+            },
+            {
+              "key": "Multiplier",
+              "value": 1.6
+            }
+          ]
+        },
+        {
+          "debug_name": "GlobalWorkSpeedConMed",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": "75"
+            },
+            {
+              "key": "Multiplier",
+              "value": 0.6
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ConLoseEnemyLow",
+      "uiGroup": 0,
+      "effects": [
+        {
+          "debug_name": "CombatSpeedImpactLow",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": "26"
+            },
+            {
+              "key": "Multiplier",
+              "value": 1.1
+            }
+          ]
+        },
+        {
+          "debug_name": "EvedeSpeedSlower",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": "17"
+            },
+            {
+              "key": "Multiplier",
+              "value": 0.9
+            }
+          ]
+        },
+        {
+          "debug_name": "RangedChanceReduced1",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": "28"
+            },
+            {
+              "key": "Multiplier",
+              "value": 0.9
+            }
+          ]
+        },
+        {
+          "debug_name": "MeleeMissChanceImpactLow",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": "25"
+            },
+            {
+              "key": "Multiplier",
+              "value": 0.9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ConLoseEnemyHigh",
+      "uiGroup": 0,
+      "effects": [
+        {
+          "debug_name": "CombatSpeedImpactMed",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": "26"
+            },
+            {
+              "key": "Multiplier",
+              "value": 1.18
+            }
+          ]
+        },
+        {
+          "debug_name": "EvedeSpeedSlower2",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": "17"
+            },
+            {
+              "key": "Multiplier",
+              "value": 0.85
+            }
+          ]
+        },
+        {
+          "debug_name": "RangedChanceReduced2",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": "28"
+            },
+            {
+              "key": "Multiplier",
+              "value": 0.85
+            }
+          ]
+        },
+        {
+          "debug_name": "MeleeMissChanceImpactHigh",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": "25"
+            },
+            {
+              "key": "Multiplier",
+              "value": 0.8
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "AnimalDyingBleed",
+      "uiGroup": 0,
+      "effects": [
+        {
+          "debug_name": "AnimalHPBleed",
+          "type": 10,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": "70"
+            },
+            {
+              "key": "Value",
+              "value": -3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "EnemyDyingUnc",
+      "uiGroup": 0,
+      "effects": [
+        {
+          "debug_name": "EnemyHPLoss",
+          "type": 10,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": "70"
+            },
+            {
+              "key": "Value",
+              "value": -5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "MoodMinusWorkerRansomEvent",
+      "category": "banishedEffector",
+      "bubbleIcon": "banished_effector",
+      "uiGroup": 1,
+      "duration": 48,
+      "maxStack": 5,
+      "stackMultiplier": 0.9,
+      "effects": [
+        {
+          "debug_name": "MoodNegativeLarge",
+          "type": 4,
+          "parameters": [
+            {
+              "key": "BaseValue",
+              "value": "-8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "MoodPlusWorkerRansomEvent",
+      "category": "banishedEffector",
+      "bubbleIcon": "banished_effector",
+      "uiGroup": 1,
+      "duration": 48,
+      "maxStack": 5,
+      "stackMultiplier": 0.9,
+      "effects": [
+        {
+          "debug_name": "MoodPositiveVeryLarge",
+          "type": 4,
+          "parameters": [
+            {
+              "key": "BaseValue",
+              "value": "16"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "BleedingWarning",
+      "uiGroup": 0,
+      "effects": [
+        {
+          "debug_name": "WarrningMessageBleeding",
+          "type": 6,
+          "parameters": [
+            {
+              "key": "Type",
+              "value": "Bleeding"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "CriticalWarning",
+      "uiGroup": 0,
+      "effects": [
+        {
+          "debug_name": "WarrningMessageCriticalCondition",
+          "type": 6,
+          "parameters": [
+            {
+              "key": "Type",
+              "value": "CriticalCondition"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "FaithFull",
+      "category": "faith",
+      "uiGroup": 1,
+      "effects": [
+        {
+          "debug_name": "ChangeFaithPrioNo",
+          "type": 1,
+          "parameters": [
+            {
+              "key": "GoalName",
+              "value": "FaithGoal"
+            },
+            {
+              "key": "Priority",
+              "value": 6
+            }
+          ]
+        },
+        {
+          "debug_name": "MoodPositiveFaithSmall",
+          "type": 4,
+          "parameters": [
+            {
+              "key": "BaseValue",
+              "value": "5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "FaithDef",
+      "category": "faith",
+      "uiGroup": 1
+    },
+    {
+      "name": "FaithNeed",
+      "category": "faith",
+      "bubbleIcon": "faith_effector",
+      "uiGroup": 1,
+      "effects": [
+        {
+          "debug_name": "ChangeFaithPrio",
+          "type": 1,
+          "parameters": [
+            {
+              "key": "GoalName",
+              "value": "FaithGoal"
+            },
+            {
+              "key": "Priority",
+              "value": -3
+            }
+          ]
+        },
+        {
+          "debug_name": "MoodNegativeFaithSmall",
+          "type": 4,
+          "parameters": [
+            {
+              "key": "BaseValue",
+              "value": "-5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "FaithDeprived",
+      "category": "faith",
+      "bubbleIcon": "faith_effector",
+      "uiGroup": 1,
+      "effects": [
+        {
+          "debug_name": "ChangeFaithPrioMore",
+          "type": 1,
+          "parameters": [
+            {
+              "key": "GoalName",
+              "value": "FaithGoal"
+            },
+            {
+              "key": "Priority",
+              "value": -5
+            }
+          ]
+        },
+        {
+          "debug_name": "MoodNegativeFaithLarge",
+          "type": 4,
+          "parameters": [
+            {
+              "key": "BaseValue",
+              "value": "-8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "FaithWhilePraying",
+      "dontSave": true,
+      "uiGroup": 0,
+      "effects": [
+        {
+          "debug_name": "ChangeFaithPrioPraying",
+          "type": 1,
+          "parameters": [
+            {
+              "key": "GoalName",
+              "value": "FaithGoal"
+            },
+            {
+              "key": "Priority",
+              "value": -9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ReligionLight",
+      "category": "religion",
+      "uiGroup": 0,
+      "effects": [
+        {
+          "debug_name": "FaithFallStepSlow",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": "77"
+            },
+            {
+              "key": "Multiplier",
+              "value": 0.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ReligionMedChris",
+      "category": "religion",
+      "uiGroup": 0,
+      "effects": [
+        {
+          "debug_name": "FaithFallStepFast",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": "77"
+            },
+            {
+              "key": "Multiplier",
+              "value": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ReligionHeavyChris",
+      "category": "religion",
+      "uiGroup": 0,
+      "effects": [
+        {
+          "debug_name": "FaithFallStepVeryFast",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": "77"
+            },
+            {
+              "key": "Multiplier",
+              "value": 2
+            }
+          ]
+        },
+        {
+          "debug_name": "ReligionHeavyChrisAlcoholNeed",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": "82"
+            },
+            {
+              "key": "Multiplier",
+              "value": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ReligionMedPag",
+      "category": "religion",
+      "uiGroup": 0,
+      "effects": [
+        {
+          "debug_name": "FaithFallStepFast",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": "77"
+            },
+            {
+              "key": "Multiplier",
+              "value": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ReligionHeavyPag",
+      "category": "religion",
+      "uiGroup": 0,
+      "effects": [
+        {
+          "debug_name": "FaithFallStepVeryFast",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": "77"
+            },
+            {
+              "key": "Multiplier",
+              "value": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "AlcoholNeedNone",
+      "category": "alcohol",
+      "uiGroup": 1,
+      "effects": [
+        {
+          "debug_name": "MoodPositive",
+          "type": 4,
+          "parameters": [
+            {
+              "key": "BaseValue",
+              "value": "4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "AlcoholNeedDef",
+      "category": "alcohol",
+      "uiGroup": 0
+    },
+    {
+      "name": "AlcoholNeedLow",
+      "category": "alcohol",
+      "uiGroup": 0,
+      "effects": [
+        {
+          "debug_name": "AllowAlc",
+          "type": 2,
+          "parameters": [
+            {
+              "key": "AllowFoodCategory",
+              "value": "16777216"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "AlcoholNeedMed",
+      "category": "alcohol",
+      "uiGroup": 1,
+      "effects": [
+        {
+          "debug_name": "AllowAlc",
+          "type": 2,
+          "parameters": [
+            {
+              "key": "AllowFoodCategory",
+              "value": "16777216"
+            }
+          ]
+        },
+        {
+          "debug_name": "ChangeDrinkPrio",
+          "type": 1,
+          "parameters": [
+            {
+              "key": "GoalName",
+              "value": "DrinkGoal"
+            },
+            {
+              "key": "Priority",
+              "value": -3
+            }
+          ]
+        },
+        {
+          "debug_name": "MoodNegativeAlcoholSmall",
+          "type": 4,
+          "parameters": [
+            {
+              "key": "BaseValue",
+              "value": "-3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "AlcoholNeedHigh",
+      "category": "alcohol",
+      "uiGroup": 1,
+      "effects": [
+        {
+          "debug_name": "AllowAlc",
+          "type": 2,
+          "parameters": [
+            {
+              "key": "AllowFoodCategory",
+              "value": "16777216"
+            }
+          ]
+        },
+        {
+          "debug_name": "ChangeDrinkPrioMore",
+          "type": 1,
+          "parameters": [
+            {
+              "key": "GoalName",
+              "value": "DrinkGoal"
+            },
+            {
+              "key": "Priority",
+              "value": -5
+            }
+          ]
+        },
+        {
+          "debug_name": "MoodNegativeAlcoholLarge",
+          "type": 4,
+          "parameters": [
+            {
+              "key": "BaseValue",
+              "value": "-6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "DrankWeakAlcohol",
+      "isInstant": true,
+      "uiGroup": 4,
+      "effects": [
+        {
+          "debug_name": "AlcoholReplenishLow",
+          "type": 11,
+          "parameters": [
+            {
+              "key": "stat",
+              "value": "12"
+            },
+            {
+              "key": "amount",
+              "value": 30
+            }
+          ]
+        },
+        {
+          "debug_name": "PainAwayInstatnLow",
+          "type": 11,
+          "parameters": [
+            {
+              "key": "stat",
+              "value": "9"
+            },
+            {
+              "key": "amount",
+              "value": 20
+            }
+          ]
+        },
+        {
+          "debug_name": "StomachBadInstatnMed",
+          "type": 11,
+          "parameters": [
+            {
+              "key": "stat",
+              "value": "16"
+            },
+            {
+              "key": "amount",
+              "value": -30
+            }
+          ]
+        },
+        {
+          "debug_name": "InebriatedInstaVeryLow",
+          "type": 11,
+          "parameters": [
+            {
+              "key": "stat",
+              "value": "15"
+            },
+            {
+              "key": "amount",
+              "value": -10
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "DrankMediumAlcohol",
+      "isInstant": true,
+      "uiGroup": 4,
+      "effects": [
+        {
+          "debug_name": "AlcoholReplenishMed",
+          "type": 11,
+          "parameters": [
+            {
+              "key": "stat",
+              "value": "12"
+            },
+            {
+              "key": "amount",
+              "value": 50
+            }
+          ]
+        },
+        {
+          "debug_name": "PainAwayInstatnLow",
+          "type": 11,
+          "parameters": [
+            {
+              "key": "stat",
+              "value": "9"
+            },
+            {
+              "key": "amount",
+              "value": 20
+            }
+          ]
+        },
+        {
+          "debug_name": "StomachBadInstatnLow",
+          "type": 11,
+          "parameters": [
+            {
+              "key": "stat",
+              "value": "16"
+            },
+            {
+              "key": "amount",
+              "value": -23
+            }
+          ]
+        },
+        {
+          "debug_name": "InebriatedInstaLow",
+          "type": 11,
+          "parameters": [
+            {
+              "key": "stat",
+              "value": "15"
+            },
+            {
+              "key": "amount",
+              "value": -20
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "DrankAlcohol",
+      "isInstant": true,
+      "uiGroup": 4,
+      "effects": [
+        {
+          "debug_name": "AlcoholReplenishHigh",
+          "type": 11,
+          "parameters": [
+            {
+              "key": "stat",
+              "value": "12"
+            },
+            {
+              "key": "amount",
+              "value": 100
+            }
+          ]
+        },
+        {
+          "debug_name": "PainAwayInstatnLow",
+          "type": 11,
+          "parameters": [
+            {
+              "key": "stat",
+              "value": "9"
+            },
+            {
+              "key": "amount",
+              "value": 20
+            }
+          ]
+        },
+        {
+          "debug_name": "StomachBadInstatnLow",
+          "type": 11,
+          "parameters": [
+            {
+              "key": "stat",
+              "value": "16"
+            },
+            {
+              "key": "amount",
+              "value": -23
+            }
+          ]
+        },
+        {
+          "debug_name": "InebriatedInstaMed",
+          "type": 11,
+          "parameters": [
+            {
+              "key": "stat",
+              "value": "15"
+            },
+            {
+              "key": "amount",
+              "value": -30
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "DrankHardAlcohol",
+      "isInstant": true,
+      "uiGroup": 4,
+      "effects": [
+        {
+          "debug_name": "AlcoholReplenishHigh",
+          "type": 11,
+          "parameters": [
+            {
+              "key": "stat",
+              "value": "12"
+            },
+            {
+              "key": "amount",
+              "value": 100
+            }
+          ]
+        },
+        {
+          "debug_name": "PainAwayInstatnMed",
+          "type": 11,
+          "parameters": [
+            {
+              "key": "stat",
+              "value": "9"
+            },
+            {
+              "key": "amount",
+              "value": 30
+            }
+          ]
+        },
+        {
+          "debug_name": "StomachBadInstatnMed",
+          "type": 11,
+          "parameters": [
+            {
+              "key": "stat",
+              "value": "16"
+            },
+            {
+              "key": "amount",
+              "value": -30
+            }
+          ]
+        },
+        {
+          "debug_name": "InebriatedInstaHigh",
+          "type": 11,
+          "parameters": [
+            {
+              "key": "stat",
+              "value": "15"
+            },
+            {
+              "key": "amount",
+              "value": -40
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "DrankNiceDrink",
+      "uiGroup": 1,
+      "duration": 4,
+      "maxStack": 3,
+      "stackMultiplier": 0.8,
+      "effects": [
+        {
+          "debug_name": "MoodPositiveVerySmall",
+          "type": 4,
+          "parameters": [
+            {
+              "key": "BaseValue",
+              "value": "1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "DrankVeryNiceDrink",
+      "uiGroup": 1,
+      "duration": 4,
+      "maxStack": 3,
+      "stackMultiplier": 0.8,
+      "effects": [
+        {
+          "debug_name": "MoodPositiveSmall",
+          "type": 4,
+          "parameters": [
+            {
+              "key": "BaseValue",
+              "value": "2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "InebriatedLow",
+      "category": "Inebriated",
+      "uiGroup": 3,
+      "effects": [
+        {
+          "debug_name": "DrunkParticles",
+          "type": 2,
+          "parameters": [
+            {
+              "key": "TriggerParticle",
+              "value": "drunk"
+            }
+          ]
+        },
+        {
+          "debug_name": "MoodPositiveSmall",
+          "type": 4,
+          "parameters": [
+            {
+              "key": "BaseValue",
+              "value": "2"
+            }
+          ]
+        },
+        {
+          "debug_name": "MotorFunctionBitLow",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": "71"
+            },
+            {
+              "key": "Multiplier",
+              "value": 0.9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "InebriatedMed",
+      "category": "Inebriated",
+      "uiGroup": 3,
+      "effects": [
+        {
+          "debug_name": "DrunkParticles",
+          "type": 2,
+          "parameters": [
+            {
+              "key": "TriggerParticle",
+              "value": "drunk"
+            }
+          ]
+        },
+        {
+          "debug_name": "MoodPositive",
+          "type": 4,
+          "parameters": [
+            {
+              "key": "BaseValue",
+              "value": "4"
+            }
+          ]
+        },
+        {
+          "debug_name": "MotorFunctionLow",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": "71"
+            },
+            {
+              "key": "Multiplier",
+              "value": 0.85
+            }
+          ]
+        },
+        {
+          "debug_name": "ClumsinessMed",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": "72"
+            },
+            {
+              "key": "Multiplier",
+              "value": 1.2
+            }
+          ]
+        },
+        {
+          "debug_name": "RangedChanceReduced1",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": "28"
+            },
+            {
+              "key": "Multiplier",
+              "value": 0.9
+            }
+          ]
+        },
+        {
+          "debug_name": "MovementSpeedSlower",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": "1"
+            },
+            {
+              "key": "Multiplier",
+              "value": 0.9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "InebriatedHigh",
+      "category": "Inebriated",
+      "uiGroup": 3,
+      "effects": [
+        {
+          "debug_name": "DrunkParticles",
+          "type": 2,
+          "parameters": [
+            {
+              "key": "TriggerParticle",
+              "value": "drunk"
+            }
+          ]
+        },
+        {
+          "debug_name": "MoodPositiveLarge",
+          "type": 4,
+          "parameters": [
+            {
+              "key": "BaseValue",
+              "value": "8"
+            }
+          ]
+        },
+        {
+          "debug_name": "MotorFunctionLow",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": "71"
+            },
+            {
+              "key": "Multiplier",
+              "value": 0.85
+            }
+          ]
+        },
+        {
+          "debug_name": "ClumsinessHigh",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": "72"
+            },
+            {
+              "key": "Multiplier",
+              "value": 1.6
+            }
+          ]
+        },
+        {
+          "debug_name": "RangedChanceReduced2",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": "28"
+            },
+            {
+              "key": "Multiplier",
+              "value": 0.85
+            }
+          ]
+        },
+        {
+          "debug_name": "MovementSpeedSlower2",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": "1"
+            },
+            {
+              "key": "Multiplier",
+              "value": 0.85
+            }
+          ]
+        },
+        {
+          "debug_name": "MoodChangeFaster",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": "37"
+            },
+            {
+              "key": "Multiplier",
+              "value": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "InebriatedVeryHigh",
+      "category": "Inebriated",
+      "uiGroup": 3,
+      "effects": [
+        {
+          "debug_name": "DrunkParticles",
+          "type": 2,
+          "parameters": [
+            {
+              "key": "TriggerParticle",
+              "value": "drunk"
+            }
+          ]
+        },
+        {
+          "debug_name": "MoodPositiveVeryLarge",
+          "type": 4,
+          "parameters": [
+            {
+              "key": "BaseValue",
+              "value": "16"
+            }
+          ]
+        },
+        {
+          "debug_name": "MotorFunctionLower",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": "71"
+            },
+            {
+              "key": "Multiplier",
+              "value": 0.75
+            }
+          ]
+        },
+        {
+          "debug_name": "ClumsinessVeryHigh",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": "72"
+            },
+            {
+              "key": "Multiplier",
+              "value": 2.5
+            }
+          ]
+        },
+        {
+          "debug_name": "RangedChanceReduced3",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": "28"
+            },
+            {
+              "key": "Multiplier",
+              "value": 0.4
+            }
+          ]
+        },
+        {
+          "debug_name": "MovementSpeedSlowerDrunk",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": "1"
+            },
+            {
+              "key": "Multiplier",
+              "value": 0.5
+            }
+          ]
+        },
+        {
+          "debug_name": "MoodChangeFaster",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": "37"
+            },
+            {
+              "key": "Multiplier",
+              "value": 2
+            }
+          ]
+        },
+        {
+          "debug_name": "LoosingConSleep",
+          "type": 10,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": "69"
+            },
+            {
+              "key": "Value",
+              "value": -4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "StomachHurtLow",
+      "category": "Stomach",
+      "uiGroup": 1,
+      "effects": [
+        {
+          "debug_name": "MoodNegativeSmall",
+          "type": 4,
+          "parameters": [
+            {
+              "key": "BaseValue",
+              "value": "-2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "StomachHurtMed",
+      "category": "Stomach",
+      "uiGroup": 1,
+      "effects": [
+        {
+          "debug_name": "MoodNegative",
+          "type": 4,
+          "parameters": [
+            {
+              "key": "BaseValue",
+              "value": "-4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "VomitAnim",
+      "uiGroup": 0,
+      "effects": [
+        {
+          "debug_name": "ChangeVomitPrio",
+          "type": 1,
+          "parameters": [
+            {
+              "key": "GoalName",
+              "value": "VomitGoal"
+            },
+            {
+              "key": "Priority",
+              "value": -25
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "VomitAfter",
+      "uiGroup": 3,
+      "duration": 10,
+      "maxStack": 1,
+      "stackMultiplier": 0.6,
+      "effects": [
+        {
+          "debug_name": "MoodNegativeVeryLarge",
+          "type": 4,
+          "parameters": [
+            {
+              "key": "BaseValue",
+              "value": "-16"
+            }
+          ]
+        },
+        {
+          "debug_name": "MotorFunctionBitLow",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": "71"
+            },
+            {
+              "key": "Multiplier",
+              "value": 0.9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "VomitStop",
+      "isInstant": true,
+      "uiGroup": 3,
+      "effects": [
+        {
+          "debug_name": "VomitFixStomach",
+          "type": 11,
+          "parameters": [
+            {
+              "key": "stat",
+              "value": "16"
+            },
+            {
+              "key": "amount",
+              "value": 50
+            }
+          ]
+        },
+        {
+          "debug_name": "VomitEmptyHunger",
+          "type": 11,
+          "parameters": [
+            {
+              "key": "stat",
+              "value": "3"
+            },
+            {
+              "key": "amount",
+              "value": -100
+            }
+          ]
+        },
+        {
+          "debug_name": "VomitEmptyInebriated",
+          "type": 11,
+          "parameters": [
+            {
+              "key": "stat",
+              "value": "15"
+            },
+            {
+              "key": "amount",
+              "value": 100
+            }
+          ]
+        },
+        {
+          "debug_name": "DamageConsicnessHigh",
+          "type": 11,
+          "parameters": [
+            {
+              "key": "stat",
+              "value": "8"
+            },
+            {
+              "key": "amount",
+              "value": -35
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "StomachFoodInstaDmgVeryLow",
+      "isInstant": true,
+      "uiGroup": 2,
+      "effects": [
+        {
+          "debug_name": "StomachBadInstatnVeryLow",
+          "type": 11,
+          "parameters": [
+            {
+              "key": "stat",
+              "value": "16"
+            },
+            {
+              "key": "amount",
+              "value": -15
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "StomachFoodInstaDmgLow",
+      "isInstant": true,
+      "uiGroup": 2,
+      "effects": [
+        {
+          "debug_name": "StomachBadInstatnLow",
+          "type": 11,
+          "parameters": [
+            {
+              "key": "stat",
+              "value": "16"
+            },
+            {
+              "key": "amount",
+              "value": -23
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "StomachFoodInstaDmgHigh",
+      "isInstant": true,
+      "uiGroup": 2,
+      "effects": [
+        {
+          "debug_name": "StomachBadInstatnHigh",
+          "type": 11,
+          "parameters": [
+            {
+              "key": "stat",
+              "value": "16"
+            },
+            {
+              "key": "amount",
+              "value": -40
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "MoodInstaAddLow",
+      "isInstant": true,
+      "uiGroup": 1,
+      "effects": [
+        {
+          "debug_name": "MoodAddInstantSmall",
+          "type": 11,
+          "parameters": [
+            {
+              "key": "stat",
+              "value": "6"
+            },
+            {
+              "key": "amount",
+              "value": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "MoodInstaAddMedium",
+      "isInstant": true,
+      "uiGroup": 1,
+      "effects": [
+        {
+          "debug_name": "MoodAddInstantMedium",
+          "type": 11,
+          "parameters": [
+            {
+              "key": "stat",
+              "value": "6"
+            },
+            {
+              "key": "amount",
+              "value": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "MoodInstaAddHigh",
+      "isInstant": true,
+      "uiGroup": 1,
+      "effects": [
+        {
+          "debug_name": "MoodAddInstantHigh",
+          "type": 11,
+          "parameters": [
+            {
+              "key": "stat",
+              "value": "6"
+            },
+            {
+              "key": "amount",
+              "value": 8
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "StomackRotDmg",
+      "dontSave": true,
+      "uiGroup": 2,
+      "effects": [
+        {
+          "debug_name": "StomachTurningRot",
+          "type": 10,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": "90"
+            },
+            {
+              "key": "Value",
+              "value": -5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "StomackCarcassDmg",
+      "dontSave": true,
+      "uiGroup": 2,
+      "effects": [
+        {
+          "debug_name": "StomachTurningCarcass",
+          "type": 10,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": "90"
+            },
+            {
+              "key": "Value",
+              "value": -10
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "EntertainmentFull",
+      "category": "entertainment",
+      "uiGroup": 1,
+      "effects": [
+        {
+          "debug_name": "ChangeEntertainmentPrioNo",
+          "type": 1,
+          "parameters": [
+            {
+              "key": "GoalName",
+              "value": "EntertainmentGoal"
+            },
+            {
+              "key": "Priority",
+              "value": 6
+            }
+          ]
+        },
+        {
+          "debug_name": "MoodPositiveEntertainmentSmall",
+          "type": 4,
+          "parameters": [
+            {
+              "key": "BaseValue",
+              "value": "5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "EntertainmentDef",
+      "category": "entertainment",
+      "uiGroup": 0
+    },
+    {
+      "name": "EntertainmentNeed",
+      "category": "entertainment",
+      "uiGroup": 1,
+      "effects": [
+        {
+          "debug_name": "ChangeEntertainmentPrio",
+          "type": 1,
+          "parameters": [
+            {
+              "key": "GoalName",
+              "value": "EntertainmentGoal"
+            },
+            {
+              "key": "Priority",
+              "value": -3
+            }
+          ]
+        },
+        {
+          "debug_name": "MoodNegativeEntertainmentSmall",
+          "type": 4,
+          "parameters": [
+            {
+              "key": "BaseValue",
+              "value": "-5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "EntertainmentDeprived",
+      "category": "entertainment",
+      "uiGroup": 1,
+      "effects": [
+        {
+          "debug_name": "ChangeEntertainmentPrioMore",
+          "type": 1,
+          "parameters": [
+            {
+              "key": "GoalName",
+              "value": "EntertainmentGoal"
+            },
+            {
+              "key": "Priority",
+              "value": -5
+            }
+          ]
+        },
+        {
+          "debug_name": "MoodNegativeEntertainmentLarge",
+          "type": 4,
+          "parameters": [
+            {
+              "key": "BaseValue",
+              "value": "-8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "EntertainmentWhileActive",
+      "dontSave": true,
+      "uiGroup": 0,
+      "effects": [
+        {
+          "debug_name": "ChangeEntertainmentPrioActive",
+          "type": 1,
+          "parameters": [
+            {
+              "key": "GoalName",
+              "value": "EntertainmentGoal"
+            },
+            {
+              "key": "Priority",
+              "value": -9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "NewVillagerInitialOptimisam",
+      "uiGroup": 1,
+      "duration": 180,
+      "effects": [
+        {
+          "debug_name": "MoodPositiveInitialOptimism",
+          "type": 4,
+          "parameters": [
+            {
+              "key": "BaseValue",
+              "value": "25"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "InPaganChapelMoodPlus",
+      "category": "shrine",
+      "uiGroup": 1,
+      "duration": 24,
+      "effects": [
+        {
+          "debug_name": "MoodPositive",
+          "type": 4,
+          "parameters": [
+            {
+              "key": "BaseValue",
+              "value": "4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "InPaganChapelMoodMinus",
+      "category": "shrine",
+      "uiGroup": 1,
+      "duration": 12,
+      "effects": [
+        {
+          "debug_name": "MoodNegativeSmall",
+          "type": 4,
+          "parameters": [
+            {
+              "key": "BaseValue",
+              "value": "-2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "InChapelMoodPlus",
+      "category": "shrine",
+      "uiGroup": 1,
+      "duration": 24,
+      "effects": [
+        {
+          "debug_name": "MoodPositive",
+          "type": 4,
+          "parameters": [
+            {
+              "key": "BaseValue",
+              "value": "4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "InChapelMoodMinus",
+      "category": "shrine",
+      "uiGroup": 1,
+      "duration": 12,
+      "effects": [
+        {
+          "debug_name": "MoodNegativeSmall",
+          "type": 4,
+          "parameters": [
+            {
+              "key": "BaseValue",
+              "value": "-2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "NightOwlPerkEffector",
+      "dontSave": true,
+      "uiGroup": 4,
+      "isDisabled": true,
+      "effects": [
+        {
+          "debug_name": "GlobalWorkSpeedNightOwl",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": "75"
+            },
+            {
+              "key": "Multiplier",
+              "value": 1.25
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "AteLavishMealNegativePerkEffector",
+      "category": "foodQuality",
+      "bubbleIcon": "food_effector",
+      "uiGroup": 1,
+      "isDisabled": true,
+      "duration": 8,
+      "maxStack": 3,
+      "stackMultiplier": 0.8,
+      "effects": [
+        {
+          "debug_name": "MoodNegativeSmall",
+          "type": 4,
+          "parameters": [
+            {
+              "key": "BaseValue",
+              "value": "-2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "AteWellNegativePerkEffector",
+      "category": "foodQuality",
+      "bubbleIcon": "food_effector",
+      "uiGroup": 1,
+      "isDisabled": true,
+      "duration": 8,
+      "maxStack": 3,
+      "stackMultiplier": 0.8,
+      "effects": [
+        {
+          "debug_name": "MoodNegativeVerySmall",
+          "type": 4,
+          "parameters": [
+            {
+              "key": "BaseValue",
+              "value": "-1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "AteRawMealNegativePerkEffector",
+      "category": "foodQuality",
+      "bubbleIcon": "food_effector",
+      "uiGroup": 1,
+      "isDisabled": true,
+      "duration": 12,
+      "maxStack": 3,
+      "stackMultiplier": 0.9,
+      "effects": [
+        {
+          "debug_name": "MoodPositiveVerySmall",
+          "type": 4,
+          "parameters": [
+            {
+              "key": "BaseValue",
+              "value": "1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "InebriatedWorkLowPerkEffector",
+      "category": "Inebriated",
+      "uiGroup": 3,
+      "isDisabled": true,
+      "effects": [
+        {
+          "debug_name": "DrunkParticles",
+          "type": 2,
+          "parameters": [
+            {
+              "key": "TriggerParticle",
+              "value": "drunk"
+            }
+          ]
+        },
+        {
+          "debug_name": "MoodPositiveSmall",
+          "type": 4,
+          "parameters": [
+            {
+              "key": "BaseValue",
+              "value": "2"
+            }
+          ]
+        },
+        {
+          "debug_name": "GlobalWorkSpeedDrunk",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": "75"
+            },
+            {
+              "key": "Multiplier",
+              "value": 1.1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "InebriatedWorkMedPerkEffector",
+      "category": "Inebriated",
+      "uiGroup": 3,
+      "isDisabled": true,
+      "effects": [
+        {
+          "debug_name": "DrunkParticles",
+          "type": 2,
+          "parameters": [
+            {
+              "key": "TriggerParticle",
+              "value": "drunk"
+            }
+          ]
+        },
+        {
+          "debug_name": "MoodPositive",
+          "type": 4,
+          "parameters": [
+            {
+              "key": "BaseValue",
+              "value": "4"
+            }
+          ]
+        },
+        {
+          "debug_name": "GlobalWorkSpeedDrunk",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": "75"
+            },
+            {
+              "key": "Multiplier",
+              "value": 1.1
+            }
+          ]
+        },
+        {
+          "debug_name": "RangedChanceReduced1",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": "28"
+            },
+            {
+              "key": "Multiplier",
+              "value": 0.9
+            }
+          ]
+        },
+        {
+          "debug_name": "MovementSpeedSlower",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": "1"
+            },
+            {
+              "key": "Multiplier",
+              "value": 0.9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "InebriatedWorkHighPerkEffector",
+      "category": "Inebriated",
+      "uiGroup": 3,
+      "isDisabled": true,
+      "effects": [
+        {
+          "debug_name": "DrunkParticles",
+          "type": 2,
+          "parameters": [
+            {
+              "key": "TriggerParticle",
+              "value": "drunk"
+            }
+          ]
+        },
+        {
+          "debug_name": "MoodPositiveLarge",
+          "type": 4,
+          "parameters": [
+            {
+              "key": "BaseValue",
+              "value": "8"
+            }
+          ]
+        },
+        {
+          "debug_name": "GlobalWorkSpeedDrunk",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": "75"
+            },
+            {
+              "key": "Multiplier",
+              "value": 1.1
+            }
+          ]
+        },
+        {
+          "debug_name": "RangedChanceReduced2",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": "28"
+            },
+            {
+              "key": "Multiplier",
+              "value": 0.85
+            }
+          ]
+        },
+        {
+          "debug_name": "MovementSpeedSlower2",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": "1"
+            },
+            {
+              "key": "Multiplier",
+              "value": 0.85
+            }
+          ]
+        },
+        {
+          "debug_name": "MoodChangeFaster",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": "37"
+            },
+            {
+              "key": "Multiplier",
+              "value": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "InebriatedWorkVeryHighPerkEffector",
+      "category": "Inebriated",
+      "uiGroup": 3,
+      "isDisabled": true,
+      "effects": [
+        {
+          "debug_name": "DrunkParticles",
+          "type": 2,
+          "parameters": [
+            {
+              "key": "TriggerParticle",
+              "value": "drunk"
+            }
+          ]
+        },
+        {
+          "debug_name": "MoodPositiveVeryLarge",
+          "type": 4,
+          "parameters": [
+            {
+              "key": "BaseValue",
+              "value": "16"
+            }
+          ]
+        },
+        {
+          "debug_name": "GlobalWorkSpeedDrunk",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": "75"
+            },
+            {
+              "key": "Multiplier",
+              "value": 1.1
+            }
+          ]
+        },
+        {
+          "debug_name": "RangedChanceReduced3",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": "28"
+            },
+            {
+              "key": "Multiplier",
+              "value": 0.4
+            }
+          ]
+        },
+        {
+          "debug_name": "MovementSpeedSlowerDrunk",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": "1"
+            },
+            {
+              "key": "Multiplier",
+              "value": 0.5
+            }
+          ]
+        },
+        {
+          "debug_name": "MoodChangeFaster",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": "37"
+            },
+            {
+              "key": "Multiplier",
+              "value": 2
+            }
+          ]
+        },
+        {
+          "debug_name": "LoosingConSleep",
+          "type": 10,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": "69"
+            },
+            {
+              "key": "Value",
+              "value": -4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "InebriatedAttackStrenghtPerkEffector",
+      "uiGroup": 4,
+      "isDisabled": true,
+      "effects": [
+        {
+          "debug_name": "DamageDrunkUnarmed",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": "45"
+            },
+            {
+              "key": "Multiplier",
+              "value": 3
+            }
+          ]
+        },
+        {
+          "debug_name": "DamageDrunkMelee",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": "24"
+            },
+            {
+              "key": "Multiplier",
+              "value": 1.2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ColdPositivePerkEffector",
+      "category": "temperature",
+      "bubbleIcon": "cold_effector",
+      "uiGroup": 5,
+      "isDisabled": true,
+      "effects": [
+        {
+          "debug_name": "MoodPositiveVerySmall",
+          "type": 4,
+          "parameters": [
+            {
+              "key": "BaseValue",
+              "value": "1"
+            }
+          ]
+        },
+        {
+          "debug_name": "GlobalWorkSpeedTemp",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": "75"
+            },
+            {
+              "key": "Multiplier",
+              "value": 1.1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ChillyPositivePerkEffector",
+      "category": "temperature",
+      "bubbleIcon": "cold_effector",
+      "uiGroup": 5,
+      "isDisabled": true,
+      "effects": [
+        {
+          "debug_name": "MoodPositiveSmall",
+          "type": 4,
+          "parameters": [
+            {
+              "key": "BaseValue",
+              "value": "2"
+            }
+          ]
+        },
+        {
+          "debug_name": "GlobalWorkSpeedTemp",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": "75"
+            },
+            {
+              "key": "Multiplier",
+              "value": 1.1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SweatyPositivePerkEffector",
+      "category": "temperature",
+      "bubbleIcon": "hot_effector",
+      "uiGroup": 5,
+      "isDisabled": true,
+      "effects": [
+        {
+          "debug_name": "MoodPositiveSmall",
+          "type": 4,
+          "parameters": [
+            {
+              "key": "BaseValue",
+              "value": "2"
+            }
+          ]
+        },
+        {
+          "debug_name": "GlobalWorkSpeedTemp",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": "75"
+            },
+            {
+              "key": "Multiplier",
+              "value": 1.1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "HotPositivePerkEffector",
+      "category": "temperature",
+      "bubbleIcon": "hot_effector",
+      "uiGroup": 5,
+      "isDisabled": true,
+      "effects": [
+        {
+          "debug_name": "MoodPositiveVerySmall",
+          "type": 4,
+          "parameters": [
+            {
+              "key": "BaseValue",
+              "value": "1"
+            }
+          ]
+        },
+        {
+          "debug_name": "GlobalWorkSpeedTemp",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": "75"
+            },
+            {
+              "key": "Multiplier",
+              "value": 1.1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ChillyPerkEffector",
+      "uiGroup": 0,
+      "effects": [
+        {
+          "debug_name": "ColdTreshNegative",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": "99"
+            },
+            {
+              "key": "Multiplier",
+              "value": 1.3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "HotBloodedPerkEffector",
+      "uiGroup": 0,
+      "effects": [
+        {
+          "debug_name": "HotTreshNegative",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": "98"
+            },
+            {
+              "key": "Multiplier",
+              "value": 1.3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SleptInSharedBedroomPerkEffector",
+      "bubbleIcon": "bed_effector",
+      "uiGroup": 1,
+      "isDisabled": true,
+      "duration": 12,
+      "effects": [
+        {
+          "debug_name": "MoodSleptinSharedBedroomNeg",
+          "type": 4,
+          "parameters": [
+            {
+              "key": "BaseValue",
+              "value": "-4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SunSeekerDayPerkEffector",
+      "dontSave": true,
+      "uiGroup": 1,
+      "isDisabled": true,
+      "effects": [
+        {
+          "debug_name": "MoodPositiveLarge",
+          "type": 4,
+          "parameters": [
+            {
+              "key": "BaseValue",
+              "value": "8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SnowWhiteSnowPerkEffector",
+      "dontSave": true,
+      "uiGroup": 1,
+      "isDisabled": true,
+      "effects": [
+        {
+          "debug_name": "MoodPositiveLarge",
+          "type": 4,
+          "parameters": [
+            {
+              "key": "BaseValue",
+              "value": "8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "WashoutRainPerkEffector",
+      "dontSave": true,
+      "uiGroup": 1,
+      "isDisabled": true,
+      "effects": [
+        {
+          "debug_name": "MoodNegative",
+          "type": 4,
+          "parameters": [
+            {
+              "key": "BaseValue",
+              "value": "-4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "InitialChargeMovementSpeed",
+      "dontSave": true,
+      "uiGroup": 0,
+      "maxStack": 1,
+      "effects": [
+        {
+          "debug_name": "MovementSpeedEnemyRaid",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": "1"
+            },
+            {
+              "key": "Multiplier",
+              "value": 0.7
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1222 @@
+{
+	"repository": [
+		{
+			"id": "game_event_season_start",
+			"className": "InfoEvent",
+			"dialogs": [
+				{
+					"id": "spring",
+					"typeTextKey": "game_event_type_season_start",
+					"nameTextKey": "game_event_season_spring",
+					"descriptionTextKey": "game_event_description_season_spring",
+					"image": "event_season_spring",
+					"options": ["general_ok"],
+					"optionEffects": [
+						{"items": [7]}
+					]
+				},
+				{
+					"id": "summer",
+					"typeTextKey": "game_event_type_season_start",
+					"nameTextKey": "game_event_season_summer",
+					"descriptionTextKey": "game_event_description_season_summer",
+					"image": "event_season_summer",
+					"options": ["general_ok"],
+					"optionEffects": [
+						{"items": [8]}
+					]
+				},
+				{
+					"id": "autumn",
+					"typeTextKey": "game_event_type_season_start",
+					"nameTextKey": "game_event_season_autumn",
+					"descriptionTextKey": "game_event_description_season_autumn",
+					"image": "event_season_autumn",
+					"options": ["general_ok"],
+					"optionEffects": [
+						{"items": [9]}
+					]
+				},
+				{
+					"id": "winter",
+					"typeTextKey": "game_event_type_season_start",
+					"nameTextKey": "game_event_season_winter",
+					"descriptionTextKey": "game_event_description_season_winter",
+					"image": "event_season_winter",
+					"options": ["general_ok"],
+					"optionEffects": [
+						{"items": [10]}
+					]
+				}
+			]
+		},		
+		{
+			"id": "game_event_heat_wave",
+			"className": "FixedDurationEvent",
+			"dialogs": [
+				{
+					"typeTextKey": "game_event_type_enviroment",
+					"nameTextKey": "event_name_heat_wave_01",
+					"descriptionTextKey": "event_heat_wave_01",
+					"image": "event_heatwave",
+					"options": ["general_ok"]
+				}
+			],
+			"durationHours": {
+				"min": "24.0",
+				"max": "48.0"
+			},
+			"animationLayer": "heatWaveAnim",
+			"temperatureRange": {
+				"min": "39",
+				"max": "43"
+			},
+			"temperatureRangeNight": {
+				"min": "27",
+				"max": "23"
+			},
+			"endBlackBarTextKey": "game_event_heat_wave_end",
+			"weatherTextKey": "weather_heat_wave"
+		},
+		{
+			"id": "game_event_cold_snap",
+			"className": "FixedDurationEvent",
+			"dialogs": [
+				{
+					"typeTextKey": "game_event_type_enviroment",
+					"nameTextKey": "event_name_cold_01",
+					"descriptionTextKey": "event_cold_01",
+					"image": "event_cold_snap",
+					"options": ["general_ok"]
+				}
+			],
+			"durationHours": {
+				"min": "18.0",
+				"max": "48.0"
+			},
+			"animationLayer": "coldSnapAnim",
+			"temperatureRange": {
+				"min": "-32.0",
+				"max": "-28.0"
+			},
+			"temperatureRangeNight": {
+				"min": "-45.0",
+				"max": "-35.0"
+			},
+			"endBlackBarTextKey": "game_event_cold_snap_end",
+			"weatherTextKey": "weather_cold_snap"
+		},
+		{
+			"id": "game_event_hailstorm",
+			"className": "HailstormEvent",
+			"dialogs": [
+				{
+					"typeTextKey": "game_event_type_enviroment",
+					"nameTextKey": "event_name_hail_01",
+					"descriptionTextKey": "event_hail_01",
+					"image": "event_hailstorm",
+					"options": ["general_ok"]
+				}
+			],
+			"durationHours": {
+				"min": "3",
+				"max": "5"
+			},
+			"damageHitPoints": {
+				"min": 10.0,
+				"max": 40.0
+			},
+			"animationLayer": "hailstormAnim", 
+			"percentage": {
+				"min": 20.0,
+				"max": 30.0
+			},
+			"temperatureAdditive": true,
+			"temperatureRange": {
+				"min": "-5.0",
+				"max": "-7.0"
+			},
+			"endBlackBarTextKey": "game_event_hailstorm_end",
+			"weatherTextKey": "weather_hailstorm"
+		},
+		{
+			"id": "game_event_thunderstorm",
+			"className": "ThunderstormEvent",
+			"dialogs": [
+				{
+					"typeTextKey": "game_event_type_enviroment",
+					"nameTextKey": "event_name_thunderstorm_01",
+					"descriptionTextKey": "event_thunderstorm_01",
+					"image": "event_thunderstorm",
+					"options": ["general_ok"]
+				}
+			],
+			"durationHours": {
+				"min": "3.0",
+				"max": "5.0"
+			},
+			"prefab": "lightning_strike",
+			"lightningStrikeCount": {
+				"min": "3",
+				"max": "5"
+			},
+			"lightningStrikeChance": [
+				{
+					"key": "RandomPosition",
+					"value": 65.0
+				},
+				{
+					"key": "Animal",
+					"value": 3.0
+				},
+				{
+					"key": "Plant",
+					"value": 35.0
+				},
+				{
+					"key": "Worker",
+					"value": 1.0
+				},
+				{
+					"key": "Enemy",
+					"value": 5.0
+				},
+				{
+					"key": "Building",
+					"value": 10.0
+				},
+				{
+					"key": "ResourcePile",
+					"value": 5.0
+				},
+				{
+					"key": "Trebuchet",
+					"value": 10.0
+				}
+			],
+			"groundDamageHitPoints": {
+				"min": 30.0,
+				"max": 40.0
+			},
+			"damageHitPoints": {
+				"min": 40.0,
+				"max": 60.0
+			},
+			"creatureDamageHitPoints": {
+				"min": 10.0,
+				"max": 20.0
+			},
+			"damageRange": {
+				"min": 2.0,
+				"max": 4.0
+			},
+			"animationLayer": "heavyRainAnim",
+			"temperatureAdditive": true,
+			"temperatureRange": {
+				"min": "-5.0",
+				"max": "-10.0"
+			},
+			  "hitEffectors": [
+				{
+				  "threshold": 0.4,
+				  "effector": "burn_foot"
+				},
+				{
+				  "threshold": 0.4,
+				  "effector": "burn_hand"
+				},
+				{
+				  "threshold": 0.1,
+				  "effector": "burn_face"
+				},
+				{
+				  "threshold": 0.2,
+				  "effector": "burn_torso"
+				},
+				{
+				  "threshold": 0.2,
+				  "effector": "burn_leg"
+				},
+				{
+				  "threshold": 0.3,
+				  "effector": "burn_arm"
+				}
+			  ],
+			"endBlackBarTextKey": "game_event_thunderstorm_end",
+            "enableKeywordOnStart": "_GLOBAL_WEATHER_RAIN_ON",
+			"weatherTextKey": "weather_thunderstorm"
+		},
+		{
+			"id": "game_event_influence_20",
+			"className": "InfoEvent",
+			"dialogs": [
+				{
+					"typeTextKey": "game_event_type_influence",
+					"nameTextKey": "game_event_name_influence_20",
+					"descriptionTextKey": "game_event_description_influence_20",
+					"image": "event_influence",
+					"options": ["general_ok"]
+				}
+			]
+		},
+		{
+			"id": "game_event_influence_100",
+			"className": "InfoEvent",
+			"dialogs": [
+				{
+					"typeTextKey": "game_event_type_influence",
+					"nameTextKey": "game_event_name_influence_100",
+					"descriptionTextKey": "game_event_description_influence_100",
+					"image": "event_influence",
+					"options": ["general_ok"]
+				}
+			]
+		},
+		{
+			"id": "game_event_new_worker",
+			"className": "NewWorkerEvent",
+			"equipment": ["new_worker_simple"],
+			"dialogs": [
+				{
+					"typeTextKey": "game_event_type_new_worker",
+					"nameTextKey": "event_name_new_worker_defoult_01",
+					"descriptionTextKey": "event_new_worker_defoult_01",
+					"image": "event_new_worker",
+					"options": ["event_answer_welcome_new_worker", "event_answer_decline_new_worker"],
+					"optionEffects": [
+						{"items": [1]},
+						{"items": [0]}
+					]
+				}
+			]
+		},
+		{
+			"id": "game_event_new_worker_hungry",
+			"className": "NewWorkerEvent",
+			"equipment": ["new_worker_simple"],
+			"stats": [
+				{
+					"stat": "Hunger",
+					"valueRange": {
+						"min": -30,
+						"max": -10
+					}
+				}, 
+				{
+					"stat": "Mood",
+					"valueRange": {
+						"min": 40,
+						"max": 50
+					}
+				}, 
+				{
+					"stat": "Sleep",
+					"valueRange": {
+						"min": 25,
+						"max": 50
+					}
+				}
+			],
+			"dialogs": [
+				{
+					"typeTextKey": "game_event_type_new_worker",
+					"nameTextKey": "event_name_new_worker_starving_01",
+					"descriptionTextKey": "event_new_worker_starving_01",
+					"image": "event_new_worker",
+					"options": ["event_answer_welcome_new_worker", "event_answer_decline_new_worker"],
+					"optionEffects": [
+						{"items": [1]},
+						{"items": [0]}
+					]
+					
+				}
+			]
+		},
+		{
+			"id": "game_event_new_worker_wounded",
+			"className": "NewWorkerEvent",
+			"equipment": ["new_worker_with_weapons"],
+			"wounds": 
+			{
+				"list": ["deep_cut_arm", "deep_cut_leg", "deep_cut_chest"],
+				"minCount": 1, 
+				"maxCount": 2
+			},
+			"stats": [
+				{
+					"stat": "Hunger",
+					"valueRange": {
+						"min": 20,
+						"max": 40
+					}
+				}, 
+				{
+					"stat": "Mood",
+					"valueRange": {
+						"min": 40,
+						"max": 50
+					}
+				}, 
+				{
+					"stat": "Sleep",
+					"valueRange": {
+						"min": 25,
+						"max": 70
+					}
+				},
+				{
+					"stat": "Blood",
+					"valueRange": {
+						"min": 50,
+						"max": 100
+					}
+				},
+				{
+					"stat": "Health",
+					"valueRange": {
+						"min": 20,
+						"max": 50
+					}
+				}
+			],
+			"dialogs": [
+				{
+					"typeTextKey": "game_event_type_new_worker",
+					"nameTextKey": "event_name_new_worker_wounded_01",
+					"descriptionTextKey": "event_new_worker_wounded_01",
+					"image": "event_new_worker",
+					"options": ["event_answer_welcome_new_worker", "event_answer_decline_new_worker"],
+					"optionEffects": [
+						{"items": [1]},
+						{"items": [0]}
+					]
+				}
+			]
+		},
+		{
+			"id": "game_event_new_worker_wounded_02",
+			"className": "NewWorkerEvent",
+			"equipment": ["new_worker_with_axe"],
+			"wounds": 
+			{
+				"list": ["deep_cut_arm"]
+			},
+			"stats": [
+				{
+					"stat": "Hunger",
+					"valueRange": {
+						"min": 30,
+						"max": 70
+					}
+				}, 
+				{
+					"stat": "Mood",
+					"valueRange": {
+						"min": 35,
+						"max": 55
+					}
+				}, 
+				{
+					"stat": "Sleep",
+					"valueRange": {
+						"min": 25,
+						"max": 70
+					}
+				},
+				{
+					"stat": "Blood",
+					"valueRange": {
+						"min": 50,
+						"max": 90
+					}
+				},
+				{
+					"stat": "Health",
+					"valueRange": {
+						"min": 60,
+						"max": 80
+					}
+				},
+				{
+					"stat": "Consciousness",
+					"valueRange": {
+						"min": 5,
+						"max": 10
+					}
+				},
+				{
+					"stat": "Pain",
+					"valueRange": {
+						"min": 70,
+						"max": 90
+					}
+				}
+			],
+			"dialogs": [
+				{
+					"typeTextKey": "game_event_type_new_worker",
+					"nameTextKey": "event_name_new_worker_wounded_02",
+					"descriptionTextKey": "event_new_worker_wounded_02",
+					"image": "event_new_worker",
+					"options": ["event_answer_welcome_new_worker", "event_answer_decline_new_worker"],
+					"optionEffects": [
+						{"items": [1]},
+						{"items": [0]}
+					]
+				}
+			]
+		},
+		{
+			"id": "game_event_new_worker_sick",
+			"className": "NewWorkerEvent",
+			"equipment": ["new_worker_simple"],
+			"stats": [
+				{
+					"stat": "Hunger",
+					"valueRange": {
+						"min": 30,
+						"max": 70
+					}
+				}, 
+				{
+					"stat": "Mood",
+					"valueRange": {
+						"min": 40,
+						"max": 50
+					}
+				}, 
+				{
+					"stat": "Sleep",
+					"valueRange": {
+						"min": 25,
+						"max": 70
+					}
+				},
+				{
+					"stat": "Blood",
+					"valueRange": {
+						"min": 50,
+						"max": 90
+					}
+				},
+				{
+					"stat": "Health",
+					"valueRange": {
+						"min": 15,
+						"max": 25
+					}
+				},
+				{
+					"stat": "Consciousness",
+					"valueRange": {
+						"min": 30,
+						"max": 70
+					}
+				},
+				{
+					"stat": "Pain",
+					"valueRange": {
+						"min": 80,
+						"max": 100
+					}
+				}
+			],
+			"dialogs": [
+				{
+					"typeTextKey": "game_event_type_new_worker",
+					"nameTextKey": "event_name_new_worker_sick_01",
+					"descriptionTextKey": "event_new_worker_sick_01",
+					"image": "event_new_worker",
+					"options": ["event_answer_welcome_new_worker", "event_answer_decline_new_worker"],
+					"optionEffects": [
+						{"items": [1]},
+						{"items": [0]}
+					]
+				}
+			]
+		},
+		{
+			"id": "game_event_raid_forest_bandits",
+			"className": "RaidEvent",
+			"category": "forest_bandits",
+			"percentageFemaleEnemy": {
+				"min": 0.0,
+				"max": 0.0
+			},
+			"dialogs": [
+				{
+					"id": "start",
+					"typeTextKey": "game_event_type_raid",
+					"nameTextKey": "event_name_raid_savages_01",
+					"descriptionTextKey": "event_raid_savages_01",
+					"image": "event_forest_bandits",
+					"options": ["event_answer_prepare_for_battle"],
+					"optionEffects": [
+						{"items": [5]}
+					]
+				},
+				{
+					"id": "won",
+					"typeTextKey": "game_event_type_raid",
+					"nameTextKey": "raid_won_name",
+					"descriptionTextKey": "raid_outcome",
+					"image": "raid_victory",
+					"options": ["general_ok"]
+				},
+				{
+					"id": "lost",
+					"typeTextKey": "game_event_type_raid",
+					"nameTextKey": "raid_lost_name",
+					"descriptionTextKey": "raid_outcome",
+					"image": "raid_defeat",
+					"options": ["general_ok"]
+				}
+			]
+		},
+		{
+			"id": "game_event_raid_progeny",
+			"className": "RaidEvent",
+			"category": "progeny",
+			"percentageFemaleEnemy": {
+				"min": 0.0,
+				"max": 0.0
+			},
+			"dialogs": [
+				{
+					"typeTextKey": "game_event_type_raid",
+					"nameTextKey": "event_name_raid_progeny_01",
+					"descriptionTextKey": "event_raid_progeny_01",
+					"image": "event_progeny",
+					"options": ["event_answer_prepare_for_battle"],
+					"optionEffects": [
+						{"items": [5]}
+					]
+				},
+				{
+					"id": "won",
+					"typeTextKey": "game_event_type_raid",
+					"nameTextKey": "raid_won_name",
+					"descriptionTextKey": "raid_outcome",
+					"image": "raid_victory",
+					"options": ["general_ok"]
+				},
+				{
+					"id": "lost",
+					"typeTextKey": "game_event_type_raid",
+					"nameTextKey": "raid_lost_name",
+					"descriptionTextKey": "raid_outcome",
+					"image": "raid_defeat",
+					"options": ["general_ok"]
+				}
+			]
+		},
+		{
+			"id": "game_event_raid_third_coming",
+			"className": "RaidEvent",
+			"category": "third_coming",
+			"percentageFemaleEnemy": {
+				"min": 0.0,
+				"max": 0.0
+			},
+			"dialogs": [
+				{
+					"typeTextKey": "game_event_type_raid",
+					"nameTextKey": "event_name_raid_third_coming_01",
+					"descriptionTextKey": "event_raid_third_coming_01",
+					"image": "event_third_coming",
+					"options": ["event_answer_prepare_for_battle"],
+					"optionEffects": [
+						{"items": [5]}
+					]
+				},
+				{
+					"id": "won",
+					"typeTextKey": "game_event_type_raid",
+					"nameTextKey": "raid_won_name",
+					"descriptionTextKey": "raid_outcome",
+					"image": "raid_victory",
+					"options": ["general_ok"]
+				},
+				{
+					"id": "lost",
+					"typeTextKey": "game_event_type_raid",
+					"nameTextKey": "raid_lost_name",
+					"descriptionTextKey": "raid_outcome",
+					"image": "raid_defeat",
+					"options": ["general_ok"]
+				}
+			]
+		},
+		{
+			"id": "game_event_new_worker_ransom_barb_snack",
+			"className": "NewWorkerRansomEvent",
+			"percentageFemaleEnemy": {
+				"min": 0.0,
+				"max": 0.0
+			},
+			"equipment": ["new_worker_with_runaway"],
+			"wounds": 
+			{
+				"list": ["shallow_cut_arm", "shallow_cut_chest", "bruised_chest","mild_concussion"],
+				"minCount": 1, 
+				"maxCount": 2
+			},
+			"stats": [
+				{
+					"stat": "Hunger",
+					"valueRange": {
+						"min": 20,
+						"max": 40
+					}
+				}, 
+				{
+					"stat": "Mood",
+					"valueRange": {
+						"min": 40,
+						"max": 50
+					}
+				}, 
+				{
+					"stat": "Sleep",
+					"valueRange": {
+						"min": 25,
+						"max": 70
+					}
+				},
+				{
+					"stat": "Blood",
+					"valueRange": {
+						"min": 50,
+						"max": 100
+					}
+				},
+				{
+					"stat": "Health",
+					"valueRange": {
+						"min": 60,
+						"max": 100
+					}
+				}
+			],
+			"category": "progeny",
+			"dialogs": [
+				{
+					"id": "start",
+					"typeTextKey": "game_event_type_new_worker",
+					"nameTextKey": "event_name_runaway_05",
+					"descriptionTextKey": "event_runaway_05",
+					"image": "event_runaway",
+					"options": ["event_answer_help_runaway", "event_answer_decline_help_runaway"],
+					"optionEffects": [
+						{"items": [1,2]},
+						{"items": [3]}
+					]
+				}, 
+				{
+					"id": "ask_for_worker",
+					"typeTextKey": "game_event_type_raid",
+					"nameTextKey": "event_name_runaway_05_b",
+					"descriptionTextKey": "event_runaway_05_b",
+					"image": "event_progeny",
+					"options": ["event_answer_surrender_worker", "event_answer_refuse_give_worker"],
+					"optionEffects": [
+						{"items": [3]},
+						{"items": [5,4]}
+					]
+				}, 
+				{
+					"id": "decline",
+					"typeTextKey": "game_event_type_raid",
+					"nameTextKey": "event_name_runaway_05_b",
+					"descriptionTextKey": "event_raid_general_decline",
+					"image": "event_progeny",
+					"options": ["event_answer_prepare_for_battle"]
+				}, 
+				{
+					"id": "attackers_leave_worker_dead",
+					"typeTextKey": "game_event_type_raid",
+					"nameTextKey": "event_name_runaway_05_b",
+					"descriptionTextKey": "event_raid_general_allready_gone",
+					"image": "event_progeny",
+					"options": ["event_answer_04"]
+				}, 
+				{
+					"id": "worker_given_up",
+					"typeTextKey": "game_event_type_raid",
+					"nameTextKey": "event_name_runaway_05_b",
+					"descriptionTextKey": "event_runaway_05_b_accept",
+					"image": "event_progeny",
+					"options": ["event_answer_04"]
+				}, 
+				{
+					"id": "villager_cant_leave_attack",
+					"typeTextKey": "game_event_type_raid",
+					"nameTextKey": "event_name_runaway_05_b",
+					"descriptionTextKey": "event_runaway_villager_cant_leave_02",
+					"image": "event_progeny",
+					"options": ["event_answer_prepare_for_battle"]
+				},
+				{
+					"id": "attackers_arrive_worker_dead",
+					"typeTextKey": "game_event_type_raid",
+					"nameTextKey": "event_name_runaway_05_b",
+					"descriptionTextKey": "event_runaway_05_b",
+					"image": "event_progeny",
+					"options": ["event_answer_worker_allready_gone"]
+				},
+				{
+					"id": "won",
+					"typeTextKey": "game_event_type_raid",
+					"nameTextKey": "raid_won_name",
+					"descriptionTextKey": "raid_outcome",
+					"image": "raid_victory",
+					"options": ["general_ok"]
+				},
+				{
+					"id": "lost",
+					"typeTextKey": "game_event_type_raid",
+					"nameTextKey": "raid_lost_name",
+					"descriptionTextKey": "raid_outcome",
+					"image": "raid_defeat",
+					"options": ["general_ok"]
+				}
+			]
+		},
+		{
+			"id": "game_event_new_worker_ransom_jail",
+			"className": "NewWorkerRansomEvent",
+			"percentageFemaleEnemy": {
+				"min": 0.0,
+				"max": 0.0
+			},
+			"equipment": ["new_worker_with_runaway"],
+			"wounds": 
+			{
+				"list": ["dislocated_sholder", "bruised_arm", "bruised_chest"],
+				"minCount": 1, 
+				"maxCount": 2
+			},
+			"stats": [
+				{
+					"stat": "Hunger",
+					"valueRange": {
+						"min": 20,
+						"max": 40
+					}
+				}, 
+				{
+					"stat": "Mood",
+					"valueRange": {
+						"min": 40,
+						"max": 50
+					}
+				}, 
+				{
+					"stat": "Sleep",
+					"valueRange": {
+						"min": 25,
+						"max": 70
+					}
+				},
+				{
+					"stat": "Blood",
+					"valueRange": {
+						"min": 50,
+						"max": 100
+					}
+				},
+				{
+					"stat": "Health",
+					"valueRange": {
+						"min": 60,
+						"max": 100
+					}
+				}
+			],
+			"category": "forest_bandits",
+			"dialogs": [
+				{
+					"id": "start",
+					"typeTextKey": "game_event_type_new_worker",
+					"nameTextKey": "event_name_runaway_01",
+					"descriptionTextKey": "event_runaway_01",
+					"image": "event_runaway",
+					"options": ["event_answer_help_runaway", "event_answer_decline_help_runaway"],
+					"optionEffects": [
+						{"items": [1,2]},
+						{"items": [3]}
+					]
+				}, 
+				{
+					"id": "ask_for_worker",
+					"typeTextKey": "game_event_type_raid",
+					"nameTextKey": "event_name_runaway_01_b",
+					"descriptionTextKey": "event_runaway_01_b",
+					"image": "event_forest_bandits",
+					"options": ["event_answer_surrender_worker", "event_answer_refuse_give_worker"],
+					"optionEffects": [
+						{"items": [3]},
+						{"items": [5,4]}
+					]
+				}, 
+				{
+					"id": "decline",
+					"typeTextKey": "game_event_type_raid",
+					"nameTextKey": "event_name_runaway_01_b",
+					"descriptionTextKey": "event_raid_general_decline",
+					"image": "event_forest_bandits",
+					"options": ["event_answer_prepare_for_battle"]
+				}, 
+				{
+					"id": "attackers_leave_worker_dead",
+					"typeTextKey": "game_event_type_raid",
+					"nameTextKey": "event_name_runaway_01_b",
+					"descriptionTextKey": "event_raid_general_allready_gone",
+					"image": "event_forest_bandits",
+					"options": ["event_answer_04"]
+				}, 
+				{
+					"id": "worker_given_up",
+					"typeTextKey": "game_event_type_raid",
+					"nameTextKey": "event_name_runaway_01_b",
+					"descriptionTextKey": "event_raid_villager_general_accept",
+					"image": "event_forest_bandits",
+					"options": ["event_answer_04"]
+				}, 
+				{
+					"id": "villager_cant_leave_attack",
+					"typeTextKey": "game_event_type_raid",
+					"nameTextKey": "event_name_runaway_01_b",
+					"descriptionTextKey": "event_runaway_villager_cant_leave_02",
+					"image": "event_forest_bandits",
+					"options": ["event_answer_prepare_for_battle"]
+				},
+				{
+					"id": "attackers_arrive_worker_dead",
+					"typeTextKey": "game_event_type_raid",
+					"nameTextKey": "event_name_runaway_01_b",
+					"descriptionTextKey": "event_runaway_01_b",
+					"image": "event_forest_bandits",
+					"options": ["event_answer_worker_allready_gone"]
+				},
+				{
+					"id": "won",
+					"typeTextKey": "game_event_type_raid",
+					"nameTextKey": "raid_won_name",
+					"descriptionTextKey": "raid_outcome",
+					"image": "raid_victory",
+					"options": ["general_ok"]
+				},
+				{
+					"id": "lost",
+					"typeTextKey": "game_event_type_raid",
+					"nameTextKey": "raid_lost_name",
+					"descriptionTextKey": "raid_outcome",
+					"image": "raid_defeat",
+					"options": ["general_ok"]
+				}
+			]
+		},
+		{
+			"id": "game_event_new_worker_ransom_lost_property",
+			"className": "NewWorkerRansomEvent",
+			"percentageFemaleEnemy": {
+				"min": 0.0,
+				"max": 0.0
+			},
+			"equipment": ["new_worker_with_runaway"],
+			"wounds": 
+			{
+				"list": ["dislocated_sholder", "bruised_arm", "bruised_chest"],
+				"minCount": 1, 
+				"maxCount": 2
+			},
+			"stats": [
+				{
+					"stat": "Hunger",
+					"valueRange": {
+						"min": 20,
+						"max": 40
+					}
+				}, 
+				{
+					"stat": "Mood",
+					"valueRange": {
+						"min": 40,
+						"max": 50
+					}
+				}, 
+				{
+					"stat": "Sleep",
+					"valueRange": {
+						"min": 25,
+						"max": 70
+					}
+				},
+				{
+					"stat": "Blood",
+					"valueRange": {
+						"min": 50,
+						"max": 100
+					}
+				},
+				{
+					"stat": "Health",
+					"valueRange": {
+						"min": 60,
+						"max": 100
+					}
+				}
+			],
+			"category": "forest_bandits",
+			"dialogs": [
+				{
+					"id": "start",
+					"typeTextKey": "game_event_type_new_worker",
+					"nameTextKey": "event_name_runaway_02",
+					"descriptionTextKey": "event_runaway_02",
+					"image": "event_runaway",
+					"options": ["event_answer_help_runaway", "event_answer_decline_help_runaway"],
+					"optionEffects": [
+						{"items": [1,2]},
+						{"items": [3]}
+					]
+				}, 
+				{
+					"id": "ask_for_worker",
+					"typeTextKey": "game_event_type_raid",
+					"nameTextKey": "event_name_runaway_02_b",
+					"descriptionTextKey": "event_runaway_02_b",
+					"image": "event_forest_bandits",
+					"options": ["event_answer_surrender_worker", "event_answer_refuse_give_worker"],
+					"optionEffects": [
+						{"items": [3]},
+						{"items": [5,4]}
+					]
+				}, 
+				{
+					"id": "decline",
+					"typeTextKey": "game_event_type_raid",
+					"nameTextKey": "event_name_runaway_02_b",
+					"descriptionTextKey": "event_raid_general_decline",
+					"image": "event_forest_bandits",
+					"options": ["event_answer_prepare_for_battle"]
+				}, 
+				{
+					"id": "attackers_leave_worker_dead",
+					"typeTextKey": "game_event_type_raid",
+					"nameTextKey": "event_name_runaway_02_b",
+					"descriptionTextKey": "event_raid_general_allready_gone",
+					"image": "event_forest_bandits",
+					"options": ["event_answer_04"]
+				}, 
+				{
+					"id": "worker_given_up",
+					"typeTextKey": "game_event_type_raid",
+					"nameTextKey": "event_name_runaway_02_b",
+					"descriptionTextKey": "event_raid_villager_general_accept",
+					"image": "event_forest_bandits",
+					"options": ["event_answer_04"]
+				}, 
+				{
+					"id": "villager_cant_leave_attack",
+					"typeTextKey": "game_event_type_raid",
+					"nameTextKey": "event_name_runaway_02_b",
+					"descriptionTextKey": "event_runaway_villager_cant_leave_02",
+					"image": "event_forest_bandits",
+					"options": ["event_answer_prepare_for_battle"]
+				},
+				{
+					"id": "attackers_arrive_worker_dead",
+					"typeTextKey": "game_event_type_raid",
+					"nameTextKey": "event_name_runaway_02_b",
+					"descriptionTextKey": "event_runaway_02_b",
+					"image": "event_forest_bandits",
+					"options": ["event_answer_worker_allready_gone"]
+				},
+				{
+					"id": "won",
+					"typeTextKey": "game_event_type_raid",
+					"nameTextKey": "raid_won_name",
+					"descriptionTextKey": "raid_outcome",
+					"image": "raid_victory",
+					"options": ["general_ok"]
+				},
+				{
+					"id": "lost",
+					"typeTextKey": "game_event_type_raid",
+					"nameTextKey": "raid_lost_name",
+					"descriptionTextKey": "raid_outcome",
+					"image": "raid_defeat",
+					"options": ["general_ok"]
+				}
+			]
+		},
+		{
+			"id": "game_event_new_worker_ransom_salvation",
+			"className": "NewWorkerRansomEvent",
+			"percentageFemaleEnemy": {
+				"min": 0.0,
+				"max": 0.0
+			},
+			"equipment": ["new_worker_slave"],
+			"wounds": 
+			{
+				"list": ["whiped_back"]
+			},
+			"stats": [
+				{
+					"stat": "Hunger",
+					"valueRange": {
+						"min": 20,
+						"max": 40
+					}
+				}, 
+				{
+					"stat": "Mood",
+					"valueRange": {
+						"min": 40,
+						"max": 50
+					}
+				}, 
+				{
+					"stat": "Sleep",
+					"valueRange": {
+						"min": 25,
+						"max": 70
+					}
+				},
+				{
+					"stat": "Blood",
+					"valueRange": {
+						"min": 50,
+						"max": 100
+					}
+				},
+				{
+					"stat": "Health",
+					"valueRange": {
+						"min": 60,
+						"max": 100
+					}
+				}
+			],
+			"category": "third_coming",
+			"dialogs": [
+				{
+					"id": "start",
+					"typeTextKey": "game_event_type_new_worker",
+					"nameTextKey": "event_name_runaway_04",
+					"descriptionTextKey": "event_runaway_04",
+					"image": "event_runaway",
+					"options": ["event_answer_help_runaway", "event_answer_decline_help_runaway"],
+					"optionEffects": [
+						{"items": [1,2]},
+						{"items": [3]}
+					]
+				}, 
+				{
+					"id": "ask_for_worker",
+					"typeTextKey": "game_event_type_raid",
+					"nameTextKey": "event_name_runaway_04_b",
+					"descriptionTextKey": "event_runaway_04_b",
+					"image": "event_third_coming",
+					"options": ["event_answer_surrender_worker", "event_answer_refuse_give_worker"],
+					"optionEffects": [
+						{"items": [3]},
+						{"items": [5,4]}
+					]
+				}, 
+				{
+					"id": "decline",
+					"typeTextKey": "game_event_type_raid",
+					"nameTextKey": "event_name_runaway_04_b",
+					"descriptionTextKey": "event_raid_general_decline",
+					"image": "event_third_coming",
+					"options": ["event_answer_prepare_for_battle"]
+				}, 
+				{
+					"id": "attackers_leave_worker_dead",
+					"typeTextKey": "game_event_type_raid",
+					"nameTextKey": "event_name_runaway_04_b",
+					"descriptionTextKey": "event_raid_general_allready_gone",
+					"image": "event_third_coming",
+					"options": ["event_answer_04"]
+				}, 
+				{
+					"id": "worker_given_up",
+					"typeTextKey": "game_event_type_raid",
+					"nameTextKey": "event_name_runaway_04_b",
+					"descriptionTextKey": "event_raid_villager_general_accept",
+					"image": "event_third_coming",
+					"options": ["event_answer_04"]
+				}, 
+				{
+					"id": "villager_cant_leave_attack",
+					"typeTextKey": "game_event_type_raid",
+					"nameTextKey": "event_name_runaway_04_b",
+					"descriptionTextKey": "event_runaway_villager_cant_leave_02",
+					"image": "event_third_coming",
+					"options": ["event_answer_prepare_for_battle"]
+				},
+				{
+					"id": "attackers_arrive_worker_dead",
+					"typeTextKey": "game_event_type_raid",
+					"nameTextKey": "event_name_runaway_04_b",
+					"descriptionTextKey": "event_runaway_04_b",
+					"image": "event_third_coming",
+					"options": ["event_answer_worker_allready_gone"]
+				},
+				{
+					"id": "won",
+					"typeTextKey": "game_event_type_raid",
+					"nameTextKey": "raid_won_name",
+					"descriptionTextKey": "raid_outcome",
+					"image": "raid_victory",
+					"options": ["general_ok"]
+				},
+				{
+					"id": "lost",
+					"typeTextKey": "game_event_type_raid",
+					"nameTextKey": "raid_lost_name",
+					"descriptionTextKey": "raid_outcome",
+					"image": "raid_defeat",
+					"options": ["general_ok"]
+				}
+			]
+		},
+		{
+			"id": "game_event_wolf_raid",
+			"className": "AnimalRaidEvent",
+			"dialogs": [
+				{
+					"id": "start",
+					"typeTextKey": "game_event_type_raid",
+					"nameTextKey": "event_name_raid_animal_01",
+					"descriptionTextKey": "event_raid_animal_01",
+					"image": "event_wolves",
+					"options": ["general_ok"]
+				}
+			],
+			"category": "wolf",
+			"durationHours": {
+				"min": "8.0",
+				"max": "10.0"
+			}
+		},
+		{
+			"id": "game_event_all_dead",
+			"className": "GameOverEvent",
+			"dialogs": [
+				{
+					"id": "start",
+					"typeTextKey": "game_event_type_end",
+					"nameTextKey": "game_event_name_all_dead",
+					"descriptionTextKey": "game_event_info_all_dead",
+					"image": "raid_defeat",
+					"options": ["general_ok"]
+				}
+			]
+		}
+	]
+}

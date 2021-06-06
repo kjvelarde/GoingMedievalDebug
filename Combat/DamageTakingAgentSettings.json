@@ -1,0 +1,31 @@
+{
+  "repository": [
+    {
+      "id": 1,
+      "accidentallyHitChance": 0.2
+    },
+    {
+      "id": 2,
+      "accidentallyHitChance": 0.5
+    },
+    {
+      "id": 4,
+      "accidentallyHitChance": 0.5
+    },
+    {
+      "id": 7,
+      "onDamageTakenEffectors": [ "OnHitSlowSpeed","OnHitStopSpeed","OnHitSlowSpeed2"],
+      "absoluteHitChance": false
+    },
+    {
+      "id": 8,
+      "absoluteHitChance": true,
+      "accidentallyHitChance": 0.4
+    },
+    {
+      "id": 16,
+      "absoluteHitChance": true,
+      "accidentallyHitChance": 0.1
+    }
+  ]
+}

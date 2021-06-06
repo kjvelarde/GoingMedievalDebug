@@ -1,0 +1,4337 @@
+{
+  "repository": [
+    {
+      "name": "WoundPH",
+      "severity": 6,
+      "severityFall": 0.5,
+      "severityMin": 1
+    },
+    {
+      "name": "broken_arm",
+      "uiGroup": 8,
+      "severity": 60,
+      "severityFall": 0.3,
+      "severityMin": 1,
+      "effects": [
+        {
+          "debug_name": "MeleeHitChanceHigh",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": 25
+            },
+            {
+              "key": "Multiplier",
+              "value": 0.7
+            },
+            {
+              "key": "NegativeStacking",
+              "value": true
+            }
+          ]
+        },
+        {
+          "debug_name": "RangedHitChanceHigh",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": 28
+            },
+            {
+              "key": "Multiplier",
+              "value": 0.7
+            },
+            {
+              "key": "NegativeStacking",
+              "value": true
+            }
+          ]
+        },
+        {
+          "debug_name": "UnarmedHitChanceHigh",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": 50
+            },
+            {
+              "key": "Multiplier",
+              "value": 0.7
+            },
+            {
+              "key": "NegativeStacking",
+              "value": true
+            }
+          ]
+        },
+        {
+          "debug_name": "AttackSpeedHigh",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": 71
+            },
+            {
+              "key": "Multiplier",
+              "value": 0.8
+            },
+            {
+              "key": "NegativeStacking",
+              "value": true
+            }
+          ]
+        },
+        {
+          "debug_name": "Painextreme",
+          "type": 11,
+          "parameters": [
+            {
+              "key": "stat",
+              "value": 9
+            },
+            {
+              "key": "amount",
+              "value": -50
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "broken_leg",
+      "uiGroup": 8,
+      "severity": 80,
+      "severityFall": 0.3,
+      "severityMin": 1,
+      "effects": [
+        {
+          "debug_name": "MovementHigh",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": 1
+            },
+            {
+              "key": "Multiplier",
+              "value": 0.4
+            },
+            {
+              "key": "NegativeStacking",
+              "value": true
+            }
+          ]
+        },
+        {
+          "debug_name": "EvadeChanceHigh",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": 17
+            },
+            {
+              "key": "Multiplier",
+              "value": 0.5
+            },
+            {
+              "key": "NegativeStacking",
+              "value": true
+            }
+          ]
+        },
+        {
+          "debug_name": "Painextreme",
+          "type": 11,
+          "parameters": [
+            {
+              "key": "stat",
+              "value": 9
+            },
+            {
+              "key": "amount",
+              "value": -50
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "broken_nose",
+      "uiGroup": 8,
+      "severity": 50,
+      "severityFall": 0.3,
+      "severityMin": 1,
+      "effects": [
+        {
+          "debug_name": "MeleeHitChanceLow",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": 25
+            },
+            {
+              "key": "Multiplier",
+              "value": 0.9
+            },
+            {
+              "key": "NegativeStacking",
+              "value": true
+            }
+          ]
+        },
+        {
+          "debug_name": "RangedHitChanceLow",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": 28
+            },
+            {
+              "key": "Multiplier",
+              "value": 0.9
+            },
+            {
+              "key": "NegativeStacking",
+              "value": true
+            }
+          ]
+        },
+        {
+          "debug_name": "UnarmedHitChanceLow",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": 50
+            },
+            {
+              "key": "Multiplier",
+              "value": 0.9
+            },
+            {
+              "key": "NegativeStacking",
+              "value": true
+            }
+          ]
+        },
+        {
+          "debug_name": "PainHigh",
+          "type": 11,
+          "parameters": [
+            {
+              "key": "stat",
+              "value": 9
+            },
+            {
+              "key": "amount",
+              "value": -30
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "broken_ribs",
+      "uiGroup": 8,
+      "severity": 50,
+      "severityFall": 0.3,
+      "severityMin": 1,
+      "effects": [
+        {
+          "debug_name": "MovementLow",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": 1
+            },
+            {
+              "key": "Multiplier",
+              "value": 0.9
+            },
+            {
+              "key": "NegativeStacking",
+              "value": true
+            }
+          ]
+        },
+        {
+          "debug_name": "EvadeChanceLow",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": 17
+            },
+            {
+              "key": "Multiplier",
+              "value": 0.8
+            },
+            {
+              "key": "NegativeStacking",
+              "value": true
+            }
+          ]
+        },
+        {
+          "debug_name": "PainMed",
+          "type": 11,
+          "parameters": [
+            {
+              "key": "stat",
+              "value": 9
+            },
+            {
+              "key": "amount",
+              "value": -20
+            }
+          ]
+        },
+        {
+          "debug_name": "AttackSpeedLow",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": 71
+            },
+            {
+              "key": "Multiplier",
+              "value": 0.95
+            },
+            {
+              "key": "NegativeStacking",
+              "value": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "fractured_arm",
+      "uiGroup": 8,
+      "severity": 30,
+      "severityFall": 0.3,
+      "severityMin": 1,
+      "effects": [
+        {
+          "debug_name": "MeleeHitChanceMed",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": 25
+            },
+            {
+              "key": "Multiplier",
+              "value": 0.8
+            },
+            {
+              "key": "NegativeStacking",
+              "value": true
+            }
+          ]
+        },
+        {
+          "debug_name": "RangedHitChanceMed",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": 28
+            },
+            {
+              "key": "Multiplier",
+              "value": 0.8
+            },
+            {
+              "key": "NegativeStacking",
+              "value": true
+            }
+          ]
+        },
+        {
+          "debug_name": "UnarmedHitChanceMed",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": 50
+            },
+            {
+              "key": "Multiplier",
+              "value": 0.8
+            },
+            {
+              "key": "NegativeStacking",
+              "value": true
+            }
+          ]
+        },
+        {
+          "debug_name": "AttackSpeedMed",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": 71
+            },
+            {
+              "key": "Multiplier",
+              "value": 0.9
+            },
+            {
+              "key": "NegativeStacking",
+              "value": true
+            }
+          ]
+        },
+        {
+          "debug_name": "PainMed",
+          "type": 11,
+          "parameters": [
+            {
+              "key": "stat",
+              "value": 9
+            },
+            {
+              "key": "amount",
+              "value": -20
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "fractured_leg",
+      "uiGroup": 8,
+      "severity": 40,
+      "severityFall": 0.3,
+      "severityMin": 1,
+      "effects": [
+        {
+          "debug_name": "MovementMed",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": 1
+            },
+            {
+              "key": "Multiplier",
+              "value": 0.75
+            },
+            {
+              "key": "NegativeStacking",
+              "value": true
+            }
+          ]
+        },
+        {
+          "debug_name": "EvadeChanceMed",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": 17
+            },
+            {
+              "key": "Multiplier",
+              "value": 0.7
+            },
+            {
+              "key": "NegativeStacking",
+              "value": true
+            }
+          ]
+        },
+        {
+          "debug_name": "PainMed",
+          "type": 11,
+          "parameters": [
+            {
+              "key": "stat",
+              "value": 9
+            },
+            {
+              "key": "amount",
+              "value": -20
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "fractured_nose",
+      "uiGroup": 8,
+      "severity": 20,
+      "severityFall": 0.2,
+      "severityMin": 1,
+      "effects": [
+        {
+          "debug_name": "MeleeHitChanceLow",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": 25
+            },
+            {
+              "key": "Multiplier",
+              "value": 0.9
+            },
+            {
+              "key": "NegativeStacking",
+              "value": true
+            }
+          ]
+        },
+        {
+          "debug_name": "RangedHitChanceLow",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": 28
+            },
+            {
+              "key": "Multiplier",
+              "value": 0.9
+            },
+            {
+              "key": "NegativeStacking",
+              "value": true
+            }
+          ]
+        },
+        {
+          "debug_name": "UnarmedHitChanceLow",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": 50
+            },
+            {
+              "key": "Multiplier",
+              "value": 0.9
+            },
+            {
+              "key": "NegativeStacking",
+              "value": true
+            }
+          ]
+        },
+        {
+          "debug_name": "PainMed",
+          "type": 11,
+          "parameters": [
+            {
+              "key": "stat",
+              "value": 9
+            },
+            {
+              "key": "amount",
+              "value": -20
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "fractured_ribs",
+      "uiGroup": 8,
+      "severity": 20,
+      "severityFall": 0.2,
+      "severityMin": 1,
+      "effects": [
+        {
+          "debug_name": "MovementLow",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": 1
+            },
+            {
+              "key": "Multiplier",
+              "value": 0.9
+            },
+            {
+              "key": "NegativeStacking",
+              "value": true
+            }
+          ]
+        },
+        {
+          "debug_name": "EvadeChanceLow",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": 17
+            },
+            {
+              "key": "Multiplier",
+              "value": 0.8
+            },
+            {
+              "key": "NegativeStacking",
+              "value": true
+            }
+          ]
+        },
+        {
+          "debug_name": "AttackSpeedLow",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": 71
+            },
+            {
+              "key": "Multiplier",
+              "value": 0.95
+            },
+            {
+              "key": "NegativeStacking",
+              "value": true
+            }
+          ]
+        },
+        {
+          "debug_name": "PainMed",
+          "type": 11,
+          "parameters": [
+            {
+              "key": "stat",
+              "value": 9
+            },
+            {
+              "key": "amount",
+              "value": -20
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "cut_artery",
+      "uiGroup": 8,
+      "severity": 12,
+      "severityFall": 0.1,
+      "severityMin": 1,
+      "effects": [
+        {
+          "debug_name": "HeavyBleeding",
+          "type": 10,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": 59
+            },
+            {
+              "key": "Value",
+              "value": -3
+            }
+          ]
+        },
+        {
+          "debug_name": "PainMed",
+          "type": 11,
+          "parameters": [
+            {
+              "key": "stat",
+              "value": 9
+            },
+            {
+              "key": "amount",
+              "value": -20
+            }
+          ]
+        },
+        {
+          "debug_name": "BloodSpillExtreme",
+          "type": 11,
+          "parameters": [
+            {
+              "key": "stat",
+              "value": 7
+            },
+            {
+              "key": "amount",
+              "value": -20
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "shallow_cut_arm",
+      "uiGroup": 8,
+      "severity": 6,
+      "severityFall": 0.2,
+      "severityMin": 1,
+      "effects": [
+        {
+          "debug_name": "MeleeHitChanceLow",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": 25
+            },
+            {
+              "key": "Multiplier",
+              "value": 0.9
+            },
+            {
+              "key": "NegativeStacking",
+              "value": true
+            }
+          ]
+        },
+        {
+          "debug_name": "RangedHitChanceLow",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": 28
+            },
+            {
+              "key": "Multiplier",
+              "value": 0.9
+            },
+            {
+              "key": "NegativeStacking",
+              "value": true
+            }
+          ]
+        },
+        {
+          "debug_name": "UnarmedHitChanceLow",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": 50
+            },
+            {
+              "key": "Multiplier",
+              "value": 0.9
+            },
+            {
+              "key": "NegativeStacking",
+              "value": true
+            }
+          ]
+        },
+        {
+          "debug_name": "LightBleeding",
+          "type": 10,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": 59
+            },
+            {
+              "key": "Value",
+              "value": -1
+            }
+          ]
+        },
+        {
+          "debug_name": "PainLow",
+          "type": 11,
+          "parameters": [
+            {
+              "key": "stat",
+              "value": 9
+            },
+            {
+              "key": "amount",
+              "value": -15
+            }
+          ]
+        },
+        {
+          "debug_name": "BloodSpillLow",
+          "type": 11,
+          "parameters": [
+            {
+              "key": "stat",
+              "value": 7
+            },
+            {
+              "key": "amount",
+              "value": -2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "shallow_cut_leg",
+      "uiGroup": 8,
+      "severity": 6,
+      "severityFall": 0.2,
+      "severityMin": 1,
+      "effects": [
+        {
+          "debug_name": "MovementLow",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": 1
+            },
+            {
+              "key": "Multiplier",
+              "value": 0.9
+            },
+            {
+              "key": "NegativeStacking",
+              "value": true
+            }
+          ]
+        },
+        {
+          "debug_name": "EvadeChanceLow",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": 17
+            },
+            {
+              "key": "Multiplier",
+              "value": 0.8
+            },
+            {
+              "key": "NegativeStacking",
+              "value": true
+            }
+          ]
+        },
+        {
+          "debug_name": "LightBleeding",
+          "type": 10,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": 59
+            },
+            {
+              "key": "Value",
+              "value": -1
+            }
+          ]
+        },
+        {
+          "debug_name": "PainLow",
+          "type": 11,
+          "parameters": [
+            {
+              "key": "stat",
+              "value": 9
+            },
+            {
+              "key": "amount",
+              "value": -15
+            }
+          ]
+        },
+        {
+          "debug_name": "BloodSpillLow",
+          "type": 11,
+          "parameters": [
+            {
+              "key": "stat",
+              "value": 7
+            },
+            {
+              "key": "amount",
+              "value": -2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "shallow_cut_chest",
+      "uiGroup": 8,
+      "severity": 8,
+      "severityFall": 0.2,
+      "severityMin": 1,
+      "effects": [
+        {
+          "debug_name": "MovementLow",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": 1
+            },
+            {
+              "key": "Multiplier",
+              "value": 0.9
+            },
+            {
+              "key": "NegativeStacking",
+              "value": true
+            }
+          ]
+        },
+        {
+          "debug_name": "EvadeChanceLow",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": 17
+            },
+            {
+              "key": "Multiplier",
+              "value": 0.8
+            },
+            {
+              "key": "NegativeStacking",
+              "value": true
+            }
+          ]
+        },
+        {
+          "debug_name": "LightBleeding",
+          "type": 10,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": 59
+            },
+            {
+              "key": "Value",
+              "value": -1
+            }
+          ]
+        },
+        {
+          "debug_name": "PainLow",
+          "type": 11,
+          "parameters": [
+            {
+              "key": "stat",
+              "value": 9
+            },
+            {
+              "key": "amount",
+              "value": -15
+            }
+          ]
+        },
+        {
+          "debug_name": "BloodSpillLow",
+          "type": 11,
+          "parameters": [
+            {
+              "key": "stat",
+              "value": 7
+            },
+            {
+              "key": "amount",
+              "value": -2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "shallow_cut_side",
+      "uiGroup": 8,
+      "severity": 6,
+      "severityFall": 0.2,
+      "severityMin": 1,
+      "effects": [
+        {
+          "debug_name": "MovementLow",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": 1
+            },
+            {
+              "key": "Multiplier",
+              "value": 0.9
+            },
+            {
+              "key": "NegativeStacking",
+              "value": true
+            }
+          ]
+        },
+        {
+          "debug_name": "EvadeChanceLow",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": 17
+            },
+            {
+              "key": "Multiplier",
+              "value": 0.8
+            },
+            {
+              "key": "NegativeStacking",
+              "value": true
+            }
+          ]
+        },
+        {
+          "debug_name": "LightBleeding",
+          "type": 10,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": 59
+            },
+            {
+              "key": "Value",
+              "value": -1
+            }
+          ]
+        },
+        {
+          "debug_name": "PainLow",
+          "type": 11,
+          "parameters": [
+            {
+              "key": "stat",
+              "value": 9
+            },
+            {
+              "key": "amount",
+              "value": -15
+            }
+          ]
+        },
+        {
+          "debug_name": "BloodSpillLow",
+          "type": 11,
+          "parameters": [
+            {
+              "key": "stat",
+              "value": 7
+            },
+            {
+              "key": "amount",
+              "value": -2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "shallow_cut_neck",
+      "uiGroup": 8,
+      "severity": 6,
+      "severityFall": 0.2,
+      "severityMin": 1,
+      "effects": [
+        {
+          "debug_name": "EvadeChanceLow",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": 17
+            },
+            {
+              "key": "Multiplier",
+              "value": 0.8
+            },
+            {
+              "key": "NegativeStacking",
+              "value": true
+            }
+          ]
+        },
+        {
+          "debug_name": "RangedHitChanceLow",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": 28
+            },
+            {
+              "key": "Multiplier",
+              "value": 0.9
+            },
+            {
+              "key": "NegativeStacking",
+              "value": true
+            }
+          ]
+        },
+        {
+          "debug_name": "LightBleeding",
+          "type": 10,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": 59
+            },
+            {
+              "key": "Value",
+              "value": -1
+            }
+          ]
+        },
+        {
+          "debug_name": "PainLow",
+          "type": 11,
+          "parameters": [
+            {
+              "key": "stat",
+              "value": 9
+            },
+            {
+              "key": "amount",
+              "value": -15
+            }
+          ]
+        },
+        {
+          "debug_name": "BloodSpillLow",
+          "type": 11,
+          "parameters": [
+            {
+              "key": "stat",
+              "value": 7
+            },
+            {
+              "key": "amount",
+              "value": -2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "shallow_cut_face",
+      "uiGroup": 8,
+      "severity": 6,
+      "severityFall": 0.2,
+      "severityMin": 1,
+      "effects": [
+        {
+          "debug_name": "MeleeHitChanceLow",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": 25
+            },
+            {
+              "key": "Multiplier",
+              "value": 0.9
+            },
+            {
+              "key": "NegativeStacking",
+              "value": true
+            }
+          ]
+        },
+        {
+          "debug_name": "RangedHitChanceLow",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": 28
+            },
+            {
+              "key": "Multiplier",
+              "value": 0.9
+            },
+            {
+              "key": "NegativeStacking",
+              "value": true
+            }
+          ]
+        },
+        {
+          "debug_name": "UnarmedHitChanceLow",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": 50
+            },
+            {
+              "key": "Multiplier",
+              "value": 0.9
+            },
+            {
+              "key": "NegativeStacking",
+              "value": true
+            }
+          ]
+        },
+        {
+          "debug_name": "LightBleeding",
+          "type": 10,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": 59
+            },
+            {
+              "key": "Value",
+              "value": -1
+            }
+          ]
+        },
+        {
+          "debug_name": "PainLow",
+          "type": 11,
+          "parameters": [
+            {
+              "key": "stat",
+              "value": 9
+            },
+            {
+              "key": "amount",
+              "value": -15
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "deep_cut_arm",
+      "uiGroup": 8,
+      "severity": 10,
+      "severityFall": 0.1,
+      "severityMin": 1,
+      "effects": [
+        {
+          "debug_name": "MeleeHitChanceMed",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": 25
+            },
+            {
+              "key": "Multiplier",
+              "value": 0.8
+            },
+            {
+              "key": "NegativeStacking",
+              "value": true
+            }
+          ]
+        },
+        {
+          "debug_name": "RangedHitChanceMed",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": 28
+            },
+            {
+              "key": "Multiplier",
+              "value": 0.8
+            },
+            {
+              "key": "NegativeStacking",
+              "value": true
+            }
+          ]
+        },
+        {
+          "debug_name": "UnarmedHitChanceMed",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": 50
+            },
+            {
+              "key": "Multiplier",
+              "value": 0.8
+            },
+            {
+              "key": "NegativeStacking",
+              "value": true
+            }
+          ]
+        },
+        {
+          "debug_name": "AttackSpeedMed",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": 71
+            },
+            {
+              "key": "Multiplier",
+              "value": 0.9
+            },
+            {
+              "key": "NegativeStacking",
+              "value": true
+            }
+          ]
+        },
+        {
+          "debug_name": "MediumBleeding",
+          "type": 10,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": 59
+            },
+            {
+              "key": "Value",
+              "value": -2
+            }
+          ]
+        },
+        {
+          "debug_name": "PainMed",
+          "type": 11,
+          "parameters": [
+            {
+              "key": "stat",
+              "value": 9
+            },
+            {
+              "key": "amount",
+              "value": -20
+            }
+          ]
+        },
+        {
+          "debug_name": "BloodSpillMed",
+          "type": 11,
+          "parameters": [
+            {
+              "key": "stat",
+              "value": 7
+            },
+            {
+              "key": "amount",
+              "value": -4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "deep_cut_leg",
+      "uiGroup": 8,
+      "severity": 10,
+      "severityFall": 0.1,
+      "severityMin": 1,
+      "effects": [
+        {
+          "debug_name": "MovementMed",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": 1
+            },
+            {
+              "key": "Multiplier",
+              "value": 0.75
+            },
+            {
+              "key": "NegativeStacking",
+              "value": true
+            }
+          ]
+        },
+        {
+          "debug_name": "EvadeChanceMed",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": 17
+            },
+            {
+              "key": "Multiplier",
+              "value": 0.7
+            },
+            {
+              "key": "NegativeStacking",
+              "value": true
+            }
+          ]
+        },
+        {
+          "debug_name": "MediumBleeding",
+          "type": 10,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": 59
+            },
+            {
+              "key": "Value",
+              "value": -2
+            }
+          ]
+        },
+        {
+          "debug_name": "PainMed",
+          "type": 11,
+          "parameters": [
+            {
+              "key": "stat",
+              "value": 9
+            },
+            {
+              "key": "amount",
+              "value": -20
+            }
+          ]
+        },
+        {
+          "debug_name": "BloodSpillMed",
+          "type": 11,
+          "parameters": [
+            {
+              "key": "stat",
+              "value": 7
+            },
+            {
+              "key": "amount",
+              "value": -4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "deep_cut_chest",
+      "uiGroup": 8,
+      "severity": 10,
+      "severityFall": 0.1,
+      "severityMin": 1,
+      "effects": [
+        {
+          "debug_name": "MovementMed",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": 1
+            },
+            {
+              "key": "Multiplier",
+              "value": 0.75
+            },
+            {
+              "key": "NegativeStacking",
+              "value": true
+            }
+          ]
+        },
+        {
+          "debug_name": "EvadeChanceMed",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": 17
+            },
+            {
+              "key": "Multiplier",
+              "value": 0.7
+            },
+            {
+              "key": "NegativeStacking",
+              "value": true
+            }
+          ]
+        },
+        {
+          "debug_name": "MediumBleeding",
+          "type": 10,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": 59
+            },
+            {
+              "key": "Value",
+              "value": -2
+            }
+          ]
+        },
+        {
+          "debug_name": "PainMed",
+          "type": 11,
+          "parameters": [
+            {
+              "key": "stat",
+              "value": 9
+            },
+            {
+              "key": "amount",
+              "value": -20
+            }
+          ]
+        },
+        {
+          "debug_name": "BloodSpillMed",
+          "type": 11,
+          "parameters": [
+            {
+              "key": "stat",
+              "value": 7
+            },
+            {
+              "key": "amount",
+              "value": -4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "deep_cut_side",
+      "uiGroup": 8,
+      "severity": 10,
+      "severityFall": 0.1,
+      "severityMin": 1,
+      "effects": [
+        {
+          "debug_name": "MovementMed",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": 1
+            },
+            {
+              "key": "Multiplier",
+              "value": 0.75
+            },
+            {
+              "key": "NegativeStacking",
+              "value": true
+            }
+          ]
+        },
+        {
+          "debug_name": "EvadeChanceMed",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": 17
+            },
+            {
+              "key": "Multiplier",
+              "value": 0.7
+            },
+            {
+              "key": "NegativeStacking",
+              "value": true
+            }
+          ]
+        },
+        {
+          "debug_name": "MediumBleeding",
+          "type": 10,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": 59
+            },
+            {
+              "key": "Value",
+              "value": -2
+            }
+          ]
+        },
+        {
+          "debug_name": "PainMed",
+          "type": 11,
+          "parameters": [
+            {
+              "key": "stat",
+              "value": 9
+            },
+            {
+              "key": "amount",
+              "value": -20
+            }
+          ]
+        },
+        {
+          "debug_name": "BloodSpillMed",
+          "type": 11,
+          "parameters": [
+            {
+              "key": "stat",
+              "value": 7
+            },
+            {
+              "key": "amount",
+              "value": -4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "deep_cut_neck",
+      "uiGroup": 8,
+      "severity": 12,
+      "severityFall": 0.1,
+      "severityMin": 1,
+      "effects": [
+        {
+          "debug_name": "EvadeChanceMed",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": 17
+            },
+            {
+              "key": "Multiplier",
+              "value": 0.7
+            },
+            {
+              "key": "NegativeStacking",
+              "value": true
+            }
+          ]
+        },
+        {
+          "debug_name": "RangedHitChanceMed",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": 28
+            },
+            {
+              "key": "Multiplier",
+              "value": 0.8
+            },
+            {
+              "key": "NegativeStacking",
+              "value": true
+            }
+          ]
+        },
+        {
+          "debug_name": "MediumBleeding",
+          "type": 10,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": 59
+            },
+            {
+              "key": "Value",
+              "value": -2
+            }
+          ]
+        },
+        {
+          "debug_name": "MediumBleeding",
+          "type": 10,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": 59
+            },
+            {
+              "key": "Value",
+              "value": -2
+            }
+          ]
+        },
+        {
+          "debug_name": "PainMed",
+          "type": 11,
+          "parameters": [
+            {
+              "key": "stat",
+              "value": 9
+            },
+            {
+              "key": "amount",
+              "value": -20
+            }
+          ]
+        },
+        {
+          "debug_name": "BloodSpillMed",
+          "type": 11,
+          "parameters": [
+            {
+              "key": "stat",
+              "value": 7
+            },
+            {
+              "key": "amount",
+              "value": -4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "deep_cut_face",
+      "uiGroup": 8,
+      "severity": 10,
+      "severityFall": 0.1,
+      "severityMin": 1,
+      "effects": [
+        {
+          "debug_name": "MeleeHitChanceMed",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": 25
+            },
+            {
+              "key": "Multiplier",
+              "value": 0.8
+            },
+            {
+              "key": "NegativeStacking",
+              "value": true
+            }
+          ]
+        },
+        {
+          "debug_name": "RangedHitChanceMed",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": 28
+            },
+            {
+              "key": "Multiplier",
+              "value": 0.8
+            },
+            {
+              "key": "NegativeStacking",
+              "value": true
+            }
+          ]
+        },
+        {
+          "debug_name": "UnarmedHitChanceMed",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": 50
+            },
+            {
+              "key": "Multiplier",
+              "value": 0.8
+            },
+            {
+              "key": "NegativeStacking",
+              "value": true
+            }
+          ]
+        },
+        {
+          "debug_name": "MediumBleeding",
+          "type": 10,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": 59
+            },
+            {
+              "key": "Value",
+              "value": -2
+            }
+          ]
+        },
+        {
+          "debug_name": "PainHigh",
+          "type": 11,
+          "parameters": [
+            {
+              "key": "stat",
+              "value": 9
+            },
+            {
+              "key": "amount",
+              "value": -30
+            }
+          ]
+        },
+        {
+          "debug_name": "BloodSpillMed",
+          "type": 11,
+          "parameters": [
+            {
+              "key": "stat",
+              "value": 7
+            },
+            {
+              "key": "amount",
+              "value": -4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "pierced_arm_muscle",
+      "uiGroup": 8,
+      "severity": 10,
+      "severityFall": 0.2,
+      "severityMin": 1,
+      "effects": [
+        {
+          "debug_name": "MeleeHitChanceMed",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": 25
+            },
+            {
+              "key": "Multiplier",
+              "value": 0.8
+            },
+            {
+              "key": "NegativeStacking",
+              "value": true
+            }
+          ]
+        },
+        {
+          "debug_name": "RangedHitChanceMed",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": 28
+            },
+            {
+              "key": "Multiplier",
+              "value": 0.8
+            },
+            {
+              "key": "NegativeStacking",
+              "value": true
+            }
+          ]
+        },
+        {
+          "debug_name": "UnarmedHitChanceMed",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": 50
+            },
+            {
+              "key": "Multiplier",
+              "value": 0.8
+            },
+            {
+              "key": "NegativeStacking",
+              "value": true
+            }
+          ]
+        },
+        {
+          "debug_name": "AttackSpeedMed",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": 71
+            },
+            {
+              "key": "Multiplier",
+              "value": 0.9
+            },
+            {
+              "key": "NegativeStacking",
+              "value": true
+            }
+          ]
+        },
+        {},
+        {},
+        {
+          "debug_name": "LightBleeding",
+          "type": 10,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": 59
+            },
+            {
+              "key": "Value",
+              "value": -1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "pierced_leg_muscle",
+      "uiGroup": 8,
+      "severity": 10,
+      "severityFall": 0.2,
+      "severityMin": 1,
+      "effects": [
+        {
+          "debug_name": "MovementMed",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": 1
+            },
+            {
+              "key": "Multiplier",
+              "value": 0.75
+            },
+            {
+              "key": "NegativeStacking",
+              "value": true
+            }
+          ]
+        },
+        {
+          "debug_name": "EvadeChanceMed",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": 17
+            },
+            {
+              "key": "Multiplier",
+              "value": 0.7
+            },
+            {
+              "key": "NegativeStacking",
+              "value": true
+            }
+          ]
+        },
+        {
+          "debug_name": "LightBleeding",
+          "type": 10,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": 59
+            },
+            {
+              "key": "Value",
+              "value": -1
+            }
+          ]
+        },
+        {
+          "debug_name": "PainMed",
+          "type": 11,
+          "parameters": [
+            {
+              "key": "stat",
+              "value": 9
+            },
+            {
+              "key": "amount",
+              "value": -20
+            }
+          ]
+        },
+        {
+          "debug_name": "BloodSpillLow",
+          "type": 11,
+          "parameters": [
+            {
+              "key": "stat",
+              "value": 7
+            },
+            {
+              "key": "amount",
+              "value": -2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "pierced_lung",
+      "uiGroup": 8,
+      "severity": 10,
+      "severityFall": 0.2,
+      "severityMin": 1,
+      "effects": [
+        {
+          "debug_name": "MovementMed",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": 1
+            },
+            {
+              "key": "Multiplier",
+              "value": 0.75
+            },
+            {
+              "key": "NegativeStacking",
+              "value": true
+            }
+          ]
+        },
+        {
+          "debug_name": "EvadeChanceMed",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": 17
+            },
+            {
+              "key": "Multiplier",
+              "value": 0.7
+            },
+            {
+              "key": "NegativeStacking",
+              "value": true
+            }
+          ]
+        },
+        {
+          "debug_name": "AttackSpeedMed",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": 71
+            },
+            {
+              "key": "Multiplier",
+              "value": 0.9
+            },
+            {
+              "key": "NegativeStacking",
+              "value": true
+            }
+          ]
+        },
+        {
+          "debug_name": "LightBleeding",
+          "type": 10,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": 59
+            },
+            {
+              "key": "Value",
+              "value": -1
+            }
+          ]
+        },
+        {
+          "debug_name": "PainMed",
+          "type": 11,
+          "parameters": [
+            {
+              "key": "stat",
+              "value": 9
+            },
+            {
+              "key": "amount",
+              "value": -20
+            }
+          ]
+        },
+        {
+          "debug_name": "BloodSpillLow",
+          "type": 11,
+          "parameters": [
+            {
+              "key": "stat",
+              "value": 7
+            },
+            {
+              "key": "amount",
+              "value": -2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "pierced_side",
+      "uiGroup": 8,
+      "severity": 10,
+      "severityFall": 0.2,
+      "severityMin": 1,
+      "effects": [
+        {
+          "debug_name": "MovementMed",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": 1
+            },
+            {
+              "key": "Multiplier",
+              "value": 0.75
+            },
+            {
+              "key": "NegativeStacking",
+              "value": true
+            }
+          ]
+        },
+        {
+          "debug_name": "EvadeChanceMed",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": 17
+            },
+            {
+              "key": "Multiplier",
+              "value": 0.7
+            },
+            {
+              "key": "NegativeStacking",
+              "value": true
+            }
+          ]
+        },
+        {
+          "debug_name": "LightBleeding",
+          "type": 10,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": 59
+            },
+            {
+              "key": "Value",
+              "value": -1
+            }
+          ]
+        },
+        {
+          "debug_name": "PainMed",
+          "type": 11,
+          "parameters": [
+            {
+              "key": "stat",
+              "value": 9
+            },
+            {
+              "key": "amount",
+              "value": -20
+            }
+          ]
+        },
+        {
+          "debug_name": "BloodSpillLow",
+          "type": 11,
+          "parameters": [
+            {
+              "key": "stat",
+              "value": 7
+            },
+            {
+              "key": "amount",
+              "value": -2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "pierced_cheek",
+      "uiGroup": 8,
+      "severity": 10,
+      "severityFall": 0.2,
+      "severityMin": 1,
+      "effects": [
+        {
+          "debug_name": "MeleeHitChanceMed",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": 25
+            },
+            {
+              "key": "Multiplier",
+              "value": 0.8
+            },
+            {
+              "key": "NegativeStacking",
+              "value": true
+            }
+          ]
+        },
+        {
+          "debug_name": "RangedHitChanceMed",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": 28
+            },
+            {
+              "key": "Multiplier",
+              "value": 0.8
+            },
+            {
+              "key": "NegativeStacking",
+              "value": true
+            }
+          ]
+        },
+        {
+          "debug_name": "UnarmedHitChanceMed",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": 50
+            },
+            {
+              "key": "Multiplier",
+              "value": 0.8
+            },
+            {
+              "key": "NegativeStacking",
+              "value": true
+            }
+          ]
+        },
+        {
+          "debug_name": "LightBleeding",
+          "type": 10,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": 59
+            },
+            {
+              "key": "Value",
+              "value": -1
+            }
+          ]
+        },
+        {
+          "debug_name": "PainMed",
+          "type": 11,
+          "parameters": [
+            {
+              "key": "stat",
+              "value": 9
+            },
+            {
+              "key": "amount",
+              "value": -20
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "pierced_chest",
+      "uiGroup": 8,
+      "severity": 10,
+      "severityFall": 0.2,
+      "severityMin": 1,
+      "effects": [
+        {
+          "debug_name": "MovementMed",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": 1
+            },
+            {
+              "key": "Multiplier",
+              "value": 0.75
+            },
+            {
+              "key": "NegativeStacking",
+              "value": true
+            }
+          ]
+        },
+        {
+          "debug_name": "EvadeChanceMed",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": 17
+            },
+            {
+              "key": "Multiplier",
+              "value": 0.7
+            },
+            {
+              "key": "NegativeStacking",
+              "value": true
+            }
+          ]
+        },
+        {
+          "debug_name": "LightBleeding",
+          "type": 10,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": 59
+            },
+            {
+              "key": "Value",
+              "value": -1
+            }
+          ]
+        },
+        {
+          "debug_name": "BloodSpillLow",
+          "type": 11,
+          "parameters": [
+            {
+              "key": "stat",
+              "value": 7
+            },
+            {
+              "key": "amount",
+              "value": -2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "pierced_gut",
+      "uiGroup": 8,
+      "severity": 10,
+      "severityFall": 0.2,
+      "severityMin": 1,
+      "effects": [
+        {
+          "debug_name": "MovementMed",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": 1
+            },
+            {
+              "key": "Multiplier",
+              "value": 0.75
+            },
+            {
+              "key": "NegativeStacking",
+              "value": true
+            }
+          ]
+        },
+        {
+          "debug_name": "EvadeChanceMed",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": 17
+            },
+            {
+              "key": "Multiplier",
+              "value": 0.7
+            },
+            {
+              "key": "NegativeStacking",
+              "value": true
+            }
+          ]
+        },
+        {
+          "debug_name": "LightBleeding",
+          "type": 10,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": 59
+            },
+            {
+              "key": "Value",
+              "value": -1
+            }
+          ]
+        },
+        {
+          "debug_name": "PainHigh",
+          "type": 11,
+          "parameters": [
+            {
+              "key": "stat",
+              "value": 9
+            },
+            {
+              "key": "amount",
+              "value": -30
+            }
+          ]
+        },
+        {
+          "debug_name": "BloodSpillMed",
+          "type": 11,
+          "parameters": [
+            {
+              "key": "stat",
+              "value": 7
+            },
+            {
+              "key": "amount",
+              "value": -4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "dislocated_sholder",
+      "uiGroup": 8,
+      "severity": 8,
+      "severityFall": 0.1,
+      "severityMin": 1,
+      "effects": [
+        {
+          "debug_name": "AttackSpeedMed",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": 71
+            },
+            {
+              "key": "Multiplier",
+              "value": 0.9
+            },
+            {
+              "key": "NegativeStacking",
+              "value": true
+            }
+          ]
+        },
+        {
+          "debug_name": "PainHigh",
+          "type": 11,
+          "parameters": [
+            {
+              "key": "stat",
+              "value": 9
+            },
+            {
+              "key": "amount",
+              "value": -30
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "bruised_leg",
+      "uiGroup": 8,
+      "severity": 6,
+      "severityFall": 0.1,
+      "severityMin": 1,
+      "effects": [
+        {
+          "debug_name": "MovementLow",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": 1
+            },
+            {
+              "key": "Multiplier",
+              "value": 0.9
+            },
+            {
+              "key": "NegativeStacking",
+              "value": true
+            }
+          ]
+        },
+        {
+          "debug_name": "PainLow",
+          "type": 11,
+          "parameters": [
+            {
+              "key": "stat",
+              "value": 9
+            },
+            {
+              "key": "amount",
+              "value": -15
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "bruised_arm",
+      "uiGroup": 8,
+      "severity": 6,
+      "severityFall": 0.1,
+      "severityMin": 1,
+      "effects": [
+        {
+          "debug_name": "MeleeHitChanceLow",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": 25
+            },
+            {
+              "key": "Multiplier",
+              "value": 0.9
+            },
+            {
+              "key": "NegativeStacking",
+              "value": true
+            }
+          ]
+        },
+        {
+          "debug_name": "RangedHitChanceLow",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": 28
+            },
+            {
+              "key": "Multiplier",
+              "value": 0.9
+            },
+            {
+              "key": "NegativeStacking",
+              "value": true
+            }
+          ]
+        },
+        {
+          "debug_name": "UnarmedHitChanceLow",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": 50
+            },
+            {
+              "key": "Multiplier",
+              "value": 0.9
+            },
+            {
+              "key": "NegativeStacking",
+              "value": true
+            }
+          ]
+        },
+        {
+          "debug_name": "PainLow",
+          "type": 11,
+          "parameters": [
+            {
+              "key": "stat",
+              "value": 9
+            },
+            {
+              "key": "amount",
+              "value": -15
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "bruised_chest",
+      "uiGroup": 8,
+      "severity": 6,
+      "severityFall": 0.1,
+      "severityMin": 1,
+      "effects": [
+        {
+          "debug_name": "MovementLow",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": 1
+            },
+            {
+              "key": "Multiplier",
+              "value": 0.9
+            },
+            {
+              "key": "NegativeStacking",
+              "value": true
+            }
+          ]
+        },
+        {
+          "debug_name": "EvadeChanceLow",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": 17
+            },
+            {
+              "key": "Multiplier",
+              "value": 0.8
+            },
+            {
+              "key": "NegativeStacking",
+              "value": true
+            }
+          ]
+        },
+        {
+          "debug_name": "PainLow",
+          "type": 11,
+          "parameters": [
+            {
+              "key": "stat",
+              "value": 9
+            },
+            {
+              "key": "amount",
+              "value": -15
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "mild_concussion",
+      "uiGroup": 8,
+      "severity": 14,
+      "severityFall": 0.1,
+      "severityMin": 1,
+      "effects": [
+        {
+          "debug_name": "MeleeHitChanceLow",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": 25
+            },
+            {
+              "key": "Multiplier",
+              "value": 0.9
+            },
+            {
+              "key": "NegativeStacking",
+              "value": true
+            }
+          ]
+        },
+        {
+          "debug_name": "RangedHitChanceLow",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": 28
+            },
+            {
+              "key": "Multiplier",
+              "value": 0.9
+            },
+            {
+              "key": "NegativeStacking",
+              "value": true
+            }
+          ]
+        },
+        {
+          "debug_name": "UnarmedHitChanceMed",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": 50
+            },
+            {
+              "key": "Multiplier",
+              "value": 0.8
+            },
+            {
+              "key": "NegativeStacking",
+              "value": true
+            }
+          ]
+        },
+        {
+          "debug_name": "DamageConsicnessMed",
+          "type": 11,
+          "parameters": [
+            {
+              "key": "stat",
+              "value": 8
+            },
+            {
+              "key": "amount",
+              "value": -30
+            }
+          ]
+        },
+        {
+          "debug_name": "PainMed",
+          "type": 11,
+          "parameters": [
+            {
+              "key": "stat",
+              "value": 9
+            },
+            {
+              "key": "amount",
+              "value": -20
+            }
+          ]
+        },
+        {
+          "debug_name": "AttackSpeedLow",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": 71
+            },
+            {
+              "key": "Multiplier",
+              "value": 0.95
+            },
+            {
+              "key": "NegativeStacking",
+              "value": true
+            }
+          ]
+        },
+        {
+          "debug_name": "ClumsinessMed",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": 72
+            },
+            {
+              "key": "Multiplier",
+              "value": 1.1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "heavy_concussion",
+      "uiGroup": 8,
+      "severity": 24,
+      "severityFall": 0.1,
+      "severityMin": 1,
+      "effects": [
+        {
+          "debug_name": "MeleeHitChanceMed",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": 25
+            },
+            {
+              "key": "Multiplier",
+              "value": 0.8
+            },
+            {
+              "key": "NegativeStacking",
+              "value": true
+            }
+          ]
+        },
+        {
+          "debug_name": "RangedHitChanceMed",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": 28
+            },
+            {
+              "key": "Multiplier",
+              "value": 0.8
+            },
+            {
+              "key": "NegativeStacking",
+              "value": true
+            }
+          ]
+        },
+        {
+          "debug_name": "UnarmedHitChanceMed",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": 50
+            },
+            {
+              "key": "Multiplier",
+              "value": 0.8
+            },
+            {
+              "key": "NegativeStacking",
+              "value": true
+            }
+          ]
+        },
+        {
+          "debug_name": "DamageConsicnessHigh",
+          "type": 11,
+          "parameters": [
+            {
+              "key": "stat",
+              "value": 8
+            },
+            {
+              "key": "amount",
+              "value": -45
+            }
+          ]
+        },
+        {
+          "debug_name": "PainHigh",
+          "type": 11,
+          "parameters": [
+            {
+              "key": "stat",
+              "value": 9
+            },
+            {
+              "key": "amount",
+              "value": -30
+            }
+          ]
+        },
+        {
+          "debug_name": "AttackSpeedLow",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": 71
+            },
+            {
+              "key": "Multiplier",
+              "value": 0.95
+            },
+            {
+              "key": "NegativeStacking",
+              "value": true
+            }
+          ]
+        },
+        {
+          "debug_name": "ClumsinessHigh",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": 72
+            },
+            {
+              "key": "Multiplier",
+              "value": 1.2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "whiped_back",
+      "uiGroup": 8,
+      "severity": 12,
+      "severityFall": 0.1,
+      "severityMin": 1,
+      "effects": [
+        {
+          "debug_name": "MovementLow",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": 1
+            },
+            {
+              "key": "Multiplier",
+              "value": 0.9
+            },
+            {
+              "key": "NegativeStacking",
+              "value": true
+            }
+          ]
+        },
+        {
+          "debug_name": "EvadeChanceLow",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": 17
+            },
+            {
+              "key": "Multiplier",
+              "value": 0.8
+            },
+            {
+              "key": "NegativeStacking",
+              "value": true
+            }
+          ]
+        },
+        {
+          "debug_name": "PainLow",
+          "type": 11,
+          "parameters": [
+            {
+              "key": "stat",
+              "value": 9
+            },
+            {
+              "key": "amount",
+              "value": -15
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "bitten_leg",
+      "uiGroup": 8,
+      "severity": 6,
+      "severityFall": 0.1,
+      "severityMin": 1,
+      "effects": [
+        {
+          "debug_name": "MovementLow",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": 1
+            },
+            {
+              "key": "Multiplier",
+              "value": 0.9
+            },
+            {
+              "key": "NegativeStacking",
+              "value": true
+            }
+          ]
+        },
+        {
+          "debug_name": "EvadeChanceLow",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": 17
+            },
+            {
+              "key": "Multiplier",
+              "value": 0.8
+            },
+            {
+              "key": "NegativeStacking",
+              "value": true
+            }
+          ]
+        },
+        {
+          "debug_name": "LightBleeding",
+          "type": 10,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": 59
+            },
+            {
+              "key": "Value",
+              "value": -1
+            }
+          ]
+        },
+        {
+          "debug_name": "PainLow",
+          "type": 11,
+          "parameters": [
+            {
+              "key": "stat",
+              "value": 9
+            },
+            {
+              "key": "amount",
+              "value": -15
+            }
+          ]
+        },
+        {
+          "debug_name": "BloodSpillLow",
+          "type": 11,
+          "parameters": [
+            {
+              "key": "stat",
+              "value": 7
+            },
+            {
+              "key": "amount",
+              "value": -2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "bitten_arm",
+      "uiGroup": 8,
+      "severity": 6,
+      "severityFall": 0.1,
+      "severityMin": 1,
+      "effects": [
+        {
+          "debug_name": "MeleeHitChanceLow",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": 25
+            },
+            {
+              "key": "Multiplier",
+              "value": 0.9
+            },
+            {
+              "key": "NegativeStacking",
+              "value": true
+            }
+          ]
+        },
+        {
+          "debug_name": "RangedHitChanceLow",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": 28
+            },
+            {
+              "key": "Multiplier",
+              "value": 0.9
+            },
+            {
+              "key": "NegativeStacking",
+              "value": true
+            }
+          ]
+        },
+        {
+          "debug_name": "UnarmedHitChanceLow",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": 50
+            },
+            {
+              "key": "Multiplier",
+              "value": 0.9
+            },
+            {
+              "key": "NegativeStacking",
+              "value": true
+            }
+          ]
+        },
+        {
+          "debug_name": "LightBleeding",
+          "type": 10,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": 59
+            },
+            {
+              "key": "Value",
+              "value": -1
+            }
+          ]
+        },
+        {
+          "debug_name": "PainLow",
+          "type": 11,
+          "parameters": [
+            {
+              "key": "stat",
+              "value": 9
+            },
+            {
+              "key": "amount",
+              "value": -15
+            }
+          ]
+        },
+        {
+          "debug_name": "BloodSpillLow",
+          "type": 11,
+          "parameters": [
+            {
+              "key": "stat",
+              "value": 7
+            },
+            {
+              "key": "amount",
+              "value": -2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "bitten_forearm",
+      "uiGroup": 8,
+      "severity": 6,
+      "severityFall": 0.1,
+      "severityMin": 1,
+      "effects": [
+        {
+          "debug_name": "MeleeHitChanceLow",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": 25
+            },
+            {
+              "key": "Multiplier",
+              "value": 0.9
+            },
+            {
+              "key": "NegativeStacking",
+              "value": true
+            }
+          ]
+        },
+        {
+          "debug_name": "RangedHitChanceLow",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": 28
+            },
+            {
+              "key": "Multiplier",
+              "value": 0.9
+            },
+            {
+              "key": "NegativeStacking",
+              "value": true
+            }
+          ]
+        },
+        {
+          "debug_name": "UnarmedHitChanceLow",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": 50
+            },
+            {
+              "key": "Multiplier",
+              "value": 0.9
+            },
+            {
+              "key": "NegativeStacking",
+              "value": true
+            }
+          ]
+        },
+        {
+          "debug_name": "LightBleeding",
+          "type": 10,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": 59
+            },
+            {
+              "key": "Value",
+              "value": -1
+            }
+          ]
+        },
+        {
+          "debug_name": "PainLow",
+          "type": 11,
+          "parameters": [
+            {
+              "key": "stat",
+              "value": 9
+            },
+            {
+              "key": "amount",
+              "value": -15
+            }
+          ]
+        },
+        {
+          "debug_name": "BloodSpillLow",
+          "type": 11,
+          "parameters": [
+            {
+              "key": "stat",
+              "value": 7
+            },
+            {
+              "key": "amount",
+              "value": -2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "bitten_face",
+      "uiGroup": 8,
+      "severity": 6,
+      "severityFall": 0.1,
+      "severityMin": 1,
+      "effects": [
+        {
+          "debug_name": "MeleeHitChanceLow",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": 25
+            },
+            {
+              "key": "Multiplier",
+              "value": 0.9
+            },
+            {
+              "key": "NegativeStacking",
+              "value": true
+            }
+          ]
+        },
+        {
+          "debug_name": "RangedHitChanceLow",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": 28
+            },
+            {
+              "key": "Multiplier",
+              "value": 0.9
+            },
+            {
+              "key": "NegativeStacking",
+              "value": true
+            }
+          ]
+        },
+        {
+          "debug_name": "UnarmedHitChanceLow",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": 50
+            },
+            {
+              "key": "Multiplier",
+              "value": 0.9
+            },
+            {
+              "key": "NegativeStacking",
+              "value": true
+            }
+          ]
+        },
+        {
+          "debug_name": "LightBleeding",
+          "type": 10,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": 59
+            },
+            {
+              "key": "Value",
+              "value": -1
+            }
+          ]
+        },
+        {
+          "debug_name": "PainLow",
+          "type": 11,
+          "parameters": [
+            {
+              "key": "stat",
+              "value": 9
+            },
+            {
+              "key": "amount",
+              "value": -15
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "bitten_hand",
+      "uiGroup": 8,
+      "severity": 6,
+      "severityFall": 0.1,
+      "severityMin": 1,
+      "effects": [
+        {
+          "debug_name": "PainLow",
+          "type": 11,
+          "parameters": [
+            {
+              "key": "stat",
+              "value": 9
+            },
+            {
+              "key": "amount",
+              "value": -15
+            }
+          ]
+        },
+        {
+          "debug_name": "BloodSpillLow",
+          "type": 11,
+          "parameters": [
+            {
+              "key": "stat",
+              "value": 7
+            },
+            {
+              "key": "amount",
+              "value": -2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "bitten_foot",
+      "uiGroup": 8,
+      "severity": 6,
+      "severityFall": 0.1,
+      "severityMin": 1,
+      "effects": [
+        {
+          "debug_name": "MovementLow",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": 1
+            },
+            {
+              "key": "Multiplier",
+              "value": 0.9
+            },
+            {
+              "key": "NegativeStacking",
+              "value": true
+            }
+          ]
+        },
+        {
+          "debug_name": "EvadeChanceLow",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": 17
+            },
+            {
+              "key": "Multiplier",
+              "value": 0.8
+            },
+            {
+              "key": "NegativeStacking",
+              "value": true
+            }
+          ]
+        },
+        {
+          "debug_name": "LightBleeding",
+          "type": 10,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": 59
+            },
+            {
+              "key": "Value",
+              "value": -1
+            }
+          ]
+        },
+        {
+          "debug_name": "PainLow",
+          "type": 11,
+          "parameters": [
+            {
+              "key": "stat",
+              "value": 9
+            },
+            {
+              "key": "amount",
+              "value": -15
+            }
+          ]
+        },
+        {
+          "debug_name": "BloodSpillLow",
+          "type": 11,
+          "parameters": [
+            {
+              "key": "stat",
+              "value": 7
+            },
+            {
+              "key": "amount",
+              "value": -2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "bitten_neck",
+      "uiGroup": 8,
+      "severity": 6,
+      "severityFall": 0.1,
+      "severityMin": 1,
+      "effects": [
+        {
+          "debug_name": "EvadeChanceLow",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": 17
+            },
+            {
+              "key": "Multiplier",
+              "value": 0.8
+            },
+            {
+              "key": "NegativeStacking",
+              "value": true
+            }
+          ]
+        },
+        {
+          "debug_name": "RangedHitChanceLow",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": 28
+            },
+            {
+              "key": "Multiplier",
+              "value": 0.9
+            },
+            {
+              "key": "NegativeStacking",
+              "value": true
+            }
+          ]
+        },
+        {
+          "debug_name": "LightBleeding",
+          "type": 10,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": 59
+            },
+            {
+              "key": "Value",
+              "value": -1
+            }
+          ]
+        },
+        {
+          "debug_name": "PainLow",
+          "type": 11,
+          "parameters": [
+            {
+              "key": "stat",
+              "value": 9
+            },
+            {
+              "key": "amount",
+              "value": -15
+            }
+          ]
+        },
+        {
+          "debug_name": "BloodSpillLow",
+          "type": 11,
+          "parameters": [
+            {
+              "key": "stat",
+              "value": 7
+            },
+            {
+              "key": "amount",
+              "value": -2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "scratched_arm",
+      "uiGroup": 8,
+      "severity": 3,
+      "severityFall": 0.1,
+      "severityMin": 1,
+      "effects": [
+        {
+          "debug_name": "PainVeryLow",
+          "type": 11,
+          "parameters": [
+            {
+              "key": "stat",
+              "value": 9
+            },
+            {
+              "key": "amount",
+              "value": -5
+            }
+          ]
+        },
+        {
+          "debug_name": "BloodSpillLow",
+          "type": 11,
+          "parameters": [
+            {
+              "key": "stat",
+              "value": 7
+            },
+            {
+              "key": "amount",
+              "value": -2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "scratched_leg",
+      "uiGroup": 8,
+      "severity": 3,
+      "severityFall": 0.1,
+      "severityMin": 1,
+      "effects": [
+        {
+          "debug_name": "PainVeryLow",
+          "type": 11,
+          "parameters": [
+            {
+              "key": "stat",
+              "value": 9
+            },
+            {
+              "key": "amount",
+              "value": -5
+            }
+          ]
+        },
+        {
+          "debug_name": "BloodSpillLow",
+          "type": 11,
+          "parameters": [
+            {
+              "key": "stat",
+              "value": 7
+            },
+            {
+              "key": "amount",
+              "value": -2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "scratched_forearm",
+      "uiGroup": 8,
+      "severity": 3,
+      "severityFall": 0.1,
+      "severityMin": 1,
+      "effects": [
+        {
+          "debug_name": "PainVeryLow",
+          "type": 11,
+          "parameters": [
+            {
+              "key": "stat",
+              "value": 9
+            },
+            {
+              "key": "amount",
+              "value": -5
+            }
+          ]
+        },
+        {
+          "debug_name": "BloodSpillLow",
+          "type": 11,
+          "parameters": [
+            {
+              "key": "stat",
+              "value": 7
+            },
+            {
+              "key": "amount",
+              "value": -2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "scratched_face",
+      "uiGroup": 8,
+      "severity": 3,
+      "severityFall": 0.1,
+      "severityMin": 1,
+      "effects": [
+        {
+          "debug_name": "PainVeryLow",
+          "type": 11,
+          "parameters": [
+            {
+              "key": "stat",
+              "value": 9
+            },
+            {
+              "key": "amount",
+              "value": -5
+            }
+          ]
+        },
+        {
+          "debug_name": "BloodSpillLow",
+          "type": 11,
+          "parameters": [
+            {
+              "key": "stat",
+              "value": 7
+            },
+            {
+              "key": "amount",
+              "value": -2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "scratched_hand",
+      "uiGroup": 8,
+      "severity": 3,
+      "severityFall": 0.1,
+      "severityMin": 1,
+      "effects": [
+        {
+          "debug_name": "PainVeryLow",
+          "type": 11,
+          "parameters": [
+            {
+              "key": "stat",
+              "value": 9
+            },
+            {
+              "key": "amount",
+              "value": -5
+            }
+          ]
+        },
+        {
+          "debug_name": "BloodSpillLow",
+          "type": 11,
+          "parameters": [
+            {
+              "key": "stat",
+              "value": 7
+            },
+            {
+              "key": "amount",
+              "value": -2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "scratched_neck",
+      "uiGroup": 8,
+      "severity": 3,
+      "severityFall": 0.1,
+      "severityMin": 1,
+      "effects": [
+        {
+          "debug_name": "PainVeryLow",
+          "type": 11,
+          "parameters": [
+            {
+              "key": "stat",
+              "value": 9
+            },
+            {
+              "key": "amount",
+              "value": -5
+            }
+          ]
+        },
+        {
+          "debug_name": "BloodSpillLow",
+          "type": 11,
+          "parameters": [
+            {
+              "key": "stat",
+              "value": 7
+            },
+            {
+              "key": "amount",
+              "value": -2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "scratched_chest",
+      "uiGroup": 8,
+      "severity": 3,
+      "severityFall": 0.1,
+      "severityMin": 1,
+      "effects": [
+        {
+          "debug_name": "PainLow",
+          "type": 11,
+          "parameters": [
+            {
+              "key": "stat",
+              "value": 9
+            },
+            {
+              "key": "amount",
+              "value": -15
+            }
+          ]
+        },
+        {
+          "debug_name": "BloodSpillLow",
+          "type": 11,
+          "parameters": [
+            {
+              "key": "stat",
+              "value": 7
+            },
+            {
+              "key": "amount",
+              "value": -2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "hypothermia",
+      "uiGroup": 8,
+      "severity": 10,
+      "severityFall": 0.2,
+      "severityMin": 1,
+      "effects": [
+        {
+          "debug_name": "DamageConsicnessextreme",
+          "type": 11,
+          "parameters": [
+            {
+              "key": "stat",
+              "value": 8
+            },
+            {
+              "key": "amount",
+              "value": -65
+            }
+          ]
+        },
+        {
+          "debug_name": "MovementMed",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": 1
+            },
+            {
+              "key": "Multiplier",
+              "value": 0.75
+            },
+            {
+              "key": "NegativeStacking",
+              "value": true
+            }
+          ]
+        },
+        {
+          "debug_name": "PainMed",
+          "type": 11,
+          "parameters": [
+            {
+              "key": "stat",
+              "value": 9
+            },
+            {
+              "key": "amount",
+              "value": -20
+            }
+          ]
+        },
+        {
+          "debug_name": "GlobalWorkSpeedLow",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": 75
+            },
+            {
+              "key": "Multiplier",
+              "value": 0.9
+            },
+            {
+              "key": "NegativeStacking",
+              "value": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "heatstroke",
+      "uiGroup": 8,
+      "severity": 10,
+      "severityFall": 0.2,
+      "severityMin": 1,
+      "effects": [
+        {
+          "debug_name": "DamageConsicnessextreme",
+          "type": 11,
+          "parameters": [
+            {
+              "key": "stat",
+              "value": 8
+            },
+            {
+              "key": "amount",
+              "value": -65
+            }
+          ]
+        },
+        {
+          "debug_name": "MovementMed",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": 1
+            },
+            {
+              "key": "Multiplier",
+              "value": 0.75
+            },
+            {
+              "key": "NegativeStacking",
+              "value": true
+            }
+          ]
+        },
+        {
+          "debug_name": "PainMed",
+          "type": 11,
+          "parameters": [
+            {
+              "key": "stat",
+              "value": 9
+            },
+            {
+              "key": "amount",
+              "value": -20
+            }
+          ]
+        },
+        {
+          "debug_name": "GlobalWorkSpeedLow",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": 75
+            },
+            {
+              "key": "Multiplier",
+              "value": 0.9
+            },
+            {
+              "key": "NegativeStacking",
+              "value": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "burn_arm",
+      "uiGroup": 8,
+      "severity": 8,
+      "severityFall": 0.1,
+      "severityMin": 1,
+      "effects": [
+        {
+          "debug_name": "MeleeHitChanceLow",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": 25
+            },
+            {
+              "key": "Multiplier",
+              "value": 0.9
+            },
+            {
+              "key": "NegativeStacking",
+              "value": true
+            }
+          ]
+        },
+        {
+          "debug_name": "RangedHitChanceLow",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": 28
+            },
+            {
+              "key": "Multiplier",
+              "value": 0.9
+            },
+            {
+              "key": "NegativeStacking",
+              "value": true
+            }
+          ]
+        },
+        {
+          "debug_name": "UnarmedHitChanceLow",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": 50
+            },
+            {
+              "key": "Multiplier",
+              "value": 0.9
+            },
+            {
+              "key": "NegativeStacking",
+              "value": true
+            }
+          ]
+        },
+        {
+          "debug_name": "PainLow",
+          "type": 11,
+          "parameters": [
+            {
+              "key": "stat",
+              "value": 9
+            },
+            {
+              "key": "amount",
+              "value": -15
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "burn_leg",
+      "uiGroup": 8,
+      "severity": 8,
+      "severityFall": 0.1,
+      "severityMin": 1,
+      "effects": [
+        {
+          "debug_name": "MovementLow",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": 1
+            },
+            {
+              "key": "Multiplier",
+              "value": 0.9
+            },
+            {
+              "key": "NegativeStacking",
+              "value": true
+            }
+          ]
+        },
+        {
+          "debug_name": "PainMed",
+          "type": 11,
+          "parameters": [
+            {
+              "key": "stat",
+              "value": 9
+            },
+            {
+              "key": "amount",
+              "value": -20
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "burn_torso",
+      "uiGroup": 8,
+      "severity": 8,
+      "severityFall": 0.1,
+      "severityMin": 1,
+      "effects": [
+        {
+          "debug_name": "MovementLow",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": 1
+            },
+            {
+              "key": "Multiplier",
+              "value": 0.9
+            },
+            {
+              "key": "NegativeStacking",
+              "value": true
+            }
+          ]
+        },
+        {
+          "debug_name": "EvadeChanceLow",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": 17
+            },
+            {
+              "key": "Multiplier",
+              "value": 0.8
+            },
+            {
+              "key": "NegativeStacking",
+              "value": true
+            }
+          ]
+        },
+        {
+          "debug_name": "PainLow",
+          "type": 11,
+          "parameters": [
+            {
+              "key": "stat",
+              "value": 9
+            },
+            {
+              "key": "amount",
+              "value": -15
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "burn_face",
+      "uiGroup": 8,
+      "severity": 8,
+      "severityFall": 0.1,
+      "severityMin": 1,
+      "effects": [
+        {
+          "debug_name": "MeleeHitChanceMed",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": 25
+            },
+            {
+              "key": "Multiplier",
+              "value": 0.8
+            },
+            {
+              "key": "NegativeStacking",
+              "value": true
+            }
+          ]
+        },
+        {
+          "debug_name": "RangedHitChanceMed",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": 28
+            },
+            {
+              "key": "Multiplier",
+              "value": 0.8
+            },
+            {
+              "key": "NegativeStacking",
+              "value": true
+            }
+          ]
+        },
+        {
+          "debug_name": "UnarmedHitChanceMed",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": 50
+            },
+            {
+              "key": "Multiplier",
+              "value": 0.8
+            },
+            {
+              "key": "NegativeStacking",
+              "value": true
+            }
+          ]
+        },
+        {
+          "debug_name": "PainHigh",
+          "type": 11,
+          "parameters": [
+            {
+              "key": "stat",
+              "value": 9
+            },
+            {
+              "key": "amount",
+              "value": -30
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "burn_hand",
+      "uiGroup": 8,
+      "severity": 8,
+      "severityFall": 0.1,
+      "severityMin": 1,
+      "effects": [
+        {
+          "debug_name": "MeleeHitChanceLow",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": 25
+            },
+            {
+              "key": "Multiplier",
+              "value": 0.9
+            },
+            {
+              "key": "NegativeStacking",
+              "value": true
+            }
+          ]
+        },
+        {
+          "debug_name": "RangedHitChanceLow",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": 28
+            },
+            {
+              "key": "Multiplier",
+              "value": 0.9
+            },
+            {
+              "key": "NegativeStacking",
+              "value": true
+            }
+          ]
+        },
+        {
+          "debug_name": "UnarmedHitChanceLow",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": 50
+            },
+            {
+              "key": "Multiplier",
+              "value": 0.9
+            },
+            {
+              "key": "NegativeStacking",
+              "value": true
+            }
+          ]
+        },
+        {
+          "debug_name": "PainLow",
+          "type": 11,
+          "parameters": [
+            {
+              "key": "stat",
+              "value": 9
+            },
+            {
+              "key": "amount",
+              "value": -15
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "burn_foot",
+      "uiGroup": 8,
+      "severity": 8,
+      "severityFall": 0.1,
+      "severityMin": 1,
+      "effects": [
+        {
+          "debug_name": "MovementLow",
+          "type": 5,
+          "parameters": [
+            {
+              "key": "Attribute",
+              "value": 1
+            },
+            {
+              "key": "Multiplier",
+              "value": 0.9
+            },
+            {
+              "key": "NegativeStacking",
+              "value": true
+            }
+          ]
+        },
+        {
+          "debug_name": "PainLow",
+          "type": 11,
+          "parameters": [
+            {
+              "key": "stat",
+              "value": 9
+            },
+            {
+              "key": "amount",
+              "value": -15
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

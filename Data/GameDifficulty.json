@@ -1,0 +1,35 @@
+{
+    "repository": [
+        {
+            "id": "VeryEasy",
+            "difficulty": 0,
+            "enemyHealthMax": 50,
+            "woundSeverityMultiplier": 0.7
+        },
+        {
+            "id": "Easy",
+            "difficulty": 1,
+            "enemyHealthMax": 75,
+            "woundSeverityMultiplier": 0.9
+        },
+        {
+            "id": "Normal",
+            "difficulty": 2,
+            "enemyHealthMax": 100,
+            "woundSeverityMultiplier": 1
+        }, 
+        {
+            "id": "Difficult",
+            "difficulty": 3,
+            "enemyHealthMax": 110,
+            "woundSeverityMultiplier": 1.1
+        },
+        {
+            "id": "Hard",
+            "difficulty": 4,
+            "enemyHealthMax": 120,
+            "woundSeverityMultiplier": 1.2
+        }
+
+    ]
+}

@@ -1,0 +1,121 @@
+{
+  "repository": [
+    {
+      "id": "weapon_manage_group",
+      "groupName": "Weapons",
+      "equipmentSlotType": 1,
+      "resourceGroups": [
+        {
+          "groupId": "WarfareWeapon",
+          "depth": 0,
+          "subGroupIDs": [
+            "WarfareWeaponMelee",
+            "WarfareWeaponRanged"
+          ]
+        },
+        {
+          "groupId": "WarfareWeaponMelee",
+          "depth": 1,
+          "subGroupIDs": [
+            "WarfareWeaponMeleeOnehanded",
+            "WarfareWeaponMeleeTwohanded"
+          ]
+        },
+        {
+          "groupId": "WarfareWeaponMeleeOnehanded",
+          "depth": 2
+        },
+        {
+          "groupId": "WarfareWeaponMeleeTwohanded",
+          "depth": 2
+        },
+        {
+          "groupId": "WarfareWeaponRanged",
+          "depth": 1
+        }
+      ]
+    },
+    {
+      "id": "shield_manage_group",
+      "groupName": "Shields",
+      "equipmentSlotType": 2,
+      "resourceGroups": [
+        {
+          "groupId": "WarfareShield",
+          "depth": 0
+        }
+      ]
+    },
+    {
+      "id": "headware_manage_group",
+      "groupName": "Headware",
+      "equipmentSlotType": 4,
+      "resourceGroups": [
+        {
+          "groupId": "WarfareArmorHead",
+          "depth": 0
+        },
+        {
+          "groupId": "ApparelHeadware",
+          "depth": 0
+        }
+      ]
+    },
+    {
+      "id": "apparel_manage_group",
+      "groupName": "Apparel",
+      "equipmentSlotType": 8,
+      "resourceGroups": [
+        {
+          "groupId": "ApparelClothing",
+          "depth": 0
+        }
+      ]
+    },
+    {
+      "id": "armor_manage_group",
+      "groupName": "Armor",
+      "equipmentSlotType": 16,
+      "resourceGroups": [
+        {
+          "groupId": "WarfareArmorBody",
+          "depth": 0
+        }
+      ]
+    },
+    {
+      "id": "food_manage_group",
+      "groupName": "Food",
+      "equipmentSlotType": 0,
+      "resourceGroups": [
+        {
+          "groupId": "Food",
+          "depth": 0,
+          "subGroupIDs": [
+            "FoodMeal",
+            "FoodRaw"
+          ]
+        },
+        {
+          "groupId": "FoodMeal",
+          "depth": 1
+        },
+        {
+          "groupId": "FoodRaw",
+          "depth": 1
+        }
+      ]
+    },
+    {
+      "id": "stimulants_manage_group",
+      "groupName": "Stimulants",
+      "equipmentSlotType": 0,
+      "resourceGroups": [
+        {
+          "groupId": "FoodStimulants",
+          "depth": 0
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "cellTypes": [
+	{
+	  "id": 0,
+	  "mapType": "map_type_valley",
+	  "meshes": ["map_type_valley_1", "map_type_valley_2", "map_type_valley_3", "map_type_valley_4", "map_type_valley_5", "map_type_valley_6"],
+	  "height": 0.0
+	},
+	{
+	  "id": 1,
+	  "mapType": "map_type_hill",
+	  "meshes": ["map_type_hill_1","map_type_hill_2","map_type_hill_3","map_type_hill_4"],
+	  "height": 0.3
+	},
+	{
+	  "id": 2,
+	  "mapType": "map_type_mountain",
+	  "meshes": ["map_type_mountain_1", "map_type_mountain_2"],
+	  "height": 0.6
+	},
+	{
+	  "id": 3,
+	  "mapType": "map_type_mountain",
+	  "meshes": ["map_type_mountain_1","map_type_mountain_2"],
+	  "height": 0.88
+	}
+  ],
+  "startMapTypes": ["map_type_valley", "map_type_hill", "map_type_mountain"],
+  "enemyVillageEventCategories": ["forest_bandits", "progeny"],
+  "resolution": {
+	"x": "50",
+	"y": "50"
+  },
+  "influenceMaxWealth": 50000,
+  "events": [
+	  {
+		  "key": 0.2,
+		  "value": "game_event_influence_20"
+	  }, 
+	  {
+		  "key": 1.0,
+		  "value": "game_event_influence_100"
+	  }
+  ],
+	"gameModeSettings": [
+		{
+			"gameMode": "Builder",
+			"enemyVillagesCount": "0",
+			"friendlyVillagesCount": "4"
+		},
+		{
+			"gameMode": "Standard",
+			"enemyVillagesCount": "3",
+			"friendlyVillagesCount": "5"
+		},
+		{
+			"gameMode": "Survival",
+			"enemyVillagesCount": "8",
+			"friendlyVillagesCount": "3"
+		}
+	]
+}

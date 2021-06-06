@@ -1,0 +1,1928 @@
+{
+  "repository": [
+    {
+      "debug_name": "forest_bandit_basic_easy",
+      "id": "forest_bandit_basic_easy",
+      "itemGroups": [
+        {
+          "groupName": "head",
+          "isNoneChance": 0.3,
+          "hitPointsRange": {
+            "min": 0.2,
+            "max": 0.6
+          },
+          "equipment": [
+            "flimsy_savage_wood_helmet",
+            "flimsy_leather_cap",
+            "flimsy_leather_helmet"
+          ]
+        },
+        {
+          "groupName": "body",
+          "isNoneChance": 0.1,
+          "hitPointsRange": {
+            "min": 0.2,
+            "max": 0.6
+          },
+          "equipment": [
+            "flimsy_leather_winter_clothes",
+            "flimsy_wool_winter_clothes",
+            "sturdy_leather_winter_clothes",
+            "sturdy_wool_winter_clothes"
+          ]
+        },
+        {
+          "groupName": "bodyArmor",
+          "isNoneChance": 0.5,
+          "hitPointsRange": {
+            "min": 0.2,
+            "max": 0.6
+          },
+          "equipment": [
+            "flimsy_savage_wood_armor",
+            "flimsy_savage_plate_armor",
+            "flimsy_wool_gambeson"
+          ]
+        },
+        {
+          "groupName": "weapon",
+          "isNoneChance": 0,
+          "hitPointsRange": {
+            "min": 0.4,
+            "max": 0.6
+          },
+          "equipment": [
+            "flimsy_cudgel",
+            "flimsy_wooden_spear",
+            "flimsy_iron_berdiche",
+            "flimsy_iron_short_sword",
+            "flimsy_staff",
+            "flimsy_iron_hatchet"
+          ]
+        }
+      ],
+      "skillGroups": [
+        {
+          "groupName": "Marksman_Skill_Set",
+          "isNoneChance": 0,
+          "skills": [
+            {
+              "skillId": 7,
+              "level": 3
+            },
+            {
+              "skillId": 7,
+              "level": 5
+            },
+            {
+              "skillId": 7,
+              "level": 10
+            }
+          ]
+        },
+        {
+          "groupName": "Melee_Skill_set",
+          "isNoneChance": 0,
+          "skills": [
+            {
+              "skillId": 9,
+              "level": 3
+            },
+            {
+              "skillId": 9,
+              "level": 5
+            },
+            {
+              "skillId": 9,
+              "level": 10
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "debug_name": "forest_bandit_basic_medium",
+      "id": "forest_bandit_basic_medium",
+      "itemGroups": [
+        {
+          "groupName": "head",
+          "isNoneChance": 0.1,
+          "hitPointsRange": {
+            "min": 0.4,
+            "max": 0.8
+          },
+          "equipment": [
+            "sturdy_savage_wood_helmet",
+            "good_savage_wood_helmet",
+            "sturdy_leather_helmet",
+            "sturdy_iron_mail_helmet",
+            "flimsy_savage_plate_helmet",
+            "sturdy_savage_plate_helmet",
+            "sturdy_wool_cap",
+            "sturdy_leather_cap"
+          ]
+        },
+        {
+          "groupName": "body",
+          "isNoneChance": 0.1,
+          "hitPointsRange": {
+            "min": 0.2,
+            "max": 0.6
+          },
+          "equipment": [
+            "flimsy_leather_winter_clothes",
+            "flimsy_wool_winter_clothes",
+            "sturdy_leather_winter_clothes",
+            "sturdy_wool_winter_clothes"
+          ]
+        },
+        {
+          "groupName": "bodyArmor",
+          "isNoneChance": 0,
+          "hitPointsRange": {
+            "min": 0.4,
+            "max": 0.8
+          },
+          "equipment": [
+            "flimsy_savage_plate_armor",
+            "flimsy_wool_gambeson",
+            "sturdy_savage_wood_armor",
+            "sturdy_savage_plate_armor",
+            "sturdy_wool_gambeson"
+          ]
+        },
+        {
+          "groupName": "weapon",
+          "isNoneChance": 0,
+          "hitPointsRange": {
+            "min": 0.6,
+            "max": 0.8
+          },
+          "equipment": [
+            "flimsy_bludgeon",
+            "sturdy_bludgeon",
+            "sturdy_wooden_spear",
+            "sturdy_iron_berdiche",
+            "sturdy_iron_short_sword",
+            "sturdy_iron_knightly_sword",
+            "sturdy_staff"
+          ]
+        }
+      ],
+      "skillGroups": [
+        {
+          "groupName": "Marksman_Skill_Set",
+          "isNoneChance": 0,
+          "skills": [
+            {
+              "skillId": 7,
+              "level": 10
+            },
+            {
+              "skillId": 7,
+              "level": 12
+            },
+            {
+              "skillId": 7,
+              "level": 15
+            }
+          ]
+        },
+        {
+          "groupName": "Melee_Skill_set",
+          "isNoneChance": 0,
+          "skills": [
+            {
+              "skillId": 9,
+              "level": 10
+            },
+            {
+              "skillId": 9,
+              "level": 12
+            },
+            {
+              "skillId": 9,
+              "level": 15
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "debug_name": "forest_bandit_basic_hard",
+      "id": "forest_bandit_basic_hard",
+      "itemGroups": [
+        {
+          "groupName": "head",
+          "isNoneChance": 0,
+          "hitPointsRange": {
+            "min": 0.7,
+            "max": 0.9
+          },
+          "equipment": [
+            "good_savage_wood_helmet",
+            "sturdy_savage_wood_helmet",
+            "good_leather_helmet",
+            "good_savage_plate_helmet",
+            "sturdy_leather_helmet",
+            "good_iron_mail_helmet"
+          ]
+        },
+        {
+          "groupName": "body",
+          "isNoneChance": 0.1,
+          "hitPointsRange": {
+            "min": 0.2,
+            "max": 0.6
+          },
+          "equipment": [
+            "flimsy_leather_winter_clothes",
+            "flimsy_wool_winter_clothes",
+            "sturdy_leather_winter_clothes",
+            "sturdy_wool_winter_clothes"
+          ]
+        },
+        {
+          "groupName": "bodyArmor",
+          "isNoneChance": 0,
+          "hitPointsRange": {
+            "min": 0.7,
+            "max": 0.9
+          },
+          "equipment": [
+            "good_savage_wood_armor",
+            "good_savage_plate_armor",
+            "good_wool_gambeson",
+            "good_iron_mail_armor",
+            "sturdy_savage_plate_armor"
+          ]
+        },
+        {
+          "groupName": "weapon",
+          "isNoneChance": 0,
+          "hitPointsRange": {
+            "min": 0.7,
+            "max": 0.9
+          },
+          "equipment": [
+            "good_bludgeon",
+            "good_wooden_spear",
+            "good_staff",
+            "good_iron_short_sword",
+            "good_iron_knightly_sword",
+            "good_iron_berdiche"
+          ]
+        }
+      ],
+      "skillGroups": [
+        {
+          "groupName": "Marksman_Skill_Set",
+          "isNoneChance": 0,
+          "skills": [
+            {
+              "skillId": 7,
+              "level": 15
+            },
+            {
+              "skillId": 7,
+              "level": 20
+            },
+            {
+              "skillId": 7,
+              "level": 25
+            }
+          ]
+        },
+        {
+          "groupName": "Melee_Skill_set",
+          "isNoneChance": 0,
+          "skills": [
+            {
+              "skillId": 9,
+              "level": 15
+            },
+            {
+              "skillId": 9,
+              "level": 20
+            },
+            {
+              "skillId": 9,
+              "level": 25
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "debug_name": "forest_bandit_archer_easy",
+      "id": "forest_bandit_archer_easy",
+      "itemGroups": [
+        {
+          "groupName": "head",
+          "isNoneChance": 0.3,
+          "hitPointsRange": {
+            "min": 0.2,
+            "max": 0.6
+          },
+          "equipment": [
+            "flimsy_savage_wood_helmet",
+            "flimsy_leather_cap",
+            "flimsy_leather_helmet"
+          ]
+        },
+        {
+          "groupName": "body",
+          "isNoneChance": 0.1,
+          "hitPointsRange": {
+            "min": 0.2,
+            "max": 0.6
+          },
+          "equipment": [
+            "flimsy_leather_winter_clothes",
+            "flimsy_wool_winter_clothes",
+            "sturdy_leather_winter_clothes",
+            "sturdy_wool_winter_clothes"
+          ]
+        },
+        {
+          "groupName": "bodyArmor",
+          "isNoneChance": 0.5,
+          "hitPointsRange": {
+            "min": 0.2,
+            "max": 0.6
+          },
+          "equipment": [
+            "flimsy_savage_wood_armor",
+            "flimsy_savage_plate_armor",
+            "flimsy_wool_gambeson"
+          ]
+        },
+        {
+          "groupName": "weapon",
+          "isNoneChance": 0,
+          "hitPointsRange": {
+            "min": 0.4,
+            "max": 0.6
+          },
+          "equipment": [
+            "flimsy_short_bow",
+            "flimsy_war_bow",
+            "sturdy_short_bow"
+          ]
+        }
+      ],
+      "skillGroups": [
+        {
+          "groupName": "Marksman_Skill_Set",
+          "isNoneChance": 0,
+          "skills": [
+            {
+              "skillId": 7,
+              "level": 3
+            },
+            {
+              "skillId": 7,
+              "level": 5
+            },
+            {
+              "skillId": 7,
+              "level": 10
+            }
+          ]
+        },
+        {
+          "groupName": "Melee_Skill_set",
+          "isNoneChance": 0,
+          "skills": [
+            {
+              "skillId": 9,
+              "level": 3
+            },
+            {
+              "skillId": 9,
+              "level": 5
+            },
+            {
+              "skillId": 9,
+              "level": 10
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "debug_name": "forest_bandit_archer_medium",
+      "id": "forest_bandit_archer_medium",
+      "itemGroups": [
+        {
+          "groupName": "head",
+          "isNoneChance": 0.1,
+          "hitPointsRange": {
+            "min": 0.4,
+            "max": 0.8
+          },
+          "equipment": [
+            "sturdy_savage_wood_helmet",
+            "good_savage_wood_helmet",
+            "sturdy_leather_helmet",
+            "sturdy_iron_mail_helmet",
+            "flimsy_savage_plate_helmet",
+            "sturdy_savage_plate_helmet",
+            "sturdy_wool_cap",
+            "sturdy_leather_cap"
+          ]
+        },
+        {
+          "groupName": "body",
+          "isNoneChance": 0.1,
+          "hitPointsRange": {
+            "min": 0.2,
+            "max": 0.6
+          },
+          "equipment": [
+            "flimsy_leather_winter_clothes",
+            "flimsy_wool_winter_clothes",
+            "sturdy_leather_winter_clothes",
+            "sturdy_wool_winter_clothes"
+          ]
+        },
+        {
+          "groupName": "bodyArmor",
+          "isNoneChance": 0,
+          "hitPointsRange": {
+            "min": 0.4,
+            "max": 0.8
+          },
+          "equipment": [
+            "flimsy_savage_plate_armor",
+            "flimsy_wool_gambeson",
+            "sturdy_savage_wood_armor",
+            "sturdy_savage_plate_armor",
+            "sturdy_wool_gambeson"
+          ]
+        },
+        {
+          "groupName": "weapon",
+          "isNoneChance": 0,
+          "hitPointsRange": {
+            "min": 0.6,
+            "max": 0.8
+          },
+          "equipment": [
+            "sturdy_short_bow",
+            "sturdy_war_bow",
+            "flimsy_long_bow"
+          ]
+        }
+      ],
+      "skillGroups": [
+        {
+          "groupName": "Marksman_Skill_Set",
+          "isNoneChance": 0,
+          "skills": [
+            {
+              "skillId": 7,
+              "level": 10
+            },
+            {
+              "skillId": 7,
+              "level": 12
+            },
+            {
+              "skillId": 7,
+              "level": 15
+            }
+          ]
+        },
+        {
+          "groupName": "Melee_Skill_set",
+          "isNoneChance": 0,
+          "skills": [
+            {
+              "skillId": 9,
+              "level": 10
+            },
+            {
+              "skillId": 9,
+              "level": 12
+            },
+            {
+              "skillId": 9,
+              "level": 15
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "debug_name": "forest_bandit_archer_hard",
+      "id": "forest_bandit_archer_hard",
+      "itemGroups": [
+        {
+          "groupName": "head",
+          "isNoneChance": 0,
+          "hitPointsRange": {
+            "min": 0.7,
+            "max": 0.9
+          },
+          "equipment": [
+            "good_savage_wood_helmet",
+            "sturdy_savage_wood_helmet",
+            "good_leather_helmet",
+            "good_savage_plate_helmet",
+            "sturdy_leather_helmet",
+            "good_iron_mail_helmet"
+          ]
+        },
+        {
+          "groupName": "body",
+          "isNoneChance": 0.1,
+          "hitPointsRange": {
+            "min": 0.2,
+            "max": 0.6
+          },
+          "equipment": [
+            "flimsy_leather_winter_clothes",
+            "flimsy_wool_winter_clothes",
+            "sturdy_leather_winter_clothes",
+            "sturdy_wool_winter_clothes"
+          ]
+        },
+        {
+          "groupName": "bodyArmor",
+          "isNoneChance": 0,
+          "hitPointsRange": {
+            "min": 0.7,
+            "max": 0.9
+          },
+          "equipment": [
+            "good_savage_wood_armor",
+            "good_savage_plate_armor",
+            "good_wool_gambeson",
+            "good_iron_mail_armor",
+            "sturdy_savage_plate_armor"
+          ]
+        },
+        {
+          "groupName": "weapon",
+          "isNoneChance": 0,
+          "hitPointsRange": {
+            "min": 0.7,
+            "max": 0.9
+          },
+          "equipment": [
+            "good_short_bow",
+            "good_war_bow",
+            "sturdy_long_bow",
+            "sturdy_crossbow"
+          ]
+        }
+      ],
+      "skillGroups": [
+        {
+          "groupName": "Marksman_Skill_Set",
+          "isNoneChance": 0,
+          "skills": [
+            {
+              "skillId": 7,
+              "level": 15
+            },
+            {
+              "skillId": 7,
+              "level": 20
+            },
+            {
+              "skillId": 7,
+              "level": 25
+            }
+          ]
+        },
+        {
+          "groupName": "Melee_Skill_set",
+          "isNoneChance": 0,
+          "skills": [
+            {
+              "skillId": 9,
+              "level": 15
+            },
+            {
+              "skillId": 9,
+              "level": 20
+            },
+            {
+              "skillId": 9,
+              "level": 25
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "debug_name": "forest_bandit_heavy_easy",
+      "id": "forest_bandit_heavy_easy",
+      "itemGroups": [
+        {
+          "groupName": "head",
+          "isNoneChance": 0,
+          "hitPointsRange": {
+            "min": 0.2,
+            "max": 0.6
+          },
+          "equipment": [
+            "sturdy_savage_wood_helmet_heavy",
+            "good_savage_wood_helmet_heavy"
+          ]
+        },
+        {
+          "groupName": "body",
+          "isNoneChance": 0.1,
+          "hitPointsRange": {
+            "min": 0.2,
+            "max": 0.6
+          },
+          "equipment": [
+            "flimsy_leather_winter_clothes",
+            "flimsy_wool_winter_clothes",
+            "sturdy_leather_winter_clothes",
+            "sturdy_wool_winter_clothes"
+          ]
+        },
+        {
+          "groupName": "bodyArmor",
+          "isNoneChance": 0,
+          "hitPointsRange": {
+            "min": 0.4,
+            "max": 0.8
+          },
+          "equipment": [
+            "flimsy_savage_plate_armor",
+            "flimsy_wool_gambeson",
+            "sturdy_savage_wood_armor",
+            "sturdy_savage_plate_armor",
+            "sturdy_wool_gambeson"
+          ]
+        },
+        {
+          "groupName": "weapon",
+          "isNoneChance": 0,
+          "hitPointsRange": {
+            "min": 0.4,
+            "max": 0.6
+          },
+          "equipment": [
+            "flimsy_warhammer",
+            "flimsy_two_handed_warhammer",
+            "flimsy_iron_greataxe",
+            "flimsy_wood_ram"
+          ]
+        }
+      ],
+      "skillGroups": [
+        {
+          "groupName": "Marksman_Skill_Set",
+          "isNoneChance": 0,
+          "skills": [
+            {
+              "skillId": 7,
+              "level": 3
+            },
+            {
+              "skillId": 7,
+              "level": 5
+            },
+            {
+              "skillId": 7,
+              "level": 10
+            }
+          ]
+        },
+        {
+          "groupName": "Melee_Skill_set",
+          "isNoneChance": 0,
+          "skills": [
+            {
+              "skillId": 9,
+              "level": 3
+            },
+            {
+              "skillId": 9,
+              "level": 5
+            },
+            {
+              "skillId": 9,
+              "level": 10
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "debug_name": "forest_bandit_heavy_medium",
+      "id": "forest_bandit_heavy_medium",
+      "itemGroups": [
+        {
+          "groupName": "head",
+          "isNoneChance": 0,
+          "hitPointsRange": {
+            "min": 0.4,
+            "max": 0.8
+          },
+          "equipment": [
+            "good_savage_wood_helmet_heavy"
+          ]
+        },
+        {
+          "groupName": "body",
+          "isNoneChance": 0.1,
+          "hitPointsRange": {
+            "min": 0.2,
+            "max": 0.6
+          },
+          "equipment": [
+            "flimsy_leather_winter_clothes",
+            "flimsy_wool_winter_clothes",
+            "sturdy_leather_winter_clothes",
+            "sturdy_wool_winter_clothes"
+          ]
+        },
+        {
+          "groupName": "bodyArmor",
+          "isNoneChance": 0,
+          "hitPointsRange": {
+            "min": 0.4,
+            "max": 0.8
+          },
+          "equipment": [
+            "flimsy_savage_plate_armor",
+            "flimsy_wool_gambeson",
+            "sturdy_savage_wood_armor",
+            "sturdy_savage_plate_armor",
+            "sturdy_wool_gambeson"
+          ]
+        },
+        {
+          "groupName": "weapon",
+          "isNoneChance": 0,
+          "hitPointsRange": {
+            "min": 0.6,
+            "max": 0.8
+          },
+          "equipment": [
+            "sturdy_warhammer",
+            "sturdy_two_handed_warhammer",
+            "sturdy_iron_greataxe",
+            "flimsy_wood_ram",
+            "sturdy_wood_ram"
+          ]
+        }
+      ],
+      "skillGroups": [
+        {
+          "groupName": "Marksman_Skill_Set",
+          "isNoneChance": 0,
+          "skills": [
+            {
+              "skillId": 7,
+              "level": 10
+            },
+            {
+              "skillId": 7,
+              "level": 12
+            },
+            {
+              "skillId": 7,
+              "level": 15
+            }
+          ]
+        },
+        {
+          "groupName": "Melee_Skill_set",
+          "isNoneChance": 0,
+          "skills": [
+            {
+              "skillId": 9,
+              "level": 10
+            },
+            {
+              "skillId": 9,
+              "level": 12
+            },
+            {
+              "skillId": 9,
+              "level": 15
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "debug_name": "forest_bandit_heavy_hard",
+      "id": "forest_bandit_heavy_hard",
+      "itemGroups": [
+        {
+          "groupName": "head",
+          "isNoneChance": 0,
+          "hitPointsRange": {
+            "min": 0.7,
+            "max": 0.9
+          },
+          "equipment": [
+            "good_savage_wood_helmet_heavy",
+            "fine_savage_wood_helmet_heavy"
+          ]
+        },
+        {
+          "groupName": "body",
+          "isNoneChance": 0.1,
+          "hitPointsRange": {
+            "min": 0.2,
+            "max": 0.6
+          },
+          "equipment": [
+            "flimsy_leather_winter_clothes",
+            "flimsy_wool_winter_clothes",
+            "sturdy_leather_winter_clothes",
+            "sturdy_wool_winter_clothes"
+          ]
+        },
+        {
+          "groupName": "bodyArmor",
+          "isNoneChance": 0,
+          "hitPointsRange": {
+            "min": 0.7,
+            "max": 0.9
+          },
+          "equipment": [
+            "good_savage_wood_armor",
+            "good_savage_plate_armor",
+            "good_wool_gambeson",
+            "good_iron_mail_armor",
+            "sturdy_savage_plate_armor"
+          ]
+        },
+        {
+          "groupName": "weapon",
+          "isNoneChance": 0,
+          "hitPointsRange": {
+            "min": 0.7,
+            "max": 0.9
+          },
+          "equipment": [
+            "good_warhammer",
+            "good_two_handed_warhammer",
+            "good_iron_greataxe",
+            "good_wood_ram",
+            "sturdy_wood_ram"
+          ]
+        }
+      ],
+      "skillGroups": [
+        {
+          "groupName": "Marksman_Skill_Set",
+          "isNoneChance": 0,
+          "skills": [
+            {
+              "skillId": 7,
+              "level": 15
+            },
+            {
+              "skillId": 7,
+              "level": 20
+            },
+            {
+              "skillId": 7,
+              "level": 25
+            }
+          ]
+        },
+        {
+          "groupName": "Melee_Skill_set",
+          "isNoneChance": 0,
+          "skills": [
+            {
+              "skillId": 9,
+              "level": 15
+            },
+            {
+              "skillId": 9,
+              "level": 20
+            },
+            {
+              "skillId": 9,
+              "level": 25
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "debug_name": "progeny_basic_easy",
+      "id": "progeny_basic_easy",
+      "itemGroups": [
+        {
+          "groupName": "head",
+          "isNoneChance": 0.3,
+          "hitPointsRange": {
+            "min": 0.2,
+            "max": 0.6
+          },
+          "equipment": [
+            "flimsy_leather_helmet",
+            "flimsy_iron_mail_helmet",
+            "flimsy_leather_cap",
+            "sturdy_iron_mail_helmet",
+            "sturdy_leather_helmet"
+          ]
+        },
+        {
+          "groupName": "body",
+          "isNoneChance": 0.1,
+          "hitPointsRange": {
+            "min": 0.2,
+            "max": 0.6
+          },
+          "equipment": [
+            "flimsy_leather_winter_clothes",
+            "flimsy_wool_winter_clothes",
+            "sturdy_leather_winter_clothes",
+            "sturdy_wool_winter_clothes"
+          ]
+        },
+        {
+          "groupName": "bodyArmor",
+          "isNoneChance": 0.5,
+          "hitPointsRange": {
+            "min": 0.2,
+            "max": 0.6
+          },
+          "equipment": [
+            "flimsy_leather_armor",
+            "flimsy_iron_mail_armor"
+          ]
+        },
+        {
+          "groupName": "weapon",
+          "isNoneChance": 0.1,
+          "hitPointsRange": {
+            "min": 0.2,
+            "max": 0.6
+          },
+          "equipment": [
+            "flimsy_wooden_shield",
+            "flimsy_reinforced_wooden_shield"
+          ]
+        },
+        {
+          "groupName": "weapon",
+          "isNoneChance": 0,
+          "hitPointsRange": {
+            "min": 0.4,
+            "max": 0.6
+          },
+          "equipment": [
+            "flimsy_iron_hatchet",
+            "flimsy_iron_mace",
+            "flimsy_iron_two_handed_mace",
+            "sturdy_iron_dagger",
+            "flimsy_cudgel"
+          ]
+        }
+      ],
+      "skillGroups": [
+        {
+          "groupName": "Marksman_Skill_Set",
+          "isNoneChance": 0,
+          "skills": [
+            {
+              "skillId": 7,
+              "level": 3
+            },
+            {
+              "skillId": 7,
+              "level": 5
+            },
+            {
+              "skillId": 7,
+              "level": 10
+            }
+          ]
+        },
+        {
+          "groupName": "Melee_Skill_set",
+          "isNoneChance": 0,
+          "skills": [
+            {
+              "skillId": 9,
+              "level": 3
+            },
+            {
+              "skillId": 9,
+              "level": 5
+            },
+            {
+              "skillId": 9,
+              "level": 10
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "debug_name": "progeny_basic_medium",
+      "id": "progeny_basic_medium",
+      "itemGroups": [
+        {
+          "groupName": "head",
+          "isNoneChance": 0.1,
+          "hitPointsRange": {
+            "min": 0.4,
+            "max": 0.8
+          },
+          "equipment": [
+            "sturdy_leather_helmet",
+            "good_leather_helmet",
+            "sturdy_iron_mail_helmet",
+            "good_iron_mail_helmet"
+          ]
+        },
+        {
+          "groupName": "body",
+          "isNoneChance": 0.1,
+          "hitPointsRange": {
+            "min": 0.2,
+            "max": 0.6
+          },
+          "equipment": [
+            "flimsy_leather_winter_clothes",
+            "flimsy_wool_winter_clothes",
+            "sturdy_leather_winter_clothes",
+            "sturdy_wool_winter_clothes"
+          ]
+        },
+        {
+          "groupName": "bodyArmor",
+          "isNoneChance": 0,
+          "hitPointsRange": {
+            "min": 0.4,
+            "max": 0.8
+          },
+          "equipment": [
+            "flimsy_leather_armor",
+            "flimsy_iron_mail_armor",
+            "sturdy_leather_armor",
+            "sturdy_iron_mail_armor"
+          ]
+        },
+        {
+          "groupName": "weapon",
+          "isNoneChance": 0.2,
+          "hitPointsRange": {
+            "min": 0.4,
+            "max": 0.8
+          },
+          "equipment": [
+            "sturdy_wooden_shield",
+            "sturdy_reinforced_wooden_shield"
+          ]
+        },
+        {
+          "groupName": "weapon",
+          "isNoneChance": 0,
+          "hitPointsRange": {
+            "min": 0.4,
+            "max": 0.8
+          },
+          "equipment": [
+            "sturdy_iron_hatchet",
+            "sturdy_iron_mace",
+            "sturdy_iron_two_handed_mace",
+            "sturdy_two_handed_flanged_mace",
+            "flimsy_two_handed_flanged_mace"
+          ]
+        }
+      ],
+      "skillGroups": [
+        {
+          "groupName": "Marksman_Skill_Set",
+          "isNoneChance": 0,
+          "skills": [
+            {
+              "skillId": 7,
+              "level": 10
+            },
+            {
+              "skillId": 7,
+              "level": 12
+            },
+            {
+              "skillId": 7,
+              "level": 15
+            }
+          ]
+        },
+        {
+          "groupName": "Melee_Skill_set",
+          "isNoneChance": 0,
+          "skills": [
+            {
+              "skillId": 9,
+              "level": 10
+            },
+            {
+              "skillId": 9,
+              "level": 12
+            },
+            {
+              "skillId": 9,
+              "level": 15
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "debug_name": "progeny_basic_hard",
+      "id": "progeny_basic_hard",
+      "itemGroups": [
+        {
+          "groupName": "head",
+          "isNoneChance": 0,
+          "hitPointsRange": {
+            "min": 0.7,
+            "max": 0.9
+          },
+          "equipment": [
+            "good_leather_helmet",
+            "fine_leather_helmet",
+            "good_iron_mail_helmet",
+            "fine_iron_mail_helmet"
+          ]
+        },
+        {
+          "groupName": "body",
+          "isNoneChance": 0.1,
+          "hitPointsRange": {
+            "min": 0.2,
+            "max": 0.6
+          },
+          "equipment": [
+            "flimsy_leather_winter_clothes",
+            "flimsy_wool_winter_clothes",
+            "sturdy_leather_winter_clothes",
+            "sturdy_wool_winter_clothes"
+          ]
+        },
+        {
+          "groupName": "bodyArmor",
+          "isNoneChance": 0,
+          "hitPointsRange": {
+            "min": 0.7,
+            "max": 0.9
+          },
+          "equipment": [
+            "good_leather_armor",
+            "fine_iron_mail_armor",
+            "good_iron_mail_armor"
+          ]
+        },
+        {
+          "groupName": "weapon",
+          "isNoneChance": 0.1,
+          "hitPointsRange": {
+            "min": 0.7,
+            "max": 0.9
+          },
+          "equipment": [
+            "good_wooden_shield",
+            "good_reinforced_wooden_shield"
+          ]
+        },
+        {
+          "groupName": "weapon",
+          "isNoneChance": 0,
+          "hitPointsRange": {
+            "min": 0.7,
+            "max": 0.9
+          },
+          "equipment": [
+            "good_iron_hatchet",
+            "good_iron_mace",
+            "good_iron_longsword",
+            "good_steel_short_sword",
+            "good_iron_two_handed_mace",
+            "good_two_handed_flanged_mace"
+          ]
+        }
+      ],
+      "skillGroups": [
+        {
+          "groupName": "Marksman_Skill_Set",
+          "isNoneChance": 0,
+          "skills": [
+            {
+              "skillId": 7,
+              "level": 15
+            },
+            {
+              "skillId": 7,
+              "level": 20
+            },
+            {
+              "skillId": 7,
+              "level": 25
+            }
+          ]
+        },
+        {
+          "groupName": "Melee_Skill_set",
+          "isNoneChance": 0,
+          "skills": [
+            {
+              "skillId": 9,
+              "level": 15
+            },
+            {
+              "skillId": 9,
+              "level": 20
+            },
+            {
+              "skillId": 9,
+              "level": 25
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "debug_name": "progeny_archer_easy",
+      "id": "progeny_archer_easy",
+      "itemGroups": [
+        {
+          "groupName": "head",
+          "isNoneChance": 0.3,
+          "hitPointsRange": {
+            "min": 0.2,
+            "max": 0.6
+          },
+          "equipment": [
+            "flimsy_leather_helmet",
+            "flimsy_iron_mail_helmet",
+            "flimsy_leather_cap",
+            "sturdy_iron_mail_helmet",
+            "sturdy_leather_helmet"
+          ]
+        },
+        {
+          "groupName": "body",
+          "isNoneChance": 0.1,
+          "hitPointsRange": {
+            "min": 0.2,
+            "max": 0.6
+          },
+          "equipment": [
+            "flimsy_leather_winter_clothes",
+            "flimsy_wool_winter_clothes",
+            "sturdy_leather_winter_clothes",
+            "sturdy_wool_winter_clothes"
+          ]
+        },
+        {
+          "groupName": "bodyArmor",
+          "isNoneChance": 0.5,
+          "hitPointsRange": {
+            "min": 0.2,
+            "max": 0.6
+          },
+          "equipment": [
+            "flimsy_leather_armor",
+            "flimsy_iron_mail_armor"
+          ]
+        },
+        {
+          "groupName": "weapon",
+          "isNoneChance": 0.1,
+          "hitPointsRange": {
+            "min": 0.2,
+            "max": 0.6
+          },
+          "equipment": [
+            "flimsy_wooden_shield",
+            "flimsy_reinforced_wooden_shield"
+          ]
+        },
+        {
+          "groupName": "weapon",
+          "isNoneChance": 0,
+          "hitPointsRange": {
+            "min": 0.4,
+            "max": 0.6
+          },
+          "equipment": [
+            "flimsy_short_bow",
+            "sturdy_short_bow",
+            "flimsy_war_bow",
+            "sturdy_war_bow"
+          ]
+        }
+      ],
+      "skillGroups": [
+        {
+          "groupName": "Marksman_Skill_Set",
+          "isNoneChance": 0,
+          "skills": [
+            {
+              "skillId": 7,
+              "level": 3
+            },
+            {
+              "skillId": 7,
+              "level": 5
+            },
+            {
+              "skillId": 7,
+              "level": 10
+            }
+          ]
+        },
+        {
+          "groupName": "Melee_Skill_set",
+          "isNoneChance": 0,
+          "skills": [
+            {
+              "skillId": 9,
+              "level": 3
+            },
+            {
+              "skillId": 9,
+              "level": 5
+            },
+            {
+              "skillId": 9,
+              "level": 10
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "debug_name": "progeny_archer_medium",
+      "id": "progeny_archer_medium",
+      "itemGroups": [
+        {
+          "groupName": "head",
+          "isNoneChance": 0.1,
+          "hitPointsRange": {
+            "min": 0.4,
+            "max": 0.8
+          },
+          "equipment": [
+            "sturdy_leather_helmet",
+            "good_leather_helmet",
+            "sturdy_iron_mail_helmet",
+            "good_iron_mail_helmet"
+          ]
+        },
+        {
+          "groupName": "body",
+          "isNoneChance": 0.1,
+          "hitPointsRange": {
+            "min": 0.2,
+            "max": 0.6
+          },
+          "equipment": [
+            "flimsy_leather_winter_clothes",
+            "flimsy_wool_winter_clothes",
+            "sturdy_leather_winter_clothes",
+            "sturdy_wool_winter_clothes"
+          ]
+        },
+        {
+          "groupName": "bodyArmor",
+          "isNoneChance": 0,
+          "hitPointsRange": {
+            "min": 0.4,
+            "max": 0.8
+          },
+          "equipment": [
+            "flimsy_leather_armor",
+            "flimsy_iron_mail_armor",
+            "sturdy_leather_armor",
+            "sturdy_iron_mail_armor"
+          ]
+        },
+        {
+          "groupName": "weapon",
+          "isNoneChance": 0.2,
+          "hitPointsRange": {
+            "min": 0.4,
+            "max": 0.8
+          },
+          "equipment": [
+            "sturdy_wooden_shield",
+            "sturdy_reinforced_wooden_shield"
+          ]
+        },
+        {
+          "groupName": "weapon",
+          "isNoneChance": 0,
+          "hitPointsRange": {
+            "min": 0.4,
+            "max": 0.8
+          },
+          "equipment": [
+            "sturdy_war_bow",
+            "good_short_bow",
+            "sturdy_short_bow",
+            "sturdy_light_crossbow",
+            "flimsy_heavy_crossbow"
+          ]
+        }
+      ],
+      "skillGroups": [
+        {
+          "groupName": "Marksman_Skill_Set",
+          "isNoneChance": 0,
+          "skills": [
+            {
+              "skillId": 7,
+              "level": 10
+            },
+            {
+              "skillId": 7,
+              "level": 12
+            },
+            {
+              "skillId": 7,
+              "level": 15
+            }
+          ]
+        },
+        {
+          "groupName": "Melee_Skill_set",
+          "isNoneChance": 0,
+          "skills": [
+            {
+              "skillId": 9,
+              "level": 10
+            },
+            {
+              "skillId": 9,
+              "level": 12
+            },
+            {
+              "skillId": 9,
+              "level": 15
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "debug_name": "progeny_archer_hard",
+      "id": "progeny_archer_hard",
+      "itemGroups": [
+        {
+          "groupName": "head",
+          "isNoneChance": 0,
+          "hitPointsRange": {
+            "min": 0.7,
+            "max": 0.9
+          },
+          "equipment": [
+            "good_leather_helmet",
+            "fine_leather_helmet",
+            "good_iron_mail_helmet",
+            "fine_iron_mail_helmet"
+          ]
+        },
+        {
+          "groupName": "body",
+          "isNoneChance": 0.1,
+          "hitPointsRange": {
+            "min": 0.2,
+            "max": 0.6
+          },
+          "equipment": [
+            "flimsy_leather_winter_clothes",
+            "flimsy_wool_winter_clothes",
+            "sturdy_leather_winter_clothes",
+            "sturdy_wool_winter_clothes"
+          ]
+        },
+        {
+          "groupName": "bodyArmor",
+          "isNoneChance": 0,
+          "hitPointsRange": {
+            "min": 0.7,
+            "max": 0.9
+          },
+          "equipment": [
+            "good_leather_armor",
+            "fine_iron_mail_armor",
+            "good_iron_mail_armor"
+          ]
+        },
+        {
+          "groupName": "weapon",
+          "isNoneChance": 0.1,
+          "hitPointsRange": {
+            "min": 0.7,
+            "max": 0.9
+          },
+          "equipment": [
+            "good_wooden_shield",
+            "good_reinforced_wooden_shield"
+          ]
+        },
+        {
+          "groupName": "weapon",
+          "isNoneChance": 0,
+          "hitPointsRange": {
+            "min": 0.7,
+            "max": 0.9
+          },
+          "equipment": [
+            "good_short_bow",
+            "good_war_bow",
+            "good_light_crossbow",
+            "sturdy_heavy_crossbow"
+          ]
+        }
+      ],
+      "skillGroups": [
+        {
+          "groupName": "Marksman_Skill_Set",
+          "isNoneChance": 0,
+          "skills": [
+            {
+              "skillId": 7,
+              "level": 15
+            },
+            {
+              "skillId": 7,
+              "level": 20
+            },
+            {
+              "skillId": 7,
+              "level": 25
+            }
+          ]
+        },
+        {
+          "groupName": "Melee_Skill_set",
+          "isNoneChance": 0,
+          "skills": [
+            {
+              "skillId": 9,
+              "level": 15
+            },
+            {
+              "skillId": 9,
+              "level": 20
+            },
+            {
+              "skillId": 9,
+              "level": 25
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "debug_name": "progeny_heavy_easy",
+      "id": "progeny_heavy_easy",
+      "itemGroups": [
+        {
+          "groupName": "head",
+          "isNoneChance": 0.3,
+          "hitPointsRange": {
+            "min": 0.2,
+            "max": 0.6
+          },
+          "equipment": [
+            "flimsy_leather_helmet",
+            "flimsy_iron_mail_helmet",
+            "flimsy_leather_cap",
+            "sturdy_iron_mail_helmet",
+            "sturdy_leather_helmet"
+          ]
+        },
+        {
+          "groupName": "body",
+          "isNoneChance": 0.1,
+          "hitPointsRange": {
+            "min": 0.2,
+            "max": 0.6
+          },
+          "equipment": [
+            "flimsy_leather_winter_clothes",
+            "flimsy_wool_winter_clothes",
+            "sturdy_leather_winter_clothes",
+            "sturdy_wool_winter_clothes"
+          ]
+        },
+        {
+          "groupName": "bodyArmor",
+          "isNoneChance": 0.5,
+          "hitPointsRange": {
+            "min": 0.2,
+            "max": 0.6
+          },
+          "equipment": [
+            "flimsy_leather_armor",
+            "flimsy_iron_mail_armor"
+          ]
+        },
+        {
+          "groupName": "weapon",
+          "isNoneChance": 0.1,
+          "hitPointsRange": {
+            "min": 0.4,
+            "max": 0.6
+          },
+          "equipment": [
+            "sturdy_reinforced_wooden_shield",
+            "flimsy_tower_shield"
+          ]
+        },
+        {
+          "groupName": "weapon",
+          "isNoneChance": 0,
+          "hitPointsRange": {
+            "min": 0.4,
+            "max": 0.6
+          },
+          "equipment": [
+            "flimsy_warhammer",
+            "flimsy_two_handed_warhammer",
+            "flimsy_iron_greataxe",
+            "flimsy_wood_ram"
+          ]
+        }
+      ],
+      "skillGroups": [
+        {
+          "groupName": "Marksman_Skill_Set",
+          "isNoneChance": 0,
+          "skills": [
+            {
+              "skillId": 7,
+              "level": 3
+            },
+            {
+              "skillId": 7,
+              "level": 5
+            },
+            {
+              "skillId": 7,
+              "level": 10
+            }
+          ]
+        },
+        {
+          "groupName": "Melee_Skill_set",
+          "isNoneChance": 0,
+          "skills": [
+            {
+              "skillId": 9,
+              "level": 3
+            },
+            {
+              "skillId": 9,
+              "level": 5
+            },
+            {
+              "skillId": 9,
+              "level": 10
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "debug_name": "progeny_heavy_medium",
+      "id": "progeny_heavy_medium",
+      "itemGroups": [
+        {
+          "groupName": "head",
+          "isNoneChance": 0.1,
+          "hitPointsRange": {
+            "min": 0.4,
+            "max": 0.8
+          },
+          "equipment": [
+            "sturdy_leather_helmet",
+            "good_leather_helmet",
+            "sturdy_iron_mail_helmet",
+            "good_iron_mail_helmet"
+          ]
+        },
+        {
+          "groupName": "body",
+          "isNoneChance": 0.1,
+          "hitPointsRange": {
+            "min": 0.2,
+            "max": 0.6
+          },
+          "equipment": [
+            "flimsy_leather_winter_clothes",
+            "flimsy_wool_winter_clothes",
+            "sturdy_leather_winter_clothes",
+            "sturdy_wool_winter_clothes"
+          ]
+        },
+        {
+          "groupName": "bodyArmor",
+          "isNoneChance": 0,
+          "hitPointsRange": {
+            "min": 0.4,
+            "max": 0.8
+          },
+          "equipment": [
+            "flimsy_leather_armor",
+            "flimsy_iron_mail_armor",
+            "sturdy_leather_armor",
+            "sturdy_iron_mail_armor"
+          ]
+        },
+        {
+          "groupName": "weapon",
+          "isNoneChance": 0.1,
+          "hitPointsRange": {
+            "min": 0.4,
+            "max": 0.8
+          },
+          "equipment": [
+            "good_reinforced_wooden_shield",
+            "sturdy_tower_shield"
+          ]
+        },
+        {
+          "groupName": "weapon",
+          "isNoneChance": 0,
+          "hitPointsRange": {
+            "min": 0.6,
+            "max": 0.8
+          },
+          "equipment": [
+            "sturdy_warhammer",
+            "sturdy_two_handed_warhammer",
+            "sturdy_iron_greataxe",
+            "flimsy_wood_ram",
+            "sturdy_wood_ram"
+          ]
+        }
+      ],
+      "skillGroups": [
+        {
+          "groupName": "Marksman_Skill_Set",
+          "isNoneChance": 0,
+          "skills": [
+            {
+              "skillId": 7,
+              "level": 10
+            },
+            {
+              "skillId": 7,
+              "level": 12
+            },
+            {
+              "skillId": 7,
+              "level": 15
+            }
+          ]
+        },
+        {
+          "groupName": "Melee_Skill_set",
+          "isNoneChance": 0,
+          "skills": [
+            {
+              "skillId": 9,
+              "level": 10
+            },
+            {
+              "skillId": 9,
+              "level": 12
+            },
+            {
+              "skillId": 9,
+              "level": 15
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "debug_name": "progeny_heavy_hard",
+      "id": "progeny_heavy_hard",
+      "itemGroups": [
+        {
+          "groupName": "head",
+          "isNoneChance": 0,
+          "hitPointsRange": {
+            "min": 0.7,
+            "max": 0.9
+          },
+          "equipment": [
+            "good_leather_helmet",
+            "fine_leather_helmet",
+            "good_iron_mail_helmet",
+            "fine_iron_mail_helmet"
+          ]
+        },
+        {
+          "groupName": "body",
+          "isNoneChance": 0.1,
+          "hitPointsRange": {
+            "min": 0.2,
+            "max": 0.6
+          },
+          "equipment": [
+            "flimsy_leather_winter_clothes",
+            "flimsy_wool_winter_clothes",
+            "sturdy_leather_winter_clothes",
+            "sturdy_wool_winter_clothes"
+          ]
+        },
+        {
+          "groupName": "bodyArmor",
+          "isNoneChance": 0,
+          "hitPointsRange": {
+            "min": 0.7,
+            "max": 0.9
+          },
+          "equipment": [
+            "good_leather_armor",
+            "fine_iron_mail_armor",
+            "good_iron_mail_armor"
+          ]
+        },
+        {
+          "groupName": "weapon",
+          "isNoneChance": 0.1,
+          "hitPointsRange": {
+            "min": 0.7,
+            "max": 0.9
+          },
+          "equipment": [
+            "fine_reinforced_wooden_shield",
+            "good_tower_shield"
+          ]
+        },
+        {
+          "groupName": "weapon",
+          "isNoneChance": 0,
+          "hitPointsRange": {
+            "min": 0.7,
+            "max": 0.9
+          },
+          "equipment": [
+            "good_warhammer",
+            "good_two_handed_warhammer",
+            "good_iron_greataxe",
+            "good_wood_ram",
+            "sturdy_wood_ram"
+          ]
+        }
+      ],
+      "skillGroups": [
+        {
+          "groupName": "Marksman_Skill_Set",
+          "isNoneChance": 0,
+          "skills": [
+            {
+              "skillId": 7,
+              "level": 15
+            },
+            {
+              "skillId": 7,
+              "level": 20
+            },
+            {
+              "skillId": 7,
+              "level": 25
+            }
+          ]
+        },
+        {
+          "groupName": "Melee_Skill_set",
+          "isNoneChance": 0,
+          "skills": [
+            {
+              "skillId": 9,
+              "level": 15
+            },
+            {
+              "skillId": 9,
+              "level": 20
+            },
+            {
+              "skillId": 9,
+              "level": 25
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

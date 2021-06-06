@@ -1,0 +1,148 @@
+{
+  "repository": [
+    {
+      "id": "ground",
+      "isolation": 0.95,
+      "targetTemp": 4,
+      "heatEmission": -10
+    },
+    {
+      "id": "resource_pile_heating_test",
+      "isolation": 0,
+      "targetTemp": 30,
+      "heatEmission": 500
+    },
+    {
+      "id": "resource_pile_cooling_test",
+      "isolation": 0,
+      "targetTemp": 0,
+      "heatEmission": -25
+    },
+    {
+      "id": "wood_floor",
+      "isolation": 0.6,
+      "targetTemp": 13,
+      "heatEmission": 0
+    },
+    {
+      "id": "wood_wall",
+      "isolation": 0.6,
+      "targetTemp": 13,
+      "heatEmission": 0
+    },
+    {
+      "id": "clay_wall",
+      "isolation": 0.93,
+      "targetTemp": 11,
+      "heatEmission": 0
+    },
+    {
+      "id": "limestone_wall",
+      "isolation": 0.7,
+      "targetTemp": 9,
+      "heatEmission": 0
+    },
+    {
+      "id": "limestone_block_wall",
+      "isolation": 0.75,
+      "targetTemp": 8,
+      "heatEmission": 0
+    },
+    {
+      "id": "clay_brick_wall",
+      "isolation": 0.75,
+      "targetTemp": 8,
+      "heatEmission": 0
+    },
+    {
+      "id": "prod_building_off",
+      "isolation": 0,
+      "targetTemp": 20,
+      "heatEmission": 0
+    },
+    {
+      "id": "stove",
+      "isolation": 0,
+      "targetTemp": 30,
+      "heatEmission": 2500
+    },
+    {
+      "id": "camp_fire",
+      "isolation": 0,
+      "targetTemp": 30,
+      "heatEmission": 2000
+    },
+    {
+      "id": "torch",
+      "isolation": 0,
+      "targetTemp": 30,
+      "heatEmission": 150
+    },
+    {
+      "id": "torch_off",
+      "isolation": 0,
+      "targetTemp": 0,
+      "heatEmission": 0
+    },
+    {
+      "id": "brazier",
+      "isolation": 0,
+      "targetTemp": 30,
+      "heatEmission": 1800
+    },
+    {
+      "id": "brazier_off",
+      "isolation": 0,
+      "targetTemp": 0,
+      "heatEmission": 0
+    },
+    {
+      "id": "wood_door_open",
+      "isolation": 0.001,
+      "targetTemp": 8,
+      "heatEmission": -10
+    },
+    {
+      "id": "wood_door_closed",
+      "isolation": 0.5,
+      "targetTemp": 15,
+      "heatEmission": 0
+    },
+    {
+      "id": "wood_window",
+      "isolation": 0.4,
+      "targetTemp": 10,
+      "heatEmission": -1
+    },
+    {
+      "id": "hay_roof",
+      "isolation": 0.82,
+      "targetTemp": 15,
+      "heatEmission": 0
+    },
+    {
+      "id": "wood_roof",
+      "isolation": 0.7,
+      "targetTemp": 8,
+      "heatEmission": 0
+    },
+    {
+      "id": "limestone_roof",
+      "isolation": 0.75,
+      "targetTemp": 11,
+      "heatEmission": 0
+    },
+    {
+      "id": "clay_roof",
+      "isolation": 0.75,
+      "targetTemp": 11,
+      "heatEmission": 0
+    },
+    {
+      "id": "window_open",
+      "isolation": 0.001,
+      "targetTemp": 15,
+      "heatEmission": -25
+    }
+  ]
+}

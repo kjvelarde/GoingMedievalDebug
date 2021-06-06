@@ -1,0 +1,139 @@
+{
+  "repository": [
+    {
+      "id": "WorkerAggressiveAiAgent",
+      "isAggressive": true,
+      "description": "Attacks enemy as son as it enter perception range",
+      "goals": [
+        "AttackAiActionGoal",
+        "WorkerHuntAiPlanGoal"
+      ],
+      "sensors": [
+        "HostileProximitySensor",
+        "CoreCombatSensor"
+      ],
+      "reactions": [
+        "OnHitAiReaction",
+        "OnMissAiReaction",
+        "OnSeeHostileAiReaction"
+      ]
+    },
+    {
+      "id": "WorkerIgnoreAiAgent",
+      "description": "Retaliates if taken damage, and attacker is in hit range. Forbid changing of position in order to attack.",
+      "goals": [
+        "AttackAiActionGoal",
+        "WorkerHuntAiPlanGoal"
+      ],
+      "sensors": [
+        "HostileProximitySensor",
+        "CoreCombatSensor"
+      ],
+      "reactions": [
+        "OnHitAiReaction"
+      ]
+    },
+    {
+      "id": "WorkerFleeAiAgent",
+      "description": "Free as soon as enemy enter perception range",
+      "goals": [
+        "FleeAiActionGoal",
+        "WorkerHuntAiPlanGoal"
+      ],
+      "sensors": [
+        "HostileProximitySensor",
+        "CoreCombatSensor"
+      ]
+    },
+    {
+      "id": "WorkerDraftAiAgent",
+      "description": "Continuously attack preferred target. Dose not auto target. Automatically retaliates only if attacker is in hit rage. Dose not change position in order to attack.",
+      "goals": [
+        "WorkerRangedDraftAiPlanGoal",
+        "WorkerMeleeDraftAiPlanGoal",
+        "AttackAiActionGoal"
+      ],
+      "sensors": [
+        "HostileProximitySensor",
+        "CoreCombatSensor"
+      ],
+      "reactions": [
+        "OnHitAiReaction"
+      ]
+    },
+    {
+      "id": "EnemyDefaultAiAgent",
+      "description": "Attacks enemy as son as it enter perception range",
+      "isAggressive": true,
+      "goals": [
+        "EnemyRetreatAiActionGoal",
+        "EnemyIdleAiActionGoal",
+        "AttackAiActionGoal",
+        "EnemyTargetProductionAiPlanGoal",
+        "EnemyTargetWorkersAiPlanGoal",
+        "EnemyTargetDoorsAiPlanGoal",
+        "EnemyOperateTrebuchetAiActionGoal",
+        "FollowAiActionGoal",
+        "EnemyRangedAiNothingToDoPlanGoal"
+      ],
+      "sensors": [
+        "HostileProximitySensor",
+        "CoreCombatSensor",
+        "EnemyFollowSensor"
+      ],
+      "reactions": [
+        "OnHitAiReaction",
+        "OnMissAiReaction",
+        "OnHostileReallyCloseAggressiveAiReaction",
+        "EnemyChargeAiReaction"
+      ]
+    },
+    {
+      "id": "AnimalPeaceful",
+      "description": "Attacks back only if hit.",
+      "goals": [
+        "AttackAiActionGoal"
+      ],
+      "sensors": [
+        "HostileProximitySensor",
+        "CoreCombatSensor"
+      ],
+      "reactions": [
+        "OnHitAiReaction"
+      ]
+    },
+    {
+      "id": "AnimalAggressive",
+      "description": "Attack if there is target nearby.",
+      "isAggressive": true,
+      "goals": [
+        "AttackAiActionGoal"
+      ],
+      "sensors": [
+        "HostileProximitySensor",
+        "CoreCombatSensor"
+      ],
+      "reactions": [
+        "OnHitAiReaction",
+        "OnHostileReallyCloseAggressiveAiReaction"
+      ]
+    },
+    {
+      "id": "AnimalRaidAggressive",
+      "description": "Attack if there is target nearby.",
+      "isAggressive": true,
+      "goals": [
+        "AttackAiActionGoal"
+      ],
+      "sensors": [
+        "ClosestAttackableProximitySensor",
+        "CoreCombatSensor"
+      ],
+      "reactions": [
+        "OnHitAiReaction",
+        "OnSeeHostileAiReaction",
+        "AnimalRaidLeaveMapAiReaction"
+      ]
+    }
+  ]
+}

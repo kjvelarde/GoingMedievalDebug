@@ -1,0 +1,704 @@
+{
+  "repository": [
+    {
+      "id": "hay_roof_whole",
+      "halfRoof": false,
+      "buildTime": 4,
+      "size": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "buildingCategoryUI": 1,
+      "buildingSubCategoryUI": 7,
+      "soundMaterialCategory": 5,
+      "buildingType": 32,
+      "constructableBaseCategory": 8,
+      "placementType": 5,
+      "materials": {
+        "keys": [
+          "hay"
+        ],
+        "values": [
+          8
+        ]
+      },
+      "storageBase": {
+        "capacity": 999,
+        "storableResources": [
+          "hay"
+        ]
+      },
+      "reachableLevel": 3,
+      "cornerReachable": true,
+      "maxPoolCount": 50,
+      "refillThreshold": 20,
+      "layerShadowOffset": -2,
+      "layerHideOffset": -0.5,
+      "forbidUnderBeamPlacement": true,
+      "attackTraversePenalty": 0,
+      "cover": 1,
+      "stats": [
+        {
+          "debugName": "Hitpoints",
+          "type": 1,
+          "initialValue": 170,
+          "attributes": {
+            "max": [
+              {
+                "baseValue": 170
+              }
+            ]
+          }
+        }
+      ],
+      "wealthPoints": 8,
+      "maxLength": 12,
+      "heightScaling": {
+        "keys": [
+          2,
+          5,
+          12
+        ],
+        "values": [
+          1,
+          2,
+          3
+        ]
+      },
+      "canPlaceOnBeam": true,
+      "thermalModelID": "hay_roof",
+      "destroyParticles": "destroy_hay_roof"
+    },
+    {
+      "id": "wicker_roof_whole",
+      "halfRoof": false,
+      "buildTime": 4,
+      "size": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "buildingCategoryUI": 1,
+      "buildingSubCategoryUI": 7,
+      "soundMaterialCategory": 5,
+      "buildingType": 32,
+      "constructableBaseCategory": 8,
+      "placementType": 5,
+      "materials": {
+        "keys": [
+          "sticks"
+        ],
+        "values": [
+          8
+        ]
+      },
+      "storageBase": {
+        "capacity": 999,
+        "storableResources": [
+          "sticks"
+        ]
+      },
+      "reachableLevel": 3,
+      "cornerReachable": true,
+      "maxPoolCount": 50,
+      "refillThreshold": 20,
+      "layerShadowOffset": -2,
+      "layerHideOffset": -0.5,
+      "forbidUnderBeamPlacement": true,
+      "attackTraversePenalty": 0,
+      "cover": 1,
+      "stats": [
+        {
+          "debugName": "Hitpoints",
+          "type": 1,
+          "initialValue": 200,
+          "attributes": {
+            "max": [
+              {
+                "baseValue": 200
+              }
+            ]
+          }
+        }
+      ],
+      "wealthPoints": 8,
+      "maxLength": 12,
+      "heightScaling": {
+        "keys": [
+          2,
+          5,
+          12
+        ],
+        "values": [
+          1,
+          2,
+          3
+        ]
+      },
+      "canPlaceOnBeam": true,
+      "thermalModelID": "hay_roof",
+      "destroyParticles": "destroy_wicker_roof"
+    },
+    {
+      "id": "wood_roof_whole",
+      "halfRoof": false,
+      "buildTime": 6.4,
+      "size": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "buildingCategoryUI": 1,
+      "buildingSubCategoryUI": 7,
+      "soundMaterialCategory": 1,
+      "buildingType": 32,
+      "constructableBaseCategory": 8,
+      "placementType": 5,
+      "materials": {
+        "keys": [
+          "wood"
+        ],
+        "values": [
+          8
+        ]
+      },
+      "storageBase": {
+        "capacity": 999,
+        "storableResources": [
+          "wood"
+        ]
+      },
+      "reachableLevel": 3,
+      "cornerReachable": true,
+      "maxPoolCount": 50,
+      "refillThreshold": 20,
+      "layerShadowOffset": -2,
+      "layerHideOffset": -0.5,
+      "forbidUnderBeamPlacement": true,
+      "attackTraversePenalty": 0,
+      "cover": 1,
+      "stats": [
+        {
+          "debugName": "Hitpoints",
+          "type": 1,
+          "initialValue": 350,
+          "attributes": {
+            "max": [
+              {
+                "baseValue": 350
+              }
+            ]
+          }
+        }
+      ],
+      "wealthPoints": 13,
+      "maxLength": 12,
+      "heightScaling": {
+        "keys": [
+          2,
+          5,
+          12
+        ],
+        "values": [
+          1,
+          2,
+          3
+        ]
+      },
+      "canPlaceOnBeam": true,
+      "thermalModelID": "wood_roof",
+      "destroyParticles": "destroy_wood_roof"
+    },
+    {
+      "id": "limestone_slate_roof_whole",
+      "halfRoof": false,
+      "buildTime": 12,
+      "size": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "buildingCategoryUI": 1,
+      "buildingSubCategoryUI": 7,
+      "soundMaterialCategory": 2,
+      "buildingType": 32,
+      "constructableBaseCategory": 8,
+      "placementType": 5,
+      "materials": {
+        "keys": [
+          "limestone"
+        ],
+        "values": [
+          8
+        ]
+      },
+      "storageBase": {
+        "capacity": 999,
+        "storableResources": [
+          "limestone"
+        ]
+      },
+      "reachableLevel": 3,
+      "cornerReachable": true,
+      "maxPoolCount": 50,
+      "refillThreshold": 20,
+      "layerShadowOffset": -2,
+      "layerHideOffset": -0.5,
+      "forbidUnderBeamPlacement": true,
+      "attackTraversePenalty": 0,
+      "cover": 1,
+      "stats": [
+        {
+          "debugName": "Hitpoints",
+          "type": 1,
+          "initialValue": 450,
+          "attributes": {
+            "max": [
+              {
+                "baseValue": 450
+              }
+            ]
+          }
+        }
+      ],
+      "wealthPoints": 15,
+      "maxLength": 12,
+      "heightScaling": {
+        "keys": [
+          2,
+          5,
+          12
+        ],
+        "values": [
+          1,
+          2,
+          3
+        ]
+      },
+      "canPlaceOnBeam": true,
+      "thermalModelID": "limestone_roof",
+      "destroyParticles": "destroy_limestone_roof"
+    },
+    {
+      "id": "clay_shingle_roof_whole",
+      "halfRoof": false,
+      "buildTime": 16,
+      "size": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "buildingCategoryUI": 1,
+      "buildingSubCategoryUI": 7,
+      "soundMaterialCategory": 3,
+      "buildingType": 32,
+      "constructableBaseCategory": 8,
+      "placementType": 5,
+      "materials": {
+        "keys": [
+          "clay_brick"
+        ],
+        "values": [
+          8
+        ]
+      },
+      "storageBase": {
+        "capacity": 999,
+        "storableResources": [
+          "clay_brick"
+        ]
+      },
+      "reachableLevel": 3,
+      "cornerReachable": true,
+      "maxPoolCount": 50,
+      "refillThreshold": 20,
+      "layerShadowOffset": -2,
+      "layerHideOffset": -0.5,
+      "forbidUnderBeamPlacement": true,
+      "attackTraversePenalty": 0,
+      "cover": 1,
+      "stats": [
+        {
+          "debugName": "Hitpoints",
+          "type": 1,
+          "initialValue": 450,
+          "attributes": {
+            "max": [
+              {
+                "baseValue": 450
+              }
+            ]
+          }
+        }
+      ],
+      "wealthPoints": 15,
+      "maxLength": 12,
+      "heightScaling": {
+        "keys": [
+          2,
+          5,
+          12
+        ],
+        "values": [
+          1,
+          2,
+          3
+        ]
+      },
+      "canPlaceOnBeam": true,
+      "thermalModelID": "clay_roof",
+      "destroyParticles": "destroy_clay_roof"
+    },
+    {
+      "id": "hay_roof_half",
+      "halfRoof": true,
+      "buildTime": 4,
+      "size": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "buildingCategoryUI": 1,
+      "buildingSubCategoryUI": 7,
+      "soundMaterialCategory": 5,
+      "buildingType": 32,
+      "constructableBaseCategory": 8,
+      "placementType": 5,
+      "materials": {
+        "keys": [
+          "hay"
+        ],
+        "values": [
+          8
+        ]
+      },
+      "storageBase": {
+        "capacity": 999,
+        "storableResources": [
+          "hay"
+        ]
+      },
+      "reachableLevel": 3,
+      "cornerReachable": true,
+      "maxPoolCount": 50,
+      "refillThreshold": 20,
+      "layerShadowOffset": -2,
+      "layerHideOffset": -0.5,
+      "forbidUnderBeamPlacement": true,
+      "attackTraversePenalty": 0,
+      "cover": 1,
+      "stats": [
+        {
+          "debugName": "Hitpoints",
+          "type": 1,
+          "initialValue": 170,
+          "attributes": {
+            "max": [
+              {
+                "baseValue": 170
+              }
+            ]
+          }
+        }
+      ],
+      "wealthPoints": 8,
+      "maxLength": 12,
+      "heightScaling": {
+        "keys": [
+          2,
+          5,
+          12
+        ],
+        "values": [
+          1,
+          2,
+          3
+        ]
+      },
+      "canPlaceOnBeam": true,
+      "thermalModelID": "hay_roof",
+      "destroyParticles": "destroy_hay_roof"
+    },
+    {
+      "id": "wicker_roof_half",
+      "halfRoof": true,
+      "buildTime": 6.4,
+      "size": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "buildingCategoryUI": 1,
+      "buildingSubCategoryUI": 7,
+      "soundMaterialCategory": 5,
+      "buildingType": 32,
+      "constructableBaseCategory": 8,
+      "placementType": 5,
+      "materials": {
+        "keys": [
+          "sticks"
+        ],
+        "values": [
+          8
+        ]
+      },
+      "storageBase": {
+        "capacity": 999,
+        "storableResources": [
+          "sticks"
+        ]
+      },
+      "reachableLevel": 3,
+      "cornerReachable": true,
+      "maxPoolCount": 50,
+      "refillThreshold": 20,
+      "layerShadowOffset": -2,
+      "layerHideOffset": -0.5,
+      "forbidUnderBeamPlacement": true,
+      "attackTraversePenalty": 0,
+      "cover": 1,
+      "stats": [
+        {
+          "debugName": "Hitpoints",
+          "type": 1,
+          "initialValue": 200,
+          "attributes": {
+            "max": [
+              {
+                "baseValue": 200
+              }
+            ]
+          }
+        }
+      ],
+      "wealthPoints": 8,
+      "maxLength": 12,
+      "heightScaling": {
+        "keys": [
+          2,
+          5,
+          12
+        ],
+        "values": [
+          1,
+          2,
+          3
+        ]
+      },
+      "canPlaceOnBeam": true,
+      "thermalModelID": "hay_roof",
+      "destroyParticles": "destroy_wicker_roof"
+    },
+    {
+      "id": "wood_roof_half",
+      "halfRoof": true,
+      "buildTime": 6.4,
+      "size": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "buildingCategoryUI": 1,
+      "buildingSubCategoryUI": 7,
+      "soundMaterialCategory": 1,
+      "buildingType": 32,
+      "constructableBaseCategory": 8,
+      "placementType": 5,
+      "materials": {
+        "keys": [
+          "wood"
+        ],
+        "values": [
+          8
+        ]
+      },
+      "storageBase": {
+        "capacity": 999,
+        "storableResources": [
+          "wood"
+        ]
+      },
+      "reachableLevel": 3,
+      "cornerReachable": true,
+      "maxPoolCount": 50,
+      "refillThreshold": 20,
+      "layerShadowOffset": -2,
+      "layerHideOffset": -0.5,
+      "forbidUnderBeamPlacement": true,
+      "attackTraversePenalty": 0,
+      "cover": 1,
+      "stats": [
+        {
+          "debugName": "Hitpoints",
+          "type": 1,
+          "initialValue": 350,
+          "attributes": {
+            "max": [
+              {
+                "baseValue": 350
+              }
+            ]
+          }
+        }
+      ],
+      "wealthPoints": 13,
+      "maxLength": 12,
+      "heightScaling": {
+        "keys": [
+          2,
+          5,
+          12
+        ],
+        "values": [
+          1,
+          2,
+          3
+        ]
+      },
+      "canPlaceOnBeam": true,
+      "thermalModelID": "wood_roof",
+      "destroyParticles": "destroy_wood_roof"
+    },
+    {
+      "id": "limestone_slate_roof_half",
+      "halfRoof": true,
+      "buildTime": 12,
+      "size": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "buildingCategoryUI": 1,
+      "buildingSubCategoryUI": 7,
+      "soundMaterialCategory": 2,
+      "buildingType": 32,
+      "constructableBaseCategory": 8,
+      "placementType": 5,
+      "materials": {
+        "keys": [
+          "limestone"
+        ],
+        "values": [
+          8
+        ]
+      },
+      "storageBase": {
+        "capacity": 999,
+        "storableResources": [
+          "limestone"
+        ]
+      },
+      "reachableLevel": 3,
+      "cornerReachable": true,
+      "maxPoolCount": 50,
+      "refillThreshold": 20,
+      "layerShadowOffset": -2,
+      "layerHideOffset": -0.5,
+      "forbidUnderBeamPlacement": true,
+      "attackTraversePenalty": 0,
+      "cover": 1,
+      "stats": [
+        {
+          "debugName": "Hitpoints",
+          "type": 1,
+          "initialValue": 450,
+          "attributes": {
+            "max": [
+              {
+                "baseValue": 450
+              }
+            ]
+          }
+        }
+      ],
+      "wealthPoints": 15,
+      "maxLength": 12,
+      "heightScaling": {
+        "keys": [
+          2,
+          5,
+          12
+        ],
+        "values": [
+          1,
+          2,
+          3
+        ]
+      },
+      "canPlaceOnBeam": true,
+      "thermalModelID": "limestone_roof",
+      "destroyParticles": "destroy_limestone_roof"
+    },
+    {
+      "id": "clay_shingle_roof_half",
+      "halfRoof": true,
+      "buildTime": 16,
+      "size": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "buildingCategoryUI": 1,
+      "buildingSubCategoryUI": 7,
+      "soundMaterialCategory": 3,
+      "buildingType": 32,
+      "constructableBaseCategory": 8,
+      "placementType": 5,
+      "materials": {
+        "keys": [
+          "clay_brick"
+        ],
+        "values": [
+          8
+        ]
+      },
+      "storageBase": {
+        "capacity": 999,
+        "storableResources": [
+          "clay_brick"
+        ]
+      },
+      "reachableLevel": 3,
+      "cornerReachable": true,
+      "maxPoolCount": 50,
+      "refillThreshold": 20,
+      "layerShadowOffset": -2,
+      "layerHideOffset": -0.5,
+      "forbidUnderBeamPlacement": true,
+      "attackTraversePenalty": 0,
+      "cover": 1,
+      "stats": [
+        {
+          "debugName": "Hitpoints",
+          "type": 1,
+          "initialValue": 450,
+          "attributes": {
+            "max": [
+              {
+                "baseValue": 450
+              }
+            ]
+          }
+        }
+      ],
+      "wealthPoints": 15,
+      "maxLength": 12,
+      "heightScaling": {
+        "keys": [
+          2,
+          5,
+          12
+        ],
+        "values": [
+          1,
+          2,
+          3
+        ]
+      },
+      "canPlaceOnBeam": true,
+      "thermalModelID": "clay_roof",
+      "destroyParticles": "destroy_clay_roof"
+    }
+  ]
+}

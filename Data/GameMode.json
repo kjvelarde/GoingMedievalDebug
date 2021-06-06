@@ -1,0 +1,73 @@
+{
+    "repository": [
+        {
+            "id": "Builder",
+            "mode": 0,
+            "predefinedEvents":
+            [
+                "",
+                "",
+                "",
+                "",
+                "new_worker",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "new_worker",
+                "",
+                ""	
+            ]
+        },
+        {
+            "id": "Standard",
+            "mode": 2,
+            "predefinedEvents":
+            [
+                "",
+                "",
+                "",
+                "",
+                "new_worker_ransom",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "new_worker",
+                "",
+                ""	
+            ]
+        },
+        {
+            "id": "Survival",
+            "mode": 4,
+            "predefinedEvents":
+            [
+                "",
+                "",
+                "",
+                "",
+                "raid",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "new_worker_ransom",
+                "",
+                ""	
+            ]
+        }
+    ]
+}

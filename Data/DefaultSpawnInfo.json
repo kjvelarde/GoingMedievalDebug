@@ -1,0 +1,15 @@
+{
+  "defaultWorkerSpawnCount": 6,
+  "defaultWorkerSpawnPosition": {
+    "x": 56,
+    "y": 18,
+    "z": 76
+  },
+  "defaultAnimalToSpawn": "deer",
+  "defaultAnimalsSpawnCount": 6,
+  "defaultAnimalsSpawnPosition": {
+    "x": 36,
+    "y": 18,
+    "z": 59
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "repository": [
+    {
+      "id": "tree_birch",
+      "prefabs": ["tree_birch_01", "tree_birch_02"]
+    },
+    {
+      "id": "tree_plane",
+      "prefabs": ["tree_plane_01", "tree_plane_02"]
+    },
+    {
+      "id": "tree_oak",
+      "prefabs": ["tree_oak_01", "tree_oak_02"]
+    },
+    {
+      "id": "tree_pine",
+      "prefabs": ["tree_pine_01", "tree_pine_02"]
+    },
+    {
+      "id": "shrub_generic",
+      "prefabs": ["shrub_generic_01"]
+    },
+    {
+      "id": "shrub_ivy",
+      "prefabs": ["shrub_ivy_01"]
+    },
+    {
+      "id": "shrub_redcurrant",
+      "prefabs": ["shrub_redcurrant_01"]
+    },
+    {
+      "id": "hay_patch",
+      "prefabs": ["hay_patch_01"]
+    },
+    {
+      "id": "mushroom_patch",
+      "prefabs": ["mushroom_patch_01"]
+    },
+    {
+      "id": "cabbage_patch",
+      "prefabs": ["cabbage_patch_01"]
+    },
+    {
+      "id": "flax_patch",
+      "prefabs": ["flax_patch_01"]
+    },
+    {
+      "id": "carrot_patch",
+      "prefabs": ["carrot_patch_01"]
+    },
+    {
+      "id": "beet_patch",
+      "prefabs": ["beet_patch_01"]
+    },
+    {
+      "id": "barley_patch",
+      "prefabs": ["barley_patch_01"]
+    },
+    {
+      "id": "herbs_patch",
+      "prefabs": ["herbs_patch_01"]
+    }
+  ]
+}

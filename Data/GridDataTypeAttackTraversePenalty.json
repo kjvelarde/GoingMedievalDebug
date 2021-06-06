@@ -1,0 +1,8 @@
+{
+  "penalties": [
+    {
+      "gridDataType":  32,
+      "penalty": 0.05
+    }
+  ]
+}

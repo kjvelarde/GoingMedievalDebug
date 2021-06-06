@@ -1,0 +1,1836 @@
+{
+  "repository": [
+    {
+      "id": "butchering_table",
+      "buildTime": 42,
+      "size": {
+        "x": 3,
+        "y": 1,
+        "z": 2
+      },
+      "buildingCategoryUI": 2,
+      "buildingSubCategoryUI": 15,
+      "soundMaterialCategory": 1,
+      "buildingType": 2048,
+      "constructableBaseCategory": 2,
+      "placementType": 0,
+      "materials": {
+        "keys": [
+          "wood"
+        ],
+        "values": [
+          50
+        ]
+      },
+      "storageBase": {
+        "capacity": 999,
+        "storableResources": [
+          "wood"
+        ]
+      },
+      "reachableLevel": 2,
+      "cornerReachable": false,
+      "maxPoolCount": 20,
+      "refillThreshold": 10,
+      "placeableBellowOthers": false,
+      "transfersStability": false,
+      "layerShadowOffset": -1.5,
+      "layerHideOffset": -1,
+      "pathfindingPenalty": 100000,
+      "attackTraversePenalty": 0.2,
+      "cover": 0,
+      "stats": [
+        {
+          "debugName": "Hitpoints",
+          "type": 1,
+          "initialValue": 80,
+          "attributes": {
+            "max": [
+              {
+                "baseValue": 80
+              }
+            ]
+          }
+        }
+      ],
+      "productionSpeedMultiplier": {
+        "outside": 0.8,
+        "inside": 1.2,
+        "roofed": 1,
+        "outsideRain": 0.5,
+        "outsideSnow": 0.45,
+        "outsideFog": 0.9
+      },
+      "wealthPoints": 142,
+      "interactAnimation": "MeatChopping",
+      "interactTool": "cleaver_item",
+      "destroyParticles": "destroy_building",
+      "productions": [
+        "meat"
+      ]
+    },
+    {
+      "id": "camp_fire",
+      "buildTime": 21,
+      "size": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "buildingCategoryUI": 2,
+      "buildingSubCategoryUI": 15,
+      "soundMaterialCategory": 1,
+      "buildingType": 2048,
+      "constructableBaseCategory": 2,
+      "placementType": 0,
+      "materials": {
+        "keys": [
+          "wood"
+        ],
+        "values": [
+          15
+        ]
+      },
+      "storageBase": {
+        "capacity": 999,
+        "storableResources": [
+          "wood"
+        ]
+      },
+      "reachableLevel": 2,
+      "cornerReachable": false,
+      "maxPoolCount": 20,
+      "refillThreshold": 10,
+      "placeableBellowOthers": false,
+      "transfersStability": false,
+      "layerShadowOffset": -1.5,
+      "layerHideOffset": -1,
+      "pathfindingPenalty": 100000,
+      "attackTraversePenalty": 0.05,
+      "cover": 0,
+      "stats": [
+        {
+          "debugName": "Hitpoints",
+          "type": 1,
+          "initialValue": 20,
+          "attributes": {
+            "max": [
+              {
+                "baseValue": 20
+              }
+            ]
+          }
+        }
+      ],
+      "productionSpeedMultiplier": {
+        "outside": 1,
+        "inside": 1,
+        "roofed": 1,
+        "outsideRain": 0.8,
+        "outsideSnow": 0.78,
+        "outsideFog": 0.9
+      },
+      "wealthPoints": 51,
+      "interactAnimation": "VegetableChopping",
+      "interactTool": "cooking_knife_item",
+      "thermalModelID": "torch_off",
+      "thermalModelIDSecondary": "camp_fire",
+      "destroyParticles": "destroy_building",
+      "productions": [
+        "meal",
+        "packaged_meal"
+      ]
+    },
+    {
+      "id": "smokehouse",
+      "buildTime": 55,
+      "size": {
+        "x": 2,
+        "y": 1,
+        "z": 2
+      },
+      "buildingCategoryUI": 2,
+      "buildingSubCategoryUI": 35,
+      "soundMaterialCategory": 3,
+      "buildingType": 2048,
+      "constructableBaseCategory": 2,
+      "placementType": 0,
+      "materials": {
+        "keys": [
+          "clay"
+        ],
+        "values": [
+          40
+        ]
+      },
+      "storageBase": {
+        "capacity": 999,
+        "storableResources": [
+          "clay"
+        ]
+      },
+      "reachableLevel": 2,
+      "cornerReachable": false,
+      "maxPoolCount": 20,
+      "refillThreshold": 10,
+      "placeableBellowOthers": false,
+      "transfersStability": false,
+      "layerShadowOffset": -1.5,
+      "layerHideOffset": -1,
+      "pathfindingPenalty": 100000,
+      "attackTraversePenalty": 0.3,
+      "cover": 0,
+      "stats": [
+        {
+          "debugName": "Hitpoints",
+          "type": 1,
+          "initialValue": 80,
+          "attributes": {
+            "max": [
+              {
+                "baseValue": 80
+              }
+            ]
+          }
+        }
+      ],
+      "productionSpeedMultiplier": {
+        "outside": 1,
+        "inside": 0.6,
+        "roofed": 1,
+        "outsideRain": 1,
+        "outsideSnow": 1,
+        "outsideFog": 1
+      },
+      "wealthPoints": 135,
+      "interactAnimation": "FirePoking",
+      "interactTool": "firepoker_item",
+      "destroyParticles": "destroy_building",
+      "productions": [
+        "smoked_meat"
+      ]
+    },
+    {
+      "id": "limestone_smokehouse",
+      "buildTime": 70,
+      "size": {
+        "x": 2,
+        "y": 1,
+        "z": 2
+      },
+      "buildingCategoryUI": 2,
+      "buildingSubCategoryUI": 35,
+      "soundMaterialCategory": 2,
+      "buildingType": 2048,
+      "constructableBaseCategory": 2,
+      "placementType": 0,
+      "materials": {
+        "keys": [
+          "limestone"
+        ],
+        "values": [
+          40
+        ]
+      },
+      "storageBase": {
+        "capacity": 999,
+        "storableResources": [
+          "limestone"
+        ]
+      },
+      "reachableLevel": 2,
+      "cornerReachable": false,
+      "maxPoolCount": 20,
+      "refillThreshold": 10,
+      "placeableBellowOthers": false,
+      "transfersStability": false,
+      "layerShadowOffset": -1.5,
+      "layerHideOffset": -1,
+      "pathfindingPenalty": 100000,
+      "attackTraversePenalty": 0.3,
+      "cover": 0,
+      "stats": [
+        {
+          "debugName": "Hitpoints",
+          "type": 1,
+          "initialValue": 150,
+          "attributes": {
+            "max": [
+              {
+                "baseValue": 150
+              }
+            ]
+          }
+        }
+      ],
+      "productionSpeedMultiplier": {
+        "outside": 1,
+        "inside": 0.6,
+        "roofed": 1,
+        "outsideRain": 1,
+        "outsideSnow": 1,
+        "outsideFog": 1
+      },
+      "wealthPoints": 150,
+      "interactAnimation": "FirePoking",
+      "interactTool": "firepoker_item",
+      "destroyParticles": "destroy_building",
+      "productions": [
+        "smoked_meat"
+      ]
+    },
+    {
+      "id": "limestone_stove",
+      "buildTime": 75,
+      "size": {
+        "x": 3,
+        "y": 1,
+        "z": 2
+      },
+      "buildingCategoryUI": 2,
+      "buildingSubCategoryUI": 21,
+      "soundMaterialCategory": 2,
+      "buildingType": 2048,
+      "constructableBaseCategory": 2,
+      "placementType": 0,
+      "materials": {
+        "keys": [
+          "limestone",
+          "iron_ingot"
+        ],
+        "values": [
+          50,
+          5
+        ]
+      },
+      "storageBase": {
+        "capacity": 999,
+        "storableResources": [
+          "limestone",
+          "iron_ingot"
+        ]
+      },
+      "reachableLevel": 2,
+      "cornerReachable": false,
+      "maxPoolCount": 20,
+      "refillThreshold": 10,
+      "placeableBellowOthers": false,
+      "transfersStability": false,
+      "layerShadowOffset": -1.5,
+      "layerHideOffset": -1,
+      "pathfindingPenalty": 100000,
+      "attackTraversePenalty": 0.2,
+      "cover": 0,
+      "stats": [
+        {
+          "debugName": "Hitpoints",
+          "type": 1,
+          "initialValue": 130,
+          "attributes": {
+            "max": [
+              {
+                "baseValue": 130
+              }
+            ]
+          }
+        }
+      ],
+      "productionSpeedMultiplier": {
+        "outside": 0.8,
+        "inside": 1.2,
+        "roofed": 1,
+        "outsideRain": 0.5,
+        "outsideSnow": 0.45,
+        "outsideFog": 0.75
+      },
+      "wealthPoints": 205,
+      "minBuildSkillRequired": 10,
+      "interactAnimation": "VegetableChopping",
+      "interactTool": "cooking_knife_item",
+      "thermalModelID": "torch_off",
+      "thermalModelIDSecondary": "stove",
+      "destroyParticles": "destroy_building",
+      "productions": [
+        "meal",
+        "packaged_meal",
+        "lavish_meal",
+        "pickled_vegetable"
+      ]
+    },
+    {
+      "id": "limestone_block_stove",
+      "buildTime": 75,
+      "size": {
+        "x": 3,
+        "y": 1,
+        "z": 2
+      },
+      "buildingCategoryUI": 2,
+      "buildingSubCategoryUI": 21,
+      "soundMaterialCategory": 2,
+      "buildingType": 2048,
+      "constructableBaseCategory": 2,
+      "placementType": 0,
+      "materials": {
+        "keys": [
+          "limestone_block",
+          "iron_ingot"
+        ],
+        "values": [
+          50,
+          5
+        ]
+      },
+      "storageBase": {
+        "capacity": 999,
+        "storableResources": [
+          "limestone_block",
+          "iron_ingot"
+        ]
+      },
+      "reachableLevel": 2,
+      "cornerReachable": false,
+      "maxPoolCount": 20,
+      "refillThreshold": 10,
+      "placeableBellowOthers": false,
+      "transfersStability": false,
+      "layerShadowOffset": -1.5,
+      "layerHideOffset": -1,
+      "pathfindingPenalty": 100000,
+      "attackTraversePenalty": 0.2,
+      "cover": 0,
+      "stats": [
+        {
+          "debugName": "Hitpoints",
+          "type": 1,
+          "initialValue": 150,
+          "attributes": {
+            "max": [
+              {
+                "baseValue": 150
+              }
+            ]
+          }
+        }
+      ],
+      "productionSpeedMultiplier": {
+        "outside": 0.8,
+        "inside": 1.2,
+        "roofed": 1,
+        "outsideRain": 0.5,
+        "outsideSnow": 0.45,
+        "outsideFog": 0.75
+      },
+      "wealthPoints": 305,
+      "minBuildSkillRequired": 10,
+      "interactAnimation": "VegetableChopping",
+      "interactTool": "cooking_knife_item",
+      "thermalModelID": "torch_off",
+      "thermalModelIDSecondary": "stove",
+      "destroyParticles": "destroy_building",
+      "productions": [
+        "meal",
+        "packaged_meal",
+        "lavish_meal",
+        "pickled_vegetable"
+      ]
+    },
+    {
+      "id": "clay_brick_stove",
+      "buildTime": 75,
+      "size": {
+        "x": 3,
+        "y": 1,
+        "z": 2
+      },
+      "buildingCategoryUI": 2,
+      "buildingSubCategoryUI": 21,
+      "soundMaterialCategory": 2,
+      "buildingType": 2048,
+      "constructableBaseCategory": 2,
+      "placementType": 0,
+      "materials": {
+        "keys": [
+          "clay_brick",
+          "iron_ingot"
+        ],
+        "values": [
+          50,
+          5
+        ]
+      },
+      "storageBase": {
+        "capacity": 999,
+        "storableResources": [
+          "clay_brick",
+          "iron_ingot"
+        ]
+      },
+      "reachableLevel": 2,
+      "cornerReachable": false,
+      "maxPoolCount": 20,
+      "refillThreshold": 10,
+      "placeableBellowOthers": false,
+      "transfersStability": false,
+      "layerShadowOffset": -1.5,
+      "layerHideOffset": -1,
+      "pathfindingPenalty": 100000,
+      "attackTraversePenalty": 0.2,
+      "cover": 0,
+      "stats": [
+        {
+          "debugName": "Hitpoints",
+          "type": 1,
+          "initialValue": 150,
+          "attributes": {
+            "max": [
+              {
+                "baseValue": 150
+              }
+            ]
+          }
+        }
+      ],
+      "productionSpeedMultiplier": {
+        "outside": 0.8,
+        "inside": 1.2,
+        "roofed": 1,
+        "outsideRain": 0.5,
+        "outsideSnow": 0.45,
+        "outsideFog": 0.75
+      },
+      "wealthPoints": 305,
+      "minBuildSkillRequired": 10,
+      "interactAnimation": "VegetableChopping",
+      "interactTool": "cooking_knife_item",
+      "thermalModelID": "torch_off",
+      "thermalModelIDSecondary": "stove",
+      "destroyParticles": "destroy_building",
+      "productions": [
+        "meal",
+        "packaged_meal",
+        "lavish_meal",
+        "pickled_vegetable"
+      ]
+    },
+    {
+      "id": "brewing_station",
+      "buildTime": 70,
+      "size": {
+        "x": 3,
+        "y": 1,
+        "z": 2
+      },
+      "buildingCategoryUI": 2,
+      "buildingSubCategoryUI": 15,
+      "soundMaterialCategory": 1,
+      "buildingType": 2048,
+      "constructableBaseCategory": 2,
+      "placementType": 0,
+      "materials": {
+        "keys": [
+          "wood"
+        ],
+        "values": [
+          50
+        ]
+      },
+      "storageBase": {
+        "capacity": 999,
+        "storableResources": [
+          "wood"
+        ]
+      },
+      "reachableLevel": 2,
+      "cornerReachable": false,
+      "maxPoolCount": 20,
+      "refillThreshold": 10,
+      "placeableBellowOthers": false,
+      "transfersStability": false,
+      "layerShadowOffset": -1.5,
+      "layerHideOffset": -1,
+      "pathfindingPenalty": 100000,
+      "attackTraversePenalty": 0.2,
+      "cover": 0,
+      "stats": [
+        {
+          "debugName": "Hitpoints",
+          "type": 1,
+          "initialValue": 80,
+          "attributes": {
+            "max": [
+              {
+                "baseValue": 80
+              }
+            ]
+          }
+        }
+      ],
+      "productionSpeedMultiplier": {
+        "outside": 0.8,
+        "inside": 1.05,
+        "roofed": 1,
+        "outsideRain": 0.5,
+        "outsideSnow": 0.45,
+        "outsideFog": 0.75
+      },
+      "wealthPoints": 170,
+      "interactAnimation": "Stirring",
+      "thermalModelID": "torch_off",
+      "thermalModelIDSecondary": "stove",
+      "destroyParticles": "destroy_building",
+      "productions": [
+        "rough_wine",
+        "ale",
+        "beer",
+        "vinegar"
+      ]
+    },
+    {
+      "id": "spirit_destilary",
+      "buildTime": 70,
+      "size": {
+        "x": 3,
+        "y": 1,
+        "z": 3
+      },
+      "buildingCategoryUI": 2,
+      "buildingSubCategoryUI": 15,
+      "soundMaterialCategory": 1,
+      "buildingType": 2048,
+      "constructableBaseCategory": 2,
+      "placementType": 0,
+      "materials": {
+        "keys": [
+          "limestone_block",
+          "iron_ingot"
+        ],
+        "values": [
+          50,
+          20
+        ]
+      },
+      "storageBase": {
+        "capacity": 999,
+        "storableResources": [
+          "limestone_block",
+          "iron_ingot"
+        ]
+      },
+      "reachableLevel": 2,
+      "cornerReachable": false,
+      "maxPoolCount": 20,
+      "refillThreshold": 10,
+      "placeableBellowOthers": false,
+      "transfersStability": false,
+      "layerShadowOffset": -1.5,
+      "layerHideOffset": -1,
+      "pathfindingPenalty": 100000,
+      "attackTraversePenalty": 0.2,
+      "cover": 0,
+      "stats": [
+        {
+          "debugName": "Hitpoints",
+          "type": 1,
+          "initialValue": 200,
+          "attributes": {
+            "max": [
+              {
+                "baseValue": 200
+              }
+            ]
+          }
+        }
+      ],
+      "productionSpeedMultiplier": {
+        "outside": 0.8,
+        "inside": 1.05,
+        "roofed": 1,
+        "outsideRain": 0.9,
+        "outsideSnow": 0.85,
+        "outsideFog": 0.95
+      },
+      "wealthPoints": 390,
+      "minBuildSkillRequired": 10,
+      "interactAnimation": "FirePoking",
+      "interactTool": "firepoker_item",
+      "destroyParticles": "destroy_building",
+      "productions": [
+        "alcohol"
+      ]
+    },
+    {
+      "id": "apothecary_bench",
+      "buildTime": 150,
+      "size": {
+        "x": 3,
+        "y": 1,
+        "z": 2
+      },
+      "buildingCategoryUI": 2,
+      "buildingSubCategoryUI": 15,
+      "soundMaterialCategory": 1,
+      "buildingType": 2048,
+      "constructableBaseCategory": 2,
+      "placementType": 0,
+      "materials": {
+        "keys": [
+          "wood"
+        ],
+        "values": [
+          50
+        ]
+      },
+      "storageBase": {
+        "capacity": 999,
+        "storableResources": [
+          "wood"
+        ]
+      },
+      "reachableLevel": 2,
+      "cornerReachable": false,
+      "maxPoolCount": 20,
+      "refillThreshold": 10,
+      "placeableBellowOthers": false,
+      "transfersStability": false,
+      "layerShadowOffset": -1.5,
+      "layerHideOffset": -1,
+      "pathfindingPenalty": 100000,
+      "attackTraversePenalty": 0.2,
+      "cover": 0,
+      "stats": [
+        {
+          "debugName": "Hitpoints",
+          "type": 1,
+          "initialValue": 200,
+          "attributes": {
+            "max": [
+              {
+                "baseValue": 200
+              }
+            ]
+          }
+        }
+      ],
+      "productionSpeedMultiplier": {
+        "outside": 0.8,
+        "inside": 1.1,
+        "roofed": 1,
+        "outsideRain": 0.5,
+        "outsideSnow": 0.45,
+        "outsideFog": 0.75
+      },
+      "wealthPoints": 250,
+      "minBuildSkillRequired": 10,
+      "destroyParticles": "destroy_building",
+      "productions": [
+        "healing_kit_simple",
+        "healing_kit",
+        "healing_kit_advanced"
+      ]
+    },
+    {
+      "id": "armourer_table",
+      "buildTime": 50,
+      "size": {
+        "x": 5,
+        "y": 1,
+        "z": 2
+      },
+      "buildingCategoryUI": 2,
+      "buildingSubCategoryUI": 15,
+      "soundMaterialCategory": 1,
+      "buildingType": 2048,
+      "constructableBaseCategory": 2,
+      "placementType": 0,
+      "materials": {
+        "keys": [
+          "wood",
+          "iron_ingot"
+        ],
+        "values": [
+          80,
+          5
+        ]
+      },
+      "storageBase": {
+        "capacity": 999,
+        "storableResources": [
+          "wood",
+          "iron_ingot"
+        ]
+      },
+      "reachableLevel": 2,
+      "cornerReachable": false,
+      "maxPoolCount": 20,
+      "refillThreshold": 10,
+      "placeableBellowOthers": false,
+      "transfersStability": false,
+      "layerShadowOffset": -1.5,
+      "layerHideOffset": -1,
+      "pathfindingPenalty": 100000,
+      "attackTraversePenalty": 0.2,
+      "cover": 0,
+      "stats": [
+        {
+          "debugName": "Hitpoints",
+          "type": 1,
+          "initialValue": 80,
+          "attributes": {
+            "max": [
+              {
+                "baseValue": 80
+              }
+            ]
+          }
+        }
+      ],
+      "productionSpeedMultiplier": {
+        "outside": 0.8,
+        "inside": 1.1,
+        "roofed": 1,
+        "outsideRain": 0.5,
+        "outsideSnow": 0.45,
+        "outsideFog": 0.75
+      },
+      "wealthPoints": 240,
+      "minBuildSkillRequired": 5,
+      "interactAnimation": "TableHammering",
+      "interactTool": "hammer_item",
+      "thermalModelID": "torch_off",
+      "thermalModelIDSecondary": "stove",
+      "destroyParticles": "destroy_building",
+      "productions": [
+        "gambeson",
+        "leather_armor",
+        "mail_armor",
+        "plate_armor",
+        "leather_helmet",
+        "mail_helmet",
+        "plate_helmet",
+        "buckler",
+        "shield",
+        "tower_shield",
+        "dismantle_metal",
+        "dismantle_cloth"
+      ]
+    },
+    {
+      "id": "fletchers_table",
+      "buildTime": 42,
+      "size": {
+        "x": 3,
+        "y": 1,
+        "z": 2
+      },
+      "buildingCategoryUI": 2,
+      "buildingSubCategoryUI": 15,
+      "soundMaterialCategory": 1,
+      "buildingType": 2048,
+      "constructableBaseCategory": 2,
+      "placementType": 0,
+      "materials": {
+        "keys": [
+          "wood"
+        ],
+        "values": [
+          80
+        ]
+      },
+      "storageBase": {
+        "capacity": 999,
+        "storableResources": [
+          "wood"
+        ]
+      },
+      "reachableLevel": 2,
+      "cornerReachable": false,
+      "maxPoolCount": 20,
+      "refillThreshold": 10,
+      "placeableBellowOthers": false,
+      "transfersStability": false,
+      "layerShadowOffset": -1.5,
+      "layerHideOffset": -1,
+      "pathfindingPenalty": 100000,
+      "attackTraversePenalty": 0.2,
+      "cover": 0,
+      "stats": [
+        {
+          "debugName": "Hitpoints",
+          "type": 1,
+          "initialValue": 80,
+          "attributes": {
+            "max": [
+              {
+                "baseValue": 80
+              }
+            ]
+          }
+        }
+      ],
+      "productionSpeedMultiplier": {
+        "outside": 0.8,
+        "inside": 1.1,
+        "roofed": 1,
+        "outsideRain": 0.5,
+        "outsideSnow": 0.45,
+        "outsideFog": 0.75
+      },
+      "wealthPoints": 202,
+      "interactAnimation": "Sawing",
+      "interactTool": "saw_item",
+      "destroyParticles": "destroy_building",
+      "productions": [
+        "short_bow",
+        "long_bow",
+        "crossbow",
+        "heavy_crossbow",
+        "dismantle_wood"
+      ]
+    },
+    {
+      "id": "blacksmith_station",
+      "buildTime": 70,
+      "size": {
+        "x": 4,
+        "y": 1,
+        "z": 3
+      },
+      "buildingCategoryUI": 2,
+      "buildingSubCategoryUI": 34,
+      "soundMaterialCategory": 2,
+      "buildingType": 2048,
+      "constructableBaseCategory": 2,
+      "placementType": 0,
+      "materials": {
+        "keys": [
+          "limestone_block"
+        ],
+        "values": [
+          100
+        ]
+      },
+      "storageBase": {
+        "capacity": 999,
+        "storableResources": [
+          "limestone_block"
+        ]
+      },
+      "reachableLevel": 2,
+      "cornerReachable": false,
+      "maxPoolCount": 20,
+      "refillThreshold": 10,
+      "placeableBellowOthers": false,
+      "transfersStability": false,
+      "layerShadowOffset": -1.5,
+      "layerHideOffset": -1,
+      "pathfindingPenalty": 100000,
+      "attackTraversePenalty": 0.3,
+      "cover": 0,
+      "stats": [
+        {
+          "debugName": "Hitpoints",
+          "type": 1,
+          "initialValue": 180,
+          "attributes": {
+            "max": [
+              {
+                "baseValue": 180
+              }
+            ]
+          }
+        }
+      ],
+      "productionSpeedMultiplier": {
+        "outside": 0.8,
+        "inside": 1.1,
+        "roofed": 1,
+        "outsideRain": 0.5,
+        "outsideSnow": 0.45,
+        "outsideFog": 0.75
+      },
+      "wealthPoints": 470,
+      "minBuildSkillRequired": 10,
+      "interactAnimation": "TableHammering",
+      "interactTool": "hammer_item",
+      "thermalModelID": "torch_off",
+      "thermalModelIDSecondary": "stove",
+      "destroyParticles": "destroy_building",
+      "productions": [
+        "mechanical_parts",
+        "short_sword",
+        "longsword",
+        "mace",
+        "two_handed_mace",
+        "hatchet",
+        "greataxe",
+        "berdiche",
+        "dismantle_metal"
+      ]
+    },
+    {
+      "id": "clay_brick_blacksmith_station",
+      "buildTime": 70,
+      "size": {
+        "x": 4,
+        "y": 1,
+        "z": 3
+      },
+      "buildingCategoryUI": 2,
+      "buildingSubCategoryUI": 34,
+      "soundMaterialCategory": 2,
+      "buildingType": 2048,
+      "constructableBaseCategory": 2,
+      "placementType": 0,
+      "materials": {
+        "keys": [
+          "clay_brick"
+        ],
+        "values": [
+          100
+        ]
+      },
+      "storageBase": {
+        "capacity": 999,
+        "storableResources": [
+          "clay_brick"
+        ]
+      },
+      "reachableLevel": 2,
+      "cornerReachable": false,
+      "maxPoolCount": 20,
+      "refillThreshold": 10,
+      "placeableBellowOthers": false,
+      "transfersStability": false,
+      "layerShadowOffset": -1.5,
+      "layerHideOffset": -1,
+      "pathfindingPenalty": 100000,
+      "attackTraversePenalty": 0.3,
+      "cover": 0,
+      "stats": [
+        {
+          "debugName": "Hitpoints",
+          "type": 1,
+          "initialValue": 180,
+          "attributes": {
+            "max": [
+              {
+                "baseValue": 180
+              }
+            ]
+          }
+        }
+      ],
+      "productionSpeedMultiplier": {
+        "outside": 0.8,
+        "inside": 1.1,
+        "roofed": 1,
+        "outsideRain": 0.5,
+        "outsideSnow": 0.45,
+        "outsideFog": 0.75
+      },
+      "wealthPoints": 470,
+      "minBuildSkillRequired": 10,
+      "interactAnimation": "TableHammering",
+      "interactTool": "hammer_item",
+      "thermalModelID": "torch_off",
+      "thermalModelIDSecondary": "stove",
+      "destroyParticles": "destroy_building",
+      "productions": [
+        "mechanical_parts",
+        "short_sword",
+        "longsword",
+        "mace",
+        "two_handed_mace",
+        "hatchet",
+        "greataxe",
+        "berdiche",
+        "dismantle_metal"
+      ]
+    },
+    {
+      "id": "basic_research_table",
+      "buildTime": 40,
+      "size": {
+        "x": 3,
+        "y": 1,
+        "z": 1
+      },
+      "buildingCategoryUI": 2,
+      "buildingSubCategoryUI": 15,
+      "soundMaterialCategory": 1,
+      "buildingType": 2048,
+      "constructableBaseCategory": 2,
+      "placementType": 0,
+      "materials": {
+        "keys": [
+          "wood"
+        ],
+        "values": [
+          60
+        ]
+      },
+      "storageBase": {
+        "capacity": 999,
+        "storableResources": [
+          "wood"
+        ]
+      },
+      "reachableLevel": 2,
+      "cornerReachable": false,
+      "maxPoolCount": 20,
+      "refillThreshold": 10,
+      "placeableBellowOthers": false,
+      "transfersStability": false,
+      "layerShadowOffset": -1.5,
+      "layerHideOffset": -1,
+      "pathfindingPenalty": 100000,
+      "attackTraversePenalty": 0.2,
+      "cover": 0,
+      "stats": [
+        {
+          "debugName": "Hitpoints",
+          "type": 1,
+          "initialValue": 80,
+          "attributes": {
+            "max": [
+              {
+                "baseValue": 80
+              }
+            ]
+          }
+        }
+      ],
+      "productionSpeedMultiplier": {
+        "outside": 0.8,
+        "inside": 1.1,
+        "roofed": 1,
+        "outsideRain": 0.2,
+        "outsideSnow": 0.18,
+        "outsideFog": 0.5
+      },
+      "wealthPoints": 160,
+      "interactAnimation": "Reading",
+      "destroyParticles": "destroy_building",
+      "productions": [
+        "basic_research_book"
+      ]
+    },
+    {
+      "id": "research_table",
+      "buildTime": 60,
+      "size": {
+        "x": 3,
+        "y": 1,
+        "z": 2
+      },
+      "buildingCategoryUI": 2,
+      "buildingSubCategoryUI": 15,
+      "soundMaterialCategory": 1,
+      "buildingType": 2048,
+      "constructableBaseCategory": 2,
+      "placementType": 0,
+      "materials": {
+        "keys": [
+          "wood"
+        ],
+        "values": [
+          80
+        ]
+      },
+      "storageBase": {
+        "capacity": 999,
+        "storableResources": [
+          "wood"
+        ]
+      },
+      "reachableLevel": 2,
+      "cornerReachable": false,
+      "maxPoolCount": 20,
+      "refillThreshold": 10,
+      "placeableBellowOthers": false,
+      "transfersStability": false,
+      "layerShadowOffset": -1.5,
+      "layerHideOffset": -1,
+      "pathfindingPenalty": 100000,
+      "attackTraversePenalty": 0.2,
+      "cover": 0,
+      "stats": [
+        {
+          "debugName": "Hitpoints",
+          "type": 1,
+          "initialValue": 80,
+          "attributes": {
+            "max": [
+              {
+                "baseValue": 80
+              }
+            ]
+          }
+        }
+      ],
+      "productionSpeedMultiplier": {
+        "outside": 0.8,
+        "inside": 1.1,
+        "roofed": 1,
+        "outsideRain": 0.2,
+        "outsideSnow": 0.18,
+        "outsideFog": 0.5
+      },
+      "wealthPoints": 220,
+      "minBuildSkillRequired": 10,
+      "interactAnimation": "Reading",
+      "destroyParticles": "destroy_building",
+      "productions": [
+        "normal_research_book"
+      ]
+    },
+    {
+      "id": "advanced_research_table",
+      "buildTime": 70,
+      "size": {
+        "x": 3,
+        "y": 1,
+        "z": 3
+      },
+      "buildingCategoryUI": 2,
+      "buildingSubCategoryUI": 15,
+      "soundMaterialCategory": 1,
+      "buildingType": 2048,
+      "constructableBaseCategory": 2,
+      "placementType": 0,
+      "materials": {
+        "keys": [
+          "wood",
+          "mechanical_parts"
+        ],
+        "values": [
+          120,
+          5
+        ]
+      },
+      "storageBase": {
+        "capacity": 999,
+        "storableResources": [
+          "wood",
+          "mechanical_parts"
+        ]
+      },
+      "reachableLevel": 2,
+      "cornerReachable": false,
+      "maxPoolCount": 20,
+      "refillThreshold": 10,
+      "placeableBellowOthers": false,
+      "transfersStability": false,
+      "layerShadowOffset": -1.5,
+      "layerHideOffset": -1,
+      "pathfindingPenalty": 100000,
+      "attackTraversePenalty": 0.2,
+      "cover": 0,
+      "stats": [
+        {
+          "debugName": "Hitpoints",
+          "type": 1,
+          "initialValue": 80,
+          "attributes": {
+            "max": [
+              {
+                "baseValue": 80
+              }
+            ]
+          }
+        }
+      ],
+      "productionSpeedMultiplier": {
+        "outside": 0.8,
+        "inside": 1.1,
+        "roofed": 1,
+        "outsideRain": 0.2,
+        "outsideSnow": 0.18,
+        "outsideFog": 0.5
+      },
+      "wealthPoints": 460,
+      "minBuildSkillRequired": 15,
+      "interactAnimation": "Reading",
+      "destroyParticles": "destroy_building",
+      "productions": [
+        "advanced_research_book"
+      ]
+    },
+    {
+      "id": "woodwork_bench",
+      "buildTime": 42,
+      "size": {
+        "x": 3,
+        "y": 1,
+        "z": 1
+      },
+      "buildingCategoryUI": 2,
+      "buildingSubCategoryUI": 15,
+      "soundMaterialCategory": 1,
+      "buildingType": 2048,
+      "constructableBaseCategory": 2,
+      "placementType": 0,
+      "materials": {
+        "keys": [
+          "wood"
+        ],
+        "values": [
+          60
+        ]
+      },
+      "storageBase": {
+        "capacity": 999,
+        "storableResources": [
+          "wood"
+        ]
+      },
+      "reachableLevel": 2,
+      "cornerReachable": false,
+      "maxPoolCount": 20,
+      "refillThreshold": 10,
+      "placeableBellowOthers": false,
+      "transfersStability": false,
+      "layerShadowOffset": -1.5,
+      "layerHideOffset": -1,
+      "pathfindingPenalty": 100000,
+      "attackTraversePenalty": 0.2,
+      "cover": 0,
+      "stats": [
+        {
+          "debugName": "Hitpoints",
+          "type": 1,
+          "initialValue": 80,
+          "attributes": {
+            "max": [
+              {
+                "baseValue": 80
+              }
+            ]
+          }
+        }
+      ],
+      "productionSpeedMultiplier": {
+        "outside": 0.8,
+        "inside": 1.1,
+        "roofed": 1,
+        "outsideRain": 0.5,
+        "outsideSnow": 0.18,
+        "outsideFog": 0.75
+      },
+      "wealthPoints": 162,
+      "interactAnimation": "Sawing",
+      "interactTool": "saw_item",
+      "destroyParticles": "destroy_building",
+      "productions": [
+        "cudgel",
+        "wooden_spear",
+        "wooden_flail",
+        "two_handed_flail",
+        "dismantle_wood"
+      ]
+    },
+    {
+      "id": "stonemasons_bench",
+      "buildTime": 42,
+      "size": {
+        "x": 3,
+        "y": 1,
+        "z": 1
+      },
+      "buildingCategoryUI": 2,
+      "buildingSubCategoryUI": 15,
+      "soundMaterialCategory": 1,
+      "buildingType": 2048,
+      "constructableBaseCategory": 2,
+      "placementType": 0,
+      "materials": {
+        "keys": [
+          "wood"
+        ],
+        "values": [
+          80
+        ]
+      },
+      "storageBase": {
+        "capacity": 999,
+        "storableResources": [
+          "wood"
+        ]
+      },
+      "reachableLevel": 2,
+      "cornerReachable": false,
+      "maxPoolCount": 20,
+      "refillThreshold": 10,
+      "placeableBellowOthers": false,
+      "transfersStability": false,
+      "layerShadowOffset": -1.5,
+      "layerHideOffset": -1,
+      "pathfindingPenalty": 100000,
+      "attackTraversePenalty": 0.2,
+      "cover": 0,
+      "stats": [
+        {
+          "debugName": "Hitpoints",
+          "type": 1,
+          "initialValue": 80,
+          "attributes": {
+            "max": [
+              {
+                "baseValue": 80
+              }
+            ]
+          }
+        }
+      ],
+      "productionSpeedMultiplier": {
+        "outside": 0.8,
+        "inside": 1.1,
+        "roofed": 1,
+        "outsideRain": 0.8,
+        "outsideSnow": 0.75,
+        "outsideFog": 0.85
+      },
+      "wealthPoints": 202,
+      "interactAnimation": "TableHammering",
+      "interactTool": "hammer_item",
+      "destroyParticles": "destroy_building",
+      "productions": [
+        "limestone_block"
+      ]
+    },
+    {
+      "id": "smelting_station",
+      "buildTime": 60,
+      "size": {
+        "x": 3,
+        "y": 1,
+        "z": 2
+      },
+      "buildingCategoryUI": 2,
+      "buildingSubCategoryUI": 37,
+      "soundMaterialCategory": 3,
+      "buildingType": 2048,
+      "constructableBaseCategory": 2,
+      "placementType": 0,
+      "materials": {
+        "keys": [
+          "clay"
+        ],
+        "values": [
+          70
+        ]
+      },
+      "storageBase": {
+        "capacity": 999,
+        "storableResources": [
+          "clay"
+        ]
+      },
+      "reachableLevel": 2,
+      "cornerReachable": false,
+      "maxPoolCount": 20,
+      "refillThreshold": 10,
+      "placeableBellowOthers": false,
+      "transfersStability": false,
+      "layerShadowOffset": -1.5,
+      "layerHideOffset": -1,
+      "pathfindingPenalty": 100000,
+      "attackTraversePenalty": 0.2,
+      "cover": 0,
+      "stats": [
+        {
+          "debugName": "Hitpoints",
+          "type": 1,
+          "initialValue": 100,
+          "attributes": {
+            "max": [
+              {
+                "baseValue": 100
+              }
+            ]
+          }
+        }
+      ],
+      "productionSpeedMultiplier": {
+        "outside": 1,
+        "inside": 0.6,
+        "roofed": 1,
+        "outsideRain": 1,
+        "outsideSnow": 1,
+        "outsideFog": 1
+      },
+      "wealthPoints": 200,
+      "interactAnimation": "Smelting",
+      "interactTool": "firepoker_item",
+      "thermalModelID": "torch_off",
+      "thermalModelIDSecondary": "stove",
+      "destroyParticles": "destroy_building",
+      "productions": [
+        "iron_ingot",
+        "gold_ingot",
+        "steel_ingot",
+        "dismantle_metal"
+      ]
+    },
+    {
+      "id": "limestone_smelting_station",
+      "buildTime": 70,
+      "size": {
+        "x": 3,
+        "y": 1,
+        "z": 2
+      },
+      "buildingCategoryUI": 2,
+      "buildingSubCategoryUI": 37,
+      "soundMaterialCategory": 2,
+      "buildingType": 2048,
+      "constructableBaseCategory": 2,
+      "placementType": 0,
+      "materials": {
+        "keys": [
+          "limestone"
+        ],
+        "values": [
+          70
+        ]
+      },
+      "storageBase": {
+        "capacity": 999,
+        "storableResources": [
+          "limestone"
+        ]
+      },
+      "reachableLevel": 2,
+      "cornerReachable": false,
+      "maxPoolCount": 20,
+      "refillThreshold": 10,
+      "placeableBellowOthers": false,
+      "transfersStability": false,
+      "layerShadowOffset": -1.5,
+      "layerHideOffset": -1,
+      "pathfindingPenalty": 100000,
+      "attackTraversePenalty": 0.2,
+      "cover": 0,
+      "stats": [
+        {
+          "debugName": "Hitpoints",
+          "type": 1,
+          "initialValue": 160,
+          "attributes": {
+            "max": [
+              {
+                "baseValue": 160
+              }
+            ]
+          }
+        }
+      ],
+      "productionSpeedMultiplier": {
+        "outside": 1,
+        "inside": 0.6,
+        "roofed": 1,
+        "outsideRain": 1,
+        "outsideSnow": 1,
+        "outsideFog": 1
+      },
+      "wealthPoints": 210,
+      "interactAnimation": "Smelting",
+      "interactTool": "firepoker_item",
+      "thermalModelID": "torch_off",
+      "thermalModelIDSecondary": "stove",
+      "destroyParticles": "destroy_building",
+      "productions": [
+        "iron_ingot",
+        "gold_ingot",
+        "steel_ingot",
+        "dismantle_metal"
+      ]
+    },
+    {
+      "id": "kiln",
+      "buildTime": 42,
+      "size": {
+        "x": 3,
+        "y": 1,
+        "z": 2
+      },
+      "buildingCategoryUI": 2,
+      "buildingSubCategoryUI": 36,
+      "soundMaterialCategory": 3,
+      "buildingType": 2048,
+      "constructableBaseCategory": 2,
+      "placementType": 0,
+      "materials": {
+        "keys": [
+          "clay"
+        ],
+        "values": [
+          50
+        ]
+      },
+      "storageBase": {
+        "capacity": 999,
+        "storableResources": [
+          "clay"
+        ]
+      },
+      "reachableLevel": 2,
+      "cornerReachable": false,
+      "maxPoolCount": 20,
+      "refillThreshold": 10,
+      "placeableBellowOthers": false,
+      "transfersStability": false,
+      "layerShadowOffset": -1.5,
+      "layerHideOffset": -1,
+      "pathfindingPenalty": 100000,
+      "attackTraversePenalty": 0.1,
+      "cover": 0,
+      "stats": [
+        {
+          "debugName": "Hitpoints",
+          "type": 1,
+          "initialValue": 60,
+          "attributes": {
+            "max": [
+              {
+                "baseValue": 60
+              }
+            ]
+          }
+        }
+      ],
+      "productionSpeedMultiplier": {
+        "outside": 1,
+        "inside": 0.6,
+        "roofed": 1,
+        "outsideRain": 1,
+        "outsideSnow": 1,
+        "outsideFog": 1
+      },
+      "wealthPoints": 142,
+      "interactAnimation": "FirePoking",
+      "interactTool": "firepoker_item",
+      "thermalModelID": "torch_off",
+      "thermalModelIDSecondary": "stove",
+      "destroyParticles": "destroy_building",
+      "productions": [
+        "clay_brick",
+        "coal"
+      ]
+    },
+    {
+      "id": "limestone_kiln",
+      "buildTime": 50,
+      "size": {
+        "x": 3,
+        "y": 1,
+        "z": 2
+      },
+      "buildingCategoryUI": 2,
+      "buildingSubCategoryUI": 36,
+      "soundMaterialCategory": 2,
+      "buildingType": 2048,
+      "constructableBaseCategory": 2,
+      "placementType": 0,
+      "materials": {
+        "keys": [
+          "limestone"
+        ],
+        "values": [
+          50
+        ]
+      },
+      "storageBase": {
+        "capacity": 999,
+        "storableResources": [
+          "limestone"
+        ]
+      },
+      "reachableLevel": 2,
+      "cornerReachable": false,
+      "maxPoolCount": 20,
+      "refillThreshold": 10,
+      "placeableBellowOthers": false,
+      "transfersStability": false,
+      "layerShadowOffset": -1.5,
+      "layerHideOffset": -1,
+      "pathfindingPenalty": 100000,
+      "attackTraversePenalty": 0.1,
+      "cover": 0,
+      "stats": [
+        {
+          "debugName": "Hitpoints",
+          "type": 1,
+          "initialValue": 60,
+          "attributes": {
+            "max": [
+              {
+                "baseValue": 60
+              }
+            ]
+          }
+        }
+      ],
+      "productionSpeedMultiplier": {
+        "outside": 1,
+        "inside": 0.6,
+        "roofed": 1,
+        "outsideRain": 1,
+        "outsideSnow": 1,
+        "outsideFog": 1
+      },
+      "wealthPoints": 150,
+      "interactAnimation": "FirePoking",
+      "interactTool": "firepoker_item",
+      "thermalModelID": "torch_off",
+      "thermalModelIDSecondary": "stove",
+      "destroyParticles": "destroy_building",
+      "productions": [
+        "clay_brick",
+        "coal"
+      ]
+    },
+    {
+      "id": "sewing_station",
+      "buildTime": 42,
+      "size": {
+        "x": 3,
+        "y": 1,
+        "z": 2
+      },
+      "buildingCategoryUI": 2,
+      "buildingSubCategoryUI": 15,
+      "soundMaterialCategory": 1,
+      "buildingType": 2048,
+      "constructableBaseCategory": 2,
+      "placementType": 0,
+      "materials": {
+        "keys": [
+          "wood"
+        ],
+        "values": [
+          80
+        ]
+      },
+      "storageBase": {
+        "capacity": 999,
+        "storableResources": [
+          "wood"
+        ]
+      },
+      "reachableLevel": 2,
+      "cornerReachable": false,
+      "maxPoolCount": 20,
+      "refillThreshold": 10,
+      "placeableBellowOthers": false,
+      "transfersStability": false,
+      "layerShadowOffset": -1.5,
+      "layerHideOffset": -1,
+      "pathfindingPenalty": 100000,
+      "attackTraversePenalty": 0.2,
+      "cover": 0,
+      "stats": [
+        {
+          "debugName": "Hitpoints",
+          "type": 1,
+          "initialValue": 80,
+          "attributes": {
+            "max": [
+              {
+                "baseValue": 80
+              }
+            ]
+          }
+        }
+      ],
+      "productionSpeedMultiplier": {
+        "outside": 0.8,
+        "inside": 1.2,
+        "roofed": 1,
+        "outsideRain": 0.5,
+        "outsideSnow": 0.45,
+        "outsideFog": 0.9
+      },
+      "wealthPoints": 202,
+      "interactAnimation": "Sewing",
+      "destroyParticles": "destroy_building",
+      "productions": [
+        "winter_clothes",
+        "summer_clothes",
+        "cap",
+        "wide_straw_hat",
+        "dismantle_cloth"
+      ]
+    },
+    {
+      "id": "pyre",
+      "buildTime": 40,
+      "size": {
+        "x": 3,
+        "y": 1,
+        "z": 2
+      },
+      "buildingCategoryUI": 5,
+      "buildingSubCategoryUI": 38,
+      "soundMaterialCategory": 1,
+      "buildingType": 2048,
+      "constructableBaseCategory": 2,
+      "placementType": 0,
+      "materials": {
+        "keys": [
+          "wood"
+        ],
+        "values": [
+          15
+        ]
+      },
+      "storageBase": {
+        "capacity": 999,
+        "storableResources": [
+          "wood"
+        ]
+      },
+      "reachableLevel": 2,
+      "cornerReachable": false,
+      "maxPoolCount": 20,
+      "refillThreshold": 10,
+      "placeableBellowOthers": false,
+      "transfersStability": false,
+      "layerShadowOffset": -1.5,
+      "layerHideOffset": -1,
+      "pathfindingPenalty": 100000,
+      "attackTraversePenalty": 0.05,
+      "cover": 0,
+      "stats": [
+        {
+          "debugName": "Hitpoints",
+          "type": 1,
+          "initialValue": 20,
+          "attributes": {
+            "max": [
+              {
+                "baseValue": 20
+              }
+            ]
+          }
+        }
+      ],
+      "productionSpeedMultiplier": {
+        "outside": 1,
+        "inside": 1,
+        "roofed": 0.98,
+        "outsideRain": 0.75,
+        "outsideSnow": 0.9,
+        "outsideFog": 0.96
+      },
+      "wealthPoints": 70,
+      "thermalModelID": "torch_off",
+      "thermalModelIDSecondary": "camp_fire",
+      "destroyParticles": "destroy_building",
+      "productions": [
+        "burn_body"
+      ]
+    }
+  ]
+}

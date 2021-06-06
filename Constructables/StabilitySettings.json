@@ -1,0 +1,11 @@
+{
+  "repository": [
+    {
+      "id": "basic_stability",
+      "minStability": 0,
+      "maxStability": 4,
+      "minBeamLength": 1,
+      "maxBeamLength": 12
+    }
+  ]
+}

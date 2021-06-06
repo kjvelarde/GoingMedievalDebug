@@ -1,0 +1,667 @@
+{
+  "repository": [
+    {
+      "statName": "MovementSpeedStat",
+      "workerStat": {
+        "statId": 1,
+        "statValue": 500
+      }
+    },
+    {
+      "statName": "ConstructionSpeedStat",
+      "workerStat": {
+        "statId": 2,
+        "statValue": 100
+      },
+      "skillModifiers": [
+        {
+          "skillID": 3,
+          "perLevelModifier": [
+            0.5,
+            0.7,
+            0.9,
+            1.1,
+            1.3,
+            1.5,
+            1.7,
+            1.9,
+            2.1,
+            2.3,
+            2.5
+          ]
+        }
+      ]
+    },
+    {
+      "statName": "CookingSpeedStat",
+      "workerStat": {
+        "statId": 3,
+        "statValue": 100
+      },
+      "skillModifiers": [
+        {
+          "skillID": 4,
+          "perLevelModifier": [
+            0.5,
+            0.7,
+            0.9,
+            1.1,
+            1.3,
+            1.5,
+            1.7,
+            1.9,
+            2.1,
+            2.3,
+            2.5
+          ]
+        }
+      ]
+    },
+    {
+      "statName": "SmithingSpeedStat",
+      "workerStat": {
+        "statId": 4,
+        "statValue": 100
+      },
+      "skillModifiers": [
+        {
+          "skillID": 9,
+          "perLevelModifier": [
+            0.5,
+            0.7,
+            0.9,
+            1.1,
+            1.3,
+            1.5,
+            1.7,
+            1.9,
+            2.1,
+            2.3,
+            2.5
+          ]
+        }
+      ]
+    },
+    {
+      "statName": "CuttingStoneStat",
+      "workerStat": {
+        "statId": 5,
+        "statValue": 100
+      },
+      "skillModifiers": [
+        {
+          "skillID": 3,
+          "perLevelModifier": [
+            0.75,
+            0.9,
+            1.05,
+            1.2,
+            1.2,
+            1.2,
+            1.2,
+            1.2,
+            1.2,
+            1.2,
+            1.2
+          ]
+        }
+      ]
+    },
+    {
+      "statName": "MakeClayBrickStat",
+      "workerStat": {
+        "statId": 6,
+        "statValue": 100
+      },
+      "skillModifiers": [
+        {
+          "skillID": 3,
+          "perLevelModifier": [
+            0.75,
+            0.9,
+            1.05,
+            1.2,
+            1.2,
+            1.2,
+            1.2,
+            1.2,
+            1.2,
+            1.2,
+            1.2
+          ]
+        }
+      ]
+    },
+    {
+      "statName": "HungerStat",
+      "workerStat": {
+        "statId": 7,
+        "statValue": 100
+      }
+    },
+    {
+      "statName": "HungerThresholdStat",
+      "workerStat": {
+        "statId": 8,
+        "statValue": 100
+      }
+    },
+    {
+      "statName": "ConsumptionSpeedStat",
+      "workerStat": {
+        "statId": 9,
+        "statValue": 100
+      }
+    },
+    {
+      "statName": "SleepNeedStat",
+      "workerStat": {
+        "statId": 10,
+        "statValue": 100
+      }
+    },
+    {
+      "statName": "SleepThresholdStat",
+      "workerStat": {
+        "statId": 11,
+        "statValue": 100
+      }
+    },
+    {
+      "statName": "SleepRecoverSpeed",
+      "workerStat": {
+        "statId": 12,
+        "statValue": 100
+      }
+    },
+    {
+      "statName": "HarvestSpeedStat",
+      "workerStat": {
+        "statId": 13,
+        "statValue": 100
+      },
+      "skillModifiers": [
+        {
+          "skillID": 1,
+          "perLevelModifier": [
+            0.7,
+            0.88,
+            1.06,
+            1.24,
+            1.42,
+            1.6,
+            1.78,
+            1.96,
+            2.14,
+            2.32,
+            2.5
+          ]
+        }
+      ]
+    },
+    {
+      "statName": "HarvestAmountStat",
+      "workerStat": {
+        "statId": 14,
+        "statValue": 100
+      },
+      "skillModifiers": [
+        {
+          "skillID": 1,
+          "perLevelModifier": [
+            0.65,
+            0.72,
+            0.79,
+            0.86,
+            0.93,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "statName": "HarvestFailStat",
+      "workerStat": {
+        "statId": 15,
+        "statValue": 4
+      },
+      "skillModifiers": [
+        {
+          "skillID": 1,
+          "perLevelModifier": [
+            2,
+            1.81,
+            1.62,
+            1.43,
+            1.24,
+            1.05,
+            0.86,
+            0.67,
+            0.48,
+            0.29,
+            0.1
+          ]
+        }
+      ]
+    },
+    {
+      "statName": "MakeClothesSpeedStat",
+      "workerStat": {
+        "statId": 16,
+        "statValue": 100
+      },
+      "skillModifiers": [
+        {
+          "skillID": 11,
+          "perLevelModifier": [
+            0.5,
+            0.7,
+            0.9,
+            1.1,
+            1.3,
+            1.5,
+            1.7,
+            1.9,
+            2.1,
+            2.3,
+            2.5
+          ]
+        }
+      ]
+    },
+    {
+      "statName": "EvadeChanceStat",
+      "workerStat": {
+        "statId": 17,
+        "statValue": 5
+      }
+    },
+    {
+      "statName": "MineSpeedStat",
+      "workerStat": {
+        "statId": 18,
+        "statValue": 100
+      },
+      "skillModifiers": [
+        {
+          "skillID": 12,
+          "perLevelModifier": [
+            0.7,
+            0.88,
+            1.06,
+            1.24,
+            1.42,
+            1.6,
+            1.78,
+            1.96,
+            2.14,
+            2.32,
+            2.5
+          ]
+        }
+      ]
+    },
+    {
+      "statName": "MineAmountStat",
+      "workerStat": {
+        "statId": 19,
+        "statValue": 100
+      },
+      "skillModifiers": [
+        {
+          "skillID": 12,
+          "perLevelModifier": [
+            0.65,
+            0.72,
+            0.79,
+            0.86,
+            0.93,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "statName": "MineFailStat",
+      "workerStat": {
+        "statId": 20,
+        "statValue": 3
+      },
+      "skillModifiers": [
+        {
+          "skillID": 12,
+          "perLevelModifier": [
+            2,
+            1.81,
+            1.62,
+            1.43,
+            1.24,
+            1.05,
+            0.86,
+            0.67,
+            0.48,
+            0.29,
+            0.1
+          ]
+        }
+      ]
+    },
+    {
+      "statName": "CutSpeedStat",
+      "workerStat": {
+        "statId": 21,
+        "statValue": 100
+      },
+      "skillModifiers": [
+        {
+          "skillID": 1,
+          "perLevelModifier": [
+            0.7,
+            0.88,
+            1.06,
+            1.24,
+            1.42,
+            1.6,
+            1.78,
+            1.96,
+            2.14,
+            2.32,
+            2.5
+          ]
+        }
+      ]
+    },
+    {
+      "statName": "CutAmountStat",
+      "workerStat": {
+        "statId": 22,
+        "statValue": 100
+      },
+      "skillModifiers": [
+        {
+          "skillID": 1,
+          "perLevelModifier": [
+            0.65,
+            0.72,
+            0.79,
+            0.86,
+            0.93,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "statName": "CutFailStat",
+      "workerStat": {
+        "statId": 23,
+        "statValue": 4
+      },
+      "skillModifiers": [
+        {
+          "skillID": 1,
+          "perLevelModifier": [
+            2,
+            1.81,
+            1.62,
+            1.43,
+            1.24,
+            1.05,
+            0.86,
+            0.67,
+            0.48,
+            0.29,
+            0.1
+          ]
+        }
+      ]
+    },
+    {
+      "statName": "MeleeDmgStat",
+      "workerStat": {
+        "statId": 24,
+        "statValue": 100
+      },
+      "skillModifiers": [
+        {
+          "skillID": 8,
+          "perLevelModifier": [
+            0.5,
+            0.65,
+            0.8,
+            0.95,
+            1.1,
+            1.25,
+            1.4,
+            1.55,
+            1.7,
+            1.85,
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "statName": "MeleeChanceStat",
+      "workerStat": {
+        "statId": 25,
+        "statValue": 100
+      },
+      "skillModifiers": [
+        {
+          "skillID": 8,
+          "perLevelModifier": [
+            0.4,
+            0.46,
+            0.52,
+            0.58,
+            0.64,
+            0.7,
+            0.76,
+            0.82,
+            0.88,
+            0.94,
+            0.98
+          ]
+        }
+      ]
+    },
+    {
+      "statName": "MeleeAttackSpeed",
+      "workerStat": {
+        "statId": 26,
+        "statValue": 100
+      },
+      "skillModifiers": [
+        {
+          "skillID": 8,
+          "perLevelModifier": [
+            0.6,
+            0.7,
+            0.8,
+            0.9,
+            1,
+            1.1,
+            1.2,
+            1.3,
+            1.4,
+            1.5,
+            1.5
+          ]
+        }
+      ]
+    },
+    {
+      "statName": "RangedDmgStat",
+      "workerStat": {
+        "statId": 27,
+        "statValue": 100
+      },
+      "skillModifiers": [
+        {
+          "skillID": 6,
+          "perLevelModifier": [
+            0.5,
+            0.65,
+            0.8,
+            0.95,
+            1.1,
+            1.25,
+            1.4,
+            1.55,
+            1.7,
+            1.85,
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "statName": "RangedChanceStat",
+      "workerStat": {
+        "statId": 28,
+        "statValue": 100
+      },
+      "skillModifiers": [
+        {
+          "skillID": 6,
+          "perLevelModifier": [
+            0.4,
+            0.46,
+            0.52,
+            0.58,
+            0.64,
+            0.7,
+            0.76,
+            0.82,
+            0.88,
+            0.94,
+            0.98
+          ]
+        }
+      ]
+    },
+    {
+      "statName": "RangedSpeedStat",
+      "workerStat": {
+        "statId": 29,
+        "statValue": 100
+      },
+      "skillModifiers": [
+        {
+          "skillID": 6,
+          "perLevelModifier": [
+            0.6,
+            0.7,
+            0.8,
+            0.9,
+            1,
+            1.1,
+            1.2,
+            1.3,
+            1.4,
+            1.5,
+            1.5
+          ]
+        }
+      ]
+    },
+    {
+      "statName": "ConstructionFailStat",
+      "workerStat": {
+        "statId": 30,
+        "statValue": 5
+      },
+      "skillModifiers": [
+        {
+          "skillID": 3,
+          "perLevelModifier": [
+            1.5,
+            1.36,
+            1.22,
+            1.08,
+            0.94,
+            0.8,
+            0.66,
+            0.52,
+            0.38,
+            0.24,
+            0.1
+          ]
+        }
+      ]
+    },
+    {
+      "statName": "WoodWorkingSpeedStat",
+      "workerStat": {
+        "statId": 31,
+        "statValue": 100
+      },
+      "skillModifiers": [
+        {
+          "skillID": 2,
+          "perLevelModifier": [
+            0.8,
+            0.92,
+            1.04,
+            1.16,
+            1.28,
+            1.4,
+            1.52,
+            1.64,
+            1.76,
+            1.88,
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "statName": "CraftingMiscSpeedStat",
+      "workerStat": {
+        "statId": 32,
+        "statValue": 100
+      }
+    },
+    {
+      "statName": "SowSpeedStat",
+      "workerStat": {
+        "statId": 33,
+        "statValue": 100
+      },
+      "skillModifiers": [
+        {
+          "skillID": 1,
+          "perLevelModifier": [
+            0.7,
+            0.88,
+            1.06,
+            1.24,
+            1.42,
+            1.6,
+            1.78,
+            1.96,
+            2.14,
+            2.32,
+            2.5
+          ]
+        }
+      ]
+    }
+  ]
+}

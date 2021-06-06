@@ -1,0 +1,202 @@
+{
+  "repository": [
+    {
+      "groupId": "Index",
+      "path": "Index",
+      "depth": 0,
+      "subGroupIDs": [
+        "Construction",
+        "Life",
+        "Tutorial",
+        "Systems",
+        "Apparel",
+        "Food",
+        "Material",
+        "Equipment",
+        "Misc"
+      ]
+    },
+    {
+      "groupId": "Construction",
+      "path": "IndexConstruction",
+      "depth": 1,
+      "subGroupIDs": [
+        "Base",
+        "Production",
+        "Furniture",
+        "Leisure",
+        "Decoration",
+        "Warfare",
+        "Zone"
+      ]
+    },
+    {
+      "groupId": "Base",
+      "path": "IndexConstructionBase",
+      "depth": 2
+    },
+    {
+      "groupId": "Production",
+      "path": "IndexConstructionProduction",
+      "depth": 2
+    },
+    {
+      "groupId": "Furniture",
+      "path": "IndexConstructionFurniture",
+      "depth": 2
+    },
+    {
+      "groupId": "Leisure",
+      "path": "IndexConstructionLeisure",
+      "depth": 2
+    },
+    {
+      "groupId": "Decoration",
+      "path": "IndexConstructionDecoration",
+      "depth": 2
+    },
+    {
+      "groupId": "Warfare",
+      "path": "IndexConstructionWarfare",
+      "depth": 2
+    },
+    {
+      "groupId": "Zone",
+      "path": "IndexConstructionZone",
+      "depth": 2
+    },
+    {
+      "groupId": "Life",
+      "path": "IndexLife",
+      "depth": 1,
+      "subGroupIDs": [
+        "Animals",
+        "Plants"
+      ]
+    },
+    {
+      "groupId": "Animals",
+      "path": "IndexLifeAnimals",
+      "depth": 2
+    },
+    {
+      "groupId": "Plants",
+      "path": "IndexLifePlants",
+      "depth": 2
+    },
+    {
+      "groupId": "Tutorial",
+      "path": "IndexTutorial",
+      "depth": 1
+    },
+    {
+      "groupId": "Systems",
+      "path": "IndexSystems",
+      "depth": 1
+    },
+    {
+      "groupId": "Apparel",
+      "path": "IndexApparel",
+      "depth": 1,
+      "subGroupIDs": [
+        "Clothing",
+        "Headware"
+      ]
+    },
+    {
+      "groupId": "Clothing",
+      "path": "IndexApparelClothing",
+      "depth": 2
+    },
+    {
+      "groupId": "Headware",
+      "path": "IndexApparelHeadware",
+      "depth": 2
+    },
+    {
+      "groupId": "Food",
+      "path": "IndexFood",
+      "depth": 1,
+      "subGroupIDs": [
+        "Meal",
+        "Raw"
+      ]
+    },
+    {
+      "groupId": "Meal",
+      "path": "IndexFoodMeal",
+      "depth": 2
+    },
+    {
+      "groupId": "Raw",
+      "path": "IndexFoodRaw",
+      "depth": 2
+    },
+    {
+      "groupId": "Stimulants",
+      "path": "IndexFoodStimulants",
+      "depth": 2
+    },
+    {
+      "groupId": "Material",
+      "path": "IndexMaterial",
+      "depth": 1
+    },
+    {
+      "groupId": "Equipment",
+      "path": "IndexEquipment",
+      "depth": 1,
+      "subGroupIDs": [
+        "Armor",
+        "Shields",
+        "Melee",
+        "Ranged"
+      ]
+    },
+    {
+      "groupId": "Armor",
+      "path": "IndexEquipmentArmor",
+      "depth": 2
+    },
+    {
+      "groupId": "Shields",
+      "path": "IndexEquipmentShields",
+      "depth": 2
+    },
+    {
+      "groupId": "Melee",
+      "path": "IndexEquipmentMelee",
+      "depth": 2
+    },
+    {
+      "groupId": "Ranged",
+      "path": "IndexEquipmentRanged",
+      "depth": 2
+    },
+    {
+      "groupId": "Misc",
+      "path": "IndexMisc",
+      "depth": 1,
+      "subGroupIDs": [
+        "Books",
+        "Waste",
+        "Carcases"
+      ]
+    },
+    {
+      "groupId": "Books",
+      "path": "IndexMiscBooks",
+      "depth": 2
+    },
+    {
+      "groupId": "Waste",
+      "path": "IndexMiscWaste",
+      "depth": 2
+    },
+    {
+      "groupId": "Carcases",
+      "path": "IndexMiscCarcases",
+      "depth": 2
+    }
+  ]
+}

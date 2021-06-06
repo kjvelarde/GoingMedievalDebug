@@ -1,0 +1,400 @@
+{
+  "repository": [
+    {
+      "id": "trebuchet",
+      "prefab": "default_trebuchet",
+      "price": 1000,
+      "priceThreshold": 0.9,
+      "buildingDamage": 160,
+      "pileDamage": 35.0,
+      "creatureDamage": 45.0,
+      "groundDamage": 20,
+      "projectileHitRadius": 3.0,
+      "damageFalloff": 1,
+      "ammunitionResourceType": "limestone",
+      "resourceSpawnAmount": 120.0,
+      "projectileResourceCost": 10.0,
+      "storageCapacity": 250,
+      "onHitEffectors": [
+        {
+          "threshold": 0.06,
+          "effector": "bruised_leg"
+        },
+        {
+          "threshold": 0.06,
+          "effector": "bruised_arm"
+        },
+        {
+          "threshold": 0.08,
+          "effector": "bruised_chest"
+        },
+        {
+          "threshold": 0.2,
+          "effector": "fractured_arm"
+        },
+        {
+          "threshold": 0.2,
+          "effector": "fractured_leg"
+        },
+        {
+          "threshold": 0.3,
+          "effector": "fractured_ribs"
+        },
+        {
+          "threshold": 0.35,
+          "effector": "broken_arm"
+        },
+        {
+          "threshold": 0.35,
+          "effector": "broken_leg"
+        },
+        {
+          "threshold": 0.35,
+          "effector": "broken_ribs"
+        },
+        {
+          "threshold": 0.2,
+          "effector": "dislocated_sholder"
+        },
+        {
+          "threshold": 0.1,
+          "effector": "fractured_nose"
+        },
+        {
+          "threshold": 0.3,
+          "effector": "broken_nose"
+        },
+        {
+          "threshold": 0.15,
+          "effector": "mild_concussion"
+        },
+        {
+          "threshold": 0.2,
+          "effector": "heavy_concussion"
+        }
+      ],
+      "onCriticalHitEffectors": [
+        {
+          "threshold": 0.06,
+          "effector": "bruised_leg"
+        },
+        {
+          "threshold": 0.06,
+          "effector": "bruised_arm"
+        },
+        {
+          "threshold": 0.08,
+          "effector": "bruised_chest"
+        },
+        {
+          "threshold": 0.2,
+          "effector": "fractured_arm"
+        },
+        {
+          "threshold": 0.2,
+          "effector": "fractured_leg"
+        },
+        {
+          "threshold": 0.3,
+          "effector": "fractured_ribs"
+        },
+        {
+          "threshold": 0.35,
+          "effector": "broken_arm"
+        },
+        {
+          "threshold": 0.35,
+          "effector": "broken_leg"
+        },
+        {
+          "threshold": 0.35,
+          "effector": "broken_ribs"
+        },
+        {
+          "threshold": 0.2,
+          "effector": "dislocated_sholder"
+        },
+        {
+          "threshold": 0.1,
+          "effector": "fractured_nose"
+        },
+        {
+          "threshold": 0.3,
+          "effector": "broken_nose"
+        },
+        {
+          "threshold": 0.15,
+          "effector": "mild_concussion"
+        },
+        {
+          "threshold": 0.2,
+          "effector": "heavy_concussion"
+        }
+      ]
+    },
+    {
+      "id": "trebuchet2",
+      "prefab": "default_trebuchet",
+      "price": 450,
+      "priceThreshold": 0.9,
+      "buildingDamage": 120,
+      "pileDamage": 25,
+      "creatureDamage": 35,
+      "groundDamage": 10,
+      "projectileHitRadius": 2,
+      "damageFalloff": 0.3,
+      "ammunitionResourceType": "limestone",
+      "resourceSpawnAmount": 100,
+      "projectileResourceCost": 10.0,
+      "storageCapacity": 250,
+      "onHitEffectors": [
+        {
+          "threshold": 0.06,
+          "effector": "bruised_leg"
+        },
+        {
+          "threshold": 0.06,
+          "effector": "bruised_arm"
+        },
+        {
+          "threshold": 0.08,
+          "effector": "bruised_chest"
+        },
+        {
+          "threshold": 0.2,
+          "effector": "fractured_arm"
+        },
+        {
+          "threshold": 0.2,
+          "effector": "fractured_leg"
+        },
+        {
+          "threshold": 0.3,
+          "effector": "fractured_ribs"
+        },
+        {
+          "threshold": 0.35,
+          "effector": "broken_arm"
+        },
+        {
+          "threshold": 0.35,
+          "effector": "broken_leg"
+        },
+        {
+          "threshold": 0.35,
+          "effector": "broken_ribs"
+        },
+        {
+          "threshold": 0.2,
+          "effector": "dislocated_sholder"
+        },
+        {
+          "threshold": 0.1,
+          "effector": "fractured_nose"
+        },
+        {
+          "threshold": 0.3,
+          "effector": "broken_nose"
+        },
+        {
+          "threshold": 0.15,
+          "effector": "mild_concussion"
+        },
+        {
+          "threshold": 0.2,
+          "effector": "heavy_concussion"
+        }
+      ],
+      "onCriticalHitEffectors": [
+        {
+          "threshold": 0.06,
+          "effector": "bruised_leg"
+        },
+        {
+          "threshold": 0.06,
+          "effector": "bruised_arm"
+        },
+        {
+          "threshold": 0.08,
+          "effector": "bruised_chest"
+        },
+        {
+          "threshold": 0.2,
+          "effector": "fractured_arm"
+        },
+        {
+          "threshold": 0.2,
+          "effector": "fractured_leg"
+        },
+        {
+          "threshold": 0.3,
+          "effector": "fractured_ribs"
+        },
+        {
+          "threshold": 0.35,
+          "effector": "broken_arm"
+        },
+        {
+          "threshold": 0.35,
+          "effector": "broken_leg"
+        },
+        {
+          "threshold": 0.35,
+          "effector": "broken_ribs"
+        },
+        {
+          "threshold": 0.2,
+          "effector": "dislocated_sholder"
+        },
+        {
+          "threshold": 0.1,
+          "effector": "fractured_nose"
+        },
+        {
+          "threshold": 0.3,
+          "effector": "broken_nose"
+        },
+        {
+          "threshold": 0.15,
+          "effector": "mild_concussion"
+        },
+        {
+          "threshold": 0.2,
+          "effector": "heavy_concussion"
+        }
+      ]
+    },
+    {
+      "id": "trebuchet3",
+      "prefab": "default_trebuchet",
+      "price": 80,
+      "priceThreshold": 1,
+      "buildingDamage": 75,
+      "pileDamage": 20,
+      "creatureDamage": 15,
+      "groundDamage": 5,
+      "projectileHitRadius": 3,
+      "damageFalloff": 0.3,
+      "ammunitionResourceType": "limestone",
+      "resourceSpawnAmount": 100,
+      "projectileResourceCost": 10.0,
+      "storageCapacity": 250,
+      "onHitEffectors": [
+        {
+          "threshold": 0.06,
+          "effector": "bruised_leg"
+        },
+        {
+          "threshold": 0.06,
+          "effector": "bruised_arm"
+        },
+        {
+          "threshold": 0.08,
+          "effector": "bruised_chest"
+        },
+        {
+          "threshold": 0.2,
+          "effector": "fractured_arm"
+        },
+        {
+          "threshold": 0.2,
+          "effector": "fractured_leg"
+        },
+        {
+          "threshold": 0.3,
+          "effector": "fractured_ribs"
+        },
+        {
+          "threshold": 0.35,
+          "effector": "broken_arm"
+        },
+        {
+          "threshold": 0.35,
+          "effector": "broken_leg"
+        },
+        {
+          "threshold": 0.35,
+          "effector": "broken_ribs"
+        },
+        {
+          "threshold": 0.2,
+          "effector": "dislocated_sholder"
+        },
+        {
+          "threshold": 0.1,
+          "effector": "fractured_nose"
+        },
+        {
+          "threshold": 0.3,
+          "effector": "broken_nose"
+        },
+        {
+          "threshold": 0.15,
+          "effector": "mild_concussion"
+        },
+        {
+          "threshold": 0.2,
+          "effector": "heavy_concussion"
+        }
+      ],
+      "onCriticalHitEffectors": [
+        {
+          "threshold": 0.06,
+          "effector": "bruised_leg"
+        },
+        {
+          "threshold": 0.06,
+          "effector": "bruised_arm"
+        },
+        {
+          "threshold": 0.08,
+          "effector": "bruised_chest"
+        },
+        {
+          "threshold": 0.2,
+          "effector": "fractured_arm"
+        },
+        {
+          "threshold": 0.2,
+          "effector": "fractured_leg"
+        },
+        {
+          "threshold": 0.3,
+          "effector": "fractured_ribs"
+        },
+        {
+          "threshold": 0.35,
+          "effector": "broken_arm"
+        },
+        {
+          "threshold": 0.35,
+          "effector": "broken_leg"
+        },
+        {
+          "threshold": 0.35,
+          "effector": "broken_ribs"
+        },
+        {
+          "threshold": 0.2,
+          "effector": "dislocated_sholder"
+        },
+        {
+          "threshold": 0.1,
+          "effector": "fractured_nose"
+        },
+        {
+          "threshold": 0.3,
+          "effector": "broken_nose"
+        },
+        {
+          "threshold": 0.15,
+          "effector": "mild_concussion"
+        },
+        {
+          "threshold": 0.2,
+          "effector": "heavy_concussion"
+        }
+      ]
+    }
+  ]
+}

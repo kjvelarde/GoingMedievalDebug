@@ -1,0 +1,1560 @@
+{
+  "repository": [
+    {
+      "linkId": "Index",
+      "linkKey": "almanac_group_name_Index"
+    },
+    {
+      "linkId": "Construction",
+      "linkKey": "almanac_group_name_Construction"
+    },
+    {
+      "linkId": "Base",
+      "linkKey": "almanac_group_name_Base"
+    },
+    {
+      "linkId": "Production",
+      "linkKey": "almanac_group_name_Production"
+    },
+    {
+      "linkId": "Furniture",
+      "linkKey": "almanac_group_name_Furniture"
+    },
+    {
+      "linkId": "Leisure",
+      "linkKey": "almanac_group_name_Leisure"
+    },
+    {
+      "linkId": "Decoration",
+      "linkKey": "almanac_group_name_Decoration"
+    },
+    {
+      "linkId": "Warfare",
+      "linkKey": "almanac_group_name_Warfare"
+    },
+    {
+      "linkId": "Zone",
+      "linkKey": "almanac_group_name_Zone"
+    },
+    {
+      "linkId": "Life",
+      "linkKey": "almanac_group_name_Life"
+    },
+    {
+      "linkId": "Animals",
+      "linkKey": "almanac_group_name_Animals"
+    },
+    {
+      "linkId": "Plants",
+      "linkKey": "almanac_group_name_Plants"
+    },
+    {
+      "linkId": "Tutorial",
+      "linkKey": "almanac_group_name_Tutorial"
+    },
+    {
+      "linkId": "Systems",
+      "linkKey": "almanac_group_name_Systems"
+    },
+    {
+      "linkId": "Apparel",
+      "linkKey": "almanac_group_name_Apparel"
+    },
+    {
+      "linkId": "Clothing",
+      "linkKey": "almanac_group_name_Clothing"
+    },
+    {
+      "linkId": "Headware",
+      "linkKey": "almanac_group_name_Headware"
+    },
+    {
+      "linkId": "Food",
+      "linkKey": "almanac_group_name_Food"
+    },
+    {
+      "linkId": "Meal",
+      "linkKey": "almanac_group_name_Meal"
+    },
+    {
+      "linkId": "Raw",
+      "linkKey": "almanac_group_name_Raw"
+    },
+    {
+      "linkId": "Stimulants",
+      "linkKey": "almanac_group_name_Stimulants"
+    },
+    {
+      "linkId": "Material",
+      "linkKey": "almanac_group_name_Material"
+    },
+    {
+      "linkId": "Equipment",
+      "linkKey": "almanac_group_name_Equipment"
+    },
+    {
+      "linkId": "Armor",
+      "linkKey": "almanac_group_name_Armor"
+    },
+    {
+      "linkId": "Shields",
+      "linkKey": "almanac_group_name_Shields"
+    },
+    {
+      "linkId": "Melee",
+      "linkKey": "almanac_group_name_Melee"
+    },
+    {
+      "linkId": "Ranged",
+      "linkKey": "almanac_group_name_Ranged"
+    },
+    {
+      "linkId": "Misc",
+      "linkKey": "almanac_group_name_Misc"
+    },
+    {
+      "linkId": "Books",
+      "linkKey": "almanac_group_name_Books"
+    },
+    {
+      "linkId": "Waste",
+      "linkKey": "almanac_group_name_Waste"
+    },
+    {
+      "linkId": "Carcases",
+      "linkKey": "almanac_group_name_Carcases"
+    },
+    {
+      "linkId": "Redcurrant",
+      "linkKey": "resource_name_redcurrant"
+    },
+    {
+      "linkId": "Cabbage",
+      "linkKey": "resource_name_cabbage"
+    },
+    {
+      "linkId": "Barley",
+      "linkKey": "resource_name_barley"
+    },
+    {
+      "linkId": "Beet",
+      "linkKey": "resource_name_beet"
+    },
+    {
+      "linkId": "Carrot",
+      "linkKey": "resource_name_carrot"
+    },
+    {
+      "linkId": "Meat",
+      "linkKey": "resource_name_meat"
+    },
+    {
+      "linkId": "Meathuman",
+      "linkKey": "resource_name_meat_human"
+    },
+    {
+      "linkId": "Packagedmeal",
+      "linkKey": "resource_name_packaged_meal"
+    },
+    {
+      "linkId": "Packagedmealmeathuman",
+      "linkKey": "resource_name_packaged_meal_meat_human"
+    },
+    {
+      "linkId": "Roastedmeat",
+      "linkKey": "resource_name_roasted_meat"
+    },
+    {
+      "linkId": "Roastedmeathuman",
+      "linkKey": "resource_name_roasted_meat_human"
+    },
+    {
+      "linkId": "Lavishmeal",
+      "linkKey": "resource_name_lavish_meal"
+    },
+    {
+      "linkId": "Lavishmealmeathuman",
+      "linkKey": "resource_name_lavish_meal_meat_human"
+    },
+    {
+      "linkId": "Mushroom",
+      "linkKey": "resource_name_mushroom"
+    },
+    {
+      "linkId": "Stew",
+      "linkKey": "resource_name_stew"
+    },
+    {
+      "linkId": "Dubiousmeal",
+      "linkKey": "resource_name_dubious_meal"
+    },
+    {
+      "linkId": "Pickledvegetable",
+      "linkKey": "resource_name_pickled_vegetable"
+    },
+    {
+      "linkId": "Smokedmeat",
+      "linkKey": "resource_name_smoked_meat"
+    },
+    {
+      "linkId": "Smokedmeathuman",
+      "linkKey": "resource_name_smoked_meat_human"
+    },
+    {
+      "linkId": "Herbs",
+      "linkKey": "resource_name_herbs"
+    },
+    {
+      "linkId": "Healingkitsimple",
+      "linkKey": "resource_name_healing_kit_simple"
+    },
+    {
+      "linkId": "Healingkit",
+      "linkKey": "resource_name_healing_kit"
+    },
+    {
+      "linkId": "Healingkitadvanced",
+      "linkKey": "resource_name_healing_kit_advanced"
+    },
+    {
+      "linkId": "Honey",
+      "linkKey": "resource_name_honey"
+    },
+    {
+      "linkId": "Claybrick",
+      "linkKey": "resource_name_clay_brick"
+    },
+    {
+      "linkId": "Limestoneblock",
+      "linkKey": "resource_name_limestone_block"
+    },
+    {
+      "linkId": "Quicklime",
+      "linkKey": "resource_name_quicklime"
+    },
+    {
+      "linkId": "Alcohol",
+      "linkKey": "resource_name_alcohol"
+    },
+    {
+      "linkId": "Ale",
+      "linkKey": "resource_name_ale"
+    },
+    {
+      "linkId": "Beer",
+      "linkKey": "resource_name_beer"
+    },
+    {
+      "linkId": "Roughwine",
+      "linkKey": "resource_name_rough_wine"
+    },
+    {
+      "linkId": "Dungbrick",
+      "linkKey": "resource_name_dungbrick"
+    },
+    {
+      "linkId": "Saltpeter",
+      "linkKey": "resource_name_saltpeter"
+    },
+    {
+      "linkId": "Leather",
+      "linkKey": "resource_name_leather"
+    },
+    {
+      "linkId": "Bonemeal",
+      "linkKey": "resource_name_bone_meal"
+    },
+    {
+      "linkId": "Compost",
+      "linkKey": "resource_name_compost"
+    },
+    {
+      "linkId": "Vinegar",
+      "linkKey": "resource_name_vinegar"
+    },
+    {
+      "linkId": "Salt",
+      "linkKey": "resource_name_salt"
+    },
+    {
+      "linkId": "Gunpowder",
+      "linkKey": "resource_name_gunpowder"
+    },
+    {
+      "linkId": "Linencloth",
+      "linkKey": "resource_name_linen_cloth"
+    },
+    {
+      "linkId": "Woolcloth",
+      "linkKey": "resource_name_wool_cloth"
+    },
+    {
+      "linkId": "Hay",
+      "linkKey": "resource_name_hay"
+    },
+    {
+      "linkId": "Clay",
+      "linkKey": "resource_name_clay"
+    },
+    {
+      "linkId": "Limestone",
+      "linkKey": "resource_name_limestone"
+    },
+    {
+      "linkId": "Silver",
+      "linkKey": "resource_name_silver"
+    },
+    {
+      "linkId": "Gold",
+      "linkKey": "resource_name_gold"
+    },
+    {
+      "linkId": "Sulfur",
+      "linkKey": "resource_name_sulfur"
+    },
+    {
+      "linkId": "Iron",
+      "linkKey": "resource_name_iron"
+    },
+    {
+      "linkId": "Ironingot",
+      "linkKey": "resource_name_iron_ingot"
+    },
+    {
+      "linkId": "Steelingot",
+      "linkKey": "resource_name_steel_ingot"
+    },
+    {
+      "linkId": "Goldingot",
+      "linkKey": "resource_name_gold_ingot"
+    },
+    {
+      "linkId": "Sticks",
+      "linkKey": "resource_name_sticks"
+    },
+    {
+      "linkId": "Wood",
+      "linkKey": "resource_name_wood"
+    },
+    {
+      "linkId": "Coal",
+      "linkKey": "resource_name_coal"
+    },
+    {
+      "linkId": "Dung",
+      "linkKey": "resource_name_dung"
+    },
+    {
+      "linkId": "Basicresearchbook",
+      "linkKey": "resource_name_basic_research_book"
+    },
+    {
+      "linkId": "Normalresearchbook",
+      "linkKey": "resource_name_normal_research_book"
+    },
+    {
+      "linkId": "Advancedresearchbook",
+      "linkKey": "resource_name_advanced_research_book"
+    },
+    {
+      "linkId": "Bones",
+      "linkKey": "resource_name_bones"
+    },
+    {
+      "linkId": "Deercarcass",
+      "linkKey": "resource_name_deer_carcass"
+    },
+    {
+      "linkId": "Enemycarcass",
+      "linkKey": "resource_name_enemy_carcass"
+    },
+    {
+      "linkId": "Humancarcass",
+      "linkKey": "resource_name_human_carcass"
+    },
+    {
+      "linkId": "Harecarcass",
+      "linkKey": "resource_name_hare_carcass"
+    },
+    {
+      "linkId": "Wolfcarcass",
+      "linkKey": "resource_name_wolf_carcass"
+    },
+    {
+      "linkId": "Meatrot",
+      "linkKey": "resource_name_meat_rot"
+    },
+    {
+      "linkId": "Vegetablerot",
+      "linkKey": "resource_name_vegetable_rot"
+    },
+    {
+      "linkId": "Ash",
+      "linkKey": "resource_name_ash"
+    },
+    {
+      "linkId": "Mechanicalparts",
+      "linkKey": "resource_name_mechanical_parts"
+    },
+    {
+      "linkId": "Dagger",
+      "linkKey": "resource_name_dagger"
+    },
+    {
+      "linkId": "Irondagger",
+      "linkKey": "resource_name_iron_dagger"
+    },
+    {
+      "linkId": "Steeldagger",
+      "linkKey": "resource_name_steel_dagger"
+    },
+    {
+      "linkId": "Golddagger",
+      "linkKey": "resource_name_gold_dagger"
+    },
+    {
+      "linkId": "Shortsword",
+      "linkKey": "resource_name_short_sword"
+    },
+    {
+      "linkId": "Ironshortsword",
+      "linkKey": "resource_name_iron_short_sword"
+    },
+    {
+      "linkId": "Steelshortsword",
+      "linkKey": "resource_name_steel_short_sword"
+    },
+    {
+      "linkId": "Goldshortsword",
+      "linkKey": "resource_name_gold_short_sword"
+    },
+    {
+      "linkId": "Falchion",
+      "linkKey": "resource_name_falchion"
+    },
+    {
+      "linkId": "Ironfalchion",
+      "linkKey": "resource_name_iron_falchion"
+    },
+    {
+      "linkId": "Steelfalchion",
+      "linkKey": "resource_name_steel_falchion"
+    },
+    {
+      "linkId": "Goldfalchion",
+      "linkKey": "resource_name_gold_falchion"
+    },
+    {
+      "linkId": "Knightlysword",
+      "linkKey": "resource_name_knightly_sword"
+    },
+    {
+      "linkId": "Ironknightlysword",
+      "linkKey": "resource_name_iron_knightly_sword"
+    },
+    {
+      "linkId": "Steelknightlysword",
+      "linkKey": "resource_name_steel_knightly_sword"
+    },
+    {
+      "linkId": "Goldknightlysword",
+      "linkKey": "resource_name_gold_knightly_sword"
+    },
+    {
+      "linkId": "Longsword",
+      "linkKey": "resource_name_longsword"
+    },
+    {
+      "linkId": "Ironlongsword",
+      "linkKey": "resource_name_iron_longsword"
+    },
+    {
+      "linkId": "Steellongsword",
+      "linkKey": "resource_name_steel_longsword"
+    },
+    {
+      "linkId": "Goldlongsword",
+      "linkKey": "resource_name_gold_longsword"
+    },
+    {
+      "linkId": "Greatsword",
+      "linkKey": "resource_name_greatsword"
+    },
+    {
+      "linkId": "Irongreatsword",
+      "linkKey": "resource_name_iron_greatsword"
+    },
+    {
+      "linkId": "Steelgreatsword",
+      "linkKey": "resource_name_steel_greatsword"
+    },
+    {
+      "linkId": "Goldgreatsword",
+      "linkKey": "resource_name_gold_greatsword"
+    },
+    {
+      "linkId": "Staff",
+      "linkKey": "resource_name_staff"
+    },
+    {
+      "linkId": "Cudgel",
+      "linkKey": "resource_name_cudgel"
+    },
+    {
+      "linkId": "Bludgeon",
+      "linkKey": "resource_name_bludgeon"
+    },
+    {
+      "linkId": "Mace",
+      "linkKey": "resource_name_mace"
+    },
+    {
+      "linkId": "Ironmace",
+      "linkKey": "resource_name_iron_mace"
+    },
+    {
+      "linkId": "Steelmace",
+      "linkKey": "resource_name_steel_mace"
+    },
+    {
+      "linkId": "Goldmace",
+      "linkKey": "resource_name_gold_mace"
+    },
+    {
+      "linkId": "Twohandedmace",
+      "linkKey": "resource_name_two_handed_mace"
+    },
+    {
+      "linkId": "Irontwohandedmace",
+      "linkKey": "resource_name_iron_two_handed_mace"
+    },
+    {
+      "linkId": "Steeltwohandedmace",
+      "linkKey": "resource_name_steel_two_handed_mace"
+    },
+    {
+      "linkId": "Goldtwohandedmace",
+      "linkKey": "resource_name_gold_two_handed_mace"
+    },
+    {
+      "linkId": "Twohandedflangedmace",
+      "linkKey": "resource_name_two_handed_flanged_mace"
+    },
+    {
+      "linkId": "Militarypick",
+      "linkKey": "resource_name_military_pick"
+    },
+    {
+      "linkId": "Woodenspear",
+      "linkKey": "resource_name_wooden_spear"
+    },
+    {
+      "linkId": "Spear",
+      "linkKey": "resource_name_spear"
+    },
+    {
+      "linkId": "Berdiche",
+      "linkKey": "resource_name_berdiche"
+    },
+    {
+      "linkId": "Ironberdiche",
+      "linkKey": "resource_name_iron_berdiche"
+    },
+    {
+      "linkId": "Steelberdiche",
+      "linkKey": "resource_name_steel_berdiche"
+    },
+    {
+      "linkId": "Goldberdiche",
+      "linkKey": "resource_name_gold_berdiche"
+    },
+    {
+      "linkId": "Billhook",
+      "linkKey": "resource_name_billhook"
+    },
+    {
+      "linkId": "Warfork",
+      "linkKey": "resource_name_warfork"
+    },
+    {
+      "linkId": "Hatchet",
+      "linkKey": "resource_name_hatchet"
+    },
+    {
+      "linkId": "Ironhatchet",
+      "linkKey": "resource_name_iron_hatchet"
+    },
+    {
+      "linkId": "Steelhatchet",
+      "linkKey": "resource_name_steel_hatchet"
+    },
+    {
+      "linkId": "Goldhatchet",
+      "linkKey": "resource_name_gold_hatchet"
+    },
+    {
+      "linkId": "Greataxe",
+      "linkKey": "resource_name_greataxe"
+    },
+    {
+      "linkId": "Irongreataxe",
+      "linkKey": "resource_name_iron_greataxe"
+    },
+    {
+      "linkId": "Steelgreataxe",
+      "linkKey": "resource_name_steel_greataxe"
+    },
+    {
+      "linkId": "Goldgreataxe",
+      "linkKey": "resource_name_gold_greataxe"
+    },
+    {
+      "linkId": "Warhammer",
+      "linkKey": "resource_name_warhammer"
+    },
+    {
+      "linkId": "Twohandedwarhammer",
+      "linkKey": "resource_name_two_handed_warhammer"
+    },
+    {
+      "linkId": "Woodenflail",
+      "linkKey": "resource_name_wooden_flail"
+    },
+    {
+      "linkId": "Reinforcedflail",
+      "linkKey": "resource_name_reinforced_flail"
+    },
+    {
+      "linkId": "Twohandedflail",
+      "linkKey": "resource_name_two_handed_flail"
+    },
+    {
+      "linkId": "Shortbow",
+      "linkKey": "resource_name_short_bow"
+    },
+    {
+      "linkId": "Warbow",
+      "linkKey": "resource_name_war_bow"
+    },
+    {
+      "linkId": "Longbow",
+      "linkKey": "resource_name_long_bow"
+    },
+    {
+      "linkId": "Masterworkbow",
+      "linkKey": "resource_name_masterwork_bow"
+    },
+    {
+      "linkId": "Lightcrossbow",
+      "linkKey": "resource_name_light_crossbow"
+    },
+    {
+      "linkId": "Crossbow",
+      "linkKey": "resource_name_crossbow"
+    },
+    {
+      "linkId": "Heavycrossbow",
+      "linkKey": "resource_name_heavy_crossbow"
+    },
+    {
+      "linkId": "Throwingaxes",
+      "linkKey": "resource_name_throwing_axes"
+    },
+    {
+      "linkId": "Javelins",
+      "linkKey": "resource_name_javelins"
+    },
+    {
+      "linkId": "Sling",
+      "linkKey": "resource_name_sling"
+    },
+    {
+      "linkId": "Slingstaff",
+      "linkKey": "resource_name_sling_staff"
+    },
+    {
+      "linkId": "Bolas",
+      "linkKey": "resource_name_bolas"
+    },
+    {
+      "linkId": "Woodram",
+      "linkKey": "resource_name_wood_ram"
+    },
+    {
+      "linkId": "Metalram",
+      "linkKey": "resource_name_metal_ram"
+    },
+    {
+      "linkId": "Leatherarmor",
+      "linkKey": "resource_name_leather_armor"
+    },
+    {
+      "linkId": "Savagewoodarmor",
+      "linkKey": "resource_name_savage_wood_armor"
+    },
+    {
+      "linkId": "Mailarmor",
+      "linkKey": "resource_name_mail_armor"
+    },
+    {
+      "linkId": "Ironmailarmor",
+      "linkKey": "resource_name_iron_mail_armor"
+    },
+    {
+      "linkId": "Steelmailarmor",
+      "linkKey": "resource_name_steel_mail_armor"
+    },
+    {
+      "linkId": "Goldmailarmor",
+      "linkKey": "resource_name_gold_mail_armor"
+    },
+    {
+      "linkId": "Platearmor",
+      "linkKey": "resource_name_plate_armor"
+    },
+    {
+      "linkId": "Ironplatearmor",
+      "linkKey": "resource_name_iron_plate_armor"
+    },
+    {
+      "linkId": "Steelplatearmor",
+      "linkKey": "resource_name_steel_plate_armor"
+    },
+    {
+      "linkId": "Goldplatearmor",
+      "linkKey": "resource_name_gold_plate_armor"
+    },
+    {
+      "linkId": "Savageplatearmor",
+      "linkKey": "resource_name_savage_plate_armor"
+    },
+    {
+      "linkId": "Platehelmet",
+      "linkKey": "resource_name_plate_helmet"
+    },
+    {
+      "linkId": "Ironplatehelmet",
+      "linkKey": "resource_name_iron_plate_helmet"
+    },
+    {
+      "linkId": "Steelplatehelmet",
+      "linkKey": "resource_name_steel_plate_helmet"
+    },
+    {
+      "linkId": "Goldplatehelmet",
+      "linkKey": "resource_name_gold_plate_helmet"
+    },
+    {
+      "linkId": "Pigfacehelmet",
+      "linkKey": "resource_name_pigface_helmet"
+    },
+    {
+      "linkId": "Leatherhelmet",
+      "linkKey": "resource_name_leather_helmet"
+    },
+    {
+      "linkId": "Mailhelmet",
+      "linkKey": "resource_name_mail_helmet"
+    },
+    {
+      "linkId": "Ironmailhelmet",
+      "linkKey": "resource_name_iron_mail_helmet"
+    },
+    {
+      "linkId": "Steelmailhelmet",
+      "linkKey": "resource_name_steel_mail_helmet"
+    },
+    {
+      "linkId": "Goldmailhelmet",
+      "linkKey": "resource_name_gold_mail_helmet"
+    },
+    {
+      "linkId": "Savagewoodhelmet",
+      "linkKey": "resource_name_savage_wood_helmet"
+    },
+    {
+      "linkId": "Savagewoodhelmetheavy",
+      "linkKey": "resource_name_savage_wood_helmet_heavy"
+    },
+    {
+      "linkId": "Savageplatehelmet",
+      "linkKey": "resource_name_savage_plate_helmet"
+    },
+    {
+      "linkId": "Gambeson",
+      "linkKey": "resource_name_gambeson"
+    },
+    {
+      "linkId": "Linnengambeson",
+      "linkKey": "resource_name_linnen_gambeson"
+    },
+    {
+      "linkId": "Woolgambeson",
+      "linkKey": "resource_name_wool_gambeson"
+    },
+    {
+      "linkId": "Linenwinterclothes",
+      "linkKey": "resource_name_linen_winter_clothes"
+    },
+    {
+      "linkId": "Leatherwinterclothes",
+      "linkKey": "resource_name_leather_winter_clothes"
+    },
+    {
+      "linkId": "Woolwinterclothes",
+      "linkKey": "resource_name_wool_winter_clothes"
+    },
+    {
+      "linkId": "Linencap",
+      "linkKey": "resource_name_linen_cap"
+    },
+    {
+      "linkId": "Leathercap",
+      "linkKey": "resource_name_leather_cap"
+    },
+    {
+      "linkId": "Woolcap",
+      "linkKey": "resource_name_wool_cap"
+    },
+    {
+      "linkId": "Widestrawhat",
+      "linkKey": "resource_name_wide_straw_hat"
+    },
+    {
+      "linkId": "Slavechains",
+      "linkKey": "resource_name_slave_chains"
+    },
+    {
+      "linkId": "Summerclothes",
+      "linkKey": "resource_name_summer_clothes"
+    },
+    {
+      "linkId": "Linensummerclothes",
+      "linkKey": "resource_name_linen_summer_clothes"
+    },
+    {
+      "linkId": "Woolsummerclothes",
+      "linkKey": "resource_name_wool_summer_clothes"
+    },
+    {
+      "linkId": "Leathersummerclothes",
+      "linkKey": "resource_name_leather_summer_clothes"
+    },
+    {
+      "linkId": "Woodenbuckler",
+      "linkKey": "resource_name_wooden_buckler"
+    },
+    {
+      "linkId": "Metalbuckler",
+      "linkKey": "resource_name_metal_buckler"
+    },
+    {
+      "linkId": "Kiteshield",
+      "linkKey": "resource_name_kite_shield"
+    },
+    {
+      "linkId": "Woodenshield",
+      "linkKey": "resource_name_wooden_shield"
+    },
+    {
+      "linkId": "Reinforcedwoodenshield",
+      "linkKey": "resource_name_reinforced_wooden_shield"
+    },
+    {
+      "linkId": "Metalshield",
+      "linkKey": "resource_name_metal_shield"
+    },
+    {
+      "linkId": "Towershield",
+      "linkKey": "resource_name_tower_shield"
+    },
+    {
+      "linkId": "Ground",
+      "linkKey": "building_name_ground"
+    },
+    {
+      "linkId": "Woodwallelement",
+      "linkKey": "building_name_wood_wall_element"
+    },
+    {
+      "linkId": "Claywallelement",
+      "linkKey": "building_name_clay_wall_element"
+    },
+    {
+      "linkId": "Limestonewallelement",
+      "linkKey": "building_name_limestone_wall_element"
+    },
+    {
+      "linkId": "Limestoneblockwallelement",
+      "linkKey": "building_name_limestone_block_wall_element"
+    },
+    {
+      "linkId": "Claybrickwallelement",
+      "linkKey": "building_name_clay_brick_wall_element"
+    },
+    {
+      "linkId": "Woodfloor",
+      "linkKey": "building_name_wood_floor"
+    },
+    {
+      "linkId": "Wickerfloor",
+      "linkKey": "building_name_wicker_floor"
+    },
+    {
+      "linkId": "Limestonefloor",
+      "linkKey": "building_name_limestone_floor"
+    },
+    {
+      "linkId": "Limestoneblockfloor",
+      "linkKey": "building_name_limestone_block_floor"
+    },
+    {
+      "linkId": "Claybrickfloor",
+      "linkKey": "building_name_clay_brick_floor"
+    },
+    {
+      "linkId": "Woodbeam",
+      "linkKey": "building_name_wood_beam"
+    },
+    {
+      "linkId": "Wooddoor",
+      "linkKey": "building_name_wood_door"
+    },
+    {
+      "linkId": "Reinforceddoor",
+      "linkKey": "building_name_reinforced_door"
+    },
+    {
+      "linkId": "Grateddoor",
+      "linkKey": "building_name_grated_door"
+    },
+    {
+      "linkId": "Woodwindow",
+      "linkKey": "building_name_wood_window"
+    },
+    {
+      "linkId": "Claywindow",
+      "linkKey": "building_name_clay_window"
+    },
+    {
+      "linkId": "Limestoneblockwindow",
+      "linkKey": "building_name_limestone_block_window"
+    },
+    {
+      "linkId": "Limestonewindow",
+      "linkKey": "building_name_limestone_window"
+    },
+    {
+      "linkId": "Claybrickwindow",
+      "linkKey": "building_name_clay_brick_window"
+    },
+    {
+      "linkId": "Woodstairstraight",
+      "linkKey": "building_name_wood_stair_straight"
+    },
+    {
+      "linkId": "Limestoneblockstair",
+      "linkKey": "building_name_limestone_block_stair"
+    },
+    {
+      "linkId": "Claybrickstair",
+      "linkKey": "building_name_clay_brick_stair"
+    },
+    {
+      "linkId": "Limestonestair",
+      "linkKey": "building_name_limestone_stair"
+    },
+    {
+      "linkId": "Claystair",
+      "linkKey": "building_name_clay_stair"
+    },
+    {
+      "linkId": "Woodmerlon",
+      "linkKey": "building_name_wood_merlon"
+    },
+    {
+      "linkId": "Woodmerloncorner",
+      "linkKey": "building_name_wood_merlon_corner"
+    },
+    {
+      "linkId": "Claymerlon",
+      "linkKey": "building_name_clay_merlon"
+    },
+    {
+      "linkId": "Claymerloncorner",
+      "linkKey": "building_name_clay_merlon_corner"
+    },
+    {
+      "linkId": "Limestonemerlon",
+      "linkKey": "building_name_limestone_merlon"
+    },
+    {
+      "linkId": "Limestonemerloncorner",
+      "linkKey": "building_name_limestone_merlon_corner"
+    },
+    {
+      "linkId": "Limestoneblockmerlon",
+      "linkKey": "building_name_limestone_block_merlon"
+    },
+    {
+      "linkId": "Limestoneblockmerloncorner",
+      "linkKey": "building_name_limestone_block_merlon_corner"
+    },
+    {
+      "linkId": "Claybrickmerlon",
+      "linkKey": "building_name_clay_brick_merlon"
+    },
+    {
+      "linkId": "Claybrickmerloncorner",
+      "linkKey": "building_name_clay_brick_merlon_corner"
+    },
+    {
+      "linkId": "Woodtablesmall",
+      "linkKey": "building_name_wood_table_small"
+    },
+    {
+      "linkId": "Woodtablemedium",
+      "linkKey": "building_name_wood_table_medium"
+    },
+    {
+      "linkId": "Woodtablelarge",
+      "linkKey": "building_name_wood_table_large"
+    },
+    {
+      "linkId": "Stonetablesmall",
+      "linkKey": "building_name_stone_table_small"
+    },
+    {
+      "linkId": "Stonetablemedium",
+      "linkKey": "building_name_stone_table_medium"
+    },
+    {
+      "linkId": "Stonetablelarge",
+      "linkKey": "building_name_stone_table_large"
+    },
+    {
+      "linkId": "Qualitytablesmall",
+      "linkKey": "building_name_quality_table_small"
+    },
+    {
+      "linkId": "Qualitytablelarge",
+      "linkKey": "building_name_quality_table_large"
+    },
+    {
+      "linkId": "Qualitytablemedium",
+      "linkKey": "building_name_quality_table_medium"
+    },
+    {
+      "linkId": "Woodstool",
+      "linkKey": "building_name_wood_stool"
+    },
+    {
+      "linkId": "Stonestool",
+      "linkKey": "building_name_stone_stool"
+    },
+    {
+      "linkId": "Woodchair",
+      "linkKey": "building_name_wood_chair"
+    },
+    {
+      "linkId": "Stonechair",
+      "linkKey": "building_name_stone_chair"
+    },
+    {
+      "linkId": "Haysleepingspot",
+      "linkKey": "building_name_hay_sleeping_spot"
+    },
+    {
+      "linkId": "Haywoodbed",
+      "linkKey": "building_name_hay_wood_bed"
+    },
+    {
+      "linkId": "Woodtorch",
+      "linkKey": "building_name_wood_torch"
+    },
+    {
+      "linkId": "Irontorch",
+      "linkKey": "building_name_iron_torch"
+    },
+    {
+      "linkId": "Woodtorchwall",
+      "linkKey": "building_name_wood_torch_wall"
+    },
+    {
+      "linkId": "Irontourchwall",
+      "linkKey": "building_name_iron_tourch_wall"
+    },
+    {
+      "linkId": "Claybrazier",
+      "linkKey": "building_name_clay_brazier"
+    },
+    {
+      "linkId": "Stonebrazier",
+      "linkKey": "building_name_stone_brazier"
+    },
+    {
+      "linkId": "Ironbrazier",
+      "linkKey": "building_name_iron_brazier"
+    },
+    {
+      "linkId": "Claybrickbrazier",
+      "linkKey": "building_name_clay_brick_brazier"
+    },
+    {
+      "linkId": "Stonebrickbrazier",
+      "linkKey": "building_name_stone_brick_brazier"
+    },
+    {
+      "linkId": "Bannersinglemedium",
+      "linkKey": "building_name_banner_single_medium"
+    },
+    {
+      "linkId": "Bannersinglelarge",
+      "linkKey": "building_name_banner_single_large"
+    },
+    {
+      "linkId": "Bannerdubblelarge",
+      "linkKey": "building_name_banner_dubble_large"
+    },
+    {
+      "linkId": "Banneronesidemedium",
+      "linkKey": "building_name_banner_one_side_medium"
+    },
+    {
+      "linkId": "Bannerwallmedium",
+      "linkKey": "building_name_banner_wall_medium"
+    },
+    {
+      "linkId": "Banneronesidelarge",
+      "linkKey": "building_name_banner_one_side_large"
+    },
+    {
+      "linkId": "Bannerwalllarge",
+      "linkKey": "building_name_banner_wall_large"
+    },
+    {
+      "linkId": "Bannerwallonesidemedium",
+      "linkKey": "building_name_banner_wall_one_side_medium"
+    },
+    {
+      "linkId": "Bannersmalltall",
+      "linkKey": "building_name_banner_small_tall"
+    },
+    {
+      "linkId": "Wallshielddecoration",
+      "linkKey": "building_name_wall_shield_decoration"
+    },
+    {
+      "linkId": "Walldeerheaddecoration",
+      "linkKey": "building_name_wall_deer_head_decoration"
+    },
+    {
+      "linkId": "Wallbookshelf",
+      "linkKey": "building_name_wall_bookshelf"
+    },
+    {
+      "linkId": "Wallpotteryshelf",
+      "linkKey": "building_name_wall_pottery_shelf"
+    },
+    {
+      "linkId": "Walldecorationchristian",
+      "linkKey": "building_name_wall_decoration_christian"
+    },
+    {
+      "linkId": "Walldecorationpagan",
+      "linkKey": "building_name_wall_decoration_pagan"
+    },
+    {
+      "linkId": "Walltoolshelf",
+      "linkKey": "building_name_wall_tool_shelf"
+    },
+    {
+      "linkId": "Shrinechristianwood",
+      "linkKey": "building_name_shrine_christian_wood"
+    },
+    {
+      "linkId": "Shrinepaganwood",
+      "linkKey": "building_name_shrine_pagan_wood"
+    },
+    {
+      "linkId": "Shrinechristianstone",
+      "linkKey": "building_name_shrine_christian_stone"
+    },
+    {
+      "linkId": "Shrinepaganstone",
+      "linkKey": "building_name_shrine_pagan_stone"
+    },
+    {
+      "linkId": "Backgammontable",
+      "linkKey": "building_name_backgammon_table"
+    },
+    {
+      "linkId": "Butcheringtable",
+      "linkKey": "building_name_butchering_table"
+    },
+    {
+      "linkId": "Campfire",
+      "linkKey": "building_name_camp_fire"
+    },
+    {
+      "linkId": "Smokehouse",
+      "linkKey": "building_name_smokehouse"
+    },
+    {
+      "linkId": "Limestonesmokehouse",
+      "linkKey": "building_name_limestone_smokehouse"
+    },
+    {
+      "linkId": "Limestonestove",
+      "linkKey": "building_name_limestone_stove"
+    },
+    {
+      "linkId": "Limestoneblockstove",
+      "linkKey": "building_name_limestone_block_stove"
+    },
+    {
+      "linkId": "Claybrickstove",
+      "linkKey": "building_name_clay_brick_stove"
+    },
+    {
+      "linkId": "Brewingstation",
+      "linkKey": "building_name_brewing_station"
+    },
+    {
+      "linkId": "Spiritdestilary",
+      "linkKey": "building_name_spirit_destilary"
+    },
+    {
+      "linkId": "Apothecarybench",
+      "linkKey": "building_name_apothecary_bench"
+    },
+    {
+      "linkId": "Armourertable",
+      "linkKey": "building_name_armourer_table"
+    },
+    {
+      "linkId": "Fletcherstable",
+      "linkKey": "building_name_fletchers_table"
+    },
+    {
+      "linkId": "Blacksmithstation",
+      "linkKey": "building_name_blacksmith_station"
+    },
+    {
+      "linkId": "Claybrickblacksmithstation",
+      "linkKey": "building_name_clay_brick_blacksmith_station"
+    },
+    {
+      "linkId": "Basicresearchtable",
+      "linkKey": "building_name_basic_research_table"
+    },
+    {
+      "linkId": "Researchtable",
+      "linkKey": "building_name_research_table"
+    },
+    {
+      "linkId": "Advancedresearchtable",
+      "linkKey": "building_name_advanced_research_table"
+    },
+    {
+      "linkId": "Woodworkbench",
+      "linkKey": "building_name_woodwork_bench"
+    },
+    {
+      "linkId": "Stonemasonsbench",
+      "linkKey": "building_name_stonemasons_bench"
+    },
+    {
+      "linkId": "Smeltingstation",
+      "linkKey": "building_name_smelting_station"
+    },
+    {
+      "linkId": "Limestonesmeltingstation",
+      "linkKey": "building_name_limestone_smelting_station"
+    },
+    {
+      "linkId": "Kiln",
+      "linkKey": "building_name_kiln"
+    },
+    {
+      "linkId": "Limestonekiln",
+      "linkKey": "building_name_limestone_kiln"
+    },
+    {
+      "linkId": "Sewingstation",
+      "linkKey": "building_name_sewing_station"
+    },
+    {
+      "linkId": "Pyre",
+      "linkKey": "building_name_pyre"
+    },
+    {
+      "linkId": "Hayroofwhole",
+      "linkKey": "building_name_hay_roof_whole"
+    },
+    {
+      "linkId": "Woodroofwhole",
+      "linkKey": "building_name_wood_roof_whole"
+    },
+    {
+      "linkId": "Limestoneslateroofwhole",
+      "linkKey": "building_name_limestone_slate_roof_whole"
+    },
+    {
+      "linkId": "Clayshingleroofwhole",
+      "linkKey": "building_name_clay_shingle_roof_whole"
+    },
+    {
+      "linkId": "Hayroofhalf",
+      "linkKey": "building_name_hay_roof_half"
+    },
+    {
+      "linkId": "Woodroofhalf",
+      "linkKey": "building_name_wood_roof_half"
+    },
+    {
+      "linkId": "Limestoneslateroofhalf",
+      "linkKey": "building_name_limestone_slate_roof_half"
+    },
+    {
+      "linkId": "Clayshingleroofhalf",
+      "linkKey": "building_name_clay_shingle_roof_half"
+    },
+    {
+      "linkId": "Wickerroofwhole",
+      "linkKey": "building_name_wicker_roof_whole"
+    },
+    {
+      "linkId": "Wickerroofhalf",
+      "linkKey": "building_name_wicker_roof_half"
+    },
+    {
+      "linkId": "Sticktrap",
+      "linkKey": "building_name_stick_trap"
+    },
+    {
+      "linkId": "Woodtrap",
+      "linkKey": "building_name_wood_trap"
+    },
+    {
+      "linkId": "Metaltrap",
+      "linkKey": "building_name_metal_trap"
+    },
+    {
+      "linkId": "Unmarkedgrave",
+      "linkKey": "building_name_unmarked_grave"
+    },
+    {
+      "linkId": "Woodnormalgrave",
+      "linkKey": "building_name_wood_normal_grave"
+    },
+    {
+      "linkId": "Limestonenormalgrave",
+      "linkKey": "building_name_limestone_normal_grave"
+    },
+    {
+      "linkId": "Woodsarcophagus",
+      "linkKey": "building_name_wood_sarcophagus"
+    },
+    {
+      "linkId": "Limestonesarcophagus",
+      "linkKey": "building_name_limestone_sarcophagus"
+    },
+    {
+      "linkId": "Treebirch",
+      "linkKey": "resource_holder_name_tree_birch"
+    },
+    {
+      "linkId": "Treeplane",
+      "linkKey": "resource_holder_name_tree_plane"
+    },
+    {
+      "linkId": "Treeoak",
+      "linkKey": "resource_holder_name_tree_oak"
+    },
+    {
+      "linkId": "Treepine",
+      "linkKey": "resource_holder_name_tree_pine"
+    },
+    {
+      "linkId": "Shrubgeneric",
+      "linkKey": "resource_holder_name_shrub_generic"
+    },
+    {
+      "linkId": "Shrubivy",
+      "linkKey": "resource_holder_name_shrub_ivy"
+    },
+    {
+      "linkId": "Shrubredcurrant",
+      "linkKey": "resource_holder_name_shrub_redcurrant"
+    },
+    {
+      "linkId": "Haypatch",
+      "linkKey": "resource_holder_name_hay_patch"
+    },
+    {
+      "linkId": "Mushroompatch",
+      "linkKey": "resource_holder_name_mushroom_patch"
+    },
+    {
+      "linkId": "Cabbagepatch",
+      "linkKey": "resource_holder_name_cabbage_patch"
+    },
+    {
+      "linkId": "Flaxpatch",
+      "linkKey": "resource_holder_name_flax_patch"
+    },
+    {
+      "linkId": "Carrotpatch",
+      "linkKey": "resource_holder_name_carrot_patch"
+    },
+    {
+      "linkId": "Beetpatch",
+      "linkKey": "resource_holder_name_beet_patch"
+    },
+    {
+      "linkId": "Barleypatch",
+      "linkKey": "resource_holder_name_barley_patch"
+    },
+    {
+      "linkId": "Herbspatch",
+      "linkKey": "resource_holder_name_herbs_patch"
+    },
+    {
+      "linkId": "Tutorialwelcome",
+      "linkKey": "tutorial_welcome"
+    },
+    {
+      "linkId": "Tutorialcameracontrol",
+      "linkKey": "tutorial_camera_control"
+    },
+    {
+      "linkId": "Tutoriallayercontrol",
+      "linkKey": "tutorial_layer_control"
+    },
+    {
+      "linkId": "Tutorialgamespeed",
+      "linkKey": "tutorial_game_speed"
+    },
+    {
+      "linkId": "Tutorialstockpile",
+      "linkKey": "tutorial_stockpile"
+    },
+    {
+      "linkId": "Tutorialorders",
+      "linkKey": "tutorial_orders"
+    },
+    {
+      "linkId": "Tutorialconstruction",
+      "linkKey": "tutorial_construction"
+    },
+    {
+      "linkId": "Tutorialproduction",
+      "linkKey": "tutorial_production"
+    },
+    {
+      "linkId": "Tutorialresearch",
+      "linkKey": "tutorial_research"
+    },
+    {
+      "linkId": "Tutorialselect",
+      "linkKey": "tutorial_select"
+    },
+    {
+      "linkId": "Tutorialequipment",
+      "linkKey": "tutorial_equipment"
+    },
+    {
+      "linkId": "Tutorialmove",
+      "linkKey": "tutorial_move"
+    },
+    {
+      "linkId": "Tutorialjobs",
+      "linkKey": "tutorial_jobs"
+    },
+    {
+      "linkId": "Tutorialschedule",
+      "linkKey": "tutorial_schedule"
+    },
+    {
+      "linkId": "Tutorialmood",
+      "linkKey": "tutorial_mood"
+    },
+    {
+      "linkId": "Tutorialmanage",
+      "linkKey": "tutorial_manage"
+    },
+    {
+      "linkId": "Tutorialdefence",
+      "linkKey": "tutorial_defence"
+    },
+    {
+      "linkId": "Tutorialforbid",
+      "linkKey": "tutorial_forbid"
+    },
+    {
+      "linkId": "Systemstability",
+      "linkKey": "system_stability"
+    },
+    {
+      "linkId": "Systemdecomposition",
+      "linkKey": "system_decomposition"
+    },
+    {
+      "linkId": "Systemcover",
+      "linkKey": "cover_percentage"
+    },
+    {
+      "linkId": "Systemequipmentquality",
+      "linkKey": "system_equipment_quality_name"
+    },
+    {
+      "linkId": "Systemtemperature",
+      "linkKey": "system_temperature_name"
+    },
+    {
+      "linkId": "Systemweapons",
+      "linkKey": "system_weapon_attributes_name"
+    },
+    {
+      "linkId": "Systemarmour",
+      "linkKey": "system_armour_attributes_name"
+    },
+    {
+      "linkId": "Systemclothing",
+      "linkKey": "system_clothing_attributes_name"
+    },
+    {
+      "linkId": "Systemhigher",
+      "linkKey": "system_higher_ground_name"
+    },
+    {
+      "linkId": "Systemroom",
+      "linkKey": "system_room_name"
+    },
+    {
+      "linkId": "Systemeffectors",
+      "linkKey": "system_effectors_name"
+    },
+    {
+      "linkId": "Deer",
+      "linkKey": "animal_deer"
+    },
+    {
+      "linkId": "Wolf",
+      "linkKey": "animal_wolf"
+    },
+    {
+      "linkId": "Hare",
+      "linkKey": "animal_hare"
+    },
+    {
+      "linkId": "Cropfield",
+      "linkKey": "zone_name_cropfield"
+    },
+    {
+      "linkId": "Stockpile",
+      "linkKey": "ctrl_stockpile"
+    }
+  ]
+}

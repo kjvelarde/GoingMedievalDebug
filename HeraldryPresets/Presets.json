@@ -1,0 +1,1577 @@
+{
+  "presets": [
+    {
+      "heraldry": [
+        {
+          "layer": 0,
+          "symbol": -1,
+          "color": 18,
+          "layerTransforms": {
+            "x": 0.0,
+            "y": 0.0,
+            "angle": 0.0,
+            "scale": 5.0,
+            "flipX": false,
+            "flipY": false
+          }
+        },
+        {
+          "layer": 1,
+          "symbol": 1,
+          "color": 12,
+          "layerTransforms": {
+            "x": 0.0,
+            "y": 0.0,
+            "angle": 0.0,
+            "scale": 5.0,
+            "flipX": false,
+            "flipY": false
+          }
+        },
+        {
+          "layer": 2,
+          "symbol": 20,
+          "color": 18,
+          "layerTransforms": {
+            "x": 0.0,
+            "y": 10.0,
+            "angle": 0.0,
+            "scale": 10.0,
+            "flipX": false,
+            "flipY": false
+          }
+        },
+        {
+          "layer": 3,
+          "symbol": 16,
+          "color": 14,
+          "layerTransforms": {
+            "x": -1.0,
+            "y": 4.0,
+            "angle": 0.0,
+            "scale": 3.0,
+            "flipX": true,
+            "flipY": false
+          }
+        },
+        {
+          "layer": 4,
+          "symbol": 21,
+          "color": 8,
+          "layerTransforms": {
+            "x": 2.0,
+            "y": 5.0,
+            "angle": 0.0,
+            "scale": 2.0,
+            "flipX": false,
+            "flipY": false
+          }
+        },
+        {
+          "layer": 5,
+          "symbol": -1,
+          "color": -1,
+          "layerTransforms": {
+            "x": 0.0,
+            "y": 0.0,
+            "angle": 0.0,
+            "scale": 5.0,
+            "flipX": false,
+            "flipY": false
+          }
+        }
+      ]
+    },
+    {
+      "heraldry": [
+        {
+          "layer": 0,
+          "symbol": -1,
+          "color": 32,
+          "layerTransforms": {
+            "x": 0.0,
+            "y": 0.0,
+            "angle": 0.0,
+            "scale": 5.0,
+            "flipX": false,
+            "flipY": false
+          }
+        },
+        {
+          "layer": 1,
+          "symbol": 6,
+          "color": 52,
+          "layerTransforms": {
+            "x": 0.0,
+            "y": 0.0,
+            "angle": 0.0,
+            "scale": 5.0,
+            "flipX": false,
+            "flipY": false
+          }
+        },
+        {
+          "layer": 2,
+          "symbol": -1,
+          "color": -1,
+          "layerTransforms": {
+            "x": 0.0,
+            "y": 0.0,
+            "angle": 0.0,
+            "scale": 5.0,
+            "flipX": false,
+            "flipY": false
+          }
+        },
+        {
+          "layer": 3,
+          "symbol": 9,
+          "color": 41,
+          "layerTransforms": {
+            "x": 0.0,
+            "y": 0.0,
+            "angle": 0.0,
+            "scale": 8.0,
+            "flipX": false,
+            "flipY": false
+          }
+        },
+        {
+          "layer": 4,
+          "symbol": 2,
+          "color": 51,
+          "layerTransforms": {
+            "x": 0.0,
+            "y": 0.0,
+            "angle": 0.0,
+            "scale": 5.0,
+            "flipX": false,
+            "flipY": false
+          }
+        },
+        {
+          "layer": 5,
+          "symbol": -1,
+          "color": -1,
+          "layerTransforms": {
+            "x": 0.0,
+            "y": 0.0,
+            "angle": 0.0,
+            "scale": 5.0,
+            "flipX": false,
+            "flipY": false
+          }
+        }
+      ]
+    },
+    {
+      "heraldry": [
+        {
+          "layer": 0,
+          "symbol": -1,
+          "color": 0,
+          "layerTransforms": {
+            "x": 0.0,
+            "y": 0.0,
+            "angle": 0.0,
+            "scale": 5.0,
+            "flipX": false,
+            "flipY": false
+          }
+        },
+        {
+          "layer": 1,
+          "symbol": 10,
+          "color": 12,
+          "layerTransforms": {
+            "x": 0.0,
+            "y": 0.0,
+            "angle": 0.0,
+            "scale": 5.0,
+            "flipX": false,
+            "flipY": false
+          }
+        },
+        {
+          "layer": 2,
+          "symbol": -1,
+          "color": -1,
+          "layerTransforms": {
+            "x": 0.0,
+            "y": 0.0,
+            "angle": 0.0,
+            "scale": 5.0,
+            "flipX": false,
+            "flipY": false
+          }
+        },
+        {
+          "layer": 3,
+          "symbol": 5,
+          "color": 8,
+          "layerTransforms": {
+            "x": 0.0,
+            "y": 1.0,
+            "angle": 0.0,
+            "scale": 6.0,
+            "flipX": false,
+            "flipY": false
+          }
+        },
+        {
+          "layer": 4,
+          "symbol": -1,
+          "color": -1,
+          "layerTransforms": {
+            "x": 0.0,
+            "y": 0.0,
+            "angle": 0.0,
+            "scale": 5.0,
+            "flipX": false,
+            "flipY": false
+          }
+        },
+        {
+          "layer": 5,
+          "symbol": -1,
+          "color": -1,
+          "layerTransforms": {
+            "x": 0.0,
+            "y": 0.0,
+            "angle": 0.0,
+            "scale": 5.0,
+            "flipX": false,
+            "flipY": false
+          }
+        }
+      ]
+    },
+    {
+      "heraldry": [
+        {
+          "layer": 0,
+          "symbol": -1,
+          "color": 15,
+          "layerTransforms": {
+            "x": 0.0,
+            "y": 0.0,
+            "angle": 0.0,
+            "scale": 5.0,
+            "flipX": false,
+            "flipY": false
+          }
+        },
+        {
+          "layer": 1,
+          "symbol": 7,
+          "color": 17,
+          "layerTransforms": {
+            "x": 0.0,
+            "y": 0.0,
+            "angle": 0.0,
+            "scale": 5.0,
+            "flipX": false,
+            "flipY": false
+          }
+        },
+        {
+          "layer": 2,
+          "symbol": 10,
+          "color": 16,
+          "layerTransforms": {
+            "x": 0.0,
+            "y": 6.0,
+            "angle": 0.0,
+            "scale": 2.0,
+            "flipX": false,
+            "flipY": false
+          }
+        },
+        {
+          "layer": 3,
+          "symbol": 10,
+          "color": 16,
+          "layerTransforms": {
+            "x": 0.0,
+            "y": -4.0,
+            "angle": 0.0,
+            "scale": 2.0,
+            "flipX": false,
+            "flipY": true
+          }
+        },
+        {
+          "layer": 4,
+          "symbol": 10,
+          "color": 16,
+          "layerTransforms": {
+            "x": -5.0,
+            "y": 1.0,
+            "angle": 9.0,
+            "scale": 2.0,
+            "flipX": false,
+            "flipY": false
+          }
+        },
+        {
+          "layer": 5,
+          "symbol": 10,
+          "color": 16,
+          "layerTransforms": {
+            "x": 5.0,
+            "y": 1.0,
+            "angle": 27.0,
+            "scale": 2.0,
+            "flipX": false,
+            "flipY": false
+          }
+        }
+      ]
+    },
+    {
+      "creator": "Skalix",
+      "heraldry": [
+        {
+          "layer": 0,
+          "symbol": -1,
+          "color": 0,
+          "layerTransforms": {
+            "x": 0.0,
+            "y": 0.0,
+            "angle": 0.0,
+            "scale": 10.0,
+            "flipX": false,
+            "flipY": false
+          }
+        },
+        {
+          "layer": 1,
+          "symbol": 3,
+          "color": 20,
+          "layerTransforms": {
+            "x": 0.0,
+            "y": 0.0,
+            "angle": 0.0,
+            "scale": 10.0,
+            "flipX": false,
+            "flipY": false
+          }
+        },
+        {
+          "layer": 2,
+          "symbol": 17,
+          "color": 6,
+          "layerTransforms": {
+            "x": 0.0,
+            "y": 7.0,
+            "angle": 0.0,
+            "scale": 10.0,
+            "flipX": false,
+            "flipY": false
+          }
+        },
+        {
+          "layer": 3,
+          "symbol": 0,
+          "color": 6,
+          "layerTransforms": {
+            "x": 0.0,
+            "y": -4.0,
+            "angle": 0.0,
+            "scale": 11.0,
+            "flipX": false,
+            "flipY": false
+          }
+        },
+        {
+          "layer": 4,
+          "symbol": 14,
+          "color": 6,
+          "layerTransforms": {
+            "x": 0.0,
+            "y": -10.0,
+            "angle": 0.0,
+            "scale": 6.0,
+            "flipX": false,
+            "flipY": false
+          }
+        },
+        {
+          "layer": 5,
+          "symbol": 21,
+          "color": 0,
+          "layerTransforms": {
+            "x": 0.0,
+            "y": 6.0,
+            "angle": 0.0,
+            "scale": 7.0,
+            "flipX": false,
+            "flipY": false
+          }
+        }
+      ]
+    },
+    {
+      "creator": "Saturax",
+      "heraldry": [
+        {
+          "layer": 0,
+          "symbol": -1,
+          "color": 19,
+          "layerTransforms": {
+            "x": 0.0,
+            "y": 0.0,
+            "angle": 0.0,
+            "scale": 10.0,
+            "flipX": false,
+            "flipY": false
+          }
+        },
+        {
+          "layer": 1,
+          "symbol": -1,
+          "color": 40,
+          "layerTransforms": {
+            "x": 0.0,
+            "y": 0.0,
+            "angle": 0.0,
+            "scale": 10.0,
+            "flipX": false,
+            "flipY": false
+          }
+        },
+        {
+          "layer": 2,
+          "symbol": 16,
+          "color": 18,
+          "layerTransforms": {
+            "x": 0.0,
+            "y": 0.0,
+            "angle": 5.0,
+            "scale": 13.0,
+            "flipX": false,
+            "flipY": false
+          }
+        },
+        {
+          "layer": 3,
+          "symbol": 2,
+          "color": 0,
+          "layerTransforms": {
+            "x": 0.0,
+            "y": 0.0,
+            "angle": 0.0,
+            "scale": 12.0,
+            "flipX": false,
+            "flipY": false
+          }
+        },
+        {
+          "layer": 4,
+          "symbol": 5,
+          "color": 7,
+          "layerTransforms": {
+            "x": -5.0,
+            "y": -2.0,
+            "angle": 0.0,
+            "scale": 7.0,
+            "flipX": false,
+            "flipY": false
+          }
+        },
+        {
+          "layer": 5,
+          "symbol": 21,
+          "color": 7,
+          "layerTransforms": {
+            "x": -5.0,
+            "y": -2.0,
+            "angle": 0.0,
+            "scale": 9.0,
+            "flipX": false,
+            "flipY": false
+          }
+        }
+      ]
+    },
+    {
+      "creator": "Skalix",
+      "heraldry": [
+        {
+          "layer": 0,
+          "symbol": -1,
+          "color": 0,
+          "layerTransforms": {
+            "x": 0.0,
+            "y": 0.0,
+            "angle": 0.0,
+            "scale": 10.0,
+            "flipX": false,
+            "flipY": false
+          }
+        },
+        {
+          "layer": 1,
+          "symbol": 5,
+          "color": 8,
+          "layerTransforms": {
+            "x": 0.0,
+            "y": 0.0,
+            "angle": 0.0,
+            "scale": 10.0,
+            "flipX": false,
+            "flipY": false
+          }
+        },
+        {
+          "layer": 2,
+          "symbol": 6,
+          "color": 8,
+          "layerTransforms": {
+            "x": 0.0,
+            "y": -4.0,
+            "angle": 0.0,
+            "scale": 5.0,
+            "flipX": false,
+            "flipY": false
+          }
+        },
+        {
+          "layer": 3,
+          "symbol": 0,
+          "color": 8,
+          "layerTransforms": {
+            "x": 0.0,
+            "y": -10.0,
+            "angle": 0.0,
+            "scale": 7.0,
+            "flipX": false,
+            "flipY": false
+          }
+        },
+        {
+          "layer": 4,
+          "symbol": 12,
+          "color": 8,
+          "layerTransforms": {
+            "x": 7.0,
+            "y": 5.0,
+            "angle": 3.0,
+            "scale": 3.0,
+            "flipX": false,
+            "flipY": false
+          }
+        },
+        {
+          "layer": 5,
+          "symbol": 12,
+          "color": 8,
+          "layerTransforms": {
+            "x": -7.0,
+            "y": 5.0,
+            "angle": 33.0,
+            "scale": 3.0,
+            "flipX": true,
+            "flipY": false
+          }
+        }
+      ]
+    },
+    {
+      "creator": "Maiden of the Stars",
+      "heraldry": [
+        {
+          "layer": 0,
+          "symbol": -1,
+          "color": 0,
+          "layerTransforms": {
+            "x": 0.0,
+            "y": 0.0,
+            "angle": 0.0,
+            "scale": 10.0,
+            "flipX": false,
+            "flipY": false
+          }
+        },
+        {
+          "layer": 1,
+          "symbol": -1,
+          "color": 26,
+          "layerTransforms": {
+            "x": 0.0,
+            "y": 0.0,
+            "angle": 0.0,
+            "scale": 10.0,
+            "flipX": false,
+            "flipY": false
+          }
+        },
+        {
+          "layer": 2,
+          "symbol": 3,
+          "color": 8,
+          "layerTransforms": {
+            "x": 0.0,
+            "y": 2.0,
+            "angle": 0.0,
+            "scale": 19.0,
+            "flipX": false,
+            "flipY": false
+          }
+        },
+        {
+          "layer": 3,
+          "symbol": 3,
+          "color": 5,
+          "layerTransforms": {
+            "x": 0.0,
+            "y": -1.0,
+            "angle": 0.0,
+            "scale": 18.0,
+            "flipX": false,
+            "flipY": false
+          }
+        },
+        {
+          "layer": 4,
+          "symbol": 3,
+          "color": 0,
+          "layerTransforms": {
+            "x": 0.0,
+            "y": -4.0,
+            "angle": 0.0,
+            "scale": 17.0,
+            "flipX": false,
+            "flipY": false
+          }
+        },
+        {
+          "layer": 5,
+          "symbol": 8,
+          "color": 7,
+          "layerTransforms": {
+            "x": 0.0,
+            "y": -2.0,
+            "angle": 0.0,
+            "scale": 10.0,
+            "flipX": false,
+            "flipY": false
+          }
+        }
+      ]
+    },
+    {
+      "creator": "Skalix",
+      "heraldry": [
+        {
+          "layer": 0,
+          "symbol": -1,
+          "color": 23,
+          "layerTransforms": {
+            "x": 0.0,
+            "y": 0.0,
+            "angle": 0.0,
+            "scale": 10.0,
+            "flipX": false,
+            "flipY": false
+          }
+        },
+        {
+          "layer": 1,
+          "symbol": 3,
+          "color": 24,
+          "layerTransforms": {
+            "x": 0.0,
+            "y": 0.0,
+            "angle": 0.0,
+            "scale": 10.0,
+            "flipX": false,
+            "flipY": false
+          }
+        },
+        {
+          "layer": 2,
+          "symbol": 11,
+          "color": 2,
+          "layerTransforms": {
+            "x": 5.0,
+            "y": 9.0,
+            "angle": 6.0,
+            "scale": 7.0,
+            "flipX": false,
+            "flipY": false
+          }
+        },
+        {
+          "layer": 3,
+          "symbol": 11,
+          "color": 29,
+          "layerTransforms": {
+            "x": -6.0,
+            "y": 10.0,
+            "angle": 30.0,
+            "scale": 5.0,
+            "flipX": false,
+            "flipY": false
+          }
+        },
+        {
+          "layer": 4,
+          "symbol": 3,
+          "color": 2,
+          "layerTransforms": {
+            "x": 0.0,
+            "y": -18.0,
+            "angle": 0.0,
+            "scale": 19.0,
+            "flipX": false,
+            "flipY": false
+          }
+        },
+        {
+          "layer": 5,
+          "symbol": 10,
+          "color": 24,
+          "layerTransforms": {
+            "x": 0.0,
+            "y": -8.0,
+            "angle": 0.0,
+            "scale": 6.0,
+            "flipX": false,
+            "flipY": false
+          }
+        }
+      ]
+    },
+    {
+      "creator": "Maiden of the Stars",
+      "heraldry": [
+        {
+          "layer": 0,
+          "symbol": -1,
+          "color": 18,
+          "layerTransforms": {
+            "x": 0.0,
+            "y": 0.0,
+            "angle": 0.0,
+            "scale": 10.0,
+            "flipX": false,
+            "flipY": false
+          }
+        },
+        {
+          "layer": 1,
+          "symbol": -1,
+          "color": 10,
+          "layerTransforms": {
+            "x": 0.0,
+            "y": 0.0,
+            "angle": 0.0,
+            "scale": 10.0,
+            "flipX": false,
+            "flipY": false
+          }
+        },
+        {
+          "layer": 2,
+          "symbol": 3,
+          "color": 4,
+          "layerTransforms": {
+            "x": 0.0,
+            "y": 0.0,
+            "angle": 0.0,
+            "scale": 20.0,
+            "flipX": false,
+            "flipY": false
+          }
+        },
+        {
+          "layer": 3,
+          "symbol": 3,
+          "color": 14,
+          "layerTransforms": {
+            "x": 0.0,
+            "y": -3.0,
+            "angle": 0.0,
+            "scale": 18.0,
+            "flipX": false,
+            "flipY": false
+          }
+        },
+        {
+          "layer": 4,
+          "symbol": 3,
+          "color": 8,
+          "layerTransforms": {
+            "x": 0.0,
+            "y": -7.0,
+            "angle": 0.0,
+            "scale": 16.0,
+            "flipX": false,
+            "flipY": false
+          }
+        },
+        {
+          "layer": 5,
+          "symbol": 21,
+          "color": 0,
+          "layerTransforms": {
+            "x": 0.0,
+            "y": -5.0,
+            "angle": 0.0,
+            "scale": 10.0,
+            "flipX": false,
+            "flipY": false
+          }
+        }
+      ]
+    },
+    {
+      "creator": "Skalix",
+      "heraldry": [
+        {
+          "layer": 0,
+          "symbol": -1,
+          "color": 12,
+          "layerTransforms": {
+            "x": 0.0,
+            "y": 0.0,
+            "angle": 0.0,
+            "scale": 10.0,
+            "flipX": false,
+            "flipY": false
+          }
+        },
+        {
+          "layer": 1,
+          "symbol": 12,
+          "color": 5,
+          "layerTransforms": {
+            "x": 0.0,
+            "y": 0.0,
+            "angle": 0.0,
+            "scale": 10.0,
+            "flipX": false,
+            "flipY": false
+          }
+        },
+        {
+          "layer": 2,
+          "symbol": 22,
+          "color": 0,
+          "layerTransforms": {
+            "x": 0.0,
+            "y": -9.0,
+            "angle": 0.0,
+            "scale": 11.0,
+            "flipX": false,
+            "flipY": false
+          }
+        },
+        {
+          "layer": 3,
+          "symbol": 15,
+          "color": 0,
+          "layerTransforms": {
+            "x": -9.0,
+            "y": 6.0,
+            "angle": 0.0,
+            "scale": 7.0,
+            "flipX": false,
+            "flipY": false
+          }
+        },
+        {
+          "layer": 4,
+          "symbol": 15,
+          "color": 0,
+          "layerTransforms": {
+            "x": 9.0,
+            "y": 6.0,
+            "angle": 0.0,
+            "scale": 7.0,
+            "flipX": true,
+            "flipY": false
+          }
+        },
+        {
+          "layer": 5,
+          "symbol": 18,
+          "color": 0,
+          "layerTransforms": {
+            "x": 0.0,
+            "y": 0.0,
+            "angle": 0.0,
+            "scale": 20.0,
+            "flipX": false,
+            "flipY": false
+          }
+        }
+      ]
+    },
+    {
+      "creator": "Larsil5277",
+      "heraldry": [
+        {
+          "layer": 0,
+          "symbol": -1,
+          "color": 3,
+          "layerTransforms": {
+            "x": 0.0,
+            "y": 0.0,
+            "angle": 0.0,
+            "scale": 10.0,
+            "flipX": false,
+            "flipY": false
+          }
+        },
+        {
+          "layer": 1,
+          "symbol": 5,
+          "color": 0,
+          "layerTransforms": {
+            "x": 0.0,
+            "y": 0.0,
+            "angle": 0.0,
+            "scale": 10.0,
+            "flipX": false,
+            "flipY": false
+          }
+        },
+        {
+          "layer": 2,
+          "symbol": 19,
+          "color": 8,
+          "layerTransforms": {
+            "x": 0.0,
+            "y": -3.0,
+            "angle": 0.0,
+            "scale": 10.0,
+            "flipX": false,
+            "flipY": false
+          }
+        },
+        {
+          "layer": 3,
+          "symbol": 5,
+          "color": 18,
+          "layerTransforms": {
+            "x": 0.0,
+            "y": -3.0,
+            "angle": 0.0,
+            "scale": 10.0,
+            "flipX": false,
+            "flipY": false
+          }
+        },
+        {
+          "layer": 4,
+          "symbol": 21,
+          "color": 21,
+          "layerTransforms": {
+            "x": 0.0,
+            "y": -3.0,
+            "angle": 0.0,
+            "scale": 10.0,
+            "flipX": false,
+            "flipY": false
+          }
+        },
+        {
+          "layer": 5,
+          "symbol": -1,
+          "color": 9,
+          "layerTransforms": {
+            "x": 0.0,
+            "y": 0.0,
+            "angle": 0.0,
+            "scale": 10.0,
+            "flipX": false,
+            "flipY": false
+          }
+        }
+      ]
+    },
+    {
+      "creator": "ThomasJ400",
+      "heraldry": [
+        {
+          "layer": 0,
+          "symbol": -1,
+          "color": 2,
+          "layerTransforms": {
+            "x": 0.0,
+            "y": 0.0,
+            "angle": 0.0,
+            "scale": 10.0,
+            "flipX": false,
+            "flipY": false
+          }
+        },
+        {
+          "layer": 1,
+          "symbol": -1,
+          "color": -1,
+          "layerTransforms": {
+            "x": 0.0,
+            "y": 0.0,
+            "angle": 0.0,
+            "scale": 10.0,
+            "flipX": false,
+            "flipY": false
+          }
+        },
+        {
+          "layer": 2,
+          "symbol": 3,
+          "color": 3,
+          "layerTransforms": {
+            "x": 0.0,
+            "y": 0.0,
+            "angle": 0.0,
+            "scale": 19.0,
+            "flipX": false,
+            "flipY": false
+          }
+        },
+        {
+          "layer": 3,
+          "symbol": 3,
+          "color": 9,
+          "layerTransforms": {
+            "x": 0.0,
+            "y": -3.0,
+            "angle": 0.0,
+            "scale": 18.0,
+            "flipX": false,
+            "flipY": false
+          }
+        },
+        {
+          "layer": 4,
+          "symbol": 8,
+          "color": 8,
+          "layerTransforms": {
+            "x": 0.0,
+            "y": 0.0,
+            "angle": 0.0,
+            "scale": 10.0,
+            "flipX": false,
+            "flipY": false
+          }
+        },
+        {
+          "layer": 5,
+          "symbol": 6,
+          "color": 28,
+          "layerTransforms": {
+            "x": 7.0,
+            "y": 11.0,
+            "angle": 0.0,
+            "scale": 1.0,
+            "flipX": false,
+            "flipY": false
+          }
+        }
+      ]
+    },
+    {
+      "creator": "Audible Chocolate",
+      "heraldry": [
+        {
+          "layer": 0,
+          "symbol": -1,
+          "color": 16,
+          "layerTransforms": {
+            "x": 0.0,
+            "y": 0.0,
+            "angle": 0.0,
+            "scale": 10.0,
+            "flipX": false,
+            "flipY": false
+          }
+        },
+        {
+          "layer": 1,
+          "symbol": 3,
+          "color": 0,
+          "layerTransforms": {
+            "x": 0.0,
+            "y": 0.0,
+            "angle": 0.0,
+            "scale": 10.0,
+            "flipX": false,
+            "flipY": false
+          }
+        },
+        {
+          "layer": 2,
+          "symbol": 3,
+          "color": 3,
+          "layerTransforms": {
+            "x": 0.0,
+            "y": -1.0,
+            "angle": 0.0,
+            "scale": 12.0,
+            "flipX": false,
+            "flipY": false
+          }
+        },
+        {
+          "layer": 3,
+          "symbol": 21,
+          "color": 8,
+          "layerTransforms": {
+            "x": 0.0,
+            "y": -1.0,
+            "angle": 0.0,
+            "scale": 12.0,
+            "flipX": false,
+            "flipY": false
+          }
+        },
+        {
+          "layer": 4,
+          "symbol": 21,
+          "color": 8,
+          "layerTransforms": {
+            "x": 0.0,
+            "y": -1.0,
+            "angle": 2.0,
+            "scale": 9.0,
+            "flipX": false,
+            "flipY": false
+          }
+        },
+        {
+          "layer": 5,
+          "symbol": -1,
+          "color": -1,
+          "layerTransforms": {
+            "x": 0.0,
+            "y": 0.0,
+            "angle": 0.0,
+            "scale": 10.0,
+            "flipX": false,
+            "flipY": false
+          }
+        }
+      ]
+    },
+    {
+      "creator": "Maiden of the Stars",
+      "heraldry": [
+        {
+          "layer": 0,
+          "symbol": -1,
+          "color": 0,
+          "layerTransforms": {
+            "x": 0.0,
+            "y": 0.0,
+            "angle": 0.0,
+            "scale": 10.0,
+            "flipX": false,
+            "flipY": false
+          }
+        },
+        {
+          "layer": 1,
+          "symbol": 9,
+          "color": 28,
+          "layerTransforms": {
+            "x": 0.0,
+            "y": 0.0,
+            "angle": 0.0,
+            "scale": 10.0,
+            "flipX": false,
+            "flipY": false
+          }
+        },
+        {
+          "layer": 2,
+          "symbol": 8,
+          "color": 23,
+          "layerTransforms": {
+            "x": 0.0,
+            "y": 1.0,
+            "angle": 1.0,
+            "scale": 17.0,
+            "flipX": false,
+            "flipY": false
+          }
+        },
+        {
+          "layer": 3,
+          "symbol": 8,
+          "color": 25,
+          "layerTransforms": {
+            "x": 1.0,
+            "y": -1.0,
+            "angle": 1.0,
+            "scale": 15.0,
+            "flipX": false,
+            "flipY": false
+          }
+        },
+        {
+          "layer": 4,
+          "symbol": 8,
+          "color": 22,
+          "layerTransforms": {
+            "x": 0.0,
+            "y": -2.0,
+            "angle": 0.0,
+            "scale": 11.0,
+            "flipX": false,
+            "flipY": false
+          }
+        },
+        {
+          "layer": 5,
+          "symbol": 11,
+          "color": 7,
+          "layerTransforms": {
+            "x": 0.0,
+            "y": -14.0,
+            "angle": 0.0,
+            "scale": 3.0,
+            "flipX": false,
+            "flipY": false
+          }
+        }
+      ]
+    },
+    {
+      "creator": "Nimovitch",
+      "heraldry": [
+        {
+          "layer": 0,
+          "symbol": -1,
+          "color": 18,
+          "layerTransforms": {
+            "x": 0.0,
+            "y": 0.0,
+            "angle": 0.0,
+            "scale": 10.0,
+            "flipX": false,
+            "flipY": false
+          }
+        },
+        {
+          "layer": 1,
+          "symbol": -1,
+          "color": -1,
+          "layerTransforms": {
+            "x": 0.0,
+            "y": 0.0,
+            "angle": 0.0,
+            "scale": 10.0,
+            "flipX": false,
+            "flipY": false
+          }
+        },
+        {
+          "layer": 2,
+          "symbol": 10,
+          "color": 8,
+          "layerTransforms": {
+            "x": 0.0,
+            "y": 8.0,
+            "angle": 0.0,
+            "scale": 11.0,
+            "flipX": false,
+            "flipY": false
+          }
+        },
+        {
+          "layer": 3,
+          "symbol": 0,
+          "color": 8,
+          "layerTransforms": {
+            "x": 0.0,
+            "y": -7.0,
+            "angle": 0.0,
+            "scale": 10.0,
+            "flipX": false,
+            "flipY": false
+          }
+        },
+        {
+          "layer": 4,
+          "symbol": 15,
+          "color": 0,
+          "layerTransforms": {
+            "x": -9.0,
+            "y": 6.0,
+            "angle": 0.0,
+            "scale": 9.0,
+            "flipX": false,
+            "flipY": false
+          }
+        },
+        {
+          "layer": 5,
+          "symbol": 15,
+          "color": 7,
+          "layerTransforms": {
+            "x": 8.0,
+            "y": 6.0,
+            "angle": 0.0,
+            "scale": 9.0,
+            "flipX": true,
+            "flipY": false
+          }
+        }
+      ]
+    },
+    {
+      "creator": "Meme",
+      "heraldry": [
+        {
+          "layer": 0,
+          "symbol": -1,
+          "color": 18,
+          "layerTransforms": {
+            "x": 0.0,
+            "y": 0.0,
+            "angle": 0.0,
+            "scale": 10.0,
+            "flipX": false,
+            "flipY": false
+          }
+        },
+        {
+          "layer": 1,
+          "symbol": 4,
+          "color": 0,
+          "layerTransforms": {
+            "x": 0.0,
+            "y": 0.0,
+            "angle": 0.0,
+            "scale": 10.0,
+            "flipX": false,
+            "flipY": false
+          }
+        },
+        {
+          "layer": 2,
+          "symbol": 5,
+          "color": 12,
+          "layerTransforms": {
+            "x": 0.0,
+            "y": 0.0,
+            "angle": 0.0,
+            "scale": 10.0,
+            "flipX": false,
+            "flipY": false
+          }
+        },
+        {
+          "layer": 3,
+          "symbol": 15,
+          "color": 12,
+          "layerTransforms": {
+            "x": 7.0,
+            "y": 8.0,
+            "angle": 0.0,
+            "scale": 8.0,
+            "flipX": false,
+            "flipY": false
+          }
+        },
+        {
+          "layer": 4,
+          "symbol": 15,
+          "color": 12,
+          "layerTransforms": {
+            "x": -7.0,
+            "y": 8.0,
+            "angle": 0.0,
+            "scale": 8.0,
+            "flipX": true,
+            "flipY": false
+          }
+        },
+        {
+          "layer": 5,
+          "symbol": -1,
+          "color": 41,
+          "layerTransforms": {
+            "x": 0.0,
+            "y": 0.0,
+            "angle": 0.0,
+            "scale": 10.0,
+            "flipX": false,
+            "flipY": false
+          }
+        }
+      ]
+    },
+    {
+      "creator": "Skalix",
+      "heraldry": [
+        {
+          "layer": 0,
+          "symbol": -1,
+          "color": 18,
+          "layerTransforms": {
+            "x": 0.0,
+            "y": 0.0,
+            "angle": 0.0,
+            "scale": 10.0,
+            "flipX": false,
+            "flipY": false
+          }
+        },
+        {
+          "layer": 1,
+          "symbol": 5,
+          "color": 7,
+          "layerTransforms": {
+            "x": 0.0,
+            "y": 0.0,
+            "angle": 0.0,
+            "scale": 10.0,
+            "flipX": false,
+            "flipY": false
+          }
+        },
+        {
+          "layer": 2,
+          "symbol": 17,
+          "color": 0,
+          "layerTransforms": {
+            "x": 0.0,
+            "y": -11.0,
+            "angle": 0.0,
+            "scale": 20.0,
+            "flipX": false,
+            "flipY": false
+          }
+        },
+        {
+          "layer": 3,
+          "symbol": 12,
+          "color": 0,
+          "layerTransforms": {
+            "x": 10.0,
+            "y": 6.0,
+            "angle": 4.0,
+            "scale": 3.0,
+            "flipX": false,
+            "flipY": false
+          }
+        },
+        {
+          "layer": 4,
+          "symbol": 12,
+          "color": 0,
+          "layerTransforms": {
+            "x": -10.0,
+            "y": 6.0,
+            "angle": 32.0,
+            "scale": 3.0,
+            "flipX": true,
+            "flipY": false
+          }
+        },
+        {
+          "layer": 5,
+          "symbol": 10,
+          "color": 7,
+          "layerTransforms": {
+            "x": 0.0,
+            "y": -5.0,
+            "angle": 0.0,
+            "scale": 10.0,
+            "flipX": false,
+            "flipY": false
+          }
+        }
+      ]
+    },
+    {
+      "creator": ".Samson",
+      "heraldry": [
+        {
+          "layer": 0,
+          "symbol": -1,
+          "color": 16,
+          "layerTransforms": {
+            "x": 0.0,
+            "y": 0.0,
+            "angle": 0.0,
+            "scale": 10.0,
+            "flipX": false,
+            "flipY": false
+          }
+        },
+        {
+          "layer": 1,
+          "symbol": 11,
+          "color": 13,
+          "layerTransforms": {
+            "x": 0.0,
+            "y": 0.0,
+            "angle": 0.0,
+            "scale": 10.0,
+            "flipX": false,
+            "flipY": false
+          }
+        },
+        {
+          "layer": 2,
+          "symbol": 8,
+          "color": 15,
+          "layerTransforms": {
+            "x": -7.0,
+            "y": 0.0,
+            "angle": 0.0,
+            "scale": 5.0,
+            "flipX": false,
+            "flipY": false
+          }
+        },
+        {
+          "layer": 3,
+          "symbol": 21,
+          "color": 8,
+          "layerTransforms": {
+            "x": 0.0,
+            "y": 11.0,
+            "angle": 0.0,
+            "scale": 7.0,
+            "flipX": false,
+            "flipY": false
+          }
+        },
+        {
+          "layer": 4,
+          "symbol": 8,
+          "color": 17,
+          "layerTransforms": {
+            "x": 7.0,
+            "y": 0.0,
+            "angle": 0.0,
+            "scale": 5.0,
+            "flipX": true,
+            "flipY": false
+          }
+        },
+        {
+          "layer": 5,
+          "symbol": 1,
+          "color": 18,
+          "layerTransforms": {
+            "x": -11.0,
+            "y": 14.0,
+            "angle": 0.0,
+            "scale": 1.0,
+            "flipX": false,
+            "flipY": false
+          }
+        }
+      ]
+    }
+  ]
+}

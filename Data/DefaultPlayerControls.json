@@ -1,0 +1,435 @@
+{
+  "keybindings": [
+    {
+      "id": 1,
+      "group": "Camera",
+      "keyInputEvent": 19,
+      "primaryKey": 119,
+      "alternativeKey": 273
+    },
+    {
+      "id": 2,
+      "group": "Camera",
+      "keyInputEvent": 21,
+      "primaryKey": 115,
+      "alternativeKey": 274
+    },
+    {
+      "id": 3,
+      "group": "Camera",
+      "keyInputEvent": 22,
+      "primaryKey": 97,
+      "alternativeKey": 276
+    },
+    {
+      "id": 4,
+      "group": "Camera",
+      "keyInputEvent": 20,
+      "primaryKey": 100,
+      "alternativeKey": 275
+    },
+    {
+      "id": 5,
+      "group": "Camera",
+      "keyInputEvent": 1,
+      "primaryKey": 113,
+      "alternativeKey": 263
+    },
+    {
+      "id": 6,
+      "group": "Camera",
+      "keyInputEvent": 2,
+      "primaryKey": 101,
+      "alternativeKey": 265
+    },
+    {
+      "id": 7,
+      "group": "Camera",
+      "keyInputEvent": 5,
+      "primaryKey": 308,
+      "alternativeKey": 0
+    },
+    {
+      "id": 8,
+      "group": "Camera",
+      "keyInputEvent": 9,
+      "primaryKey": 261,
+      "alternativeKey": 0
+    },
+    {
+      "id": 9,
+      "group": "Camera",
+      "keyInputEvent": 12,
+      "primaryKey": 264,
+      "alternativeKey": 0
+    },
+    {
+      "id": 10,
+      "group": "Camera",
+      "keyInputEvent": 13,
+      "primaryKey": 258,
+      "alternativeKey": 0
+    },
+    {
+      "id": 11,
+      "group": "Camera",
+      "keyInputEvent": 11,
+      "primaryKey": 270,
+      "alternativeKey": 0
+    },
+    {
+      "id": 12,
+      "group": "Camera",
+      "keyInputEvent": 10,
+      "primaryKey": 269,
+      "alternativeKey": 0
+    },
+    {
+      "id": 13,
+      "group": "Gameplay",
+      "keyInputEvent": 15,
+      "primaryKey": 49,
+      "alternativeKey": 0
+    },
+    {
+      "id": 14,
+      "group": "Gameplay",
+      "keyInputEvent": 16,
+      "primaryKey": 50,
+      "alternativeKey": 0
+    },
+    {
+      "id": 15,
+      "group": "Gameplay",
+      "keyInputEvent": 17,
+      "primaryKey": 51,
+      "alternativeKey": 0
+    },
+    {
+      "id": 16,
+      "group": "Gameplay",
+      "keyInputEvent": 18,
+      "primaryKey": 32,
+      "alternativeKey": 0
+    },
+    {
+      "id": 17,
+      "group": "Gameplay",
+      "keyInputEvent": 3,
+      "primaryKey": 122,
+      "alternativeKey": 280
+    },
+    {
+      "id": 18,
+      "group": "Gameplay",
+      "keyInputEvent": 4,
+      "primaryKey": 120,
+      "alternativeKey": 281
+    },
+    {
+      "id": 19,
+      "group": "Gameplay",
+      "keyInputEvent": 25,
+      "primaryKey": 99,
+      "alternativeKey": 0
+    },
+    {
+      "id": 20,
+      "group": "Gameplay",
+      "keyInputEvent": 7,
+      "primaryKey": 118,
+      "alternativeKey": 0
+    },
+    {
+      "id": 21,
+      "group": "Gameplay",
+      "keyInputEvent": 50,
+      "primaryKey": 47,
+      "alternativeKey": 0
+    },
+    {
+      "id": 22,
+      "group": "Gameplay",
+      "keyInputEvent": 53,
+      "primaryKey": 92,
+      "alternativeKey": 0
+    },
+    {
+      "id": 23,
+      "group": "Gameplay",
+      "keyInputEvent": 56,
+      "primaryKey": 39,
+      "alternativeKey": 0
+    },
+    {
+      "id": 24,
+      "group": "Gameplay",
+      "keyInputEvent": 57,
+      "primaryKey": 91,
+      "alternativeKey": 0
+    },
+    {
+      "id": 25,
+      "group": "Gameplay",
+      "keyInputEvent": 58,
+      "primaryKey": 93,
+      "alternativeKey": 0
+    },
+    {
+      "id": 26,
+      "group": "Villagers",
+      "keyInputEvent": 37,
+      "primaryKey": 116,
+      "alternativeKey": 0
+    },
+    {
+      "id": 27,
+      "group": "Villagers",
+      "keyInputEvent": 6,
+      "primaryKey": 103,
+      "alternativeKey": 0
+    },
+    {
+      "id": 28,
+      "group": "Villagers",
+      "keyInputEvent": 51,
+      "primaryKey": 277,
+      "alternativeKey": 0
+    },
+    {
+      "id": 29,
+      "group": "Villagers",
+      "keyInputEvent": 33,
+      "primaryKey": 98,
+      "alternativeKey": 0
+    },
+    {
+      "id": 30,
+      "group": "Villagers",
+      "keyInputEvent": 29,
+      "primaryKey": 104,
+      "alternativeKey": 0
+    },
+    {
+      "id": 31,
+      "group": "Villagers",
+      "keyInputEvent": 30,
+      "primaryKey": 106,
+      "alternativeKey": 0
+    },
+    {
+      "id": 32,
+      "group": "Villagers",
+      "keyInputEvent": 34,
+      "primaryKey": 110,
+      "alternativeKey": 0
+    },
+    {
+      "id": 33,
+      "group": "Villagers",
+      "keyInputEvent": 31,
+      "primaryKey": 107,
+      "alternativeKey": 0
+    },
+    {
+      "id": 34,
+      "group": "Villagers",
+      "keyInputEvent": 36,
+      "primaryKey": 46,
+      "alternativeKey": 0
+    },
+    {
+      "id": 35,
+      "group": "Villagers",
+      "keyInputEvent": 32,
+      "primaryKey": 108,
+      "alternativeKey": 0
+    },
+    {
+      "id": 36,
+      "group": "Villagers",
+      "keyInputEvent": 35,
+      "primaryKey": 109,
+      "alternativeKey": 0
+    },
+    {
+      "id": 37,
+      "group": "Construction",
+      "keyInputEvent": 38,
+      "primaryKey": 282,
+      "alternativeKey": 0
+    },
+    {
+      "id": 38,
+      "group": "Construction",
+      "keyInputEvent": 39,
+      "primaryKey": 283,
+      "alternativeKey": 0
+    },
+    {
+      "id": 39,
+      "group": "Construction",
+      "keyInputEvent": 40,
+      "primaryKey": 284,
+      "alternativeKey": 0
+    },
+    {
+      "id": 40,
+      "group": "Construction",
+      "keyInputEvent": 41,
+      "primaryKey": 285,
+      "alternativeKey": 0
+    },
+    {
+      "id": 41,
+      "group": "Construction",
+      "keyInputEvent": 42,
+      "primaryKey": 286,
+      "alternativeKey": 0
+    },
+    {
+      "id": 42,
+      "group": "Construction",
+      "keyInputEvent": 43,
+      "primaryKey": 287,
+      "alternativeKey": 0
+    },
+    {
+      "id": 43,
+      "group": "Construction",
+      "keyInputEvent": 44,
+      "primaryKey": 288,
+      "alternativeKey": 0
+    },
+    {
+      "id": 44,
+      "group": "Construction",
+      "keyInputEvent": 23,
+      "primaryKey": 114,
+      "alternativeKey": 0
+    },
+    {
+      "id": 45,
+      "group": "Construction",
+      "keyInputEvent": 24,
+      "primaryKey": 102,
+      "alternativeKey": 0
+    },
+    {
+      "id": 46,
+      "group": "Construction",
+      "keyInputEvent": 14,
+      "primaryKey": 127,
+      "alternativeKey": 0
+    },
+    {
+      "id": 47,
+      "group": "Misc",
+      "keyInputEvent": 26,
+      "primaryKey": 121,
+      "alternativeKey": 0
+    },
+    {
+      "id": 48,
+      "group": "Misc",
+      "keyInputEvent": 27,
+      "primaryKey": 117,
+      "alternativeKey": 0
+    },
+    {
+      "id": 49,
+      "group": "Misc",
+      "keyInputEvent": 54,
+      "primaryKey": 105,
+      "alternativeKey": 0
+    },
+    {
+      "id": 50,
+      "group": "Misc",
+      "keyInputEvent": 28,
+      "primaryKey": 111,
+      "alternativeKey": 0
+    },
+    {
+      "id": 51,
+      "group": "Misc",
+      "keyInputEvent": 59,
+      "primaryKey": 112,
+      "alternativeKey": 0
+    },
+    {
+      "id": 52,
+      "group": "Misc",
+      "keyInputEvent": 60,
+      "primaryKey": 0,
+      "alternativeKey": 0
+    },
+    {
+      "id": 53,
+      "group": "Misc",
+      "keyInputEvent": 61,
+      "primaryKey": 0,
+      "alternativeKey": 0
+    },
+    {
+      "id": 54,
+      "group": "Hidden",
+      "keyInputEvent": 45,
+      "primaryKey": 268,
+      "alternativeKey": 0
+    },
+    {
+      "id": 55,
+      "group": "Hidden",
+      "keyInputEvent": 46,
+      "primaryKey": 9,
+      "alternativeKey": 0
+    },
+    {
+      "id": 56,
+      "group": "Hidden",
+      "keyInputEvent": 47,
+      "primaryKey": 304,
+      "alternativeKey": 0
+    },
+    {
+      "id": 57,
+      "group": "Hidden",
+      "keyInputEvent": 48,
+      "primaryKey": 27,
+      "alternativeKey": 0
+    },
+    {
+      "id": 58,
+      "group": "Hidden",
+      "keyInputEvent": 49,
+      "primaryKey": 291,
+      "alternativeKey": 0
+    },
+    {
+      "id": 59,
+      "group": "Hidden",
+      "keyInputEvent": 52,
+      "primaryKey": 96,
+      "alternativeKey": 0
+    },
+    {
+      "id": 60,
+      "group": "Hidden",
+      "keyInputEvent": 55,
+      "primaryKey": 306,
+      "alternativeKey": 0
+    }
+  ],
+  "keybindingCancelKey": 25,
+  "restrictedKeys": [
+    268,9,323,324,325,326,327,328,329,27,303,304,305,306,291,96
+  ],
+  "restrictedKeyBindings": [
+  ],
+  "mouseXAxis": "Mouse X",
+  "mouseYAxis": "Mouse Y",
+  "mouseZoomAxis": "Mouse ScrollWheel",
+  "mouseOrbitKey": 325,
+  "cameraPanKey": 324
+}

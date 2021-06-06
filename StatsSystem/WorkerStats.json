@@ -1,0 +1,1060 @@
+{
+  "name": "Worker",
+  "repository": [
+    {
+      "debugName": "Health",
+      "type": 1,
+      "initialValue": 100,
+      "initialValueRange": {
+        "min": 100,
+        "max": 100
+      },
+      "attributes": {
+        "min": [
+          {
+            "baseValue": 0
+          }
+        ],
+        "max": [
+          {
+            "baseValue": 100,
+            "attributes": [
+              56
+            ]
+          }
+        ],
+        "step": [
+          {
+            "baseValue": 1,
+            "attributes": [
+              57,
+              70
+            ]
+          }
+        ],
+        "threshold": [
+          {
+            "baseValue": 1
+          }
+        ]
+      },
+      "thresholds": [
+        {
+          "trigger": 10,
+          "name": "health_treshold_01",
+          "effectors": [
+            "ConDmgHP01",
+            "CriticalWarning"
+          ]
+        }
+      ]
+    },
+    {
+      "debugName": "Sleep",
+      "type": 2,
+      "initialValue": 85,
+      "initialValueRange": {
+        "min": 85,
+        "max": 90
+      },
+      "attributes": {
+        "min": [
+          {
+            "baseValue": 0
+          }
+        ],
+        "max": [
+          {
+            "baseValue": 100
+          }
+        ],
+        "step": [
+          {
+            "baseValue": -4.6,
+            "attributes": [
+              10,
+              51,
+              12
+            ]
+          }
+        ],
+        "threshold": [
+          {
+            "baseValue": 1,
+            "attributes": [
+              11
+            ]
+          }
+        ]
+      },
+      "thresholds": [
+        {
+          "trigger": 100,
+          "name": "sleep_treshold_00",
+          "effectors": [
+            "SleepFull"
+          ]
+        },
+        {
+          "trigger": 90,
+          "name": "sleep_treshold_01",
+          "effectors": [
+            "SleepDef"
+          ]
+        },
+        {
+          "trigger": 30,
+          "name": "sleep_treshold_02",
+          "effectors": [
+            "SlightNeedSleep"
+          ]
+        },
+        {
+          "trigger": 20,
+          "name": "sleep_treshold_03",
+          "effectors": [
+            "NeedSleep"
+          ]
+        },
+        {
+          "trigger": 10,
+          "name": "sleep_treshold_04",
+          "effectors": [
+            "ExtremeNeedSleep"
+          ]
+        },
+        {
+          "trigger": 0,
+          "name": "sleep_treshold_05",
+          "effectors": [
+            "ExtremeNeedSleepConLoss"
+          ]
+        }
+      ]
+    },
+    {
+      "debugName": "Hunger",
+      "type": 3,
+      "initialValue": 60,
+      "initialValueRange": {
+        "min": 55,
+        "max": 70
+      },
+      "attributes": {
+        "min": [
+          {
+            "baseValue": -100
+          }
+        ],
+        "max": [
+          {
+            "baseValue": 100
+          }
+        ],
+        "step": [
+          {
+            "baseValue": -5,
+            "attributes": [
+              7
+            ]
+          }
+        ],
+        "threshold": [
+          {
+            "baseValue": 1,
+            "attributes": [
+              8
+            ]
+          }
+        ]
+      },
+      "thresholds": [
+        {
+          "trigger": 100,
+          "name": "food_treshold_00"
+        },
+        {
+          "trigger": 35,
+          "name": "food_treshold_01",
+          "effectors": [
+            "SlightlyHungry"
+          ]
+        },
+        {
+          "trigger": 30,
+          "name": "food_treshold_02",
+          "effectors": [
+            "Hungry"
+          ]
+        },
+        {
+          "trigger": 10,
+          "name": "food_treshold_03",
+          "effectors": [
+            "VeryHungry"
+          ]
+        },
+        {
+          "trigger": 0,
+          "name": "food_treshold_04",
+          "effectors": [
+            "Starving"
+          ]
+        },
+        {
+          "trigger": -60,
+          "name": "food_treshold_05",
+          "effectors": [
+            "StarvationLoosHP"
+          ]
+        }
+      ]
+    },
+    {
+      "debugName": "Mood",
+      "type": 6,
+      "initialValue": 50,
+      "initialValueRange": {
+        "min": 45,
+        "max": 60
+      },
+      "attributes": {
+        "min": [
+          {
+            "baseValue": 0
+          }
+        ],
+        "max": [
+          {
+            "baseValue": 100
+          }
+        ],
+        "step": [
+          {
+            "baseValue": 2,
+            "attributes": [
+              37
+            ]
+          }
+        ],
+        "threshold": [
+          {
+            "baseValue": 1
+          }
+        ],
+        "target": [
+          {
+            "baseValue": 1,
+            "attributes": [
+              36
+            ]
+          }
+        ]
+      },
+      "thresholds": [
+        {
+          "trigger": 100,
+          "name": "mood_treshold_00",
+          "effectors": [
+            "AgentMoodGood"
+          ]
+        },
+        {
+          "trigger": 85,
+          "name": "mood_treshold_01",
+          "effectors": [
+            "AgentMoodDef"
+          ]
+        },
+        {
+          "trigger": 30,
+          "name": "mood_treshold_02",
+          "effectors": [
+            "MoodAnnoyed"
+          ]
+        },
+        {
+          "trigger": 20,
+          "name": "mood_treshold_03",
+          "effectors": [
+            "MoodLow"
+          ]
+        },
+        {
+          "trigger": 15,
+          "name": "mood_treshold_04",
+          "effectors": [
+            "AgentBreakdownSmall",
+            "AgentDrinkBindge",
+            "AgentEatBindge",
+            "AgentBreakdownSmallGetMood",
+            "AgentBreakdownSmallAfter"
+          ]
+        },
+        {
+          "trigger": 0,
+          "name": "mood_treshold_05",
+          "effectors": [
+            "AgentLeaveColony"
+          ]
+        }
+      ]
+    },
+    {
+      "debugName": "Blood",
+      "type": 7,
+      "initialValue": 100,
+      "initialValueRange": {
+        "min": 100,
+        "max": 100
+      },
+      "attributes": {
+        "min": [
+          {
+            "baseValue": 0
+          }
+        ],
+        "max": [
+          {
+            "baseValue": 100
+          }
+        ],
+        "step": [
+          {
+            "baseValue": 1,
+            "attributes": [
+              58,
+              59
+            ]
+          }
+        ],
+        "threshold": [
+          {
+            "baseValue": 1
+          }
+        ]
+      },
+      "thresholds": [
+        {
+          "trigger": 80,
+          "name": "blood_treshold_01",
+          "effectors": [
+            "ConDmgBloodLoss01"
+          ]
+        },
+        {
+          "trigger": 50,
+          "name": "blood_treshold_02",
+          "effectors": [
+            "ConDmgBloodLoss02"
+          ]
+        },
+        {
+          "trigger": 10,
+          "name": "blood_treshold_03",
+          "effectors": [
+            "ConDmgBloodLoss03",
+            "BleedingWarning"
+          ]
+        }
+      ]
+    },
+    {
+      "debugName": "Consciousness",
+      "type": 8,
+      "initialValue": 100,
+      "initialValueRange": {
+        "min": 100,
+        "max": 100
+      },
+      "attributes": {
+        "min": [
+          {
+            "baseValue": 0
+          }
+        ],
+        "max": [
+          {
+            "baseValue": 100,
+            "attributes": [
+              61
+            ]
+          }
+        ],
+        "step": [
+          {
+            "baseValue": 4,
+            "attributes": [
+              60,
+              69
+            ]
+          }
+        ],
+        "threshold": [
+          {
+            "baseValue": 1
+          }
+        ]
+      },
+      "thresholds": [
+        {
+          "trigger": 40,
+          "name": "consciousness_treshold_01",
+          "effectors": [
+            "ConLoseMotor"
+          ]
+        },
+        {
+          "trigger": 30,
+          "name": "consciousness_treshold_02",
+          "effectors": [
+            "ConLoseMotorHigh"
+          ]
+        },
+        {
+          "trigger": 20,
+          "name": "consciousness_treshold_03",
+          "effectors": [
+            "WorkerFaintEffector"
+          ]
+        }
+      ]
+    },
+    {
+      "debugName": "Pain",
+      "type": 9,
+      "initialValue": 100,
+      "initialValueRange": {
+        "min": 100,
+        "max": 100
+      },
+      "attributes": {
+        "min": [
+          {
+            "baseValue": 0
+          }
+        ],
+        "max": [
+          {
+            "baseValue": 100,
+            "attributes": [
+              63
+            ]
+          }
+        ],
+        "step": [
+          {
+            "baseValue": 4
+          }
+        ],
+        "threshold": [
+          {
+            "baseValue": 1,
+            "attributes": [
+              64
+            ]
+          }
+        ]
+      },
+      "thresholds": [
+        {
+          "trigger": 80,
+          "name": "pain_treshold_01",
+          "effectors": [
+            "ConDmgPain01"
+          ]
+        },
+        {
+          "trigger": 60,
+          "name": "pain_treshold_02",
+          "effectors": [
+            "ConDmgPain01"
+          ]
+        },
+        {
+          "trigger": 40,
+          "name": "pain_treshold_03",
+          "effectors": [
+            "ConDmgPain01"
+          ]
+        },
+        {
+          "trigger": 20,
+          "name": "pain_treshold_04",
+          "effectors": [
+            "ConDmgPain02"
+          ]
+        },
+        {
+          "trigger": 5,
+          "name": "pain_treshold_05",
+          "effectors": [
+            "ConDmgPain03"
+          ]
+        }
+      ]
+    },
+    {
+      "debugName": "Faith",
+      "type": 11,
+      "initialValue": 75,
+      "initialValueRange": {
+        "min": 75,
+        "max": 80
+      },
+      "attributes": {
+        "min": [
+          {
+            "baseValue": 0
+          }
+        ],
+        "max": [
+          {
+            "baseValue": 100
+          }
+        ],
+        "step": [
+          {
+            "baseValue": -2.5,
+            "attributes": [
+              84,
+              77,
+              76
+            ]
+          }
+        ],
+        "threshold": [
+          {
+            "baseValue": 1,
+            "attributes": [
+              78
+            ]
+          }
+        ]
+      },
+      "thresholds": [
+        {
+          "trigger": 200,
+          "name": "faith_treshold_01",
+          "effectors": [
+            "FaithFull"
+          ]
+        },
+        {
+          "trigger": 70,
+          "name": "faith_treshold_02",
+          "effectors": [
+            "FaithDef"
+          ]
+        },
+        {
+          "trigger": 40,
+          "name": "faith_treshold_03",
+          "effectors": [
+            "FaithNeed"
+          ]
+        },
+        {
+          "trigger": 20,
+          "name": "faith_treshold_04",
+          "effectors": [
+            "FaithDeprived"
+          ]
+        }
+      ]
+    },
+    {
+      "debugName": "Alcohol",
+      "type": 12,
+      "initialValue": 75,
+      "initialValueRange": {
+        "min": 55,
+        "max": 70
+      },
+      "attributes": {
+        "min": [
+          {
+            "baseValue": 0
+          }
+        ],
+        "max": [
+          {
+            "baseValue": 100
+          }
+        ],
+        "step": [
+          {
+            "baseValue": -2,
+            "attributes": [
+              82,
+              92
+            ]
+          }
+        ],
+        "threshold": [
+          {
+            "baseValue": 1
+          }
+        ]
+      },
+      "thresholds": [
+        {
+          "trigger": 100,
+          "name": "alc_treshold_01",
+          "effectors": [
+            "AlcoholNeedNone"
+          ]
+        },
+        {
+          "trigger": 70,
+          "name": "alc_treshold_02",
+          "effectors": [
+            "AlcoholNeedDef"
+          ]
+        },
+        {
+          "trigger": 40,
+          "name": "alc_treshold_03",
+          "effectors": [
+            "AlcoholNeedLow"
+          ]
+        },
+        {
+          "trigger": 15,
+          "name": "alc_treshold_04",
+          "effectors": [
+            "AlcoholNeedMed"
+          ]
+        },
+        {
+          "trigger": 5,
+          "name": "alc_treshold_05",
+          "effectors": [
+            "AlcoholNeedHigh"
+          ]
+        }
+      ]
+    },
+    {
+      "debugName": "Entertaiment",
+      "type": 13,
+      "initialValue": 75,
+      "initialValueRange": {
+        "min": 80,
+        "max": 100
+      },
+      "attributes": {
+        "min": [
+          {
+            "baseValue": 0
+          }
+        ],
+        "max": [
+          {
+            "baseValue": 100
+          }
+        ],
+        "step": [
+          {
+            "baseValue": -2,
+            "attributes": [
+              80,
+              79
+            ]
+          }
+        ],
+        "threshold": [
+          {
+            "baseValue": 1,
+            "attributes": [
+              81
+            ]
+          }
+        ]
+      },
+      "thresholds": [
+        {
+          "trigger": 200,
+          "name": "entertaiment_treshold_01",
+          "effectors": [
+            "EntertainmentFull"
+          ]
+        },
+        {
+          "trigger": 70,
+          "name": "entertaiment_treshold_02",
+          "effectors": [
+            "EntertainmentDef"
+          ]
+        },
+        {
+          "trigger": 40,
+          "name": "entertaiment_treshold_03",
+          "effectors": [
+            "EntertainmentNeed"
+          ]
+        },
+        {
+          "trigger": 20,
+          "name": "entertaiment_treshold_04",
+          "effectors": [
+            "EntertainmentDeprived"
+          ]
+        }
+      ]
+    },
+    {
+      "debugName": "ReligiousAlignment",
+      "type": 14,
+      "initialValue": 0,
+      "initialValueRange": {
+        "min": 0,
+        "max": 0
+      },
+      "attributes": {
+        "min": [
+          {
+            "baseValue": 0
+          }
+        ],
+        "max": [
+          {
+            "baseValue": 100
+          }
+        ],
+        "step": [
+          {
+            "baseValue": 0
+          }
+        ],
+        "threshold": [
+          {
+            "baseValue": 1
+          }
+        ]
+      },
+      "thresholds": [
+        {
+          "trigger": 101,
+          "name": "religious_align_treshold_01",
+          "effectors": [
+            "ReligionHeavyChris"
+          ]
+        },
+        {
+          "trigger": 80,
+          "name": "religious_align_treshold_02",
+          "effectors": [
+            "ReligionMedChris"
+          ]
+        },
+        {
+          "trigger": 60,
+          "name": "religious_align_treshold_03",
+          "effectors": [
+            "ReligionLight"
+          ]
+        },
+        {
+          "trigger": 50,
+          "name": "religious_align_treshold_04",
+          "effectors": [
+            "ReligionLight"
+          ]
+        },
+        {
+          "trigger": 40,
+          "name": "religious_align_treshold_05",
+          "effectors": [
+            "ReligionMedPag"
+          ]
+        },
+        {
+          "trigger": 20,
+          "name": "religious_align_treshold_06",
+          "effectors": [
+            "ReligionHeavyPag"
+          ]
+        }
+      ]
+    },
+    {
+      "debugName": "Inebriated",
+      "type": 15,
+      "initialValue": 100,
+      "initialValueRange": {
+        "min": 100,
+        "max": 100
+      },
+      "attributes": {
+        "min": [
+          {
+            "baseValue": 0
+          }
+        ],
+        "max": [
+          {
+            "baseValue": 100
+          }
+        ],
+        "step": [
+          {
+            "baseValue": 3,
+            "attributes": [
+              87,
+              86
+            ]
+          }
+        ],
+        "threshold": [
+          {
+            "baseValue": 1,
+            "attributes": [
+              88
+            ]
+          }
+        ]
+      },
+      "thresholds": [
+        {
+          "trigger": 75,
+          "name": "Inebriated_treshold_01",
+          "effectors": [
+            "InebriatedLow",
+            "InebriatedWorkLowPerkEffector",
+            "InebriatedAttackStrenghtPerkEffector"
+          ]
+        },
+        {
+          "trigger": 60,
+          "name": "Inebriated_treshold_02",
+          "effectors": [
+            "InebriatedMed",
+            "InebriatedWorkMedPerkEffector"
+          ]
+        },
+        {
+          "trigger": 55,
+          "name": "Inebriated_treshold_03",
+          "effectors": [
+            "InebriatedHigh",
+            "InebriatedWorkHighPerkEffector"
+          ]
+        },
+        {
+          "trigger": 50,
+          "name": "Inebriated_treshold_04",
+          "effectors": [
+            "InebriatedVeryHigh",
+            "InebriatedWorkVeryHighPerkEffector"
+          ]
+        }
+      ]
+    },
+    {
+      "debugName": "Stomach",
+      "type": 16,
+      "initialValue": 100,
+      "initialValueRange": {
+        "min": 90,
+        "max": 100
+      },
+      "attributes": {
+        "min": [
+          {
+            "baseValue": 0
+          }
+        ],
+        "max": [
+          {
+            "baseValue": 100
+          }
+        ],
+        "step": [
+          {
+            "baseValue": 1,
+            "attributes": [
+              90,
+              89
+            ]
+          }
+        ],
+        "threshold": [
+          {
+            "baseValue": 1,
+            "attributes": [
+              91
+            ]
+          }
+        ]
+      },
+      "thresholds": [
+        {
+          "trigger": 30,
+          "name": "stomach_treshold_01",
+          "effectors": [
+            "StomachHurtLow"
+          ]
+        },
+        {
+          "trigger": 15,
+          "name": "stomach_treshold_02",
+          "effectors": [
+            "StomachHurtMed"
+          ]
+        },
+        {
+          "trigger": 1,
+          "name": "stomach_treshold_03",
+          "effectors": [
+            "VomitAfter",
+            "VomitAnim"
+          ]
+        }
+      ]
+    },
+    {
+      "debugName": "TemperatureCold",
+      "type": 17,
+      "initialValue": 100,
+      "initialValueRange": {
+        "min": 100,
+        "max": 100
+      },
+      "attributes": {
+        "min": [
+          {
+            "baseValue": 0
+          }
+        ],
+        "max": [
+          {
+            "baseValue": 100
+          }
+        ],
+        "step": [
+          {
+            "baseValue": 20,
+            "attributes": [
+              95
+            ]
+          }
+        ],
+        "threshold": [
+          {
+            "baseValue": 1
+          }
+        ],
+        "target": [
+          {
+            "baseValue": 1,
+            "attributes": [
+              94
+            ]
+          }
+        ]
+      },
+      "thresholds": [
+        {
+          "trigger": 70,
+          "name": "temeprature_cold_treshold_01",
+          "effectors": [
+            "Chilly",
+            "ChillyPositivePerkEffector"
+          ]
+        },
+        {
+          "trigger": 40,
+          "name": "temeprature_cold_treshold_02",
+          "effectors": [
+            "Cold",
+            "ColdPositivePerkEffector"
+          ]
+        },
+        {
+          "trigger": 15,
+          "name": "temeprature_cold_treshold_03",
+          "effectors": [
+            "Freezing",
+            "hypothermia"
+          ]
+        },
+        {
+          "trigger": 1,
+          "name": "temeprature_cold_treshold_04",
+          "effectors": [
+            "FrozenDeath"
+          ]
+        }
+      ]
+    },
+    {
+      "debugName": "TemperatureHot",
+      "type": 18,
+      "initialValue": 100,
+      "initialValueRange": {
+        "min": 100,
+        "max": 100
+      },
+      "attributes": {
+        "min": [
+          {
+            "baseValue": 0
+          }
+        ],
+        "max": [
+          {
+            "baseValue": 100
+          }
+        ],
+        "step": [
+          {
+            "baseValue": 20,
+            "attributes": [
+              97
+            ]
+          }
+        ],
+        "threshold": [
+          {
+            "baseValue": 1
+          }
+        ],
+        "target": [
+          {
+            "baseValue": 1,
+            "attributes": [
+              96
+            ]
+          }
+        ]
+      },
+      "thresholds": [
+        {
+          "trigger": 70,
+          "name": "temeprature_hot_treshold_01",
+          "effectors": [
+            "Sweaty",
+            "SweatyPositivePerkEffector"
+          ]
+        },
+        {
+          "trigger": 40,
+          "name": "temeprature_hot_treshold_02",
+          "effectors": [
+            "Hot",
+            "HotPositivePerkEffector"
+          ]
+        },
+        {
+          "trigger": 15,
+          "name": "temeprature_hot_treshold_03",
+          "effectors": [
+            "VeryHot",
+            "heatstroke"
+          ]
+        }
+      ]
+    }
+  ]
+}

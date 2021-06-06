@@ -1,0 +1,76 @@
+{
+	"storage":[
+		{
+			"id": "Builder",
+			"gameMode": 0,
+			"raidStrengthMultiplierList": {
+				"threshold": -1,
+				"list":
+				[
+					{
+						"key": 1,
+						"value": 1
+					},
+					{
+						"key": 20,
+						"value": 1
+					},
+					{
+						"key": 120,
+						"value": 3
+					}
+				]
+			}
+		},
+		{
+			"id": "Standard",
+			"gameMode": 1,
+			"threshold": -1,
+			"raidStrengthMultiplierList": {
+				"threshold": -1,
+				"list":
+				[
+					{
+						"key": 1,
+						"value": 1
+					},
+					{
+						"key": 20,
+						"value": 1
+					},
+					{
+						"key": 120,
+						"value": 2
+					}
+				]
+			}
+		},
+		{
+			"id": "Survival",
+			"gameMode": 2,
+			"threshold": -1,
+			"raidStrengthMultiplierList": {
+				"threshold": -1,
+				"list":
+				[
+					{
+						"key": 1,
+						"value": 1
+					},
+					{
+						"key": 20,
+						"value": 1.2
+					},
+					{
+						"key": 120,
+						"value": 3
+					},
+					{
+						"key": 700,
+						"value": 15
+					}
+				]
+			}
+		}	
+	]
+}

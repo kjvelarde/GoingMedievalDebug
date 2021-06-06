@@ -1,0 +1,162 @@
+{
+  "repository": [
+    {
+      "id": "worker",
+	  "cantWalkOnTags": [2, 8],
+      "passionMultipliers": [
+        1,
+        2.5,
+        4
+      ],
+      "storageBase": {
+        "capacity": 60
+      },
+      "availableEquipmentSlots": 31,
+      "warmth": {
+        "hotTresholds": [
+          { 
+            "trigger": 26,
+            "effectors": ["GlobalTempHot01"]
+          },
+          { 
+            "trigger": 30,
+            "effectors": ["GlobalTempHot02"]
+          },
+          { 
+            "trigger": 35,
+            "effectors": ["GlobalTempHot03"]
+          }
+        ],
+        "coldThresholds": [
+          { 
+            "trigger": 13,
+            "effectors": ["GlobalTempCold01"]
+          },
+          { 
+            "trigger": 4,
+            "effectors": ["GlobalTempCold02"]
+          },
+          { 
+            "trigger": -13,
+            "effectors": ["GlobalTempCold03"]
+          }
+        ]
+      },
+      "combatHitXp": {
+        "meleeHit": 100,
+        "meleeMis": 30,
+        "marksmanHit": 55,
+        "marksmanMiss": 20,
+        "animalHandlingHit": 90,
+        "animalHandlingMiss": 1
+      },
+      "combatModes":
+      [
+        {
+          "modeType": 1,
+          "effector": "CombatModeAggresive",
+          "combatAiAgent": "WorkerAggressiveAiAgent"
+        },
+        {
+          "modeType": 2,
+          "effector": "WorkerFleeAiAgent",
+          "combatAiAgent": "WorkerFleeAiAgent"
+        },
+        {
+          "modeType": 3,
+          "effector": "CombatModeIgnore",
+          "combatAiAgent": "WorkerIgnoreAiAgent"
+        },
+        {
+          "modeType": 4,
+          "combatAiAgent": "WorkerDraftAiAgent"
+        }
+      ],
+      "minSleepEffectorTime": 2,
+      "sleepEffectors": 
+      [
+        {
+          "key": "outside",
+          "value": "SleptOutside"
+        },
+        {
+          "key": "rain",
+          "value": "SleptOnRain"
+        },
+        {
+          "key": "snow",
+          "value": "SleptOnSnow"
+        },
+        {
+          "key": "ground",
+          "value": "SleptWithoutBed"
+        },
+        {
+          "key": "sleeping",
+          "value": "SleepingHealing"
+        },
+        {
+          "key": "hay_wood_bed",
+          "value": "SleptInMedQualityBed"
+        },
+        {
+          "key": "hay_sleeping_spot",
+          "value": "SleptInLowQualityBed"
+        }
+      ],
+      "idleWarningDelayTime": 5.0,
+      "faintEffector": "WhileFaintedEffector",
+      "restEffector": "RestingHealing",
+      "banishEffector": "BanishedVillager",
+      "raidWonEffector": "RaidWonEffector",
+      "raidLostEffector": "RaidLostEffector",
+      "eatStandingUpEffector": "eatStandingUpEffector",
+      "eatWithoutTableEffector": "eatWithoutTableEffector",
+      "eatAtTableEffector": "AteAtTable",
+      "prayingEffector": "FaithWhilePraying",
+      "afterVomitEffector": "VomitStop",
+      "entertainmentEffector": "EntertainmentWhileActive",
+      "spawnEffectors": ["NewVillagerInitialOptimisam"],
+      "afterCrazyEffector": "AgentBreakdownAfterMoodBoost",
+      "whileUntendedEffector": "whileUntendedEffector",
+      "skinColor": [
+        "#fbedca",
+        "#fdf1cb",
+        "#fbe5ba",
+        "#fddcb4",
+        "#ffd6a4",
+        "#deb093",
+        "#d8a27f",
+        "#ffdcb6",
+        "#ffd29d",
+        "#e3bb8d"
+      ],
+      "hairColor": [
+        "#090806",
+        "#2C222B",
+        "#71635A",
+        "#B7A69E",
+        "#D6C4C2",
+        "#CABFB1",
+        "#DCD0BA",
+        "#FFF5E1",
+        "#E6CEA8",
+        "#E6CEA8",
+        "#DEBC99",
+        "#B89778",
+        "#A56B46",
+        "#B55239",
+        "#8D4A43",
+        "#91553D",
+        "#533D32",
+        "#3B3024",
+        "#554838",
+        "#4E433F",
+        "#504444",
+        "#6A4E42",
+        "#A7856A",
+        "#977961"
+      ]
+    }
+  ]
+}

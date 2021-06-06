@@ -1,0 +1,14 @@
+{
+	"threshold": -1,
+	"list":
+	[
+		{
+			"key": 0,
+			"value": 0.5
+		},
+		{
+			"key": 20,
+			"value": 2
+		}
+	]
+}

@@ -1,0 +1,547 @@
+{
+  "repository": [
+    {
+      "id": "Backstory_1",
+      "skillModifiers": [
+        {
+          "key": 1,
+          "value": 3
+        }
+      ],
+      "societalAlignment": -0.2,
+      "religiousAlignment": 0.2
+    },
+    {
+      "id": "Backstory_2",
+      "skillModifiers": [
+        {
+          "key": 1,
+          "value": 3
+        }
+      ],
+      "societalAlignment": 0.2,
+      "religiousAlignment": -0.2
+    },
+    {
+      "id": "Backstory_3",
+      "skillModifiers": [
+        {
+          "key": 1,
+          "value": 5
+        }
+      ],
+      "societalAlignment": -0.05,
+      "religiousAlignment": 0.1
+    },
+    {
+      "id": "Backstory_4",
+      "skillModifiers": [
+        {
+          "key": 2,
+          "value": 5
+        }
+      ],
+      "societalAlignment": -0.15,
+      "religiousAlignment": 0.05
+    },
+    {
+      "id": "Backstory_5",
+      "skillModifiers": [
+        {
+          "key": 2,
+          "value": 3
+        },
+        {
+          "key": 5,
+          "value": 3
+        }
+      ],
+      "societalAlignment": -0.1,
+      "religiousAlignment": -0.05
+    },
+    {
+      "id": "Backstory_6",
+      "skillModifiers": [
+        {
+          "key": 2,
+          "value": 3
+        }
+      ],
+      "societalAlignment": 0,
+      "religiousAlignment": 0
+    },
+    {
+      "id": "Backstory_7",
+      "skillModifiers": [
+        {
+          "key": 2,
+          "value": 3
+        },
+        {
+          "key": 12,
+          "value": 3
+        }
+      ],
+      "societalAlignment": -0.2,
+      "religiousAlignment": 0.2
+    },
+    {
+      "id": "Backstory_8",
+      "skillModifiers": [
+        {
+          "key": 3,
+          "value": 5
+        }
+      ],
+      "societalAlignment": 0,
+      "religiousAlignment": -0.15
+    },
+    {
+      "id": "Backstory_9",
+      "skillModifiers": [
+        {
+          "key": 3,
+          "value": 3
+        }
+      ],
+      "societalAlignment": -0.2,
+      "religiousAlignment": -0.2
+    },
+    {
+      "id": "Backstory_10",
+      "skillModifiers": [
+        {
+          "key": 3,
+          "value": 3
+        },
+        {
+          "key": 10,
+          "value": 3
+        }
+      ],
+      "societalAlignment": 0.2,
+      "religiousAlignment": 0.2
+    },
+    {
+      "id": "Backstory_11",
+      "skillModifiers": [
+        {
+          "key": 4,
+          "value": 5
+        }
+      ],
+      "societalAlignment": -0.05,
+      "religiousAlignment": 0
+    },
+    {
+      "id": "Backstory_12",
+      "skillModifiers": [
+        {
+          "key": 4,
+          "value": 3
+        },
+        {
+          "key": 9,
+          "value": 3
+        }
+      ],
+      "societalAlignment": 0.15,
+      "religiousAlignment": 0
+    },
+    {
+      "id": "Backstory_13",
+      "skillModifiers": [
+        {
+          "key": 11,
+          "value": -3
+        },
+        {
+          "key": 6,
+          "value": -5
+        }
+      ],
+      "societalAlignment": 0.1,
+      "religiousAlignment": 0
+    },
+    {
+      "id": "Backstory_14",
+      "skillModifiers": [
+        {
+          "key": 4,
+          "value": 3
+        },
+        {
+          "key": 8,
+          "value": 3
+        }
+      ],
+      "societalAlignment": -0.15,
+      "religiousAlignment": -0.2
+    },
+    {
+      "id": "Backstory_15",
+      "skillModifiers": [
+        {
+          "key": 5,
+          "value": 5
+        }
+      ],
+      "societalAlignment": 0.05,
+      "religiousAlignment": 0.15
+    },
+    {
+      "id": "Backstory_16",
+      "skillModifiers": [
+        {
+          "key": 5,
+          "value": 3
+        },
+        {
+          "key": 8,
+          "value": 3
+        }
+      ],
+      "societalAlignment": -0.05,
+      "religiousAlignment": -0.2
+    },
+    {
+      "id": "Backstory_17",
+      "skillModifiers": [
+        {
+          "key": 5,
+          "value": 5
+        }
+      ],
+      "societalAlignment": 0,
+      "religiousAlignment": 0.15
+    },
+    {
+      "id": "Backstory_18",
+      "skillModifiers": [
+        {
+          "key": 6,
+          "value": 5
+        }
+      ],
+      "societalAlignment": -0.05,
+      "religiousAlignment": -0.25
+    },
+    {
+      "id": "Backstory_19",
+      "skillModifiers": [
+        {
+          "key": 6,
+          "value": 5
+        }
+      ],
+      "societalAlignment": -0.2,
+      "religiousAlignment": 0
+    },
+    {
+      "id": "Backstory_20",
+      "skillModifiers": [
+        {
+          "key": 6,
+          "value": 5
+        }
+      ],
+      "societalAlignment": 0.05,
+      "religiousAlignment": -0.25
+    },
+    {
+      "id": "Backstory_21",
+      "skillModifiers": [
+        {
+          "key": 6,
+          "value": 3
+        },
+        {
+          "key": 9,
+          "value": 3
+        },
+        {
+          "key": 7,
+          "value": 3
+        }
+      ],
+      "societalAlignment": -0.25,
+      "religiousAlignment": 0.25
+    },
+    {
+      "id": "Backstory_22",
+      "skillModifiers": [
+        {
+          "key": 7,
+          "value": 5
+        }
+      ],
+      "societalAlignment": 0.1,
+      "religiousAlignment": -0.15
+    },
+    {
+      "id": "Backstory_23",
+      "skillModifiers": [
+        {
+          "key": 7,
+          "value": 3
+        }
+      ],
+      "societalAlignment": -0.15,
+      "religiousAlignment": -0.25
+    },
+    {
+      "id": "Backstory_24",
+      "skillModifiers": [
+        {
+          "key": 7,
+          "value": 3
+        }
+      ],
+      "societalAlignment": -0.25,
+      "religiousAlignment": -0.2
+    },
+    {
+      "id": "Backstory_25",
+      "skillModifiers": [
+        {
+          "key": 7,
+          "value": 3
+        },
+        {
+          "key": 9,
+          "value": 3
+        }
+      ],
+      "societalAlignment": 0.05,
+      "religiousAlignment": 0.1
+    },
+    {
+      "id": "Backstory_26",
+      "skillModifiers": [
+        {
+          "key": 8,
+          "value": 5
+        }
+      ],
+      "societalAlignment": -0.15,
+      "religiousAlignment": 0.25
+    },
+    {
+      "id": "Backstory_27",
+      "skillModifiers": [
+        {
+          "key": 8,
+          "value": 3
+        },
+        {
+          "key": 6,
+          "value": 3
+        }
+      ],
+      "societalAlignment": -0.1,
+      "religiousAlignment": -0.15
+    },
+    {
+      "id": "Backstory_28",
+      "skillModifiers": [
+        {
+          "key": 8,
+          "value": 3
+        }
+      ],
+      "societalAlignment": 0,
+      "religiousAlignment": 0.15
+    },
+    {
+      "id": "Backstory_29",
+      "skillModifiers": [
+        {
+          "key": 9,
+          "value": 5
+        }
+      ],
+      "societalAlignment": -0.15,
+      "religiousAlignment": -0.15
+    },
+    {
+      "id": "Backstory_30",
+      "skillModifiers": [
+        {
+          "key": 9,
+          "value": 3
+        }
+      ],
+      "societalAlignment": -0.1,
+      "religiousAlignment": 0
+    },
+    {
+      "id": "Backstory_31",
+      "skillModifiers": [
+        {
+          "key": 9,
+          "value": 5
+        }
+      ],
+      "societalAlignment": -0.25,
+      "religiousAlignment": 0.25
+    },
+    {
+      "id": "Backstory_32",
+      "skillModifiers": [
+        {
+          "key": 9,
+          "value": 5
+        }
+      ],
+      "societalAlignment": 0,
+      "religiousAlignment": -0.2
+    },
+    {
+      "id": "Backstory_33",
+      "skillModifiers": [
+        {
+          "key": 10,
+          "value": 5
+        }
+      ],
+      "societalAlignment": -0.25,
+      "religiousAlignment": -0.2
+    },
+    {
+      "id": "Backstory_34",
+      "skillModifiers": [
+        {
+          "key": 10,
+          "value": 3
+        }
+      ],
+      "societalAlignment": 0,
+      "religiousAlignment": -0.2
+    },
+    {
+      "id": "Backstory_35",
+      "skillModifiers": [
+        {
+          "key": 10,
+          "value": 5
+        }
+      ],
+      "societalAlignment": -0.2,
+      "religiousAlignment": -0.25
+    },
+    {
+      "id": "Backstory_36",
+      "skillModifiers": [
+        {
+          "key": 10,
+          "value": 3
+        }
+      ],
+      "societalAlignment": 0,
+      "religiousAlignment": 0.15
+    },
+    {
+      "id": "Backstory_37",
+      "skillModifiers": [
+        {
+          "key": 11,
+          "value": 5
+        }
+      ],
+      "societalAlignment": 0,
+      "religiousAlignment": 0.15
+    },
+    {
+      "id": "Backstory_38",
+      "skillModifiers": [
+        {
+          "key": 11,
+          "value": 3
+        }
+      ],
+      "societalAlignment": -0.2,
+      "religiousAlignment": 0.2
+    },
+    {
+      "id": "Backstory_39",
+      "skillModifiers": [
+        {
+          "key": 11,
+          "value": 5
+        }
+      ],
+      "societalAlignment": 0.2,
+      "religiousAlignment": -0.2
+    },
+    {
+      "id": "Backstory_40",
+      "skillModifiers": [
+        {
+          "key": 12,
+          "value": 5
+        }
+      ],
+      "societalAlignment": -0.05,
+      "religiousAlignment": 0.1
+    },
+    {
+      "id": "Backstory_41",
+      "skillModifiers": [
+        {
+          "key": 12,
+          "value": 3
+        },
+        {
+          "key": 1,
+          "value": 3
+        }
+      ],
+      "societalAlignment": -0.15,
+      "religiousAlignment": 0.05
+    },
+    {
+      "id": "Backstory_42",
+      "skillModifiers": [
+        {
+          "key": 12,
+          "value": 5
+        }
+      ],
+      "societalAlignment": -0.1,
+      "religiousAlignment": -0.05
+    },
+    {
+      "id": "Backstory_43",
+      "skillModifiers": [
+        {
+          "key": 13,
+          "value": 5
+        }
+      ],
+      "societalAlignment": 0,
+      "religiousAlignment": 0
+    },
+    {
+      "id": "Backstory_44",
+      "skillModifiers": [
+        {
+          "key": 13,
+          "value": 5
+        }
+      ],
+      "societalAlignment": -0.2,
+      "religiousAlignment": 0.2
+    },
+    {
+      "id": "Backstory_45",
+      "skillModifiers": [
+        {
+          "key": 13,
+          "value": 5
+        }
+      ],
+      "societalAlignment": -0.2,
+      "religiousAlignment": 0.2
+    }
+  ]
+}

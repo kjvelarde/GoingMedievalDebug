@@ -1,0 +1,200 @@
+{
+  "repository":[
+    {
+      "id": 0,
+      "attackType": 1,
+      "damage": [45],
+      "range": [ ],
+      "ignoresArmor": [47],
+      "armorDamage": [48],
+      "buildingDamage": [49],
+      "precision":[50],
+      "precisionFallof": [ ],
+      "attackSpeed": [46],
+      "onHitEffectors": [
+        {
+          "threshold": 0.06,
+          "effector": "bruised_leg"
+        },
+        {
+          "threshold": 0.06,
+          "effector": "bruised_arm"
+        },
+        {
+          "threshold": 0.08,
+          "effector": "bruised_chest"
+        },
+        {
+          "threshold": 0.2,
+          "effector": "fractured_arm"
+        },
+        {
+          "threshold": 0.2,
+          "effector": "fractured_leg"
+        },
+        {
+          "threshold": 0.3,
+          "effector": "fractured_ribs"
+        }
+      ],
+      "onCriticalHitEffectors": [
+        {
+          "threshold": 0.1,
+          "effector": "fractured_nose"
+        },
+        {
+          "threshold": 0.3,
+          "effector": "broken_nose"
+        },
+        {
+          "threshold": 0.15,
+          "effector": "mild_concussion"
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "attackType": 2,
+      "damage": [27],
+      "range": [44],
+      "ignoresArmor": [ ],
+      "armorDamage": [ ],
+      "buildingDamage": [ ],
+      "precision":[28],
+      "precisionFallof": [ ],
+      "attackSpeed": [29]
+    },
+    {
+      "id": 2,
+      "attackType": 3,
+      "damage": [27],
+      "range": [44],
+      "ignoresArmor": [ ],
+      "armorDamage": [ ],
+      "buildingDamage": [ ],
+      "precision":[28],
+      "precisionFallof": [ ],
+      "attackSpeed": [29]
+    },
+    {
+      "id": 3,
+      "attackType": 1,
+      "damage": [24],
+      "range": [ ],
+      "ignoresArmor": [ ],
+      "armorDamage": [ ],
+      "buildingDamage": [ ],
+      "precision":[25],
+      "precisionFallof": [ ],
+      "attackSpeed": [26]
+    },
+    {
+      "id": 4,
+      "attackType": 1,
+      "damage": [24],
+      "range": [ ],
+      "ignoresArmor": [ ],
+      "armorDamage": [ ],
+      "buildingDamage": [ ],
+      "precision":[25],
+      "precisionFallof": [ ],
+      "attackSpeed": [26]
+    },
+    {
+      "id": 5,
+      "attackType": 1,
+      "damage": [24],
+      "range": [ ],
+      "ignoresArmor": [ ],
+      "armorDamage": [ ],
+      "buildingDamage": [ ],
+      "precision":[25],
+      "precisionFallof": [ ],
+      "attackSpeed": [26]
+    },
+    {
+      "id": 6,
+      "attackType": 1,
+      "damage": [24],
+      "range": [ ],
+      "ignoresArmor": [ ],
+      "armorDamage": [ ],
+      "buildingDamage": [ ],
+      "precision":[25],
+      "precisionFallof": [ ],
+      "attackSpeed": [26]
+    },
+    {
+      "id": 7,
+      "attackType": 1,
+      "damage": [24],
+      "range": [ ],
+      "ignoresArmor": [ ],
+      "armorDamage": [ ],
+      "buildingDamage": [ ],
+      "precision":[25],
+      "precisionFallof": [ ],
+      "attackSpeed": [26]
+    },
+    {
+      "id": 8,
+      "attackType": 1,
+      "damage": [24],
+      "range": [ ],
+      "ignoresArmor": [ ],
+      "armorDamage": [ ],
+      "buildingDamage": [ ],
+      "precision":[25],
+      "precisionFallof": [ ],
+      "attackSpeed": [26]
+    },
+    {
+      "id": 9,
+      "attackType": 1,
+      "damage": [24],
+      "range": [ ],
+      "ignoresArmor": [ ],
+      "armorDamage": [ ],
+      "buildingDamage": [ ],
+      "precision":[25],
+      "precisionFallof": [ ],
+      "attackSpeed": [26]
+    },
+    {
+      "id": 10,
+      "attackType": 1,
+      "damage": [24],
+      "range": [ ],
+      "ignoresArmor": [ ],
+      "armorDamage": [ ],
+      "buildingDamage": [ ],
+      "precision":[25],
+      "precisionFallof": [ ],
+      "attackSpeed": [26]
+    },
+    {
+      "id": 11,
+      "attackType": 1,
+      "damage": [24],
+      "range": [ ],
+      "ignoresArmor": [ ],
+      "armorDamage": [ ],
+      "buildingDamage": [ ],
+      "precision":[25],
+      "precisionFallof": [ ],
+      "attackSpeed": [26]
+    },
+    {
+      "id": 12,
+      "attackType": 1,
+      "damage": [ ],
+      "range": [ ],
+      "ignoresArmor": [47],
+      "armorDamage": [ ],
+      "buildingDamage": [ ],
+      "precision": [ ],
+      "precisionFallof": [ ],
+      "attackSpeed": [ ]
+    }
+  ]
+}

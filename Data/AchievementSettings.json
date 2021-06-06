@@ -1,0 +1,24 @@
+{
+  "stats": [
+    {
+      "id": "HAR_CNT",
+      "refreshInterval": 50
+    },
+    {
+      "id": "NUTR_CNT",
+      "refreshInterval": 100
+    },
+    {
+      "id": "DAY_CNT",
+      "refreshInterval": 1
+    },
+    {
+      "id": "WORKER_CNT",
+      "refreshInterval": 1
+    },
+    {
+      "id": "DISM_ITEM_CNT",
+      "refreshInterval": 5
+    }
+  ]
+}

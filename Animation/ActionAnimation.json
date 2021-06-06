@@ -1,0 +1,94 @@
+{
+    "repository": [
+        {
+            "actionID" : "GoToAction",
+            "animationTrigger" : "Moving",
+            "waitForAnimation" : true
+        },
+        {
+            "actionID" : "IdleAction",
+            "animationTrigger" : "Bored",
+            "waitForAnimation" : true
+        },
+        {
+            "actionID" : "WalkToAction",
+            "animationTrigger" : "Moving",
+            "waitForAnimation" : true
+        },
+        {
+            "actionID" : "PickPileAction",
+            "animationTrigger" : "PickUpPile",
+            "waitForAnimation" : true
+        },
+        {
+            "actionID" : "CollectMaterialAction",
+            "animationTrigger" : "PickUpPile",
+            "waitForAnimation" : true
+        },
+        {
+            "actionID" : "ConstructAction",
+            "animationTrigger" : "Build",
+            "waitForAnimation" : false
+        },
+        {
+            "actionID" : "MineAction",
+            "animationTrigger" : "Mining",
+            "waitForAnimation" : false
+        },
+        {
+            "actionID" : "StoreMaterialAction",
+            "animationTrigger" : "DropPile",
+            "waitForAnimation" : true
+        },
+        {
+            "actionID" : "StoreAtStockpileAction",
+            "animationTrigger" : "DropPile",
+            "waitForAnimation" : true
+        },
+        {
+            "actionID" : "StoreProductionMaterialsAction",
+            "animationTrigger" : "DropPile",
+            "waitForAnimation" : true
+        },
+        {
+            "actionID" : "ProducingAction",
+            "animationTrigger" : "Producing",
+            "waitForAnimation" : false
+        },
+        {
+            "actionID" : "CollectMaterialCategoryStockpileAction",
+            "animationTrigger" : "PickUpPile",
+            "waitForAnimation" : true
+        },
+        {
+            "actionID" : "SatisfyHungerAction",
+            "animationTrigger" : "Eat",
+            "waitForAnimation" : false
+        },
+        {
+            "actionID" :"StoreProductionCategoryMaterialsAction",
+            "animationTrigger" : "DropPile",
+            "waitForAnimation" : true
+        },
+        {
+            "actionID" :"SleepAction",
+            "animationTrigger" : "Sleep",
+            "waitForAnimation" : false
+        },
+        {
+            "actionID" :"FaintAction",
+            "animationTrigger" : "Sleep",
+            "waitForAnimation" : false
+        },
+        {
+            "actionID" :"HuntAnimalAction",
+            "animationTrigger" : "Mining",
+            "waitForAnimation" : true
+        },
+        {
+            "actionID" :"AnimalSleepAction",
+            "animationTrigger" : "Sleep",
+            "waitForAnimation" : false
+        }
+    ]
+}

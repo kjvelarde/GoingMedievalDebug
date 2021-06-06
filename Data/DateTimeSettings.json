@@ -1,0 +1,109 @@
+{
+    "daysInSeason": 12,
+    "hoursInDay": 24,
+    "minutesInHour": 40,
+    "statsUpdatePerHour": 4,
+    "goalsUpdatePerHour": 4,
+	"dayEffectors": ["SunSeekerDayPerkEffector"],
+	"dayEffectorsStartHour": 8, 
+	"dayEffectorsEndHour": 17, 
+	"nightEffectors": ["NightOwlPerkEffector"],
+	"nightEffectorsStartHour": 21, 
+	"nightEffectorsEndHour": 5, 
+    "seasons": [
+        {
+            "name": "spring",
+            "unlockAchievementOnEnd": "",
+            "dayTemperatureRange": {
+                "min": 20,
+                "max": 25
+            },
+            "nightTemperatureRange": {
+                "min": 8,
+                "max": 10
+            }, 
+			"weatherEvents": [
+                {
+					"weatherEvent": "rain",
+					"chance": 45
+				},
+				{
+					"weatherEvent": "fog",
+					"chance": 25
+				}
+			]
+        },
+        {
+            "name": "summer",
+            "unlockAchievementOnEnd": "SURVIVE_FIRST_SUMMER",
+            "dayTemperatureRange": {
+                "min": 30,
+                "max": 35
+            },
+            "nightTemperatureRange": {
+                "min": 18,
+                "max": 21
+            }, 
+			"weatherEvents": [
+                {
+					"weatherEvent": "rain",
+					"chance": 25
+                },
+                {
+					"weatherEvent": "fog",
+					"chance": 25
+				}
+			]
+        },
+        {
+            "name": "autumn",
+            "unlockAchievementOnEnd": "SURVIVE_FIRST_AUTUMN",
+            "dayTemperatureRange": {
+                "min": 13,
+                "max": 20
+            },
+            "nightTemperatureRange": {
+                "min": 5,
+                "max": 10
+            }, 
+			"weatherEvents": [
+				{
+					"weatherEvent": "rain",
+					"chance": 60
+				},
+				{
+					"weatherEvent": "fog",
+					"chance": 30
+				}
+			]
+        },
+        {
+            "name": "winter",
+            "unlockAchievementOnEnd": "SURVIVE_FIRST_WINTER",
+            "dayTemperatureRange": {
+                "min": -12,
+                "max": -5
+            },
+            "nightTemperatureRange": {
+                "min": -25,
+                "max": -20
+            },
+			"weatherEvents": [
+				{
+					"weatherEvent": "snow",
+					"chance": 85
+				},
+				{
+					"weatherEvent": "fog",
+					"chance": 10
+				}
+			]
+        }
+    ],
+    "maxDays": 4294967294,
+    "startingYearRange": {
+        "min": 1351,
+        "max": 1354
+    },
+    "animalIdlePointRelocateHours": 2
+}

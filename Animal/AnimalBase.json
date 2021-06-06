@@ -1,0 +1,608 @@
+{
+  "repository": [
+    {
+      "id": "deer",
+      "prefab": "deer",
+      "unlockAchievementOnDeath": "",
+      "increaseAchievementCountOnDeath": "DEER_HUNT_CNT",
+      "combatAi": "AnimalPeaceful",
+      "dropResourceId": "deer_carcass",
+      "dropResourceAmount": 1,
+      "baseHealth": 40,
+      "moveSpeed": 4.3,
+      "cantWalkOnTags": [1, 2],
+      "storageBase": {
+        "capacity": 120
+      },
+      "onHitEffectors": [
+        {
+          "threshold": 0.12,
+          "effector": "bruised_leg"
+        },
+        {
+          "threshold": 0.12,
+          "effector": "bruised_arm"
+        },
+        {
+          "threshold": 0.16,
+          "effector": "bruised_chest"
+        },
+        {
+          "threshold": 0.4,
+          "effector": "fractured_arm"
+        },
+        {
+          "threshold": 0.4,
+          "effector": "fractured_leg"
+        },
+        {
+          "threshold": 0.6,
+          "effector": "fractured_ribs"
+        },
+        {
+          "threshold": 0.6,
+          "effector": "broken_arm"
+        },
+        {
+          "threshold": 0.6,
+          "effector": "broken_leg"
+        },
+        {
+          "threshold": 0.6,
+          "effector": "broken_ribs"
+        },
+        {
+          "threshold": 0.3,
+          "effector": "dislocated_sholder"
+        },
+        {
+          "threshold": 0.3,
+          "effector": "pierced_leg_muscle"
+        },
+        {
+          "threshold": 0.3,
+          "effector": "pierced_arm_muscle"
+        },
+        {
+          "threshold": 0.25,
+          "effector": "pierced_lung"
+        },
+        {
+          "threshold": 0.3,
+          "effector": "pierced_side"
+        },
+        {
+          "threshold": 0.3,
+          "effector": "pierced_chest"
+        },
+        {
+          "threshold": 0.3,
+          "effector": "pierced_gut"
+        }
+      ],
+      "onCriticalHitEffectors": [
+        {
+          "threshold": 0.2,
+          "effector": "fractured_nose"
+        },
+        {
+          "threshold": 0.4,
+          "effector": "broken_nose"
+        },
+        {
+          "threshold": 0.3,
+          "effector": "mild_concussion"
+        },
+        {
+          "threshold": 0.4,
+          "effector": "heavy_concussion"
+        },
+        {
+          "threshold": 0.3,
+          "effector": "pierced_cheek"
+        }
+      ],
+      "attributes": [
+        {
+          "debugName": "HuntingRetaliateChance",
+          "type": 41,
+          "value": 0.02
+        },
+        {
+          "debugName": "HuntingRunChance",
+          "type": 40,
+          "value": 1.0
+        },
+        {
+          "debugName": "AttackCritChance",
+          "type": 43,
+          "value": 0.05
+        },
+        {
+          "debugName": "UnarmedDamage",
+          "type": 45,
+          "value": 15
+        },
+        {
+          "debugName": "UnarmedSpeed",
+          "type": 46,
+          "value": 4
+        },
+        {
+          "debugName": "UnarmedIgnoreArmor",
+          "type": 47,
+          "value": 0.5
+        },
+        {
+          "debugName": "UnarmedArmorDamage",
+          "type": 48,
+          "value": 0.5
+        },
+        {
+          "debugName": "UnarmedPercision",
+          "type": 50,
+          "value": 0.4
+        },
+        {
+          "debugName": "HealthMax",
+          "type": 56,
+          "value": 0.4
+        }
+      ]
+    },
+    {
+      "id": "hare",
+      "prefab": "hare",
+      "unlockAchievementOnDeath": "",
+      "increaseAchievementCountOnDeath": "RAB_HUNT_CNT",
+      "combatAi": "AnimalPeaceful",
+      "dropResourceId": "hare_carcass",
+      "dropResourceAmount": 1,
+      "baseHealth": 10,
+      "moveSpeed": 5.9,
+      "cantWalkOnTags": [1, 2],
+      "storageBase": {
+        "capacity": 120
+      },
+      "attributes": [
+        {
+          "debugName": "HuntingRetaliateChance",
+          "type": 41,
+          "value": 0
+        },
+        {
+          "debugName": "HuntingRunChance",
+          "type": 40,
+          "value": 1.1
+        },
+        {
+          "debugName": "AttackCritChance",
+          "type": 43,
+          "value": 0.05
+        },
+        {
+          "debugName": "UnarmedDamage",
+          "type": 45,
+          "value": 2
+        },
+        {
+          "debugName": "UnarmedSpeed",
+          "type": 46,
+          "value": 3
+        },
+        {
+          "debugName": "UnarmedIgnoreArmor",
+          "type": 47,
+          "value": 0.1
+        },
+        {
+          "debugName": "UnarmedArmorDamage",
+          "type": 48,
+          "value": 0.1
+        },
+        {
+          "debugName": "EvadeChance",
+          "type": 17,
+          "value": 0.4
+        },
+        {
+          "debugName": "UnarmedPercision",
+          "type": 50,
+          "value": 0.3
+        },
+        {
+          "debugName": "HealthMax",
+          "type": 56,
+          "value": 0.1
+        }
+      ]
+    },
+    {
+      "id": "wolf",
+      "prefab": "wolf",
+      "attackIcon": "wolf_attack",
+      "unlockAchievementOnDeath": "",
+      "increaseAchievementCountOnDeath": "WOL_HUNT_CNT",
+      "combatAi": "AnimalPeaceful",
+      "dropResourceId": "wolf_carcass",
+      "dropResourceAmount": 1,
+      "baseHealth": 35,
+      "moveSpeed": 4.3,
+      "cantWalkOnTags": [1, 2],
+      "storageBase": {
+        "capacity": 120
+      },
+      "onHitEffectors": [
+        {
+          "threshold": 0.3,
+          "effector": "bitten_leg"
+        },
+        {
+          "threshold": 0.3,
+          "effector": "bitten_arm"
+        },
+        {
+          "threshold": 0.3,
+          "effector": "bitten_forearm"
+        },
+        {
+          "threshold": 0.3,
+          "effector": "bitten_hand"
+        },
+        {
+          "threshold": 0.3,
+          "effector": "bitten_foot"
+        },
+        {
+          "threshold": 0.12,
+          "effector": "scratched_arm"
+        },
+        {
+          "threshold": 0.12,
+          "effector": "scratched_leg"
+        },
+        {
+          "threshold": 0.12,
+          "effector": "scratched_forearm"
+        },
+        {
+          "threshold": 0.06,
+          "effector": "scratched_hand"
+        },
+        {
+          "threshold": 0.16,
+          "effector": "scratched_chest"
+        }
+      ],
+      "onCriticalHitEffectors": [
+        {
+          "threshold": 0.3,
+          "effector": "bitten_face"
+        },
+        {
+          "threshold": 0.3,
+          "effector": "bitten_neck"
+        },
+        {
+          "threshold": 0.2,
+          "effector": "scratched_face"
+        },
+        {
+          "threshold": 0.2,
+          "effector": "scratched_neck"
+        }
+      ],
+      "attributes": [
+        {
+          "debugName": "HuntingRetaliateChance",
+          "type": 41,
+          "value": 0.8
+        },
+        {
+          "debugName": "HuntingRunChance",
+          "type": 40,
+          "value": 1.0
+        },
+        {
+          "debugName": "AttackCritChance",
+          "type": 43,
+          "value": 0.1
+        },
+        {
+          "debugName": "UnarmedDamage",
+          "type": 45,
+          "value": 17
+        },
+        {
+          "debugName": "UnarmedSpeed",
+          "type": 46,
+          "value": 4
+        },
+        {
+          "debugName": "UnarmedIgnoreArmor",
+          "type": 47,
+          "value": 0.3
+        },
+        {
+          "debugName": "UnarmedArmorDamage",
+          "type": 48,
+          "value": 0.3
+        },
+        {
+          "debugName": "UnarmedPercision",
+          "type": 50,
+          "value": 0.4
+        },
+        {
+          "debugName": "HealthMax",
+          "type": 56,
+          "value": 0.6
+        }
+      ]
+    },
+    {
+      "id": "wolf_raid_low",
+      "prefab": "wolf_aggresive_01",
+      "attackIcon": "wolf_attack",
+      "goapAgent": "AnimalRaidGoapAgent",
+      "price": 25,
+      "priceThreshold": 1,
+      "category": "wolf",
+      "unlockAchievementOnDeath": "",
+      "increaseAchievementCountOnDeath": "WOL_HUNT_CNT",
+      "combatAi": "AnimalRaidAggressive",
+      "dropResourceId": "wolf_carcass",
+      "dropResourceAmount": 1,
+      "baseHealth": 40,
+      "moveSpeed": 4.3,
+      "cantWalkOnTags": [1, 2],
+      "storageBase": {
+        "capacity": 120
+      },
+      "onHitEffectors": [
+        {
+          "threshold": 0.3,
+          "effector": "bitten_leg"
+        },
+        {
+          "threshold": 0.3,
+          "effector": "bitten_arm"
+        },
+        {
+          "threshold": 0.3,
+          "effector": "bitten_forearm"
+        },
+        {
+          "threshold": 0.3,
+          "effector": "bitten_hand"
+        },
+        {
+          "threshold": 0.3,
+          "effector": "bitten_foot"
+        },
+        {
+          "threshold": 0.12,
+          "effector": "scratched_arm"
+        },
+        {
+          "threshold": 0.12,
+          "effector": "scratched_leg"
+        },
+        {
+          "threshold": 0.12,
+          "effector": "scratched_forearm"
+        },
+        {
+          "threshold": 0.06,
+          "effector": "scratched_hand"
+        },
+        {
+          "threshold": 0.16,
+          "effector": "scratched_chest"
+        }
+      ],
+      "onCriticalHitEffectors": [
+        {
+          "threshold": 0.3,
+          "effector": "bitten_face"
+        },
+        {
+          "threshold": 0.3,
+          "effector": "bitten_neck"
+        },
+        {
+          "threshold": 0.2,
+          "effector": "scratched_face"
+        },
+        {
+          "threshold": 0.2,
+          "effector": "scratched_neck"
+        }
+      ],
+      "attributes": [
+        {
+          "debugName": "CombatPerception",
+          "type": 53,
+          "value": 10
+        },
+        {
+          "debugName": "HuntingRetaliateChance",
+          "type": 41,
+          "value": 0.9
+        },
+        {
+          "debugName": "HuntingRunChance",
+          "type": 40,
+          "value": 1.0
+        },
+        {
+          "debugName": "AttackCritChance",
+          "type": 43,
+          "value": 0.1
+        },
+        {
+          "debugName": "UnarmedDamage",
+          "type": 45,
+          "value": 15
+        },
+        {
+          "debugName": "UnarmedSpeed",
+          "type": 46,
+          "value": 5
+        },
+        {
+          "debugName": "UnarmedIgnoreArmor",
+          "type": 47,
+          "value": 0.3
+        },
+        {
+          "debugName": "UnarmedArmorDamage",
+          "type": 48,
+          "value": 0.3
+        },
+        {
+          "debugName": "UnarmedPercision",
+          "type": 50,
+          "value": 0.4
+        },
+        {
+          "debugName": "HealthMax",
+          "type": 56,
+          "value": 0.6
+        }
+      ]
+    },
+    {
+      "id": "wolf_raid_medium",
+      "prefab": "wolf_aggresive_02",
+      "attackIcon": "wolf_attack",
+      "goapAgent": "AnimalRaidGoapAgent",
+      "price": 50,
+      "priceThreshold": 0.4,
+      "category": "wolf",
+      "unlockAchievementOnDeath": "",
+      "increaseAchievementCountOnDeath": "WOL_HUNT_CNT",
+      "combatAi": "AnimalRaidAggressive",
+      "dropResourceId": "wolf_carcass",
+      "dropResourceAmount": 1,
+      "baseHealth": 50,
+      "moveSpeed": 4.5,
+      "cantWalkOnTags": [1, 2],
+      "storageBase": {
+        "capacity": 120
+      },
+      "onHitEffectors": [
+        {
+          "threshold": 0.3,
+          "effector": "bitten_leg"
+        },
+        {
+          "threshold": 0.3,
+          "effector": "bitten_arm"
+        },
+        {
+          "threshold": 0.3,
+          "effector": "bitten_forearm"
+        },
+        {
+          "threshold": 0.3,
+          "effector": "bitten_hand"
+        },
+        {
+          "threshold": 0.3,
+          "effector": "bitten_foot"
+        },
+        {
+          "threshold": 0.12,
+          "effector": "scratched_arm"
+        },
+        {
+          "threshold": 0.12,
+          "effector": "scratched_leg"
+        },
+        {
+          "threshold": 0.12,
+          "effector": "scratched_forearm"
+        },
+        {
+          "threshold": 0.06,
+          "effector": "scratched_hand"
+        },
+        {
+          "threshold": 0.16,
+          "effector": "scratched_chest"
+        }
+      ],
+      "onCriticalHitEffectors": [
+        {
+          "threshold": 0.3,
+          "effector": "bitten_face"
+        },
+        {
+          "threshold": 0.3,
+          "effector": "bitten_neck"
+        },
+        {
+          "threshold": 0.2,
+          "effector": "scratched_face"
+        },
+        {
+          "threshold": 0.2,
+          "effector": "scratched_neck"
+        }
+      ],
+      "attributes": [
+        {
+          "debugName": "CombatPerception",
+          "type": 53,
+          "value": 12
+        },
+        {
+          "debugName": "HuntingRetaliateChance",
+          "type": 41,
+          "value": 0.9
+        },
+        {
+          "debugName": "HuntingRunChance",
+          "type": 40,
+          "value": 1.0
+        },
+        {
+          "debugName": "AttackCritChance",
+          "type": 43,
+          "value": 0.1
+        },
+        {
+          "debugName": "UnarmedDamage",
+          "type": 45,
+          "value": 18
+        },
+        {
+          "debugName": "UnarmedSpeed",
+          "type": 46,
+          "value": 4
+        },
+        {
+          "debugName": "UnarmedIgnoreArmor",
+          "type": 47,
+          "value": 0.3
+        },
+        {
+          "debugName": "UnarmedArmorDamage",
+          "type": 48,
+          "value": 0.3
+        },
+        {
+          "debugName": "UnarmedPercision",
+          "type": 50,
+          "value": 0.4
+        },
+        {
+          "debugName": "HealthMax",
+          "type": 56,
+          "value": 0.6
+        }
+      ]
+    }
+  ]
+}

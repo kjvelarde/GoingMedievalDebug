@@ -1,0 +1,76 @@
+{
+  "repository": [
+    {
+      "id": "cabbage_cropfield",
+      "defaultPlant": "cabbage_patch",
+      "layerHideOffset": -1.5,
+      "layerShadowOffset": -1.5,
+      "buildingCategoryUI": 7,
+      "buildingSubCategoryUI": 17
+    },
+    {
+      "id": "flax_cropfield",
+      "defaultPlant": "flax_patch",
+      "layerHideOffset": -1.5,
+      "layerShadowOffset": -1.5,
+      "buildingCategoryUI": 7,
+      "buildingSubCategoryUI": 17
+    },
+    {
+      "id": "carrot_cropfield",
+      "defaultPlant": "carrot_patch",
+      "layerHideOffset": -1.5,
+      "layerShadowOffset": -1.5,
+      "buildingCategoryUI": 7,
+      "buildingSubCategoryUI": 17
+    },
+    {
+      "id": "beet_cropfield",
+      "defaultPlant": "beet_patch",
+      "layerHideOffset": -1.5,
+      "layerShadowOffset": -1.5,
+      "buildingCategoryUI": 7,
+      "buildingSubCategoryUI": 17
+    },
+    {
+      "id": "barley_cropfield",
+      "defaultPlant": "barley_patch",
+      "layerHideOffset": -1.5,
+      "layerShadowOffset": -1.5,
+      "buildingCategoryUI": 7,
+      "buildingSubCategoryUI": 17
+    },
+    {
+      "id": "herbs_cropfield",
+      "defaultPlant": "herbs_patch",
+      "layerHideOffset": -1.5,
+      "layerShadowOffset": -1.5,
+      "buildingCategoryUI": 7,
+      "buildingSubCategoryUI": 17
+    },
+    {
+      "id": "redcurrant_cropfield",
+      "defaultPlant": "shrub_redcurrant",
+      "layerHideOffset": -1.5,
+      "layerShadowOffset": -1.5,
+      "buildingCategoryUI": 7,
+      "buildingSubCategoryUI": 17
+    },
+    {
+      "id": "hay_cropfield",
+      "defaultPlant": "hay_patch",
+      "layerHideOffset": -1.5,
+      "layerShadowOffset": -1.5,
+      "buildingCategoryUI": 7,
+      "buildingSubCategoryUI": 17
+    },
+    {
+      "id": "birch_cropfield",
+      "defaultPlant": "tree_birch",
+      "layerHideOffset": -1.5,
+      "layerShadowOffset": -1.5,
+      "buildingCategoryUI": 7,
+      "buildingSubCategoryUI": 17
+    }
+  ]
+}

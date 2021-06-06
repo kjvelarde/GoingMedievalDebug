@@ -1,0 +1,413 @@
+{
+  "repository": [
+    {
+      "id": "weapon_all",
+      "displayName": "manageDefaultPreset_weapon_all",
+      "groupId": "weapon_manage_group",
+      "defaultPreset": false,
+      "hitpointsMin": 0,
+      "hitpointsMax": 1,
+      "qualityMin": 1,
+      "qualityMax": 6,
+      "resources": [
+        "dagger",
+        "short_sword",
+        "falchion",
+        "knightly_sword",
+        "longsword",
+        "greatsword",
+        "staff",
+        "cudgel",
+        "bludgeon",
+        "mace",
+        "two_handed_mace",
+        "two_handed_flanged_mace",
+        "military_pick",
+        "wooden_spear",
+        "spear",
+        "berdiche",
+        "billhook",
+        "warfork",
+        "hatchet",
+        "greataxe",
+        "warhammer",
+        "two_handed_warhammer",
+        "wooden_flail",
+        "reinforced_flail",
+        "two_handed_flail",
+        "short_bow",
+        "war_bow",
+        "long_bow",
+        "masterwork_bow",
+        "light_crossbow",
+        "crossbow",
+        "heavy_crossbow",
+        "wood_ram",
+        "metal_ram"
+      ]
+    },
+    {
+      "id": "weapon_none",
+      "displayName": "manageDefaultPreset_weapon_none",
+      "groupId": "weapon_manage_group",
+      "defaultPreset": true,
+      "hitpointsMin": 0,
+      "hitpointsMax": 1,
+      "qualityMin": 1,
+      "qualityMax": 6
+    },
+    {
+      "id": "weapon_melee_onehanded",
+      "displayName": "manageDefaultPreset_weapon_melee_onehanded",
+      "groupId": "weapon_manage_group",
+      "defaultPreset": false,
+      "hitpointsMin": 0,
+      "hitpointsMax": 1,
+      "qualityMin": 1,
+      "qualityMax": 6,
+      "resources": [
+        "dagger",
+        "short_sword",
+        "falchion",
+        "knightly_sword",
+        "cudgel",
+        "bludgeon",
+        "mace",
+        "military_pick",
+        "hatchet",
+        "warhammer",
+        "wooden_flail"
+      ]
+    },
+    {
+      "id": "weapon_melee_twohanded",
+      "displayName": "manageDefaultPreset_weapon_melee_twohanded",
+      "groupId": "weapon_manage_group",
+      "defaultPreset": false,
+      "hitpointsMin": 0,
+      "hitpointsMax": 1,
+      "qualityMin": 1,
+      "qualityMax": 6,
+      "resources": [
+        "longsword",
+        "greatsword",
+        "staff",
+        "two_handed_mace",
+        "two_handed_flanged_mace",
+        "wooden_spear",
+        "spear",
+        "berdiche",
+        "billhook",
+        "warfork",
+        "greataxe",
+        "two_handed_warhammer",
+        "wood_ram",
+        "metal_ram"
+      ]
+    },
+    {
+      "id": "weapon_ranged",
+      "displayName": "manageDefaultPreset_weapon_ranged",
+      "groupId": "weapon_manage_group",
+      "defaultPreset": false,
+      "hitpointsMin": 0,
+      "hitpointsMax": 1,
+      "qualityMin": 1,
+      "qualityMax": 6,
+      "resources": [
+        "short_bow",
+        "war_bow",
+        "long_bow",
+        "masterwork_bow",
+        "light_crossbow",
+        "crossbow",
+        "heavy_crossbow"
+      ]
+    },
+    {
+      "id": "shield_all",
+      "displayName": "manageDefaultPreset_shield_all",
+      "groupId": "shield_manage_group",
+      "defaultPreset": false,
+      "hitpointsMin": 0,
+      "hitpointsMax": 1,
+      "qualityMin": 1,
+      "qualityMax": 6,
+      "resources": [
+        "wooden_buckler",
+        "metal_buckler",
+        "kite_shield",
+        "wooden_shield",
+        "reinforced_wooden_shield",
+        "metal_shield",
+        "tower_shield"
+      ]
+    },
+    {
+      "id": "sheild_none",
+      "displayName": "manageDefaultPreset_sheild_none",
+      "groupId": "shield_manage_group",
+      "defaultPreset": true,
+      "hitpointsMin": 0,
+      "hitpointsMax": 1,
+      "qualityMin": 1,
+      "qualityMax": 6
+    },
+    {
+      "id": "headware_all",
+      "displayName": "manageDefaultPreset_headware_all",
+      "groupId": "headware_manage_group",
+      "defaultPreset": false,
+      "hitpointsMin": 0,
+      "hitpointsMax": 1,
+      "qualityMin": 1,
+      "qualityMax": 6,
+      "resources": [
+        "plate_helmet",
+        "pigface_helmet",
+        "leather_helmet",
+        "mail_helmet",
+        "savage_wood_helmet",
+        "savage_wood_helmet_heavy",
+        "savage_plate_helmet",
+        "cap",
+        "wide_straw_hat"
+      ]
+    },
+    {
+      "id": "headware_none",
+      "displayName": "manageDefaultPreset_headware_none",
+      "groupId": "headware_manage_group",
+      "defaultPreset": true,
+      "hitpointsMin": 0,
+      "hitpointsMax": 1,
+      "qualityMin": 1,
+      "qualityMax": 6
+    },
+    {
+      "id": "headware_helmet",
+      "displayName": "manageDefaultPreset_headware_helmet",
+      "groupId": "headware_manage_group",
+      "defaultPreset": false,
+      "hitpointsMin": 0,
+      "hitpointsMax": 1,
+      "qualityMin": 1,
+      "qualityMax": 6,
+      "resources": [
+        "plate_helmet",
+        "pigface_helmet",
+        "leather_helmet",
+        "mail_helmet",
+        "savage_wood_helmet",
+        "savage_wood_helmet_heavy",
+        "savage_plate_helmet"
+      ]
+    },
+    {
+      "id": "headware_cap",
+      "displayName": "manageDefaultPreset_headware_cap",
+      "groupId": "headware_manage_group",
+      "defaultPreset": false,
+      "hitpointsMin": 0,
+      "hitpointsMax": 1,
+      "qualityMin": 1,
+      "qualityMax": 6,
+      "resources": [
+        "cap",
+        "wide_straw_hat"
+      ]
+    },
+    {
+      "id": "armor_all",
+      "displayName": "manageDefaultPreset_armor_all",
+      "groupId": "armor_manage_group",
+      "defaultPreset": false,
+      "hitpointsMin": 0,
+      "hitpointsMax": 1,
+      "qualityMin": 1,
+      "qualityMax": 6,
+      "resources": [
+        "leather_armor",
+        "savage_wood_armor",
+        "mail_armor",
+        "plate_armor",
+        "savage_plate_armor",
+        "gambeson"
+      ]
+    },
+    {
+      "id": "armor_none",
+      "displayName": "manageDefaultPreset_armor_none",
+      "groupId": "armor_manage_group",
+      "defaultPreset": true,
+      "hitpointsMin": 0,
+      "hitpointsMax": 1,
+      "qualityMin": 1,
+      "qualityMax": 6
+    },
+    {
+      "id": "apparel_all",
+      "displayName": "manageDefaultPreset_apparel_all",
+      "groupId": "apparel_manage_group",
+      "defaultPreset": true,
+      "hitpointsMin": 0,
+      "hitpointsMax": 1,
+      "qualityMin": 1,
+      "qualityMax": 6,
+      "resources": [
+        "winter_clothes",
+        "summer_clothes"
+      ]
+    },
+    {
+      "id": "apparel_none",
+      "displayName": "manageDefaultPreset_apparel_none",
+      "groupId": "apparel_manage_group",
+      "defaultPreset": false,
+      "hitpointsMin": 0,
+      "hitpointsMax": 1,
+      "qualityMin": 1,
+      "qualityMax": 6
+    },
+    {
+      "id": "apparel_winter",
+      "displayName": "manageDefaultPreset_apparel_winter",
+      "groupId": "apparel_manage_group",
+      "defaultPreset": false,
+      "hitpointsMin": 0,
+      "hitpointsMax": 1,
+      "qualityMin": 1,
+      "qualityMax": 6,
+      "resources": [
+        "winter_clothes"
+      ]
+    },
+    {
+      "id": "apparel_summer",
+      "displayName": "manageDefaultPreset_apparel_summer",
+      "groupId": "apparel_manage_group",
+      "defaultPreset": false,
+      "hitpointsMin": 0,
+      "hitpointsMax": 1,
+      "qualityMin": 1,
+      "qualityMax": 6,
+      "resources": [
+        "summer_clothes"
+      ]
+    },
+    {
+      "id": "food_all",
+      "displayName": "manageDefaultPreset_food_all",
+      "groupId": "food_manage_group",
+      "defaultPreset": true,
+      "hitpointsMin": 0,
+      "hitpointsMax": 1,
+      "qualityMin": 1,
+      "qualityMax": 6,
+      "resources": [
+        "redcurrant",
+        "cabbage",
+        "barley",
+        "beet",
+        "carrot",
+        "meat",
+        "packaged_meal",
+        "roasted_meat",
+        "lavish_meal",
+        "mushroom",
+        "stew",
+        "dubious_meal",
+        "pickled_vegetable",
+        "smoked_meat"
+      ]
+    },
+    {
+      "id": "food_none",
+      "displayName": "manageDefaultPreset_food_none",
+      "groupId": "food_manage_group",
+      "defaultPreset": false,
+      "hitpointsMin": 0,
+      "hitpointsMax": 1,
+      "qualityMin": 1,
+      "qualityMax": 6
+    },
+    {
+      "id": "food_raw",
+      "displayName": "manageDefaultPreset_food_raw",
+      "groupId": "food_manage_group",
+      "defaultPreset": false,
+      "hitpointsMin": 0,
+      "hitpointsMax": 1,
+      "qualityMin": 1,
+      "qualityMax": 6,
+      "resources": [
+        "redcurrant",
+        "cabbage",
+        "barley",
+        "beet",
+        "carrot",
+        "meat",
+        "mushroom"
+      ]
+    },
+    {
+      "id": "food_meal",
+      "displayName": "manageDefaultPreset_food_meal",
+      "groupId": "food_manage_group",
+      "defaultPreset": false,
+      "hitpointsMin": 0,
+      "hitpointsMax": 1,
+      "qualityMin": 1,
+      "qualityMax": 6,
+      "resources": [
+        "packaged_meal",
+        "roasted_meat",
+        "lavish_meal",
+        "stew"
+      ]
+    },
+    {
+      "id": "food_cannibal",
+      "displayName": "manageDefaultPreset_food_cannibal",
+      "groupId": "food_manage_group",
+      "defaultPreset": false,
+      "hitpointsMin": 0,
+      "hitpointsMax": 1,
+      "qualityMin": 1,
+      "qualityMax": 6,
+      "resources": [
+        "meat_human",
+        "packaged_meal_meat_human",
+        "roasted_meat_human",
+        "lavish_meal_meat_human",
+        "smoked_meat_human"
+      ]
+    },
+    {
+      "id": "stimulants_all",
+      "displayName": "manageDefaultPreset_stimulants_all",
+      "groupId": "stimulants_manage_group",
+      "defaultPreset": true,
+      "hitpointsMin": 0,
+      "hitpointsMax": 1,
+      "qualityMin": 1,
+      "qualityMax": 6,
+      "resources": [
+        "alcohol",
+        "ale",
+        "beer",
+        "rough_wine"
+      ]
+    },
+    {
+      "id": "stimulants_none",
+      "displayName": "manageDefaultPreset_stimulants_none",
+      "groupId": "stimulants_manage_group",
+      "defaultPreset": false,
+      "hitpointsMin": 0,
+      "hitpointsMax": 1,
+      "qualityMin": 1,
+      "qualityMax": 6
+    }
+  ]
+}

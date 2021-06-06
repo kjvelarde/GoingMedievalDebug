@@ -1,0 +1,206 @@
+{
+  "repository": [
+    {
+      "debug_name": "new_worker_simple",
+      "id": "new_worker_simple",
+      "itemGroups": [
+        {
+          "groupName": "head",
+          "isNoneChance": 0.3,
+          "hitPointsRange":
+          {
+            "min": 0.1,
+            "max": 0.7
+          },
+          "equipment": [
+            "flimsy_linen_cap",
+            "flimsy_wool_cap",
+            "flimsy_leather_cap",
+            "sturdy_linen_cap",
+            "sturdy_wool_cap",
+            "sturdy_leather_cap",
+            "good_linen_cap",
+            "good_wool_cap",
+            "good_leather_cap",
+            "flimsy_wide_straw_hat",
+            "sturdy_wide_straw_hat",
+            "good_wide_straw_hat"
+          ]
+        },
+        {
+          "groupName": "body",
+          "isNoneChance": 0,
+          "hitPointsRange":
+          {
+            "min": 0.1,
+            "max": 0.7
+          },
+          "equipment": [
+            "flimsy_linen_winter_clothes",
+            "flimsy_wool_winter_clothes",
+            "flimsy_leather_winter_clothes",
+            "good_linen_winter_clothes",
+            "good_wool_winter_clothes",
+            "good_leather_winter_clothes",
+            "sturdy_leather_winter_clothes",
+            "sturdy_linen_winter_clothes",
+            "sturdy_wool_winter_clothes"
+          ]
+        }
+      ]
+    },
+    {
+      "debug_name": "new_worker_with_weapons",
+      "id": "new_worker_with_weapons",
+      "itemGroups": [
+        {
+          "groupName": "head",
+          "isNoneChance": 0.3,
+          "equipment": [
+            "flimsy_linen_cap",
+            "flimsy_wool_cap",
+            "flimsy_leather_cap",
+            "sturdy_linen_cap",
+            "sturdy_wool_cap",
+            "sturdy_leather_cap",
+            "good_linen_cap",
+            "good_wool_cap",
+            "good_leather_cap",
+            "flimsy_wide_straw_hat",
+            "sturdy_wide_straw_hat",
+            "good_wide_straw_hat"
+          ]
+        },
+        {
+          "groupName": "body",
+          "isNoneChance": 0,
+          "equipment": [
+            "flimsy_linen_winter_clothes",
+            "flimsy_wool_winter_clothes",
+            "flimsy_leather_winter_clothes",
+            "good_linen_winter_clothes",
+            "good_wool_winter_clothes",
+            "good_leather_winter_clothes",
+            "sturdy_leather_winter_clothes",
+            "sturdy_linen_winter_clothes",
+            "sturdy_wool_winter_clothes"
+          ]
+        },
+        {
+          "groupName": "bodyArmor",
+          "isNoneChance": 0.25,
+          "equipment": [
+            "flimsy_wool_gambeson",
+            "sturdy_linnen_gambeson",
+            "good_wool_gambeson",
+            "flimsy_leather_armor",
+            "sturdy_leather_armor",
+            "good_leather_armor"
+          ]
+        },
+        {
+          "groupName": "weapon",
+          "isNoneChance": 0,
+          "equipment": [
+            "flimsy_wooden_spear",
+            "flimsy_iron_short_sword",
+            "flimsy_staff",
+            "flimsy_iron_hatchet",
+            "sturdy_iron_short_sword",
+            "sturdy_iron_dagger",
+            "good_iron_dagger",
+            "sturdy_short_bow",
+            "flimsy_light_crossbow",
+            "sturdy_light_crossbow"
+          ]
+        }
+      ]
+    },
+    {
+      "debug_name": "new_worker_with_axe",
+      "id": "new_worker_with_axe",
+      "itemGroups": [
+        {
+          "groupName": "head",
+          "isNoneChance": 0.3,
+          "equipment": [
+            "flimsy_linen_cap",
+            "flimsy_wool_cap",
+            "flimsy_leather_cap",
+            "sturdy_linen_cap",
+            "sturdy_wool_cap",
+            "sturdy_leather_cap",
+            "good_linen_cap",
+            "good_wool_cap",
+            "good_leather_cap",
+            "flimsy_wide_straw_hat",
+            "sturdy_wide_straw_hat",
+            "good_wide_straw_hat"
+          ]
+        },
+        {
+          "groupName": "body",
+          "isNoneChance": 0,
+          "equipment": [
+            "flimsy_linen_winter_clothes",
+            "flimsy_wool_winter_clothes",
+            "flimsy_leather_winter_clothes",
+            "good_linen_winter_clothes",
+            "good_wool_winter_clothes",
+            "good_leather_winter_clothes",
+            "sturdy_leather_winter_clothes",
+            "sturdy_linen_winter_clothes",
+            "sturdy_wool_winter_clothes"
+          ]
+        },
+        {
+          "groupName": "weapon",
+          "isNoneChance": 0,
+          "equipment": [
+            "sturdy_iron_hatchet",
+            "flimsy_steel_hatchet",
+            "good_iron_hatchet"
+          ]
+        }
+      ]
+    },
+    {
+      "debug_name": "new_worker_slave",
+      "id": "new_worker_slave",
+      "itemGroups": [
+        {
+          "groupName": "body",
+          "isNoneChance": 0,
+          "equipment": [
+            "flimsy_slave_chains"
+          ]
+        }
+      ]
+    },
+    {
+      "debug_name": "new_worker_runaway",
+      "id": "new_worker_with_runaway",
+      "itemGroups": [
+        {
+          "groupName": "head",
+          "isNoneChance": 0.5,
+          "equipment": [
+            "flimsy_linen_cap",
+            "flimsy_wool_cap",
+            "flimsy_leather_cap",
+            "flimsy_wide_straw_hat"
+          ]
+        },
+        {
+          "groupName": "body",
+          "isNoneChance": 0.1,
+          "equipment": [
+            "flimsy_linen_winter_clothes",
+            "flimsy_wool_winter_clothes",
+            "flimsy_leather_winter_clothes"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,436 @@
+{
+  "repository": [
+    {
+      "name": "Pseudonym_1",
+      "skillModifiers": [
+        {
+          "key": 9,
+          "value": 3
+        }
+      ],
+      "societalAlignment": -0.15,
+      "religiousAlignment": -0.15
+    },
+    {
+      "name": "Pseudonym_2",
+      "skillModifiers": [
+        {
+          "key": 1,
+          "value": 3
+        }
+      ],
+      "societalAlignment": 0.2,
+      "religiousAlignment": -0.2
+    },
+    {
+      "name": "Pseudonym_3",
+      "skillModifiers": [
+        {
+          "key": 1,
+          "value": 3
+        }
+      ],
+      "societalAlignment": -0.15,
+      "religiousAlignment": 0
+    },
+    {
+      "name": "Pseudonym_4",
+      "skillModifiers": [
+        {
+          "key": 2,
+          "value": 3
+        }
+      ],
+      "societalAlignment": -0.1,
+      "religiousAlignment": -0.2
+    },
+    {
+      "name": "Pseudonym_5",
+      "skillModifiers": [
+        {
+          "key": 2,
+          "value": 3
+        }
+      ],
+      "societalAlignment": -0.2,
+      "religiousAlignment": -0.05
+    },
+    {
+      "name": "Pseudonym_6",
+      "skillModifiers": [
+        {
+          "key": 2,
+          "value": 3
+        }
+      ],
+      "societalAlignment": -0.1,
+      "religiousAlignment": 0.1
+    },
+    {
+      "name": "Pseudonym_7",
+      "skillModifiers": [
+        {
+          "key": 3,
+          "value": 3
+        }
+      ],
+      "societalAlignment": 0,
+      "religiousAlignment": -0.2
+    },
+    {
+      "name": "Pseudonym_8",
+      "skillModifiers": [
+        {
+          "key": 3,
+          "value": 3
+        }
+      ],
+      "societalAlignment": -0.2,
+      "religiousAlignment": -0.2
+    },
+    {
+      "name": "Pseudonym_9",
+      "skillModifiers": [
+        {
+          "key": 3,
+          "value": 3
+        }
+      ],
+      "societalAlignment": -0.25,
+      "religiousAlignment": -0.2
+    },
+    {
+      "name": "Pseudonym_10",
+      "skillModifiers": [
+        {
+          "key": 4,
+          "value": 3
+        }
+      ],
+      "societalAlignment": -0.15,
+      "religiousAlignment": -0.1
+    },
+    {
+      "name": "Pseudonym_11",
+      "skillModifiers": [
+        {
+          "key": 4,
+          "value": 3
+        }
+      ],
+      "societalAlignment": 0.15,
+      "religiousAlignment": 0.2
+    },
+    {
+      "name": "Pseudonym_12",
+      "skillModifiers": [
+        {
+          "key": 4,
+          "value": 3
+        }
+      ],
+      "societalAlignment": 0.25,
+      "religiousAlignment": -0.15
+    },
+    {
+      "name": "Pseudonym_13",
+      "skillModifiers": [
+        {
+          "key": 5,
+          "value": 3
+        }
+      ],
+      "societalAlignment": 0.05,
+      "religiousAlignment": -0.1
+    },
+    {
+      "name": "Pseudonym_14",
+      "skillModifiers": [
+        {
+          "key": 5,
+          "value": 3
+        }
+      ],
+      "societalAlignment": -0.05,
+      "religiousAlignment": -0.1
+    },
+    {
+      "name": "Pseudonym_15",
+      "skillModifiers": [
+        {
+          "key": 5,
+          "value": 3
+        }
+      ],
+      "societalAlignment": 0.15,
+      "religiousAlignment": 0.1
+    },
+    {
+      "name": "Pseudonym_16",
+      "skillModifiers": [
+        {
+          "key": 6,
+          "value": 3
+        }
+      ],
+      "societalAlignment": 0.05,
+      "religiousAlignment": 0.25
+    },
+    {
+      "name": "Pseudonym_17",
+      "skillModifiers": [
+        {
+          "key": 6,
+          "value": 3
+        }
+      ],
+      "societalAlignment": 0,
+      "religiousAlignment": 0.25
+    },
+    {
+      "name": "Pseudonym_18",
+      "skillModifiers": [
+        {
+          "key": 6,
+          "value": 3
+        }
+      ],
+      "societalAlignment": -0.15,
+      "religiousAlignment": -0.15
+    },
+    {
+      "name": "Pseudonym_19",
+      "skillModifiers": [
+        {
+          "key": 7,
+          "value": 3
+        }
+      ],
+      "societalAlignment": 0.2,
+      "religiousAlignment": -0.2
+    },
+    {
+      "name": "Pseudonym_20",
+      "skillModifiers": [
+        {
+          "key": 7,
+          "value": 3
+        }
+      ],
+      "societalAlignment": -0.15,
+      "religiousAlignment": 0
+    },
+    {
+      "name": "Pseudonym_21",
+      "skillModifiers": [
+        {
+          "key": 7,
+          "value": 3
+        }
+      ],
+      "societalAlignment": -0.1,
+      "religiousAlignment": -0.2
+    },
+    {
+      "name": "Pseudonym_22",
+      "skillModifiers": [
+        {
+          "key": 8,
+          "value": 3
+        }
+      ],
+      "societalAlignment": -0.2,
+      "religiousAlignment": -0.05
+    },
+    {
+      "name": "Pseudonym_23",
+      "skillModifiers": [
+        {
+          "key": 8,
+          "value": 3
+        }
+      ],
+      "societalAlignment": -0.1,
+      "religiousAlignment": 0.1
+    },
+    {
+      "name": "Pseudonym_24",
+      "skillModifiers": [
+        {
+          "key": 9,
+          "value": 3
+        }
+      ],
+      "societalAlignment": 0,
+      "religiousAlignment": -0.2
+    },
+    {
+      "name": "Pseudonym_25",
+      "skillModifiers": [
+        {
+          "key": 9,
+          "value": 3
+        }
+      ],
+      "societalAlignment": -0.2,
+      "religiousAlignment": -0.2
+    },
+    {
+      "name": "Pseudonym_26",
+      "skillModifiers": [
+        {
+          "key": 9,
+          "value": 3
+        }
+      ],
+      "ignoreCharacteristicType": [
+        2
+      ],
+      "societalAlignment": -0.25,
+      "religiousAlignment": -0.2
+    },
+    {
+      "name": "Pseudonym_27",
+      "skillModifiers": [
+        {
+          "key": 9,
+          "value": 3
+        }
+      ],
+      "societalAlignment": -0.15,
+      "religiousAlignment": -0.1
+    },
+    {
+      "name": "Pseudonym_28",
+      "skillModifiers": [
+        {
+          "key": 10,
+          "value": 3
+        }
+      ],
+      "societalAlignment": 0.15,
+      "religiousAlignment": 0.2
+    },
+    {
+      "name": "Pseudonym_29",
+      "skillModifiers": [
+        {
+          "key": 10,
+          "value": 3
+        }
+      ],
+      "societalAlignment": 0.25,
+      "religiousAlignment": -0.15
+    },
+    {
+      "name": "Pseudonym_30",
+      "skillModifiers": [
+        {
+          "key": 11,
+          "value": 3
+        }
+      ],
+      "societalAlignment": 0.05,
+      "religiousAlignment": -0.1
+    },
+    {
+      "name": "Pseudonym_31",
+      "skillModifiers": [
+        {
+          "key": 11,
+          "value": 3
+        }
+      ],
+      "societalAlignment": -0.05,
+      "religiousAlignment": -0.1
+    },
+    {
+      "name": "Pseudonym_32",
+      "skillModifiers": [
+        {
+          "key": 11,
+          "value": 3
+        }
+      ],
+      "societalAlignment": 0.15,
+      "religiousAlignment": 0.1
+    },
+    {
+      "name": "Pseudonym_33",
+      "skillModifiers": [
+        {
+          "key": 11,
+          "value": 3
+        }
+      ],
+      "societalAlignment": 0.05,
+      "religiousAlignment": 0.25
+    },
+    {
+      "name": "Pseudonym_34",
+      "skillModifiers": [
+        {
+          "key": 12,
+          "value": 3
+        }
+      ],
+      "societalAlignment": -0.15,
+      "religiousAlignment": -0.15
+    },
+    {
+      "name": "Pseudonym_35",
+      "skillModifiers": [
+        {
+          "key": 12,
+          "value": 3
+        }
+      ],
+      "societalAlignment": 0.2,
+      "religiousAlignment": -0.2
+    },
+    {
+      "name": "Pseudonym_37",
+      "skillModifiers": [
+        {
+          "key": 12,
+          "value": 3
+        }
+      ],
+      "societalAlignment": -0.15,
+      "religiousAlignment": 0
+    },
+    {
+      "name": "Pseudonym_38",
+      "skillModifiers": [
+        {
+          "key": 13,
+          "value": 3
+        }
+      ],
+      "societalAlignment": -0.1,
+      "religiousAlignment": -0.2
+    },
+    {
+      "name": "Pseudonym_39",
+      "skillModifiers": [
+        {
+          "key": 13,
+          "value": 3
+        }
+      ],
+      "societalAlignment": -0.2,
+      "religiousAlignment": -0.05
+    },
+    {
+      "name": "Pseudonym_40",
+      "skillModifiers": [
+        {
+          "key": 13,
+          "value": 3
+        }
+      ],
+      "societalAlignment": -0.1,
+      "religiousAlignment": 0.1
+    }
+  ]
+}

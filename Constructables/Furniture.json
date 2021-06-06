@@ -1,0 +1,2766 @@
+{
+  "repository": [
+    {
+      "id": "wood_table_small",
+      "buildTime": 25,
+      "size": {
+        "x": 3,
+        "y": 1,
+        "z": 1
+      },
+      "buildingCategoryUI": 3,
+      "buildingSubCategoryUI": 9,
+      "soundMaterialCategory": 1,
+      "buildingType": 8192,
+      "constructableBaseCategory": 3,
+      "placementType": 0,
+      "materials": {
+        "keys": [
+          "wood"
+        ],
+        "values": [
+          20
+        ]
+      },
+      "storageBase": {
+        "capacity": 999,
+        "storableResources": [
+          "wood"
+        ]
+      },
+      "reachableLevel": 2,
+      "cornerReachable": false,
+      "maxPoolCount": 20,
+      "refillThreshold": 10,
+      "placeableBellowOthers": false,
+      "transfersStability": false,
+      "layerShadowOffset": -1.5,
+      "layerHideOffset": -1,
+      "pathfindingPenalty": 100000,
+      "attackTraversePenalty": 0.2,
+      "stats": [
+        {
+          "debugName": "Hitpoints",
+          "type": 1,
+          "initialValue": 60,
+          "attributes": {
+            "max": [
+              {
+                "baseValue": 60
+              }
+            ]
+          }
+        }
+      ],
+      "wealthPoints": 49,
+      "destroyParticles": "destroy_wood_floor"
+    },
+    {
+      "id": "wood_table_medium",
+      "buildTime": 30,
+      "size": {
+        "x": 3,
+        "y": 1,
+        "z": 2
+      },
+      "buildingCategoryUI": 3,
+      "buildingSubCategoryUI": 19,
+      "soundMaterialCategory": 1,
+      "buildingType": 8192,
+      "constructableBaseCategory": 3,
+      "placementType": 0,
+      "materials": {
+        "keys": [
+          "wood"
+        ],
+        "values": [
+          30
+        ]
+      },
+      "storageBase": {
+        "capacity": 999,
+        "storableResources": [
+          "wood"
+        ]
+      },
+      "reachableLevel": 2,
+      "cornerReachable": false,
+      "maxPoolCount": 20,
+      "refillThreshold": 10,
+      "placeableBellowOthers": false,
+      "transfersStability": false,
+      "layerShadowOffset": -1.5,
+      "layerHideOffset": -1,
+      "pathfindingPenalty": 100000,
+      "attackTraversePenalty": 0.2,
+      "stats": [
+        {
+          "debugName": "Hitpoints",
+          "type": 1,
+          "initialValue": 80,
+          "attributes": {
+            "max": [
+              {
+                "baseValue": 80
+              }
+            ]
+          }
+        }
+      ],
+      "wealthPoints": 68,
+      "destroyParticles": "destroy_wood_floor"
+    },
+    {
+      "id": "wood_table_large",
+      "buildTime": 45,
+      "size": {
+        "x": 5,
+        "y": 1,
+        "z": 2
+      },
+      "buildingCategoryUI": 3,
+      "buildingSubCategoryUI": 20,
+      "soundMaterialCategory": 1,
+      "buildingType": 8192,
+      "constructableBaseCategory": 3,
+      "placementType": 0,
+      "materials": {
+        "keys": [
+          "wood"
+        ],
+        "values": [
+          90
+        ]
+      },
+      "storageBase": {
+        "capacity": 999,
+        "storableResources": [
+          "wood"
+        ]
+      },
+      "reachableLevel": 2,
+      "cornerReachable": false,
+      "maxPoolCount": 20,
+      "refillThreshold": 10,
+      "placeableBellowOthers": false,
+      "transfersStability": false,
+      "layerShadowOffset": -1.5,
+      "layerHideOffset": -1,
+      "pathfindingPenalty": 100000,
+      "attackTraversePenalty": 0.2,
+      "stats": [
+        {
+          "debugName": "Hitpoints",
+          "type": 1,
+          "initialValue": 120,
+          "attributes": {
+            "max": [
+              {
+                "baseValue": 120
+              }
+            ]
+          }
+        }
+      ],
+      "wealthPoints": 169,
+      "destroyParticles": "destroy_wood_floor"
+    },
+    {
+      "id": "stone_table_small",
+      "buildTime": 25,
+      "size": {
+        "x": 3,
+        "y": 1,
+        "z": 1
+      },
+      "buildingCategoryUI": 3,
+      "buildingSubCategoryUI": 9,
+      "soundMaterialCategory": 2,
+      "buildingType": 8192,
+      "constructableBaseCategory": 3,
+      "placementType": 0,
+      "materials": {
+        "keys": [
+          "limestone"
+        ],
+        "values": [
+          30
+        ]
+      },
+      "storageBase": {
+        "capacity": 999,
+        "storableResources": [
+          "limestone"
+        ]
+      },
+      "reachableLevel": 2,
+      "cornerReachable": false,
+      "maxPoolCount": 20,
+      "refillThreshold": 10,
+      "placeableBellowOthers": false,
+      "transfersStability": false,
+      "layerShadowOffset": -1.5,
+      "layerHideOffset": -1,
+      "pathfindingPenalty": 100000,
+      "attackTraversePenalty": 0.2,
+      "stats": [
+        {
+          "debugName": "Hitpoints",
+          "type": 1,
+          "initialValue": 200,
+          "attributes": {
+            "max": [
+              {
+                "baseValue": 200
+              }
+            ]
+          }
+        }
+      ],
+      "wealthPoints": 64,
+      "destroyParticles": "destroy_liimestone_wall"
+    },
+    {
+      "id": "stone_table_medium",
+      "buildTime": 30,
+      "size": {
+        "x": 3,
+        "y": 1,
+        "z": 2
+      },
+      "buildingCategoryUI": 3,
+      "buildingSubCategoryUI": 19,
+      "soundMaterialCategory": 2,
+      "buildingType": 8192,
+      "constructableBaseCategory": 3,
+      "placementType": 0,
+      "materials": {
+        "keys": [
+          "limestone"
+        ],
+        "values": [
+          30
+        ]
+      },
+      "storageBase": {
+        "capacity": 999,
+        "storableResources": [
+          "limestone"
+        ]
+      },
+      "reachableLevel": 2,
+      "cornerReachable": false,
+      "maxPoolCount": 20,
+      "refillThreshold": 10,
+      "placeableBellowOthers": false,
+      "transfersStability": false,
+      "layerShadowOffset": -1.5,
+      "layerHideOffset": -1,
+      "pathfindingPenalty": 100000,
+      "attackTraversePenalty": 0.2,
+      "stats": [
+        {
+          "debugName": "Hitpoints",
+          "type": 1,
+          "initialValue": 200,
+          "attributes": {
+            "max": [
+              {
+                "baseValue": 200
+              }
+            ]
+          }
+        }
+      ],
+      "wealthPoints": 68,
+      "destroyParticles": "destroy_liimestone_wall"
+    },
+    {
+      "id": "stone_table_large",
+      "buildTime": 45,
+      "size": {
+        "x": 5,
+        "y": 1,
+        "z": 2
+      },
+      "buildingCategoryUI": 3,
+      "buildingSubCategoryUI": 20,
+      "soundMaterialCategory": 2,
+      "buildingType": 8192,
+      "constructableBaseCategory": 3,
+      "placementType": 0,
+      "materials": {
+        "keys": [
+          "limestone"
+        ],
+        "values": [
+          90
+        ]
+      },
+      "storageBase": {
+        "capacity": 999,
+        "storableResources": [
+          "limestone"
+        ]
+      },
+      "reachableLevel": 2,
+      "cornerReachable": false,
+      "maxPoolCount": 20,
+      "refillThreshold": 10,
+      "placeableBellowOthers": false,
+      "transfersStability": false,
+      "layerShadowOffset": -1.5,
+      "layerHideOffset": -1,
+      "pathfindingPenalty": 100000,
+      "attackTraversePenalty": 0.2,
+      "stats": [
+        {
+          "debugName": "Hitpoints",
+          "type": 1,
+          "initialValue": 200,
+          "attributes": {
+            "max": [
+              {
+                "baseValue": 200
+              }
+            ]
+          }
+        }
+      ],
+      "wealthPoints": 169,
+      "destroyParticles": "destroy_liimestone_wall"
+    },
+    {
+      "id": "quality_table_small",
+      "buildTime": 30,
+      "size": {
+        "x": 3,
+        "y": 1,
+        "z": 1
+      },
+      "buildingCategoryUI": 3,
+      "buildingSubCategoryUI": 9,
+      "soundMaterialCategory": 1,
+      "buildingType": 8192,
+      "constructableBaseCategory": 3,
+      "placementType": 0,
+      "materials": {
+        "keys": [
+          "wood"
+        ],
+        "values": [
+          25
+        ]
+      },
+      "storageBase": {
+        "capacity": 999,
+        "storableResources": [
+          "wood"
+        ]
+      },
+      "reachableLevel": 2,
+      "cornerReachable": false,
+      "maxPoolCount": 20,
+      "refillThreshold": 10,
+      "placeableBellowOthers": false,
+      "transfersStability": false,
+      "layerShadowOffset": -1.5,
+      "layerHideOffset": -1,
+      "pathfindingPenalty": 100000,
+      "attackTraversePenalty": 0.2,
+      "stats": [
+        {
+          "debugName": "Hitpoints",
+          "type": 1,
+          "initialValue": 60,
+          "attributes": {
+            "max": [
+              {
+                "baseValue": 60
+              }
+            ]
+          }
+        }
+      ],
+      "wealthPoints": 60,
+      "minBuildSkillRequired": 5,
+      "destroyParticles": "destroy_wood_floor"
+    },
+    {
+      "id": "quality_table_large",
+      "buildTime": 50,
+      "size": {
+        "x": 5,
+        "y": 1,
+        "z": 2
+      },
+      "buildingCategoryUI": 3,
+      "buildingSubCategoryUI": 20,
+      "soundMaterialCategory": 1,
+      "buildingType": 8192,
+      "constructableBaseCategory": 3,
+      "placementType": 0,
+      "materials": {
+        "keys": [
+          "wood"
+        ],
+        "values": [
+          100
+        ]
+      },
+      "storageBase": {
+        "capacity": 999,
+        "storableResources": [
+          "wood"
+        ]
+      },
+      "reachableLevel": 2,
+      "cornerReachable": false,
+      "maxPoolCount": 20,
+      "refillThreshold": 10,
+      "placeableBellowOthers": false,
+      "transfersStability": false,
+      "layerShadowOffset": -1.5,
+      "layerHideOffset": -1,
+      "pathfindingPenalty": 100000,
+      "attackTraversePenalty": 0.2,
+      "stats": [
+        {
+          "debugName": "Hitpoints",
+          "type": 1,
+          "initialValue": 120,
+          "attributes": {
+            "max": [
+              {
+                "baseValue": 120
+              }
+            ]
+          }
+        }
+      ],
+      "wealthPoints": 188,
+      "minBuildSkillRequired": 5,
+      "destroyParticles": "destroy_wood_floor"
+    },
+    {
+      "id": "quality_table_medium",
+      "buildTime": 35,
+      "size": {
+        "x": 3,
+        "y": 1,
+        "z": 2
+      },
+      "buildingCategoryUI": 3,
+      "buildingSubCategoryUI": 19,
+      "soundMaterialCategory": 1,
+      "buildingType": 8192,
+      "constructableBaseCategory": 3,
+      "placementType": 0,
+      "materials": {
+        "keys": [
+          "wood"
+        ],
+        "values": [
+          35
+        ]
+      },
+      "storageBase": {
+        "capacity": 999,
+        "storableResources": [
+          "wood"
+        ]
+      },
+      "reachableLevel": 2,
+      "cornerReachable": false,
+      "maxPoolCount": 20,
+      "refillThreshold": 10,
+      "placeableBellowOthers": false,
+      "transfersStability": false,
+      "layerShadowOffset": -1.5,
+      "layerHideOffset": -1,
+      "pathfindingPenalty": 100000,
+      "attackTraversePenalty": 0.2,
+      "stats": [
+        {
+          "debugName": "Hitpoints",
+          "type": 1,
+          "initialValue": 80,
+          "attributes": {
+            "max": [
+              {
+                "baseValue": 80
+              }
+            ]
+          }
+        }
+      ],
+      "wealthPoints": 79,
+      "minBuildSkillRequired": 5,
+      "destroyParticles": "destroy_wood_floor"
+    },
+    {
+      "id": "wood_stool",
+      "buildTime": 15,
+      "size": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "buildingCategoryUI": 3,
+      "buildingSubCategoryUI": 24,
+      "soundMaterialCategory": 1,
+      "buildingType": 4096,
+      "constructableBaseCategory": 3,
+      "placementType": 0,
+      "materials": {
+        "keys": [
+          "wood"
+        ],
+        "values": [
+          10
+        ]
+      },
+      "storageBase": {
+        "capacity": 999,
+        "storableResources": [
+          "wood"
+        ]
+      },
+      "reachableLevel": 2,
+      "cornerReachable": false,
+      "maxPoolCount": 20,
+      "refillThreshold": 10,
+      "placeableBellowOthers": false,
+      "transfersStability": false,
+      "layerShadowOffset": -1.5,
+      "layerHideOffset": -1,
+      "pathfindingPenalty": 8000,
+      "attackTraversePenalty": 0.05,
+      "stats": [
+        {
+          "debugName": "Hitpoints",
+          "type": 1,
+          "initialValue": 30,
+          "attributes": {
+            "max": [
+              {
+                "baseValue": 30
+              }
+            ]
+          }
+        }
+      ],
+      "wealthPoints": 26,
+      "destroyParticles": "destroy_wood_floor"
+    },
+    {
+      "id": "stone_stool",
+      "buildTime": 21,
+      "size": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "buildingCategoryUI": 3,
+      "buildingSubCategoryUI": 24,
+      "soundMaterialCategory": 2,
+      "buildingType": 4096,
+      "constructableBaseCategory": 3,
+      "placementType": 0,
+      "materials": {
+        "keys": [
+          "limestone"
+        ],
+        "values": [
+          20
+        ]
+      },
+      "storageBase": {
+        "capacity": 999,
+        "storableResources": [
+          "limestone"
+        ]
+      },
+      "reachableLevel": 2,
+      "cornerReachable": false,
+      "maxPoolCount": 20,
+      "refillThreshold": 10,
+      "placeableBellowOthers": false,
+      "transfersStability": false,
+      "layerShadowOffset": -1.5,
+      "layerHideOffset": -1,
+      "pathfindingPenalty": 8000,
+      "attackTraversePenalty": 0.05,
+      "stats": [
+        {
+          "debugName": "Hitpoints",
+          "type": 1,
+          "initialValue": 80,
+          "attributes": {
+            "max": [
+              {
+                "baseValue": 80
+              }
+            ]
+          }
+        }
+      ],
+      "wealthPoints": 46,
+      "destroyParticles": "destroy_liimestone_wall"
+    },
+    {
+      "id": "wood_chair",
+      "buildTime": 20,
+      "size": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "buildingCategoryUI": 3,
+      "buildingSubCategoryUI": 25,
+      "soundMaterialCategory": 1,
+      "buildingType": 4096,
+      "constructableBaseCategory": 3,
+      "placementType": 0,
+      "materials": {
+        "keys": [
+          "wood"
+        ],
+        "values": [
+          25
+        ]
+      },
+      "storageBase": {
+        "capacity": 999,
+        "storableResources": [
+          "wood"
+        ]
+      },
+      "reachableLevel": 2,
+      "cornerReachable": false,
+      "maxPoolCount": 20,
+      "refillThreshold": 10,
+      "placeableBellowOthers": false,
+      "transfersStability": false,
+      "layerShadowOffset": -1.5,
+      "layerHideOffset": -1,
+      "pathfindingPenalty": 8000,
+      "attackTraversePenalty": 0.08,
+      "cover": 0,
+      "stats": [
+        {
+          "debugName": "Hitpoints",
+          "type": 1,
+          "initialValue": 40,
+          "attributes": {
+            "max": [
+              {
+                "baseValue": 40
+              }
+            ]
+          }
+        }
+      ],
+      "wealthPoints": 53,
+      "minBuildSkillRequired": 5,
+      "destroyParticles": "destroy_wood_floor"
+    },
+    {
+      "id": "stone_chair",
+      "buildTime": 26.25,
+      "size": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "buildingCategoryUI": 3,
+      "buildingSubCategoryUI": 25,
+      "soundMaterialCategory": 2,
+      "buildingType": 4096,
+      "constructableBaseCategory": 3,
+      "placementType": 0,
+      "materials": {
+        "keys": [
+          "limestone"
+        ],
+        "values": [
+          25
+        ]
+      },
+      "storageBase": {
+        "capacity": 999,
+        "storableResources": [
+          "limestone"
+        ]
+      },
+      "reachableLevel": 2,
+      "cornerReachable": false,
+      "maxPoolCount": 20,
+      "refillThreshold": 10,
+      "placeableBellowOthers": false,
+      "transfersStability": false,
+      "layerShadowOffset": -1.5,
+      "layerHideOffset": -1,
+      "pathfindingPenalty": 8000,
+      "attackTraversePenalty": 0.08,
+      "cover": 0,
+      "stats": [
+        {
+          "debugName": "Hitpoints",
+          "type": 1,
+          "initialValue": 120,
+          "attributes": {
+            "max": [
+              {
+                "baseValue": 120
+              }
+            ]
+          }
+        }
+      ],
+      "wealthPoints": 57,
+      "destroyParticles": "destroy_liimestone_wall"
+    },
+    {
+      "id": "hay_sleeping_spot",
+      "buildTime": 4,
+      "size": {
+        "x": 2,
+        "y": 1,
+        "z": 1
+      },
+      "buildingCategoryUI": 3,
+      "buildingSubCategoryUI": 22,
+      "soundMaterialCategory": 5,
+      "buildingType": 16384,
+      "constructableBaseCategory": 3,
+      "placementType": 0,
+      "materials": {
+        "keys": [
+          "hay"
+        ],
+        "values": [
+          15
+        ]
+      },
+      "storageBase": {
+        "capacity": 999,
+        "storableResources": [
+          "hay"
+        ]
+      },
+      "reachableLevel": 2,
+      "cornerReachable": false,
+      "maxPoolCount": 20,
+      "refillThreshold": 10,
+      "placeableBellowOthers": false,
+      "transfersStability": false,
+      "layerShadowOffset": -1.5,
+      "layerHideOffset": -1,
+      "pathfindingPenalty": 12000,
+      "attackTraversePenalty": 0.02,
+      "cover": 0,
+      "stats": [
+        {
+          "debugName": "Hitpoints",
+          "type": 1,
+          "initialValue": 10,
+          "attributes": {
+            "max": [
+              {
+                "baseValue": 10
+              }
+            ]
+          }
+        }
+      ],
+      "wealthPoints": 26,
+      "destroyParticles": "destroy_hay_roof"
+    },
+    {
+      "id": "hay_wood_bed",
+      "buildTime": 25,
+      "size": {
+        "x": 3,
+        "y": 1,
+        "z": 1
+      },
+      "buildingCategoryUI": 3,
+      "buildingSubCategoryUI": 23,
+      "soundMaterialCategory": 1,
+      "buildingType": 16384,
+      "constructableBaseCategory": 3,
+      "placementType": 0,
+      "materials": {
+        "keys": [
+          "wood",
+          "hay"
+        ],
+        "values": [
+          40,
+          20
+        ]
+      },
+      "storageBase": {
+        "capacity": 999,
+        "storableResources": [
+          "wood",
+          "hay"
+        ]
+      },
+      "reachableLevel": 2,
+      "cornerReachable": false,
+      "maxPoolCount": 20,
+      "refillThreshold": 10,
+      "placeableBellowOthers": false,
+      "transfersStability": false,
+      "layerShadowOffset": -1.5,
+      "layerHideOffset": -1,
+      "pathfindingPenalty": 12000,
+      "attackTraversePenalty": 0.05,
+      "cover": 0,
+      "stats": [
+        {
+          "debugName": "Hitpoints",
+          "type": 1,
+          "initialValue": 80,
+          "attributes": {
+            "max": [
+              {
+                "baseValue": 80
+              }
+            ]
+          }
+        }
+      ],
+      "wealthPoints": 109,
+      "minBuildSkillRequired": 5,
+      "destroyParticles": "destroy_hay_roof"
+    },
+    {
+      "id": "wood_torch",
+      "buildTime": 6,
+      "size": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "buildingCategoryUI": 3,
+      "buildingSubCategoryUI": 12,
+      "soundMaterialCategory": 1,
+      "buildingType": 32768,
+      "constructableBaseCategory": 4,
+      "placementType": 0,
+      "materials": {
+        "keys": [
+          "wood"
+        ],
+        "values": [
+          5
+        ]
+      },
+      "storageBase": {
+        "capacity": 999,
+        "storableResources": [
+          "wood"
+        ]
+      },
+      "reachableLevel": 2,
+      "cornerReachable": false,
+      "maxPoolCount": 20,
+      "refillThreshold": 10,
+      "placeableBellowOthers": false,
+      "transfersStability": false,
+      "layerShadowOffset": -1.5,
+      "layerHideOffset": -1,
+      "pathfindingPenalty": 8000,
+      "attackTraversePenalty": 0.01,
+      "cover": 0,
+      "stats": [
+        {
+          "debugName": "Hitpoints",
+          "type": 1,
+          "initialValue": 10,
+          "attributes": {
+            "max": [
+              {
+                "baseValue": 10
+              }
+            ]
+          }
+        }
+      ],
+      "wealthPoints": 12,
+      "thermalModelID": "torch",
+      "thermalModelIDSecondary": "torch_off",
+      "destroyParticles": "destroy_wood_torch",
+      "lockable": true,
+      "lockStateTextKeys": [
+        "torch_state_on",
+        "torch_state_off"
+      ],
+      "lockStateInfoTextKeys": [
+        "torch_on_info",
+        "torch_off_info"
+      ]
+    },
+    {
+      "id": "iron_torch",
+      "buildTime": 20,
+      "size": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "buildingCategoryUI": 3,
+      "buildingSubCategoryUI": 12,
+      "soundMaterialCategory": 4,
+      "buildingType": 32768,
+      "constructableBaseCategory": 4,
+      "placementType": 0,
+      "materials": {
+        "keys": [
+          "iron_ingot"
+        ],
+        "values": [
+          5
+        ]
+      },
+      "storageBase": {
+        "capacity": 999,
+        "storableResources": [
+          "iron_ingot"
+        ]
+      },
+      "reachableLevel": 2,
+      "cornerReachable": false,
+      "maxPoolCount": 20,
+      "refillThreshold": 10,
+      "placeableBellowOthers": false,
+      "transfersStability": false,
+      "layerShadowOffset": -1.5,
+      "layerHideOffset": -1,
+      "pathfindingPenalty": 8000,
+      "attackTraversePenalty": 0.01,
+      "cover": 0,
+      "stats": [
+        {
+          "debugName": "Hitpoints",
+          "type": 1,
+          "initialValue": 100,
+          "attributes": {
+            "max": [
+              {
+                "baseValue": 100
+              }
+            ]
+          }
+        }
+      ],
+      "wealthPoints": 38,
+      "thermalModelID": "torch",
+      "thermalModelIDSecondary": "torch_off",
+      "destroyParticles": "destroy_iron_torch",
+      "lockable": true,
+      "lockStateTextKeys": [
+        "torch_state_on",
+        "torch_state_off"
+      ],
+      "lockStateInfoTextKeys": [
+        "torch_on_info",
+        "torch_off_info"
+      ]
+    },
+    {
+      "id": "wood_torch_wall",
+      "buildTime": 6,
+      "size": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "buildingCategoryUI": 3,
+      "buildingSubCategoryUI": 12,
+      "soundMaterialCategory": 1,
+      "buildingType": 32768,
+      "constructableBaseCategory": 7,
+      "placementType": 3,
+      "materials": {
+        "keys": [
+          "wood"
+        ],
+        "values": [
+          5
+        ]
+      },
+      "storageBase": {
+        "capacity": 999,
+        "storableResources": [
+          "wood"
+        ]
+      },
+      "reachableLevel": 2,
+      "cornerReachable": false,
+      "maxPoolCount": 20,
+      "refillThreshold": 10,
+      "placeableBellowOthers": false,
+      "transfersStability": false,
+      "layerShadowOffset": -1,
+      "layerHideOffset": -0.5,
+      "attackTraversePenalty": 0.01,
+      "cover": 0,
+      "stats": [
+        {
+          "debugName": "Hitpoints",
+          "type": 1,
+          "initialValue": 10,
+          "attributes": {
+            "max": [
+              {
+                "baseValue": 10
+              }
+            ]
+          }
+        }
+      ],
+      "wealthPoints": 12,
+      "thermalModelID": "torch",
+      "thermalModelIDSecondary": "torch_off",
+      "destroyParticles": "destroy_wood_torch",
+      "lockable": true,
+      "lockStateTextKeys": [
+        "torch_state_on",
+        "torch_state_off"
+      ],
+      "lockStateInfoTextKeys": [
+        "torch_on_info",
+        "torch_off_info"
+      ]
+    },
+    {
+      "id": "iron_tourch_wall",
+      "buildTime": 22.5,
+      "size": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "buildingCategoryUI": 3,
+      "buildingSubCategoryUI": 12,
+      "soundMaterialCategory": 4,
+      "buildingType": 32768,
+      "constructableBaseCategory": 7,
+      "placementType": 3,
+      "materials": {
+        "keys": [
+          "iron_ingot"
+        ],
+        "values": [
+          5
+        ]
+      },
+      "storageBase": {
+        "capacity": 999,
+        "storableResources": [
+          "iron_ingot"
+        ]
+      },
+      "reachableLevel": 2,
+      "cornerReachable": false,
+      "maxPoolCount": 20,
+      "refillThreshold": 10,
+      "placeableBellowOthers": false,
+      "transfersStability": false,
+      "layerShadowOffset": -1,
+      "layerHideOffset": -0.5,
+      "attackTraversePenalty": 0.01,
+      "cover": 0,
+      "stats": [
+        {
+          "debugName": "Hitpoints",
+          "type": 1,
+          "initialValue": 100,
+          "attributes": {
+            "max": [
+              {
+                "baseValue": 100
+              }
+            ]
+          }
+        }
+      ],
+      "wealthPoints": 39,
+      "thermalModelID": "torch",
+      "thermalModelIDSecondary": "torch_off",
+      "destroyParticles": "destroy_iron_torch",
+      "lockable": true,
+      "lockStateTextKeys": [
+        "torch_state_on",
+        "torch_state_off"
+      ],
+      "lockStateInfoTextKeys": [
+        "torch_on_info",
+        "torch_off_info"
+      ]
+    },
+    {
+      "id": "clay_brazier",
+      "buildTime": 30,
+      "size": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "buildingCategoryUI": 3,
+      "buildingSubCategoryUI": 14,
+      "soundMaterialCategory": 3,
+      "buildingType": 32768,
+      "constructableBaseCategory": 4,
+      "placementType": 0,
+      "materials": {
+        "keys": [
+          "clay",
+          "wood"
+        ],
+        "values": [
+          10,
+          5
+        ]
+      },
+      "storageBase": {
+        "capacity": 999,
+        "storableResources": [
+          "clay",
+          "wood"
+        ]
+      },
+      "reachableLevel": 2,
+      "cornerReachable": false,
+      "maxPoolCount": 20,
+      "refillThreshold": 10,
+      "placeableBellowOthers": false,
+      "transfersStability": false,
+      "layerShadowOffset": -1.5,
+      "layerHideOffset": -1,
+      "pathfindingPenalty": 12000,
+      "attackTraversePenalty": 0.05,
+      "cover": 0,
+      "stats": [
+        {
+          "debugName": "Hitpoints",
+          "type": 1,
+          "initialValue": 100,
+          "attributes": {
+            "max": [
+              {
+                "baseValue": 100
+              }
+            ]
+          }
+        }
+      ],
+      "wealthPoints": 45,
+      "thermalModelID": "brazier",
+      "thermalModelIDSecondary": "brazier_off",
+      "destroyParticles": "destroy_clay_wall",
+      "lockable": true,
+      "lockStateTextKeys": [
+        "torch_state_on",
+        "torch_state_off"
+      ],
+      "lockStateInfoTextKeys": [
+        "torch_on_info",
+        "torch_off_info"
+      ]
+    },
+    {
+      "id": "stone_brazier",
+      "buildTime": 35,
+      "size": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "buildingCategoryUI": 3,
+      "buildingSubCategoryUI": 14,
+      "soundMaterialCategory": 2,
+      "buildingType": 32768,
+      "constructableBaseCategory": 4,
+      "placementType": 0,
+      "materials": {
+        "keys": [
+          "limestone",
+          "wood"
+        ],
+        "values": [
+          10,
+          5
+        ]
+      },
+      "storageBase": {
+        "capacity": 999,
+        "storableResources": [
+          "limestone",
+          "wood"
+        ]
+      },
+      "reachableLevel": 2,
+      "cornerReachable": false,
+      "maxPoolCount": 20,
+      "refillThreshold": 10,
+      "placeableBellowOthers": false,
+      "transfersStability": false,
+      "layerShadowOffset": -1.5,
+      "layerHideOffset": -1,
+      "pathfindingPenalty": 12000,
+      "attackTraversePenalty": 0.05,
+      "cover": 0,
+      "stats": [
+        {
+          "debugName": "Hitpoints",
+          "type": 1,
+          "initialValue": 180,
+          "attributes": {
+            "max": [
+              {
+                "baseValue": 180
+              }
+            ]
+          }
+        }
+      ],
+      "wealthPoints": 49,
+      "thermalModelID": "brazier",
+      "thermalModelIDSecondary": "brazier_off",
+      "destroyParticles": "destroy_liimestone_wall",
+      "lockable": true,
+      "lockStateTextKeys": [
+        "torch_state_on",
+        "torch_state_off"
+      ],
+      "lockStateInfoTextKeys": [
+        "torch_on_info",
+        "torch_off_info"
+      ]
+    },
+    {
+      "id": "iron_brazier",
+      "buildTime": 60,
+      "size": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "buildingCategoryUI": 3,
+      "buildingSubCategoryUI": 14,
+      "soundMaterialCategory": 4,
+      "buildingType": 32768,
+      "constructableBaseCategory": 4,
+      "placementType": 0,
+      "materials": {
+        "keys": [
+          "iron_ingot",
+          "wood"
+        ],
+        "values": [
+          10,
+          5
+        ]
+      },
+      "storageBase": {
+        "capacity": 999,
+        "storableResources": [
+          "iron_ingot",
+          "wood"
+        ]
+      },
+      "reachableLevel": 2,
+      "cornerReachable": false,
+      "maxPoolCount": 20,
+      "refillThreshold": 10,
+      "placeableBellowOthers": false,
+      "transfersStability": false,
+      "layerShadowOffset": -1.5,
+      "layerHideOffset": -1,
+      "pathfindingPenalty": 12000,
+      "attackTraversePenalty": 0.05,
+      "cover": 0,
+      "stats": [
+        {
+          "debugName": "Hitpoints",
+          "type": 1,
+          "initialValue": 250,
+          "attributes": {
+            "max": [
+              {
+                "baseValue": 250
+              }
+            ]
+          }
+        }
+      ],
+      "wealthPoints": 98,
+      "thermalModelID": "brazier",
+      "thermalModelIDSecondary": "brazier_off",
+      "destroyParticles": "destroy_iron_torch",
+      "lockable": true,
+      "lockStateTextKeys": [
+        "torch_state_on",
+        "torch_state_off"
+      ],
+      "lockStateInfoTextKeys": [
+        "torch_on_info",
+        "torch_off_info"
+      ]
+    },
+    {
+      "id": "clay_brick_brazier",
+      "buildTime": 45,
+      "size": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "buildingCategoryUI": 3,
+      "buildingSubCategoryUI": 14,
+      "soundMaterialCategory": 2,
+      "buildingType": 32768,
+      "constructableBaseCategory": 4,
+      "placementType": 0,
+      "materials": {
+        "keys": [
+          "clay_brick",
+          "wood"
+        ],
+        "values": [
+          10,
+          5
+        ]
+      },
+      "storageBase": {
+        "capacity": 999,
+        "storableResources": [
+          "clay_brick",
+          "wood"
+        ]
+      },
+      "reachableLevel": 2,
+      "cornerReachable": false,
+      "maxPoolCount": 20,
+      "refillThreshold": 10,
+      "placeableBellowOthers": false,
+      "transfersStability": false,
+      "layerShadowOffset": -1.5,
+      "layerHideOffset": -1,
+      "pathfindingPenalty": 12000,
+      "attackTraversePenalty": 0.05,
+      "cover": 0,
+      "stats": [
+        {
+          "debugName": "Hitpoints",
+          "type": 1,
+          "initialValue": 200,
+          "attributes": {
+            "max": [
+              {
+                "baseValue": 200
+              }
+            ]
+          }
+        }
+      ],
+      "wealthPoints": 71,
+      "thermalModelID": "brazier",
+      "thermalModelIDSecondary": "brazier_off",
+      "destroyParticles": "destroy_clay_brick_wall",
+      "lockable": true,
+      "lockStateTextKeys": [
+        "torch_state_on",
+        "torch_state_off"
+      ],
+      "lockStateInfoTextKeys": [
+        "torch_on_info",
+        "torch_off_info"
+      ]
+    },
+    {
+      "id": "stone_brick_brazier",
+      "buildTime": 45,
+      "size": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "buildingCategoryUI": 3,
+      "buildingSubCategoryUI": 14,
+      "soundMaterialCategory": 2,
+      "buildingType": 32768,
+      "constructableBaseCategory": 4,
+      "placementType": 0,
+      "materials": {
+        "keys": [
+          "limestone_block",
+          "wood"
+        ],
+        "values": [
+          10,
+          5
+        ]
+      },
+      "storageBase": {
+        "capacity": 999,
+        "storableResources": [
+          "limestone_block",
+          "wood"
+        ]
+      },
+      "reachableLevel": 2,
+      "cornerReachable": false,
+      "maxPoolCount": 20,
+      "refillThreshold": 10,
+      "placeableBellowOthers": false,
+      "transfersStability": false,
+      "layerShadowOffset": -1.5,
+      "layerHideOffset": -1,
+      "pathfindingPenalty": 12000,
+      "attackTraversePenalty": 0.07,
+      "cover": 0,
+      "stats": [
+        {
+          "debugName": "Hitpoints",
+          "type": 1,
+          "initialValue": 200,
+          "attributes": {
+            "max": [
+              {
+                "baseValue": 200
+              }
+            ]
+          }
+        }
+      ],
+      "wealthPoints": 71,
+      "thermalModelID": "brazier",
+      "thermalModelIDSecondary": "brazier_off",
+      "destroyParticles": "destroy_limestone_block_wall",
+      "lockable": true,
+      "lockStateTextKeys": [
+        "torch_state_on",
+        "torch_state_off"
+      ],
+      "lockStateInfoTextKeys": [
+        "torch_on_info",
+        "torch_off_info"
+      ]
+    },
+    {
+      "id": "banner_single_medium",
+      "buildTime": 5,
+      "size": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "buildingCategoryUI": 5,
+      "buildingSubCategoryUI": 13,
+      "soundMaterialCategory": 1,
+      "buildingType": 32768,
+      "constructableBaseCategory": 4,
+      "placementType": 0,
+      "materials": {
+        "keys": [
+          "wood",
+          "linen_cloth"
+        ],
+        "values": [
+          10,
+          3
+        ]
+      },
+      "storageBase": {
+        "capacity": 999,
+        "storableResources": [
+          "wood",
+          "linen_cloth"
+        ]
+      },
+      "reachableLevel": 2,
+      "cornerReachable": false,
+      "maxPoolCount": 20,
+      "refillThreshold": 10,
+      "placeableBellowOthers": false,
+      "transfersStability": false,
+      "layerShadowOffset": -1.5,
+      "layerHideOffset": -1,
+      "pathfindingPenalty": 8000,
+      "attackTraversePenalty": 0.07,
+      "cover": 0,
+      "stats": [
+        {
+          "debugName": "Hitpoints",
+          "type": 1,
+          "initialValue": 40,
+          "attributes": {
+            "max": [
+              {
+                "baseValue": 40
+              }
+            ]
+          }
+        }
+      ],
+      "wealthPoints": 32,
+      "destroyParticles": "destroy_banner"
+    },
+    {
+      "id": "banner_single_large",
+      "buildTime": 5,
+      "size": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "buildingCategoryUI": 5,
+      "buildingSubCategoryUI": 13,
+      "soundMaterialCategory": 1,
+      "buildingType": 32768,
+      "constructableBaseCategory": 4,
+      "placementType": 0,
+      "materials": {
+        "keys": [
+          "wood",
+          "linen_cloth"
+        ],
+        "values": [
+          10,
+          3
+        ]
+      },
+      "storageBase": {
+        "capacity": 999,
+        "storableResources": [
+          "wood",
+          "linen_cloth"
+        ]
+      },
+      "reachableLevel": 2,
+      "cornerReachable": false,
+      "maxPoolCount": 20,
+      "refillThreshold": 10,
+      "placeableBellowOthers": false,
+      "transfersStability": false,
+      "layerShadowOffset": -1.5,
+      "layerHideOffset": -1,
+      "pathfindingPenalty": 8000,
+      "attackTraversePenalty": 0.07,
+      "cover": 0,
+      "stats": [
+        {
+          "debugName": "Hitpoints",
+          "type": 1,
+          "initialValue": 40,
+          "attributes": {
+            "max": [
+              {
+                "baseValue": 40
+              }
+            ]
+          }
+        }
+      ],
+      "wealthPoints": 32,
+      "destroyParticles": "destroy_banner"
+    },
+    {
+      "id": "banner_dubble_large",
+      "buildTime": 5,
+      "size": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "buildingCategoryUI": 5,
+      "buildingSubCategoryUI": 13,
+      "soundMaterialCategory": 1,
+      "buildingType": 32768,
+      "constructableBaseCategory": 4,
+      "placementType": 0,
+      "materials": {
+        "keys": [
+          "wood",
+          "linen_cloth"
+        ],
+        "values": [
+          10,
+          3
+        ]
+      },
+      "storageBase": {
+        "capacity": 999,
+        "storableResources": [
+          "wood",
+          "linen_cloth"
+        ]
+      },
+      "reachableLevel": 2,
+      "cornerReachable": false,
+      "maxPoolCount": 20,
+      "refillThreshold": 10,
+      "placeableBellowOthers": false,
+      "transfersStability": false,
+      "layerShadowOffset": -1.5,
+      "layerHideOffset": -1,
+      "pathfindingPenalty": 8000,
+      "attackTraversePenalty": 0.07,
+      "cover": 0,
+      "stats": [
+        {
+          "debugName": "Hitpoints",
+          "type": 1,
+          "initialValue": 40,
+          "attributes": {
+            "max": [
+              {
+                "baseValue": 40
+              }
+            ]
+          }
+        }
+      ],
+      "wealthPoints": 32,
+      "destroyParticles": "destroy_banner"
+    },
+    {
+      "id": "banner_one_side_medium",
+      "buildTime": 5,
+      "size": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "buildingCategoryUI": 5,
+      "buildingSubCategoryUI": 13,
+      "soundMaterialCategory": 1,
+      "buildingType": 32768,
+      "constructableBaseCategory": 4,
+      "placementType": 0,
+      "materials": {
+        "keys": [
+          "wood",
+          "linen_cloth"
+        ],
+        "values": [
+          10,
+          3
+        ]
+      },
+      "storageBase": {
+        "capacity": 999,
+        "storableResources": [
+          "wood",
+          "linen_cloth"
+        ]
+      },
+      "reachableLevel": 2,
+      "cornerReachable": false,
+      "maxPoolCount": 20,
+      "refillThreshold": 10,
+      "placeableBellowOthers": false,
+      "transfersStability": false,
+      "layerShadowOffset": -1.5,
+      "layerHideOffset": -1,
+      "pathfindingPenalty": 8000,
+      "attackTraversePenalty": 0.07,
+      "cover": 0,
+      "stats": [
+        {
+          "debugName": "Hitpoints",
+          "type": 1,
+          "initialValue": 40,
+          "attributes": {
+            "max": [
+              {
+                "baseValue": 40
+              }
+            ]
+          }
+        }
+      ],
+      "wealthPoints": 32,
+      "destroyParticles": "destroy_banner"
+    },
+    {
+      "id": "banner_wall_medium",
+      "buildTime": 5,
+      "size": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "buildingCategoryUI": 5,
+      "buildingSubCategoryUI": 13,
+      "soundMaterialCategory": 1,
+      "buildingType": 32768,
+      "constructableBaseCategory": 7,
+      "placementType": 3,
+      "materials": {
+        "keys": [
+          "wood",
+          "linen_cloth"
+        ],
+        "values": [
+          10,
+          3
+        ]
+      },
+      "storageBase": {
+        "capacity": 999,
+        "storableResources": [
+          "wood",
+          "linen_cloth"
+        ]
+      },
+      "reachableLevel": 2,
+      "cornerReachable": false,
+      "maxPoolCount": 20,
+      "refillThreshold": 10,
+      "placeableBellowOthers": false,
+      "transfersStability": false,
+      "layerShadowOffset": -1,
+      "layerHideOffset": -0.5,
+      "attackTraversePenalty": 0.07,
+      "cover": 0,
+      "stats": [
+        {
+          "debugName": "Hitpoints",
+          "type": 1,
+          "initialValue": 40,
+          "attributes": {
+            "max": [
+              {
+                "baseValue": 40
+              }
+            ]
+          }
+        }
+      ],
+      "wealthPoints": 32,
+      "destroyParticles": "destroy_banner"
+    },
+    {
+      "id": "banner_one_side_large",
+      "buildTime": 5,
+      "size": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "buildingCategoryUI": 5,
+      "buildingSubCategoryUI": 13,
+      "soundMaterialCategory": 1,
+      "buildingType": 32768,
+      "constructableBaseCategory": 4,
+      "placementType": 0,
+      "materials": {
+        "keys": [
+          "wood",
+          "linen_cloth"
+        ],
+        "values": [
+          10,
+          3
+        ]
+      },
+      "storageBase": {
+        "capacity": 999,
+        "storableResources": [
+          "wood",
+          "linen_cloth"
+        ]
+      },
+      "reachableLevel": 2,
+      "cornerReachable": false,
+      "maxPoolCount": 20,
+      "refillThreshold": 10,
+      "placeableBellowOthers": false,
+      "transfersStability": false,
+      "layerShadowOffset": -1.5,
+      "layerHideOffset": -1,
+      "pathfindingPenalty": 8000,
+      "attackTraversePenalty": 0.07,
+      "cover": 0,
+      "stats": [
+        {
+          "debugName": "Hitpoints",
+          "type": 1,
+          "initialValue": 40,
+          "attributes": {
+            "max": [
+              {
+                "baseValue": 40
+              }
+            ]
+          }
+        }
+      ],
+      "wealthPoints": 32,
+      "destroyParticles": "destroy_banner"
+    },
+    {
+      "id": "banner_wall_large",
+      "buildTime": 5,
+      "size": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "buildingCategoryUI": 5,
+      "buildingSubCategoryUI": 13,
+      "soundMaterialCategory": 1,
+      "buildingType": 32768,
+      "constructableBaseCategory": 7,
+      "placementType": 3,
+      "materials": {
+        "keys": [
+          "wood",
+          "linen_cloth"
+        ],
+        "values": [
+          10,
+          3
+        ]
+      },
+      "storageBase": {
+        "capacity": 999,
+        "storableResources": [
+          "wood",
+          "linen_cloth"
+        ]
+      },
+      "reachableLevel": 2,
+      "cornerReachable": false,
+      "maxPoolCount": 20,
+      "refillThreshold": 10,
+      "placeableBellowOthers": false,
+      "transfersStability": false,
+      "layerShadowOffset": -1,
+      "layerHideOffset": -0.5,
+      "attackTraversePenalty": 0.07,
+      "cover": 0,
+      "stats": [
+        {
+          "debugName": "Hitpoints",
+          "type": 1,
+          "initialValue": 40,
+          "attributes": {
+            "max": [
+              {
+                "baseValue": 40
+              }
+            ]
+          }
+        }
+      ],
+      "wealthPoints": 32,
+      "destroyParticles": "destroy_banner"
+    },
+    {
+      "id": "banner_wall_one_side_medium",
+      "buildTime": 5,
+      "size": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "buildingCategoryUI": 5,
+      "buildingSubCategoryUI": 13,
+      "soundMaterialCategory": 1,
+      "buildingType": 32768,
+      "constructableBaseCategory": 7,
+      "placementType": 3,
+      "materials": {
+        "keys": [
+          "wood",
+          "linen_cloth"
+        ],
+        "values": [
+          10,
+          3
+        ]
+      },
+      "storageBase": {
+        "capacity": 999,
+        "storableResources": [
+          "wood",
+          "linen_cloth"
+        ]
+      },
+      "reachableLevel": 2,
+      "cornerReachable": false,
+      "maxPoolCount": 20,
+      "refillThreshold": 10,
+      "placeableBellowOthers": false,
+      "transfersStability": false,
+      "layerShadowOffset": -1,
+      "layerHideOffset": -0.5,
+      "attackTraversePenalty": 0.07,
+      "cover": 0,
+      "stats": [
+        {
+          "debugName": "Hitpoints",
+          "type": 1,
+          "initialValue": 40,
+          "attributes": {
+            "max": [
+              {
+                "baseValue": 40
+              }
+            ]
+          }
+        }
+      ],
+      "wealthPoints": 32,
+      "destroyParticles": "destroy_banner"
+    },
+    {
+      "id": "banner_small_tall",
+      "buildTime": 5,
+      "size": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "buildingCategoryUI": 5,
+      "buildingSubCategoryUI": 13,
+      "soundMaterialCategory": 1,
+      "buildingType": 32768,
+      "constructableBaseCategory": 4,
+      "placementType": 0,
+      "materials": {
+        "keys": [
+          "wood",
+          "linen_cloth"
+        ],
+        "values": [
+          10,
+          3
+        ]
+      },
+      "storageBase": {
+        "capacity": 999,
+        "storableResources": [
+          "wood",
+          "linen_cloth"
+        ]
+      },
+      "reachableLevel": 2,
+      "cornerReachable": false,
+      "maxPoolCount": 20,
+      "refillThreshold": 10,
+      "placeableBellowOthers": false,
+      "transfersStability": false,
+      "layerShadowOffset": -1.5,
+      "layerHideOffset": -1,
+      "pathfindingPenalty": 8000,
+      "attackTraversePenalty": 0.07,
+      "cover": 0,
+      "stats": [
+        {
+          "debugName": "Hitpoints",
+          "type": 1,
+          "initialValue": 40,
+          "attributes": {
+            "max": [
+              {
+                "baseValue": 40
+              }
+            ]
+          }
+        }
+      ],
+      "wealthPoints": 32,
+      "destroyParticles": "destroy_banner"
+    },
+    {
+      "id": "wall_shield_decoration",
+      "buildTime": 15,
+      "size": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "buildingCategoryUI": 5,
+      "buildingSubCategoryUI": 18,
+      "soundMaterialCategory": 1,
+      "buildingType": 32768,
+      "constructableBaseCategory": 7,
+      "placementType": 3,
+      "materials": {
+        "keys": [
+          "wood",
+          "iron_ingot"
+        ],
+        "values": [
+          10,
+          1
+        ]
+      },
+      "storageBase": {
+        "capacity": 999,
+        "storableResources": [
+          "wood",
+          "iron_ingot"
+        ]
+      },
+      "reachableLevel": 2,
+      "cornerReachable": false,
+      "maxPoolCount": 20,
+      "refillThreshold": 10,
+      "placeableBellowOthers": false,
+      "transfersStability": false,
+      "layerShadowOffset": -1,
+      "layerHideOffset": -0.5,
+      "attackTraversePenalty": 0.07,
+      "cover": 0,
+      "stats": [
+        {
+          "debugName": "Hitpoints",
+          "type": 1,
+          "initialValue": 40,
+          "attributes": {
+            "max": [
+              {
+                "baseValue": 40
+              }
+            ]
+          }
+        }
+      ],
+      "wealthPoints": 31,
+      "destroyParticles": "destroy_wood_torch"
+    },
+    {
+      "id": "wall_deer_head_decoration",
+      "buildTime": 15,
+      "size": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "buildingCategoryUI": 5,
+      "buildingSubCategoryUI": 18,
+      "soundMaterialCategory": 1,
+      "buildingType": 32768,
+      "constructableBaseCategory": 7,
+      "placementType": 3,
+      "materials": {
+        "keys": [
+          "bones"
+        ],
+        "values": [
+          10
+        ]
+      },
+      "storageBase": {
+        "capacity": 999,
+        "storableResources": [
+          "bones"
+        ]
+      },
+      "reachableLevel": 2,
+      "cornerReachable": false,
+      "maxPoolCount": 20,
+      "refillThreshold": 10,
+      "placeableBellowOthers": false,
+      "transfersStability": false,
+      "layerShadowOffset": -1,
+      "layerHideOffset": -0.5,
+      "attackTraversePenalty": 0.07,
+      "cover": 0,
+      "stats": [
+        {
+          "debugName": "Hitpoints",
+          "type": 1,
+          "initialValue": 40,
+          "attributes": {
+            "max": [
+              {
+                "baseValue": 40
+              }
+            ]
+          }
+        }
+      ],
+      "wealthPoints": 26,
+      "destroyParticles": "destroy_building"
+    },
+    {
+      "id": "wall_bookshelf",
+      "buildTime": 15,
+      "size": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "buildingCategoryUI": 5,
+      "buildingSubCategoryUI": 18,
+      "soundMaterialCategory": 1,
+      "buildingType": 32768,
+      "constructableBaseCategory": 7,
+      "placementType": 3,
+      "materials": {
+        "keys": [
+          "wood"
+        ],
+        "values": [
+          10
+        ]
+      },
+      "storageBase": {
+        "capacity": 999,
+        "storableResources": [
+          "wood"
+        ]
+      },
+      "reachableLevel": 2,
+      "cornerReachable": false,
+      "maxPoolCount": 20,
+      "refillThreshold": 10,
+      "placeableBellowOthers": false,
+      "transfersStability": false,
+      "layerShadowOffset": -1,
+      "layerHideOffset": -0.5,
+      "attackTraversePenalty": 0.07,
+      "cover": 0,
+      "stats": [
+        {
+          "debugName": "Hitpoints",
+          "type": 1,
+          "initialValue": 40,
+          "attributes": {
+            "max": [
+              {
+                "baseValue": 40
+              }
+            ]
+          }
+        }
+      ],
+      "wealthPoints": 26,
+      "destroyParticles": "destroy_book_shelf"
+    },
+    {
+      "id": "wall_pottery_shelf",
+      "buildTime": 15,
+      "size": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "buildingCategoryUI": 5,
+      "buildingSubCategoryUI": 18,
+      "soundMaterialCategory": 1,
+      "buildingType": 32768,
+      "constructableBaseCategory": 7,
+      "placementType": 3,
+      "materials": {
+        "keys": [
+          "wood"
+        ],
+        "values": [
+          10
+        ]
+      },
+      "storageBase": {
+        "capacity": 999,
+        "storableResources": [
+          "wood"
+        ]
+      },
+      "reachableLevel": 2,
+      "cornerReachable": false,
+      "maxPoolCount": 20,
+      "refillThreshold": 10,
+      "placeableBellowOthers": false,
+      "transfersStability": false,
+      "layerShadowOffset": -1,
+      "layerHideOffset": -0.5,
+      "attackTraversePenalty": 0.07,
+      "cover": 0,
+      "stats": [
+        {
+          "debugName": "Hitpoints",
+          "type": 1,
+          "initialValue": 40,
+          "attributes": {
+            "max": [
+              {
+                "baseValue": 40
+              }
+            ]
+          }
+        }
+      ],
+      "wealthPoints": 26,
+      "destroyParticles": "destroy_pottery_shelf"
+    },
+    {
+      "id": "wall_decoration_christian",
+      "buildTime": 15,
+      "size": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "buildingCategoryUI": 5,
+      "buildingSubCategoryUI": 18,
+      "soundMaterialCategory": 1,
+      "buildingType": 32768,
+      "constructableBaseCategory": 7,
+      "placementType": 3,
+      "materials": {
+        "keys": [
+          "wood"
+        ],
+        "values": [
+          10
+        ]
+      },
+      "storageBase": {
+        "capacity": 999,
+        "storableResources": [
+          "wood"
+        ]
+      },
+      "reachableLevel": 2,
+      "cornerReachable": false,
+      "maxPoolCount": 20,
+      "refillThreshold": 10,
+      "placeableBellowOthers": false,
+      "transfersStability": false,
+      "layerShadowOffset": -1,
+      "layerHideOffset": -0.5,
+      "attackTraversePenalty": 0.07,
+      "cover": 0,
+      "stats": [
+        {
+          "debugName": "Hitpoints",
+          "type": 1,
+          "initialValue": 40,
+          "attributes": {
+            "max": [
+              {
+                "baseValue": 40
+              }
+            ]
+          }
+        }
+      ],
+      "wealthPoints": 26,
+      "destroyParticles": "destroy_wood_floor"
+    },
+    {
+      "id": "wall_decoration_pagan",
+      "buildTime": 15,
+      "size": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "buildingCategoryUI": 5,
+      "buildingSubCategoryUI": 18,
+      "soundMaterialCategory": 1,
+      "buildingType": 32768,
+      "constructableBaseCategory": 7,
+      "placementType": 3,
+      "materials": {
+        "keys": [
+          "wood"
+        ],
+        "values": [
+          10
+        ]
+      },
+      "storageBase": {
+        "capacity": 999,
+        "storableResources": [
+          "wood"
+        ]
+      },
+      "reachableLevel": 2,
+      "cornerReachable": false,
+      "maxPoolCount": 20,
+      "refillThreshold": 10,
+      "placeableBellowOthers": false,
+      "transfersStability": false,
+      "layerShadowOffset": -1,
+      "layerHideOffset": -0.5,
+      "attackTraversePenalty": 0.07,
+      "cover": 0,
+      "stats": [
+        {
+          "debugName": "Hitpoints",
+          "type": 1,
+          "initialValue": 40,
+          "attributes": {
+            "max": [
+              {
+                "baseValue": 40
+              }
+            ]
+          }
+        }
+      ],
+      "wealthPoints": 26,
+      "destroyParticles": "destroy_wood_floor"
+    },
+    {
+      "id": "wall_tool_shelf",
+      "buildTime": 15,
+      "size": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "buildingCategoryUI": 5,
+      "buildingSubCategoryUI": 18,
+      "soundMaterialCategory": 1,
+      "buildingType": 32768,
+      "constructableBaseCategory": 7,
+      "placementType": 3,
+      "materials": {
+        "keys": [
+          "wood"
+        ],
+        "values": [
+          10
+        ]
+      },
+      "storageBase": {
+        "capacity": 999,
+        "storableResources": [
+          "wood"
+        ]
+      },
+      "reachableLevel": 2,
+      "cornerReachable": false,
+      "maxPoolCount": 20,
+      "refillThreshold": 10,
+      "placeableBellowOthers": false,
+      "transfersStability": false,
+      "layerShadowOffset": -1,
+      "layerHideOffset": -0.5,
+      "attackTraversePenalty": 0.07,
+      "cover": 0,
+      "stats": [
+        {
+          "debugName": "Hitpoints",
+          "type": 1,
+          "initialValue": 40,
+          "attributes": {
+            "max": [
+              {
+                "baseValue": 40
+              }
+            ]
+          }
+        }
+      ],
+      "wealthPoints": 26,
+      "destroyParticles": "destroy_wood_floor"
+    },
+    {
+      "id": "shrine_christian_wood",
+      "buildTime": 35,
+      "size": {
+        "x": 2,
+        "y": 1,
+        "z": 1
+      },
+      "buildingCategoryUI": 4,
+      "buildingSubCategoryUI": 26,
+      "soundMaterialCategory": 1,
+      "buildingType": 131072,
+      "constructableBaseCategory": 4,
+      "placementType": 0,
+      "materials": {
+        "keys": [
+          "wood"
+        ],
+        "values": [
+          80
+        ]
+      },
+      "storageBase": {
+        "capacity": 999,
+        "storableResources": [
+          "wood"
+        ]
+      },
+      "reachableLevel": 2,
+      "cornerReachable": false,
+      "maxPoolCount": 20,
+      "refillThreshold": 10,
+      "placeableBellowOthers": false,
+      "transfersStability": false,
+      "layerShadowOffset": -1.5,
+      "layerHideOffset": -1,
+      "pathfindingPenalty": 100000,
+      "attackTraversePenalty": 0.07,
+      "cover": 0,
+      "stats": [
+        {
+          "debugName": "Hitpoints",
+          "type": 1,
+          "initialValue": 80,
+          "attributes": {
+            "max": [
+              {
+                "baseValue": 80
+              }
+            ]
+          }
+        }
+      ],
+      "wealthPoints": 146,
+      "destroyParticles": "destroy_wood_floor"
+    },
+    {
+      "id": "shrine_pagan_wood",
+      "buildTime": 35,
+      "size": {
+        "x": 2,
+        "y": 1,
+        "z": 1
+      },
+      "buildingCategoryUI": 4,
+      "buildingSubCategoryUI": 27,
+      "soundMaterialCategory": 1,
+      "buildingType": 131072,
+      "constructableBaseCategory": 4,
+      "placementType": 0,
+      "materials": {
+        "keys": [
+          "wood"
+        ],
+        "values": [
+          80
+        ]
+      },
+      "storageBase": {
+        "capacity": 999,
+        "storableResources": [
+          "wood"
+        ]
+      },
+      "reachableLevel": 2,
+      "cornerReachable": false,
+      "maxPoolCount": 20,
+      "refillThreshold": 10,
+      "placeableBellowOthers": false,
+      "transfersStability": false,
+      "layerShadowOffset": -1.5,
+      "layerHideOffset": -1,
+      "pathfindingPenalty": 100000,
+      "attackTraversePenalty": 0.07,
+      "cover": 0,
+      "stats": [
+        {
+          "debugName": "Hitpoints",
+          "type": 1,
+          "initialValue": 80,
+          "attributes": {
+            "max": [
+              {
+                "baseValue": 80
+              }
+            ]
+          }
+        }
+      ],
+      "wealthPoints": 146,
+      "destroyParticles": "destroy_wood_floor"
+    },
+    {
+      "id": "shrine_christian_stone",
+      "buildTime": 45,
+      "size": {
+        "x": 2,
+        "y": 1,
+        "z": 1
+      },
+      "buildingCategoryUI": 4,
+      "buildingSubCategoryUI": 26,
+      "soundMaterialCategory": 2,
+      "buildingType": 131072,
+      "constructableBaseCategory": 4,
+      "placementType": 0,
+      "materials": {
+        "keys": [
+          "limestone"
+        ],
+        "values": [
+          80
+        ]
+      },
+      "storageBase": {
+        "capacity": 999,
+        "storableResources": [
+          "limestone"
+        ]
+      },
+      "reachableLevel": 2,
+      "cornerReachable": false,
+      "maxPoolCount": 20,
+      "refillThreshold": 10,
+      "placeableBellowOthers": false,
+      "transfersStability": false,
+      "layerShadowOffset": -1.5,
+      "layerHideOffset": -1,
+      "pathfindingPenalty": 100000,
+      "attackTraversePenalty": 0.07,
+      "cover": 0,
+      "stats": [
+        {
+          "debugName": "Hitpoints",
+          "type": 1,
+          "initialValue": 120,
+          "attributes": {
+            "max": [
+              {
+                "baseValue": 120
+              }
+            ]
+          }
+        }
+      ],
+      "wealthPoints": 154,
+      "destroyParticles": "destroy_limestone_block_wall"
+    },
+    {
+      "id": "shrine_pagan_stone",
+      "buildTime": 45,
+      "size": {
+        "x": 2,
+        "y": 1,
+        "z": 1
+      },
+      "buildingCategoryUI": 4,
+      "buildingSubCategoryUI": 27,
+      "soundMaterialCategory": 2,
+      "buildingType": 131072,
+      "constructableBaseCategory": 4,
+      "placementType": 0,
+      "materials": {
+        "keys": [
+          "limestone"
+        ],
+        "values": [
+          80
+        ]
+      },
+      "storageBase": {
+        "capacity": 999,
+        "storableResources": [
+          "limestone"
+        ]
+      },
+      "reachableLevel": 2,
+      "cornerReachable": false,
+      "maxPoolCount": 20,
+      "refillThreshold": 10,
+      "placeableBellowOthers": false,
+      "transfersStability": false,
+      "layerShadowOffset": -1.5,
+      "layerHideOffset": -1,
+      "pathfindingPenalty": 100000,
+      "attackTraversePenalty": 0.07,
+      "cover": 0,
+      "stats": [
+        {
+          "debugName": "Hitpoints",
+          "type": 1,
+          "initialValue": 120,
+          "attributes": {
+            "max": [
+              {
+                "baseValue": 120
+              }
+            ]
+          }
+        }
+      ],
+      "wealthPoints": 154,
+      "destroyParticles": "destroy_limestone_block_wall"
+    },
+    {
+      "id": "backgammon_table",
+      "buildTime": 30,
+      "size": {
+        "x": 3,
+        "y": 1,
+        "z": 1
+      },
+      "buildingCategoryUI": 4,
+      "buildingSubCategoryUI": 28,
+      "soundMaterialCategory": 1,
+      "buildingType": 131072,
+      "constructableBaseCategory": 4,
+      "placementType": 0,
+      "materials": {
+        "keys": [
+          "wood"
+        ],
+        "values": [
+          75
+        ]
+      },
+      "storageBase": {
+        "capacity": 999,
+        "storableResources": [
+          "wood"
+        ]
+      },
+      "reachableLevel": 2,
+      "cornerReachable": false,
+      "maxPoolCount": 20,
+      "refillThreshold": 10,
+      "placeableBellowOthers": false,
+      "transfersStability": false,
+      "layerShadowOffset": -1.5,
+      "layerHideOffset": -1,
+      "pathfindingPenalty": 100000,
+      "attackTraversePenalty": 0.07,
+      "cover": 0,
+      "stats": [
+        {
+          "debugName": "Hitpoints",
+          "type": 1,
+          "initialValue": 60,
+          "attributes": {
+            "max": [
+              {
+                "baseValue": 60
+              }
+            ]
+          }
+        }
+      ],
+      "wealthPoints": 135,
+      "interactAnimation": "Backgammon",
+      "destroyParticles": "destroy_wood_floor"
+    },
+    {
+      "id": "wicker_fence",
+      "buildTime": 1.2,
+      "size": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "buildingCategoryUI": 5,
+      "buildingSubCategoryUI": 39,
+      "soundMaterialCategory": 1,
+      "buildingType": 1048576,
+      "constructableBaseCategory": 3,
+      "placementType": 1,
+      "materials": {
+        "keys": [
+          "sticks"
+        ],
+        "values": [
+          1
+        ]
+      },
+      "storageBase": {
+        "capacity": 999,
+        "storableResources": [
+          "sticks"
+        ]
+      },
+      "reachableLevel": 7,
+      "cornerReachable": true,
+      "maxPoolCount": 100,
+      "refillThreshold": 50,
+      "placeableBellowOthers": false,
+      "transfersStability": false,
+      "layerShadowOffset": -2,
+      "layerHideOffset": -0.5,
+      "pathfindingPenalty": 100000,
+      "attackTraversePenalty": 0.05,
+      "cover": 0,
+      "stats": [
+        {
+          "debugName": "Hitpoints",
+          "type": 1,
+          "initialValue": 15,
+          "attributes": {
+            "max": [
+              {
+                "baseValue": 15
+              }
+            ]
+          }
+        }
+      ],
+      "wealthPoints": 2,
+      "destroyParticles": "destroy_wicker_floor"
+    },
+    {
+      "id": "wicker_fence_corner",
+      "buildTime": 1.2,
+      "size": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "buildingCategoryUI": 5,
+      "buildingSubCategoryUI": 39,
+      "soundMaterialCategory": 1,
+      "buildingType": 1048576,
+      "constructableBaseCategory": 3,
+      "placementType": 0,
+      "materials": {
+        "keys": [
+          "sticks"
+        ],
+        "values": [
+          1
+        ]
+      },
+      "storageBase": {
+        "capacity": 999,
+        "storableResources": [
+          "sticks"
+        ]
+      },
+      "reachableLevel": 7,
+      "cornerReachable": true,
+      "maxPoolCount": 50,
+      "refillThreshold": 20,
+      "placeableBellowOthers": false,
+      "transfersStability": false,
+      "layerShadowOffset": -2,
+      "layerHideOffset": -0.5,
+      "pathfindingPenalty": 100000,
+      "attackTraversePenalty": 0.05,
+      "cover": 0,
+      "stats": [
+        {
+          "debugName": "Hitpoints",
+          "type": 1,
+          "initialValue": 15,
+          "attributes": {
+            "max": [
+              {
+                "baseValue": 15
+              }
+            ]
+          }
+        }
+      ],
+      "wealthPoints": 2,
+      "destroyParticles": "destroy_wicker_floor"
+    }
+  ]
+}

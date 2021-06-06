@@ -1,0 +1,4593 @@
+{
+  "repository": [
+    {
+      "productionId": "limestone_block",
+      "interruptible": true,
+      "jobType": 8,
+      "autoSpawn": true,
+      "passive": false,
+      "produced": [
+        {
+          "blueprintID": "limestone_block",
+          "amount": 20
+        }
+      ],
+      "recipe": [
+        {
+          "id": "limestone",
+          "value": 20
+        }
+      ],
+      "productionSteps": [
+        {
+          "name": "cuttingStone",
+          "productionTime": 15,
+          "producer": {
+            "usedStat": 5,
+            "requiredSkills": [
+              {
+                "key": 4,
+                "value": 0
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "productionId": "meal",
+      "interruptible": true,
+      "jobType": 1024,
+      "autoSpawn": true,
+      "passive": false,
+      "forbiddenOnStart": [
+        "meat_human",
+        "smoked_meat_human",
+        "vegetable_rot",
+        "meat_rot"
+      ],
+      "recipe": [
+        {
+          "id": 128,
+          "value": 12
+        },
+        {
+          "id": 131072,
+          "value": 1
+        }
+      ],
+      "productionSteps": [
+        {
+          "name": "prepCookMat",
+          "productionTime": 20,
+          "producer": {
+            "usedStat": 3,
+            "requiredSkills": [
+              {
+                "key": 5,
+                "value": 0
+              }
+            ],
+            "rewards": [
+              {
+                "key": 5,
+                "value": 120
+              }
+            ]
+          }
+        }
+      ],
+      "customProducts": [
+        {
+          "input": "redcurrant",
+          "output": [
+            {
+              "blueprintID": "stew",
+              "amount": 3,
+              "modifyingAttribute": 101
+            },
+            {
+              "blueprintID": "ash",
+              "amount": 5
+            }
+          ]
+        },
+        {
+          "input": "cabbage",
+          "output": [
+            {
+              "blueprintID": "stew",
+              "amount": 3,
+              "modifyingAttribute": 101
+            },
+            {
+              "blueprintID": "ash",
+              "amount": 5
+            }
+          ]
+        },
+        {
+          "input": "barley",
+          "output": [
+            {
+              "blueprintID": "stew",
+              "amount": 3,
+              "modifyingAttribute": 101
+            },
+            {
+              "blueprintID": "ash",
+              "amount": 5
+            }
+          ]
+        },
+        {
+          "input": "beet",
+          "output": [
+            {
+              "blueprintID": "stew",
+              "amount": 3,
+              "modifyingAttribute": 101
+            },
+            {
+              "blueprintID": "ash",
+              "amount": 5
+            }
+          ]
+        },
+        {
+          "input": "carrot",
+          "output": [
+            {
+              "blueprintID": "stew",
+              "amount": 3,
+              "modifyingAttribute": 101
+            },
+            {
+              "blueprintID": "ash",
+              "amount": 5
+            }
+          ]
+        },
+        {
+          "input": "mushroom",
+          "output": [
+            {
+              "blueprintID": "stew",
+              "amount": 3,
+              "modifyingAttribute": 101
+            },
+            {
+              "blueprintID": "ash",
+              "amount": 5
+            }
+          ]
+        },
+        {
+          "input": "pickled_vegetable",
+          "output": [
+            {
+              "blueprintID": "stew",
+              "amount": 3,
+              "modifyingAttribute": 101
+            },
+            {
+              "blueprintID": "ash",
+              "amount": 5
+            }
+          ]
+        },
+        {
+          "input": "meat",
+          "output": [
+            {
+              "blueprintID": "roasted_meat",
+              "amount": 3,
+              "modifyingAttribute": 101
+            },
+            {
+              "blueprintID": "ash",
+              "amount": 5
+            }
+          ]
+        },
+        {
+          "input": "smoked_meat",
+          "output": [
+            {
+              "blueprintID": "roasted_meat",
+              "amount": 3,
+              "modifyingAttribute": 101
+            },
+            {
+              "blueprintID": "ash",
+              "amount": 5
+            }
+          ]
+        },
+        {
+          "input": "meat_human",
+          "onStartEffector": "CookedHumanMeat",
+          "output": [
+            {
+              "blueprintID": "roasted_meat_human",
+              "amount": 3,
+              "modifyingAttribute": 101
+            },
+            {
+              "blueprintID": "ash",
+              "amount": 5
+            }
+          ]
+        },
+        {
+          "input": "smoked_meat_human",
+          "onStartEffector": "CookedHumanMeat",
+          "output": [
+            {
+              "blueprintID": "roasted_meat_human",
+              "amount": 3,
+              "modifyingAttribute": 101
+            },
+            {
+              "blueprintID": "ash",
+              "amount": 5
+            }
+          ]
+        },
+        {
+          "input": "vegetable_rot",
+          "output": [
+            {
+              "blueprintID": "dubious_meal",
+              "amount": 1
+            },
+            {
+              "blueprintID": "ash",
+              "amount": 5
+            }
+          ]
+        },
+        {
+          "input": "meat_rot",
+          "output": [
+            {
+              "blueprintID": "dubious_meal",
+              "amount": 1
+            },
+            {
+              "blueprintID": "ash",
+              "amount": 5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "productionId": "iron_ingot",
+      "interruptible": true,
+      "jobType": 256,
+      "autoSpawn": true,
+      "passive": false,
+      "produced": [
+        {
+          "blueprintID": "iron_ingot",
+          "amount": 30
+        },
+        {
+          "blueprintID": "ash",
+          "amount": 100
+        }
+      ],
+      "recipe": [
+        {
+          "id": "iron",
+          "value": 30
+        },
+        {
+          "id": 131072,
+          "value": 20
+        }
+      ],
+      "productionSteps": [
+        {
+          "name": "preparingMeltOre",
+          "productionTime": 90,
+          "producer": {
+            "usedStat": 4,
+            "requiredSkills": [
+              {
+                "key": 10,
+                "value": 0
+              }
+            ],
+            "rewards": [
+              {
+                "key": 10,
+                "value": 170
+              }
+            ]
+          }
+        },
+        {
+          "name": "meltingMetalOre",
+          "productionTime": 300
+        }
+      ]
+    },
+    {
+      "productionId": "steel_ingot",
+      "interruptible": true,
+      "jobType": 256,
+      "autoSpawn": true,
+      "passive": false,
+      "produced": [
+        {
+          "blueprintID": "steel_ingot",
+          "amount": 30
+        },
+        {
+          "blueprintID": "ash",
+          "amount": 100
+        }
+      ],
+      "recipe": [
+        {
+          "id": "iron_ingot",
+          "value": 30
+        },
+        {
+          "id": "coal",
+          "value": 20
+        }
+      ],
+      "productionSteps": [
+        {
+          "name": "preparingMeltOre",
+          "productionTime": 90,
+          "producer": {
+            "usedStat": 4,
+            "requiredSkills": [
+              {
+                "key": 10,
+                "value": 0
+              }
+            ],
+            "rewards": [
+              {
+                "key": 10,
+                "value": 170
+              }
+            ]
+          }
+        },
+        {
+          "name": "meltingMetalOre",
+          "productionTime": 300
+        }
+      ]
+    },
+    {
+      "productionId": "gold_ingot",
+      "interruptible": true,
+      "jobType": 256,
+      "autoSpawn": true,
+      "passive": false,
+      "produced": [
+        {
+          "blueprintID": "gold_ingot",
+          "amount": 30
+        },
+        {
+          "blueprintID": "ash",
+          "amount": 100
+        }
+      ],
+      "recipe": [
+        {
+          "id": "gold",
+          "value": 300
+        },
+        {
+          "id": 131072,
+          "value": 20
+        }
+      ],
+      "productionSteps": [
+        {
+          "name": "preparingMeltOre",
+          "productionTime": 90,
+          "producer": {
+            "usedStat": 4,
+            "requiredSkills": [
+              {
+                "key": 10,
+                "value": 0
+              }
+            ],
+            "rewards": [
+              {
+                "key": 10,
+                "value": 170
+              }
+            ]
+          }
+        },
+        {
+          "name": "meltingMetalOre",
+          "productionTime": 300
+        }
+      ]
+    },
+    {
+      "productionId": "clay_brick",
+      "interruptible": true,
+      "jobType": 8,
+      "autoSpawn": true,
+      "passive": false,
+      "produced": [
+        {
+          "blueprintID": "clay_brick",
+          "amount": 20
+        },
+        {
+          "blueprintID": "ash",
+          "amount": 50
+        }
+      ],
+      "recipe": [
+        {
+          "id": "clay",
+          "value": 20
+        },
+        {
+          "id": 131072,
+          "value": 10
+        }
+      ],
+      "productionSteps": [
+        {
+          "name": "preparingClayBrick",
+          "productionTime": 20,
+          "producer": {
+            "usedStat": 6,
+            "requiredSkills": [
+              {
+                "key": 4,
+                "value": 0
+              }
+            ]
+          }
+        },
+        {
+          "name": "bakingClayBrick",
+          "productionTime": 200
+        }
+      ]
+    },
+    {
+      "productionId": "coal",
+      "interruptible": true,
+      "jobType": 8,
+      "autoSpawn": true,
+      "passive": false,
+      "produced": [
+        {
+          "blueprintID": "coal",
+          "amount": 20
+        },
+        {
+          "blueprintID": "ash",
+          "amount": 50
+        }
+      ],
+      "recipe": [
+        {
+          "id": "wood",
+          "value": 30
+        }
+      ],
+      "productionSteps": [
+        {
+          "name": "preparingCoal",
+          "productionTime": 20,
+          "producer": {
+            "requiredSkills": [
+              {
+                "key": 4,
+                "value": 0
+              }
+            ]
+          }
+        },
+        {
+          "name": "creatingCoal",
+          "productionTime": 200
+        }
+      ]
+    },
+    {
+      "productionId": "meat",
+      "interruptible": true,
+      "jobType": 1024,
+      "autoSpawn": true,
+      "passive": false,
+      "forbiddenOnStart": [
+        "human_carcass",
+        "enemy_carcass"
+      ],
+      "recipe": [
+        {
+          "id": 4194304,
+          "value": 1
+        }
+      ],
+      "productionSteps": [
+        {
+          "name": "butcheringAnimal",
+          "productionTime": 45,
+          "producer": {
+            "usedStat": 3,
+            "requiredSkills": [
+              {
+                "key": 5,
+                "value": 0
+              }
+            ],
+            "rewards": [
+              {
+                "key": 5,
+                "value": 200
+              }
+            ]
+          }
+        }
+      ],
+      "customProducts": [
+        {
+          "input": "deer_carcass",
+          "output": [
+            {
+              "blueprintID": "meat",
+              "amount": 70,
+              "modifyingAttribute": 55
+            },
+            {
+              "blueprintID": "bones",
+              "amount": 15
+            },
+            {
+              "blueprintID": "leather",
+              "amount": 50,
+              "modifyingAttribute": 55
+            }
+          ]
+        },
+        {
+          "input": "human_carcass",
+          "onStartEffector": "ButcheredHumanFriend",
+          "output": [
+            {
+              "blueprintID": "meat_human",
+              "amount": 45,
+              "modifyingAttribute": 55
+            },
+            {
+              "blueprintID": "bones",
+              "amount": 15
+            },
+            {
+              "blueprintID": "leather",
+              "amount": 40,
+              "modifyingAttribute": 55
+            }
+          ]
+        },
+        {
+          "input": "hare_carcass",
+          "output": [
+            {
+              "blueprintID": "meat",
+              "amount": 15,
+              "modifyingAttribute": 55
+            },
+            {
+              "blueprintID": "leather",
+              "amount": 5,
+              "modifyingAttribute": 55
+            }
+          ]
+        },
+        {
+          "input": "wolf_carcass",
+          "output": [
+            {
+              "blueprintID": "meat",
+              "amount": 27,
+              "modifyingAttribute": 55
+            },
+            {
+              "blueprintID": "bones",
+              "amount": 5
+            },
+            {
+              "blueprintID": "leather",
+              "amount": 20,
+              "modifyingAttribute": 55
+            }
+          ]
+        },
+        {
+          "input": "enemy_carcass",
+          "onStartEffector": "ButcheredHuman",
+          "output": [
+            {
+              "blueprintID": "meat_human",
+              "amount": 45,
+              "modifyingAttribute": 55
+            },
+            {
+              "blueprintID": "bones",
+              "amount": 15
+            },
+            {
+              "blueprintID": "leather",
+              "amount": 40,
+              "modifyingAttribute": 55
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "productionId": "smoked_meat",
+      "interruptible": true,
+      "jobType": 1024,
+      "autoSpawn": true,
+      "passive": false,
+      "forbiddenOnStart": [
+        "meat_human"
+      ],
+      "recipe": [
+        {
+          "id": 64,
+          "value": 10
+        },
+        {
+          "id": 131072,
+          "value": 3
+        }
+      ],
+      "productionSteps": [
+        {
+          "name": "prepareSmokeMeat",
+          "productionTime": 20,
+          "producer": {
+            "usedStat": 3,
+            "requiredSkills": [
+              {
+                "key": 5,
+                "value": 10
+              }
+            ],
+            "rewards": [
+              {
+                "key": 5,
+                "value": 120
+              }
+            ]
+          }
+        },
+        {
+          "name": "smokeMeat",
+          "productionTime": 450
+        }
+      ],
+      "customProducts": [
+        {
+          "input": "meat",
+          "output": [
+            {
+              "blueprintID": "smoked_meat",
+              "amount": 10
+            },
+            {
+              "blueprintID": "ash",
+              "amount": 15
+            }
+          ]
+        },
+        {
+          "input": "meat_human",
+          "output": [
+            {
+              "blueprintID": "smoked_meat_human",
+              "amount": 10
+            },
+            {
+              "blueprintID": "ash",
+              "amount": 15
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "productionId": "pickled_vegetable",
+      "interruptible": true,
+      "jobType": 1024,
+      "autoSpawn": true,
+      "passive": false,
+      "produced": [
+        {
+          "blueprintID": "pickled_vegetable",
+          "amount": 10
+        }
+      ],
+      "recipe": [
+        {
+          "id": 1,
+          "value": 10
+        },
+        {
+          "id": 524288,
+          "value": 3
+        }
+      ],
+      "productionSteps": [
+        {
+          "name": "preparePickleVegetables",
+          "productionTime": 40,
+          "producer": {
+            "usedStat": 3,
+            "requiredSkills": [
+              {
+                "key": 5,
+                "value": 10
+              }
+            ],
+            "rewards": [
+              {
+                "key": 5,
+                "value": 120
+              }
+            ]
+          }
+        },
+        {
+          "name": "PickleVegetables",
+          "productionTime": 600
+        }
+      ]
+    },
+    {
+      "productionId": "packaged_meal",
+      "interruptible": true,
+      "jobType": 1024,
+      "autoSpawn": true,
+      "passive": false,
+      "forbiddenOnStart": [
+        "meat_human",
+        "smoked_meat_human",
+        "vegetable_rot",
+        "meat_rot"
+      ],
+      "recipe": [
+        {
+          "id": 128,
+          "value": 12
+        },
+        {
+          "id": 131072,
+          "value": 1
+        },
+        {
+          "id": 256,
+          "value": 1
+        }
+      ],
+      "productionSteps": [
+        {
+          "name": "prepCookMatPack",
+          "productionTime": 35,
+          "producer": {
+            "usedStat": 3,
+            "requiredSkills": [
+              {
+                "key": 5,
+                "value": 10
+              }
+            ],
+            "rewards": [
+              {
+                "key": 5,
+                "value": 160
+              }
+            ]
+          }
+        }
+      ],
+      "customProducts": [
+        {
+          "input": "redcurrant",
+          "output": [
+            {
+              "blueprintID": "packaged_meal",
+              "amount": 3,
+              "modifyingAttribute": 101
+            },
+            {
+              "blueprintID": "ash",
+              "amount": 5
+            }
+          ]
+        },
+        {
+          "input": "cabbage",
+          "output": [
+            {
+              "blueprintID": "packaged_meal",
+              "amount": 3,
+              "modifyingAttribute": 101
+            },
+            {
+              "blueprintID": "ash",
+              "amount": 5
+            }
+          ]
+        },
+        {
+          "input": "barley",
+          "output": [
+            {
+              "blueprintID": "packaged_meal",
+              "amount": 3,
+              "modifyingAttribute": 101
+            },
+            {
+              "blueprintID": "ash",
+              "amount": 5
+            }
+          ]
+        },
+        {
+          "input": "beet",
+          "output": [
+            {
+              "blueprintID": "packaged_meal",
+              "amount": 3,
+              "modifyingAttribute": 101
+            },
+            {
+              "blueprintID": "ash",
+              "amount": 5
+            }
+          ]
+        },
+        {
+          "input": "carrot",
+          "output": [
+            {
+              "blueprintID": "packaged_meal",
+              "amount": 3,
+              "modifyingAttribute": 101
+            },
+            {
+              "blueprintID": "ash",
+              "amount": 5
+            }
+          ]
+        },
+        {
+          "input": "mushroom",
+          "output": [
+            {
+              "blueprintID": "packaged_meal",
+              "amount": 3,
+              "modifyingAttribute": 101
+            },
+            {
+              "blueprintID": "ash",
+              "amount": 5
+            }
+          ]
+        },
+        {
+          "input": "pickled_vegetable",
+          "output": [
+            {
+              "blueprintID": "packaged_meal",
+              "amount": 3,
+              "modifyingAttribute": 101
+            },
+            {
+              "blueprintID": "ash",
+              "amount": 5
+            }
+          ]
+        },
+        {
+          "input": "meat",
+          "output": [
+            {
+              "blueprintID": "packaged_meal",
+              "amount": 3,
+              "modifyingAttribute": 101
+            },
+            {
+              "blueprintID": "ash",
+              "amount": 5
+            }
+          ]
+        },
+        {
+          "input": "smoked_meat",
+          "output": [
+            {
+              "blueprintID": "packaged_meal",
+              "amount": 3,
+              "modifyingAttribute": 101
+            },
+            {
+              "blueprintID": "ash",
+              "amount": 5
+            }
+          ]
+        },
+        {
+          "input": "meat_human",
+          "onStartEffector": "CookedHumanMeat",
+          "output": [
+            {
+              "blueprintID": "packaged_meal_meat_human",
+              "amount": 3,
+              "modifyingAttribute": 101
+            },
+            {
+              "blueprintID": "ash",
+              "amount": 5
+            }
+          ]
+        },
+        {
+          "input": "smoked_meat_human",
+          "onStartEffector": "CookedHumanMeat",
+          "output": [
+            {
+              "blueprintID": "packaged_meal_meat_human",
+              "amount": 3,
+              "modifyingAttribute": 101
+            },
+            {
+              "blueprintID": "ash",
+              "amount": 5
+            }
+          ]
+        },
+        {
+          "input": "vegetable_rot",
+          "output": [
+            {
+              "blueprintID": "dubious_meal",
+              "amount": 1
+            },
+            {
+              "blueprintID": "ash",
+              "amount": 5
+            }
+          ]
+        },
+        {
+          "input": "meat_rot",
+          "output": [
+            {
+              "blueprintID": "dubious_meal",
+              "amount": 1
+            },
+            {
+              "blueprintID": "ash",
+              "amount": 5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "productionId": "lavish_meal",
+      "interruptible": true,
+      "jobType": 1024,
+      "autoSpawn": true,
+      "passive": false,
+      "forbiddenOnStart": [
+        "meat_human",
+        "smoked_meat_human",
+        "vegetable_rot",
+        "meat_rot"
+      ],
+      "recipe": [
+        {
+          "id": 128,
+          "value": 12
+        },
+        {
+          "id": "herbs",
+          "value": 1
+        },
+        {
+          "id": 131072,
+          "value": 1
+        }
+      ],
+      "productionSteps": [
+        {
+          "name": "prepCookMatLavish",
+          "productionTime": 35,
+          "producer": {
+            "usedStat": 3,
+            "requiredSkills": [
+              {
+                "key": 5,
+                "value": 15
+              }
+            ],
+            "rewards": [
+              {
+                "key": 5,
+                "value": 180
+              }
+            ]
+          }
+        }
+      ],
+      "customProducts": [
+        {
+          "input": "redcurrant",
+          "output": [
+            {
+              "blueprintID": "lavish_meal",
+              "amount": 3,
+              "modifyingAttribute": 101
+            },
+            {
+              "blueprintID": "ash",
+              "amount": 5
+            }
+          ]
+        },
+        {
+          "input": "cabbage",
+          "output": [
+            {
+              "blueprintID": "lavish_meal",
+              "amount": 3,
+              "modifyingAttribute": 101
+            },
+            {
+              "blueprintID": "ash",
+              "amount": 5
+            }
+          ]
+        },
+        {
+          "input": "barley",
+          "output": [
+            {
+              "blueprintID": "lavish_meal",
+              "amount": 3,
+              "modifyingAttribute": 101
+            },
+            {
+              "blueprintID": "ash",
+              "amount": 5
+            }
+          ]
+        },
+        {
+          "input": "beet",
+          "output": [
+            {
+              "blueprintID": "lavish_meal",
+              "amount": 3,
+              "modifyingAttribute": 101
+            },
+            {
+              "blueprintID": "ash",
+              "amount": 5
+            }
+          ]
+        },
+        {
+          "input": "carrot",
+          "output": [
+            {
+              "blueprintID": "lavish_meal",
+              "amount": 3,
+              "modifyingAttribute": 101
+            },
+            {
+              "blueprintID": "ash",
+              "amount": 5
+            }
+          ]
+        },
+        {
+          "input": "mushroom",
+          "output": [
+            {
+              "blueprintID": "lavish_meal",
+              "amount": 3,
+              "modifyingAttribute": 101
+            },
+            {
+              "blueprintID": "ash",
+              "amount": 5
+            }
+          ]
+        },
+        {
+          "input": "pickled_vegetable",
+          "output": [
+            {
+              "blueprintID": "lavish_meal",
+              "amount": 3,
+              "modifyingAttribute": 101
+            },
+            {
+              "blueprintID": "ash",
+              "amount": 5
+            }
+          ]
+        },
+        {
+          "input": "meat",
+          "output": [
+            {
+              "blueprintID": "lavish_meal",
+              "amount": 3,
+              "modifyingAttribute": 101
+            },
+            {
+              "blueprintID": "ash",
+              "amount": 5
+            }
+          ]
+        },
+        {
+          "input": "smoked_meat",
+          "output": [
+            {
+              "blueprintID": "lavish_meal",
+              "amount": 3,
+              "modifyingAttribute": 101
+            },
+            {
+              "blueprintID": "ash",
+              "amount": 5
+            }
+          ]
+        },
+        {
+          "input": "meat_human",
+          "onStartEffector": "CookedHumanMeat",
+          "output": [
+            {
+              "blueprintID": "lavish_meal_meat_human",
+              "amount": 3,
+              "modifyingAttribute": 101
+            },
+            {
+              "blueprintID": "ash",
+              "amount": 5
+            }
+          ]
+        },
+        {
+          "input": "smoked_meat_human",
+          "onStartEffector": "CookedHumanMeat",
+          "output": [
+            {
+              "blueprintID": "lavish_meal_meat_human",
+              "amount": 3,
+              "modifyingAttribute": 101
+            },
+            {
+              "blueprintID": "ash",
+              "amount": 5
+            }
+          ]
+        },
+        {
+          "input": "vegetable_rot",
+          "output": [
+            {
+              "blueprintID": "dubious_meal",
+              "amount": 1
+            },
+            {
+              "blueprintID": "ash",
+              "amount": 5
+            }
+          ]
+        },
+        {
+          "input": "meat_rot",
+          "output": [
+            {
+              "blueprintID": "dubious_meal",
+              "amount": 1
+            },
+            {
+              "blueprintID": "ash",
+              "amount": 5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "productionId": "vinegar",
+      "interruptible": true,
+      "jobType": 1024,
+      "autoSpawn": true,
+      "passive": false,
+      "produced": [
+        {
+          "blueprintID": "vinegar",
+          "amount": 20
+        }
+      ],
+      "recipe": [
+        {
+          "id": 32,
+          "value": 20
+        }
+      ],
+      "productionSteps": [
+        {
+          "name": "prepareVinegarMat",
+          "productionTime": 75,
+          "producer": {
+            "usedStat": 3,
+            "requiredSkills": [
+              {
+                "key": 5,
+                "value": 10
+              }
+            ],
+            "rewards": [
+              {
+                "key": 5,
+                "value": 300
+              }
+            ]
+          }
+        },
+        {
+          "name": "vinegarFerment",
+          "productionTime": 1700
+        }
+      ]
+    },
+    {
+      "productionId": "beer",
+      "interruptible": true,
+      "jobType": 1024,
+      "autoSpawn": true,
+      "passive": false,
+      "produced": [
+        {
+          "blueprintID": "beer",
+          "amount": 10
+        },
+        {
+          "blueprintID": "ash",
+          "amount": 25
+        }
+      ],
+      "recipe": [
+        {
+          "id": "barley",
+          "value": 20
+        },
+        {
+          "id": "herbs",
+          "value": 5
+        },
+        {
+          "id": 131072,
+          "value": 5
+        }
+      ],
+      "productionSteps": [
+        {
+          "name": "brewBeer",
+          "productionTime": 75,
+          "producer": {
+            "usedStat": 3,
+            "requiredSkills": [
+              {
+                "key": 5,
+                "value": 10
+              }
+            ],
+            "rewards": [
+              {
+                "key": 5,
+                "value": 300
+              }
+            ]
+          }
+        },
+        {
+          "name": "fermentBeer",
+          "productionTime": 2500
+        }
+      ]
+    },
+    {
+      "productionId": "ale",
+      "interruptible": true,
+      "jobType": 1024,
+      "autoSpawn": true,
+      "passive": false,
+      "produced": [
+        {
+          "blueprintID": "ale",
+          "amount": 10
+        },
+        {
+          "blueprintID": "ash",
+          "amount": 25
+        }
+      ],
+      "recipe": [
+        {
+          "id": "barley",
+          "value": 20
+        },
+        {
+          "id": 131072,
+          "value": 5
+        }
+      ],
+      "productionSteps": [
+        {
+          "name": "brewAle",
+          "productionTime": 75,
+          "producer": {
+            "usedStat": 3,
+            "requiredSkills": [
+              {
+                "key": 5,
+                "value": 0
+              }
+            ],
+            "rewards": [
+              {
+                "key": 5,
+                "value": 300
+              }
+            ]
+          }
+        },
+        {
+          "name": "fermentAle",
+          "productionTime": 2000
+        }
+      ]
+    },
+    {
+      "productionId": "rough_wine",
+      "interruptible": true,
+      "jobType": 1024,
+      "autoSpawn": true,
+      "passive": false,
+      "produced": [
+        {
+          "blueprintID": "rough_wine",
+          "amount": 10
+        }
+      ],
+      "recipe": [
+        {
+          "id": "redcurrant",
+          "value": 20
+        }
+      ],
+      "productionSteps": [
+        {
+          "name": "prepareRoughWine",
+          "productionTime": 75,
+          "producer": {
+            "usedStat": 3,
+            "requiredSkills": [
+              {
+                "key": 5,
+                "value": 0
+              }
+            ],
+            "rewards": [
+              {
+                "key": 5,
+                "value": 220
+              }
+            ]
+          }
+        },
+        {
+          "name": "fermentRoughWine",
+          "productionTime": 800
+        }
+      ]
+    },
+    {
+      "productionId": "alcohol",
+      "interruptible": true,
+      "jobType": 1024,
+      "autoSpawn": true,
+      "passive": false,
+      "produced": [
+        {
+          "blueprintID": "alcohol",
+          "amount": 10
+        },
+        {
+          "blueprintID": "ash",
+          "amount": 25
+        }
+      ],
+      "recipe": [
+        {
+          "id": 32,
+          "value": 15
+        },
+        {
+          "id": 131072,
+          "value": 5
+        }
+      ],
+      "productionSteps": [
+        {
+          "name": "prepareAlcoholMat",
+          "productionTime": 100,
+          "producer": {
+            "usedStat": 3,
+            "requiredSkills": [
+              {
+                "key": 5,
+                "value": 0
+              }
+            ],
+            "rewards": [
+              {
+                "key": 5,
+                "value": 250
+              }
+            ]
+          }
+        },
+        {
+          "name": "alcoholFerment",
+          "productionTime": 2000
+        }
+      ]
+    },
+    {
+      "productionId": "healing_kit_simple",
+      "interruptible": true,
+      "jobType": 16384,
+      "autoSpawn": true,
+      "passive": false,
+      "produced": [
+        {
+          "blueprintID": "healing_kit_simple",
+          "amount": 1
+        }
+      ],
+      "recipe": [
+        {
+          "id": "herbs",
+          "value": 5
+        }
+      ],
+      "productionSteps": [
+        {
+          "name": "prepareHerbslvl1",
+          "productionTime": 30,
+          "producer": {
+            "usedStat": 3,
+            "requiredSkills": [
+              {
+                "key": 8,
+                "value": 1
+              }
+            ],
+            "rewards": [
+              {
+                "key": 8,
+                "value": 40
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "productionId": "healing_kit",
+      "interruptible": true,
+      "jobType": 16384,
+      "autoSpawn": true,
+      "passive": false,
+      "produced": [
+        {
+          "blueprintID": "healing_kit",
+          "amount": 1
+        }
+      ],
+      "recipe": [
+        {
+          "id": "herbs",
+          "value": 5
+        },
+        {
+          "id": 32768,
+          "value": 3
+        }
+      ],
+      "productionSteps": [
+        {
+          "name": "prepareHerbslvl2",
+          "productionTime": 60,
+          "producer": {
+            "usedStat": 3,
+            "requiredSkills": [
+              {
+                "key": 8,
+                "value": 10
+              }
+            ],
+            "rewards": [
+              {
+                "key": 8,
+                "value": 80
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "productionId": "healing_kit_advanced",
+      "interruptible": true,
+      "jobType": 16384,
+      "autoSpawn": true,
+      "passive": false,
+      "produced": [
+        {
+          "blueprintID": "healing_kit_advanced",
+          "amount": 1
+        }
+      ],
+      "recipe": [
+        {
+          "id": "herbs",
+          "value": 5
+        },
+        {
+          "id": 32768,
+          "value": 3
+        },
+        {
+          "id": 1048576,
+          "value": 5
+        }
+      ],
+      "productionSteps": [
+        {
+          "name": "prepareHerbslvl3",
+          "productionTime": 70,
+          "producer": {
+            "usedStat": 3,
+            "requiredSkills": [
+              {
+                "key": 8,
+                "value": 30
+              }
+            ],
+            "rewards": [
+              {
+                "key": 8,
+                "value": 100
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "productionId": "burn_body",
+      "interruptible": true,
+      "ignoreProductionModeUI": [
+        2
+      ],
+      "jobType": 1,
+      "autoSpawn": true,
+      "passive": false,
+      "produced": [
+        {
+          "blueprintID": "ash",
+          "amount": 250
+        }
+      ],
+      "recipe": [
+        {
+          "id": 8192,
+          "value": 1
+        },
+        {
+          "id": 131072,
+          "value": 10
+        }
+      ],
+      "productionSteps": [
+        {
+          "name": "preparingCarcass",
+          "productionTime": 5,
+          "producer": {
+            "requiredSkills": [
+              {
+                "key": 8,
+                "value": 0
+              }
+            ]
+          }
+        },
+        {
+          "name": "burningCarcass",
+          "productionTime": 300
+        }
+      ]
+    },
+    {
+      "productionId": "winter_clothes",
+      "interruptible": true,
+      "jobType": 2048,
+      "autoSpawn": true,
+      "passive": false,
+      "recipe": [
+        {
+          "id": 256,
+          "value": 80
+        }
+      ],
+      "productionSteps": [
+        {
+          "name": "sewingRoughClothes",
+          "productionTime": 350,
+          "producer": {
+            "usedStat": 16,
+            "requiredSkills": [
+              {
+                "key": 12,
+                "value": 0
+              }
+            ],
+            "rewards": [
+              {
+                "key": 12,
+                "value": 400
+              }
+            ]
+          }
+        }
+      ],
+      "customProducts": [
+        {
+          "input": "linen_cloth",
+          "output": [
+            {
+              "blueprintID": "linen_winter_clothes",
+              "amount": 1
+            }
+          ]
+        },
+        {
+          "input": "leather",
+          "output": [
+            {
+              "blueprintID": "leather_winter_clothes",
+              "amount": 1
+            }
+          ]
+        },
+        {
+          "input": "wool_cloth",
+          "output": [
+            {
+              "blueprintID": "wool_winter_clothes",
+              "amount": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "productionId": "summer_clothes",
+      "interruptible": true,
+      "jobType": 2048,
+      "autoSpawn": true,
+      "passive": false,
+      "recipe": [
+        {
+          "id": 256,
+          "value": 40
+        }
+      ],
+      "productionSteps": [
+        {
+          "name": "sewingRoughClothes",
+          "productionTime": 350,
+          "producer": {
+            "usedStat": 16,
+            "requiredSkills": [
+              {
+                "key": 12,
+                "value": 0
+              }
+            ],
+            "rewards": [
+              {
+                "key": 12,
+                "value": 400
+              }
+            ]
+          }
+        }
+      ],
+      "customProducts": [
+        {
+          "input": "linen_cloth",
+          "output": [
+            {
+              "blueprintID": "linen_summer_clothes",
+              "amount": 1
+            }
+          ]
+        },
+        {
+          "input": "leather",
+          "output": [
+            {
+              "blueprintID": "leather_summer_clothes",
+              "amount": 1
+            }
+          ]
+        },
+        {
+          "input": "wool_cloth",
+          "output": [
+            {
+              "blueprintID": "wool_summer_clothes",
+              "amount": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "productionId": "cap",
+      "interruptible": true,
+      "jobType": 2048,
+      "autoSpawn": true,
+      "passive": false,
+      "recipe": [
+        {
+          "id": 256,
+          "value": 35
+        }
+      ],
+      "productionSteps": [
+        {
+          "name": "sewingRoughHat",
+          "productionTime": 100,
+          "producer": {
+            "usedStat": 16,
+            "requiredSkills": [
+              {
+                "key": 12,
+                "value": 0
+              }
+            ],
+            "rewards": [
+              {
+                "key": 12,
+                "value": 200
+              }
+            ]
+          }
+        }
+      ],
+      "customProducts": [
+        {
+          "input": "linen_cloth",
+          "output": [
+            {
+              "blueprintID": "linen_cap",
+              "amount": 1
+            }
+          ]
+        },
+        {
+          "input": "leather",
+          "output": [
+            {
+              "blueprintID": "leather_cap",
+              "amount": 1
+            }
+          ]
+        },
+        {
+          "input": "wool_cloth",
+          "output": [
+            {
+              "blueprintID": "wool_cap",
+              "amount": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "productionId": "wide_straw_hat",
+      "interruptible": true,
+      "jobType": 2048,
+      "autoSpawn": true,
+      "passive": false,
+      "produced": [
+        {
+          "blueprintID": "wide_straw_hat",
+          "amount": 1
+        }
+      ],
+      "recipe": [
+        {
+          "id": "hay",
+          "value": 25
+        }
+      ],
+      "productionSteps": [
+        {
+          "name": "makingStrawHat",
+          "productionTime": 100,
+          "producer": {
+            "usedStat": 16,
+            "requiredSkills": [
+              {
+                "key": 12,
+                "value": 0
+              }
+            ],
+            "rewards": [
+              {
+                "key": 12,
+                "value": 150
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "productionId": "dagger",
+      "interruptible": true,
+      "jobType": 256,
+      "autoSpawn": true,
+      "passive": false,
+      "recipe": [
+        {
+          "id": 2048,
+          "value": 5
+        },
+        {
+          "id": 131072,
+          "value": 10
+        }
+      ],
+      "productionSteps": [
+        {
+          "name": "makingMetalWeaponShort",
+          "productionTime": 400,
+          "producer": {
+            "usedStat": 4,
+            "requiredSkills": [
+              {
+                "key": 10,
+                "value": 0
+              }
+            ],
+            "rewards": [
+              {
+                "key": 10,
+                "value": 300
+              }
+            ]
+          }
+        }
+      ],
+      "customProducts": [
+        {
+          "input": "iron_ingot",
+          "output": [
+            {
+              "blueprintID": "iron_dagger",
+              "amount": 1
+            }
+          ]
+        },
+        {
+          "input": "steel_ingot",
+          "output": [
+            {
+              "blueprintID": "steel_dagger",
+              "amount": 1
+            }
+          ]
+        },
+        {
+          "input": "gold_ingot",
+          "output": [
+            {
+              "blueprintID": "gold_dagger",
+              "amount": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "productionId": "short_sword",
+      "interruptible": true,
+      "jobType": 256,
+      "autoSpawn": true,
+      "passive": false,
+      "recipe": [
+        {
+          "id": 2048,
+          "value": 15
+        },
+        {
+          "id": 131072,
+          "value": 15
+        }
+      ],
+      "productionSteps": [
+        {
+          "name": "makingMetalWeaponShort",
+          "productionTime": 400,
+          "producer": {
+            "usedStat": 4,
+            "requiredSkills": [
+              {
+                "key": 10,
+                "value": 0
+              }
+            ],
+            "rewards": [
+              {
+                "key": 10,
+                "value": 300
+              }
+            ]
+          }
+        }
+      ],
+      "customProducts": [
+        {
+          "input": "iron_ingot",
+          "output": [
+            {
+              "blueprintID": "iron_short_sword",
+              "amount": 1
+            },
+            {
+              "blueprintID": "ash",
+              "amount": 75
+            }
+          ]
+        },
+        {
+          "input": "steel_ingot",
+          "output": [
+            {
+              "blueprintID": "steel_short_sword",
+              "amount": 1
+            },
+            {
+              "blueprintID": "ash",
+              "amount": 75
+            }
+          ]
+        },
+        {
+          "input": "gold_ingot",
+          "output": [
+            {
+              "blueprintID": "gold_short_sword",
+              "amount": 1
+            },
+            {
+              "blueprintID": "ash",
+              "amount": 75
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "productionId": "falchion",
+      "interruptible": true,
+      "jobType": 256,
+      "autoSpawn": true,
+      "passive": false,
+      "recipe": [
+        {
+          "id": 2048,
+          "value": 20
+        },
+        {
+          "id": 131072,
+          "value": 20
+        }
+      ],
+      "productionSteps": [
+        {
+          "name": "makingWoodenWeaponMed",
+          "productionTime": 200,
+          "producer": {
+            "usedStat": 31,
+            "requiredSkills": [
+              {
+                "key": 3,
+                "value": 0
+              }
+            ],
+            "rewards": [
+              {
+                "key": 3,
+                "value": 400
+              }
+            ]
+          }
+        }
+      ],
+      "customProducts": [
+        {
+          "input": "iron_ingot",
+          "output": [
+            {
+              "blueprintID": "iron_falchion",
+              "amount": 1
+            }
+          ]
+        },
+        {
+          "input": "steel_ingot",
+          "output": [
+            {
+              "blueprintID": "steel_falchion",
+              "amount": 1
+            }
+          ]
+        },
+        {
+          "input": "gold_ingot",
+          "output": [
+            {
+              "blueprintID": "gold_falchion",
+              "amount": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "productionId": "knightly_sword",
+      "interruptible": true,
+      "jobType": 256,
+      "autoSpawn": true,
+      "passive": false,
+      "recipe": [
+        {
+          "id": 2048,
+          "value": 20
+        },
+        {
+          "id": 131072,
+          "value": 20
+        }
+      ],
+      "productionSteps": [
+        {
+          "name": "makingMetalWeaponMed",
+          "productionTime": 550,
+          "producer": {
+            "usedStat": 4,
+            "requiredSkills": [
+              {
+                "key": 10,
+                "value": 10
+              }
+            ],
+            "rewards": [
+              {
+                "key": 10,
+                "value": 400
+              }
+            ]
+          }
+        }
+      ],
+      "customProducts": [
+        {
+          "input": "iron_ingot",
+          "output": [
+            {
+              "blueprintID": "iron_knightly_sword",
+              "amount": 1
+            }
+          ]
+        },
+        {
+          "input": "steel_ingot",
+          "output": [
+            {
+              "blueprintID": "steel_knightly_sword",
+              "amount": 1
+            }
+          ]
+        },
+        {
+          "input": "gold_ingot",
+          "output": [
+            {
+              "blueprintID": "gold_knightly_sword",
+              "amount": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "productionId": "longsword",
+      "interruptible": true,
+      "jobType": 256,
+      "autoSpawn": true,
+      "passive": false,
+      "recipe": [
+        {
+          "id": 2048,
+          "value": 35
+        },
+        {
+          "id": 131072,
+          "value": 25
+        }
+      ],
+      "productionSteps": [
+        {
+          "name": "makingMetalWeaponLong",
+          "productionTime": 800,
+          "producer": {
+            "usedStat": 4,
+            "requiredSkills": [
+              {
+                "key": 10,
+                "value": 20
+              }
+            ],
+            "rewards": [
+              {
+                "key": 10,
+                "value": 500
+              }
+            ]
+          }
+        }
+      ],
+      "customProducts": [
+        {
+          "input": "iron_ingot",
+          "output": [
+            {
+              "blueprintID": "iron_longsword",
+              "amount": 1
+            },
+            {
+              "blueprintID": "ash",
+              "amount": 125
+            }
+          ]
+        },
+        {
+          "input": "steel_ingot",
+          "output": [
+            {
+              "blueprintID": "steel_longsword",
+              "amount": 1
+            },
+            {
+              "blueprintID": "ash",
+              "amount": 125
+            }
+          ]
+        },
+        {
+          "input": "gold_ingot",
+          "output": [
+            {
+              "blueprintID": "gold_longsword",
+              "amount": 1
+            },
+            {
+              "blueprintID": "ash",
+              "amount": 125
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "productionId": "greatsword",
+      "interruptible": true,
+      "jobType": 256,
+      "autoSpawn": true,
+      "passive": false,
+      "recipe": [
+        {
+          "id": 2048,
+          "value": 50
+        },
+        {
+          "id": 131072,
+          "value": 25
+        }
+      ],
+      "productionSteps": [
+        {
+          "name": "makingMetalWeaponLong",
+          "productionTime": 800,
+          "producer": {
+            "usedStat": 4,
+            "requiredSkills": [
+              {
+                "key": 10,
+                "value": 20
+              }
+            ],
+            "rewards": [
+              {
+                "key": 10,
+                "value": 500
+              }
+            ]
+          }
+        }
+      ],
+      "customProducts": [
+        {
+          "input": "iron_ingot",
+          "output": [
+            {
+              "blueprintID": "iron_greatsword",
+              "amount": 1
+            }
+          ]
+        },
+        {
+          "input": "steel_ingot",
+          "output": [
+            {
+              "blueprintID": "steel_greatsword",
+              "amount": 1
+            }
+          ]
+        },
+        {
+          "input": "gold_ingot",
+          "output": [
+            {
+              "blueprintID": "gold_greatsword",
+              "amount": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "productionId": "staff",
+      "interruptible": true,
+      "jobType": 512,
+      "autoSpawn": true,
+      "passive": false,
+      "produced": [
+        {
+          "blueprintID": "staff",
+          "amount": 1
+        }
+      ],
+      "recipe": [
+        {
+          "id": "wood",
+          "value": 20
+        }
+      ],
+      "productionSteps": [
+        {
+          "name": "makingWoodenWeaponShort",
+          "productionTime": 90,
+          "producer": {
+            "usedStat": 31,
+            "requiredSkills": [
+              {
+                "key": 3,
+                "value": 0
+              }
+            ],
+            "rewards": [
+              {
+                "key": 3,
+                "value": 300
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "productionId": "cudgel",
+      "interruptible": true,
+      "jobType": 512,
+      "autoSpawn": true,
+      "passive": false,
+      "produced": [
+        {
+          "blueprintID": "cudgel",
+          "amount": 1
+        }
+      ],
+      "recipe": [
+        {
+          "id": "wood",
+          "value": 25
+        }
+      ],
+      "productionSteps": [
+        {
+          "name": "makingWoodenWeaponShort",
+          "productionTime": 90,
+          "producer": {
+            "usedStat": 31,
+            "requiredSkills": [
+              {
+                "key": 3,
+                "value": 0
+              }
+            ],
+            "rewards": [
+              {
+                "key": 3,
+                "value": 300
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "productionId": "bludgeon",
+      "interruptible": true,
+      "jobType": 512,
+      "autoSpawn": true,
+      "passive": false,
+      "produced": [
+        {
+          "blueprintID": "bludgeon",
+          "amount": 1
+        }
+      ],
+      "recipe": [
+        {
+          "id": "wood",
+          "value": 25
+        }
+      ],
+      "productionSteps": [
+        {
+          "name": "makingWoodenWeaponMed",
+          "productionTime": 200,
+          "producer": {
+            "usedStat": 31,
+            "requiredSkills": [
+              {
+                "key": 3,
+                "value": 0
+              }
+            ],
+            "rewards": [
+              {
+                "key": 3,
+                "value": 400
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "productionId": "mace",
+      "interruptible": true,
+      "jobType": 256,
+      "autoSpawn": true,
+      "passive": false,
+      "recipe": [
+        {
+          "id": 2048,
+          "value": 15
+        },
+        {
+          "id": 131072,
+          "value": 10
+        }
+      ],
+      "productionSteps": [
+        {
+          "name": "makingMetalWeaponShort",
+          "productionTime": 400,
+          "producer": {
+            "usedStat": 4,
+            "requiredSkills": [
+              {
+                "key": 10,
+                "value": 0
+              }
+            ],
+            "rewards": [
+              {
+                "key": 10,
+                "value": 300
+              }
+            ]
+          }
+        }
+      ],
+      "customProducts": [
+        {
+          "input": "iron_ingot",
+          "output": [
+            {
+              "blueprintID": "iron_mace",
+              "amount": 1
+            },
+            {
+              "blueprintID": "ash",
+              "amount": 50
+            }
+          ]
+        },
+        {
+          "input": "steel_ingot",
+          "output": [
+            {
+              "blueprintID": "steel_mace",
+              "amount": 1
+            },
+            {
+              "blueprintID": "ash",
+              "amount": 50
+            }
+          ]
+        },
+        {
+          "input": "gold_ingot",
+          "output": [
+            {
+              "blueprintID": "gold_mace",
+              "amount": 1
+            },
+            {
+              "blueprintID": "ash",
+              "amount": 50
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "productionId": "two_handed_mace",
+      "interruptible": true,
+      "jobType": 256,
+      "autoSpawn": true,
+      "passive": false,
+      "recipe": [
+        {
+          "id": 2048,
+          "value": 30
+        },
+        {
+          "id": 131072,
+          "value": 15
+        }
+      ],
+      "productionSteps": [
+        {
+          "name": "makingMetalWeaponMed",
+          "productionTime": 550,
+          "producer": {
+            "usedStat": 4,
+            "requiredSkills": [
+              {
+                "key": 10,
+                "value": 10
+              }
+            ],
+            "rewards": [
+              {
+                "key": 10,
+                "value": 400
+              }
+            ]
+          }
+        }
+      ],
+      "customProducts": [
+        {
+          "input": "iron_ingot",
+          "output": [
+            {
+              "blueprintID": "iron_two_handed_mace",
+              "amount": 1
+            },
+            {
+              "blueprintID": "ash",
+              "amount": 75
+            }
+          ]
+        },
+        {
+          "input": "steel_ingot",
+          "output": [
+            {
+              "blueprintID": "steel_two_handed_mace",
+              "amount": 1
+            },
+            {
+              "blueprintID": "ash",
+              "amount": 75
+            }
+          ]
+        },
+        {
+          "input": "gold_ingot",
+          "output": [
+            {
+              "blueprintID": "gold_two_handed_mace",
+              "amount": 1
+            },
+            {
+              "blueprintID": "ash",
+              "amount": 75
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "productionId": "two_handed_flanged_mace",
+      "interruptible": true,
+      "jobType": 256,
+      "autoSpawn": true,
+      "passive": false,
+      "produced": [
+        {
+          "blueprintID": "two_handed_flanged_mace",
+          "amount": 1
+        }
+      ],
+      "recipe": [
+        {
+          "id": "iron_ingot",
+          "value": 45
+        }
+      ],
+      "productionSteps": [
+        {
+          "name": "makingWoodenWeaponLong",
+          "productionTime": 300,
+          "producer": {
+            "usedStat": 31,
+            "requiredSkills": [
+              {
+                "key": 3,
+                "value": 0
+              }
+            ],
+            "rewards": [
+              {
+                "key": 3,
+                "value": 500
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "productionId": "military_pick",
+      "interruptible": true,
+      "jobType": 256,
+      "autoSpawn": true,
+      "passive": false,
+      "produced": [
+        {
+          "blueprintID": "military_pick",
+          "amount": 1
+        }
+      ],
+      "recipe": [
+        {
+          "id": "iron_ingot",
+          "value": 30
+        }
+      ],
+      "productionSteps": [
+        {
+          "name": "makingWoodenWeaponMed",
+          "productionTime": 200,
+          "producer": {
+            "usedStat": 31,
+            "requiredSkills": [
+              {
+                "key": 3,
+                "value": 0
+              }
+            ],
+            "rewards": [
+              {
+                "key": 3,
+                "value": 400
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "productionId": "wooden_spear",
+      "interruptible": true,
+      "jobType": 512,
+      "autoSpawn": true,
+      "passive": false,
+      "produced": [
+        {
+          "blueprintID": "wooden_spear",
+          "amount": 1
+        }
+      ],
+      "recipe": [
+        {
+          "id": "wood",
+          "value": 30
+        }
+      ],
+      "productionSteps": [
+        {
+          "name": "makingWoodenWeaponShort",
+          "productionTime": 90,
+          "producer": {
+            "usedStat": 31,
+            "requiredSkills": [
+              {
+                "key": 3,
+                "value": 0
+              }
+            ],
+            "rewards": [
+              {
+                "key": 3,
+                "value": 300
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "productionId": "spear",
+      "interruptible": true,
+      "jobType": 512,
+      "autoSpawn": true,
+      "passive": false,
+      "produced": [
+        {
+          "blueprintID": "spear",
+          "amount": 1
+        }
+      ],
+      "recipe": [
+        {
+          "id": "wood",
+          "value": 30
+        },
+        {
+          "id": "iron_ingot",
+          "value": 2
+        }
+      ],
+      "productionSteps": [
+        {
+          "name": "makingWoodenWeaponMed",
+          "productionTime": 200,
+          "producer": {
+            "usedStat": 31,
+            "requiredSkills": [
+              {
+                "key": 3,
+                "value": 0
+              }
+            ],
+            "rewards": [
+              {
+                "key": 3,
+                "value": 400
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "productionId": "berdiche",
+      "interruptible": true,
+      "jobType": 256,
+      "autoSpawn": true,
+      "passive": false,
+      "recipe": [
+        {
+          "id": 2048,
+          "value": 15
+        },
+        {
+          "id": 131072,
+          "value": 10
+        }
+      ],
+      "productionSteps": [
+        {
+          "name": "makingMetalWeaponShort",
+          "productionTime": 400,
+          "producer": {
+            "usedStat": 4,
+            "requiredSkills": [
+              {
+                "key": 10,
+                "value": 0
+              }
+            ],
+            "rewards": [
+              {
+                "key": 10,
+                "value": 300
+              }
+            ]
+          }
+        }
+      ],
+      "customProducts": [
+        {
+          "input": "iron_ingot",
+          "output": [
+            {
+              "blueprintID": "iron_berdiche",
+              "amount": 1
+            },
+            {
+              "blueprintID": "ash",
+              "amount": 50
+            }
+          ]
+        },
+        {
+          "input": "steel_ingot",
+          "output": [
+            {
+              "blueprintID": "steel_berdiche",
+              "amount": 1
+            },
+            {
+              "blueprintID": "ash",
+              "amount": 50
+            }
+          ]
+        },
+        {
+          "input": "gold_ingot",
+          "output": [
+            {
+              "blueprintID": "gold_berdiche",
+              "amount": 1
+            },
+            {
+              "blueprintID": "ash",
+              "amount": 50
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "productionId": "billhook",
+      "interruptible": true,
+      "jobType": 256,
+      "autoSpawn": true,
+      "passive": false,
+      "produced": [
+        {
+          "blueprintID": "billhook",
+          "amount": 1
+        }
+      ],
+      "recipe": [
+        {
+          "id": "iron_ingot",
+          "value": 10
+        },
+        {
+          "id": "wood",
+          "value": 20
+        }
+      ],
+      "productionSteps": [
+        {
+          "name": "makingMetalWeaponMed",
+          "productionTime": 550,
+          "producer": {
+            "usedStat": 4,
+            "requiredSkills": [
+              {
+                "key": 10,
+                "value": 10
+              }
+            ],
+            "rewards": [
+              {
+                "key": 10,
+                "value": 400
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "productionId": "warfork",
+      "interruptible": true,
+      "jobType": 512,
+      "autoSpawn": true,
+      "passive": false,
+      "produced": [
+        {
+          "blueprintID": "warfork",
+          "amount": 1
+        }
+      ],
+      "recipe": [
+        {
+          "id": "wood",
+          "value": 30
+        }
+      ],
+      "productionSteps": [
+        {
+          "name": "makingWoodenWeaponMed",
+          "productionTime": 200,
+          "producer": {
+            "usedStat": 31,
+            "requiredSkills": [
+              {
+                "key": 3,
+                "value": 0
+              }
+            ],
+            "rewards": [
+              {
+                "key": 3,
+                "value": 400
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "productionId": "hatchet",
+      "interruptible": true,
+      "jobType": 256,
+      "autoSpawn": true,
+      "passive": false,
+      "recipe": [
+        {
+          "id": 2048,
+          "value": 15
+        },
+        {
+          "id": 131072,
+          "value": 10
+        }
+      ],
+      "productionSteps": [
+        {
+          "name": "makingMetalWeaponShort",
+          "productionTime": 400,
+          "producer": {
+            "usedStat": 4,
+            "requiredSkills": [
+              {
+                "key": 10,
+                "value": 0
+              }
+            ],
+            "rewards": [
+              {
+                "key": 10,
+                "value": 300
+              }
+            ]
+          }
+        }
+      ],
+      "customProducts": [
+        {
+          "input": "iron_ingot",
+          "output": [
+            {
+              "blueprintID": "iron_hatchet",
+              "amount": 1
+            },
+            {
+              "blueprintID": "ash",
+              "amount": 50
+            }
+          ]
+        },
+        {
+          "input": "steel_ingot",
+          "output": [
+            {
+              "blueprintID": "steel_hatchet",
+              "amount": 1
+            },
+            {
+              "blueprintID": "ash",
+              "amount": 50
+            }
+          ]
+        },
+        {
+          "input": "gold_ingot",
+          "output": [
+            {
+              "blueprintID": "gold_hatchet",
+              "amount": 1
+            },
+            {
+              "blueprintID": "ash",
+              "amount": 50
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "productionId": "greataxe",
+      "interruptible": true,
+      "jobType": 256,
+      "autoSpawn": true,
+      "passive": false,
+      "recipe": [
+        {
+          "id": 2048,
+          "value": 40
+        },
+        {
+          "id": 131072,
+          "value": 15
+        }
+      ],
+      "productionSteps": [
+        {
+          "name": "makingMetalWeaponLong",
+          "productionTime": 800,
+          "producer": {
+            "usedStat": 4,
+            "requiredSkills": [
+              {
+                "key": 10,
+                "value": 20
+              }
+            ],
+            "rewards": [
+              {
+                "key": 10,
+                "value": 500
+              }
+            ]
+          }
+        }
+      ],
+      "customProducts": [
+        {
+          "input": "iron_ingot",
+          "output": [
+            {
+              "blueprintID": "iron_greataxe",
+              "amount": 1
+            },
+            {
+              "blueprintID": "ash",
+              "amount": 75
+            }
+          ]
+        },
+        {
+          "input": "steel_ingot",
+          "output": [
+            {
+              "blueprintID": "steel_greataxe",
+              "amount": 1
+            },
+            {
+              "blueprintID": "ash",
+              "amount": 75
+            }
+          ]
+        },
+        {
+          "input": "gold_ingot",
+          "output": [
+            {
+              "blueprintID": "gold_greataxe",
+              "amount": 1
+            },
+            {
+              "blueprintID": "ash",
+              "amount": 75
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "productionId": "warhammer",
+      "interruptible": true,
+      "jobType": 512,
+      "autoSpawn": true,
+      "passive": false,
+      "produced": [
+        {
+          "blueprintID": "warhammer",
+          "amount": 1
+        }
+      ],
+      "recipe": [
+        {
+          "id": "wood",
+          "value": 20
+        },
+        {
+          "id": "iron_ingot",
+          "value": 5
+        }
+      ],
+      "productionSteps": [
+        {
+          "name": "makingMetalWeaponMed",
+          "productionTime": 550,
+          "producer": {
+            "usedStat": 4,
+            "requiredSkills": [
+              {
+                "key": 10,
+                "value": 10
+              }
+            ],
+            "rewards": [
+              {
+                "key": 10,
+                "value": 400
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "productionId": "two_handed_warhammer",
+      "interruptible": true,
+      "jobType": 256,
+      "autoSpawn": true,
+      "passive": false,
+      "produced": [
+        {
+          "blueprintID": "two_handed_warhammer",
+          "amount": 1
+        }
+      ],
+      "recipe": [
+        {
+          "id": "iron_ingot",
+          "value": 30
+        }
+      ],
+      "productionSteps": [
+        {
+          "name": "makingMetalWeaponLong",
+          "productionTime": 800,
+          "producer": {
+            "usedStat": 4,
+            "requiredSkills": [
+              {
+                "key": 10,
+                "value": 20
+              }
+            ],
+            "rewards": [
+              {
+                "key": 10,
+                "value": 500
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "productionId": "wooden_flail",
+      "interruptible": true,
+      "jobType": 512,
+      "autoSpawn": true,
+      "passive": false,
+      "produced": [
+        {
+          "blueprintID": "wooden_flail",
+          "amount": 1
+        }
+      ],
+      "recipe": [
+        {
+          "id": "wood",
+          "value": 30
+        }
+      ],
+      "productionSteps": [
+        {
+          "name": "makingWoodenWeaponShort",
+          "productionTime": 90,
+          "producer": {
+            "usedStat": 31,
+            "requiredSkills": [
+              {
+                "key": 3,
+                "value": 0
+              }
+            ],
+            "rewards": [
+              {
+                "key": 3,
+                "value": 300
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "productionId": "reinforced_flail",
+      "interruptible": true,
+      "jobType": 512,
+      "autoSpawn": true,
+      "passive": false,
+      "produced": [
+        {
+          "blueprintID": "reinforced_flail",
+          "amount": 1
+        }
+      ],
+      "recipe": [
+        {
+          "id": "wood",
+          "value": 30
+        },
+        {
+          "id": "iron_ingot",
+          "value": 5
+        }
+      ],
+      "productionSteps": [
+        {
+          "name": "makingWoodenWeaponLong",
+          "productionTime": 300,
+          "producer": {
+            "usedStat": 31,
+            "requiredSkills": [
+              {
+                "key": 3,
+                "value": 0
+              }
+            ],
+            "rewards": [
+              {
+                "key": 3,
+                "value": 500
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "productionId": "two_handed_flail",
+      "interruptible": true,
+      "jobType": 256,
+      "autoSpawn": true,
+      "passive": false,
+      "produced": [
+        {
+          "blueprintID": "two_handed_flail",
+          "amount": 1
+        }
+      ],
+      "recipe": [
+        {
+          "id": "wood",
+          "value": 45
+        }
+      ],
+      "productionSteps": [
+        {
+          "name": "makingWoodenWeaponMed",
+          "productionTime": 200,
+          "producer": {
+            "usedStat": 31,
+            "requiredSkills": [
+              {
+                "key": 3,
+                "value": 0
+              }
+            ],
+            "rewards": [
+              {
+                "key": 3,
+                "value": 400
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "productionId": "short_bow",
+      "interruptible": true,
+      "jobType": 512,
+      "autoSpawn": true,
+      "passive": false,
+      "produced": [
+        {
+          "blueprintID": "short_bow",
+          "amount": 1
+        }
+      ],
+      "recipe": [
+        {
+          "id": "wood",
+          "value": 20
+        }
+      ],
+      "productionSteps": [
+        {
+          "name": "makingWoodenWeaponShort",
+          "productionTime": 90,
+          "producer": {
+            "usedStat": 31,
+            "requiredSkills": [
+              {
+                "key": 3,
+                "value": 0
+              }
+            ],
+            "rewards": [
+              {
+                "key": 3,
+                "value": 300
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "productionId": "war_bow",
+      "interruptible": true,
+      "jobType": 512,
+      "autoSpawn": true,
+      "passive": false,
+      "produced": [
+        {
+          "blueprintID": "war_bow",
+          "amount": 1
+        }
+      ],
+      "recipe": [
+        {
+          "id": "wood",
+          "value": 30
+        }
+      ],
+      "productionSteps": [
+        {
+          "name": "makingWoodenWeaponMed",
+          "productionTime": 200,
+          "producer": {
+            "usedStat": 31,
+            "requiredSkills": [
+              {
+                "key": 3,
+                "value": 0
+              }
+            ],
+            "rewards": [
+              {
+                "key": 3,
+                "value": 400
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "productionId": "long_bow",
+      "interruptible": true,
+      "jobType": 512,
+      "autoSpawn": true,
+      "passive": false,
+      "produced": [
+        {
+          "blueprintID": "long_bow",
+          "amount": 1
+        }
+      ],
+      "recipe": [
+        {
+          "id": "wood",
+          "value": 40
+        }
+      ],
+      "productionSteps": [
+        {
+          "name": "makingWoodenWeaponLong",
+          "productionTime": 300,
+          "producer": {
+            "usedStat": 31,
+            "requiredSkills": [
+              {
+                "key": 3,
+                "value": 0
+              }
+            ],
+            "rewards": [
+              {
+                "key": 3,
+                "value": 500
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "productionId": "masterwork_bow",
+      "interruptible": true,
+      "jobType": 512,
+      "autoSpawn": true,
+      "passive": false,
+      "produced": [
+        {
+          "blueprintID": "masterwork_bow",
+          "amount": 1
+        }
+      ],
+      "recipe": [
+        {
+          "id": "wood",
+          "value": 45
+        }
+      ],
+      "productionSteps": [
+        {
+          "name": "makingWoodenWeaponLong",
+          "productionTime": 300,
+          "producer": {
+            "usedStat": 31,
+            "requiredSkills": [
+              {
+                "key": 3,
+                "value": 0
+              }
+            ],
+            "rewards": [
+              {
+                "key": 3,
+                "value": 500
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "productionId": "light_crossbow",
+      "interruptible": true,
+      "jobType": 512,
+      "autoSpawn": true,
+      "passive": false,
+      "produced": [
+        {
+          "blueprintID": "light_crossbow",
+          "amount": 1
+        }
+      ],
+      "recipe": [
+        {
+          "id": "wood",
+          "value": 50
+        },
+        {
+          "id": "mechanical_parts",
+          "value": 2
+        }
+      ],
+      "productionSteps": [
+        {
+          "name": "makingCrossobow",
+          "productionTime": 300,
+          "producer": {
+            "usedStat": 31,
+            "requiredSkills": [
+              {
+                "key": 3,
+                "value": 20
+              }
+            ],
+            "rewards": [
+              {
+                "key": 3,
+                "value": 500
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "productionId": "crossbow",
+      "interruptible": true,
+      "jobType": 512,
+      "autoSpawn": true,
+      "passive": false,
+      "produced": [
+        {
+          "blueprintID": "crossbow",
+          "amount": 1
+        }
+      ],
+      "recipe": [
+        {
+          "id": "wood",
+          "value": 35
+        },
+        {
+          "id": "mechanical_parts",
+          "value": 2
+        }
+      ],
+      "productionSteps": [
+        {
+          "name": "makingCrossobow",
+          "productionTime": 300,
+          "producer": {
+            "usedStat": 31,
+            "requiredSkills": [
+              {
+                "key": 3,
+                "value": 20
+              }
+            ],
+            "rewards": [
+              {
+                "key": 3,
+                "value": 500
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "productionId": "heavy_crossbow",
+      "interruptible": true,
+      "jobType": 512,
+      "autoSpawn": true,
+      "passive": false,
+      "produced": [
+        {
+          "blueprintID": "heavy_crossbow",
+          "amount": 1
+        }
+      ],
+      "recipe": [
+        {
+          "id": "wood",
+          "value": 45
+        },
+        {
+          "id": "mechanical_parts",
+          "value": 3
+        }
+      ],
+      "productionSteps": [
+        {
+          "name": "makingCrossobow",
+          "productionTime": 300,
+          "producer": {
+            "usedStat": 31,
+            "requiredSkills": [
+              {
+                "key": 3,
+                "value": 20
+              }
+            ],
+            "rewards": [
+              {
+                "key": 3,
+                "value": 500
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "productionId": "throwing_axes",
+      "interruptible": true,
+      "jobType": 256,
+      "autoSpawn": true,
+      "passive": false,
+      "produced": [
+        {
+          "blueprintID": "throwing_axes",
+          "amount": 1
+        }
+      ],
+      "recipe": [
+        {
+          "id": "iron_ingot",
+          "value": 5
+        },
+        {
+          "id": "wood",
+          "value": 20
+        }
+      ],
+      "productionSteps": [
+        {
+          "name": "makingMetalWeaponMed",
+          "productionTime": 550,
+          "producer": {
+            "usedStat": 4,
+            "requiredSkills": [
+              {
+                "key": 10,
+                "value": 10
+              }
+            ],
+            "rewards": [
+              {
+                "key": 10,
+                "value": 400
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "productionId": "javelins",
+      "interruptible": true,
+      "jobType": 512,
+      "autoSpawn": true,
+      "passive": false,
+      "produced": [
+        {
+          "blueprintID": "javelins",
+          "amount": 1
+        }
+      ],
+      "recipe": [
+        {
+          "id": "wood",
+          "value": 20
+        }
+      ],
+      "productionSteps": [
+        {
+          "name": "makingWoodenWeaponMed",
+          "productionTime": 200,
+          "producer": {
+            "usedStat": 31,
+            "requiredSkills": [
+              {
+                "key": 3,
+                "value": 0
+              }
+            ],
+            "rewards": [
+              {
+                "key": 3,
+                "value": 400
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "productionId": "sling",
+      "interruptible": true,
+      "jobType": 512,
+      "autoSpawn": true,
+      "passive": false,
+      "produced": [
+        {
+          "blueprintID": "sling",
+          "amount": 1
+        }
+      ],
+      "recipe": [
+        {
+          "id": 256,
+          "value": 5
+        }
+      ],
+      "productionSteps": [
+        {
+          "name": "makingWoodenWeaponShort",
+          "productionTime": 90,
+          "producer": {
+            "usedStat": 31,
+            "requiredSkills": [
+              {
+                "key": 3,
+                "value": 0
+              }
+            ],
+            "rewards": [
+              {
+                "key": 3,
+                "value": 300
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "productionId": "sling_staff",
+      "interruptible": true,
+      "jobType": 512,
+      "autoSpawn": true,
+      "passive": false,
+      "produced": [
+        {
+          "blueprintID": "sling_staff",
+          "amount": 1
+        }
+      ],
+      "recipe": [
+        {
+          "id": 256,
+          "value": 5
+        },
+        {
+          "id": "wood",
+          "value": 10
+        }
+      ],
+      "productionSteps": [
+        {
+          "name": "makingWoodenWeaponShort",
+          "productionTime": 90,
+          "producer": {
+            "usedStat": 31,
+            "requiredSkills": [
+              {
+                "key": 3,
+                "value": 0
+              }
+            ],
+            "rewards": [
+              {
+                "key": 3,
+                "value": 300
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "productionId": "bolas",
+      "interruptible": true,
+      "jobType": 512,
+      "autoSpawn": true,
+      "passive": false,
+      "produced": [
+        {
+          "blueprintID": "bolas",
+          "amount": 1
+        }
+      ],
+      "recipe": [
+        {
+          "id": 256,
+          "value": 5
+        },
+        {
+          "id": "wood",
+          "value": 10
+        }
+      ],
+      "productionSteps": [
+        {
+          "name": "makingWoodenWeaponShort",
+          "productionTime": 90,
+          "producer": {
+            "usedStat": 31,
+            "requiredSkills": [
+              {
+                "key": 3,
+                "value": 0
+              }
+            ],
+            "rewards": [
+              {
+                "key": 3,
+                "value": 300
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "productionId": "leather_armor",
+      "interruptible": true,
+      "jobType": 2048,
+      "autoSpawn": true,
+      "passive": false,
+      "produced": [
+        {
+          "blueprintID": "leather_armor",
+          "amount": 1
+        }
+      ],
+      "recipe": [
+        {
+          "id": 16384,
+          "value": 70
+        }
+      ],
+      "productionSteps": [
+        {
+          "name": "makingLeatherArmor",
+          "productionTime": 550,
+          "producer": {
+            "usedStat": 16,
+            "requiredSkills": [
+              {
+                "key": 12,
+                "value": 0
+              }
+            ],
+            "rewards": [
+              {
+                "key": 12,
+                "value": 500
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "productionId": "mail_armor",
+      "interruptible": true,
+      "jobType": 256,
+      "autoSpawn": true,
+      "passive": false,
+      "recipe": [
+        {
+          "id": 2048,
+          "value": 65
+        },
+        {
+          "id": 131072,
+          "value": 25
+        }
+      ],
+      "productionSteps": [
+        {
+          "name": "makingMailArmor",
+          "productionTime": 800,
+          "producer": {
+            "usedStat": 4,
+            "requiredSkills": [
+              {
+                "key": 10,
+                "value": 5
+              }
+            ],
+            "rewards": [
+              {
+                "key": 10,
+                "value": 500
+              }
+            ]
+          }
+        }
+      ],
+      "customProducts": [
+        {
+          "input": "iron_ingot",
+          "output": [
+            {
+              "blueprintID": "iron_mail_armor",
+              "amount": 1
+            },
+            {
+              "blueprintID": "ash",
+              "amount": 125
+            }
+          ]
+        },
+        {
+          "input": "steel_ingot",
+          "output": [
+            {
+              "blueprintID": "steel_mail_armor",
+              "amount": 1
+            },
+            {
+              "blueprintID": "ash",
+              "amount": 125
+            }
+          ]
+        },
+        {
+          "input": "gold_ingot",
+          "output": [
+            {
+              "blueprintID": "gold_mail_armor",
+              "amount": 1
+            },
+            {
+              "blueprintID": "ash",
+              "amount": 125
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "productionId": "plate_armor",
+      "interruptible": true,
+      "jobType": 256,
+      "autoSpawn": true,
+      "passive": false,
+      "recipe": [
+        {
+          "id": 2048,
+          "value": 90
+        },
+        {
+          "id": 131072,
+          "value": 25
+        }
+      ],
+      "productionSteps": [
+        {
+          "name": "makingPlateArmor",
+          "productionTime": 1100,
+          "producer": {
+            "usedStat": 4,
+            "requiredSkills": [
+              {
+                "key": 10,
+                "value": 10
+              }
+            ],
+            "rewards": [
+              {
+                "key": 10,
+                "value": 500
+              }
+            ]
+          }
+        }
+      ],
+      "customProducts": [
+        {
+          "input": "iron_ingot",
+          "output": [
+            {
+              "blueprintID": "iron_plate_armor",
+              "amount": 1
+            },
+            {
+              "blueprintID": "ash",
+              "amount": 125
+            }
+          ]
+        },
+        {
+          "input": "steel_ingot",
+          "output": [
+            {
+              "blueprintID": "steel_plate_armor",
+              "amount": 1
+            },
+            {
+              "blueprintID": "ash",
+              "amount": 125
+            }
+          ]
+        },
+        {
+          "input": "gold_ingot",
+          "output": [
+            {
+              "blueprintID": "gold_plate_armor",
+              "amount": 1
+            },
+            {
+              "blueprintID": "ash",
+              "amount": 125
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "productionId": "plate_helmet",
+      "interruptible": true,
+      "jobType": 256,
+      "autoSpawn": true,
+      "passive": false,
+      "recipe": [
+        {
+          "id": 2048,
+          "value": 40
+        },
+        {
+          "id": 131072,
+          "value": 15
+        }
+      ],
+      "productionSteps": [
+        {
+          "name": "makingPlateHelmet",
+          "productionTime": 500,
+          "producer": {
+            "usedStat": 4,
+            "requiredSkills": [
+              {
+                "key": 10,
+                "value": 5
+              }
+            ],
+            "rewards": [
+              {
+                "key": 10,
+                "value": 250
+              }
+            ]
+          }
+        }
+      ],
+      "customProducts": [
+        {
+          "input": "iron_ingot",
+          "output": [
+            {
+              "blueprintID": "iron_plate_helmet",
+              "amount": 1
+            },
+            {
+              "blueprintID": "ash",
+              "amount": 75
+            }
+          ]
+        },
+        {
+          "input": "steel_ingot",
+          "output": [
+            {
+              "blueprintID": "steel_plate_helmet",
+              "amount": 1
+            },
+            {
+              "blueprintID": "ash",
+              "amount": 75
+            }
+          ]
+        },
+        {
+          "input": "gold_ingot",
+          "output": [
+            {
+              "blueprintID": "gold_plate_helmet",
+              "amount": 1
+            },
+            {
+              "blueprintID": "ash",
+              "amount": 75
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "productionId": "leather_helmet",
+      "interruptible": true,
+      "jobType": 2048,
+      "autoSpawn": true,
+      "passive": false,
+      "produced": [
+        {
+          "blueprintID": "leather_helmet",
+          "amount": 1
+        }
+      ],
+      "recipe": [
+        {
+          "id": 16384,
+          "value": 45
+        }
+      ],
+      "productionSteps": [
+        {
+          "name": "makingLeatherHelmet",
+          "productionTime": 300,
+          "producer": {
+            "usedStat": 16,
+            "requiredSkills": [
+              {
+                "key": 12,
+                "value": 0
+              }
+            ],
+            "rewards": [
+              {
+                "key": 12,
+                "value": 250
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "productionId": "mail_helmet",
+      "interruptible": true,
+      "jobType": 256,
+      "autoSpawn": true,
+      "passive": false,
+      "recipe": [
+        {
+          "id": 2048,
+          "value": 35
+        },
+        {
+          "id": 131072,
+          "value": 15
+        }
+      ],
+      "productionSteps": [
+        {
+          "name": "makingMailHelmet",
+          "productionTime": 400,
+          "producer": {
+            "usedStat": 4,
+            "requiredSkills": [
+              {
+                "key": 10,
+                "value": 5
+              }
+            ],
+            "rewards": [
+              {
+                "key": 10,
+                "value": 250
+              }
+            ]
+          }
+        }
+      ],
+      "customProducts": [
+        {
+          "input": "iron_ingot",
+          "output": [
+            {
+              "blueprintID": "iron_mail_helmet",
+              "amount": 1
+            },
+            {
+              "blueprintID": "ash",
+              "amount": 75
+            }
+          ]
+        },
+        {
+          "input": "steel_ingot",
+          "output": [
+            {
+              "blueprintID": "steel_mail_helmet",
+              "amount": 1
+            },
+            {
+              "blueprintID": "ash",
+              "amount": 75
+            }
+          ]
+        },
+        {
+          "input": "gold_ingot",
+          "output": [
+            {
+              "blueprintID": "gold_mail_helmet",
+              "amount": 1
+            },
+            {
+              "blueprintID": "ash",
+              "amount": 75
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "productionId": "gambeson",
+      "interruptible": true,
+      "jobType": 2048,
+      "autoSpawn": true,
+      "passive": false,
+      "recipe": [
+        {
+          "id": 32768,
+          "value": 120
+        }
+      ],
+      "productionSteps": [
+        {
+          "name": "makingGambeson",
+          "productionTime": 550,
+          "producer": {
+            "usedStat": 16,
+            "requiredSkills": [
+              {
+                "key": 12,
+                "value": 0
+              }
+            ],
+            "rewards": [
+              {
+                "key": 12,
+                "value": 350
+              }
+            ]
+          }
+        }
+      ],
+      "customProducts": [
+        {
+          "input": "linen_cloth",
+          "output": [
+            {
+              "blueprintID": "linnen_gambeson",
+              "amount": 1
+            }
+          ]
+        },
+        {
+          "input": "wool_cloth",
+          "output": [
+            {
+              "blueprintID": "wool_gambeson",
+              "amount": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "productionId": "buckler",
+      "interruptible": true,
+      "jobType": 512,
+      "autoSpawn": true,
+      "passive": false,
+      "produced": [
+        {
+          "blueprintID": "wooden_buckler",
+          "amount": 1
+        }
+      ],
+      "recipe": [
+        {
+          "id": "wood",
+          "value": 30
+        }
+      ],
+      "productionSteps": [
+        {
+          "name": "makingBuckler",
+          "productionTime": 400,
+          "producer": {
+            "usedStat": 31,
+            "requiredSkills": [
+              {
+                "key": 3,
+                "value": 0
+              }
+            ],
+            "rewards": [
+              {
+                "key": 3,
+                "value": 250
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "productionId": "shield",
+      "interruptible": true,
+      "jobType": 512,
+      "autoSpawn": true,
+      "passive": false,
+      "produced": [
+        {
+          "blueprintID": "wooden_shield",
+          "amount": 1
+        }
+      ],
+      "recipe": [
+        {
+          "id": "wood",
+          "value": 40
+        }
+      ],
+      "productionSteps": [
+        {
+          "name": "makingShield",
+          "productionTime": 550,
+          "producer": {
+            "usedStat": 31,
+            "requiredSkills": [
+              {
+                "key": 3,
+                "value": 5
+              }
+            ],
+            "rewards": [
+              {
+                "key": 3,
+                "value": 250
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "productionId": "tower_shield",
+      "interruptible": true,
+      "jobType": 512,
+      "autoSpawn": true,
+      "passive": false,
+      "produced": [
+        {
+          "blueprintID": "tower_shield",
+          "amount": 1
+        }
+      ],
+      "recipe": [
+        {
+          "id": "wood",
+          "value": 50
+        }
+      ],
+      "productionSteps": [
+        {
+          "name": "makingTowerShield",
+          "productionTime": 800,
+          "producer": {
+            "usedStat": 31,
+            "requiredSkills": [
+              {
+                "key": 3,
+                "value": 10
+              }
+            ],
+            "rewards": [
+              {
+                "key": 3,
+                "value": 500
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "productionId": "basic_research_book",
+      "interruptible": true,
+      "jobType": 4096,
+      "autoSpawn": true,
+      "passive": false,
+      "produced": [
+        {
+          "blueprintID": "basic_research_book",
+          "amount": 1
+        }
+      ],
+      "productionSteps": [
+        {
+          "name": "writingBasicResearchBook",
+          "productionTime": 50,
+          "producer": {
+            "usedStat": 52,
+            "requiredSkills": [
+              {
+                "key": 6,
+                "value": 0
+              }
+            ],
+            "rewards": [
+              {
+                "key": 6,
+                "value": 80
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "productionId": "normal_research_book",
+      "interruptible": true,
+      "jobType": 4096,
+      "autoSpawn": true,
+      "passive": false,
+      "produced": [
+        {
+          "blueprintID": "normal_research_book",
+          "amount": 1
+        }
+      ],
+      "productionSteps": [
+        {
+          "name": "writingNormalResearchBook",
+          "productionTime": 80,
+          "producer": {
+            "usedStat": 52,
+            "requiredSkills": [
+              {
+                "key": 6,
+                "value": 10
+              }
+            ],
+            "rewards": [
+              {
+                "key": 6,
+                "value": 110
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "productionId": "advanced_research_book",
+      "interruptible": true,
+      "jobType": 4096,
+      "autoSpawn": true,
+      "passive": false,
+      "produced": [
+        {
+          "blueprintID": "advanced_research_book",
+          "amount": 1
+        }
+      ],
+      "productionSteps": [
+        {
+          "name": "writingAdvancedResearchBook",
+          "productionTime": 110,
+          "producer": {
+            "usedStat": 52,
+            "requiredSkills": [
+              {
+                "key": 6,
+                "value": 20
+              }
+            ],
+            "rewards": [
+              {
+                "key": 6,
+                "value": 130
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "productionId": "dismantle_wood",
+      "interruptible": true,
+      "ignoreProductionModeUI": [
+        2
+      ],
+      "jobType": 512,
+      "autoSpawn": true,
+      "passive": false,
+      "itemMaterialCategory": 3,
+      "productionSteps": [
+        {
+          "name": "dismantleWoodItems",
+          "productionTime": 25,
+          "producer": {
+            "usedStat": 31,
+            "requiredSkills": [
+              {
+                "key": 3,
+                "value": 0
+              }
+            ],
+            "rewards": [
+              {
+                "key": 3,
+                "value": 60
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "productionId": "dismantle_metal",
+      "interruptible": true,
+      "ignoreProductionModeUI": [
+        2
+      ],
+      "jobType": 256,
+      "autoSpawn": true,
+      "passive": false,
+      "itemMaterialCategory": 1,
+      "productionSteps": [
+        {
+          "name": "dismantleMetalItems",
+          "productionTime": 25,
+          "producer": {
+            "usedStat": 4,
+            "requiredSkills": [
+              {
+                "key": 10,
+                "value": 0
+              }
+            ],
+            "rewards": [
+              {
+                "key": 10,
+                "value": 60
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "productionId": "dismantle_cloth",
+      "interruptible": true,
+      "ignoreProductionModeUI": [
+        2
+      ],
+      "jobType": 2048,
+      "autoSpawn": true,
+      "passive": false,
+      "itemMaterialCategory": 2,
+      "productionSteps": [
+        {
+          "name": "dismantleClothItems",
+          "productionTime": 25,
+          "producer": {
+            "usedStat": 16,
+            "requiredSkills": [
+              {
+                "key": 12,
+                "value": 0
+              }
+            ],
+            "rewards": [
+              {
+                "key": 12,
+                "value": 60
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "productionId": "mechanical_parts",
+      "interruptible": true,
+      "jobType": 256,
+      "autoSpawn": true,
+      "passive": false,
+      "produced": [
+        {
+          "blueprintID": "mechanical_parts",
+          "amount": 1
+        }
+      ],
+      "recipe": [
+        {
+          "id": 2048,
+          "value": 15
+        },
+        {
+          "id": 131072,
+          "value": 5
+        }
+      ],
+      "productionSteps": [
+        {
+          "name": "createMechanicalParts",
+          "productionTime": 100,
+          "producer": {
+            "usedStat": 4,
+            "requiredSkills": [
+              {
+                "key": 10,
+                "value": 20
+              }
+            ],
+            "rewards": [
+              {
+                "key": 10,
+                "value": 250
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

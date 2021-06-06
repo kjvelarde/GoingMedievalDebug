@@ -1,0 +1,660 @@
+{
+  "repository": [
+    {
+      "entryId": "tutorial_welcome",
+      "name": "Tutorialwelcome",
+      "groupId": "Tutorial",
+      "path": "IndexTutorialTutorialwelcome",
+      "iconName": "PH",
+      "iconPathKey": "almanacGroupIcon",
+      "entries": {
+        "keys": [
+          "title",
+          "video",
+          "icon",
+          "info"
+        ],
+        "values": [
+          "tutorial_welcome",
+          "welcome",
+          "null",
+          "tutorial_welcome_info"
+        ]
+      }
+    },
+    {
+      "entryId": "tutorial_camera_control",
+      "name": "Tutorialcameracontrol",
+      "groupId": "Tutorial",
+      "path": "IndexTutorialTutorialcameracontrol",
+      "iconName": "PH",
+      "iconPathKey": "almanacGroupIcon",
+      "entries": {
+        "keys": [
+          "title",
+          "video",
+          "icon",
+          "info"
+        ],
+        "values": [
+          "tutorial_camera_control",
+          "tutorial_camera",
+          "null",
+          "tutorial_camera_control_info"
+        ]
+      }
+    },
+    {
+      "entryId": "tutorial_layer_control",
+      "name": "Tutoriallayercontrol",
+      "groupId": "Tutorial",
+      "path": "IndexTutorialTutoriallayercontrol",
+      "iconName": "PH",
+      "iconPathKey": "almanacGroupIcon",
+      "entries": {
+        "keys": [
+          "title",
+          "video",
+          "icon",
+          "info"
+        ],
+        "values": [
+          "tutorial_layer_control",
+          "tutorial_layer",
+          "null",
+          "tutorial_layer_control_info"
+        ]
+      }
+    },
+    {
+      "entryId": "tutorial_game_speed",
+      "name": "Tutorialgamespeed",
+      "groupId": "Tutorial",
+      "path": "IndexTutorialTutorialgamespeed",
+      "iconName": "PH",
+      "iconPathKey": "almanacGroupIcon",
+      "entries": {
+        "keys": [
+          "title",
+          "video",
+          "icon",
+          "info"
+        ],
+        "values": [
+          "tutorial_game_speed",
+          "tutorial_speed",
+          "null",
+          "tutorial_game_speed_info"
+        ]
+      }
+    },
+    {
+      "entryId": "tutorial_stockpile",
+      "name": "Tutorialstockpile",
+      "groupId": "Tutorial",
+      "path": "IndexTutorialTutorialstockpile",
+      "iconName": "PH",
+      "iconPathKey": "almanacGroupIcon",
+      "entries": {
+        "keys": [
+          "title",
+          "video",
+          "icon",
+          "info"
+        ],
+        "values": [
+          "tutorial_stockpile",
+          "tutorial_stockpile",
+          "null",
+          "tutorial_stockpile_info"
+        ]
+      }
+    },
+    {
+      "entryId": "tutorial_orders",
+      "name": "Tutorialorders",
+      "groupId": "Tutorial",
+      "path": "IndexTutorialTutorialorders",
+      "iconName": "PH",
+      "iconPathKey": "almanacGroupIcon",
+      "entries": {
+        "keys": [
+          "title",
+          "video",
+          "icon",
+          "info"
+        ],
+        "values": [
+          "tutorial_orders",
+          "tutorial_orders",
+          "null",
+          "tutorial_orders_info"
+        ]
+      }
+    },
+    {
+      "entryId": "tutorial_construction",
+      "name": "Tutorialconstruction",
+      "groupId": "Tutorial",
+      "path": "IndexTutorialTutorialconstruction",
+      "iconName": "PH",
+      "iconPathKey": "almanacGroupIcon",
+      "entries": {
+        "keys": [
+          "title",
+          "video",
+          "icon",
+          "info"
+        ],
+        "values": [
+          "tutorial_construction",
+          "tutorial_construction",
+          "null",
+          "tutorial_construction_info"
+        ]
+      }
+    },
+    {
+      "entryId": "tutorial_production",
+      "name": "Tutorialproduction",
+      "groupId": "Tutorial",
+      "path": "IndexTutorialTutorialproduction",
+      "iconName": "PH",
+      "iconPathKey": "almanacGroupIcon",
+      "entries": {
+        "keys": [
+          "title",
+          "video",
+          "icon",
+          "info"
+        ],
+        "values": [
+          "tutorial_production",
+          "tutorial_production",
+          "null",
+          "tutorial_production_info"
+        ]
+      },
+      "tags": [
+        "almanac_group_name_Food"
+      ]
+    },
+    {
+      "entryId": "tutorial_research",
+      "name": "Tutorialresearch",
+      "groupId": "Tutorial",
+      "path": "IndexTutorialTutorialresearch",
+      "iconName": "PH",
+      "iconPathKey": "almanacGroupIcon",
+      "entries": {
+        "keys": [
+          "title",
+          "video",
+          "icon",
+          "info"
+        ],
+        "values": [
+          "tutorial_research",
+          "tutorial_research",
+          "null",
+          "tutorial_research_info"
+        ]
+      }
+    },
+    {
+      "entryId": "tutorial_select",
+      "name": "Tutorialselect",
+      "groupId": "Tutorial",
+      "path": "IndexTutorialTutorialselect",
+      "iconName": "PH",
+      "iconPathKey": "almanacGroupIcon",
+      "entries": {
+        "keys": [
+          "title",
+          "video",
+          "icon",
+          "info"
+        ],
+        "values": [
+          "tutorial_select",
+          "tutorial_select",
+          "null",
+          "tutorial_select_info"
+        ]
+      }
+    },
+    {
+      "entryId": "tutorial_equipment",
+      "name": "Tutorialequipment",
+      "groupId": "Tutorial",
+      "path": "IndexTutorialTutorialequipment",
+      "iconName": "PH",
+      "iconPathKey": "almanacGroupIcon",
+      "entries": {
+        "keys": [
+          "title",
+          "video",
+          "icon",
+          "info"
+        ],
+        "values": [
+          "tutorial_equipment",
+          "tutorial_equip",
+          "null",
+          "tutorial_equipment_info"
+        ]
+      },
+      "tags": [
+        "almanac_group_name_Warfare"
+      ]
+    },
+    {
+      "entryId": "tutorial_move",
+      "name": "Tutorialmove",
+      "groupId": "Tutorial",
+      "path": "IndexTutorialTutorialmove",
+      "iconName": "PH",
+      "iconPathKey": "almanacGroupIcon",
+      "entries": {
+        "keys": [
+          "title",
+          "video",
+          "icon",
+          "info"
+        ],
+        "values": [
+          "tutorial_move",
+          "tutorial_move",
+          "null",
+          "tutorial_move_info"
+        ]
+      }
+    },
+    {
+      "entryId": "tutorial_jobs",
+      "name": "Tutorialjobs",
+      "groupId": "Tutorial",
+      "path": "IndexTutorialTutorialjobs",
+      "iconName": "PH",
+      "iconPathKey": "almanacGroupIcon",
+      "entries": {
+        "keys": [
+          "title",
+          "video",
+          "icon",
+          "info"
+        ],
+        "values": [
+          "tutorial_jobs",
+          "tutorial_jobs",
+          "null",
+          "tutorial_jobs_info"
+        ]
+      }
+    },
+    {
+      "entryId": "tutorial_schedule",
+      "name": "Tutorialschedule",
+      "groupId": "Tutorial",
+      "path": "IndexTutorialTutorialschedule",
+      "iconName": "PH",
+      "iconPathKey": "almanacGroupIcon",
+      "entries": {
+        "keys": [
+          "title",
+          "video",
+          "icon",
+          "info"
+        ],
+        "values": [
+          "tutorial_schedule",
+          "tutorial_schedule",
+          "null",
+          "tutorial_schedule_info"
+        ]
+      }
+    },
+    {
+      "entryId": "tutorial_mood",
+      "name": "Tutorialmood",
+      "groupId": "Tutorial",
+      "path": "IndexTutorialTutorialmood",
+      "iconName": "PH",
+      "iconPathKey": "almanacGroupIcon",
+      "entries": {
+        "keys": [
+          "title",
+          "video",
+          "icon",
+          "info"
+        ],
+        "values": [
+          "tutorial_mood",
+          "tutorial_mood",
+          "null",
+          "tutorial_mood_info"
+        ]
+      }
+    },
+    {
+      "entryId": "tutorial_manage",
+      "name": "Tutorialmanage",
+      "groupId": "Tutorial",
+      "path": "IndexTutorialTutorialmanage",
+      "iconName": "PH",
+      "iconPathKey": "almanacGroupIcon",
+      "entries": {
+        "keys": [
+          "title",
+          "video",
+          "icon",
+          "info"
+        ],
+        "values": [
+          "tutorial_manage",
+          "tutorial_manage",
+          "null",
+          "tutorial_manage_info"
+        ]
+      }
+    },
+    {
+      "entryId": "tutorial_defence",
+      "name": "Tutorialdefence",
+      "groupId": "Tutorial",
+      "path": "IndexTutorialTutorialdefence",
+      "iconName": "PH",
+      "iconPathKey": "almanacGroupIcon",
+      "entries": {
+        "keys": [
+          "title",
+          "video",
+          "icon",
+          "info"
+        ],
+        "values": [
+          "tutorial_defence",
+          "tutorial_defence",
+          "null",
+          "tutorial_defence_info"
+        ]
+      }
+    },
+    {
+      "entryId": "tutorial_forbid",
+      "name": "Tutorialforbid",
+      "groupId": "Tutorial",
+      "path": "IndexTutorialTutorialforbid",
+      "iconName": "PH",
+      "iconPathKey": "almanacGroupIcon",
+      "entries": {
+        "keys": [
+          "title",
+          "video",
+          "icon",
+          "info"
+        ],
+        "values": [
+          "tutorial_forbid",
+          "tutorial_forbid",
+          "null",
+          "tutorial_forbid_info"
+        ]
+      }
+    },
+    {
+      "entryId": "system_stability",
+      "name": "Systemstability",
+      "groupId": "Systems",
+      "path": "IndexSystemsSystemstability",
+      "iconName": "PH",
+      "iconPathKey": "almanacGroupIcon",
+      "entries": {
+        "keys": [
+          "title",
+          "video",
+          "icon",
+          "info"
+        ],
+        "values": [
+          "system_stability",
+          "system_stability",
+          "null",
+          "system_stability_info"
+        ]
+      },
+      "tags": [
+        "almanac_group_name_Construction",
+        "building_name_wood_floor",
+        "building_info_wood_wall_element",
+        "building_name_wood_beam"
+      ]
+    },
+    {
+      "entryId": "system_decomposition",
+      "name": "Systemdecomposition",
+      "groupId": "Systems",
+      "path": "IndexSystemsSystemdecomposition",
+      "iconName": "PH",
+      "iconPathKey": "almanacGroupIcon",
+      "entries": {
+        "keys": [
+          "title",
+          "video",
+          "icon",
+          "info"
+        ],
+        "values": [
+          "system_decomposition",
+          "system_decomposition",
+          "null",
+          "system_decomposition_info"
+        ]
+      },
+      "tags": [
+        "almanac_group_name_Food",
+        "almanac_group_name_Materials",
+        "almanac_group_name_Raw",
+        "almanac_group_name_Waste"
+      ]
+    },
+    {
+      "entryId": "system_cover",
+      "name": "Systemcover",
+      "groupId": "Systems",
+      "path": "IndexSystemsSystemcover",
+      "iconName": "PH",
+      "iconPathKey": "almanacGroupIcon",
+      "entries": {
+        "keys": [
+          "title",
+          "video",
+          "icon",
+          "info"
+        ],
+        "values": [
+          "system_cover",
+          "null",
+          "null",
+          "system_cover_info"
+        ]
+      }
+    },
+    {
+      "entryId": "system_equipment_quality",
+      "name": "Systemequipmentquality",
+      "groupId": "Systems",
+      "path": "IndexSystemsSystemequipmentquality",
+      "iconName": "PH",
+      "iconPathKey": "almanacGroupIcon",
+      "entries": {
+        "keys": [
+          "title",
+          "video",
+          "icon",
+          "info"
+        ],
+        "values": [
+          "system_equipment_quality_name",
+          "null",
+          "null",
+          "system_equipment_quality_info"
+        ]
+      }
+    },
+    {
+      "entryId": "system_temperature",
+      "name": "Systemtemperature",
+      "groupId": "Systems",
+      "path": "IndexSystemsSystemtemperature",
+      "iconName": "PH",
+      "iconPathKey": "almanacGroupIcon",
+      "entries": {
+        "keys": [
+          "title",
+          "video",
+          "icon",
+          "info"
+        ],
+        "values": [
+          "system_temperature_name",
+          "null",
+          "null",
+          "system_temperature_info"
+        ]
+      }
+    },
+    {
+      "entryId": "system_weapons",
+      "name": "Systemweapons",
+      "groupId": "Systems",
+      "path": "IndexSystemsSystemweapons",
+      "iconName": "PH",
+      "iconPathKey": "almanacGroupIcon",
+      "entries": {
+        "keys": [
+          "title",
+          "video",
+          "icon",
+          "info"
+        ],
+        "values": [
+          "system_weapon_attributes_name",
+          "null",
+          "null",
+          "system_weapon_attributes_info"
+        ]
+      }
+    },
+    {
+      "entryId": "system_armour",
+      "name": "Systemarmour",
+      "groupId": "Systems",
+      "path": "IndexSystemsSystemarmour",
+      "iconName": "PH",
+      "iconPathKey": "almanacGroupIcon",
+      "entries": {
+        "keys": [
+          "title",
+          "video",
+          "icon",
+          "info"
+        ],
+        "values": [
+          "system_armour_attributes_name",
+          "null",
+          "null",
+          "system_armour_attributes_info"
+        ]
+      }
+    },
+    {
+      "entryId": "system_clothing",
+      "name": "Systemclothing",
+      "groupId": "Systems",
+      "path": "IndexSystemsSystemclothing",
+      "iconName": "PH",
+      "iconPathKey": "almanacGroupIcon",
+      "entries": {
+        "keys": [
+          "title",
+          "video",
+          "icon",
+          "info"
+        ],
+        "values": [
+          "system_clothing_attributes_name",
+          "null",
+          "null",
+          "system_clothing_attributes_info"
+        ]
+      }
+    },
+    {
+      "entryId": "system_higher",
+      "name": "Systemhigher",
+      "groupId": "Systems",
+      "path": "IndexSystemsSystemhigher",
+      "iconName": "PH",
+      "iconPathKey": "almanacGroupIcon",
+      "entries": {
+        "keys": [
+          "title",
+          "video",
+          "icon",
+          "info"
+        ],
+        "values": [
+          "system_higher_ground_name",
+          "system_higher",
+          "null",
+          "system_higher_ground_info"
+        ]
+      }
+    },
+    {
+      "entryId": "system_room",
+      "name": "Systemroom",
+      "groupId": "Systems",
+      "path": "IndexSystemsSystemroom",
+      "iconName": "PH",
+      "iconPathKey": "almanacGroupIcon",
+      "entries": {
+        "keys": [
+          "title",
+          "video",
+          "icon",
+          "info"
+        ],
+        "values": [
+          "system_room_name",
+          "system_room",
+          "null",
+          "system_room_info"
+        ]
+      }
+    },
+    {
+      "entryId": "system_effectors",
+      "name": "Systemeffectors",
+      "groupId": "Systems",
+      "path": "IndexSystemsSystemeffectors",
+      "iconName": "PH",
+      "iconPathKey": "almanacGroupIcon",
+      "entries": {
+        "keys": [
+          "title",
+          "video",
+          "icon",
+          "info"
+        ],
+        "values": [
+          "system_effectors_name",
+          "null",
+          "null",
+          "system_effectors_info"
+        ]
+      }
+    }
+  ]
+}

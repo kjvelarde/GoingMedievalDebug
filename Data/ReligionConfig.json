@@ -1,0 +1,29 @@
+{
+    "name": "Religion",
+    "repository": [
+        {
+            "id": "pagan",
+            "from": 0,
+            "to": 50,
+            "shrines": [
+                "shrine_pagan_wood",
+                "shrine_pagan_stone"
+            ],
+            "roomTypes": ["chapel_pagan"],
+            "believerEffector": ["InPaganChapelMoodPlus"],
+            "nonBelieverEffector": ["InChapelMoodMinus"]
+        },
+        {
+            "id": "christan",
+            "from": 50,
+            "to": 100,
+            "shrines": [
+                "shrine_christian_wood",
+                "shrine_christian_stone"
+            ],
+            "roomTypes": ["chapel_christian"],
+            "believerEffector": ["InChapelMoodPlus"],
+            "nonBelieverEffector": ["InPaganChapelMoodMinus"]
+        }
+    ]
+}

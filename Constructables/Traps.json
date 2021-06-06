@@ -1,0 +1,309 @@
+{
+  "repository": [
+    {
+      "id": "stick_trap",
+      "buildTime": 10,
+      "size": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "buildingCategoryUI": 6,
+      "buildingSubCategoryUI": 31,
+      "soundMaterialCategory": 1,
+      "buildingType": 262144,
+      "constructableBaseCategory": 9,
+      "placementType": 0,
+      "materials": {
+        "keys": [
+          "sticks"
+        ],
+        "values": [
+          20
+        ]
+      },
+      "storageBase": {
+        "capacity": 999,
+        "storableResources": [
+          "sticks"
+        ]
+      },
+      "reachableLevel": 2,
+      "cornerReachable": false,
+      "maxPoolCount": 20,
+      "refillThreshold": 10,
+      "placeableBellowOthers": false,
+      "transfersStability": false,
+      "layerShadowOffset": -1.5,
+      "layerHideOffset": -1,
+      "attackTraversePenalty": 0,
+      "stats": [
+        {
+          "debugName": "Hitpoints",
+          "type": 1,
+          "initialValue": 20,
+          "attributes": {
+            "max": [
+              {
+                "baseValue": 20
+              }
+            ]
+          }
+        }
+      ],
+      "wealthPoints": 25,
+      "destroyParticles": "destroy_building",
+      "setupTime": 3,
+      "ignoresArmor": 0.3,
+      "armorDamage": 0.6,
+      "damage": 10,
+      "chanceToHurt": 0.5,
+      "criticalChance": 0.15,
+      "affectsWorker": false,
+      "affectsEnemy": true,
+      "affectsAnimal": true,
+      "onHitEffectors": [
+        {
+          "threshold": 0.2,
+          "effector": "pierced_leg_muscle"
+        },
+        {
+          "threshold": 0.2,
+          "effector": "pierced_arm_muscle"
+        },
+        {
+          "threshold": 0.4,
+          "effector": "pierced_side"
+        },
+        {
+          "threshold": 0.4,
+          "effector": "pierced_chest"
+        },
+        {
+          "threshold": 0.4,
+          "effector": "pierced_gut"
+        }
+      ],
+      "onCriticalHitEffectors": [
+        {
+          "threshold": 0.3,
+          "effector": "pierced_cheek"
+        },
+        {
+          "threshold": 0.7,
+          "effector": "cut_artery"
+        }
+      ]
+    },
+    {
+      "id": "wood_trap",
+      "buildTime": 15,
+      "size": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "buildingCategoryUI": 6,
+      "buildingSubCategoryUI": 32,
+      "soundMaterialCategory": 1,
+      "buildingType": 262144,
+      "constructableBaseCategory": 9,
+      "placementType": 0,
+      "materials": {
+        "keys": [
+          "wood",
+          "mechanical_parts"
+        ],
+        "values": [
+          15,
+          1
+        ]
+      },
+      "storageBase": {
+        "capacity": 999,
+        "storableResources": [
+          "wood",
+          "mechanical_parts"
+        ]
+      },
+      "reachableLevel": 2,
+      "cornerReachable": false,
+      "maxPoolCount": 20,
+      "refillThreshold": 10,
+      "placeableBellowOthers": false,
+      "transfersStability": false,
+      "layerShadowOffset": -1.5,
+      "layerHideOffset": -1,
+      "attackTraversePenalty": 0,
+      "stats": [
+        {
+          "debugName": "Hitpoints",
+          "type": 1,
+          "initialValue": 40,
+          "attributes": {
+            "max": [
+              {
+                "baseValue": 40
+              }
+            ]
+          }
+        }
+      ],
+      "wealthPoints": 38,
+      "minBuildSkillRequired": 5,
+      "destroyParticles": "destroy_building",
+      "setupTime": 5,
+      "ignoresArmor": 0.5,
+      "armorDamage": 0.7,
+      "damage": 15,
+      "chanceToHurt": 0.8,
+      "criticalChance": 0.2,
+      "affectsWorker": false,
+      "affectsEnemy": true,
+      "affectsAnimal": true,
+      "onSuccessfulHitEffector": [
+        {
+          "threshold": 1,
+          "effector": "OnTrapStopShort"
+        }
+      ],
+      "onHitEffectors": [
+        {
+          "threshold": 0.2,
+          "effector": "pierced_leg_muscle"
+        },
+        {
+          "threshold": 0.2,
+          "effector": "pierced_arm_muscle"
+        },
+        {
+          "threshold": 0.4,
+          "effector": "pierced_side"
+        },
+        {
+          "threshold": 0.4,
+          "effector": "pierced_chest"
+        },
+        {
+          "threshold": 0.4,
+          "effector": "pierced_gut"
+        }
+      ],
+      "onCriticalHitEffectors": [
+        {
+          "threshold": 0.3,
+          "effector": "pierced_cheek"
+        },
+        {
+          "threshold": 0.7,
+          "effector": "cut_artery"
+        }
+      ]
+    },
+    {
+      "id": "metal_trap",
+      "buildTime": 20,
+      "size": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "buildingCategoryUI": 6,
+      "buildingSubCategoryUI": 33,
+      "soundMaterialCategory": 4,
+      "buildingType": 262144,
+      "constructableBaseCategory": 9,
+      "placementType": 0,
+      "materials": {
+        "keys": [
+          "iron_ingot",
+          "mechanical_parts"
+        ],
+        "values": [
+          15,
+          1
+        ]
+      },
+      "storageBase": {
+        "capacity": 999,
+        "storableResources": [
+          "iron_ingot",
+          "mechanical_parts"
+        ]
+      },
+      "reachableLevel": 2,
+      "cornerReachable": false,
+      "maxPoolCount": 20,
+      "refillThreshold": 10,
+      "placeableBellowOthers": false,
+      "transfersStability": false,
+      "layerShadowOffset": -1.5,
+      "layerHideOffset": -1,
+      "attackTraversePenalty": 0,
+      "stats": [
+        {
+          "debugName": "Hitpoints",
+          "type": 1,
+          "initialValue": 65,
+          "attributes": {
+            "max": [
+              {
+                "baseValue": 65
+              }
+            ]
+          }
+        }
+      ],
+      "wealthPoints": 70,
+      "minBuildSkillRequired": 10,
+      "destroyParticles": "destroy_building",
+      "setupTime": 9,
+      "ignoresArmor": 0.5,
+      "armorDamage": 0.7,
+      "damage": 18,
+      "chanceToHurt": 0.95,
+      "criticalChance": 0.2,
+      "affectsWorker": false,
+      "affectsEnemy": true,
+      "affectsAnimal": true,
+      "onSuccessfulHitEffector": [
+        {
+          "threshold": 1,
+          "effector": "OnTrapStop"
+        }
+      ],
+      "onHitEffectors": [
+        {
+          "threshold": 0.2,
+          "effector": "pierced_leg_muscle"
+        },
+        {
+          "threshold": 0.2,
+          "effector": "pierced_arm_muscle"
+        },
+        {
+          "threshold": 0.4,
+          "effector": "pierced_side"
+        },
+        {
+          "threshold": 0.4,
+          "effector": "pierced_chest"
+        },
+        {
+          "threshold": 0.4,
+          "effector": "pierced_gut"
+        }
+      ],
+      "onCriticalHitEffectors": [
+        {
+          "threshold": 0.3,
+          "effector": "pierced_cheek"
+        },
+        {
+          "threshold": 0.7,
+          "effector": "cut_artery"
+        }
+      ]
+    }
+  ]
+}
